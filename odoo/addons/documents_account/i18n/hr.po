@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-06 18:48+0000\n"
-"PO-Revision-Date: 2026-04-29 19:34+0000\n"
+"PO-Revision-Date: 2026-03-07 11:09+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "documents_account/hr/>\n"
@@ -25,19 +25,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #. module: documents_account
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid "<b>Deselect this page</b> as we plan to process all bills first."
-msgstr "<b>Odznačite ovu stranicu</b> jer planiramo prvo obraditi sve račune."
+msgstr ""
 
 #. module: documents_account
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid "<b>Select</b> this page to continue."
-msgstr "<b>Odaberite</b> ovu stranicu za nastavak."
+msgstr ""
 
 #. module: documents_account
 #: model_terms:ir.ui.view,arch_db:documents_account.account_move_view_form
@@ -83,7 +83,6 @@ msgstr "Sve"
 msgid ""
 "As this PDF contains multiple documents, let's split and process in bulk."
 msgstr ""
-"Budući da ovaj PDF sadrži više dokumenata, podijelimo i obradimo ih skupno."
 
 #. module: documents_account
 #: model:ir.model,name:documents_account.model_ir_attachment
@@ -104,13 +103,13 @@ msgstr "Provjeri"
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid "Click on a card to <b>select the document</b>."
-msgstr "Kliknite na karticu za <b>odabir dokumenta</b>."
+msgstr ""
 
 #. module: documents_account
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid "Click on a thumbnail to <b>preview the document</b>."
-msgstr "Kliknite na sličicu za <b>pregled dokumenta</b>."
+msgstr ""
 
 #. module: documents_account
 #. odoo-javascript
@@ -119,20 +118,18 @@ msgid ""
 "Click on the <b>page separator</b>: we don't want to split these two pages "
 "as they belong to the same document."
 msgstr ""
-"Kliknite na <b>razdjelnik stranica</b>: ne želimo razdvojiti ove dvije "
-"stranice jer pripadaju istom dokumentu."
 
 #. module: documents_account
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid "Click the cross to <b>exit preview</b>."
-msgstr "Kliknite na križić za <b>izlaz iz pregleda</b>."
+msgstr ""
 
 #. module: documents_account
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid "Close (Esc)"
-msgstr "Zatvori (Esc)"
+msgstr ""
 
 #. module: documents_account
 #: model:ir.model,name:documents_account.model_res_company
@@ -159,7 +156,7 @@ msgstr "Kopiraj u Dokumenti"
 #: model:ir.actions.server,name:documents_account.ir_actions_server_create_credit_note
 #: model:ir.actions.server,name:documents_account.ir_actions_server_create_credit_note_code
 msgid "Create Customer Credit Note"
-msgstr "Kreiraj odobrenje kupcu"
+msgstr ""
 
 #. module: documents_account
 #: model:ir.actions.server,name:documents_account.ir_actions_server_create_customer_invoice
@@ -173,7 +170,7 @@ msgstr "Kreiraj izlazni račun"
 #: model:ir.actions.server,name:documents_account.ir_actions_server_create_misc_entry
 #: model:ir.actions.server,name:documents_account.ir_actions_server_create_misc_entry_code
 msgid "Create Misc Entry"
-msgstr "Kreiraj ostalu stavku"
+msgstr ""
 
 #. module: documents_account
 #. odoo-javascript
@@ -181,12 +178,12 @@ msgstr "Kreiraj ostalu stavku"
 #: model:ir.actions.server,name:documents_account.ir_actions_server_create_vendor_bill
 #: model:ir.actions.server,name:documents_account.ir_actions_server_create_vendor_bill_code
 msgid "Create Vendor Bill"
-msgstr "Kreiraj ulazni račun dobavljača"
+msgstr ""
 
 #. module: documents_account
 #: model:ir.actions.server,name:documents_account.ir_actions_server_create_vendor_receipt
 msgid "Create Vendor Receipt"
-msgstr "Kreiraj primku dobavljača"
+msgstr ""
 
 #. module: documents_account
 #: model:ir.actions.server,name:documents_account.ir_actions_server_create_vendor_refund
@@ -198,7 +195,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid "Create a new document for the remaining page, it will be handled later."
-msgstr "Kreiraj novi dokument za preostalu stranicu, obradit će se kasnije."
+msgstr ""
 
 #. module: documents_account
 #: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__create_uid
@@ -246,12 +243,12 @@ msgstr "Izvoz"
 #. module: documents_account
 #: model:ir.model,name:documents_account.model_account_reports_export_wizard_format
 msgid "Export format for accounting's reports"
-msgstr "Format izvoza za računovodstvena izvješća"
+msgstr ""
 
 #. module: documents_account
 #: model:ir.model,name:documents_account.model_account_reports_export_wizard
 msgid "Export wizard for accounting's reports"
-msgstr "Čarobnjak za izvoz računovodstvenih izvještaja"
+msgstr ""
 
 #. module: documents_account
 #. odoo-javascript
@@ -272,13 +269,13 @@ msgstr "Mapa"
 #. module: documents_account
 #: model:ir.model.fields,help:documents_account.field_account_reports_export_wizard__folder_id
 msgid "Folder where to save the generated file"
-msgstr "Mapa za spremanje generirane datoteke"
+msgstr ""
 
 #. module: documents_account
 #. odoo-python
 #: code:addons/documents_account/models/account_journal.py:0
 msgid "Generated Bank Statements"
-msgstr "Generirani bankovni izvaci"
+msgstr ""
 
 #. module: documents_account
 #. odoo-python
@@ -290,7 +287,7 @@ msgstr "Generirani dokumenti"
 #: model:ir.model.fields,field_description:documents_account.field_account_bank_statement_line__has_documents
 #: model:ir.model.fields,field_description:documents_account.field_account_move__has_documents
 msgid "Has Documents"
-msgstr "Ima dokumente"
+msgstr ""
 
 #. module: documents_account
 #: model:ir.model.fields,field_description:documents_account.field_documents_document__has_embedded_pdf
@@ -332,7 +329,7 @@ msgstr "Dnevnici"
 #. module: documents_account
 #: model:ir.actions.act_window,name:documents_account.action_folder_settings_installer
 msgid "Journals to synchronize"
-msgstr "Dnevnici za sinkronizaciju"
+msgstr ""
 
 #. module: documents_account
 #: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__write_uid
@@ -351,20 +348,18 @@ msgid ""
 "Let's process documents in this folder.<br/> <i>Tip: Use Tags to filter "
 "documents and structure your process.</i>"
 msgstr ""
-"Obradimo dokumente u ovoj mapi.<br/> <i>Savjet: koristite oznake za "
-"filtriranje dokumenata i strukturiranje procesa.</i>"
 
 #. module: documents_account
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid "Let's process these bills: turn them into vendor bills."
-msgstr "Obradimo ove račune: pretvorimo ih u ulazne račune dobavljača."
+msgstr ""
 
 #. module: documents_account
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid "Let's process this document now."
-msgstr "Obradimo ovaj dokument sada."
+msgstr ""
 
 #. module: documents_account
 #. odoo-javascript
@@ -373,14 +368,12 @@ msgid ""
 "Let's tag this mail as Finance<br/> <i>Tips: actions can be tailored to your "
 "process, according to the folder.</i>"
 msgstr ""
-"Označimo ovu e-poštu kao Financije<br/> <i>Savjeti: radnje se mogu "
-"prilagoditi vašem procesu, ovisno o mapi.</i>"
 
 #. module: documents_account
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid "Open the actions menu"
-msgstr "Otvori izbornik radnji"
+msgstr ""
 
 #. module: documents_account
 #: model:ir.model.fields,field_description:documents_account.field_account_bank_statement_line__suspense_statement_line_id
@@ -392,7 +385,7 @@ msgstr "Zatraži dokument sa stavke bankovnog izvoda"
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid "Send To Finance"
-msgstr "Pošalji u financije"
+msgstr ""
 
 #. module: documents_account
 #. odoo-javascript
@@ -414,13 +407,13 @@ msgstr "Porezni izvještaj"
 #. module: documents_account
 #: model_terms:ir.ui.view,arch_db:documents_account.view_account_move_form_inherit_documents_account
 msgid "This invoice has been initiated by a bank transaction."
-msgstr "Ovaj račun je pokrenut bankovnom transakcijom."
+msgstr ""
 
 #. module: documents_account
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid "This should be processed as a misc entry."
-msgstr "Ovo treba obraditi kao ostalu stavku."
+msgstr ""
 
 #. module: documents_account
 #. odoo-python
@@ -432,20 +425,20 @@ msgstr "Ulazni računi"
 #. odoo-python
 #: code:addons/documents_account/models/documents_document.py:0
 msgid "Vendor Receipts"
-msgstr "Primke dobavljača"
+msgstr ""
 
 #. module: documents_account
 #. odoo-python
 #: code:addons/documents_account/models/documents_document.py:0
 msgid "Vendor Refunds"
-msgstr "Povrati dobavljačima"
+msgstr ""
 
 #. module: documents_account
 #. odoo-javascript
 #: code:addons/documents_account/static/src/js/tour.js:0
 msgid ""
 "Want to become a <b>paperless company</b>? Let's discover Odoo Documents."
-msgstr "Želite postati <b>tvrtka bez papira</b>? Otkrijmo Odoo Dokumente."
+msgstr ""
 
 #. module: documents_account
 #: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__folder_id
@@ -459,14 +452,12 @@ msgid ""
 "Wow... 6 documents processed in a few seconds, You're good.<br>The tour is "
 "complete. Try uploading your own documents now."
 msgstr ""
-"Vau... 6 dokumenata obrađeno u nekoliko sekundi. Odlično vam ide.<br>"
-"Obilazak je dovršen. Pokušajte sada učitati vlastite dokumente."
 
 #. module: documents_account
 #. odoo-python
 #: code:addons/documents_account/models/documents_document.py:0
 msgid "You can not create account move on folder."
-msgstr "Ne možete kreirati temeljnicu na mapi."
+msgstr ""
 
 #. module: documents_account
 #: model:ir.model.fields,field_description:documents_account.field_res_config_settings__account_folder_id
@@ -476,7 +467,7 @@ msgstr "zadana mapa knjigovodstva"
 #. module: documents_account
 #: model_terms:ir.ui.view,arch_db:documents_account.view_account_move_form_inherit_documents_account
 msgid "to mark this invoice as paid."
-msgstr "za označavanje ovog računa kao plaćenog."
+msgstr ""
 
 #~ msgid "Invoices"
 #~ msgstr "Računi"

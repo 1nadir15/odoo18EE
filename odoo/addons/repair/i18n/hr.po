@@ -16,14 +16,13 @@
 # Luka Carević <luka@uvid.hr>, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 # Ana Matulin <ana@uvid.hr>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
-"PO-Revision-Date: 2026-05-09 09:09+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2025-12-10 15:06+0000\n"
+"Last-Translator: Ana Matulin <ana@uvid.hr>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/repair/"
 "hr/>\n"
 "Language: hr\n"
@@ -32,7 +31,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: repair
 #. odoo-python
@@ -417,7 +416,7 @@ msgstr "Kupac"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__search_date_category
 msgid "Date Category"
-msgstr "Kategorija datuma"
+msgstr ""
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -466,7 +465,7 @@ msgstr "Osigurava sljedivost uskladištivog proizvoda u vašem skladištu."
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "Exp %s"
-msgstr "Exp %s"
+msgstr ""
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__parts_availability_state__expected
@@ -1318,18 +1317,18 @@ msgstr "Oznake"
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__reserve_visible
 msgid "Technical field to check when we can reserve quantities"
-msgstr "Tehničko polje za provjeru kada možemo rezervirati količine"
+msgstr ""
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__unreserve_visible
 msgid "Technical field to check when we can unreserve"
-msgstr "Tehničko polje za provjeru kada možemo otkazati rezervaciju"
+msgstr ""
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__search_date_category__day_2
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "The day after tomorrow"
-msgstr "Prekosutra"
+msgstr ""
 
 #. module: repair
 #. odoo-python

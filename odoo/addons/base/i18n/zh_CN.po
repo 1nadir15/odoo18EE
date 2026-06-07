@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-16 16:38+0000\n"
-"PO-Revision-Date: 2026-04-24 07:54+0000\n"
+"PO-Revision-Date: 2026-02-25 12:35+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-18/base/zh_Hans/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_at_reports
@@ -15041,7 +15041,7 @@ msgstr "5. %H:%M:%S      ==>18:25:20"
 msgid ""
 "5th and 6th Set Financial Reports. Inventory and Balance 3.1-3.7, 3.11-3.18, "
 "3.20,3.24 and 3.25"
-msgstr "第5、6套财务报告。库存与资产负债表 3.1-3.7、3.11-3.18、3.20、3.24 和 3.25"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_lang_form
@@ -16394,8 +16394,6 @@ msgid ""
 "productive,\n"
 "                responsive and profitable."
 msgstr ""
-"Acme 公司设计、开发、集成并支持人力资源与供应链\n"
-"                流程，以尽可能提高员工运营效率。"
 
 #. module: base
 #: model:res.partner,website_short_description:base.res_partner_2
@@ -16405,8 +16403,6 @@ msgid ""
 "Chain processes in order to make our customers more productive, responsive "
 "and profitable."
 msgstr ""
-"Acme 公司设计、开发、集成并支持人力资源与供应链流程，以尽可能提高员工运营效率"
-"。"
 
 #. module: base
 #: model_terms:res.partner,website_description:base.res_partner_2
@@ -16416,9 +16412,6 @@ msgid ""
 "                with Open Sources software to manage their businesses. Our\n"
 "                consultants are experts in the following areas:"
 msgstr ""
-"Acme Corporation 为全球企业提供 ERP 系统集成服务，并利用开源软件支持中小企业"
-"（PME）进行业务管理。\n"
-"我们的顾问是以下领域的专家："
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window_view__act_window_id
@@ -16625,7 +16618,7 @@ msgstr "在讨论中添加 OdooBot"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_add_gln
 msgid "Add Partner GLN"
-msgstr "添加业务伙伴全球位置码 (GLN)"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_sms
@@ -16642,7 +16635,7 @@ msgstr "在成本分析报表和生产分析中添加外包信息"
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_es_edi_verifactu_pos
 msgid "Add Veri*Factu support to Point of Sale"
-msgstr "为销售点添加 Veri*Factu 支持"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
@@ -16793,7 +16786,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_account_withholding_tax_pos
 msgid "Add support for the withholding tax module in the PoS."
-msgstr "在销售点添加预扣税模块支持。"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_stock_barcode_picking_batch
@@ -16823,7 +16816,7 @@ msgstr "添加"
 #. module: base
 #: model:res.partner,website_short_description:base.res_partner_address_31
 msgid "Addison Olson is a mighty sales representative at Acme Corporation."
-msgstr "Addison Olson 是 Acme 公司出色的销售代表。"
+msgstr ""
 
 #. module: base
 #: model_terms:res.partner,website_description:base.res_partner_address_31
@@ -17186,7 +17179,7 @@ msgstr "管理分包订单到岸成本的高级视图"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_odoo_experts
 msgid "Advisor, Corporate, Service, Business, Finance, IT"
-msgstr "顾问、企业、服务、商业、金融、IT"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_module_module__license__agpl-3
@@ -17638,7 +17631,7 @@ msgstr "允许在条码视图中使用质量检查"
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_tr_nilvera_edispatch
 msgid "Allows the users to create the UBL 1.2.1 e-Dispatch file"
-msgstr "允许用户创建 UBL 1.2.1 电子发货单文件"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_map
@@ -17662,7 +17655,7 @@ msgstr "允许在课程上链接一个论坛"
 msgid ""
 "Allows to register withholding taxes during the payment of an invoice or "
 "bill."
-msgstr "允许在支付发票或账单时登记预扣税。"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ar_withholding
@@ -18599,8 +18592,6 @@ msgid ""
 "An error occurred while evaluating the domain:\n"
 "%(error)s"
 msgstr ""
-"评估条件域时出错：\n"
-"%(error)s"
 
 #. module: base
 #. odoo-python
@@ -18651,12 +18642,12 @@ msgstr "安道尔"
 #. module: base
 #: model:ir.module.module,description:base.module_theme_anelusia
 msgid "Anelusia Fashion Theme"
-msgstr "Anelusia 时尚主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_anelusia
 msgid "Anelusia Theme"
-msgstr "Anelusia 主题"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.ao
@@ -18787,7 +18778,7 @@ msgstr "预约谷歌日历"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_appointment_google_reserve
 msgid "Appointment Google Reserve"
-msgstr "预约 Google 预订"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_appointment_crm
@@ -18904,7 +18895,7 @@ msgstr "Arch To Compare To"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_enark
 msgid "Architect, Corporate, Business, Finance, Services"
-msgstr "建筑、企业、商业、金融、服务"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_view_form
@@ -19017,17 +19008,17 @@ msgstr "亚美尼亚"
 #: model:ir.module.module,summary:base.module_theme_artists
 msgid ""
 "Artist, Arts, Galleries, Creative, Paintings, Photography, Shows, Stores"
-msgstr "艺术家、艺术、画廊、创意、绘画、摄影、演出、商店"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_artists
 msgid "Artists Theme"
-msgstr "艺术家主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_artists
 msgid "Artists Theme - Art Galleries, Photography, Painting"
-msgstr "艺术家主题 - 美术馆、摄影、绘画"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_art_craft
@@ -19922,12 +19913,12 @@ msgstr "可供用户使用"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_avantgarde
 msgid "Avantgarde Theme"
-msgstr "先锋主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_avantgarde
 msgid "Avantgarde is a sophisticated theme to inspire and impress"
-msgstr "先锋是一款精致的主题，旨在激发灵感并留下深刻印象"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_avatar_mixin__avatar_1920
@@ -19983,7 +19974,7 @@ msgstr "阿瓦塔斯巴西"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_br_edi_fiscal_reform
 msgid "Avatax Brazil Fiscal Reform"
-msgstr "Avatax 巴西财税改革"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_br_avatax_sale
@@ -19993,12 +19984,12 @@ msgstr "Avatax Brazil Sale"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_br_edi_sale_fiscal_reform
 msgid "Avatax Brazil Sale Fiscal Reform"
-msgstr "Avatax 巴西销售财税改革"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_br_website_sale_fiscal_reform
 msgid "Avatax Brazil eCommerce Fiscal Reform"
-msgstr "Avatax 巴西电商财税改革"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_avatax_stock
@@ -20018,12 +20009,12 @@ msgstr "Avatax 用于地理定位"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_aviato
 msgid "Aviato Theme"
-msgstr "Aviato 主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_aviato
 msgid "Aviato Theme - Responsive Bootstrap Theme for Odoo CMS"
-msgstr "Aviato 主题 - Odoo CMS 响应式 Bootstrap 主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_documents_fsm
@@ -20107,7 +20098,7 @@ msgstr "B9  23  33 x 62 毫米"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_se_bban
 msgid "BBAN Plusgiro Bankgiro"
-msgstr "BBAN Plusgiro 银行转账"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company__layout_background_image
@@ -20168,7 +20159,7 @@ msgstr "禁止"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_notes
 msgid "Band, Musics, Sound, Concerts, Artists, Records, Event, Food, Stores"
-msgstr "乐队、音乐、声音、演唱会、艺术家、唱片、活动、餐饮、商店"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.bd
@@ -20445,7 +20436,7 @@ msgstr "批量调拨，载体"
 #: model:ir.module.module,description:base.module_theme_bewise
 #: model:ir.module.module,shortdesc:base.module_theme_bewise
 msgid "Be Wise Theme"
-msgstr "智慧主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ar_website_sale
@@ -20475,17 +20466,17 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_beauty
 msgid "Beauty Theme"
-msgstr "美妆主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_beauty
 msgid "Beauty Theme - Cosmetics, Beauty, Make Up, Hairdresser"
-msgstr "美妆主题 - 化妆品、美容、彩妆、美发"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_beauty
 msgid "Beauty, Health, Care, Make Up, Cosmetics, Hair Dressers, Stores"
-msgstr "美容、健康、护理、彩妆、化妆品、美发、商店"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_asset__directive__before
@@ -20736,17 +20727,17 @@ msgstr "比尔"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_bistro
 msgid "Bistro Theme"
-msgstr "小酒馆主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_bistro
 msgid "Bistro Theme - Restaurant, Food/Drink, Catering, Food trucks"
-msgstr "小酒馆主题 - 餐厅、餐饮、外卖、餐车"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_bistro
 msgid "Bistro, Restaurant, Bar, Pub, Cafe, Food, Catering"
-msgstr "小酒馆、餐厅、酒吧、酒馆、咖啡馆、餐饮、外卖"
+msgstr ""
 
 #. module: base
 #. odoo-python
@@ -20801,7 +20792,7 @@ msgstr "博内尔岛，圣尤斯特歇斯和萨巴"
 #. module: base
 #: model:ir.module.module,description:base.module_theme_bookstore
 msgid "Books, Magazines, Music"
-msgstr "图书、杂志、音乐"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_bookstore
@@ -20811,7 +20802,7 @@ msgstr "书店"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_bookstore
 msgid "Bookstore Theme"
-msgstr "书店主题"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__update_boolean_value
@@ -20852,7 +20843,7 @@ msgstr "布维岛"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_bowling
 msgid "Bowling Alley"
-msgstr "保龄球馆"
+msgstr ""
 
 #. module: base
 #. odoo-python
@@ -21207,12 +21198,12 @@ msgstr "Butut"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_buzzy
 msgid "Buzzy Theme"
-msgstr "Buzzy 主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_buzzy
 msgid "Buzzy Theme - Responsive Bootstrap Theme for Odoo CMS"
-msgstr "Buzzy 主题 - Odoo CMS 响应式 Bootstrap 主题"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.module_form
@@ -21358,12 +21349,12 @@ msgstr "柬埔寨"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_kh
 msgid "Cambodia - Accounting"
-msgstr "柬埔寨 - 财务"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_kh_reports
 msgid "Cambodia - Accounting Reports"
-msgstr "柬埔寨 - 财务报告"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.cm
@@ -21924,7 +21915,7 @@ msgstr "中国 - 会计"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_cn_reports
 msgid "China - Accounting Reports"
-msgstr "中国 - 财务报告"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_cn_city
@@ -21993,13 +21984,13 @@ msgstr "城市"
 #: model:ir.module.module,description:base.module_theme_clean
 #: model:ir.module.module,shortdesc:base.module_theme_clean
 msgid "Clean Theme"
-msgstr "简洁主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_cobalt
 #: model:ir.module.module,description:base.module_theme_paptic
 msgid "Clean and sharp design."
-msgstr "简洁锐利的设计。"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_cleaning_services
@@ -22070,7 +22061,7 @@ msgstr "云端储存 谷歌"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_cloud_storage_migration
 msgid "Cloud Storage Migration"
-msgstr "云存储迁移"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_cf_turnstile
@@ -22080,7 +22071,7 @@ msgstr "Cloudflare Turnstile"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_cobalt
 msgid "Cobalt Theme"
-msgstr "钴蓝主题"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.cc
@@ -22095,7 +22086,7 @@ msgstr "CodaBox"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_codaclean
 msgid "Codaclean"
-msgstr "Codaclean"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_import_language
@@ -22577,12 +22568,12 @@ msgstr "连接网站客户端到并行硬件"
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be_codaclean
 msgid "Connect to Codaclean and automatically import CODA statements."
-msgstr "连接 Codaclean 并自动导入 CODA 对账单。"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_gr_edi
 msgid "Connect to myDATA API implementation for Greece"
-msgstr "连接希腊 myDATA API"
+msgstr ""
 
 #. module: base
 #. odoo-python
@@ -22624,7 +22615,7 @@ msgstr "连接测试成功！"
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_my_edi_pos
 msgid "Consolidated E-invoicing using MyInvois"
-msgstr "使用 MyInvois 进行合并电子开票"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_constraint__name
@@ -22683,7 +22674,7 @@ msgstr "施工"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_paptic
 msgid "Consultancy, Design, Tech, Computers, IT, Blogs"
-msgstr "咨询、设计、科技、电脑、IT、博客"
+msgstr ""
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_8
@@ -22862,7 +22853,7 @@ msgstr "公司礼物"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_buzzy
 msgid "Corporate, Services, Technology, Shapes, Illustrations"
-msgstr "企业、服务、科技、形状、插图"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.cr
@@ -22898,8 +22889,6 @@ msgid ""
 "have a 'company_id' or 'company_ids' field, and isn't company-dependent "
 "either."
 msgstr ""
-"无法为字段 %s 生成公司相关域条件。该模型没有 'company_id' 或 'company_ids' 字"
-"段。"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model__count
@@ -23111,7 +23100,7 @@ msgstr "在您的通讯录中新建供应商"
 #. module: base
 #: model:ir.module.module,summary:base.module_test_themes
 msgid "Create a new website for each Odoo theme for an easy preview."
-msgstr "为每个 Odoo 主题创建新网站，便于预览。"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.res_partner_industry_action
@@ -23423,7 +23412,7 @@ msgstr "克罗地亚-会计报告"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_hr_edi
 msgid "Croatia - e-invoicing"
-msgstr "克罗地亚 - 电子开票"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_cron_progress__cron_id
@@ -23610,7 +23599,7 @@ msgstr "自定快捷方式"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_test_custo
 msgid "Custom Theme (Testing suite)"
-msgstr "自定义主题（测试套件）"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__selection_value
@@ -23746,7 +23735,7 @@ msgstr "DIN 5008"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_din5008_expense
 msgid "DIN 5008 - Expenses"
-msgstr "DIN 5008 - 费用"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_din5008_industry_fsm
@@ -24077,7 +24066,7 @@ msgstr "删除"
 msgid ""
 "Deleting the public user is not allowed. Deleting this profile will "
 "compromise critical functionalities."
-msgstr "不允许删除公共用户。删除此用户档案将影响关键功能。"
+msgstr ""
 
 #. module: base
 #. odoo-python
@@ -24211,7 +24200,7 @@ msgstr "Denmark - SAF-T Import"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_dk_nemhandel
 msgid "Denmark EDI - Nemhandel"
-msgstr "丹麦电子数据交换 - Nemhandel"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_dk_rsu
@@ -24267,7 +24256,7 @@ msgstr "设计美观的邮件"
 msgid ""
 "Design, Fine Art, Artwork, Creative, Creativity, Galleries, Trends, Shows, "
 "Magazines, Blogs"
-msgstr "设计、纯艺术、艺术品、创意、创造力、画廊、潮流、演出、杂志、博客"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mass_mailing_sms
@@ -24324,7 +24313,7 @@ msgstr "指定客户/公司名称的位置，放在地址之前还是之后。"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_cobalt
 msgid "Development, IT development, Design, Tech, Computers, IT, Blogs"
-msgstr "开发、IT 开发、设计、科技、电脑、IT、博客"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_res_device_log
@@ -24359,7 +24348,7 @@ msgstr "数字格式化"
 msgid ""
 "Digital, Marketing, Copywriting, Media, Events, Non Profit, NGO, Corporate, "
 "Business, Services"
-msgstr "数字、营销、文案、媒体、活动、非营利、NGO、企业、商业、服务"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_account_extract
@@ -24665,7 +24654,7 @@ msgstr "显示字段"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_anelusia
 msgid "Diversity, Fashions, Trends, Clothes, Shoes, Sports, Fitness, Stores"
-msgstr "多样性、时尚、潮流、服装、鞋类、运动、健身、商店"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.dj
@@ -24892,7 +24881,7 @@ msgstr "多米尼加共和国 - 会计报告"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_do_check_printing
 msgid "Dominican Republic - Checks Layout"
-msgstr "多明尼加共和国 - 支票版式"
+msgstr ""
 
 #. module: base
 #. odoo-python
@@ -24920,7 +24909,7 @@ msgstr "越南盾"
 #. module: base
 #: model:res.partner,website_short_description:base.res_partner_address_3
 msgid "Douglas Fletcher is a mighty functional consultant at Acme Corporation"
-msgstr "Douglas Fletcher 是 Acme 公司出色的功能顾问"
+msgstr ""
 
 #. module: base
 #: model_terms:res.partner,website_description:base.res_partner_address_3
@@ -25037,7 +25026,7 @@ msgstr "电子发票、 Offentlig Information 在线通用商业语言"
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_tw_edi_ecpay
 msgid "E-invoicing using ECpay"
-msgstr "使用 ECpay 电子开票"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_my_edi
@@ -25057,7 +25046,7 @@ msgstr "EC 销售（ICP）用于荷兰本地化的 SBR"
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_tw_edi_ecpay_website_sale
 msgid "ECpay E-invoice bridge module for Ecommerce"
-msgstr "ECpay 电子发票电商桥接模块"
+msgstr ""
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_accounting_localizations_edi
@@ -25444,7 +25433,7 @@ msgstr "%s内的依赖项空白"
 #. module: base
 #: model:ir.module.module,description:base.module_appointment_google_reserve
 msgid "Enable a link between your appointment type and the google API"
-msgstr "启用预约类型与 Google API 的关联"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_appointment_sale
@@ -25512,7 +25501,7 @@ msgstr "使 VoIP 与 OnSIP 兼容。"
 #: model:ir.module.module,description:base.module_theme_enark
 #: model:ir.module.module,shortdesc:base.module_theme_enark
 msgid "Enark Theme"
-msgstr "Enark 主题"
+msgstr ""
 
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_D
@@ -25526,8 +25515,6 @@ msgid ""
 "(e-Remitos) for Uruguay. This module integrates with the EDI system to "
 "generate e-Remitos according to Uruguayan fiscal requirements."
 msgstr ""
-"通过符合乌拉圭法规的电子发货指南（e-Remitos）来提升拣货操作效率。该模块与EDI"
-"系统集成，能够根据乌拉圭的税务要求生成电子发货指南（e-Remitos）。"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_iap_enrich
@@ -25544,7 +25531,7 @@ msgstr "通过预约收集到的网站访问者信息，自动开发线索"
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_eu_iot_scale_cert
 msgid "Ensure scale measurements conform to EU certification standards."
-msgstr "确保秤的测量符合欧盟认证标准。"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
@@ -25632,7 +25619,7 @@ msgstr "环境"
 msgid ""
 "Environment, Nature, Ecology, Sustainable Development, Non Profit, NGO, "
 "Travels"
-msgstr "环境、自然、生态、可持续发展、非营利、NGO、旅行"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_environmental_agency
@@ -26328,8 +26315,6 @@ msgid ""
 "Event, Restaurants, Bars, Pubs, Cafes, Catering, Food, Drinks, Concerts, "
 "Shows, Musics, Dance, Party"
 msgstr ""
-"活动、餐厅、酒吧、酒馆、咖啡馆、外卖、餐饮、饮品、演唱会、演出、音乐、舞蹈、"
-"派对"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_event_exhibitor
@@ -26416,7 +26401,7 @@ msgstr "示例"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_excise_management
 msgid "Excise Management"
-msgstr "消费税管理"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
@@ -26497,12 +26482,12 @@ msgstr "通过实时可用性显示，体验轻松预订会议室的乐趣。"
 #. module: base
 #: model:ir.module.module,description:base.module_theme_odoo_experts
 msgid "Experts Business Theme"
-msgstr "专家商业主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_odoo_experts
 msgid "Experts Theme"
-msgstr "专家主题"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users_apikeys__expiration_date
@@ -26545,7 +26530,7 @@ msgstr "导出完成"
 #: model:ir.module.module,description:base.module_l10n_pl_edi
 msgid ""
 "Export FA(3) compliant XML invoices and prepare for integration with KSeF."
-msgstr "导出符合 FA(3) 规范的 XML 发票，为接入 KSeF 做准备。"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_exports__export_fields
@@ -27398,7 +27383,7 @@ msgstr "花店、花艺、花园、鲜花、自然、绿化、优美、商店"
 #. module: base
 #: model:res.partner,website_short_description:base.res_partner_address_4
 msgid "Floyd Steward is a mighty analyst at Acme Corporation."
-msgstr "Floyd Steward 是 Acme 公司出色的分析师。"
+msgstr ""
 
 #. module: base
 #: model_terms:res.partner,website_description:base.res_partner_address_4
@@ -28176,7 +28161,7 @@ msgstr "图表"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_graphene
 msgid "Graphene Theme"
-msgstr "石墨烯主题"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.gr
@@ -28196,7 +28181,7 @@ msgstr "希腊 - 会计报告"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_gr_edi
 msgid "Greece - myDATA"
-msgstr "希腊 - myDATA"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.gl
@@ -28357,7 +28342,7 @@ msgstr "瓜地马拉 - 会计"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_gt_edi
 msgid "Guatemala - E-Invoicing"
-msgstr "危地马拉 - 电子开票"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.gg
@@ -29482,7 +29467,7 @@ msgstr "稀疏字段的实现."
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_se_bban
 msgid "Implements BBAN Plusgiro Bankgiro"
-msgstr "实现 BBAN Plusgiro 银行转账"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_l10n_se
@@ -30470,8 +30455,6 @@ msgid ""
 "Invalid value in Default Value field. Expected type '%(field_type)s' for '%"
 "(model_name)s.%(field_name)s'."
 msgstr ""
-"默认值字段中的值无效。'%(model_name)s.%(field_name)s' 期望类型为 '%"
-"(field_type)s'。"
 
 #. module: base
 #. odoo-python
@@ -30487,9 +30470,6 @@ msgid ""
 "You might have used an invalid starting tag in the architecture.\n"
 "Allowed types are: %(valid_types)s"
 msgstr ""
-"无效的视图类型：“%(view_type)s”。\n"
-"您可能在架构中使用了无效的起始标签。\n"
-"允许的类型有：%(valid_types)s"
 
 #. module: base
 #. odoo-python
@@ -30918,7 +30898,7 @@ msgstr "哈萨克斯坦 - 会计报告"
 #: model:ir.module.module,description:base.module_theme_kea
 #: model:ir.module.module,shortdesc:base.module_theme_kea
 msgid "Kea Theme"
-msgstr "Kea 主题"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_users__password
@@ -31014,12 +30994,12 @@ msgstr "库姆斯"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_kiddo
 msgid "Kiddo Theme"
-msgstr "童趣主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_kiddo
 msgid "Kiddo theme for Odoo Website"
-msgstr "Odoo 网站童趣主题"
+msgstr ""
 
 #. module: base
 #: model:res.currency,currency_unit_label:base.PGK
@@ -31039,7 +31019,7 @@ msgstr "基里巴斯"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale_mrp
 msgid "Kit Availability"
-msgstr "套件可用性"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_mrp_renting
@@ -31173,7 +31153,7 @@ msgstr "LGPL 版本 3"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_eu_iot_scale_cert
 msgid "LNE electronic scale certification for PoS"
-msgstr "销售点 LNE 电子秤认证"
+msgstr ""
 
 #. module: base
 #: model:res.currency,currency_subunit_label:base.MVR
@@ -31591,7 +31571,7 @@ msgstr "Legal 3 215.9 x 355.6 毫米"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_clean
 msgid "Legal, Corporate, Business, Tech, Services"
-msgstr "法律、企业、商业、科技、服务"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.sequence_view
@@ -31677,7 +31657,7 @@ msgstr "利比里亚"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_bookstore
 msgid "Library, Books, Magazines, Literature, Musics, Media, Store"
-msgstr "图书馆、图书、杂志、文学、音乐、媒体、商店"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.ly
@@ -31697,12 +31677,12 @@ msgstr "列支敦士登"
 #. module: base
 #: model:ir.module.category,name:base.module_category_theme_lifestyle
 msgid "Lifestyle"
-msgstr "生活方式"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_graphene
 msgid "Light colours, thin text, clean and sharp design."
-msgstr "浅色调、细字体、简洁锐利的设计。"
+msgstr ""
 
 #. module: base
 #: model:res.currency,currency_unit_label:base.SZL
@@ -31966,12 +31946,12 @@ msgstr "本地化"
 #. module: base
 #: model:ir.module.module,description:base.module_theme_loftspace
 msgid "Loftspace Fashion Theme"
-msgstr "Loftspace 时尚主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_loftspace
 msgid "Loftspace Theme"
-msgstr "Loftspace 主题"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.ir_logging_form_view
@@ -32293,7 +32273,7 @@ msgstr "让电子商务在厄瓜多尔发挥作用。"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_nano
 msgid "Maker, Agencies, Creative, Design, IT, Services, Fancy"
-msgstr "创客、机构、创意、设计、IT、服务、精品"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.mw
@@ -32323,7 +32303,7 @@ msgstr "马来西亚 - 电子发票"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_my_edi_pos
 msgid "Malaysia - E-invoicing (POS)"
-msgstr "马来西亚 - 电子开票（销售点）"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_my_edi_extended
@@ -32405,7 +32385,7 @@ msgstr "管理职位板与网站整合"
 #. module: base
 #: model:ir.module.module,summary:base.module_website_sale_mrp
 msgid "Manage Kit product inventory & availability"
-msgstr "管理套件产品库存与可用性"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_room
@@ -32936,12 +32916,12 @@ msgstr "毛里塔尼亚"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_mr
 msgid "Mauritania - Accounting"
-msgstr "毛里塔尼亚 - 财务"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_mr_reports
 msgid "Mauritania - Accounting Reports"
-msgstr "毛里塔尼亚 - 财务报告"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.mu
@@ -33138,7 +33118,7 @@ msgstr "微软用户"
 #. module: base
 #: model:ir.module.module,summary:base.module_cloud_storage_migration
 msgid "Migrate local attachments to cloud storage"
-msgstr "将本地附件迁移到云存储"
+msgstr ""
 
 #. module: base
 #: model:res.currency,currency_subunit_label:base.TND
@@ -33355,7 +33335,7 @@ msgstr "女士"
 #. odoo-python
 #: code:addons/template_inheritance.py:0
 msgid "Missing 'expr' attribute in xpath specification"
-msgstr "xpath 规范中缺少 'expr' 属性"
+msgstr ""
 
 #. module: base
 #. odoo-python
@@ -33636,7 +33616,7 @@ msgstr "模块排除"
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_es_edi_verifactu
 msgid "Module for sending Spanish Veri*Factu XML to the AEAT"
-msgstr "向西班牙税务局发送 Veri*Factu XML 的模块"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_sale_purchase_inter_company_rules
@@ -33725,12 +33705,12 @@ msgstr "星期一"
 #. module: base
 #: model:ir.module.module,description:base.module_theme_monglia
 msgid "Monglia Catering Theme"
-msgstr "Monglia 餐饮主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_monglia
 msgid "Monglia Theme"
-msgstr "Monglia 主题"
+msgstr ""
 
 #. module: base
 #: model:res.currency,currency_subunit_label:base.MNT
@@ -34004,12 +33984,12 @@ msgstr "纳米比亚"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_nano
 msgid "Nano Theme"
-msgstr "Nano 主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_nano
 msgid "Nano Theme - Responsive Bootstrap Theme for Odoo CMS"
-msgstr "Nano 主题 - Odoo CMS 响应式 Bootstrap 主题"
+msgstr ""
 
 #. module: base
 #. odoo-python
@@ -34279,7 +34259,7 @@ msgstr "目前没有任何小组允许进行此操作。"
 #. odoo-python
 #: code:addons/fields.py:0
 msgid "No inverse field \"%(inverse_field)s\" found for \"%(comodel)s\""
-msgstr "未找到 \"%(comodel)s\" 的反向字段 \"%(inverse_field)s\""
+msgstr ""
 
 #. module: base
 #. odoo-python
@@ -34445,7 +34425,7 @@ msgstr "备注"
 #: model:ir.module.module,description:base.module_theme_notes
 #: model:ir.module.module,shortdesc:base.module_theme_notes
 msgid "Notes & Play Theme"
-msgstr "Notes & Play 主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_sale_stock_wishlist
@@ -34485,7 +34465,7 @@ msgstr "适用于当前用户的记录规则数量"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_kiddo
 msgid "Nursery, Toys, Games, Kids, Boys, Girls, Stores"
-msgstr "托儿所、玩具、游戏、儿童、男孩、女孩、商店"
+msgstr ""
 
 #. module: base
 #: model:res.country,vat_label:base.pf
@@ -36620,7 +36600,7 @@ msgstr "阿曼"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_om
 msgid "Oman - Accounting"
-msgstr "阿曼 - 财务"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__on_delete
@@ -36893,12 +36873,12 @@ msgstr "选项"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_orchid
 msgid "Orchid Theme"
-msgstr "兰花主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_orchid
 msgid "Orchid Theme - Flowers, Beauty"
-msgstr "兰花主题 - 花卉、美容"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model__order
@@ -38007,7 +37987,7 @@ msgstr "纸张大小"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_paptic
 msgid "Paptic Theme"
-msgstr "Paptic 主题"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.pg
@@ -38471,7 +38451,7 @@ msgstr "秘鲁 - 会计报告"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_pe_reports_lib
 msgid "Peru - Inventory and Balance Reports"
-msgstr "秘鲁 - 库存与资产负债报告"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_pe_reports_stock
@@ -38804,7 +38784,7 @@ msgstr "波兰 - 工资与会计"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_pl_reports_account_saft
 msgid "Poland - SAFT Income Tax Report (JPK KR PD)"
-msgstr "波兰 - SAFT 所得税报告 (JPK KR PD)"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_pl_taxable_supply_date
@@ -38814,7 +38794,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_pl_edi
 msgid "Polish E-Invoicing FA(3)"
-msgstr "波兰电子开票 FA(3)"
+msgstr ""
 
 #. module: base
 #: model:res.groups,name:base.group_portal
@@ -38965,7 +38945,7 @@ msgstr "Print CA Checks"
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_do_check_printing
 msgid "Print Dominican Republic Checks"
-msgstr "打印多明尼加共和国支票"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_ph_check_printing
@@ -39974,7 +39954,7 @@ msgstr "Qweb 领域2个以上"
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_one2many
 msgid "Qweb field one2many"
-msgstr "QWeb 一对多字段"
+msgstr ""
 
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_R
@@ -40065,7 +40045,7 @@ msgstr "不动产"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_real_estate
 msgid "Real Estate Theme"
-msgstr "房产主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_real_estate
@@ -40698,7 +40678,7 @@ msgstr "罗马尼亚 - 会计报表"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ro_cpv_code
 msgid "Romania - CPV Code"
-msgstr "罗马尼亚 - CPV 代码"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ro_edi_stock
@@ -42489,12 +42469,12 @@ msgstr "一般邮寄跟进"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_common
 msgid "Snippets Library"
-msgstr "代码片段库"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_common
 msgid "Snippets library containing snippets to be styled in themes."
-msgstr "包含用于主题样式化的代码片段库。"
+msgstr ""
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_marketing_social
@@ -42726,12 +42706,12 @@ msgstr "西班牙 - TicketBAI"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_es_edi_verifactu
 msgid "Spain - Veri*Factu"
-msgstr "西班牙 - Veri*Factu"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_es_edi_verifactu_pos
 msgid "Spain - Veri*Factu for Point of Sale"
-msgstr "西班牙 - 销售点 Veri*Factu"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_es_pos
@@ -43349,7 +43329,7 @@ msgstr "供应链"
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_pl_edi
 msgid "Support for FA(3) electronic invoices in Poland via KSeF"
-msgstr "通过 KSeF 支持波兰 FA(3) 电子发票"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_event_track_live
@@ -43436,7 +43416,7 @@ msgstr "Swissdec 认证薪资系统（ELM 5.0）"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ch_hr_payroll_elm_transmission_5_3
 msgid "Swissdec Certified Payroll ELM 5.3"
-msgstr "Swissdec 认证工资单 ELM 5.3"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.language_install_view_form_lang_switch
@@ -43598,12 +43578,12 @@ msgstr "台湾 - 会计报表"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_tw_edi_ecpay
 msgid "Taiwan - E-invoicing"
-msgstr "台湾 - 电子开票"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_tw_edi_ecpay_website_sale
 msgid "Taiwan - E-invoicing Ecommerce"
-msgstr "台湾 - 电子开票电商"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_company__font__tajawal
@@ -43785,7 +43765,7 @@ msgstr "技术"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_kea
 msgid "Technology, Tech, IT, Computers, Stores, Virtual Reality"
-msgstr "科技、技术、IT、电脑、商店、虚拟现实"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_report__report_name
@@ -44914,7 +44894,7 @@ msgstr "主题商店"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_themes
 msgid "Themes Testing Module"
-msgstr "主题测试模块"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
@@ -45072,7 +45052,7 @@ msgid ""
 "This is the legacy integration with DHL Express that is no longer "
 "supported.         Please install the new \"DHL Express Shipping\" module "
 "and uninstall this one as soon as possible."
-msgstr "这是已不再支持的 DHL Express 旧版集成。请安装新的 \"DHL Express\" 模块。"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_fedex
@@ -45170,9 +45150,6 @@ msgid ""
 "UBL/CII eInvoices (but not only). The module is intended be merged with "
 "account, later on, in master"
 msgstr ""
-"该模块将全球位置码添加到合作伙伴信息中。该代码用于交货地址，用以标识库存位置"
-"，并且在 UBL/CII 电子发票（但不限于此）中为必填项。该模块计划后续在主数据中"
-"与 account 模块合并"
 
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
@@ -45543,7 +45520,7 @@ msgstr "该模块用于在线银行同步。"
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_dk_nemhandel
 msgid "This module is used to send/receive documents with Nemhandel"
-msgstr "此模块用于通过 Nemhandel 发送/接收文档"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_account_peppol
@@ -45572,9 +45549,6 @@ msgid ""
 "every\n"
 "    theme on one website."
 msgstr ""
-"此模块可帮助您快速测试所有 Odoo\n"
-"    主题，而无需在网站上\n"
-"    逐一切换主题。"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_upgrade
@@ -46004,7 +45978,7 @@ msgstr "运输/物流"
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_aviato
 msgid "Travel, Excursion, Plane, Tour, Agency "
-msgstr "旅行、远足、飞机、旅游、机构"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_treehouse
@@ -46084,7 +46058,7 @@ msgstr "图瓦卢"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sms_twilio
 msgid "Twilio SMS"
-msgstr "Twilio 短信"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_auth_totp
@@ -46177,7 +46151,7 @@ msgstr "土耳其 - Nilvera 电子发票"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_tr_nilvera_einvoice_extended
 msgid "Türkiye - Nilvera E-Invoice Extended"
-msgstr "土耳其 - Nilvera 电子发票扩展"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_tr_hr_payroll
@@ -46192,7 +46166,7 @@ msgstr "土耳其 - 薪资与会计"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_tr_nilvera_edispatch
 msgid "Türkiye - e-Irsaliye (e-Dispatch)"
-msgstr "土耳其 - 电子货单 (e-Irsaliye)"
+msgstr ""
 
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_U
@@ -46262,7 +46236,7 @@ msgstr "URL 代码"
 #. odoo-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "URL attachment (%s) shouldn't be migrated to local."
-msgstr "URL 附件 (%s) 不应迁移到本地。"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_server__webhook_url
@@ -46423,8 +46397,6 @@ msgid ""
 "Unicode strings with encoding declaration are not supported in XML.\n"
 "Remove the encoding declaration."
 msgstr ""
-"XML 中不支持带编码声明的 Unicode 字符串。\n"
-"请删除编码声明。"
 
 #. module: base
 #. odoo-python
@@ -46750,7 +46722,7 @@ msgstr "乌拉圭 - 会计"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_uy_edi_stock
 msgid "Uruguay - E-Remitos"
-msgstr "乌拉圭 - 电子货运单"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_uy_edi
@@ -46765,7 +46737,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_uy_pos
 msgid "Uruguayan - Point of Sale"
-msgstr "乌拉圭 - 销售点"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_decimal_precision__name
@@ -47733,7 +47705,7 @@ msgstr "网站付款"
 #. module: base
 #: model:ir.module.category,name:base.module_category_website_sale
 msgid "Website Sale"
-msgstr "网站销售"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_website_sale_full
@@ -48172,12 +48144,12 @@ msgstr "是（真）"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_yes
 msgid "Yes Theme"
-msgstr "Yes 主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_yes
 msgid "Yes Theme - Wedding"
-msgstr "Yes 主题 - 婚礼"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.demo_force_install_form
@@ -48648,12 +48620,12 @@ msgstr "赞比亚 - 财务报告"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_theme_zap
 msgid "Zap Theme"
-msgstr "Zap 主题"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_theme_zap
 msgid "Zap Theme - Corporate, Business, Marketing, Copywriting"
-msgstr "Zap 主题 - 企业、商业、营销、文案"
+msgstr ""
 
 #. module: base
 #: model:res.currency,currency_unit_label:base.ZIG

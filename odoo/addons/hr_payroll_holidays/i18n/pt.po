@@ -6,13 +6,13 @@
 # Rita Bastos, 2025
 # Wil Odoo, 2025
 #
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:46+0000\n"
-"PO-Revision-Date: 2026-05-17 06:00+0000\n"
+"PO-Revision-Date: 2025-11-17 14:13+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "hr_payroll_holidays/pt/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: hr_payroll_holidays
 #: model_terms:ir.actions.act_window,help:hr_payroll_holidays.hr_leave_work_entry_action
@@ -77,7 +77,7 @@ msgstr "Gerente de folga adiada"
 #: model_terms:ir.ui.view,arch_db:hr_payroll_holidays.hr_leave_view_search
 #: model_terms:ir.ui.view,arch_db:hr_payroll_holidays.view_hr_leave_allocation_inherit_filter
 msgid "Employee Code"
-msgstr "Código do Funcionário"
+msgstr ""
 
 #. module: hr_payroll_holidays
 #: model:ir.model,name:hr_payroll_holidays.model_hr_contract

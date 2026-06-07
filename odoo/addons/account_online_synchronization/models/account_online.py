@@ -221,7 +221,7 @@ class AccountOnlineAccount(models.Model):
 
     def _retrieve_transactions(self, date=None, include_pendings=False):
         last_stmt_line = self.env['account.bank.statement.line'].search([
-                ('date', '<=', date or self.last_sync or fields.Date().today()),
+                ('date', '<=', self.last_sync or fields.Date().today()),
                 ('online_transaction_identifier', '!=', False),
                 ('journal_id', 'in', self.journal_ids.ids),
                 ('online_account_id', '=', self.id)

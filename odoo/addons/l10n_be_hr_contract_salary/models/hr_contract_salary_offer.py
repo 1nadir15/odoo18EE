@@ -13,8 +13,7 @@ class HrContractSalaryOffer(models.Model):
         compute='_compute_contract_type_id',
         store=True,
         readonly=False,
-        tracking=True,
-        related=None)
+        tracking=True)
     new_car = fields.Boolean(
         string='Show "Company Car (To Order)"', tracking=True,
         compute="_compute_new_car",

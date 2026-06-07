@@ -22,19 +22,18 @@ class BelgiumSalesReportTest(AccountSalesReportCommon):
         })
         cls.report = cls.env.ref('l10n_be_reports.belgian_ec_sales_report')
 
-        cls.l_tax = cls.env['account.tax'].search([('name', '=', '0% EU M'), ('company_id', '=', cls.env.company.id)], limit=1)
-        cls.t_tax = cls.env['account.tax'].search([('name', '=', '0% EU T'), ('company_id', '=', cls.env.company.id)], limit=1)
-        cls.s_tax = cls.env['account.tax'].search([('name', '=', '0% EU S'), ('company_id', '=', cls.env.company.id)], limit=1)
-
     @freeze_time('2019-12-31')
     def test_ec_sales_report(self):
+        l_tax = self.env['account.tax'].search([('name', '=', '0% EU M'), ('company_id', '=', self.company_data['company'].id)])[0]
+        t_tax = self.env['account.tax'].search([('name', '=', '0% EU T'), ('company_id', '=', self.company_data['company'].id)])[0]
+        s_tax = self.env['account.tax'].search([('name', '=', '0% EU S'), ('company_id', '=', self.company_data['company'].id)])[0]
         self._create_invoices([
-            (self.partner_a, self.l_tax, 300),
-            (self.partner_a, self.l_tax, 300),
-            (self.partner_a, self.t_tax, 500),
-            (self.partner_b, self.t_tax, 500),
-            (self.partner_a, self.s_tax, 700),
-            (self.partner_b, self.s_tax, 700),
+            (self.partner_a, l_tax, 300),
+            (self.partner_a, l_tax, 300),
+            (self.partner_a, t_tax, 500),
+            (self.partner_b, t_tax, 500),
+            (self.partner_a, s_tax, 700),
+            (self.partner_b, s_tax, 700),
         ])
 
         options = self.report.get_options({'date': {'mode': 'range', 'filter': 'this_month'}})
@@ -178,30 +177,4 @@ class BelgiumSalesReportTest(AccountSalesReportCommon):
         self.assertXmlTreeEqual(
             self.get_xml_tree_from_string(self.env[self.report.custom_handler_model_name].export_to_xml_sales_report(options)['file_content']),
             self.get_xml_tree_from_string(expected_xml)
-        )
-
-    @freeze_time('2019-12-31')
-    def test_be_ec_sales_report_northern_ireland_customer(self):
-        """ Ensure services sales are excluded from the EC Sales List report if the
-            sale is to a Northern Ireland Customer
-        """
-        xi_partner = self.env['res.partner'].create([{
-            'country_id': self.env.ref('base.uk').id,
-            'name': 'XI Partner',
-            'vat': 'XI123456782',
-        }])
-
-        self._create_invoices([(xi_partner, self.l_tax, 100), (xi_partner, self.s_tax, 80)])
-
-        options = self.report.get_options({'date': {'mode': 'range', 'filter': 'this_month'}})
-        lines = self.report._get_lines(options)
-        self.assertLinesValues(
-            lines,
-            #   Partner                country code,            VAT Number,              Tax         Amount
-            [   0,                     1,                       2,                       3,          4],
-            [
-                (xi_partner.name,      xi_partner.vat[:2],      xi_partner.vat[2:],     'L (46L)',   100.0),
-                ('Total',              '',                      '',                     '',          100.0),
-            ],
-            options,
         )

@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * delivery_usps_rest
+# 	* delivery_usps_rest
 #
 # Translators:
 # Albena Mincheva <albena_vicheva@abv.bg>, 2025
@@ -8,22 +8,20 @@
 # Maria Boyadjieva <marabo2000@gmail.com>, 2025
 # Igor Sheludko <igor.sheludko@gmail.com>, 2025
 # Petko Karamotchev, 2025
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-05-17 06:00+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Bulgarian <https://translate.odoo.com/projects/odoo-18/"
-"delivery_usps_rest/bg/>\n"
+"PO-Revision-Date: 2025-02-12 11:36+0000\n"
+"Last-Translator: Petko Karamotchev, 2025\n"
+"Language-Team: Bulgarian (https://app.transifex.com/odoo/teams/41243/bg/)\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: delivery_usps_rest
 #: model:ir.model.fields.selection,name:delivery_usps_rest.selection__delivery_carrier__usps_domestic_rating_indicator__3d
@@ -627,7 +625,7 @@ msgstr "Мостра"
 #. odoo-python
 #: code:addons/delivery_usps_rest/models/delivery_usps.py:0
 msgid "Shipment created into USPS"
-msgstr "Пратката е регистрирана в USPS"
+msgstr ""
 
 #. module: delivery_usps_rest
 #. odoo-python

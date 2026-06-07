@@ -6,15 +6,15 @@
 # erpgo translator <jumshud@erpgo.az>, 2024
 # Jumshud Sultanov <cumshud@gmail.com>, 2024
 # Nurlan Farajov <coolinuxoid@gmail.com>, 2025
-# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025, 2026.
+# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:48+0000\n"
-"PO-Revision-Date: 2026-06-06 11:12+0000\n"
-"Last-Translator: ERPGo Odoo <erpgo.odoo@gmail.com>\n"
+"PO-Revision-Date: 2026-01-17 09:18+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Azerbaijani <https://translate.odoo.com/projects/odoo-18/"
 "mrp_workorder/az/>\n"
 "Language: az\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: mrp_workorder
 #. odoo-python
@@ -194,7 +194,7 @@ msgstr "Təyin edilmiş"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_employee_form_account
 msgid "Attendance/Point of Sale/Manufacturing"
-msgstr "Davamiyyət/Satış Nöqtəsi/İstehsalat"
+msgstr ""
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
@@ -857,7 +857,7 @@ msgstr "Mənim Fəaliyyətlərimin Son Tarixi"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_view_employee_filter
 msgid "My Department"
-msgstr "Mənim Şöbəm"
+msgstr ""
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_view_employee_filter

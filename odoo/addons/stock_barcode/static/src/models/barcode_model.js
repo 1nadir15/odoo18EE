@@ -524,7 +524,6 @@ export default class BarcodeModel extends EventBus {
         if (!line) {
             throw new Error('No line found');
         }
-        line.wasUpdated = true;
         if (!line.product_id && args.product_id) {
             line.product_id = args.product_id;
             line.product_uom_id = this.cache.getRecord('uom.uom', args.product_id.uom_id);
@@ -1828,25 +1827,6 @@ export default class BarcodeModel extends EventBus {
         for (const line of lines) {
             line.sortIndex = this._getLineIndex();
         }
-
-        if (this.currentState) {
-            // If a previous state already exists, keep tracks of some info
-            // which can be lost when the state is replaced.
-            for (const newLine of lines) {
-                for (const oldLine of this.currentState.lines) {
-                    if (newLine.virtual_id === oldLine.virtual_id) {
-                        if (oldLine.wasUpdated) {
-                            newLine.wasUpdated = oldLine.wasUpdated;
-                        }
-                        if (oldLine.lastScannedDestination) {
-                            newLine.lastScannedDestination = oldLine.lastScannedDestination;
-                        }
-                        break;
-                    }
-                }
-            }
-        }
-
         this.initialState = { lines };
         this.currentState = JSON.parse(JSON.stringify(this.initialState)); // Deep copy
         this.groupLines();

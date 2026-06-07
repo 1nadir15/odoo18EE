@@ -34,24 +34,3 @@ class TestPospricer(ProductCommon):
         # After saving, on_sale_price should change if lst_price is modified
         ProductForm.lst_price = 100
         self.assertEqual(ProductForm.on_sale_price, 90)
-
-    def test_pos_pricer_sales_pricelist_cost_based(self):
-        """
-        Test that on_sale_price updates when standard_price changes,
-        for a cost-based pricelist.
-        """
-        pricelist = self.env['product.pricelist'].create({'name': 'Cost Pricelist'})
-        self.env['product.pricelist.item'].create({
-            'pricelist_id': pricelist.id,
-            'compute_price': 'formula',
-            'applied_on': '3_global',
-            'base': 'standard_price',
-            'price_discount': -20,
-        })
-        ProductForm = Form(self.env['product.product'])
-        ProductForm.name = "Cost-Based Product"
-        ProductForm.standard_price = 100
-        ProductForm.pricer_sale_pricelist_id = pricelist
-        self.assertEqual(ProductForm.on_sale_price, 120)
-        ProductForm.standard_price = 200
-        self.assertEqual(ProductForm.on_sale_price, 240)

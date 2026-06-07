@@ -5,13 +5,13 @@
 # Translators:
 # Martin Trigaux, 2018
 # Boško Stojaković <bluesoft83@gmail.com>, 2018
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:46+0000\n"
-"PO-Revision-Date: 2026-05-13 14:39+0000\n"
+"PO-Revision-Date: 2025-12-31 10:28+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
 "website_helpdesk/bs/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: website_helpdesk
 #: model_terms:ir.ui.view,arch_db:website_helpdesk.team
@@ -170,7 +170,7 @@ msgstr ""
 #. module: website_helpdesk
 #: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__can_publish
 msgid "Can Publish"
-msgstr "Može objavljivati"
+msgstr ""
 
 #. module: website_helpdesk
 #: model_terms:ir.ui.view,arch_db:website_helpdesk.footer
@@ -298,7 +298,7 @@ msgstr "Slika"
 #. module: website_helpdesk
 #: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__is_published
 msgid "Is Published"
-msgstr "je objavljeno"
+msgstr ""
 
 #. module: website_helpdesk
 #. odoo-python
@@ -316,7 +316,7 @@ msgstr "Zadnja sedmica"
 #. odoo-python
 #: code:addons/website_helpdesk/controllers/main.py:0
 msgid "Last Year"
-msgstr "Prošla godina"
+msgstr ""
 
 #. module: website_helpdesk
 #. odoo-javascript
@@ -355,7 +355,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
 msgid "Phone Number"
-msgstr "Broj telefona"
+msgstr ""
 
 #. module: website_helpdesk
 #: model_terms:ir.ui.view,arch_db:website_helpdesk.search_results
@@ -365,7 +365,7 @@ msgstr ""
 #. module: website_helpdesk
 #: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__is_seo_optimized
 msgid "SEO optimized"
-msgstr "SEO optimizirana"
+msgstr ""
 
 #. module: website_helpdesk
 #: model_terms:ir.ui.view,arch_db:website_helpdesk.knowledge_base
@@ -380,7 +380,7 @@ msgstr ""
 #. module: website_helpdesk
 #: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__seo_name
 msgid "Seo name"
-msgstr "SEO naziv"
+msgstr ""
 
 #. module: website_helpdesk
 #: model_terms:ir.ui.view,arch_db:website_helpdesk.team_form_1
@@ -446,7 +446,7 @@ msgstr ""
 #. module: website_helpdesk
 #: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__website_published
 msgid "Visible on current website"
-msgstr "Vidljivo na trenutnom websiteu"
+msgstr ""
 
 #. module: website_helpdesk
 #: model:ir.model,name:website_helpdesk.model_website
@@ -482,7 +482,7 @@ msgstr "Website meta naslov"
 #. module: website_helpdesk
 #: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__website_meta_og_img
 msgid "Website opengraph image"
-msgstr "OpenGraph slika web stranice"
+msgstr ""
 
 #. module: website_helpdesk
 #: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submited

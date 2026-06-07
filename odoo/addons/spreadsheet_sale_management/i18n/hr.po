@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * spreadsheet_sale_management
+# 	* spreadsheet_sale_management
 #
 # Translators:
 # Bole <bole@dajmi5.com>, 2024
@@ -8,34 +8,32 @@
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # Vladimir Vrgoč, 2025
 # Luka Carević <luka@uvid.hr>, 2025
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:49+0000\n"
-"PO-Revision-Date: 2026-05-17 05:59+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
-"spreadsheet_sale_management/hr/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Luka Carević <luka@uvid.hr>, 2025\n"
+"Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
 
 #. module: spreadsheet_sale_management
 #: model_terms:ir.ui.view,arch_db:spreadsheet_sale_management.sale_order_spreadsheet_view_search
 msgid "Calculator Templates"
-msgstr "Predlošci kalkulatora"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/side_panel/field_sync_side_panel.xml:0
 msgid "Cell to sync"
-msgstr "Ćelija za sinkronizaciju"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__company_id
@@ -55,13 +53,13 @@ msgstr "Kreirano"
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__current_revision_uuid
 msgid "Current Revision Uuid"
-msgstr "UUID trenutne revizije"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/field_sync_extension_hook.js:0
 msgid "Delete field syncing"
-msgstr "Obriši sinkronizaciju polja"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__display_name
@@ -71,30 +69,30 @@ msgstr "Naziv za prikaz"
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__display_thumbnail
 msgid "Display Thumbnail"
-msgstr "Prikaži sličicu"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/field_sync_extension_hook.js:0
 msgid "Edit sync"
-msgstr "Uredi sinkronizaciju"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/field_sync_extension_hook.js:0
 msgid "Field syncing"
-msgstr "Sinkronizacija polja"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/side_panel/field_sync_side_panel.xml:0
 msgid "Field to sync"
-msgstr "Polje za sinkronizaciju"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:sale.order.template.line,name:spreadsheet_sale_management.sale_order_template_line_assembly
 msgid "Furniture Assembly"
-msgstr "Montaža namještaja"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__id
@@ -105,25 +103,25 @@ msgstr "ID"
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/model/field_sync_ui_plugin.js:0
 msgid "It should be a boolean."
-msgstr "Mora biti logička vrijednost."
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/model/field_sync_ui_plugin.js:0
 msgid "It should be a number."
-msgstr "Mora biti broj."
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/model/field_sync_ui_plugin.js:0
 msgid "It should be an id."
-msgstr "Mora biti id."
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/model/field_sync_ui_plugin.js:0
 msgid "It should be an integer."
-msgstr "Mora biti cijeli broj."
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__write_uid
@@ -147,8 +145,6 @@ msgid ""
 "Multiple cells are updating the same field of the same record! Unable to "
 "determine which one to choose: %s"
 msgstr ""
-"Više ćelija ažurira isto polje istog zapisa! Nije moguće odrediti koju "
-"odabrati: %s"
 
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__name
@@ -170,12 +166,12 @@ msgstr "Narudžba"
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/side_panel/field_sync_side_panel.xml:0
 msgid "Position of the record in the list"
-msgstr "Pozicija zapisa na popisu"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model,name:spreadsheet_sale_management.model_sale_order_spreadsheet
 msgid "Quotation Spreadsheet"
-msgstr "Proračunska tablica ponude"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model,name:spreadsheet_sale_management.model_sale_order_template
@@ -186,7 +182,7 @@ msgstr "Predložak ponude"
 #. odoo-python
 #: code:addons/spreadsheet_sale_management/models/sale_order_spreadsheet.py:0
 msgid "Quotation templates"
-msgstr "Predlošci ponuda"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-python
@@ -197,7 +193,7 @@ msgstr "Citat"
 #. module: spreadsheet_sale_management
 #: model_terms:ir.ui.view,arch_db:spreadsheet_sale_management.sale_order_spreadsheet_view_search
 msgid "Quote Sheets"
-msgstr "Listovi ponude"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order__spreadsheet_template_id
@@ -210,24 +206,24 @@ msgstr "Kalkulator ponude"
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/side_panel/field_sync_side_panel.xml:0
 msgid "Record to sync (position)"
-msgstr "Zapis za sinkronizaciju (pozicija)"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_spreadsheet_cell_thread__sale_order_spreadsheet_id
 msgid "Sale Order Spreadsheet"
-msgstr "Proračunska tablica prodajnog naloga"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.actions.act_window,name:spreadsheet_sale_management.sale_order_spreadsheet_action
 #: model:ir.ui.menu,name:spreadsheet_sale_management.menu_technical_spreadsheet_sale_order_template
 msgid "Sale Order Spreadsheets"
-msgstr "Proračunske tablice prodajnih naloga"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-python
 #: code:addons/spreadsheet_sale_management/models/sale_order_spreadsheet.py:0
 msgid "Sale order lines"
-msgstr "Stavke prodajnog naloga"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model,name:spreadsheet_sale_management.model_sale_order
@@ -238,7 +234,7 @@ msgstr "Prodajni nalog"
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/action/field_sync_action.xml:0
 msgid "Save in"
-msgstr "Spremi u"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-javascript
@@ -249,27 +245,27 @@ msgstr "Spremljeno"
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__spreadsheet_data
 msgid "Spreadsheet Data"
-msgstr "Podaci proračunske tablice"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__spreadsheet_file_name
 msgid "Spreadsheet File Name"
-msgstr "Naziv datoteke proračunske tablice"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__spreadsheet_revision_ids
 msgid "Spreadsheet Revision"
-msgstr "Revizija proračunske tablice"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__spreadsheet_snapshot
 msgid "Spreadsheet Snapshot"
-msgstr "Snimka proračunske tablice"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model,name:spreadsheet_sale_management.model_spreadsheet_cell_thread
 msgid "Spreadsheet discussion thread"
-msgstr "Rasprava o proračunskoj tablici"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__spreadsheet_binary_data
@@ -280,7 +276,7 @@ msgstr "Spreadsheet datoteka"
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/field_sync_extension_hook.js:0
 msgid "Sync with field"
-msgstr "Sinkroniziraj s poljem"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-javascript
@@ -289,19 +285,17 @@ msgid ""
 "The value of %(cell_reference)s (%(cell_value)s) can't be used for field \"%"
 "(field_name)s\"."
 msgstr ""
-"Vrijednost %(cell_reference)s (%(cell_value)s) ne može se koristiti za polje "
-"\"%(field_name)s\"."
 
 #. module: spreadsheet_sale_management
 #: model:ir.model.fields,field_description:spreadsheet_sale_management.field_sale_order_spreadsheet__thumbnail
 msgid "Thumbnail"
-msgstr "Sličica"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-javascript
 #: code:addons/spreadsheet_sale_management/static/src/bundle/field_sync/action/field_sync_action.js:0
 msgid "Unable to save"
-msgstr "Nije moguće spremiti"
+msgstr ""
 
 #. module: spreadsheet_sale_management
 #. odoo-python

@@ -133,7 +133,7 @@ class GeneralLedgerCustomHandler(models.AbstractModel):
         query = SQL("""
             SELECT
                 %(date)s AS report_date,
-                COALESCE(account_move.name, '') AS move_name,
+                account_move.name AS move_name,
                 account_move.id AS move_number,
                 %(account_code_sql)s AS account_code,
                 l10n_latam_identification_type.l10n_pe_vat_code AS id_type_code,
@@ -428,7 +428,7 @@ class GeneralLedgerCustomHandler(models.AbstractModel):
         query = SQL("""
             SELECT DISTINCT
                 %(date)s AS report_date,
-                COALESCE(account_move.name, '') AS move_name,
+                account_move.name AS move_name,
                 account_move.id AS move_number,
                 %(account_code_sql)s AS account_code,
                 l10n_latam_identification_type.l10n_pe_vat_code AS id_type_code,
@@ -472,7 +472,7 @@ class GeneralLedgerCustomHandler(models.AbstractModel):
             query = SQL("""
                 SELECT DISTINCT
                     %(date)s AS report_date,
-                    COALESCE(account_move.name, '') AS move_name,
+                    account_move.name AS move_name,
                     account_move.id AS move_number,
                     l10n_latam_identification_type.l10n_pe_vat_code AS id_type_code,
                     res_partner.vat AS partner_vat,
@@ -523,7 +523,7 @@ class GeneralLedgerCustomHandler(models.AbstractModel):
         query = SQL("""
             SELECT DISTINCT
                 %(date)s AS report_date,
-                COALESCE(account_move.name, '') AS move_name,
+                account_move.name AS move_name,
                 account_move.id AS move_number,
                 l10n_latam_identification_type.l10n_pe_vat_code AS id_type_code,
                 res_partner.vat AS partner_vat,

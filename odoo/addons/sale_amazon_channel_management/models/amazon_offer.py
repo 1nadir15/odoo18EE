@@ -35,7 +35,7 @@ class AmazonOffer(models.Model):
 
     def _inverse_amazon_channel(self):
         feed_data_by_offer = self.with_context(amzn_fetch_missing_data=False)._get_feed_data()
-        for offer in self:
+        for offer in self.filtered("amazon_channel"):
             feed_data = feed_data_by_offer.setdefault(offer, {})
             if not offer.amazon_channel:
                 feed_data.pop("is_fbm", None)

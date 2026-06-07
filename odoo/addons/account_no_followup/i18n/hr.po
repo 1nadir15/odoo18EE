@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:46+0000\n"
-"PO-Revision-Date: 2026-05-06 21:38+0000\n"
+"PO-Revision-Date: 2026-03-30 06:18+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "account_no_followup/hr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_no_followup
 #: model:ir.model,name:account_no_followup.model_res_partner
@@ -28,23 +28,23 @@ msgstr "Kontakt"
 #. module: account_no_followup
 #: model:ir.model,name:account_no_followup.model_account_customer_statement_report_handler
 msgid "Customer Statement Custom Handler"
-msgstr "Prilagođeni rukovatelj izvoda kupca"
+msgstr ""
 
 #. module: account_no_followup
 #: model:ir.model.fields,help:account_no_followup.field_account_bank_statement_line__no_followup
 #: model:ir.model.fields,help:account_no_followup.field_account_move__no_followup
 msgid "Exclude this journal entry from follow-up reports."
-msgstr "Isključi ovo knjiženje iz praćenja izvješća."
+msgstr ""
 
 #. module: account_no_followup
 #: model:ir.model.fields,help:account_no_followup.field_account_move_line__no_followup
 msgid "Exclude this journal item from follow-up reports."
-msgstr "Isključi ovu stavku dnevnika iz praćenja izvješća."
+msgstr ""
 
 #. module: account_no_followup
 #: model:ir.model,name:account_no_followup.model_account_followup_report_handler
 msgid "Follow-Up Report Custom Handler"
-msgstr "Prilagođeni rukovatelj izvještaja opomene"
+msgstr ""
 
 #. module: account_no_followup
 #: model:ir.model,name:account_no_followup.model_account_move
@@ -63,15 +63,15 @@ msgstr "Stavka dnevnika"
 #: model:ir.model.fields,field_description:account_no_followup.field_account_move__no_followup
 #: model:ir.model.fields,field_description:account_no_followup.field_account_move_line__no_followup
 msgid "No Follow-Up"
-msgstr "Bez opomene"
+msgstr ""
 
 #. module: account_no_followup
 #: model:ir.model,name:account_no_followup.model_account_partner_ledger_report_handler
 msgid "Partner Ledger Custom Handler"
-msgstr "Prilagođeni rukovatelj knjige partnera"
+msgstr ""
 
 #. module: account_no_followup
 #: model:ir.model.fields,field_description:account_no_followup.field_res_partner__total_overdue_followup
 #: model:ir.model.fields,field_description:account_no_followup.field_res_users__total_overdue_followup
 msgid "Total Overdue Followup"
-msgstr "Ukupno zakašnjelo za opomenu"
+msgstr ""

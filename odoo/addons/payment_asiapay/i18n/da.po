@@ -6,13 +6,13 @@
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
-"PO-Revision-Date: 2026-05-17 05:49+0000\n"
+"PO-Revision-Date: 2025-11-21 02:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "payment_asiapay/da/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: payment_asiapay
 #. odoo-python
@@ -30,8 +30,6 @@ msgid ""
 "An error occurred during the processing of your payment (success code %"
 "(success_code)s; primary response code %(response_code)s). Please try again."
 msgstr ""
-"Der opstod en fejl under behandlingen af din betaling (succeskode %"
-"(success_code)s; primær responskode %(response_code)s). Prøv venligst igen."
 
 #. module: payment_asiapay
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__code__asiapay
@@ -41,33 +39,33 @@ msgstr "AsiaPay"
 #. module: payment_asiapay
 #: model:ir.model.fields,field_description:payment_asiapay.field_payment_provider__asiapay_merchant_id
 msgid "AsiaPay Merchant ID"
-msgstr "AsiaPay-forhandler-ID"
+msgstr ""
 
 #. module: payment_asiapay
 #: model:ir.model.fields,field_description:payment_asiapay.field_payment_provider__asiapay_secure_hash_function
 msgid "AsiaPay Secure Hash Function"
-msgstr "Sikker hash-funktion fra AsiaPay"
+msgstr ""
 
 #. module: payment_asiapay
 #: model:ir.model.fields,field_description:payment_asiapay.field_payment_provider__asiapay_secure_hash_secret
 msgid "AsiaPay Secure Hash Secret"
-msgstr "Sikker hash-nøgle fra AsiaPay"
+msgstr ""
 
 #. module: payment_asiapay
 #. odoo-python
 #: code:addons/payment_asiapay/models/payment_provider.py:0
 msgid "AsiaPay does not support the following currencies: %(currencies)s."
-msgstr "AsiaPay understøtter ikke følgende valutaer: %(currencies)s."
+msgstr ""
 
 #. module: payment_asiapay
 #: model:ir.model.fields,field_description:payment_asiapay.field_payment_provider__asiapay_brand
 msgid "Asiapay Brand"
-msgstr "Asiapay-brand"
+msgstr ""
 
 #. module: payment_asiapay
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__asiapay_brand__bimopay
 msgid "BimoPay"
-msgstr "BimoPay"
+msgstr ""
 
 #. module: payment_asiapay
 #: model_terms:ir.ui.view,arch_db:payment_asiapay.payment_provider_form
@@ -88,18 +86,18 @@ msgstr "Sælger ID"
 #. odoo-python
 #: code:addons/payment_asiapay/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
-msgstr "Der blev ikke fundet nogen transaktion, der matcher referencen %s."
+msgstr ""
 
 #. module: payment_asiapay
 #. odoo-python
 #: code:addons/payment_asiapay/models/payment_provider.py:0
 msgid "Only one currency can be selected by AsiaPay account."
-msgstr "Der kan kun vælges én valuta pr. AsiaPay-konto."
+msgstr ""
 
 #. module: payment_asiapay
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__asiapay_brand__paydollar
 msgid "PayDollar"
-msgstr "PayDollar"
+msgstr ""
 
 #. module: payment_asiapay
 #: model:ir.model,name:payment_asiapay.model_payment_provider
@@ -114,19 +112,19 @@ msgstr "Betalingstransaktion"
 #. module: payment_asiapay
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__asiapay_brand__pesopay
 msgid "PesoPay"
-msgstr "PesoPay"
+msgstr ""
 
 #. module: payment_asiapay
 #. odoo-python
 #: code:addons/payment_asiapay/models/payment_transaction.py:0
 msgid "Received data with missing reference %(ref)s."
-msgstr "Modtagne data med manglende reference %(ref)s."
+msgstr ""
 
 #. module: payment_asiapay
 #. odoo-python
 #: code:addons/payment_asiapay/models/payment_transaction.py:0
 msgid "Received data with missing success code."
-msgstr "Der er modtaget data med manglende succeskode."
+msgstr ""
 
 #. module: payment_asiapay
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__asiapay_secure_hash_function__sha1
@@ -146,41 +144,40 @@ msgstr "SHA512"
 #. module: payment_asiapay
 #: model_terms:ir.ui.view,arch_db:payment_asiapay.payment_provider_form
 msgid "Secure Hash Function"
-msgstr "Sikker hash-funktion"
+msgstr ""
 
 #. module: payment_asiapay
 #: model_terms:ir.ui.view,arch_db:payment_asiapay.payment_provider_form
 msgid "Secure Hash Secret"
-msgstr "Sikker hash-hemmelighed"
+msgstr ""
 
 #. module: payment_asiapay
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__asiapay_brand__siampay
 msgid "SiamPay"
-msgstr "SiamPay"
+msgstr ""
 
 #. module: payment_asiapay
 #: model:ir.model.fields,help:payment_asiapay.field_payment_provider__asiapay_merchant_id
 msgid "The Merchant ID solely used to identify your AsiaPay account."
 msgstr ""
-"Forhandler-ID’et bruges udelukkende til at identificere din AsiaPay-konto."
 
 #. module: payment_asiapay
 #: model:ir.model.fields,help:payment_asiapay.field_payment_provider__asiapay_brand
 msgid "The brand associated to your AsiaPay account."
-msgstr "Brandet, der er knyttet til din AsiaPay-konto."
+msgstr ""
 
 #. module: payment_asiapay
 #: model:ir.model.fields,help:payment_asiapay.field_payment_provider__asiapay_secure_hash_function
 msgid "The secure hash function associated to your AsiaPay account."
-msgstr "Den sikre hash-funktion, der er knyttet til din AsiaPay-konto."
+msgstr ""
 
 #. module: payment_asiapay
 #: model:ir.model.fields,help:payment_asiapay.field_payment_provider__code
 msgid "The technical code of this payment provider."
-msgstr "Betalingsudbyderens tekniske kode."
+msgstr ""
 
 #. module: payment_asiapay
 #. odoo-python
 #: code:addons/payment_asiapay/models/payment_transaction.py:0
 msgid "Unknown success code: %s"
-msgstr "Ukendt succeskode: %s"
+msgstr ""

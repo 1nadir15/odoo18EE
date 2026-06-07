@@ -301,7 +301,7 @@ class IntrastatReportCustomHandler(models.AbstractModel):
 
             # Determine values fields
             if is_weight_required:
-                grouped_items = defaultdict(lambda: {'value': 0, 'weight': 0, 'supplementary_units': 0})
+                grouped_items = defaultdict(lambda: {'value': 0, 'weight': 0})
             else:
                 grouped_items = defaultdict(lambda: {'value': 0})
 
@@ -311,7 +311,6 @@ class IntrastatReportCustomHandler(models.AbstractModel):
                 grouped_items[item_group_key]['value'] += item['value']
                 if is_weight_required:
                     grouped_items[item_group_key]['weight'] += item['weight']
-                    grouped_items[item_group_key]['supplementary_units'] += float(item.get('supplementary_units') or 0)
 
             # Convert the grouped_items dictionary back to a list of dictionaries
             items[regime] = [dict(zip(grouping_key, grouped_item_key)) | grouped_item_values

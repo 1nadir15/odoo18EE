@@ -29,7 +29,7 @@ class L10nBeExportSDWorxLeavesWizard(models.TransientModel):
         return [(year, year) for year in range(current_year - 5, current_year + 1)]
 
     leave_ids = fields.Many2many(
-        'hr.leave', string="Leaves", domain=lambda self: [('employee_company_id', '=', self.env.company.id), ('employee_id.employee_type', '!=', 'freelance')],
+        'hr.leave', string="Leaves", domain=lambda self: [('employee_company_id', '=', self.env.company.id)],
         compute='_compute_leave_ids', store=True, readonly=False)
     global_leave_ids = fields.Many2many(
         'resource.calendar.leaves', string='Global Time Off',
@@ -86,7 +86,7 @@ class L10nBeExportSDWorxLeavesWizard(models.TransientModel):
                 ('company_id', 'in', self.env.companies.ids),
                 ('date_from', '<=', last_day),
                 ('date_to', '>=', first_day),
-                ('calendar_id', 'in', [False] + employees.resource_calendar_id.ids),
+                ('calendar_id', 'in', employees.resource_calendar_id.ids),
                 ('work_entry_type_id', '!=', False),
             ])
             invalid_work_entry_types = global_leaves.work_entry_type_id.filtered(lambda gto: not gto.sdworx_code)
@@ -99,10 +99,7 @@ class L10nBeExportSDWorxLeavesWizard(models.TransientModel):
     def _check_sdworx_configuration(self):
         if not self.env.company.sdworx_code:
             raise UserError(_('There is no SDWorx code defined on the company. Please configure it on the Payroll Settings'))
-        employees = self.env['hr.employee'].search([
-            ('company_id', '=', self.env.company.id),
-            ('employee_type', '!=', 'freelance'),
-        ])
+        employees = self.env['hr.employee'].search([('company_id', '=', self.env.company.id)])
         invalid_employees = employees.filtered(lambda e: not e.sdworx_code)
         if invalid_employees:
             raise UserError(_('There is no SDWorx code defined for the following employees:\n %s',
@@ -211,12 +208,10 @@ class L10nBeExportSDWorxLeavesWizard(models.TransientModel):
                                 prestation['pm'][-4:])
 
         for public_leave in self.global_leave_ids:
-            employees = self.env['hr.employee'].search([
-                ('resource_calendar_id', '=', public_leave.calendar_id.id),
-                ('employee_type', '!=', 'freelance'),
-            ] if public_leave.calendar_id else [])
+            employees = self.env['hr.employee'].search([('resource_calendar_id', '=', public_leave.calendar_id.id)] if
+                                                       public_leave.calendar_id else [])
             number_of_days = (public_leave.date_to - public_leave.date_from).days + 1
-            for employee in employees.filtered(lambda emp: emp in prestations):
+            for employee in employees:
                 for i in range(number_of_days):
                     leave_date = pytz.utc.localize(public_leave.date_from).astimezone(pytz.timezone(self.env.user.tz or 'UTC')) + relativedelta(days=i)
                     date_str = leave_date.strftime('%Y%m%d')

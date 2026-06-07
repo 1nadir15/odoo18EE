@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-15 17:52+0000\n"
-"PO-Revision-Date: 2026-05-07 14:11+0000\n"
+"POT-Creation-Date: 2026-04-10 18:49+0000\n"
+"PO-Revision-Date: 2026-04-11 09:06+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "hr_contract_salary/uk/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_personal_info__impacts_net_salary
@@ -1133,8 +1133,6 @@ msgid ""
 "HR Responsible %s should be a user of Sign when New Contract Document "
 "Template is specified"
 msgstr ""
-"Відповідальний за персонал %s має бути користувачем модуля Підпис, коли "
-"вказано шаблон нового контрактного документа"
 
 #. module: hr_contract_salary
 #. odoo-python
@@ -1143,8 +1141,6 @@ msgid ""
 "HR Responsible %s should have a valid email address when New Contract "
 "Document Template is specified"
 msgstr ""
-"Відповідальний за HR %s повинен мати дійсну адресу електронної пошти, коли "
-"вказано шаблон нового контрактного документа"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_benefit__has_admin_access
@@ -1227,7 +1223,6 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_benefit__always_show_description
 msgid "If unchecked, Description will only be shown when Benefit is selected"
 msgstr ""
-"Якщо не позначено, опис відображатиметься лише тоді, коли вибрано Бенефіт"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract__image_1920
@@ -1511,7 +1506,7 @@ msgstr "Чистий розрахунок"
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
 msgid "New Contract"
-msgstr "Новий контракт"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_history__sign_template_id
@@ -1521,7 +1516,7 @@ msgstr "Новий шаблон документа контракту"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract__sign_template_id
 msgid "New Contract Template"
-msgstr "Новий шаблон контракту"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_offer__activity_calendar_event_id
@@ -1568,7 +1563,7 @@ msgstr "Не знайдено шаблону"
 #. odoo-python
 #: code:addons/hr_contract_salary/wizard/refuse_offer_wizard.py:0
 msgid "No offer selected"
-msgstr "Не обрано пропозиції"
+msgstr ""
 
 #. module: hr_contract_salary
 #. odoo-python
@@ -1625,13 +1620,13 @@ msgstr "Кількість повідомлень з помилковою дст
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_offer__offer_create_date
 msgid "Offer Create Date"
-msgstr "Дата створення пропозиції"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.actions.act_window,name:hr_contract_salary.hr_contract_salary_offer_refusal_reasons
 #: model:ir.ui.menu,name:hr_contract_salary.menu_hr_contract_salary_offer_refusal_reasons
 msgid "Offer Refusal Reasons"
-msgstr "Причини відмови у пропозиції"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_offer__offer_end_date
@@ -1642,7 +1637,7 @@ msgstr "Термін дії пропозиції"
 #. odoo-python
 #: code:addons/hr_contract_salary/models/hr_contract_salary_offer.py:0
 msgid "Offer for %(recipient)s"
-msgstr "Пропозиція для %(recipient)s"
+msgstr ""
 
 #. module: hr_contract_salary
 #. odoo-python
@@ -1650,8 +1645,6 @@ msgstr "Пропозиція для %(recipient)s"
 msgid ""
 "Offer link can not be send. The applicant needs to have a name and email."
 msgstr ""
-"Посилання на пропозицію не можна надіслати. Заявнику необхідно вказати ім'я "
-"та електронну адресу."
 
 #. module: hr_contract_salary
 #: model:ir.actions.act_window,name:hr_contract_salary.hr_contract_salary_offer_action
@@ -1681,7 +1674,7 @@ msgstr "Оригінальне посилання"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract__originated_offer_id
 msgid "Originated Offer"
-msgstr "Оригінальна пропозиція"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info.value,name:hr_contract_salary.hr_contract_salary_personal_info_certificate_other
@@ -1692,7 +1685,7 @@ msgstr "Інше"
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
 msgid "PDF Template"
-msgstr "Шаблон PDF"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_personal_info__parent_id
@@ -1859,13 +1852,13 @@ msgstr "Червоний"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_offer__refusal_date
 msgid "Refusal Date"
-msgstr "Дата відмови"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_offer__refusal_reason
 #: model:ir.model.fields,field_description:hr_contract_salary.field_refuse_offer_wizard__refusal_reason
 msgid "Refusal Reason"
-msgstr "Причина відмови"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.actions.server,name:hr_contract_salary.action_refuse_salary_offer
@@ -1876,7 +1869,7 @@ msgstr "Відхилити"
 #: model:ir.actions.act_window,name:hr_contract_salary.open_refuse_wizard
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.refuse_offer_wizard_view_form
 msgid "Refuse Offer"
-msgstr "Відхилити пропозицію"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_salary_offer_refusal_reasons_view_tree
@@ -1886,7 +1879,7 @@ msgstr "Причина відмови"
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_refuse_offer_wizard
 msgid "Refuse an Offer"
-msgstr "Відхилити пропозицію"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_offer__state__refused
@@ -1913,7 +1906,7 @@ msgstr "Запитувані документи"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_benefit__requested_documents_field_ids
 msgid "Requested Documents (IDs)"
-msgstr "Запитувані документи (ID)"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_benefit__requested_documents
@@ -1924,7 +1917,7 @@ msgstr "Поля запитуваних документів"
 #. odoo-python
 #: code:addons/hr_contract_salary/models/hr_contract_salary_offer.py:0
 msgid "Requested Signature"
-msgstr "Запитуваний підпис"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_offer__sign_request_ids
@@ -1972,7 +1965,7 @@ msgstr "Налаштування зарплати"
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_benefit_view_form
 msgid "Salary Configurator Display"
-msgstr "Відображення конфігуратора заплати"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.actions.server,name:hr_contract_salary.ir_cron_update_offer_state_ir_actions_server
@@ -1988,7 +1981,7 @@ msgstr "Зарплатна пропозиція"
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_hr_contract_salary_offer_refusal_reason
 msgid "Salary Offer Refusal Reasons"
-msgstr "Причини відмови від пропозиції зарплати"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_applicant__salary_offers_count
@@ -2097,20 +2090,17 @@ msgstr "Оберіть область"
 msgid ""
 "Select other Benefits that need to be selected to make this Benefit available"
 msgstr ""
-"Виберіть інші переваги, які потрібно вибрати, щоб ця перевага була доступною"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_benefit__cost_res_field_id
 msgid "Select the contract's field to consider in salary computation"
 msgstr ""
-"Виберіть поле контракту, яке потрібно враховувати під час розрахунку "
-"заробітної плати"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_benefit__res_field_id
 msgid ""
 "Select the contract's field where the value of the benefit will be written"
-msgstr "Виберіть поле договору, де буде записано значення вигоди"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_personal_info__display_type__dropdown
@@ -2125,7 +2115,7 @@ msgstr "Тип вибору"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_benefit_value__selector_highlight
 msgid "Selector Highlight"
-msgstr "Виділення селектора"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_sidebar
@@ -2208,7 +2198,7 @@ msgstr "Підписати замовлення"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract__sign_template_signatories_ids
 msgid "Sign Template Signatories"
-msgstr "Шаблон підпису для підписантів"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_hr_contract_sign_document_wizard
@@ -2218,7 +2208,7 @@ msgstr "Підписати документ у контрактах"
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
 msgid "Signatories"
-msgstr "Підписанти"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_signatory__signatory
@@ -2260,7 +2250,7 @@ msgstr "Деякі обов'язкові поля не заповнені"
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_signatory__signatory__partner
 msgid "Specific Partner"
-msgstr "Конкретний партнер"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_personal_info__dropdown_selection__specific
@@ -2354,7 +2344,6 @@ msgstr ""
 msgid ""
 "The field here needs to be set for this benefit to be folded by default."
 msgstr ""
-"Це поле потрібно встановити, щоб ця перевага була скасована за замовчуванням."
 
 #. module: hr_contract_salary
 #. odoo-python
@@ -2374,13 +2363,11 @@ msgstr "Кількість підписів на PDF-контракті з бі�
 msgid ""
 "The offer has been marked as refused when the linked applicant was declined."
 msgstr ""
-"Пропозицію було позначено як відхилену, коли пов’язаного заявника було "
-"відхилено."
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract__originated_offer_id
 msgid "The original offer"
-msgstr "Оригінальна пропозиція"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_benefit__activity_type_id
@@ -2394,7 +2381,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:ir.model.constraint,message:hr_contract_salary.constraint_hr_contract_salary_offer_check_validity_days_count
 msgid "The validity should not be negative."
-msgstr "Валідність не повинна бути негативною."
+msgstr ""
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_benefits
@@ -2428,7 +2415,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_contract_salary/controllers/main.py:0
 msgid "This offer has been fully signed, you can not sign it again.."
-msgstr "Цю пропозицію повністю підписано, ви не можете підписати її знову."
+msgstr ""
 
 #. module: hr_contract_salary
 #. odoo-python
@@ -2481,12 +2468,12 @@ msgstr "Одиниця вимірювання"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_signatory__update_contract_template_id
 msgid "Update Contract Template"
-msgstr "Оновити шаблон контракту"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_offer__validity_days_count
 msgid "Validity Days Count"
-msgstr "Підрахунок днів дії"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.res_config_settings_view_form_hr
@@ -2568,7 +2555,7 @@ msgstr "Чи має відображатися назва в Конфігура�
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_sidebar
 msgid "Write your message here and we will come back to you."
-msgstr "Напишіть тут своє повідомлення, і ми вам зв'яжемося."
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_benefit_type__periodicity__yearly
@@ -2597,7 +2584,7 @@ msgstr "Так"
 #. odoo-python
 #: code:addons/hr_contract_salary/models/hr_contract.py:0
 msgid "You cannot have multiple person responsible for the same role"
-msgstr "Ви не можете призначити кількох відповідальних за одну й ту саму роль"
+msgstr ""
 
 #. module: hr_contract_salary
 #. odoo-python
@@ -2606,9 +2593,6 @@ msgid ""
 "You have to define contract templates to be used for offers. Go to "
 "Configuration / Contract Templates to define a contract template"
 msgstr ""
-"Вам потрібно визначити шаблони договорів, які будуть використовуватися для "
-"пропозицій. Перейдіть до розділу Налаштування / Шаблони договорів, щоб "
-"визначити шаблон договору"
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_personal_information
@@ -2642,6 +2626,11 @@ msgid "e.g. Meal Vouchers"
 msgstr "напр., Ваучери на їжу"
 
 #. module: hr_contract_salary
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_salary_offer_view_form
+msgid "e.g. Permanent, Replacement, Short term"
+msgstr ""
+
+#. module: hr_contract_salary
 #: model_terms:ir.actions.act_window,help:hr_contract_salary.hr_contract_salary_offer_recruitment_action
 msgid "here"
 msgstr "тут"
@@ -2652,8 +2641,6 @@ msgid ""
 "{{ object.company_id.name }}: Job Offer - "
 "{{ object.applicant_id.partner_name }}"
 msgstr ""
-"{{ object.company_id.name }}: Пропозиція - "
-"{{ object.applicant_id.partner_name }}"
 
 #. module: hr_contract_salary
 #: model:mail.template,subject:hr_contract_salary.mail_template_send_offer
@@ -2663,9 +2650,6 @@ msgid ""
 msgstr ""
 "{{ object.company_id.name }}: Пропозиція - "
 "{{ object.employee_contract_id.name }}"
-
-#~ msgid "e.g. Permanent, Replacement, Short term"
-#~ msgstr "наприклад, Постійний, Замінний, Короткостроковий"
 
 #~ msgid "00.00.00-000.00"
 #~ msgstr "00.00.00-000.00"

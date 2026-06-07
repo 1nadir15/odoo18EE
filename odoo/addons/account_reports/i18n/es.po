@@ -14,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
-"PO-Revision-Date: 2026-05-13 14:39+0000\n"
-"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
+"POT-Creation-Date: 2026-04-17 18:46+0000\n"
+"PO-Revision-Date: 2026-04-18 09:16+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/"
 "account_reports/es/>\n"
 "Language: es\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_reports
 #. odoo-javascript
@@ -353,7 +353,7 @@ msgstr "Cuenta:"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_res_company__account_representative_id
 msgid "Accounting Firm"
-msgstr "Asesoría contable"
+msgstr "Empresa contable"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_report
@@ -634,7 +634,7 @@ msgstr "Analítico"
 #: model:ir.model.fields,field_description:account_reports.field_account_analytic_line__analytic_coverage
 #: model:ir.model.fields,field_description:account_reports.field_account_move_line__analytic_coverage
 msgid "Analytic Coverage"
-msgstr "Cobertura analítica"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_report__filter_analytic_groupby
@@ -657,7 +657,7 @@ msgstr "Simulaciones analíticas"
 #: code:addons/account_reports/static/src/components/account_report/header/header.xml:0
 #: model_terms:ir.ui.view,arch_db:account_reports.pdf_export_main_table_header
 msgid "Analytic coverage"
-msgstr "Cobertura analítica"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -890,7 +890,7 @@ msgstr "CSV"
 #. odoo-python
 #: code:addons/account_reports/models/account_general_ledger.py:0
 msgid "CSV export only works with one column group"
-msgstr "La exportación a CSV solo funciona con un grupo de columnas"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -1203,6 +1203,12 @@ msgid ""
 msgstr ""
 "No se pudo expandir el término %(term)s al evaluar la fórmula %"
 "(unexpanded_formula)s"
+
+#. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+msgid "Could not parse account_code formula from token '%s'"
+msgstr "No se pudo analizar la fórmula account_code del token '%s'"
 
 #. module: account_reports
 #. odoo-javascript
@@ -3605,7 +3611,7 @@ msgid ""
 "Specify an Accounting Firm that will act as a representative when exporting "
 "reports."
 msgstr ""
-"Especifique una asesoría contable que actuará como representante al exportar "
+"Indique una asesoría contable que actuará como representante al exportar los "
 "informes."
 
 #. module: account_reports
@@ -4723,6 +4729,3 @@ msgstr ""
 #: code:addons/account_reports/static/src/components/multicurrency_revaluation_report/warnings.xml:0
 msgid "⇒ Reset to Odoo’s Rate"
 msgstr "⇒ Restablecer a la tasa de Odoo"
-
-#~ msgid "Could not parse account_code formula from token '%s'"
-#~ msgstr "No se pudo analizar la fórmula account_code del token '%s'"

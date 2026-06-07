@@ -1,23 +1,20 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * l10n_nl_reports_sbr
+# 	* l10n_nl_reports_sbr
 #
-# Bren Driesen <brdri@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-08 18:17+0000\n"
-"PO-Revision-Date: 2026-05-23 18:21+0000\n"
-"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
-"Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18-l10n/"
-"l10n_nl_reports_sbr/nl/>\n"
+"POT-Creation-Date: 2026-03-20 19:06+0000\n"
+"PO-Revision-Date: 2024-04-15 17:45+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: l10n_nl_reports_sbr
 #. odoo-python
@@ -56,13 +53,11 @@ msgstr "Kan rapport worden verzonden"
 #. module: l10n_nl_reports_sbr
 #: model:ir.model.fields,help:l10n_nl_reports_sbr.field_l10n_nl_reports_sbr_tax_report_wizard__is_test
 msgid ""
-"Check this if you want the system to use the pre-production environment. A "
-"valid PKIoverheid certificate is required for both pre-production and "
-"production environments."
+"Check this if you want the system to use the pre-production environment with "
+"test certificates."
 msgstr ""
-"Vink dit aan als je wilt dat het systeem de pre-productieomgeving gebruikt. "
-"Voor zowel de pre-productie- als de productieomgeving is een geldig "
-"PKIoverheid-certificaat vereist."
+"Vink dit aan als je de pre-productieomgeving met testcertificaten wilt "
+"gebruiken."
 
 #. module: l10n_nl_reports_sbr
 #: model_terms:ir.ui.view,arch_db:l10n_nl_reports_sbr.l10n_nl_reports_sbr_tax_report_wizard_form
@@ -212,19 +207,19 @@ msgstr "Laatst bijgewerkt op"
 #: model:ir.model.fields.selection,name:l10n_nl_reports_sbr.selection__l10n_nl_reports_sbr_icp_icp_wizard__tax_consultant_order__nba
 #: model:ir.model.fields.selection,name:l10n_nl_reports_sbr.selection__l10n_nl_reports_sbr_tax_report_wizard__tax_consultant_order__nba
 msgid "NBA - Accountants"
-msgstr "NBA - Accountants"
+msgstr ""
 
 #. module: l10n_nl_reports_sbr
 #: model:ir.model.fields.selection,name:l10n_nl_reports_sbr.selection__l10n_nl_reports_sbr_icp_icp_wizard__tax_consultant_order__noab
 #: model:ir.model.fields.selection,name:l10n_nl_reports_sbr.selection__l10n_nl_reports_sbr_tax_report_wizard__tax_consultant_order__noab
 msgid "NOAB - Dutch Order of Administrative and Tax Experts"
-msgstr "NOAB - Nederlandse Orde van Administratie- en Belastingdeskundigen"
+msgstr ""
 
 #. module: l10n_nl_reports_sbr
 #: model:ir.model.fields.selection,name:l10n_nl_reports_sbr.selection__l10n_nl_reports_sbr_icp_icp_wizard__tax_consultant_order__nob
 #: model:ir.model.fields.selection,name:l10n_nl_reports_sbr.selection__l10n_nl_reports_sbr_tax_report_wizard__tax_consultant_order__nob
 msgid "NOB - Dutch Order of Tax Advisors"
-msgstr "NOB - Nederlandse Orde van Belastingadviseurs"
+msgstr ""
 
 #. module: l10n_nl_reports_sbr
 #: model_terms:ir.ui.view,arch_db:l10n_nl_reports_sbr.l10n_nl_reports_sbr_tax_report_wizard_form
@@ -265,7 +260,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:l10n_nl_reports_sbr.selection__l10n_nl_reports_sbr_icp_icp_wizard__tax_consultant_order__rb
 #: model:ir.model.fields.selection,name:l10n_nl_reports_sbr.selection__l10n_nl_reports_sbr_tax_report_wizard__tax_consultant_order__rb
 msgid "RB - Register of Tax Advisors"
-msgstr "RB - Register belastingadviseurs"
+msgstr ""
 
 #. module: l10n_nl_reports_sbr
 #: model:ir.model.fields,field_description:l10n_nl_reports_sbr.field_res_company__l10n_nl_reports_sbr_server_root_cert_id
@@ -315,8 +310,9 @@ msgstr "Beconnummer"
 
 #. module: l10n_nl_reports_sbr
 #: model:ir.model.fields,field_description:l10n_nl_reports_sbr.field_l10n_nl_reports_sbr_tax_report_wizard__tax_consultant_order
+#, fuzzy
 msgid "Tax Consultant Order"
-msgstr "Orde van belastingconsulenten"
+msgstr "Beconnummer"
 
 #. module: l10n_nl_reports_sbr
 #. odoo-python
@@ -380,7 +376,7 @@ msgstr ""
 #. module: l10n_nl_reports_sbr
 #: model:ir.model.fields,help:l10n_nl_reports_sbr.field_l10n_nl_reports_sbr_tax_report_wizard__tax_consultant_order
 msgid "The order of tax consultants the tax consultant belongs to."
-msgstr "De beroepsorde waarbij de belastingconsulent is aangesloten."
+msgstr ""
 
 #. module: l10n_nl_reports_sbr
 #. odoo-python
@@ -391,12 +387,6 @@ msgid ""
 msgstr ""
 "Het certificaat van de hoofdserver is momenteel niet toegankelijk. Probeer "
 "het later nog eens."
-
-#. module: l10n_nl_reports_sbr
-#. odoo-python
-#: code:addons/l10n_nl_reports_sbr/wizard/l10n_nl_reports_sbr_tax_report_wizard.py:0
-msgid "The signing certificate is not trusted."
-msgstr "Het ondertekeningscertificaat is niet vertrouwd."
 
 #. module: l10n_nl_reports_sbr
 #: model:ir.model.fields,help:l10n_nl_reports_sbr.field_l10n_nl_reports_sbr_tax_report_wizard__tax_consultant_number
@@ -470,10 +460,3 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_nl_reports_sbr.tax_report_sbr_nt19
 msgid "iso4217:EUR"
 msgstr "iso4217:EUR"
-
-#~ msgid ""
-#~ "Check this if you want the system to use the pre-production environment "
-#~ "with test certificates."
-#~ msgstr ""
-#~ "Vink dit aan als je de pre-productieomgeving met testcertificaten wilt "
-#~ "gebruiken."

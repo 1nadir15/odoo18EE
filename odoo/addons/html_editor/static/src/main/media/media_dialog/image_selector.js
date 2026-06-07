@@ -92,7 +92,6 @@ export class ImageSelector extends FileSelector {
         this.MIN_ROW_HEIGHT = 128;
 
         this.fileMimetypes = IMAGE_MIMETYPES.join(",");
-        this.isProcessingClick = false;
     }
 
     get canLoadMore() {
@@ -301,19 +300,10 @@ export class ImageSelector extends FileSelector {
     }
 
     async onClickAttachment(attachment) {
-        if (this.isProcessingClick) {
-            return;
-        }
-        this.isProcessingClick = true;
         this.selectAttachment(attachment);
         if (!this.props.multiSelect) {
             await this.props.save();
         }
-        // The use of requestAnimationFrame is not ideal but we do it as a
-        // temporary fix as the media dialog will be refactored
-        requestAnimationFrame(() => {
-            this.isProcessingClick = false;
-        });
     }
 
     async onClickMedia(media) {

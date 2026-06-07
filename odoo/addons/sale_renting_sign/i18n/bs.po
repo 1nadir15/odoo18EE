@@ -2,13 +2,13 @@
 # This file contains the translation of the following modules:
 # * sale_renting_sign
 #
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:49+0000\n"
-"PO-Revision-Date: 2026-04-29 20:02+0000\n"
+"PO-Revision-Date: 2025-11-17 16:40+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
 "sale_renting_sign/bs/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: sale_renting_sign
 #: model:ir.model.fields,field_description:sale_renting_sign.field_sale_order__sign_request_count
@@ -43,7 +43,7 @@ msgstr "Kompanije"
 #. module: sale_renting_sign
 #: model:ir.model,name:sale_renting_sign.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr ""
 
 #. module: sale_renting_sign
 #: model:ir.model.fields,field_description:sale_renting_sign.field_rental_sign_wizard__create_uid

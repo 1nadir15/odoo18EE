@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-15 17:52+0000\n"
+"POT-Creation-Date: 2026-04-10 18:49+0000\n"
 "PO-Revision-Date: 2026-04-15 11:34+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/"
@@ -2658,6 +2658,11 @@ msgid "e.g. Meal Vouchers"
 msgstr "Bijv. maaltijdcheques"
 
 #. module: hr_contract_salary
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_salary_offer_view_form
+msgid "e.g. Permanent, Replacement, Short term"
+msgstr "bv. Permanent, Vervanging, Korte termijn"
+
+#. module: hr_contract_salary
 #: model_terms:ir.actions.act_window,help:hr_contract_salary.hr_contract_salary_offer_recruitment_action
 msgid "here"
 msgstr "hier"
@@ -2679,9 +2684,6 @@ msgid ""
 msgstr ""
 "{{ object.company_id.name }}: Vacature - "
 "{{ object.employee_contract_id.name }}"
-
-#~ msgid "e.g. Permanent, Replacement, Short term"
-#~ msgstr "bv. Permanent, Vervanging, Korte termijn"
 
 #~ msgid "00.00.00-000.00"
 #~ msgstr "00.00.00-000.00"

@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:44+0000\n"
-"PO-Revision-Date: 2026-04-29 18:53+0000\n"
+"PO-Revision-Date: 2026-04-18 18:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "web_studio/sk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: web_studio
 #. odoo-python
@@ -674,7 +674,7 @@ msgstr "Polia automatického dopĺňania"
 #. module: web_studio
 #: model:ir.model,name:web_studio.model_base_automation
 msgid "Automation Rule"
-msgstr "Pravidlo automatizácie"
+msgstr ""
 
 #. module: web_studio
 #. odoo-javascript
@@ -1438,7 +1438,7 @@ msgstr "Zrušiť"
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/selection_content_dialog.xml:0
 msgid "Discard changes"
-msgstr "Zrušiť zmeny"
+msgstr ""
 
 #. module: web_studio
 #. odoo-javascript
@@ -2714,7 +2714,7 @@ msgstr ""
 #: code:addons/web_studio/static/src/client_action/editor/new_model_item/new_model_item.xml:0
 #: code:addons/web_studio/static/src/client_action/menu_creator/menu_creator.js:0
 msgid "New Model"
-msgstr "Nový model"
+msgstr ""
 
 #. module: web_studio
 #. odoo-javascript
@@ -2932,7 +2932,7 @@ msgstr "Obrázok"
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor.js:0
 msgid "Pie"
-msgstr "Koláčový"
+msgstr ""
 
 #. module: web_studio
 #. odoo-javascript

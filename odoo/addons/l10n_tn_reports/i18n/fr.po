@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~16.2+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:10+0000\n"
-"PO-Revision-Date: 2026-05-16 09:04+0000\n"
+"PO-Revision-Date: 2026-01-17 09:04+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-18-l10n/"
 "l10n_tn_reports/fr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: l10n_tn_reports
 #: model:account.report.line,name:l10n_tn_reports.l10n_tn_bs_assets
@@ -270,7 +270,7 @@ msgstr "Charges de personnel"
 #. module: l10n_tn_reports
 #: model:ir.actions.client,name:l10n_tn_reports.l10n_tn_pl_to_bs_action
 msgid "Profit and loss account"
-msgstr "Compte de résultat"
+msgstr "Compte de résultats"
 
 #. module: l10n_tn_reports
 #: model:account.report.line,name:l10n_tn_reports.l10n_tn_bs_tangible_assets_gross

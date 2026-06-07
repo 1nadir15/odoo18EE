@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:45+0000\n"
-"PO-Revision-Date: 2026-05-27 15:25+0000\n"
-"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
+"PO-Revision-Date: 2026-04-18 18:31+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/hr_payroll/"
 "nl/>\n"
 "Language: nl\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: hr_payroll
 #. odoo-python
@@ -117,7 +117,7 @@ msgstr ""
 "* Wanneer een loonstrook ter controle is ingediend, is de status "
 "'Wachtend'.\n"
 "                \n"
-"* Wanneer een loonstrook is goedgekeurd, is de status 'Voltooid'.\n"
+"* Wanneer een loonstrook is goedgekeurd, is de status 'Gereed'.\n"
 "                \n"
 "* Wanneer een loonstrook is geannuleerd, is de status 'Geannuleerd'."
 
@@ -1664,7 +1664,7 @@ msgstr "Document"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Done"
-msgstr "Voltooid"
+msgstr "Gereed"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
@@ -1819,7 +1819,7 @@ msgstr "Functie werknemer"
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
 msgid "Employee Information"
-msgstr "Werknemersinformatie"
+msgstr "Werknemers informatie"
 
 #. module: hr_payroll
 #. odoo-javascript
@@ -3398,7 +3398,7 @@ msgstr "Loonadministratie: gegevens bijwerken"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_report__payslip_id
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Payslip"
-msgstr "Loonstrook"
+msgstr "Loonstrookje"
 
 #. module: hr_payroll
 #. odoo-python
@@ -4455,7 +4455,7 @@ msgid ""
 "The following payslips company differs from the batch's company:\n"
 "%s"
 msgstr ""
-"De volgende loonstroken van het bedrijf verschillen van het bedrijf van de "
+"De volgende loonstrookjes van het bedrijf verschillen van het bedrijf van de "
 "batch:\n"
 "%s"
 
@@ -4582,7 +4582,7 @@ msgid ""
 "available in all payslip."
 msgstr ""
 "Deze invoer is alleen beschikbaar in die structuur. Indien leeg, staat deze "
-"op alle loonstroken."
+"op alle loonstrookjes."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_contract_history__time_credit
@@ -4937,8 +4937,8 @@ msgstr ""
 "Vul de ontbrekende werkboekingen aan van %(employee_name)s:%"
 "(time_intervals_str)s \n"
 "\n"
-"Ontbrekende werkboekingen zijn als de Bermudadriehoek voor loonstroken. "
-"Laten we voorkomen dat de verdiensten van je collega's in het niets "
+"Ontbrekende werkboekingen zijn als de Bermudadriehoek voor loonstrookjes. "
+"Laten we voorkomen dat de verdiensten van je collega's in het nietd "
 "verdwijnen!"
 
 #. module: hr_payroll

@@ -1396,9 +1396,9 @@ registry.category("web_tour.tours").add("test_inventory_setting_show_quantity_to
                 helper.assertLineIsHighlighted(line1, false);
                 helper.assertLineIsHighlighted(line2, false);
                 helper.assertLineIsHighlighted(line3, false);
-                helper.assertLineQty(line1, "?/5 Dozens");
-                helper.assertLineQty(line2, "?/7 Units");
-                helper.assertLineQty(line3, "?/3 Units");
+                helper.assertLineQty(line1, "?/5");
+                helper.assertLineQty(line2, "?/7");
+                helper.assertLineQty(line3, "?/3");
                 helper.assertLineSourceLocation(line1, "WH/Stock");
                 helper.assertLineSourceLocation(line2, "WH/Stock");
                 helper.assertLineSourceLocation(line3, "WH/Stock");
@@ -1439,8 +1439,8 @@ registry.category("web_tour.tours").add("test_inventory_setting_show_quantity_to
             run: function () {
                 helper.assertSublinesCount(2);
                 const sublines = helper.getSublines();
-                helper.assertLineQty(sublines[0], "?/3 Units");
-                helper.assertLineQty(sublines[1], "?/4 Units");
+                helper.assertLineQty(sublines[0], "?/3");
+                helper.assertLineQty(sublines[1], "?/4");
                 helper.assertLinesTrackingNumbers(sublines, ["lot1", "lot2"]);
                 helper.assertButtonIsVisible(sublines[0], "count_zero");
                 helper.assertButtonIsVisible(sublines[0], "remove_unit", false);
@@ -1461,9 +1461,9 @@ registry.category("web_tour.tours").add("test_inventory_setting_show_quantity_to
             run: function () {
                 helper.assertSublinesCount(3);
                 const sublines = helper.getSublines();
-                helper.assertLineQty(sublines[0], "?/1 Units");
-                helper.assertLineQty(sublines[1], "?/1 Units");
-                helper.assertLineQty(sublines[2], "?/1 Units");
+                helper.assertLineQty(sublines[0], "?/1");
+                helper.assertLineQty(sublines[1], "?/1");
+                helper.assertLineQty(sublines[2], "?/1");
                 helper.assertLinesTrackingNumbers(sublines, ["sn1", "sn2", "sn3"]);
                 helper.assertButtonIsVisible(sublines[0], "count_zero");
                 helper.assertButtonIsVisible(sublines[0], "remove_unit", false);

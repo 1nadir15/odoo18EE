@@ -2,13 +2,13 @@
 # This file contains the translation of the following modules:
 # * industry_fsm_report
 #
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 18:47+0000\n"
-"PO-Revision-Date: 2026-04-29 18:59+0000\n"
+"PO-Revision-Date: 2025-11-17 16:36+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
 "industry_fsm_report/bs/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: industry_fsm_report
 #. odoo-javascript
@@ -77,7 +77,7 @@ msgstr ""
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_project_task_burndown_chart_report
 msgid "Burndown Chart"
-msgstr "Burndown grafikon"
+msgstr ""
 
 #. module: industry_fsm_report
 #: model:ir.ui.menu,name:industry_fsm_report.project_task_menu_planning_by_project_fsm
@@ -261,7 +261,7 @@ msgstr "Naziv:"
 #: model_terms:ir.actions.act_window,help:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet
 #: model_terms:ir.actions.act_window,help:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet2
 msgid "No tasks found. Let's create one!"
-msgstr "Nisu pronađeni zadaci. Kreirajmo jedan!"
+msgstr ""
 
 #. module: industry_fsm_report
 #: model_terms:ir.actions.act_window,help:industry_fsm_report.fsm_worksheets_action_settings
@@ -295,7 +295,7 @@ msgstr "Projekat"
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_template_view_form_footer_design_button
 msgid "Save & Close"
-msgstr "Spremi i zatvori"
+msgstr ""
 
 #. module: industry_fsm_report
 #. odoo-javascript
@@ -351,7 +351,7 @@ msgstr "Zadatak"
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_project_task_recurrence
 msgid "Task Recurrence"
-msgstr "Ponavljanje zadatka"
+msgstr ""
 
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_report_industry_fsm_worksheet_custom
@@ -361,7 +361,7 @@ msgstr ""
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_report_project_task_user
 msgid "Tasks Analysis"
-msgstr "Analiza zadataka"
+msgstr ""
 
 #. module: industry_fsm_report
 #. odoo-javascript

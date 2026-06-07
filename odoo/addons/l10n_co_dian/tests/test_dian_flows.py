@@ -286,29 +286,10 @@ class TestDianFlows(TestCoDianCommon):
         with patch(f'{self.utils_path}._build_and_send_request', return_value=self._mocked_response('GetAcquirer_partner.xml', 200)):
             partner.button_l10n_co_dian_refresh_data()
 
-        self.assertTrue(partner.child_ids)
-        self.assertRecordValues(partner.child_ids[0], [{
+        self.assertRecordValues(partner, [{
             'name': 'Real Company Name',
             'email': 'company@mail.com',
         }])
-
-    def test_get_aquirer_constraints(self):
-        """Refresh is rejected on a child contact and on a partner that already has an invoicing child."""
-        partner = self._create_partner(
-            country_id=self.env.ref('base.co').id,
-            vat='213123432-1',
-            email='test@mail.com',
-        )
-
-        self.env['res.partner'].create({
-            'name': 'Child Contact',
-            'parent_id': partner.id,
-            'type': 'invoice',
-            'email': 'existing@mail.com',
-        })
-        with patch(f'{self.utils_path}._build_and_send_request', return_value=self._mocked_response('GetAcquirer_partner.xml', 200)):
-            with self.assertRaisesRegex(UserError, "This contact has already been updated with DIAN information"):
-                partner.button_l10n_co_dian_refresh_data()
 
     def test_invoice_date_constraints_dian(self):
         """Test that invoices date older than 6 days or more than 6 days ahead trigger the constraint."""

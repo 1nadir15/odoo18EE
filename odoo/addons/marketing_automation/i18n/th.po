@@ -1,27 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * marketing_automation
+# 	* marketing_automation
 #
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2025
 #
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 19:42+0000\n"
-"PO-Revision-Date: 2026-06-06 18:32+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Thai <https://translate.odoo.com/projects/odoo-18/"
-"marketing_automation/th/>\n"
+"POT-Creation-Date: 2025-12-29 18:45+0000\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Rasareeyar Lappiam, 2025\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
@@ -31,7 +28,7 @@ msgstr "\" <strong>เด้งกลับ</strong>,"
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
 msgid "\" did <strong>not receive a reply</strong>,"
-msgstr "\" <strong>ไม่ได้รับคำตอบ</strong>"
+msgstr ""
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
@@ -1221,14 +1218,6 @@ msgstr "จำนวนการโต้ตอบ (ไลค์ แชร์ �
 #: code:addons/marketing_automation/models/marketing_campaign.py:0
 msgid "Offer free catalog"
 msgstr "เสนอแคตตาล็อกฟรี"
-
-#. module: marketing_automation
-#. odoo-python
-#: code:addons/marketing_automation/models/mailing_mailing.py:0
-msgid ""
-"Oops! You can't retry sending emails from inside a Marketing Automation "
-"campaign."
-msgstr ""
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form

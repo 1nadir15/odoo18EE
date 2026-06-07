@@ -25,8 +25,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
-"PO-Revision-Date: 2026-05-13 14:39+0000\n"
+"POT-Creation-Date: 2026-04-17 18:46+0000\n"
+"PO-Revision-Date: 2026-04-18 09:16+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "account_reports/da/>\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_reports
 #. odoo-javascript
@@ -642,7 +642,7 @@ msgstr "Analytisk"
 #: model:ir.model.fields,field_description:account_reports.field_account_analytic_line__analytic_coverage
 #: model:ir.model.fields,field_description:account_reports.field_account_move_line__analytic_coverage
 msgid "Analytic Coverage"
-msgstr "Dækning af omkostningsregnskabet"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_report__filter_analytic_groupby
@@ -665,7 +665,7 @@ msgstr "Analytiske simuleringer"
 #: code:addons/account_reports/static/src/components/account_report/header/header.xml:0
 #: model_terms:ir.ui.view,arch_db:account_reports.pdf_export_main_table_header
 msgid "Analytic coverage"
-msgstr "Dækning af omkostningsregnskabet"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -897,7 +897,7 @@ msgstr "CSV"
 #. odoo-python
 #: code:addons/account_reports/models/account_general_ledger.py:0
 msgid "CSV export only works with one column group"
-msgstr "CSV-eksport fungerer kun med én kolonnegruppe"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -1206,6 +1206,12 @@ msgid ""
 msgstr ""
 "Begrebet %(term)s kunne ikke udledes under evalueringen af formlen %"
 "(unexpanded_formula)s"
+
+#. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+msgid "Could not parse account_code formula from token '%s'"
+msgstr "Kunne ikke dele account_code formula fra token '%s'"
 
 #. module: account_reports
 #. odoo-javascript
@@ -4672,6 +4678,3 @@ msgstr ""
 #: code:addons/account_reports/static/src/components/multicurrency_revaluation_report/warnings.xml:0
 msgid "⇒ Reset to Odoo’s Rate"
 msgstr "⇒ Nulstil Odoo’s Rate"
-
-#~ msgid "Could not parse account_code formula from token '%s'"
-#~ msgstr "Kunne ikke dele account_code formula fra token '%s'"

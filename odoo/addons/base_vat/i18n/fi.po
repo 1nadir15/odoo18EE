@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:38+0000\n"
-"PO-Revision-Date: 2026-05-30 09:30+0000\n"
+"POT-Creation-Date: 2026-04-17 18:37+0000\n"
+"PO-Revision-Date: 2026-04-18 13:56+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-18/base_vat/"
 "fi/>\n"
@@ -25,14 +25,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
 msgstr ""
-"10XXXXXXXXY tai 20XXXXXXXXY tai 15XXXXXXXXY tai 16XXXXXXXXY tai 17XXXXXXXXY"
+"10XXXXXXXXXXY tai 20XXXXXXXXXXXXY tai 15XXXXXXXXXXY tai 16XXXXXXXXXXY tai "
+"17XXXXXXXXXXY"
 
 #. module: base_vat
 #. odoo-python
@@ -187,7 +188,7 @@ msgstr "Suorita VIES-tarkastus"
 #. module: base_vat
 #: model_terms:ir.ui.view,arch_db:base_vat.view_partner_base_vat_form
 msgid "Tax ID"
-msgstr "Verotunnus"
+msgstr "ALV-numero"
 
 #. module: base_vat
 #. odoo-python
@@ -214,8 +215,8 @@ msgstr ""
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
-msgid "The Intra-Community validity has been updated to: %s."
-msgstr ""
+msgid "The Intra-Community validity has been updated."
+msgstr "Yhteisön sisäinen voimassaolo on päivitetty."
 
 #. module: base_vat
 #. odoo-python
@@ -283,8 +284,8 @@ msgstr ""
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
-msgid "either 11 digits for CPF or 14 characters for CNPJ"
-msgstr "joko 11 numeroa CPF:lle tai 14 merkkiä CNPJ:lle"
+msgid "either 11 digits for CPF or 14 digits for CNPJ"
+msgstr "joko 11 numeroa CPF:n osalta tai 14 numeroa CNPJ:n osalta"
 
 #. module: base_vat
 #. odoo-python
@@ -297,12 +298,6 @@ msgstr "verokantasääntö [%s]"
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "partner [%s]"
 msgstr "kumppani [%s]"
-
-#~ msgid "The Intra-Community validity has been updated."
-#~ msgstr "Yhteisön sisäinen voimassaolo on päivitetty."
-
-#~ msgid "either 11 digits for CPF or 14 digits for CNPJ"
-#~ msgstr "joko 11 numeroa CPF:n osalta tai 14 numeroa CNPJ:n osalta"
 
 #~ msgid ""
 #~ "Connection with the VIES server failed. The VAT number %s could not be "

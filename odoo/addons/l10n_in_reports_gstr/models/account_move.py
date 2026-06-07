@@ -3,17 +3,12 @@
 import contextlib
 import json
 import jwt
-import logging
 from datetime import datetime, date
 from markupsafe import Markup
 
 from odoo import api, Command, fields, models, tools, _
 from odoo.tools import split_every
-from odoo.exceptions import RedirectWarning, UserError
 from .irn_exception import IrnException
-
-_logger = logging.getLogger(__name__)
-
 
 UOM_REF_MAP = {
     "CMS": "uom.product_uom_cm",
@@ -100,8 +95,7 @@ class AccountMove(models.Model):
         :returns: action to refresh the form view.
         """
         context = {'active_id': self.ids, 'active_model': 'account.move'}
-        for company in self.company_id:
-            self.env['l10n_in.gst.return.period'].with_context(context)._check_config(next_gst_action='fetch_irn_from_account_move', company=company)
+        self.env['l10n_in.gst.return.period'].with_context(context)._check_config(next_gst_action='fetch_irn_from_account_move', company=self.env.company)
 
         JSON_MIMETYPE = 'application/json'
         STATUS_CANCELLED = 'CNL'
@@ -162,10 +156,8 @@ class AccountMove(models.Model):
                 ]
                 moves = self.env['account.move'].search(domain)
                 for move_batch in split_every(job_count, moves):
-                    try:
-                        move_batch.l10n_in_update_move_using_irn()
-                    except (RedirectWarning, UserError):
-                        _logger.exception('Error when update Bill with IRN')
+                    for move in move_batch:
+                        move.l10n_in_update_move_using_irn()
                     if not (tools.config['test_enable'] or tools.config['test_file']):
                         self._cr.commit()
 

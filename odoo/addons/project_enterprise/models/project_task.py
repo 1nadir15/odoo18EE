@@ -1325,14 +1325,9 @@ class Task(models.Model):
 
         cell_dt = timedelta(hours=1) if scale in ['day', 'week'] else timedelta(hours=12)
 
-        resource_by_id = {r.id: r for r in resources}
         result = {}
         for user_id in res_ids + [False]:
             resource_id = user_resource_mapping.get(user_id)
-            resource = resource_by_id.get(resource_id)
-            if resource and resource._is_flexible() and resource_id not in leaves_mapping:
-                result[user_id] = []
-                continue
             calendar = leaves_mapping.get(resource_id, company_leaves)
             # remove intervals smaller than a cell, as they will cause half a cell to turn grey
             # ie: when looking at a week, a employee start everyday at 8, so there is a unavailability

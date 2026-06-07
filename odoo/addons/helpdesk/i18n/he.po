@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * helpdesk
+# 	* helpdesk
 #
 # Translators:
 # Fishfur A Banter <fishfurbanter@gmail.com>, 2024
@@ -27,22 +27,21 @@
 # Hed Shefer <hed@laylinetech.com>, 2025
 # or balmas, 2025
 # Yoram Lavi, 2025
-# "Tiffany Chang (tic)" <tic@odoo.com>, 2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-01 17:46+0000\n"
-"PO-Revision-Date: 2026-05-13 16:55+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
-"Language-Team: Hebrew <https://translate.odoo.com/projects/odoo-18/helpdesk/"
-"he/>\n"
+"POT-Creation-Date: 2026-04-10 18:47+0000\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Yoram Lavi, 2025\n"
+"Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
+"1 == 0) ? 1: 2;\n"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket__answered_customer_message_count
@@ -142,7 +141,7 @@ msgid ""
 "        Dear <t t-out=\"object.sudo().partner_id.name or 'Madam/Sir'\">Madam/"
 "Sir</t>,<br/><br/>\n"
 "        We would like to inform you that we have closed your ticket "
-"(reference <t t-out=\"object.ticket_ref or ''\">15</t>).\n"
+"(reference <t t-out=\"object.id or ''\">15</t>). \n"
 "        We trust that the services provided have met your expectations and "
 "that you have found a satisfactory resolution to your issue.<br/><br/>\n"
 "        However, if you have any further questions or comments, please do "
@@ -157,6 +156,22 @@ msgid ""
 "    </div>\n"
 "        "
 msgstr ""
+"<br/><div>\n"
+"<t t-out=\"object.sudo().partner_id.name or 'Madam/Sir'\">גברתי/אדוני </"
+"t>היקר,<br/><br/>\n"
+"ברצוננו להודיע ​​לך שסגרנו את הכרטיס שלך (אסמכתא <t t-out=\"object.id or "
+"''\"></t>15). \n"
+"אנו סומכים על כך שהשירותים הניתנים עמדו בציפיות שלך ושמצאת פתרון משביע רצון "
+"לבעיה שלך.<br/><br/>\n"
+"עם זאת, אם יש לך שאלות או הערות נוספות, אנא אל תהסס להשיב לדוא\"ל זה כדי "
+"לפתוח מחדש את קריאת השירות שלך. \n"
+"הצוות שלנו תמיד כאן כדי לעזור לך ואנו נשמח לסייע לך בכל חשש נוסף שיש לך.<br/"
+"><br/>\n"
+"תודה שבחרת בשירותים שלנו ועל שיתוף הפעולה שלך לאורך תהליך זה. אנו באמת "
+"מעריכים את העסק שלך ומעריכים את ההזדמנות לשרת אותך<br/>.\n"
+"בברכה,<br/><br/>\n"
+"צוות <t t-out=\"object.team_id.name or 'Helpdesk'\">מוקד שירות ללקוחות</t>.\n"
+"</div>"
 
 #. module: helpdesk
 #: model:mail.template,body_html:helpdesk.rating_ticket_request_email_template
@@ -440,7 +455,8 @@ msgid ""
 msgstr ""
 "<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" "
 "title=\"By saving this change, the customer phone number will also be "
-"updated.\" invisible=\"not is_partner_phone_update\"/>"
+"updated.\" invisible=\"not is_partner_phone_update\"/>על ידי שמירת שינוי זה, "
+"מספר הטלפון של הלקוח יעודכן."
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_activity
@@ -3388,10 +3404,8 @@ msgstr "קריאת שירות נסגרה"
 
 #. module: helpdesk
 #: model:mail.template,subject:helpdesk.solved_ticket_request_email_template
-msgid ""
-"Ticket Closed - Reference {{ object.ticket_ref if object.ticket_ref else "
-"15 }}"
-msgstr ""
+msgid "Ticket Closed - Reference {{ object.id if object.id else 15 }}"
+msgstr "קריאת שירות- אסמכתא {{ object.id if object.id else 15 }}"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla__ticket_count
@@ -3937,46 +3951,3 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:helpdesk.team_rating_data
 msgid "{{rating.res_name if t['is_helpdesk_user'] else ''}}"
 msgstr ""
-
-#~ msgid ""
-#~ "<div>\n"
-#~ "        Dear <t t-out=\"object.sudo().partner_id.name or 'Madam/"
-#~ "Sir'\">Madam/Sir</t>,<br/><br/>\n"
-#~ "        We would like to inform you that we have closed your ticket "
-#~ "(reference <t t-out=\"object.id or ''\">15</t>). \n"
-#~ "        We trust that the services provided have met your expectations "
-#~ "and that you have found a satisfactory resolution to your issue.<br/><br/"
-#~ ">\n"
-#~ "        However, if you have any further questions or comments, please do "
-#~ "not hesitate to reply to this email to re-open your ticket. \n"
-#~ "        Our team is always here to help you and we will be happy to "
-#~ "assist you with any further concerns you may have.<br/><br/>\n"
-#~ "        Thank you for choosing our services and for your cooperation "
-#~ "throughout this process. We truly value your business and appreciate the "
-#~ "opportunity to serve you.<br/><br/>\n"
-#~ "        Kind regards,<br/><br/>\n"
-#~ "        <t t-out=\"object.team_id.name or 'Helpdesk'\">Helpdesk</t> "
-#~ "Team.\n"
-#~ "    </div>\n"
-#~ "        "
-#~ msgstr ""
-#~ "<br/><div>\n"
-#~ "<t t-out=\"object.sudo().partner_id.name or 'Madam/Sir'\">גברתי/אדוני </"
-#~ "t>היקר,<br/><br/>\n"
-#~ "ברצוננו להודיע ​​לך שסגרנו את הכרטיס שלך (אסמכתא <t t-out=\"object.id or "
-#~ "''\"></t>15). \n"
-#~ "אנו סומכים על כך שהשירותים הניתנים עמדו בציפיות שלך ושמצאת פתרון משביע "
-#~ "רצון לבעיה שלך.<br/><br/>\n"
-#~ "עם זאת, אם יש לך שאלות או הערות נוספות, אנא אל תהסס להשיב לדוא\"ל זה כדי "
-#~ "לפתוח מחדש את קריאת השירות שלך. \n"
-#~ "הצוות שלנו תמיד כאן כדי לעזור לך ואנו נשמח לסייע לך בכל חשש נוסף שיש לך."
-#~ "<br/><br/>\n"
-#~ "תודה שבחרת בשירותים שלנו ועל שיתוף הפעולה שלך לאורך תהליך זה. אנו באמת "
-#~ "מעריכים את העסק שלך ומעריכים את ההזדמנות לשרת אותך<br/>.\n"
-#~ "בברכה,<br/><br/>\n"
-#~ "צוות <t t-out=\"object.team_id.name or 'Helpdesk'\">מוקד שירות ללקוחות</"
-#~ "t>.\n"
-#~ "</div>"
-
-#~ msgid "Ticket Closed - Reference {{ object.id if object.id else 15 }}"
-#~ msgstr "קריאת שירות- אסמכתא {{ object.id if object.id else 15 }}"

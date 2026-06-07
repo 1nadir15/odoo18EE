@@ -6,15 +6,14 @@
 # Wil Odoo, 2025
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
 # Fernanda Alvarez, 2025
-# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
-# "Patricia Gutiérrez (pagc)" <pagc@odoo.com>, 2026.
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-05-13 21:09+0000\n"
-"Last-Translator: \"Patricia Gutiérrez (pagc)\" <pagc@odoo.com>\n"
+"PO-Revision-Date: 2025-09-01 21:20+0000\n"
+"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/frontdesk/es_419/>\n"
 "Language: es_419\n"
@@ -23,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: frontdesk
 #. odoo-python
@@ -922,7 +921,7 @@ msgstr "Estado"
 #. odoo-javascript
 #: code:addons/frontdesk/static/src/end_page/end_page.xml:0
 msgid "Thank you for registering!"
-msgstr "¡Gracias por registrarte!"
+msgstr "¡Gracias por registrarse! "
 
 #. module: frontdesk
 #: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__theme
@@ -1028,7 +1027,7 @@ msgstr "Tu nombre"
 #. odoo-javascript
 #: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
 msgid "Your Phone Number"
-msgstr "Tu número de teléfono"
+msgstr "Su número de teléfono"
 
 #. module: frontdesk
 #: model:mail.template,subject:frontdesk.frontdesk_mail_template
@@ -1039,7 +1038,7 @@ msgstr "Su visitante {{ object.name }} solicitó reunirse con usted"
 #. odoo-javascript
 #: code:addons/frontdesk/static/src/end_page/end_page.xml:0
 msgid "Your drink is on the way."
-msgstr "Tu bebida ya está en camino."
+msgstr "Su bebida ya está en camino."
 
 #. module: frontdesk
 #: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_view_form
@@ -1068,7 +1067,7 @@ msgstr "Por ejemplo, juan@empresa.com"
 #. odoo-javascript
 #: code:addons/frontdesk/static/src/end_page/end_page.xml:0
 msgid "has been informed."
-msgstr "recibió el aviso."
+msgstr "ya se le avisó. "
 
 #. module: frontdesk
 #. odoo-javascript

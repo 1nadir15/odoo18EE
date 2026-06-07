@@ -623,7 +623,7 @@ class AccountMove(models.Model):
                 # invoice payment term should be PPD as soon as the due date
                 # is after the last day of  the month (the month of the invoice date).
                 if (
-                    move.move_type in ('out_invoice', 'out_refund')
+                    move.move_type == 'out_invoice'
                     and (
                         move.invoice_date_due.month > move.invoice_date.month
                         or move.invoice_date_due.year > move.invoice_date.year
@@ -960,7 +960,6 @@ class AccountMove(models.Model):
     def _l10n_mx_edi_get_invoice_cfdi_base_lines(self, global_invoice=False):
         self.ensure_one()
         base_lines, tax_lines = self._get_rounded_base_and_tax_lines()
-        base_lines = [base_line for base_line in base_lines if base_line['special_type'] != 'cash_rounding']
         for base_line in base_lines:
             invl = base_line['record']
             base_line.update({
@@ -2170,7 +2169,6 @@ class AccountMove(models.Model):
                 for invoice in sat_sent_payments[payment]:
                     results['need_update'].add(invoice)
 
-            invoices = invoices.filtered(lambda move: move.l10n_mx_edi_payment_policy != 'PUE')
             # Check if something changed in the already sent payment.
             if last_document.state == 'payment_sent':
                 current_uuids = set(invoices.mapped('l10n_mx_edi_cfdi_uuid'))

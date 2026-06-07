@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
-"PO-Revision-Date: 2026-05-02 18:01+0000\n"
+"PO-Revision-Date: 2026-04-02 17:21+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "sale_timesheet/sk/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: sale_timesheet
 #. odoo-python
@@ -961,17 +961,17 @@ msgstr "Nefakturované"
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__timesheet_revenues
 msgid "Number of hours spent multiplied by the unit price per hour/day."
-msgstr "Počet odpracovaných hodín vynásobený jednotkovou cenou za hodinu/deň."
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__billable_time
 msgid "Number of hours/days linked to a SOL."
-msgstr "Počet hodín/dní spojených s riadkom predajnej objednávky."
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__non_billable_time
 msgid "Number of hours/days not linked to a SOL."
-msgstr "Počet hodín/dní, ktoré nie sú spojené s riadkom predajnej objednávky."
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_sale_advance_payment_inv__date_end_invoice_timesheet
@@ -1003,13 +1003,13 @@ msgstr "Referencia objednávky"
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__other_costs
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__other_costs
 msgid "Other costs"
-msgstr "Iné náklady"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__other_revenues
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__other_revenues
 msgid "Other revenues"
-msgstr "Iné výnosy"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -1032,8 +1032,6 @@ msgid ""
 "Percentage of time delivered compared to the prepaid amount that must be "
 "reached for the upselling opportunity activity to be triggered."
 msgstr ""
-"Percentuálny podiel dodaného času v porovnaní s predplatenou sumou, ktorý "
-"musí byť dosiahnutý, aby sa spustila aktivita príležitosti na upsell."
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -1091,7 +1089,7 @@ msgstr "Projekt"
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_project_sale_line_employee_map
 msgid "Project Sales line, employee mapping"
-msgstr "Riadok predajnej objednávky projektu, mapovanie zamestnancov"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_product__project_template_id
@@ -1107,7 +1105,7 @@ msgstr "Aktualizácia projektu"
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__pricing_type__fixed_rate
 msgid "Project rate"
-msgstr "Projektová sadzba"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_create_invoice__project_id
@@ -1138,7 +1136,7 @@ msgstr "Skutočná zodpovednosť a výzvy v rýchlo sa rozvíjajúcej spoločnos
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_task__remaining_hours_available
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_line__remaining_hours_available
 msgid "Remaining Hours Available"
-msgstr "Zostávajúce dostupné hodiny"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -1157,18 +1155,16 @@ msgstr "Tržby"
 msgid ""
 "Review your timesheets by billing type and make sure your time is billable."
 msgstr ""
-"Skontrolujte svoje pracovné výkazy podľa typu fakturácie a uistite sa, že "
-"váš čas je fakturovateľný."
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_product_roofing_product_template
 msgid "Roofing"
-msgstr "Strecha"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_sale_page
 msgid "S0001"
-msgstr "S0001"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_sale_advance_payment_inv
@@ -1225,18 +1221,6 @@ msgid ""
 "timesheets on this project specifically. It will bypass the timesheet cost "
 "set on the employee."
 msgstr ""
-"Položka predajnej objednávky, ktorá bude predvolene vybraná v pracovných "
-"výkazoch príslušného zamestnanca. Obchádza položku predajnej objednávky "
-"definovanú v projektovom riadení a úlohe a v prípade potreby ju možno "
-"upraviť v každom zázname pracovného výkazu. Inými slovami, definuje sadzbu, "
-"podľa ktorej sa fakturuje čas zamestnanca na základe jeho odbornosti, "
-"zručností alebo skúseností.\n"
-"Ak chcete fakturovať tú istú službu za inú sadzbu, musíte vytvoriť dve "
-"samostatné položky predajnej objednávky, pretože každá položka predajnej "
-"objednávky môže mať naraz len jednu jednotkovú cenu.\n"
-"Môžete tiež definovať hodinové náklady spoločnosti na vašich zamestnancov "
-"pre ich pracovné výkazy špecificky pre tento projekt. Obíde to sadzbu "
-"nákladov v pracovných výkazoch nastavenú pre zamestnanca."
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_account_analytic_line__so_line
@@ -1274,18 +1258,18 @@ msgstr "Predávate služby a fakturujte strávený čas"
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_service_deliver_timesheet_1_product_template
 msgid "Senior Architect (Invoice on Timesheets)"
-msgstr "Senior architekt (fakturácia podľa výkazov práce)"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__service_revenues
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__service_revenues
 msgid "Service Revenues"
-msgstr "Príjmy zo služieb"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.time_product_product_template
 msgid "Service on Timesheets"
-msgstr "Služba podľa pracovných výkazov"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_project__timesheet_product_id
@@ -1295,9 +1279,6 @@ msgid ""
 "task. It can be modified on each task individually by selecting a specific "
 "sales order item."
 msgstr ""
-"Služba, ktorá sa bude používať štandardne pri fakturácii vykázaného času "
-"stráveného na úlohe. Je možné ju upraviť pre každú úlohu individuálne "
-"výberom konkrétnej položky Predajnej objednávky."
 
 #. module: sale_timesheet
 #: model:ir.actions.act_window,name:sale_timesheet.product_template_action_default_services
@@ -1308,12 +1289,12 @@ msgstr "Služby"
 #. module: sale_timesheet
 #: model:hr.job,name:sale_timesheet.job_engineer
 msgid "Site Manager"
-msgstr "Stavbyvedúci"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_product_solar_installation_product_template
 msgid "Solar Panel Installation"
-msgstr "Inštalácia solárnych panelov"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -1347,7 +1328,7 @@ msgstr "Požiadavka"
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__pricing_type__task_rate
 msgid "Task rate"
-msgstr "Sadzba za úlohu"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_report_project_task_user
@@ -1396,13 +1377,6 @@ msgid ""
 "senior consultants would deliver the same service (= consultancy), but at a "
 "different rate because of their level of seniority."
 msgstr ""
-"Sadzba za úlohu je ideálna, ak chcete fakturovať rôzne služby rôznym "
-"zákazníkom za rôzne sadzby. Fixná sadzba je ideálna, ak fakturujete službu "
-"za fixnú sadzbu za hodinu alebo deň práce bez ohľadu na zamestnanca, ktorý "
-"ju vykonal. Sadzba za zamestnanca je vhodnejšia, ak vaši zamestnanci "
-"poskytujú rovnakú službu za rôzne sadzby. Napríklad junior a senior "
-"konzultanti by poskytovali rovnakú službu (= poradenstvo), ale za rôzne "
-"sadzby vzhľadom na ich úroveň seniority."
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_sale_line_employee_map__cost
@@ -1410,8 +1384,6 @@ msgid ""
 "This cost overrides the employee's default employee hourly wage in "
 "employee's HR Settings"
 msgstr ""
-"Táto suma prepisuje predvolenú hodinovú mzdu zamestnanca v nastaveniach HR "
-"zamestnanca"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_product__service_upsell_threshold
@@ -1429,7 +1401,7 @@ msgstr "Účtovanie času"
 #: model:ir.model.fields,field_description:sale_timesheet.field_report_project_task_user__remaining_hours_so
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_line__remaining_hours
 msgid "Time Remaining on SO"
-msgstr "Zostávajúci čas na predajnej objednávke"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_hr_timesheet_line_graph_employee_per_date
@@ -1440,7 +1412,7 @@ msgstr "Strávený čas"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.product_template_view_search_sale_timesheet
 msgid "Time-based services"
-msgstr "Služby na základe výkazov práce"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.actions.act_window,name:sale_timesheet.timesheet_action_from_plan
@@ -1466,25 +1438,25 @@ msgstr "Náklady pracovného výkazu"
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_project__timesheet_product_id
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_task__timesheet_product_id
 msgid "Timesheet Product"
-msgstr "Produkt pracovného výkazu"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.hr_timesheet_report_search_sale_timesheet
 msgid "Timesheet Report"
-msgstr "Prehľad pracovných výkazov"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_timesheets_analysis_report__timesheet_revenues
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__timesheet_revenues
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__timesheet_revenues
 msgid "Timesheet Revenues"
-msgstr "Tržby z pracovných výkazov"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_bank_statement_line__timesheet_total_duration
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_move__timesheet_total_duration
 msgid "Timesheet Total Duration"
-msgstr "Celková doba pracovných výkazov"
+msgstr ""
 
 #. module: sale_timesheet
 #. odoo-python
@@ -1504,41 +1476,41 @@ msgstr "Pracovné výkazy"
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Billed Manually)"
-msgstr "Pracovné výkazy (fakturované manuálne)"
+msgstr ""
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Billed on Milestones)"
-msgstr "Pracovné výkazy (fakturované podľa míľníkov)"
+msgstr ""
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Billed on Timesheets)"
-msgstr "Pracovné výkazy (fakturované podľa pracovných výkazov)"
+msgstr ""
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Fixed Price)"
-msgstr "Pracovné výkazy (pevná cena)"
+msgstr ""
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Non-Billable)"
-msgstr "Pracovné výkazy (nefakturovateľné)"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheets_analysis_report_pivot_invoice_type
 msgid "Timesheets Analysis"
-msgstr "Analýza pracovných výkazov"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_timesheets_analysis_report
 msgid "Timesheets Analysis Report"
-msgstr "Prehľad pracovných výkazov"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.sale_advance_payment_inv_timesheet_view_form
@@ -1548,12 +1520,12 @@ msgstr "Obdobia pracovných výkazov"
 #. module: sale_timesheet
 #: model:ir.actions.act_window,name:sale_timesheet.timesheet_action_billing_report
 msgid "Timesheets by Billing Type"
-msgstr "Pracovné výkazy podľa typu fakturácie"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_sale_page
 msgid "Timesheets for the"
-msgstr "Pracovné výkazy pre"
+msgstr ""
 
 #. module: sale_timesheet
 #. odoo-python
@@ -1570,22 +1542,22 @@ msgstr "Pracovné výkazy na projekte (jeden zákazník na objednávku / projekt
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets revenues"
-msgstr "Tržby z pracovných výkazov"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__margin
 msgid "Timesheets revenues minus the costs"
-msgstr "Tržby z pracovných výkazov mínus náklady"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
 msgid "Timesheets taken into account when invoicing your time"
-msgstr "Pracovné výkazy, ktoré sa zohľadní pri fakturácii vášho času"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_res_config_settings__invoice_policy
 msgid "Timesheets taken when invoicing time spent"
-msgstr "Pracovné výkazy zaznamenané pri fakturácii vykázaného času"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_form
@@ -1625,8 +1597,6 @@ msgid ""
 "Total recorded duration, expressed in the encoding UoM, and rounded to the "
 "unit"
 msgstr ""
-"Celková zaznamenaná doba, vyjadrená v kódovej jednotke a zaokrúhlená na "
-"jednotku"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_product__service_type
@@ -1672,19 +1642,18 @@ msgstr ""
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_invoice_page_inherit
 msgid "View Timesheet"
-msgstr "Zobraziť pracovný výkaz"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_invoice_page_inherit
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.sale_order_portal_content_inherit
 msgid "View Timesheets"
-msgstr "Zobraziť pracovné výkazy"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_product_timesheet_form
 msgid "Warn the salesperson for an upsell when work done exceeds"
 msgstr ""
-"Upozornite predajcu na možnosť ďalšieho predaja, ak vykonaná práca presiahne"
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -1713,8 +1682,6 @@ msgid ""
 "You cannot link a billable project to a sales order item that comes from an "
 "expense or a vendor bill."
 msgstr ""
-"Fakturovateľný projekt nemôžete prepojiť s položkou predajnej objednávky, "
-"ktorá pochádza z výdavku alebo faktúry dodávateľa."
 
 #. module: sale_timesheet
 #. odoo-python
@@ -1723,41 +1690,39 @@ msgid ""
 "You cannot link a billable project to a sales order item that is not a "
 "service."
 msgstr ""
-"Fakturovateľný projekt nemôžete prepojiť s položkou predajnej objednávky, "
-"ktorá nie je službou."
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/hr_timesheet.py:0
 msgid "You cannot modify timesheets that are already invoiced."
-msgstr "Nemôžete upravovať pracovné výkazy, ktoré už boli fakturované."
+msgstr ""
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/hr_timesheet.py:0
 msgid "You cannot remove a timesheet that has already been invoiced."
-msgstr "Nemôžete odstrániť pracovný výkaz, ktorý už bol fakturovaný."
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__billing_type__manually
 msgid "billed manually"
-msgstr "fakturované manuálne"
+msgstr ""
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/sale_order_line.py:0
 msgid "days remaining"
-msgstr "zostávajúce dni"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__billing_type__not_billable
 msgid "not billable"
-msgstr "neúčtovateľné"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_product_timesheet_form
 msgid "of hours sold."
-msgstr "predaných hodín."
+msgstr ""
 
 #. module: sale_timesheet
 #. odoo-python

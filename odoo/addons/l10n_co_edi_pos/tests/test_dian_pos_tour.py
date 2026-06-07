@@ -46,5 +46,3 @@ class TestGenericCO(TestGenericLocalization, TestL10nCoEdiPosCommon):
             ]
 
             super().test_generic_localization()
-        report_data = self.env['report.point_of_sale.report_saledetails'].get_sale_details(session_ids=[self.main_pos_config.current_session_id.id])
-        self.assertEqual(report_data['l10n_co_edi_pos_serial_number'], 'SN000001', "Serial number should be correctly passed to the report data")

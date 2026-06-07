@@ -7,14 +7,13 @@
 # Manon Rondou, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
-# "Manon Rondou (ronm)" <ronm@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 18:47+0000\n"
-"PO-Revision-Date: 2026-05-08 09:18+0000\n"
-"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
+"PO-Revision-Date: 2026-04-14 08:19+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-18/"
 "industry_fsm_report/fr/>\n"
 "Language: fr\n"
@@ -23,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: industry_fsm_report
 #. odoo-javascript
@@ -303,7 +302,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet
 #: model:ir.actions.act_window,name:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet2
 msgid "Planning by Worksheet Template"
-msgstr "Planificiation par modèle de feuille de travail"
+msgstr "Planning par modèle de feuille de travail"
 
 #. module: industry_fsm_report
 #: model:ir.actions.server,name:industry_fsm_report.project_task_fsm_planning_groupby_worksheet_server_action

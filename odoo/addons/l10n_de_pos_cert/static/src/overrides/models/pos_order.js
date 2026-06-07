@@ -10,10 +10,10 @@ patch(PosOrder.prototype, {
         if (this.isCountryGermanyAndFiskaly()) {
             this.uiState = {
                 ...this.uiState,
-                transactionState: this.uiState.transactionState || "inactive",
-                receiptState: this.uiState.receiptState || "inactive",
+                tx_revision: this.uiState.tx_revision || 1,
             };
             this.fiskalyUuid = this.fiskalyUuid || "";
+            this.transactionState = this.transactionState || "inactive"; // Used to know when we need to create the fiskaly transaction
 
             // Init the tssInformation with the values from the config
             this.l10n_de_fiskaly_transaction_uuid = vals.l10n_de_fiskaly_transaction_uuid || false;
@@ -44,35 +44,20 @@ patch(PosOrder.prototype, {
     isCountryGermany() {
         return this.config.is_company_country_germany;
     },
-    // this are useful for restaurants only and will be moved
     isTransactionInactive() {
-        return this.uiState.transactionState === "inactive";
+        return this.transactionState === "inactive";
     },
     transactionStarted() {
-        this.uiState.transactionState = "started";
+        this.transactionState = "started";
     },
     isTransactionStarted() {
-        return this.uiState.transactionState === "started";
+        return this.transactionState === "started";
     },
     transactionFinished() {
-        this.uiState.transactionState = "finished";
+        this.transactionState = "finished";
     },
     isTransactionFinished() {
-        return this.uiState.transactionState === "finished" || this.l10n_de_fiskaly_time_start;
-    },
-    // Receipt Type
-    get isReceiptInactive() {
-        return this.uiState.receiptState === "inactive";
-    },
-    receiptStarted() {
-        this.uiState.receiptState = "started";
-    },
-    get isReceiptStarted() {
-        return this.uiState.receiptState === "started";
-    },
-    // When we validate the order, we need to move it to finished; otherwise, syncAllOrders will treat it as a blank order and start a new blank order.
-    receiptFinished() {
-        this.uiState.receiptState = "finished";
+        return this.transactionState === "finished" || this.l10n_de_fiskaly_time_start;
     },
     // @Override
     export_for_printing(baseUrl, headerData) {
@@ -110,6 +95,12 @@ patch(PosOrder.prototype, {
                     client_serial_number: {
                         name: "Client Serial No.",
                         value: this.l10n_de_fiskaly_client_serial_number,
+                    },
+                    erstBestellung: {
+                        name: "TSE-Erstbestellung",
+                        value: this.get_orderlines().length
+                            ? this.get_orderlines()[0].get_product().display_name
+                            : "Deposit",
                     },
                 };
             } else {

@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:44+0000\n"
-"PO-Revision-Date: 2026-05-27 15:23+0000\n"
-"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
+"PO-Revision-Date: 2026-04-18 18:31+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/web_studio/"
 "nl/>\n"
 "Language: nl\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: web_studio
 #. odoo-python
@@ -293,7 +293,7 @@ msgid ""
 "automatically mark as done when a document is uploaded"
 msgstr ""
 "Acties kunnen specifiek gedrag doen afgaan zoals het openen van de kalender "
-"weergave of automatisch als voltooid markeren wanneer een bestand geüpload is"
+"weergave of automatisch als gereed markeren wanneer een bestand geüpload is"
 
 #. module: web_studio
 #. odoo-javascript
@@ -1544,7 +1544,7 @@ msgstr "Domein"
 #. odoo-python
 #: code:addons/web_studio/models/ir_model.py:0
 msgid "Done"
-msgstr "Voltooid"
+msgstr "Gereed"
 
 #. module: web_studio
 #. odoo-javascript
@@ -3565,7 +3565,7 @@ msgstr "Verstuur berichten, log notities en plan activiteiten"
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.js:0
 msgid "Separator"
-msgstr "Scheidingslijn"
+msgstr "Scheidingsteken"
 
 #. module: web_studio
 #. odoo-python

@@ -2,22 +2,18 @@
 # This file contains the translation of the following modules:
 # * payment_authorize
 #
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:56+0000\n"
-"PO-Revision-Date: 2026-05-27 15:26+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
-"payment_authorize/lo/>\n"
+"PO-Revision-Date: 2017-09-20 09:53+0000\n"
+"Language-Team: Lao (https://www.transifex.com/odoo/teams/41243/lo/)\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17\n"
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
@@ -60,7 +56,7 @@ msgstr ""
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "Account Number"
-msgstr "ເລກບັນຊີ"
+msgstr ""
 
 #. module: payment_authorize
 #: model:ir.model.fields.selection,name:payment_authorize.selection__payment_provider__code__authorize
@@ -80,22 +76,22 @@ msgstr ""
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "Bank Name"
-msgstr "ຊື່ທະນາຄານ"
+msgstr ""
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "Card Code"
-msgstr "ລະຫັດບັດ"
+msgstr ""
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "Card Number"
-msgstr "ໝາຍເລກບັດ"
+msgstr ""
 
 #. module: payment_authorize
 #: model:ir.model.fields,field_description:payment_authorize.field_payment_provider__code
 msgid "Code"
-msgstr "ລະຫັດ"
+msgstr ""
 
 #. module: payment_authorize
 #. odoo-python
@@ -116,7 +112,7 @@ msgstr ""
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "Expiration"
-msgstr "ວັນໝົດອາຍຸ"
+msgstr ""
 
 #. module: payment_authorize
 #. odoo-python
@@ -139,7 +135,7 @@ msgstr ""
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "MM"
-msgstr "MM"
+msgstr ""
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
@@ -150,7 +146,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
-msgstr "ບໍ່ພົບທຸລະກຳທີ່ກົງກັບການອ້າງອີງ %s."
+msgstr ""
 
 #. module: payment_authorize
 #. odoo-python
@@ -161,23 +157,23 @@ msgstr ""
 #. module: payment_authorize
 #: model:ir.model,name:payment_authorize.model_payment_provider
 msgid "Payment Provider"
-msgstr "ຜູ້ໃຫ້ບໍລິການຊຳລະເງິນ"
+msgstr ""
 
 #. module: payment_authorize
 #: model:ir.model,name:payment_authorize.model_payment_token
 msgid "Payment Token"
-msgstr "ໂທເຄັນການຊຳລະເງິນ"
+msgstr ""
 
 #. module: payment_authorize
 #: model:ir.model,name:payment_authorize.model_payment_transaction
 msgid "Payment Transaction"
-msgstr "ທຸລະກຳການຊຳລະເງິນ"
+msgstr ""
 
 #. module: payment_authorize
 #. odoo-javascript
 #: code:addons/payment_authorize/static/src/js/payment_form.js:0
 msgid "Payment processing failed"
-msgstr "ການປະມວນຜົນການຊຳລະເງິນຫຼົ້ມເຫຼວ"
+msgstr ""
 
 #. module: payment_authorize
 #. odoo-python
@@ -212,7 +208,7 @@ msgstr ""
 #. module: payment_authorize
 #: model:ir.model.fields,help:payment_authorize.field_payment_provider__code
 msgid "The technical code of this payment provider."
-msgstr "ລະຫັດທາງເຕັກນິກຂອງຜູ້ໃຫ້ບໍລິການຊຳລະເງິນນີ້."
+msgstr ""
 
 #. module: payment_authorize
 #. odoo-python
@@ -225,7 +221,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 msgid "The transaction is not linked to a token."
-msgstr "ທຸລະກຳນີ້ບໍ່ໄດ້ຖືກເຊື່ອມໂຍງກັບໂທເຄັນ."
+msgstr ""
 
 #. module: payment_authorize
 #: model:ir.model.fields,help:payment_authorize.field_payment_token__authorize_profile

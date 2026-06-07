@@ -600,7 +600,7 @@ class TestAmazon(common.TestAmazonCommon):
                 'items': [{
                     'sku': self.offer.sku,
                     'productTypes': [{'productType': 'PRODUCT'}],
-                    "fulfillmentAvailability": [{"fulfillmentChannelCode": "DEFAULT"}],
+                    'attributes': {'merchant_shipping_group': {}},
                 }],
             },
         ):
@@ -616,7 +616,7 @@ class TestAmazon(common.TestAmazonCommon):
             feed_info = self.offer._get_feed_data()
 
         self.assertIn(self.offer, feed_info)
-        self.assertEqual(self.offer.amazon_feed_ref, '{"productType":"PRODUCT","is_fbm":false}')
+        self.assertEqual(self.offer.amazon_feed_ref, '{"productType":false,"is_fbm":false}')
 
     @mute_logger('odoo.addons.sale_amazon.models.amazon_offer')
     def test_offer_get_feed_data_fails_gracefully(self):

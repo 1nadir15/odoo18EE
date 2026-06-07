@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
-"PO-Revision-Date: 2026-05-09 09:15+0000\n"
+"PO-Revision-Date: 2026-04-14 08:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/odoo-"
 "18/account_peppol_response/pt_BR/>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "<span>This information will be sent with your response.</span>"
-msgstr "<span>Essas informações serão enviadas junto com sua resposta.</span>"
+msgstr ""
 
 #. module: account_peppol_response
 #. odoo-python
@@ -31,8 +31,6 @@ msgid ""
 "A Peppol response was sent to the Peppol Access Point declaring you "
 "%(status)s this document."
 msgstr ""
-"Uma resposta Peppol foi enviada ao Ponto de Acesso Peppol declarando que "
-"você %(status)s este documento."
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_account_edi_proxy_client_user
@@ -42,12 +40,12 @@ msgstr "Usuário proxy de EDI da conta"
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ab
 msgid "Acknowledgement"
-msgstr "Reconhecer"
+msgstr ""
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Actions to suggest"
-msgstr "Ações a sugerir"
+msgstr ""
 
 #. module: account_peppol_response
 #. odoo-python
@@ -56,8 +54,6 @@ msgid ""
 "An error occurred while responding to this invoice's expeditor.%(br)sStatus:"
 " %(status)s - %(error)s"
 msgstr ""
-"Ocorreu um erro ao responder ao remetente desta fatura.%(br)sStatus: %"
-"(status)s - %(error)s"
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ap
@@ -74,12 +70,12 @@ msgstr "Aprovada"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 #: code:addons/account_peppol_response/wizard/peppol_rejection_wizard.py:0
 msgid "At least one reason must be given when rejecting a Peppol invoice."
-msgstr "Pelo menos um motivo deve ser fornecido ao rejeitar uma fatura Peppol."
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_account_peppol_response
 msgid "Business Level Responses for Peppol"
-msgstr "Respostas de nível empresarial para Peppol"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_clarification__code
@@ -99,7 +95,7 @@ msgstr "Empresa"
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ca
 msgid "Conditionally accepted"
-msgstr "Aceito condicionalmente"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_res_partner
@@ -135,7 +131,7 @@ msgstr "Nome exibido"
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.res_partner_form_account_peppol_response
 msgid "Does not support Invoice Responses"
-msgstr "Não oferece suporte a respostas de faturas"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__peppol_state__done
@@ -181,13 +177,13 @@ msgstr "Última atualização em"
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_clarification__list_identifier
 msgid "List identifier"
-msgstr "Identificador da lista"
+msgstr ""
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Miscellaneous:"
-msgstr "Diversos:"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__move_ids
@@ -203,17 +199,17 @@ msgstr "Nome"
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__peppol_state__not_serviced
 msgid "Not Serviced"
-msgstr "Não atendido"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_clarification__list_identifier__opstatusaction
 msgid "OPStatusAction"
-msgstr "OPStatusAction"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_clarification__list_identifier__opstatusreason
 msgid "OPStatusReason"
-msgstr "OPStatusReason"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_bank_statement_line__peppol_move_state
@@ -224,7 +220,7 @@ msgstr "Status do Peppol"
 #. module: account_peppol_response
 #: model:ir.actions.server,name:account_peppol_response.ir_cron_peppol_auto_register_services_ir_actions_server
 msgid "PEPPOL: auto register services"
-msgstr "PEPPOL: serviços de registro automático"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__pd
@@ -240,53 +236,53 @@ msgstr "Recebimento pendente"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_bank_statement_line__peppol_can_send_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_move__peppol_can_send_response
 msgid "Peppol Can Send Response"
-msgstr "O Peppol pode enviar uma resposta"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_account_peppol_rejection_wizard
 msgid "Peppol Rejection wizard"
-msgstr "Assistente de rejeição do Peppol"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_bank_statement_line__peppol_response_ids
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_move__peppol_response_ids
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_form
 msgid "Peppol Response"
-msgstr "Resposta do Peppol"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_partner__peppol_response_support
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_users__peppol_response_support
 msgid "Peppol Response Service"
-msgstr "Serviço de Resposta Peppol"
+msgstr ""
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_move.py:0
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_list
 msgid "Peppol Responses"
-msgstr "Respostas do Peppol"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__peppol_message_uuid
 msgid "Peppol UUID"
-msgstr "UUID do Peppol"
+msgstr ""
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Peppol business response error: %s"
-msgstr "Erro de resposta comercial do Peppol: %s"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_account_peppol_clarification
 msgid "Peppol clarifications used for rejection"
-msgstr "Esclarecimentos do Peppol usados para rejeição"
+msgstr ""
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_move_form
 msgid "Peppol info"
-msgstr "Informações sobre Peppol"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__peppol_state
@@ -302,7 +298,7 @@ msgstr "Motivos"
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Reasons:"
-msgstr "Motivos:"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_move__peppol_move_state__ab
@@ -314,7 +310,7 @@ msgstr "Recebido"
 #: code:addons/account_peppol_response/models/account_move.py:0
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Reject Peppol Document"
-msgstr "Rejeitar documento Peppol"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_move__peppol_move_state__re
@@ -324,44 +320,44 @@ msgstr "Rejeitado"
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__re
 msgid "Rejection"
-msgstr "Rejeição"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__action_ids
 msgid "Rejection actions"
-msgstr "Ações de rejeição"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__reason_ids
 msgid "Rejection reasons"
-msgstr "Motivos de rejeição"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__response_code
 msgid "Response Code"
-msgstr "Código de resposta"
+msgstr ""
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Send Rejection"
-msgstr "Enviar rejeição"
+msgstr ""
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Suggested actions:"
-msgstr "Ações sugeridas:"
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_partner__peppol_supported_documents
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_users__peppol_supported_documents
 msgid "Supported Peppol Documents"
-msgstr "Documentos Peppol suportados"
+msgstr ""
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.res_partner_form_account_peppol_response
 msgid "Supports Invoice Responses"
-msgstr "Suporta respostas a faturas"
+msgstr ""
 
 #. module: account_peppol_response
 #. odoo-python
@@ -370,20 +366,18 @@ msgid ""
 "The Peppol receiver of this document has rejected it with the following "
 "information:%(br)s%(rejection_message)s"
 msgstr ""
-"O destinatário Peppol deste documento o rejeitou com as seguintes "
-"informações:%(br)s%(rejection_message)s"
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "The Peppol receiver of this document replied that he has accepted it."
-msgstr "O destinatário Peppol deste documento respondeu que o aceitou."
+msgstr ""
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "The Peppol receiver of this document replied that he has received it."
-msgstr "O destinatário Peppol deste documento respondeu que o recebeu."
+msgstr ""
 
 #. module: account_peppol_response
 #: model:ir.model.fields,help:account_peppol_response.field_account_peppol_rejection_wizard__action_ids
@@ -392,9 +386,6 @@ msgid ""
 "document to be accepted when sent again (eventually). These will be sent to "
 "the document's sender. Not mandatory."
 msgstr ""
-"As ações a serem sugeridas ao remetente do documento para que este seja "
-"aceito quando reenviado (eventualmente). Elas serão enviadas ao remetente do "
-"documento. Não é obrigatório."
 
 #. module: account_peppol_response
 #: model:ir.model.fields,help:account_peppol_response.field_account_peppol_rejection_wizard__reason_ids
@@ -402,13 +393,11 @@ msgid ""
 "The reasons to reject the received PEPPOL document. These will be sent to "
 "the document's sender."
 msgstr ""
-"Os motivos para rejeitar o documento PEPPOL recebido. Serão enviados ao "
-"remetente do documento."
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__uq
 msgid "Under query"
-msgstr "Sob consulta"
+msgstr ""
 
 #. module: account_peppol_response
 #. odoo-python
@@ -420,10 +409,10 @@ msgstr "aceito"
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "received"
-msgstr "recebido"
+msgstr ""
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "rejected"
-msgstr "rejeitado"
+msgstr ""

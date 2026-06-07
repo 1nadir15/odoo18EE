@@ -143,22 +143,6 @@ class TestHrAttendanceGantt(TransactionCase):
         self.assertEqual(interval[emp1.id]['max_value'], 8)
         self.assertEqual(interval[emp2.id]['max_value'], 8)
 
-        # If the user is not in UTC time, the start and stop datetimes will not at midnight.
-        # This could cause issues with the calculation of attendance intervals and, in turn, max_value.
-        # This block simulates this case. We'll simulate in Europe/Zurich time
-
-        self.env.user.write({'tz': 'Europe/Zurich'})  # UTC+2 (summer) or UTC+1 (winter)
-        interval_non_utc = self.env['hr.attendance']._gantt_progress_bar(
-            'employee_id',
-            [emp1.id, emp2.id],
-            datetime(2024, 1, 7, 22, 0),
-            datetime(2024, 1, 14, 22, 0),
-        )
-
-        # The max value should be the same, regardless of the browser timezone
-        self.assertEqual(interval_non_utc[emp1.id]['max_value'], 8)
-        self.assertEqual(interval_non_utc[emp2.id]['max_value'], 8)
-
     def test_gantt_rows_exclude_archived_amployee(self):
         emp1 = self.env['hr.employee'].create({'name': 'Employee 1'})
         emp2 = self.env['hr.employee'].create({'name': 'Employee 2'})

@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:37+0000\n"
-"PO-Revision-Date: 2026-05-16 09:07+0000\n"
+"POT-Creation-Date: 2026-04-17 18:37+0000\n"
+"PO-Revision-Date: 2026-04-18 13:59+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "account_edi_ubl_cii/uk/>\n"
@@ -20,11 +20,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
-"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
-"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
-"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
+"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
+"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
+"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -56,17 +56,17 @@ msgstr "(Роз)групування рядків за податком"
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.report_invoice_document
 msgid "<span class=\"text-muted\">FROM</span>"
-msgstr "<span class=\"text-muted\">ВІД</span>"
+msgstr ""
 
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.report_invoice_document
 msgid "<span class=\"text-muted\">TO</span>"
-msgstr "<span class=\"text-muted\">ДО</span>"
+msgstr ""
 
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
 msgid "A"
-msgstr "A"
+msgstr ""
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -78,6 +78,7 @@ msgstr "Було виявлено платіж %s."
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
+#: code:addons/account_edi_ubl_cii/models/account_edi_ubl.py:0
 msgid "A rounding amount of %s was detected."
 msgstr "Виявлено округлення у %s."
 
@@ -192,7 +193,6 @@ msgstr "Мережа бізнес-реєстрів"
 #: code:addons/account_edi_ubl_cii/models/account_move.py:0
 msgid "Cannot decode origin file, try by importing it again"
 msgstr ""
-"Не вдається розкодувати вихідний файл, спробуйте імпортувати його ще раз"
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -345,12 +345,6 @@ msgstr "Знижка"
 
 #. module: account_edi_ubl_cii
 #. odoo-python
-#: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
-msgid "Discount lines must have a negative amount."
-msgstr ""
-
-#. module: account_edi_ubl_cii
-#. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_ubl.py:0
 msgid "Draft"
 msgstr "Чернетка"
@@ -366,14 +360,14 @@ msgid "EAN Location Code"
 msgstr "Код локації EAN"
 
 #. module: account_edi_ubl_cii
+#: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
+msgid "EN 16931"
+msgstr "EN 16931"
+
+#. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_bis3
 msgid "EU Standard (Peppol Bis 3.0)"
 msgstr "Стандарт ЄС (Peppol Bis 3.0)"
-
-#. module: account_edi_ubl_cii
-#: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
-msgid "EXTENDED"
-msgstr ""
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -417,7 +411,6 @@ msgstr "ПДВ Естонії"
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
-#: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_20.py:0
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid "Exempt from tax"
 msgstr "Звільнено від податку"
@@ -510,12 +503,6 @@ msgstr "ПДВ Франція"
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0209
 msgid "GS1 identification keys"
 msgstr "Ключі ідентифікації GS1"
-
-#. module: account_edi_ubl_cii
-#. odoo-python
-#: code:addons/account_edi_ubl_cii/models/account_edi_ubl.py:0
-msgid "General discount"
-msgstr ""
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -806,22 +793,6 @@ msgid "Report Action"
 msgstr "Дія звіту"
 
 #. module: account_edi_ubl_cii
-#. odoo-python
-#: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
-msgid ""
-"Reverse charge: In the absence of a written objection within one month of "
-"receipt of the invoice, the customer is deemed to acknowledge that they are "
-"a taxable person required to file periodic returns. If this condition is not "
-"met, the customer will be liable for the payment of the tax, interest, and "
-"penalties due in relation to this condition."
-msgstr ""
-"Зворотне нарахування: За відсутності письмового заперечення протягом одного "
-"місяця з моменту отримання рахунку-фактури, вважається, що клієнт визнає, що "
-"він є платником податків, зобов'язаним подавати періодичні декларації. Якщо "
-"ця умова не виконується, клієнт несе відповідальність за сплату податку, "
-"відсотків та штрафів, що належать у зв'язку з цією умовою."
-
-#. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9947
 msgid "Romania VAT"
 msgstr "ПДВ Румунія"
@@ -938,14 +909,6 @@ msgid ""
 msgstr ""
 "Не вдалося отримати податок із відповідними умовами сплати: '%"
 "(exigibility)s' для рядка '%(line)s'."
-
-#. module: account_edi_ubl_cii
-#. odoo-python
-#: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
-msgid ""
-"Taxes of category 'Service outside scope of tax' shall not be mixed with tax "
-"from other categories. You should split your invoice in two"
-msgstr ""
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -1169,7 +1132,7 @@ msgstr "Ви можете (розгрупувати) лише рядки чер�
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_move.py:0
 msgid "You can only group lines of an invoice"
-msgstr "Ви можете групувати лише рядки рахунку-фактури"
+msgstr ""
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -1203,9 +1166,6 @@ msgstr "fx"
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
 msgid "urn:factur-x:pdfa:CrossIndustryDocument:invoice:1p0#"
 msgstr "urn:factur-x:pdfa:CrossIndustryDocument:invoice:1p0#"
-
-#~ msgid "EN 16931"
-#~ msgstr "EN 16931"
 
 #~ msgid "Cannot decode the origin file, try by importing it again"
 #~ msgstr ""

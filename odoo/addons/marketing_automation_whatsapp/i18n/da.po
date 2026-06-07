@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * marketing_automation_whatsapp
+# 	* marketing_automation_whatsapp
 #
 # Translators:
 # Mads Søndergaard, 2024
@@ -9,42 +9,40 @@
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Mads Søndergaard, 2025
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:47+0000\n"
-"PO-Revision-Date: 2026-04-29 19:38+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
-"marketing_automation_whatsapp/da/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Mads Søndergaard, 2025\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_activity_summary_template_whatsapp
 msgid "\" <strong>doesn't get opened</strong>,"
-msgstr "\" <strong>åbnes ikke</strong>,"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_activity_summary_template_whatsapp
 msgid "\" <strong>doesn't get replied</strong>,"
-msgstr "\" <strong>får ikke svar</strong>,"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_activity_summary_template_whatsapp
 msgid "\" <strong>gets bounced</strong>,"
-msgstr "\" <strong>leveres ikke</strong>,"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model.fields,field_description:marketing_automation_whatsapp.field_marketing_campaign__whatsapp_template_count
 msgid "# Whatsapp"
-msgstr "# WhatsApp"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
@@ -54,32 +52,32 @@ msgstr "<i class=\"fa fa-exclamation-circle\"/> Ikke Leveret efter"
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
 msgid "<i class=\"fa fa-exclamation-circle\"/> Clicked within"
-msgstr "<i class=\"fa fa-exclamation-circle\"/> Klikket inden for"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
 msgid "<i class=\"fa fa-exclamation-circle\"/> Not Clicked within"
-msgstr "<i class=\"fa fa-exclamation-circle\"/> Ikke klikket inden for"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
 msgid "<i class=\"fa fa-exclamation-circle\"/> Not Opened after"
-msgstr "<i class=\"fa fa-exclamation-circle\"/> Ikke åbnet efter"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
 msgid "<i class=\"fa fa-exclamation-circle\"/> Not Replied within"
-msgstr "<i class=\"fa fa-exclamation-circle\"/> Ikke besvaret inden for"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
 msgid "<i class=\"fa fa-exclamation-circle\"/> Opened after"
-msgstr "<i class=\"fa fa-exclamation-circle\"/> Åbnet efter"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
 msgid "<i class=\"fa fa-exclamation-circle\"/> Replied within"
-msgstr "<i class=\"fa fa-exclamation-circle\"/> Besvaret inden for"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
@@ -111,27 +109,6 @@ msgid ""
 "exclamation-circle o_ma_text_error o_add_child_activity text-danger\" "
 "title=\"Bounced\" role=\"img\" aria-label=\"Error\"/>"
 msgstr ""
-"<i data-trigger-type=\"whatsapp_read\" class=\"fa fa-check-circle "
-"o_ma_text_read o_add_child_activity text-info\" title=\"Åbnet\" role=\"img\" "
-"aria-label=\"Åbnet\"/>\n"
-"                <i data-trigger-type=\"whatsapp_not_read\" class=\"fa fa-"
-"check-circle o_ma_text_read o_add_child_activity text-danger\" title=\"Ikke "
-"åbnet\" role=\"img\" aria-label=\"Ikke åbnet\"/>\n"
-"                <i data-trigger-type=\"whatsapp_replied\" class=\"fa fa-"
-"reply o_ma_text_replied o_add_child_activity text-success\" "
-"title=\"besvaret\" role=\"img\" aria-label=\"besvaret\"/>\n"
-"                <i data-trigger-type=\"whatsapp_not_replied\" class=\"fa fa-"
-"reply o_ma_text_replied o_add_child_activity text-danger\" title=\"ikke "
-"besvaret\" role=\"img\" aria-label=\"ikke besvaret\"/>\n"
-"                <i data-trigger-type=\"whatsapp_click\" class=\"fa fa-hand-"
-"pointer-o o_ma_text_processed o_add_child_activity text-success\" "
-"title=\"Klikket\" role=\"img\" aria-label=\"Klikket\"/>\n"
-"                <i data-trigger-type=\"whatsapp_not_click\" class=\"fa fa-"
-"hand-pointer-o o_ma_text_rejected o_add_child_activity text-danger\" "
-"title=\"Ikke klikket\" role=\"img\" aria-label=\"Ikke klikket\"/>\n"
-"                <i data-trigger-type=\"whatsapp_bounced\" class=\"fa fa-"
-"exclamation-circle o_ma_text_error o_add_child_activity text-danger\" "
-"title=\"Ikke leveret\" role=\"img\" aria-label=\"Error\"/>"
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_participant_view_form
@@ -140,9 +117,6 @@ msgid ""
 "                        <i class=\"fa fa-check-circle\"/> Not opened yet\n"
 "                    </span>"
 msgstr ""
-"<span class=\"text-primary\">\n"
-"                        <i class=\"fa fa-check-circle\"/> Ikke åbnet endnu\n"
-"                   </span>"
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_participant_view_form
@@ -152,10 +126,6 @@ msgid ""
 "bounce yet\n"
 "                    </span>"
 msgstr ""
-"<span class=\"text-primary\">\n"
-"                        <i class=\"fa fa-exclamation-circle\"/> Er ikke "
-"blevet afvist endnu\n"
-"                   </span>"
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_participant_view_form
@@ -164,10 +134,6 @@ msgid ""
 "                        <i class=\"fa fa-hand-pointer-o\"/> Not clicked yet\n"
 "                    </span>"
 msgstr ""
-"<span class=\"text-primary\">\n"
-"                        <i class=\"fa fa-hand-pointer-o\"/> Ikke klikket "
-"endnu\n"
-"                   </span>"
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_participant_view_form
@@ -176,9 +142,6 @@ msgid ""
 "                        <i class=\"fa fa-reply\"/> Not replied\n"
 "                    </span>"
 msgstr ""
-"<span class=\"text-primary\">\n"
-"                        <i class=\"fa fa-reply\"/> Ikke besvaret\n"
-"                   </span>"
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model.fields,field_description:marketing_automation_whatsapp.field_marketing_activity__activity_type
@@ -204,7 +167,7 @@ msgstr "Diskussionskanal"
 #. odoo-python
 #: code:addons/marketing_automation_whatsapp/models/marketing_activity.py:0
 msgid "Exception in Whatsapp Marketing: %s"
-msgstr "Undtagelse i Whatsapp-marketing: %s"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model,name:marketing_automation_whatsapp.model_link_tracker_click
@@ -217,8 +180,6 @@ msgid ""
 "Make sure you select url tracking under buttons option, otherwise those "
 "links won't be tracked"
 msgstr ""
-"Sørg for at vælge \"URL-sporing\" under knapindstillingerne, ellers bliver "
-"linkene ikke sporet"
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model,name:marketing_automation_whatsapp.model_marketing_activity
@@ -228,7 +189,7 @@ msgstr "Marketing aktivitet"
 #. module: marketing_automation_whatsapp
 #: model:ir.actions.act_window,name:marketing_automation_whatsapp.whatsapp_template_action_marketing_automation
 msgid "Marketing Automation Whatsapp"
-msgstr "Marketingautomatisering: Whatsapp"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model,name:marketing_automation_whatsapp.model_marketing_campaign
@@ -249,22 +210,22 @@ msgstr "Marketing spor"
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
 msgid "Message Clicked"
-msgstr "Besked klikket"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
 msgid "Message Opened"
-msgstr "Besked åbnet"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
 msgid "Message Replied"
-msgstr "Besked besvaret"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
 msgid "Message Sent"
-msgstr "Besked sendt"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
@@ -275,25 +236,25 @@ msgstr "Åbnet"
 #. odoo-python
 #: code:addons/marketing_automation_whatsapp/models/marketing_trace.py:0
 msgid "Parent Whatsapp message got opened"
-msgstr "Overordnet WhatsApp-besked er blevet åbnet"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #. odoo-python
 #: code:addons/marketing_automation_whatsapp/models/marketing_trace.py:0
 msgid "Parent Whatsapp message was clicked"
-msgstr "Overordnet WhatsApp-besked blev klikket"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #. odoo-python
 #: code:addons/marketing_automation_whatsapp/models/marketing_trace.py:0
 msgid "Parent Whatsapp was replied to"
-msgstr "Overordnet WhatsApp-besked blev besvaret"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #. odoo-python
 #: code:addons/marketing_automation_whatsapp/models/marketing_trace.py:0
 msgid "Parent whatsapp was bounced"
-msgstr "Overordnet WhatsApp-besked blev afvist"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #. odoo-python
@@ -304,7 +265,7 @@ msgstr "Deltagere af  %(name)s (%(filter)s)"
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_activity_view_form
 msgid "Pick a Template..."
-msgstr "Vælg en skabelon ..."
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_campaign_view_form
@@ -368,69 +329,69 @@ msgstr "WhatsApp skabelonknap"
 #: code:addons/marketing_automation_whatsapp/models/marketing_activity.py:0
 #: code:addons/marketing_automation_whatsapp/models/whatsapp_message.py:0
 msgid "WhatsApp canceled"
-msgstr "WhatsApp-besked annulleret"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #. odoo-python
 #: code:addons/marketing_automation_whatsapp/models/marketing_activity.py:0
 msgid "WhatsApp failed"
-msgstr "WhatsApp-besked mislykket"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model.fields,field_description:marketing_automation_whatsapp.field_marketing_activity__whatsapp_error
 msgid "Whatsapp Error"
-msgstr "WhatsApp-fejl"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model.fields,field_description:marketing_automation_whatsapp.field_link_tracker_click__whatsapp_message_id
 #: model:ir.model.fields.selection,name:marketing_automation_whatsapp.selection__marketing_activity__activity_type__whatsapp
 msgid "Whatsapp Message"
-msgstr "WhatsApp-besked"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model.fields,field_description:marketing_automation_whatsapp.field_marketing_activity__whatsapp_template_id
 msgid "Whatsapp Template"
-msgstr "WhatsApp-skabelon"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model.fields.selection,name:marketing_automation_whatsapp.selection__marketing_activity__trigger_type__whatsapp_click
 msgid "Whatsapp: click"
-msgstr "WhatsApp: klikket"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model.fields.selection,name:marketing_automation_whatsapp.selection__marketing_activity__trigger_type__whatsapp_bounced
 msgid "Whatsapp: message bounced"
-msgstr "WhatsApp: besked ikke leveret"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model.fields.selection,name:marketing_automation_whatsapp.selection__marketing_activity__trigger_type__whatsapp_not_click
 msgid "Whatsapp: not click"
-msgstr "WhatsApp: ikke klikket"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model.fields.selection,name:marketing_automation_whatsapp.selection__marketing_activity__trigger_type__whatsapp_not_read
 msgid "Whatsapp: not opened"
-msgstr "WhatsApp: ikke åbnet"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model.fields.selection,name:marketing_automation_whatsapp.selection__marketing_activity__trigger_type__whatsapp_not_replied
 msgid "Whatsapp: not replied"
-msgstr "WhatsApp: ikke besvaret"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model.fields.selection,name:marketing_automation_whatsapp.selection__marketing_activity__trigger_type__whatsapp_read
 msgid "Whatsapp: opened"
-msgstr "WhatsApp: åbnet"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model:ir.model.fields.selection,name:marketing_automation_whatsapp.selection__marketing_activity__trigger_type__whatsapp_replied
 msgid "Whatsapp: replied"
-msgstr "WhatsApp: besvaret"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_activity_summary_template_whatsapp
 msgid "after the <strong>Whatsapp message</strong> sent by the Activity \""
-msgstr "efter <strong>WhatsApp-besked</strong> sendt af aktiviteten \""
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_activity_summary_template_whatsapp
@@ -438,9 +399,6 @@ msgid ""
 "after the Participant <strong>clicks</strong><br/>on any link included in "
 "the <strong>Whatsapp message</strong> sent by the Activity \""
 msgstr ""
-", efter at deltageren <strong>har klikket</strong><br/>på et hvilket som "
-"helst link inkluderet i <strong>WhatsApp-beskeden</strong> sendt af "
-"aktiviteten \""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_activity_summary_template_whatsapp
@@ -448,8 +406,6 @@ msgid ""
 "after the Participant <strong>opens the Whatsapp message</strong> sent by "
 "the Activity \""
 msgstr ""
-", efter at deltageren <strong>har åbnet WhatsApp-beskeden</strong>, der er "
-"sendt af aktiviteten \""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_activity_summary_template_whatsapp
@@ -457,18 +413,16 @@ msgid ""
 "after the Participant <strong>replies to the Whatsapp message</strong> sent "
 "by the Activity \""
 msgstr ""
-", efter at deltageren <strong>har svaret på WhatsApp-beskeden</strong> sendt "
-"af aktiviteten \""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_activity_summary_template_whatsapp
 msgid "doesn't get clicked,"
-msgstr "ikke bliver klikket på,"
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_activity_summary_template_whatsapp
 msgid "if <strong>Whatsapp message</strong> sent by the Activity \""
-msgstr ", hvis <strong>WhatsApp-beskeden</strong> sendt af aktiviteten \""
+msgstr ""
 
 #. module: marketing_automation_whatsapp
 #: model_terms:ir.ui.view,arch_db:marketing_automation_whatsapp.marketing_activity_summary_template_whatsapp
@@ -476,5 +430,3 @@ msgid ""
 "if no link included in the <strong>Whatsapp message</strong> sent by the "
 "Activity \""
 msgstr ""
-", hvis der ikke er inkluderet et link i <strong>WhatsApp-beskeden</strong> "
-"sendt af aktiviteten \""

@@ -466,7 +466,6 @@ class TestDocumentsAccess(TransactionCaseDocuments):
 
         self.folder_a.action_update_access_rights(partners={self.internal_user.partner_id.id: ('edit', False)})
         self.folder_b.action_update_access_rights(partners={self.internal_user.partner_id.id: ('view', False)})
-        self.document_gif.action_update_access_rights(partners={self.internal_user.partner_id.id: ('edit', False)})
         with self.assertRaises(AccessError):
             self.document_gif.with_user(self.internal_user).folder_id = self.folder_a
 
@@ -673,17 +672,6 @@ class TestDocumentsAccess(TransactionCaseDocuments):
         self.folder_a_a.action_update_access_rights(access_internal='edit')
         self.folder_a.with_user(self.internal_user).unlink()
         self.assertFalse(self.folder_a_a.exists())
-
-    @mute_logger('odoo.addons.base.models.ir_rule')
-    def test_archiving_as_portal(self):
-        """Check that (un)archiving is not allowed to portal users."""
-        self.folder_a.action_update_access_rights(partners={self.portal_user.partner_id: ("edit", False)})
-        with self.assertRaises(UserError):
-            self.folder_a.with_user(self.portal_user).action_archive()
-        self.folder_a.action_archive()
-        self.assertFalse(self.folder_a.active)
-        with self.assertRaises(UserError):
-            self.folder_a.with_user(self.portal_user).action_unarchive()
 
     @mute_logger('odoo.addons.base.models.ir_rule')
     def test_archiving_with_children(self):
@@ -1125,11 +1113,11 @@ class TestDocumentsAccess(TransactionCaseDocuments):
             'access_ids': [Command.create({'partner_id': self.doc_user.partner_id.id, 'role': 'edit'})],
         })
         # User creates two documents in that folder
-        user_doc_1, user_doc_2, user_doc_3 = user_docs = self.env['documents.document'].with_user(self.doc_user).create([{
+        user_doc_1, user_doc_2 = user_docs = self.env['documents.document'].with_user(self.doc_user).create([{
             'folder_id': folder.id,
             'name': f'User doc #{idx}',
             'type': 'binary',
-        } for idx in range(3)])
+        } for idx in range(2)])
         self.assertEqual(user_docs.owner_id, self.doc_user)
         # Manager removes user's role on the folder
         folder.with_user(self.document_manager).action_update_access_rights(
@@ -1150,8 +1138,6 @@ class TestDocumentsAccess(TransactionCaseDocuments):
         self.assertEqual(user_doc_2.with_user(self.doc_user).user_permission, 'edit')
         with self.assertRaises(UserError, msg="Editor without edit permission on folder shouldn't be able to archive"):
             user_doc_2.with_user(self.doc_user).action_archive()
-        with self.assertRaises(AccessError, msg="Editor without edit permission on folder shouldn't be able to archive"):
-            user_doc_2.with_user(self.doc_user).active = False
         with self.assertRaises(UserError, msg="Editor without edit permission on folder shouldn't be able to delete"):
             user_doc_2.with_user(self.doc_user).unlink()
 
@@ -1162,12 +1148,6 @@ class TestDocumentsAccess(TransactionCaseDocuments):
         user_doc_2.folder_id.sudo().access_internal = 'view'
         with self.assertRaises(UserError, msg="Editor with view permission on folder shouldn't be able to delete"):
             user_doc_2.with_user(self.doc_user).unlink()
-
-        user_doc_3.with_user(self.document_manager).owner_id = self.document_manager
-        user_doc_3.with_user(self.document_manager).action_update_access_rights(
-            partners={self.doc_user.partner_id: ('view', None)},
-        )
-        self.assertFalse((user_doc_2 | user_doc_3)._filtered_access('unlink'))
 
     def test_updating_owner(self):
         self.assertEqual(self.folder_a_a.owner_id, self.doc_user)

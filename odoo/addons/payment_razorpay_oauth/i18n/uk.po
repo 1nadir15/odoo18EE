@@ -3,14 +3,13 @@
 # * payment_razorpay_oauth
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
-"PO-Revision-Date: 2026-05-20 16:04+0000\n"
-"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"PO-Revision-Date: 2026-03-29 12:17+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "payment_razorpay_oauth/uk/>\n"
 "Language: uk\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
@@ -35,23 +34,22 @@ msgstr "Виникла помилка"
 #. odoo-python
 #: code:addons/payment_razorpay_oauth/models/payment_provider.py:0
 msgid "An error occurred when communicating with the proxy."
-msgstr "Сталася помилка під час зв'язку з проксі-сервером."
+msgstr ""
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.authorization_error
 msgid "An error occurred while linking your Razorpay account with Odoo."
 msgstr ""
-"Сталася помилка під час зв’язування вашого облікового запису Razorpay з Odoo."
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Are you sure you want to disconnect?"
-msgstr "Ви впевнені, що хочете відключитися?"
+msgstr ""
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.authorization_error
 msgid "Back to the Razorpay provider"
-msgstr "Повернутися до провайдера Razorpay"
+msgstr ""
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
@@ -62,13 +60,13 @@ msgstr "З'єднати"
 #. odoo-python
 #: code:addons/payment_razorpay_oauth/models/payment_provider.py:0
 msgid "Could not establish the connection."
-msgstr "Не вдалося встановити з'єднання."
+msgstr ""
 
 #. module: payment_razorpay_oauth
 #. odoo-python
 #: code:addons/payment_razorpay_oauth/controllers/onboarding.py:0
 msgid "Could not find Razorpay provider with id %s"
-msgstr "Неможливо знайти провайдера Razorpay з id %s"
+msgstr ""
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
@@ -89,17 +87,17 @@ msgstr "Провайдер платежу"
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_access_token
 msgid "Razorpay Access Token"
-msgstr "Токен доступу Razorpay"
+msgstr ""
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_access_token_expiry
 msgid "Razorpay Access Token Expiry"
-msgstr "Термін дії токена доступу Razorpay"
+msgstr ""
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_account_id
 msgid "Razorpay Account ID"
-msgstr "ID облікового запису Razorpay"
+msgstr ""
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_key_id
@@ -114,12 +112,12 @@ msgstr "Секретний ключ Razorpay"
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_public_token
 msgid "Razorpay Public Token"
-msgstr "Публічний токен Razorpay"
+msgstr ""
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_refresh_token
 msgid "Razorpay Refresh Token"
-msgstr "Оновити токен Razorpay"
+msgstr ""
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_webhook_secret
@@ -133,8 +131,6 @@ msgid ""
 "Razorpay credentials are missing. Click the \"Connect\" button to set up "
 "your account"
 msgstr ""
-"Немає облікових даних Razorpay. Натисніть кнопку «Підключитися», щоб "
-"налаштувати свій обліковий запис"
 
 #. module: payment_razorpay_oauth
 #. odoo-python
@@ -143,13 +139,11 @@ msgid ""
 "Razorpay is not available in your country; please use another payment "
 "provider."
 msgstr ""
-"Razorpay недоступний у вашій країні; будь ласка, скористайтеся іншим "
-"постачальником платіжних послуг."
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Reset Your Razorpay Account"
-msgstr "Скиньте свій обліковий запис Razorpay"
+msgstr ""
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,help:payment_razorpay_oauth.field_payment_provider__razorpay_key_id
@@ -161,7 +155,7 @@ msgstr ""
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "This provider is linked with your Razorpay account."
-msgstr "Цей постачальник послуг пов’язаний з вашим обліковим записом Razorpay."
+msgstr ""
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
@@ -175,13 +169,9 @@ msgid ""
 "                    deprecated. Click the \"Connect\" button below to use the recommended OAuth\n"
 "                    method."
 msgstr ""
-"Ви зараз підключені до Razorpay через метод облікових даних, який є \n"
-"застарілим. Натисніть кнопку «Підключитися» нижче, щоб скористатися "
-"рекомендованим\n"
-" методом OAuth."
 
 #. module: payment_razorpay_oauth
 #. odoo-python
 #: code:addons/payment_razorpay_oauth/models/payment_provider.py:0
 msgid "Your Razorpay webhook was successfully set up!"
-msgstr "Ваш вебхук Razorpay успішно налаштовано!"
+msgstr ""

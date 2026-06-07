@@ -23,14 +23,13 @@
 # Alen Komljen <alen@uvid.hr>, 2025.
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
-# Vladimir Vrgoč <vladimir@uvid.hr>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-03 18:51+0000\n"
-"PO-Revision-Date: 2026-04-29 20:01+0000\n"
-"Last-Translator: Vladimir Vrgoč <vladimir@uvid.hr>\n"
+"PO-Revision-Date: 2026-03-30 06:15+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "sale_subscription/hr/>\n"
 "Language: hr\n"
@@ -39,7 +38,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: sale_subscription
 #. odoo-python
@@ -1295,7 +1294,7 @@ msgstr "Moguće zatvoriti"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription_so_portal_template
 msgid "Close"
-msgstr "Reason"
+msgstr "Zatvori"
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_close_reason_wizard_action
@@ -1329,7 +1328,7 @@ msgstr "Opcije planova koje je moguće zatvoriti"
 #. odoo-python
 #: code:addons/sale_subscription/controllers/portal.py:0
 msgid "Closed"
-msgstr "Subscription,npr."
+msgstr "Zatvoreno"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
@@ -1540,7 +1539,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_sales_order_line_filter
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Customer"
-msgstr "Information,New"
+msgstr "Kupac"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__commercial_partner_id
@@ -1802,7 +1801,7 @@ msgstr "Neuspjela plaćanja"
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__on_change_field_ids
 msgid "Fields that trigger the onchange."
-msgstr "Polja koja pokreću onchange."
+msgstr ""
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_log_report_search
@@ -2004,8 +2003,6 @@ msgid ""
 "If present, this condition must be satisfied before executing the automation "
 "rule."
 msgstr ""
-"Ako postoji, ovaj uvjet mora biti zadovoljen prije izvršavanja pravila "
-"automatizacije."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__filter_pre_domain
@@ -2013,8 +2010,6 @@ msgid ""
 "If present, this condition must be satisfied before the update of the "
 "record. Not checked on record creation."
 msgstr ""
-"Ako postoji, ovaj uvjet mora biti zadovoljen prije ažuriranja zapisa. Ne "
-"provjerava se pri kreiranju zapisa."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_order__end_date
@@ -2313,7 +2308,7 @@ msgstr "Zabilježi napomenu..."
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_tree
 #: model_terms:ir.ui.view,arch_db:sale_subscription.view_sale_order_log_growth_tree
 msgid "MRR"
-msgstr "is"
+msgstr ""
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_order_log_analysis_action
@@ -2524,7 +2519,7 @@ msgstr "Naziv"
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order_log_report__health__normal
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_report__health__normal
 msgid "Neutral"
-msgstr "Neutralno"
+msgstr ""
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
@@ -2604,7 +2599,7 @@ msgstr "Datum sljedećeg računa"
 #. odoo-python
 #: code:addons/sale_subscription/models/sale_order.py:0
 msgid "No Payment Method"
-msgstr "Nema načina plaćanja"
+msgstr ""
 
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action_upsell
@@ -2651,7 +2646,7 @@ msgstr "Nije ponavljajući"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__activity_note
 msgid "Note"
-msgstr "Display,Internal"
+msgstr "Bilješka"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order__note_order
@@ -2716,7 +2711,7 @@ msgstr "Opcionalni planovi"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_log_report_search
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Order"
-msgstr "Line,Stavka"
+msgstr "Narudžba"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__date
@@ -2878,7 +2873,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_log_report_search
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
 msgid "Plan"
-msgstr "Options,Opcije"
+msgstr "Plan"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription_portal_content
@@ -3085,17 +3080,17 @@ msgstr "Ponude"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_avg_text
 msgid "Rating Avg Text"
-msgstr "Prosječni tekst ocjene"
+msgstr ""
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_last_feedback
 msgid "Rating Last Feedback"
-msgstr "Zadnja povratna informacija ocjene"
+msgstr ""
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_last_image
 msgid "Rating Last Image"
-msgstr "Zadnja slika ocjene"
+msgstr ""
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_last_value
@@ -3128,7 +3123,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_last_text
 msgid "Rating Text"
-msgstr "Tekst ocjene"
+msgstr ""
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order__rating_count
@@ -3158,7 +3153,7 @@ msgstr "Dohvaćanje zapisa"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.view_order_product_search_inherit
 #: model_terms:ir.ui.view,arch_db:sale_subscription.view_sales_order_filter_subscription
 msgid "Recurring"
-msgstr "Revenue,Mjesečni"
+msgstr "Ponavljajući"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order__recurring_details
@@ -3325,7 +3320,7 @@ msgstr "Nastavi"
 #. module: sale_subscription
 #: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_report_cohort
 msgid "Retention"
-msgstr "Message,Empty"
+msgstr "Zadržavanje"
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_report_cohort_action
@@ -3599,8 +3594,6 @@ msgid ""
 "Some triggers need a reference to a selection field. This field is used to "
 "store it."
 msgstr ""
-"Neki okidači trebaju referencu na polje za odabir. Ovo polje se koristi za "
-"njezino pohranjivanje."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__trg_field_ref
@@ -3608,8 +3601,6 @@ msgid ""
 "Some triggers need a reference to another field. This field is used to store "
 "it."
 msgstr ""
-"Neki okidači trebaju referencu na drugo polje. Ovo polje se koristi za "
-"njezino pohranjivanje."
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__source_id
@@ -3691,7 +3682,7 @@ msgstr "Potvrdi"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_view_cohort
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_sale_order_line_list
 msgid "Subscription"
-msgstr "on"
+msgstr "Pretplata"
 
 #. module: sale_subscription
 #. odoo-python
@@ -3853,7 +3844,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_portal_content_inherit
 msgid "Subscription:"
-msgstr "subscriptions"
+msgstr ""
 
 #. module: sale_subscription
 #: model:mail.template,name:sale_subscription.mail_template_subscription_alert
@@ -3913,7 +3904,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_activity
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Subscriptions"
-msgstr "Change,Promjene"
+msgstr "Pretplate"
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_report_analysis_action
@@ -3955,7 +3946,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Template"
-msgstr "Option,Opcije"
+msgstr "Predložak"
 
 #. module: sale_subscription
 #: model:mail.template,description:sale_subscription.mail_template_subscription_alert
@@ -3998,8 +3989,6 @@ msgid ""
 "The automation rule will be triggered if and only if one of these fields is "
 "updated.If empty, all fields are watched."
 msgstr ""
-"Pravilo automatizacije će se pokrenuti samo ako se ažurira jedno od ovih "
-"polja. Ako je prazno, prate se sva polja."
 
 #. module: sale_subscription
 #. odoo-python
@@ -4177,8 +4166,6 @@ msgid ""
 "This code will be run to find on which record the automation rule should be "
 "run."
 msgstr ""
-"Ovaj kod će se pokrenuti kako bi se pronašao zapis na kojem treba pokrenuti "
-"pravilo automatizacije."
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_close_reason_view_form
@@ -4302,7 +4289,7 @@ msgstr "Polje za aktivaciju"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__trg_field_ref_model_name
 msgid "Trigger Field Model"
-msgstr "Model polja okidača"
+msgstr ""
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__trigger_field_ids
@@ -4322,7 +4309,7 @@ msgstr "Aktivira se kada"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__trg_field_ref
 msgid "Trigger Reference"
-msgstr "Referenca okidača"
+msgstr ""
 
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_alert_action
@@ -4421,7 +4408,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_report__subscription_state__7_upsell
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_order_view_form
 msgid "Upsell"
-msgstr "Found,Nisu"
+msgstr ""
 
 #. module: sale_subscription
 #. odoo-python
@@ -4548,7 +4535,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order_alert__webhook_uuid
 msgid "Webhook UUID"
-msgstr "UUID webhooka"
+msgstr ""
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order__website_message_ids
@@ -4579,9 +4566,6 @@ msgid ""
 "                If present, will be checked by the scheduler. If empty, will "
 "be checked at creation and update."
 msgstr ""
-"Kada uvjet treba biti pokrenut.\n"
-"                Ako je postavljen, provjerit će ga planer. Ako je prazan, "
-"provjeravat će se pri kreiranju i ažuriranju."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__active
@@ -4802,7 +4786,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription_portal_template
 msgid "and"
-msgstr "</strong>,<strong>"
+msgstr "i"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_close_reason_view_form
@@ -4847,7 +4831,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_close_reason_view_form
 msgid "message"
-msgstr "will"
+msgstr ""
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription_portal_content
@@ -4857,7 +4841,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription_portal_sidebar
 msgid "on"
-msgstr "subscription's"
+msgstr "na"
 
 #. module: sale_subscription
 #. odoo-python
@@ -4915,7 +4899,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription_portal_template
 msgid "renewal"
-msgstr "%s"
+msgstr ""
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription_portal_content

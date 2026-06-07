@@ -131,7 +131,8 @@ export class ThankYouDialog extends Component {
                         window.open(`https://odoo.com/app/sign`);
                     }
                     if (session.is_frontend) {
-                        window.location.assign(`/my/signatures`);
+                        const signatureRequestId = this.signInfo.get("documentId");
+                        window.location.assign(`/my/signature/${signatureRequestId}`);
                     } else {
                         this.props.close();
                         this.env.services.action.doAction(this.closeAction, this.closeContext);

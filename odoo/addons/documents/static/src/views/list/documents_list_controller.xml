@@ -2,8 +2,7 @@
 <templates>
     <t t-name="documents.DocumentsListController" t-inherit="web.ListView" t-inherit-mode="primary">
         <xpath expr="//Layout" position="attributes">
-            <attribute name="className">(model.useSampleModel ? 'o_view_sample_data' : '')
-                + ' o_documents_content o_documents_list' + (env.isSmall ? ' overflow-hidden' : '')</attribute>
+            <attribute name="className">(model.useSampleModel ? 'o_view_sample_data' : '') + ' o_documents_content'</attribute>
         </xpath>
         <xpath expr="//Layout" position="inside">
             <t t-set-slot="control-panel-create-button">

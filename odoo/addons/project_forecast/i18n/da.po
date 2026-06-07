@@ -1,33 +1,31 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * project_forecast
+# 	* project_forecast
 #
 # Translators:
 # Martin Trigaux, 2024
 # Mads Søndergaard, 2024
 # Mads Søndergaard, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:48+0000\n"
-"PO-Revision-Date: 2026-05-15 16:25+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
-"project_forecast/da/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2024\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: project_forecast
 #: model_terms:ir.ui.view,arch_db:project_forecast.planning_shift_ics_description_inherit
 msgid "<b>Project:</b>"
-msgstr "<b>Projekt:</b>"
+msgstr ""
 
 #. module: project_forecast
 #: model:ir.ui.menu,name:project_forecast.planning_menu_schedule_by_project
@@ -97,7 +95,7 @@ msgstr "Projekt"
 #. module: project_forecast
 #: model_terms:ir.ui.view,arch_db:project_forecast.planning_shift_ics_description_inherit
 msgid "Project:"
-msgstr "Projekt:"
+msgstr ""
 
 #. module: project_forecast
 #: model:ir.actions.act_window,name:project_forecast.planning_action_schedule_by_project
@@ -107,7 +105,7 @@ msgstr "Planlæg per Projekt"
 #. module: project_forecast
 #: model:ir.actions.act_window,name:project_forecast.project_forecast_action_schedule_by_employee
 msgid "Schedule by Resource"
-msgstr "Planlæg efter ressource"
+msgstr ""
 
 #. module: project_forecast
 #: model_terms:ir.actions.act_window,help:project_forecast.planning_action_schedule_by_project
@@ -128,7 +126,7 @@ msgstr "Vagt skabelon"
 #. module: project_forecast
 #: model:planning.role,name:project_forecast.planning_role_tester
 msgid "Tester"
-msgstr "Tester"
+msgstr ""
 
 #. module: project_forecast
 #. odoo-python
@@ -139,8 +137,3 @@ msgid ""
 "To change it, first clear the company field for the project. Then move the "
 "shifts to the new company, and update the project's company."
 msgstr ""
-"Du kan ikke ændre virksomheden for projektet %(project_name)s, da det er "
-"knyttet til vagter i en anden virksomhed.\n"
-"For at ændre dette skal du først fjerne virksomheden fra projektet. Derefter "
-"skal du flytte vagterne til den nye virksomhed og opdatere projektets "
-"virksomhed."

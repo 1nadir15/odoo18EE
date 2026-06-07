@@ -1,28 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * delivery_usps_rest
+# 	* delivery_usps_rest
 #
 # Translators:
 # Wil Odoo, 2025
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
 # Fernanda Alvarez, 2025
-# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-05-26 04:51+0000\n"
-"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
-"Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
-"odoo-18/delivery_usps_rest/es_419/>\n"
+"PO-Revision-Date: 2025-02-12 11:36+0000\n"
+"Last-Translator: Fernanda Alvarez, 2025\n"
+"Language-Team: Spanish (Latin America) (https://app.transifex.com/odoo/teams/"
+"41243/es_419/)\n"
 "Language: es_419\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
-"0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
 
 #. module: delivery_usps_rest
 #: model:ir.model.fields.selection,name:delivery_usps_rest.selection__delivery_carrier__usps_domestic_rating_indicator__3d
@@ -186,7 +185,7 @@ msgstr "Local"
 #. module: delivery_usps_rest
 #: model:ir.model.fields,field_description:delivery_usps_rest.field_delivery_carrier__usps_domestic_rating_indicator
 msgid "Domestic Rating Indicator"
-msgstr "Indicador de tarifas nacionales"
+msgstr "Domestic Rating Indicator"
 
 #. module: delivery_usps_rest
 #: model:ir.model.fields.selection,name:delivery_usps_rest.selection__delivery_carrier__usps_domestic_rating_indicator__e4
@@ -324,7 +323,7 @@ msgstr "Internacional"
 #. module: delivery_usps_rest
 #: model:ir.model.fields,field_description:delivery_usps_rest.field_delivery_carrier__usps_international_rating_indicator
 msgid "International Rating Indicator"
-msgstr "Indicador de tarifas internacionales"
+msgstr "International Rating Indicator"
 
 #. module: delivery_usps_rest
 #. odoo-python

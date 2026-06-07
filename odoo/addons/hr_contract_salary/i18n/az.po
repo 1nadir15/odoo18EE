@@ -6,13 +6,13 @@
 # Jumshud Sultanov <cumshud@gmail.com>, 2024
 # Nurlan Farajov <coolinuxoid@gmail.com>, 2025
 # erpgo translator <jumshud@erpgo.az>, 2025
-# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025, 2026.
+# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-15 17:52+0000\n"
-"PO-Revision-Date: 2026-05-19 17:15+0000\n"
+"POT-Creation-Date: 2026-04-10 18:49+0000\n"
+"PO-Revision-Date: 2025-12-16 17:21+0000\n"
 "Last-Translator: ERPGo Odoo <erpgo.odoo@gmail.com>\n"
 "Language-Team: Azerbaijani <https://translate.odoo.com/projects/odoo-18/"
 "hr_contract_salary/az/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_personal_info__impacts_net_salary
@@ -71,15 +71,15 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <h2>Təbrik edirik!</h2>\n"
-"    Aşağıdakı linkə klikləyərək əməkhaqqı paketinizin parametrlərini "
+"    Aşağıdakı linkə klikləyərək əmək haqqı paketinizin parametrlərini "
 "konfiqurasiya edə bilərsiniz.<br/>\n"
 "    Linkin etibarlılıq müddəti <t t-out=\"ctx.get('validity_end')\"/> "
 "tarixində başa çatacaq.\n"
 "    <div style=\"padding: 16px 0px 16px 0px;\">\n"
-"        <a t-attf-href=\"/salary_package/simulation/offer/{{ctx.get"
-"('offer_id')}}\" target=\"_blank\" style=\"background-color: #875a7b; text-"
-"decoration: none; color: #fff; padding: 8px 16px 8px 16px; border-radius: "
-"5px;\">Paketinizi konfiqurasiya edin</a>\n"
+"        <a t-attf-href=\"/salary_package/simulation/offer/"
+"{{ctx.get('offer_id')}}\" target=\"_blank\" style=\"background-color: "
+"#875a7b; text-decoration: none; color: #fff; padding: 8px 16px 8px 16px; "
+"border-radius: 5px;\">Paketinizi konfiqurasiya edin</a>\n"
 "    </div>\n"
 "</div>\n"
 "        "
@@ -104,16 +104,16 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <h2>Təbrik edirik!</h2>\n"
-"    Aşağıdakı linkə klikləyərək əməkhaqqı paketinizin parametrlərini "
+"    Aşağıdakı linkə klikləyərək əmək haqqı paketinizin parametrlərini "
 "konfiqurasiya edə bilərsiniz.<br/>\n"
 "    Linkin etibarlılıq müddəti <t t-out=\"ctx.get('validity_end')\"/> "
 "tarixində başa çatacaq.\n"
 "    <div style=\"padding: 16px 0px 16px 0px;\">\n"
-"        <a t-attf-href=\"/salary_package/simulation/offer/{{ctx.get"
-"('offer_id')}}?token={{ctx.get('access_token')}}\" target=\"_blank\" "
-"style=\"background-color: #875a7b; text-decoration: none; color: #fff; "
-"padding: 8px 16px 8px 16px; border-radius: 5px;\">Paketinizi konfiqurasiya "
-"edin</a>\n"
+"        <a t-attf-href=\"/salary_package/simulation/offer/"
+"{{ctx.get('offer_id')}}?token={{ctx.get('access_token')}}\" "
+"target=\"_blank\" style=\"background-color: #875a7b; text-decoration: none; "
+"color: #fff; padding: 8px 16px 8px 16px; border-radius: 5px;\">Paketinizi "
+"konfiqurasiya edin</a>\n"
 "    </div>\n"
 "</div>\n"
 "        "
@@ -136,7 +136,7 @@ msgstr "<i class=\"fa fa-comment\"/>Rəy</i>"
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
 msgid "<span class=\"ms-3\">/ month</span>"
-msgstr "<span class=\"ms-3\">/ ay</span>"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
@@ -669,7 +669,7 @@ msgstr "Ölkə"
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:hr_contract_salary.hr_contract_salary_personal_info_country_of_birth
 msgid "Country of Birth"
-msgstr "Doğulduğu Ölkə"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model_terms:ir.actions.act_window,help:hr_contract_salary.hr_contract_salary_offer_recruitment_action
@@ -854,7 +854,7 @@ msgstr "Göstəriləcək Form"
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info.value,name:hr_contract_salary.hr_contract_salary_personal_info_certificate_doctor
 msgid "Doctor"
-msgstr "Doktorantura"
+msgstr "Həkim"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_personal_info__display_type__document
@@ -1001,7 +1001,7 @@ msgstr "Xana Adı"
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:hr_contract_salary.hr_contract_salary_personal_info_study_field
 msgid "Field of Study"
-msgstr "İxtisas"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_sign_item
@@ -1057,7 +1057,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:hr_contract_salary.hr_contract_salary_personal_info_gender
 msgid "Gender"
-msgstr "Cinsiyyət"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_applicant_view_form
@@ -1346,7 +1346,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info.value,name:hr_contract_salary.hr_contract_salary_personal_info_certificate_master
 msgid "Master"
-msgstr "Magistr"
+msgstr "Əsas"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_offer__message_has_error
@@ -1708,7 +1708,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:hr_contract_salary.hr_contract_salary_personal_info_place_of_birth
 msgid "Place of Birth"
-msgstr "Doğum Yeri"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_personal_info__placeholder
@@ -1864,7 +1864,7 @@ msgstr "Məsul İstifadəçi"
 #: model:ir.actions.act_window,name:hr_contract_salary.hr_contract_salary_resume_action
 #: model:ir.ui.menu,name:hr_contract_salary.salary_package_resume
 msgid "Resume"
-msgstr "Xülasə"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_next_step_button
@@ -1928,7 +1928,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.res_config_settings_view_form_hr
 msgid "Salary Package Configurator"
-msgstr "Əməkhaqqı Paketi Konfiquratoru"
+msgstr "Əmək haqqı Paketi Konfiquratoru"
 
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_hr_contract_salary_offer
@@ -1982,12 +1982,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_personal_info__structure_type_id
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_resume__structure_type_id
 msgid "Salary Structure Type"
-msgstr "Əməkhaqqı Struktur Növü"
+msgstr "Əmək haqqı Struktur Növü"
 
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:hr_contract_salary.hr_contract_salary_personal_info_study_school
 msgid "School"
-msgstr "Məktəb/Universitet"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_salary_offer_view_search
@@ -2419,7 +2419,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_contract_salary/controllers/main.py:0
 msgid "Wage"
-msgstr "Əməkhaqqı"
+msgstr "Əmək Haqqı"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract__wage_on_signature
@@ -2539,6 +2539,11 @@ msgstr ""
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_benefit_view_form
 msgid "e.g. Meal Vouchers"
+msgstr ""
+
+#. module: hr_contract_salary
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_salary_offer_view_form
+msgid "e.g. Permanent, Replacement, Short term"
 msgstr ""
 
 #. module: hr_contract_salary

@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-15 17:52+0000\n"
-"PO-Revision-Date: 2026-04-29 19:36+0000\n"
+"POT-Creation-Date: 2026-04-10 18:49+0000\n"
+"PO-Revision-Date: 2026-04-15 13:13+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "hr_contract_salary/pl/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_personal_info__impacts_net_salary
@@ -166,7 +166,7 @@ msgstr "<span class=\"o_stat_text\">Oferty</span>"
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_salary_offer_view_form
 msgid "<span class=\"o_stat_text\">Requested Signature</span>"
-msgstr "<span class=\"o_stat_text\">Prosi o podpis</span>"
+msgstr "<span class=\"o_stat_text\">Prośba o podpis</span>"
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
@@ -2396,7 +2396,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:ir.model.constraint,message:hr_contract_salary.constraint_hr_contract_salary_offer_check_validity_days_count
 msgid "The validity should not be negative."
-msgstr "Ważność nie może być wartością negatywną."
+msgstr ""
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_benefits
@@ -2644,6 +2644,11 @@ msgid "e.g. Meal Vouchers"
 msgstr "np. bony na posiłki"
 
 #. module: hr_contract_salary
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_salary_offer_view_form
+msgid "e.g. Permanent, Replacement, Short term"
+msgstr ""
+
+#. module: hr_contract_salary
 #: model_terms:ir.actions.act_window,help:hr_contract_salary.hr_contract_salary_offer_recruitment_action
 msgid "here"
 msgstr "tu"
@@ -2665,9 +2670,6 @@ msgid ""
 msgstr ""
 "{{ object.company_id.name }}: Oferta pracy - "
 "{{ object.employee_contract_id.name }}"
-
-#~ msgid "e.g. Permanent, Replacement, Short term"
-#~ msgstr "np. Na czas nieokreślony, Zastępstwo, Krótki termin"
 
 #~ msgid "00.00.00-000.00"
 #~ msgstr "00.00.00-000.00"

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:45+0000\n"
-"PO-Revision-Date: 2026-05-17 05:59+0000\n"
+"PO-Revision-Date: 2026-04-18 09:17+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "delivery_bpost/ja/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: delivery_bpost
 #: model:ir.model.fields.selection,name:delivery_bpost.selection__delivery_carrier__bpost_label_stock_type__a4
@@ -202,7 +202,7 @@ msgstr "船に少なくとも一つのアイテムを提供してください。
 msgid ""
 "Product [%s] is missing a Country of Origin, which is required for "
 "international shipping."
-msgstr "プロダクト [%s] は原産国が未設定です。これは国際配送に必須の情報です。"
+msgstr ""
 
 #. module: delivery_bpost
 #. odoo-python
@@ -210,7 +210,7 @@ msgstr "プロダクト [%s] は原産国が未設定です。これは国際配
 msgid ""
 "Product [%s] is missing an HS Code, which is required for international "
 "shipping."
-msgstr "プロダクト [%s] には、国際配送に必要なHSコードが未設定です。"
+msgstr ""
 
 #. module: delivery_bpost
 #: model:ir.model.fields,field_description:delivery_bpost.field_delivery_carrier__delivery_type

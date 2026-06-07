@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-22 17:52+0000\n"
-"PO-Revision-Date: 2026-05-27 15:23+0000\n"
+"POT-Creation-Date: 2026-04-10 18:47+0000\n"
+"PO-Revision-Date: 2026-03-30 06:13+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-18/documents/"
 "fr/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: documents
 #. odoo-javascript
@@ -103,7 +103,7 @@ msgstr "%s page(s) supprimée(s)"
 #. odoo-javascript
 #: code:addons/documents/static/src/views/search/documents_control_panel.js:0
 msgid "%s records have been copied."
-msgstr "%s enregistrements ont été copiés."
+msgstr ""
 
 #. module: documents
 #. odoo-python
@@ -2966,7 +2966,7 @@ msgstr "Activité suivante de l'événement du calendrier"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Échéance de la prochaine activité"
+msgstr "Date limite de l'activité à venir"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__activity_summary
@@ -3153,7 +3153,7 @@ msgstr "Ouvrir le dossier #{subfolder.name}"
 #. odoo-javascript
 #: code:addons/documents/static/src/mail/core/web/thread_actions.js:0
 msgid "Open in Documents"
-msgstr "Ouvrir dans Documents"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -3753,7 +3753,7 @@ msgstr "Les raccourcis ne peuvent pas modifier le document cible."
 #. odoo-python
 #: code:addons/documents/models/documents_document.py:0
 msgid "Sign up to view the document"
-msgstr "Inscrivez-vous pour consulter le document"
+msgstr ""
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.share_file
@@ -4196,12 +4196,6 @@ msgstr "Télécharger une nouvelle version"
 
 #. module: documents
 #. odoo-python
-#: code:addons/documents/models/documents_document.py:0
-msgid "Upload a file or drag it here"
-msgstr ""
-
-#. module: documents
-#. odoo-python
 #: code:addons/documents/models/mail_activity.py:0
 msgid "Upload file request"
 msgstr "Demande de chargement de fichier"
@@ -4262,7 +4256,7 @@ msgstr "Vidéos"
 #. odoo-python
 #: code:addons/documents/models/documents_document.py:0
 msgid "View the document"
-msgstr "Voir le document"
+msgstr ""
 
 #. module: documents
 #. odoo-python
@@ -4332,6 +4326,12 @@ msgid "You are not allowed to change ownerships of documents you do not own."
 msgstr ""
 "Vous n'êtes pas autorisé à changer la propriété des documents que vous ne "
 "possédez pas."
+
+#. module: documents
+#. odoo-python
+#: code:addons/documents/models/documents_document.py:0
+msgid "You are not allowed to delete all these items."
+msgstr "Vous n'êtes pas autorisé à supprimer tous ces éléments."
 
 #. module: documents
 #. odoo-python
@@ -4676,9 +4676,6 @@ msgid ""
 msgstr ""
 "•\n"
 "                                        <b>URL</b>"
-
-#~ msgid "You are not allowed to delete all these items."
-#~ msgstr "Vous n'êtes pas autorisé à supprimer tous ces éléments."
 
 #~ msgid "2025"
 #~ msgstr "2025"

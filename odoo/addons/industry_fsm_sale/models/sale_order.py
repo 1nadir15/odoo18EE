@@ -115,14 +115,12 @@ class SaleOrderLine(models.Model):
                 sol.task_id.is_fsm
                 and float_is_zero(sol.price_unit, precision_rounding=sol.currency_id.rounding)
         )
-        sol_from_task_with_anglo_or_prepaid_service = sol_from_task_without_amount.filtered(
-            lambda sol:
-                sol.company_id.anglo_saxon_accounting
-                or (sol.product_id.type == 'service' and sol.product_id.service_policy == 'ordered_prepaid')
+        sol_from_task_with_anglo = sol_from_task_without_amount.filtered(
+            lambda sol: sol.company_id.anglo_saxon_accounting
         )
-        sol_without_anglo_or_prepaid_service = sol_from_task_without_amount - sol_from_task_with_anglo_or_prepaid_service
-        sol_without_anglo_or_prepaid_service.qty_to_invoice = 0.0
-        super(SaleOrderLine, self - sol_without_anglo_or_prepaid_service)._compute_qty_to_invoice()
+        sol_from_task_without_anglo = sol_from_task_without_amount - sol_from_task_with_anglo
+        sol_from_task_without_anglo.qty_to_invoice = 0.0
+        super(SaleOrderLine, self - sol_from_task_without_anglo)._compute_qty_to_invoice()
 
     def action_add_from_catalog(self):
         # TODO: remove me in master

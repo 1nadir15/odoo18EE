@@ -20,15 +20,13 @@
 # Jurica Pomper, 2025
 # Alen Komljen <alen@uvid.hr>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
-# Josipa Zovko <josipa@uvid.hr>, 2026.
-# Ana Matulin <ana@uvid.hr>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-06-06 09:18+0000\n"
-"Last-Translator: Ana Matulin <ana@uvid.hr>\n"
+"PO-Revision-Date: 2026-04-14 16:28+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "account_asset/hr/>\n"
 "Language: hr\n"
@@ -37,7 +35,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__total_depreciation_entries_count
@@ -360,7 +358,7 @@ msgstr "Imovina će se kreirati za iznos povećanja vrijednosti imovine. <br/>"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__analytic_distribution
 msgid "Analytic Distribution"
-msgstr "Analitika"
+msgstr "Analitička raspodjela"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__analytic_precision
@@ -810,12 +808,12 @@ msgstr "Iznos koji se amortizira"
 #: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__asset_remaining_value
 #: model:ir.model.fields,field_description:account_asset.field_account_move__asset_remaining_value
 msgid "Depreciable Value"
-msgstr "Knjigovodstvena vrijednost"
+msgstr "Amortizirajuća vrijednost"
 
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
 msgid "Depreciated Amount"
-msgstr "Amortizirana vrijednost pri uvozu"
+msgstr "Otpisana vrijednost"
 
 #. module: account_asset
 #. odoo-python
@@ -832,7 +830,7 @@ msgstr "Amortizacija"
 #: model:ir.model.fields,field_description:account_asset.field_asset_modify__account_depreciation_id
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_search
 msgid "Depreciation Account"
-msgstr "Konto ispravka vrijednosti"
+msgstr "Konto amortizacije"
 
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
@@ -955,7 +953,7 @@ msgstr "Trajanje / stopa"
 #: model:ir.model.fields,field_description:account_asset.field_asset_modify__account_depreciation_expense_id
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_search
 msgid "Expense Account"
-msgstr "Konto troška amortizacije"
+msgstr "Konto troška"
 
 #. module: account_asset
 #: model:account.report.column,name:account_asset.assets_report_first_depreciation
@@ -966,7 +964,7 @@ msgstr "Prva amortizacija"
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__account_asset_id
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_search
 msgid "Fixed Asset Account"
-msgstr "Konto nabavne vrijednosti"
+msgstr "Konto ispravka vrijednosti"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__message_follower_ids
@@ -1256,7 +1254,7 @@ msgstr "Uredi imovinu"
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
 msgid "Modify Depreciation"
-msgstr "Upravljaj imovinom"
+msgstr "Uredi amortizaciju"
 
 #. module: account_asset
 #: model:ir.model.fields.selection,name:account_asset.selection__account_asset__method_period__1
@@ -1348,7 +1346,7 @@ msgstr "Bez grupiranja"
 #. module: account_asset
 #: model:ir.model.fields.selection,name:account_asset.selection__account_asset__prorata_computation_type__none
 msgid "No Prorata"
-msgstr "Ne amortizira se"
+msgstr "Bez prorata"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__non_deductible_tax_value
@@ -1488,7 +1486,7 @@ msgstr "Svojstva"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__prorata_date
 msgid "Prorata Date"
-msgstr "Datum početka amortizacije"
+msgstr "Datum prorata"
 
 #. module: account_asset
 #: model:ir.model.fields.selection,name:account_asset.selection__account_move__asset_move_type__purchase
@@ -1621,7 +1619,8 @@ msgstr "Neke obavezne vrijednosti nedostaju"
 msgid ""
 "Starting date of the period used in the prorata calculation of the first "
 "depreciation"
-msgstr "Datum početka razdoblja za obračun prve amortizacije"
+msgstr ""
+"Datum početka razdoblja koji se koristi u prorata izračunu prve amortizacije"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__state
@@ -1935,7 +1934,7 @@ msgstr "Ne možete nastaviti s datumom jednakim ili prije datuma pauze"
 #. odoo-python
 #: code:addons/account_asset/wizard/asset_modify.py:0
 msgid "You cannot select the same account as the Depreciation Account"
-msgstr "Ne možete odabrati isti konto kao konto ispravka vrijednosti"
+msgstr "Ne možete odabrati isti konto kao konto amortizacije"
 
 #. module: account_asset
 #: model:account.report.column,name:account_asset.assets_report_balance

@@ -7,14 +7,13 @@
 # Wil Odoo, 2025
 # Tony Ng, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
-# "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
-"PO-Revision-Date: 2026-04-29 19:26+0000\n"
-"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
+"POT-Creation-Date: 2026-04-17 18:46+0000\n"
+"PO-Revision-Date: 2026-04-18 18:31+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-18/account_reports/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -22,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_reports
 #. odoo-javascript
@@ -615,7 +614,7 @@ msgstr "分析"
 #: model:ir.model.fields,field_description:account_reports.field_account_analytic_line__analytic_coverage
 #: model:ir.model.fields,field_description:account_reports.field_account_move_line__analytic_coverage
 msgid "Analytic Coverage"
-msgstr "分析覆蓋範圍"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_report__filter_analytic_groupby
@@ -638,7 +637,7 @@ msgstr "模擬分析"
 #: code:addons/account_reports/static/src/components/account_report/header/header.xml:0
 #: model_terms:ir.ui.view,arch_db:account_reports.pdf_export_main_table_header
 msgid "Analytic coverage"
-msgstr "分析覆蓋範圍"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -1177,6 +1176,12 @@ msgid ""
 "Could not expand term %(term)s while evaluating formula %"
 "(unexpanded_formula)s"
 msgstr "計算算式時無法展開項「%(term)s」。該算式為 %(unexpanded_formula)s"
+
+#. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+msgid "Could not parse account_code formula from token '%s'"
+msgstr "未能解析代碼「%s」提供的 account_code 公式"
 
 #. module: account_reports
 #. odoo-javascript
@@ -4592,6 +4597,3 @@ msgstr ""
 #: code:addons/account_reports/static/src/components/multicurrency_revaluation_report/warnings.xml:0
 msgid "⇒ Reset to Odoo’s Rate"
 msgstr "⇒ 重設至 Odoo 匯率"
-
-#~ msgid "Could not parse account_code formula from token '%s'"
-#~ msgstr "未能解析代碼「%s」提供的 account_code 公式"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-22 17:52+0000\n"
+"POT-Creation-Date: 2026-04-10 18:47+0000\n"
 "PO-Revision-Date: 2026-02-21 10:05+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -3746,12 +3746,6 @@ msgstr ""
 
 #. module: documents
 #. odoo-python
-#: code:addons/documents/models/documents_document.py:0
-msgid "Upload a file or drag it here"
-msgstr ""
-
-#. module: documents
-#. odoo-python
 #: code:addons/documents/models/mail_activity.py:0
 msgid "Upload file request"
 msgstr "Zahtev za učitavanje datoteke"
@@ -3874,6 +3868,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/documents/models/documents_document.py:0
 msgid "You are not allowed to change ownerships of documents you do not own."
+msgstr ""
+
+#. module: documents
+#. odoo-python
+#: code:addons/documents/models/documents_document.py:0
+msgid "You are not allowed to delete all these items."
 msgstr ""
 
 #. module: documents

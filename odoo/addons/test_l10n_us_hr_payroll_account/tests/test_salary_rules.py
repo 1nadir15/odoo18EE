@@ -954,64 +954,36 @@ class TestPayslipValidation(TestPayslipValidationCommon):
         }
         self._validate_payslip(payslip, payslip_results)
 
-    def test_069_al_state_tax_0_income(self):
-        self.work_address.state_id = self.env.ref('base.state_us_1')
-        self.contract.write({
-            'wage': 0,
-            'schedule_pay': 'weekly',
-        })
-        self.employee.write({
-            'l10n_us_w4_allowances_count': 3,
-            'l10n_us_state_filing_status': 'al_status_4',
-            'l10n_us_filing_status': 'jointly',
-            'children': 2,
-        })
+        def test_069_al_state_tax_0_income(self):
+            self.work_address.state_id = self.env.ref('base.state_us_1')
+            self.contract.write({
+                'wage': 0,
+                'schedule_pay': 'weekly',
+            })
+            self.employee.write({
+                'l10n_us_w4_allowances_count': 3,
+                'l10n_us_state_filing_status': 'al_status_4',
+                'l10n_us_filing_status': 'jointly',
+                'children': 2,
+            })
 
-        payslip = self._generate_payslip(datetime.date(2025, 4, 1), datetime.date(2025, 4, 7))
-        payslip.compute_sheet()
+            payslip = self._generate_payslip(datetime.date(2025, 4, 1), datetime.date(2025, 4, 7))
+            payslip.compute_sheet()
 
-        payslip_results = {
-            'BASIC': 0,
-            'GROSS': 0,
-            'TAXABLE': 0,
-            'FIT': 0,
-            'MEDICARE': 0,
-            'MEDICAREADD': 0,
-            'SST': 0,
-            'ALINCOMETAX': 0,
-            'COMPANYFUTA': 0,
-            'COMPANYMEDICARE': 0,
-            'COMPANYSOCIAL': 0,
-            'COMPANYSUI': 0,
-            'COMPANYALESA': 0,
-            'NET': 0,
-        }
-        self._validate_payslip(payslip, payslip_results)
-
-    def test_070_co_state_0_income(self):
-        self.work_address.state_id = self.env.ref('base.state_us_6')
-        self.contract.wage = 0
-        self.employee.l10n_us_state_withholding_allowance = 1000
-
-        payslip = self._generate_payslip(datetime.date(2026, 3, 1), datetime.date(2026, 3, 31))
-        payslip.compute_sheet()
-        payslip_results = {
-            'BASIC': 0,
-            'COFAMLI': 0,
-            'COINCOMETAX': 0,  # Should not be positive
-            'COMPANYCOFAMLI': 0,
-            'COMPANYCOSOLVENCY': 0,
-            'COMPANYCOSUPPORT': 0,
-            'COMPANYFUTA': 0,
-            'COMPANYMEDICARE': 0,
-            'COMPANYSOCIAL': 0,
-            'COMPANYSUI': 0,
-            'FIT': 0,
-            'GROSS': 0,
-            'MEDICARE': 0,
-            'MEDICAREADD': 0,
-            'NET': 0,
-            'SST': 0,
-            'TAXABLE': 0,
-        }
-        self._validate_payslip(payslip, payslip_results)
+            payslip_results = {
+                'BASIC': 0,
+                'GROSS': 0,
+                'TAXABLE': 0,
+                'FIT': 0,
+                'MEDICARE': 0,
+                'MEDICAREADD': 0,
+                'SST': 0,
+                'ALINCOMETAX': 0,
+                'COMPANYFUTA': 0,
+                'COMPANYMEDICARE': 0,
+                'COMPANYSOCIAL': 0,
+                'COMPANYSUI': 0,
+                'COMPANYALESA': 0,
+                'NET': 0,
+            }
+            self._validate_payslip(payslip, payslip_results)

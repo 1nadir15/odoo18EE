@@ -243,7 +243,7 @@ export default class BarcodePickingBatchModel extends BarcodePickingModel {
     }
 
     groupKey(line) {
-        return `${line.picking_id.id}_${line.product_id.id}_${line.location_id.id}_${line.location_dest_id.id}`
+        return `${line.picking_id.id}_` + super.groupKey(...arguments);
     }
 
     lineCannotBeGrouped(line) {
@@ -251,10 +251,6 @@ export default class BarcodePickingBatchModel extends BarcodePickingModel {
             return Boolean(line.lines);
         }
         return super.lineCannotBeGrouped(...arguments);
-    }
-
-    mustGroupSameProductLines() {
-        return this.config.group_lines_by_product;
     }
 
     get needPickings() {

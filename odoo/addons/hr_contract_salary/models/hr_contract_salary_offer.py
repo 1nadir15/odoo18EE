@@ -63,7 +63,7 @@ class HrContractSalaryOffer(models.Model):
                                  store=True, readonly=False,
                                  copy=False, tracking=True)
     url = fields.Char('Link', compute='_compute_url')
-    contract_type_id = fields.Many2one(related='contract_template_id.contract_type_id', string='Contract Type', readonly=True, store=False)
+    contract_type_id = fields.Many2one(related='employee_job_id.contract_type_id', string='Contract Type', readonly=True, store=False)
 
     _sql_constraints = [
         ('check_validity_days_count', 'CHECK(validity_days_count >= 0)', 'The validity should not be negative.'),

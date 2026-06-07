@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
-"PO-Revision-Date: 2026-05-02 18:01+0000\n"
+"PO-Revision-Date: 2026-04-14 08:29+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/survey/"
 "hr/>\n"
@@ -37,7 +37,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__question_count
@@ -52,13 +52,13 @@ msgstr "# Nasumično odabrana pitanja"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_progression
 msgid "% completed"
-msgstr "% završeno"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_user_input.py:0
 msgid "%(participant)s just participated in \"%(survey_title)s\"."
-msgstr "%(participant)s upravo je sudjelovao/la u anketi \"%(survey_title)s\"."
+msgstr ""
 
 #. module: survey
 #. odoo-python
@@ -70,59 +70,59 @@ msgstr "%s (kopija)"
 #. odoo-python
 #: code:addons/survey/models/survey_question.py:0
 msgid "%s Votes"
-msgstr "%s glasova"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey.py:0
 msgid "%s certification passed"
-msgstr "%s položenih certifikacija"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey.py:0
 msgid "%s challenge certification"
-msgstr "%s izazovna certifikacija"
+msgstr ""
 
 #. module: survey
 #: model:ir.actions.report,print_report_name:survey.certification_report
 msgid "'Certification - %s' % (object.survey_id.display_name)"
-msgstr "'Certification - %s' % (object.survey_id.display_name)"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q2_sug2
 msgid "10 kg"
-msgstr "10 kg"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q3_sug2
 msgid "100 years"
-msgstr "100 years"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q3_sug3
 msgid "116 years"
-msgstr "116 years"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q3_sug4
 msgid "127 years"
-msgstr "127 years"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q1_sug1
 msgid "1450 km"
-msgstr "1450 km"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q2_sug3
 msgid "16.2 kg"
-msgstr "16.2 kg"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q1_sug2
 msgid "3700 km"
-msgstr "3700 km"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_403_page
@@ -132,22 +132,22 @@ msgstr "403: Zabranjeno"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q2_sug4
 msgid "47 kg"
-msgstr "47 kg"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q2_sug1
 msgid "5.7 kg"
-msgstr "5.7 kg"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q1_sug3
 msgid "6650 km"
-msgstr "6650 km"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q3_sug1
 msgid "99 years"
-msgstr "99 years"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
@@ -155,8 +155,6 @@ msgid ""
 "<b>Certificate</b>\n"
 "                            <br/>"
 msgstr ""
-"<b>Certifikat</b>\n"
-"                            <br/>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
@@ -183,7 +181,7 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
 msgid "<br/> <span>by</span>"
-msgstr "<br/> <span>od</span>"
+msgstr ""
 
 #. module: survey
 #: model:mail.template,body_html:survey.mail_template_certification
@@ -225,42 +223,6 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
-"<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-"
-"family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
-"    <table style=\"width:600px;margin:5px auto;\">\n"
-"        <tbody>\n"
-"            <tr><td>\n"
-"                <!-- We use the logo of the company that created the survey "
-"(to handle multi company cases) -->\n"
-"                <a href=\"/\"><img t-if=\"not "
-"object.survey_id.create_uid.company_id.uses_default_logo\" t-attf-src=\"/"
-"logo.png?company={{ object.survey_id.create_uid.company_id.id }}\" "
-"style=\"vertical-align:baseline;max-width:100px;\"/></a>\n"
-"            </td><td style=\"text-align:right;vertical-align:middle;\">\n"
-"                    Certifikat: <t t-out=\"object.survey_id.display_name or "
-"''\">Obrazac za povratne informacije</t>\n"
-"            </td></tr>\n"
-"        </tbody>\n"
-"    </table>\n"
-"    <table style=\"width:600px;margin:0px auto;background:white;border:1px "
-"solid #e1e1e1;\">\n"
-"        <tbody>\n"
-"            <tr><td style=\"padding:15px 20px 10px 20px;\">\n"
-"                <p>Poštovani <span t-out=\"object.partner_id.name or "
-"'participant'\">sudionik</span></p>\n"
-"                <p>\n"
-"                    U prilogu se nalazi Vaša\n"
-"                        <strong t-out=\"object.survey_id.display_name or "
-"''\">Izrada namještaja</strong>\n"
-"                    certification\n"
-"                </p>\n"
-"                <p>Čestitamo za uspješno polaganje testa s rezultatom "
-"<strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
-"            </td></tr>\n"
-"        </tbody>\n"
-"    </table>\n"
-"</div>\n"
-"            "
 
 #. module: survey
 #: model:mail.template,body_html:survey.mail_template_user_input_invite
@@ -306,17 +268,17 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.user_input_session_manage_content
 msgid "<i class=\"fa fa-bar-chart\"/> Results"
-msgstr "<i class=\"fa fa-bar-chart\"/> Rezultati"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "<i class=\"fa fa-check-square-o fa-lg me-2\"/>answer"
-msgstr "<i class=\"fa fa-check-square-o fa-lg me-2\"/>odgovor"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "<i class=\"fa fa-circle-o  fa-lg me-2\"/>answer"
-msgstr "<i class=\"fa fa-circle-o  fa-lg me-2\"/>odgovor"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -324,18 +286,16 @@ msgid ""
 "<i class=\"fa fa-circle-o fa-lg\" role=\"img\" aria-label=\"Not checked\" "
 "title=\"Not checked\"/>"
 msgstr ""
-"<i class=\"fa fa-circle-o fa-lg\" role=\"img\" aria-label=\"Nije označeno\" "
-"title=\"Nije označeno\"/>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.user_input_session_manage_content
 msgid "<i class=\"fa fa-close\"/> Close"
-msgstr "<i class=\"fa fa-close\"/> Zatvori"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "<i class=\"fa fa-dot-circle-o fa-lg me-2\"/>answer"
-msgstr "<i class=\"fa fa-dot-circle-o fa-lg me-2\"/>odgovor"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -343,8 +303,6 @@ msgid ""
 "<i class=\"fa fa-dot-circle-o fa-lg\" role=\"img\" aria-label=\"Checked\" "
 "title=\"Checked\"/>"
 msgstr ""
-"<i class=\"fa fa-dot-circle-o fa-lg\" role=\"img\" aria-label=\"Označeno\" "
-"title=\"Označeno\"/>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_button_form_view
@@ -352,8 +310,6 @@ msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> It is currently not possible to "
 "pass this assessment because no question is configured to give any points."
 msgstr ""
-"<i class=\"fa fa-exclamation-triangle\"/> Trenutno nije moguće položiti ovu "
-"procjenu jer niti jedno pitanje nije konfigurirano za dodjelu bodova."
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
@@ -362,9 +318,6 @@ msgid ""
 "certification\" title=\"Download certification\"/>\n"
 "                                        Download certification"
 msgstr ""
-"<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Preuzmi "
-"certifikat\" title=\"Preuzmi certifikat\"/>\n"
-"                                        Preuzmi certifikat"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -378,34 +331,30 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "<i class=\"fa fa-square-o fa-lg me-2\"/>answer"
-msgstr "<i class=\"fa fa-square-o fa-lg me-2\"/>odgovor"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_button_form_view
 msgid "<i class=\"oi oi-fw oi-arrow-right\"/>Go to Survey"
-msgstr "<i class=\"oi oi-fw oi-arrow-right\"/>Idi na anketu"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Avg</span>"
 msgstr ""
-"<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Prosj.</"
-"span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Max</span>"
 msgstr ""
-"<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Max</span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Min</span>"
 msgstr ""
-"<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Min</span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_in_progress
@@ -424,10 +373,6 @@ msgid ""
 "span>\n"
 "                        </span>"
 msgstr ""
-"<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\">\n"
-"                            <span id=\"enter-tooltip\">ili pritisnite Enter</"
-"span>\n"
-"                        </span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_in_progress
@@ -454,10 +399,6 @@ msgid ""
 "                        <span class=\"o_stat_text\" "
 "invisible=\"certifications_company_count &gt; 1\">Certification</span>"
 msgstr ""
-"<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; "
-"2\">Certifikati</span>\n"
-"                        <span class=\"o_stat_text\" "
-"invisible=\"certifications_company_count &gt; 1\">Certifikat</span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.res_partner_view_form
@@ -467,10 +408,6 @@ msgid ""
 "                        <span class=\"o_stat_text\" "
 "invisible=\"certifications_count &gt; 1\">Certification</span>"
 msgstr ""
-"<span class=\"o_stat_text\" invisible=\"certifications_count &lt; 2\">"
-"Certifikati</span>\n"
-"                        <span class=\"o_stat_text\" "
-"invisible=\"certifications_count &gt; 1\">Certifikat</span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
@@ -478,8 +415,6 @@ msgid ""
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or "
 "press Enter</span>"
 msgstr ""
-"<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">"
-"ili pritisnite Enter</span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_selection_key
@@ -488,9 +423,6 @@ msgid ""
 "start py-0 ps-2\"><span class=\"text-primary text-center text-center w-100 "
 "position-relative\">Key</span></span>"
 msgstr ""
-"<span class=\"o_survey_key text-center position-absolute bg-white rounded-"
-"start py-0 ps-2\"><span class=\"text-primary text-center text-center w-100 "
-"position-relative\">Tipka</span></span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
@@ -500,10 +432,6 @@ msgid ""
 "filters\n"
 "                            </span>"
 msgstr ""
-"<span class=\"o_survey_results_topbar_clear_filters text-primary\">\n"
-"                                <i class=\"fa fa-trash me-1\"/>Ukloni sve "
-"filtere\n"
-"                            </span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.user_input_session_manage_content
@@ -511,8 +439,6 @@ msgid ""
 "<span class=\"o_survey_session_answer_count\">0</span>\n"
 "                                     /"
 msgstr ""
-"<span class=\"o_survey_session_answer_count\">0</span>\n"
-"                                     /"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.user_input_session_open
@@ -520,8 +446,6 @@ msgid ""
 "<span class=\"o_survey_session_navigation_next_label\">Start</span>\n"
 "                        <i class=\"oi oi-chevron-right\"/>"
 msgstr ""
-"<span class=\"o_survey_session_navigation_next_label\">Pokreni</span>\n"
-"                        <i class=\"oi oi-chevron-right\"/>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
@@ -541,32 +465,32 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "<span class=\"text-muted\">Average Duration</span>"
-msgstr "<span class=\"text-muted\">Prosječno trajanje</span>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "<span class=\"text-muted\">Questions</span>"
-msgstr "<span class=\"text-muted\">Pitanja</span>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid "<span class=\"text-muted\">Responded</span>"
-msgstr "<span class=\"text-muted\">Odgovorilo</span>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid "<span class=\"text-success\">Correct</span>"
-msgstr "<span class=\"text-success\">Točno</span>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid "<span class=\"text-warning\">Partial</span>"
-msgstr "<span class=\"text-warning\">Djelomično</span>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "<span invisible=\"not is_scored_question\">Points</span>"
-msgstr "<span invisible=\"not is_scored_question\">Bodovi</span>"
+msgstr ""
 
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_demo_quiz_p3_q1
@@ -582,7 +506,7 @@ msgstr "<span>%</span>"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
 msgid "<span>All surveys</span>"
-msgstr "<span>Sve ankete</span>"
+msgstr ""
 
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_demo_quiz_p3_q6
@@ -592,7 +516,7 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
 msgid "<span>Completed surveys</span>"
-msgstr "<span>Završene ankete</span>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
@@ -602,12 +526,12 @@ msgstr "<span>Datum</span>"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "<span>Do you like it?</span><br/>"
-msgstr "<span>Sviđa li Vam se?</span><br/>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
 msgid "<span>Failed only</span>"
-msgstr "<span>Samo neuspjele</span>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -618,11 +542,6 @@ msgid ""
 "                                    <i class=\"fa fa-2x fa-sort\" "
 "role=\"img\" aria-label=\"Numeric\"/>"
 msgstr ""
-"<span>Koliko ...?</span><br/>\n"
-"                                    <i class=\"fa fa-2x\" role=\"img\" aria-"
-"label=\"Brojčano\" title=\"Brojčano\">123 </i>\n"
-"                                    <i class=\"fa fa-2x fa-sort\" "
-"role=\"img\" aria-label=\"Brojčano\"/>"
 
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_demo_quiz_p5_q1
@@ -637,9 +556,6 @@ msgid ""
 "                                    <i class=\"fa fa-align-justify fa-4x\" "
 "role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
 msgstr ""
-"<span>Imenujte sve životinje</span><br/>\n"
-"                                    <i class=\"fa fa-align-justify fa-4x\" "
-"role=\"img\" aria-label=\"Više redaka\" title=\"Više redaka\"/>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -648,9 +564,6 @@ msgid ""
 "                                    <i class=\"fa fa-minus fa-4x\" "
 "role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
 msgstr ""
-"<span>Imenujte jednu životinju</span><br/>\n"
-"                                    <i class=\"fa fa-minus fa-4x\" "
-"role=\"img\" aria-label=\"Jedan redak\" title=\"Jedan redak\"/>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_button_retake
@@ -670,12 +583,12 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
 msgid "<span>Passed and Failed</span>"
-msgstr "<span>Uspjele i neuspjele</span>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
 msgid "<span>Passed only</span>"
-msgstr "<span>Samo uspjele</span>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
@@ -683,8 +596,6 @@ msgid ""
 "<span>This certificate is presented to</span>\n"
 "                                <br/>"
 msgstr ""
-"<span>Ovaj certifikat dodjeljuje se</span>\n"
-"                                <br/>"
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_form
@@ -694,22 +605,22 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.user_input_session_manage_content
 msgid "<span>Waiting for attendees...</span>"
-msgstr "<span>Čekanje na sudionike...</span>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "<span>When does ... start?</span><br/>"
-msgstr "<span>Kada počinje ... ?</span><br/>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "<span>When is Christmas?</span><br/>"
-msgstr "<span>Kada je Božić?</span><br/>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "<span>Which are yellow?</span><br/>"
-msgstr "<span>Koji su žuti?</span><br/>"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -722,8 +633,6 @@ msgid ""
 "<span>for successfully completing</span>\n"
 "                                <br/>"
 msgstr ""
-"<span>za uspješno završen</span>\n"
-"                                <br/>"
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p3_q4
@@ -734,7 +643,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/survey/models/survey_question.py:0
 msgid "A label must be attached to only one question."
-msgstr "Oznaka mora biti povezana samo s jednim pitanjem."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_question_positive_len_max
@@ -745,12 +654,12 @@ msgstr "Dužina mora biti pozitivna!"
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_3_choice_4
 msgid "A little bit overpriced"
-msgstr "Malo preskupo"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_3_choice_5
 msgid "A lot overpriced"
-msgstr "Puno preskupo"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_session_speed_rating_has_time_limit
@@ -758,8 +667,6 @@ msgid ""
 "A positive default time limit is required when the session rewards quick "
 "answers."
 msgstr ""
-"Potrebno je postaviti pozitivno zadano vremensko ograničenje kada sesija "
-"nagrađuje brze odgovore."
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question_answer__answer_score
@@ -773,13 +680,13 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form
 msgid "A problem has occurred"
-msgstr "Došlo je do problema"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_user_input.py:0
 msgid "A question can either be skipped or answered, not both."
-msgstr "Pitanje se može preskočiti ili odgovoriti, ne oboje."
+msgstr ""
 
 #. module: survey
 #. odoo-python
@@ -788,13 +695,11 @@ msgid ""
 "A scored survey needs at least one question that gives points.\n"
 "Please check answers and their scores."
 msgstr ""
-"Bodovana anketa mora imati barem jedno pitanje koje donosi bodove.\n"
-"Molimo provjerite odgovore i njihove bodove."
 
 #. module: survey
 #: model:survey.question,title:survey.survey_feedback_p2
 msgid "About our ecommerce"
-msgstr "O našoj e-trgovini"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_feedback_p1
@@ -815,7 +720,7 @@ msgstr "Token pristupa"
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_access_token_unique
 msgid "Access token should be unique"
-msgstr "Pristupni token mora biti jedinstven"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__message_needaction
@@ -905,8 +810,6 @@ msgid ""
 "All \"Is a scored question = True\" and \"Question Type: Date\" questions "
 "need an answer"
 msgstr ""
-"Sva pitanja s \"Je bodovano pitanje = Da\" i \"Tip pitanja: Datum\" moraju "
-"imati odgovor"
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_question_scored_datetime_have_answers
@@ -914,8 +817,6 @@ msgid ""
 "All \"Is a scored question = True\" and \"Question Type: Datetime\" "
 "questions need an answer"
 msgstr ""
-"Sva pitanja s \"Je bodovano pitanje = Da\" i \"Tip pitanja: Datum i "
-"vrijeme\" moraju imati odgovor"
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__questions_selection__all
@@ -925,13 +826,12 @@ msgstr "Sva pitanja"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
 msgid "All surveys"
-msgstr "Sve ankete"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_question_is_time_limited_have_time_limit
 msgid "All time-limited questions need a positive time limit"
 msgstr ""
-"Sva vremenski ograničena pitanja moraju imati pozitivno vremensko ograničenje"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
@@ -941,29 +841,27 @@ msgstr "Dozvoli roaming"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__allowed_triggering_question_ids
 msgid "Allowed Triggering Questions"
-msgstr "Dopuštena okidajuća pitanja"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__allowed_survey_types
 msgid "Allowed survey types"
-msgstr "Dopušteni tipovi ankete"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q2_sug2
 msgid "Amenhotep"
-msgstr "Amenhotep"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_user_input_unique_token
 msgid "An access token must be unique!"
-msgstr "Pristupni token mora biti jedinstven!"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_question_positive_answer_score
 msgid "An answer score for a non-multiple choice question cannot be negative!"
 msgstr ""
-"Bod odgovora za pitanje koje nije s višestrukim izborom ne može biti "
-"negativan!"
 
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_demo_quiz_p3
@@ -998,8 +896,6 @@ msgid ""
 "Answer label as either the value itself if not empty or a letter "
 "representing the index of the answer otherwise."
 msgstr ""
-"Oznaka odgovora kao sama vrijednost ako nije prazna ili slovo koje "
-"predstavlja indeks odgovora u suprotnom."
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__user_input_line_ids
@@ -1012,7 +908,7 @@ msgstr "Odgovori"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_answer_count
 msgid "Answers Count"
-msgstr "Broj odgovora"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__access_mode__public
@@ -1044,18 +940,18 @@ msgstr "Arhivirano"
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_food_preferences_q1
 msgid "Are you vegetarian?"
-msgstr "Jeste li vegetarijanac?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p5
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p1_q1_sug4
 msgid "Art & Culture"
-msgstr "Umjetnost i kultura"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q1_sug1
 msgid "Arthur B. McDonald"
-msgstr "Arthur B. McDonald"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q4_sug2
@@ -1102,19 +998,17 @@ msgid ""
 "Attendee nickname, mainly used to identify them in the survey session "
 "leaderboard."
 msgstr ""
-"Nadimak sudionika, uglavnom se koristi za identifikaciju na ljestvici sesije "
-"ankete."
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.user_input_session_manage_content
 msgid "Attendees are answering the question..."
-msgstr "Sudionici odgovaraju na pitanje..."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
 #: model:ir.model.fields,help:survey.field_survey_survey__session_speed_rating
 msgid "Attendees get more points if they answer quickly"
-msgstr "Sudionici dobivaju više bodova ako brzo odgovore"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__author_id
@@ -1127,8 +1021,6 @@ msgid ""
 "Automated email sent to the user when they succeed the certification, "
 "containing their certification document."
 msgstr ""
-"Automatski e-mail poslan korisniku kada položi certifikaciju, sadrži njegov "
-"certifikacijski dokument."
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q6_sug3
@@ -1149,12 +1041,12 @@ msgstr "Prosječno trajanje"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_inner
 msgid "Average Score"
-msgstr "Prosječan rezultat"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__answer_duration_avg
 msgid "Average duration of the survey (in hours)"
-msgstr "Prosječno trajanje ankete (u satima)"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__answer_score_avg
@@ -1164,7 +1056,7 @@ msgstr "Prosječni rezultat (%)"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q1_sug3
 msgid "Avicii"
-msgstr "Avicii"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__background_image
@@ -1176,7 +1068,7 @@ msgstr "Pozadinska slika"
 #: model:ir.model.fields,field_description:survey.field_survey_question__background_image_url
 #: model:ir.model.fields,field_description:survey.field_survey_survey__background_image_url
 msgid "Background Url"
-msgstr "URL pozadine"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.gamification_badge_form_view_simplified
@@ -1196,13 +1088,13 @@ msgstr ""
 #. module: survey
 #: model:survey.question,question_placeholder:survey.vendor_certification_page_3_question_3
 msgid "Beware of leap years!"
-msgstr "Pazite na prijestupne godine!"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Blue Pen"
-msgstr "Plava olovka"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__body_has_template_value
@@ -1227,13 +1119,13 @@ msgstr ""
 #. module: survey
 #: model:survey.survey,title:survey.survey_demo_burger_quiz
 msgid "Burger Quiz"
-msgstr "Burger kviz"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "But first, keep listening to the host."
-msgstr "Ali prvo, nastavite slušati voditelja."
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_3
@@ -1253,7 +1145,7 @@ msgstr "Može urediti sadržaj"
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p4_q3
 msgid "Can Humans ever directly see a photon?"
-msgstr "Mogu li ljudi ikada izravno vidjeti foton?"
+msgstr ""
 
 #. module: survey
 #. odoo-python
@@ -1276,17 +1168,17 @@ msgstr "Značka certifikata "
 #. odoo-python
 #: code:addons/survey/models/survey_survey.py:0
 msgid "Certification Badge is not configured for the survey %(survey_name)s"
-msgstr "Certifikacijska značka nije konfigurirana za anketu %(survey_name)s"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
 msgid "Certification Failed"
-msgstr "Certifikacija nije uspjela"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
 msgid "Certification n°"
-msgstr "Certifikat br."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__certification_report_layout
@@ -1296,7 +1188,7 @@ msgstr "Predložak certifikata"
 #. module: survey
 #: model:mail.template,subject:survey.mail_template_certification
 msgid "Certification: {{ object.survey_id.display_name }}"
-msgstr "Certification: {{ object.survey_id.display_name }}"
+msgstr ""
 
 #. module: survey
 #: model:ir.actions.report,name:survey.certification_report
@@ -1308,12 +1200,12 @@ msgstr "Certifikacije"
 #: model:ir.model.fields,field_description:survey.field_res_partner__certifications_count
 #: model:ir.model.fields,field_description:survey.field_res_users__certifications_count
 msgid "Certifications Count"
-msgstr "Broj certifikata"
+msgstr ""
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.res_partner_action_certifications
 msgid "Certifications Succeeded"
-msgstr "Uspjele certifikacije"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
@@ -1335,19 +1227,19 @@ msgstr "Zaštita poda stolice"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Cheating on your neighbors will not help!"
-msgstr "Varanje od susjeda vam neće pomoći!"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__is_attempts_limited
 #: model:ir.model.fields,help:survey.field_survey_user_input__is_attempts_limited
 msgid "Check this option if you want to limit the number of attempts per user"
-msgstr "Označite ovu opciju ako želite ograničiti broj pokušaja po korisniku"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/views/widgets/boolean_update_flag_field/boolean_update_flag_fields.js:0
 msgid "Checkbox updating comparison flag"
-msgstr "Oznaka za ažuriranje usporedbe"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q2_sug2
@@ -1362,17 +1254,17 @@ msgstr "Izbori"
 #. module: survey
 #: model_terms:survey.survey,description:survey.survey_demo_burger_quiz
 msgid "Choose your favourite subject and show how good you are. Ready?"
-msgstr "Odaberite omiljeni predmet i pokažite koliko ste dobri. Spremni?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_food_preferences_q3
 msgid "Choose your green meal"
-msgstr "Odaberite svoj zeleni obrok"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_food_preferences_q4
 msgid "Choose your meal"
-msgstr "Odaberite svoj obrok"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__certification_report_layout__classic_blue
@@ -1397,7 +1289,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q1_sug4
 msgid "Cliff Burton"
-msgstr "Cliff Burton"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form
@@ -1430,14 +1322,11 @@ msgid ""
 "possible; please update the following surveys:\n"
 "- %(survey_names)s"
 msgstr ""
-"Kombiniranje lutanja i \"Bodovanje s odgovorima nakon svake stranice\" nije "
-"moguće; molimo ažurirajte sljedeće ankete:\n"
-"- %(survey_names)s"
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_question_form
 msgid "Come back once you have added questions to your Surveys."
-msgstr "Vratite se nakon što dodate pitanja u svoje ankete."
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.question_result_comments
@@ -1458,7 +1347,7 @@ msgstr "Komentar je odgovor"
 #: model:ir.model.fields,field_description:survey.field_res_partner__certifications_company_count
 #: model:ir.model.fields,field_description:survey.field_res_users__certifications_company_count
 msgid "Company Certifications Count"
-msgstr "Broj certifikata tvrtke"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_user_input__state__done
@@ -1470,7 +1359,7 @@ msgstr "Završeno"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
 msgid "Completed surveys"
-msgstr "Završene ankete"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
@@ -1499,24 +1388,22 @@ msgstr "Uvjetni prikaz nije dostupan kada se pitanja biraju nasumično."
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_1_question_2_choice_3
 msgid "Conference chair"
-msgstr "Predsjednik konferencije"
+msgstr ""
 
 #. module: survey
 #: model_terms:web_tour.tour,rainbow_man_message:survey.survey_tour
 msgid "Congratulations! You are now ready to collect feedback like a pro :-)"
 msgstr ""
-"Čestitamo! Sada ste spremni prikupljati povratne informacije kao "
-"profesionalac :-)"
 
 #. module: survey
 #: model_terms:gamification.badge,description:survey.vendor_certification_badge
 msgid "Congratulations, you are now official vendor of MyCompany"
-msgstr "Čestitamo, sada ste službeni dobavljač tvrtke MyCompany"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
 msgid "Congratulations, you have passed the test!"
-msgstr "Čestitamo, položili ste test!"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -1532,7 +1419,7 @@ msgstr "Kontakt"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__has_conditional_questions
 msgid "Contains conditional questions"
-msgstr "Sadrži uvjetna pitanja"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__body
@@ -1547,7 +1434,7 @@ msgstr "Nastavi"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form
 msgid "Continue here"
-msgstr "Nastavite ovdje"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q3_sug4
@@ -1583,12 +1470,12 @@ msgstr "Ispravno"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Correct Answer"
-msgstr "Točan odgovor"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__answer_datetime
 msgid "Correct date and time answer for this question."
-msgstr "Točan odgovor u obliku datuma i vremena za ovo pitanje."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__answer_date
@@ -1598,7 +1485,7 @@ msgstr "Točan odgovor s datumom"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__answer_date
 msgid "Correct date answer for this question."
-msgstr "Točan odgovor u obliku datuma za ovo pitanje."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__answer_datetime
@@ -1608,17 +1495,17 @@ msgstr "Točan odgovor s datumom i vremenom"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__answer_numerical_box
 msgid "Correct number answer for this question."
-msgstr "Točan brojčani odgovor za ovo pitanje."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__answer_numerical_box
 msgid "Correct numerical answer"
-msgstr "Točan brojčani odgovor"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_3_choice_3
 msgid "Correctly priced"
-msgstr "Prikladno cijenjeno"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q4_sug3
@@ -1659,7 +1546,7 @@ msgstr "Kreirano"
 #. odoo-python
 #: code:addons/survey/models/survey_survey.py:0
 msgid "Creating test token is not allowed for you."
-msgstr "Niste ovlašteni za kreiranje testnog tokena."
+msgstr ""
 
 #. module: survey
 #. odoo-python
@@ -1668,14 +1555,12 @@ msgid ""
 "Creating token for anybody else than employees is not allowed for internal "
 "surveys."
 msgstr ""
-"Kreiranje tokena za bilo koga osim zaposlenika nije dopušteno za interne "
-"ankete."
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey.py:0
 msgid "Creating token for closed/archived surveys is not allowed."
-msgstr "Nije dopušteno kreiranje tokena za zatvorene/arhivirane ankete."
+msgstr ""
 
 #. module: survey
 #. odoo-python
@@ -1684,8 +1569,6 @@ msgid ""
 "Creating token for external people is not allowed for surveys requesting "
 "authentication."
 msgstr ""
-"Kreiranje tokena za vanjske osobe nije dopušteno za ankete koje zahtijevaju "
-"autentifikaciju."
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_question_id
@@ -1705,7 +1588,7 @@ msgstr "Vrijeme početka trenutne sesije"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__is_time_limited
 msgid "Currently only supported for live sessions."
-msgstr "Trenutno je podržano samo za žive sesije."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__survey_type__custom
@@ -1719,17 +1602,16 @@ msgid ""
 "Customers will receive a new token and be able to completely retake the "
 "survey."
 msgstr ""
-"Kupci će dobiti novi token i moći će ponovno u potpunosti ispuniti anketu."
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
 msgid "Customers will receive the same token."
-msgstr "Kupci će dobiti isti token."
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_1_question_2_choice_5
 msgid "Customizable Lamp"
-msgstr "Prilagodljiva svjetiljka"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__is_time_customized
@@ -1739,7 +1621,7 @@ msgstr "Prilagođene nagrade za brzinu"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
 msgid "DEMO_CERTIFIED_NAME"
-msgstr "DEMO_CERTIFIED_NAME"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_question__question_type__date
@@ -1766,7 +1648,7 @@ msgstr "Datum i vrijeme odgovora"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_user_input__deadline
 msgid "Datetime until customer can open the survey and submit answers"
-msgstr "Datum i vrijeme do kada kupac može otvoriti anketu i poslati odgovore"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__deadline
@@ -1777,7 +1659,7 @@ msgstr "Krajnji rok"
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
 #: model:ir.model.fields,help:survey.field_survey_survey__session_speed_rating_time_limit
 msgid "Default time given to receive additional points for right answers"
-msgstr "Zadano vrijeme za dobivanje dodatnih bodova za točne odgovore"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_gamification_challenge__challenge_category
@@ -1832,27 +1714,27 @@ msgstr "Prikaži napredak kao"
 #. odoo-javascript
 #: code:addons/survey/static/src/views/widgets/survey_question_trigger/survey_question_trigger.js:0
 msgid "Displayed if \"%s\"."
-msgstr "Prikazano ako \"%s\"."
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Displayed when the answer entered is not valid."
-msgstr "Prikazano kada uneseni odgovor nije valjan."
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_1_question_1
 msgid "Do we sell Acoustic Bloc Screens?"
-msgstr "Prodajemo li akustične blok zaslone?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_feedback_p2_q3
 msgid "Do you have any other comments, questions, or concerns?"
-msgstr "Imate li drugih komentara, pitanja ili nedoumica?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_1_question_5
 msgid "Do you think we have missing products in our catalog? (not rated)"
-msgstr "Mislite li da u našem katalogu nedostaju proizvodi? (ne boduje se)"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q2_sug2
@@ -1882,7 +1764,7 @@ msgstr "Ladica"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Duplicate Question"
-msgstr "Dupliciraj pitanje"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
@@ -1920,7 +1802,7 @@ msgstr "Datum i vrijeme završetka"
 #. odoo-javascript
 #: code:addons/survey/static/src/js/survey_session_manage.js:0
 msgid "End of Survey"
-msgstr "Kraj ankete"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_session_code
@@ -1950,22 +1832,22 @@ msgstr "Isključi testove"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__existing_partner_ids
 msgid "Existing Partner"
-msgstr "Postojeći partner"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__existing_emails
 msgid "Existing emails"
-msgstr "Postojeći e-mailovi"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Extremely likely"
-msgstr "Iznimno vjerojatno"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q3_sug2
 msgid "Eyjafjallajökull (Iceland)"
-msgstr "Eyjafjallajökull (Iceland)"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_form
@@ -1975,7 +1857,7 @@ msgstr "Neuspjelo"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
 msgid "Failed only"
-msgstr "Samo neuspjele"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_1_question_2_choice_2
@@ -1987,7 +1869,7 @@ msgstr "Fanta"
 #: code:addons/survey/models/survey_survey_template.py:0
 #: model:survey.survey,title:survey.survey_feedback
 msgid "Feedback Form"
-msgstr "Obrazac za povratne informacije"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q5_row2
@@ -2000,19 +1882,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.question_result_number_or_date_or_datetime
 #: model_terms:ir.ui.view,arch_db:survey.question_result_text
 msgid "Filter surveys"
-msgstr "Filtriraj ankete"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/survey_session_manage.js:0
 #: model_terms:ir.ui.view,arch_db:survey.user_input_session_manage_content
 msgid "Final Leaderboard"
-msgstr "Završna ljestvica"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_food_preferences_q4_sug2
 msgid "Fish"
-msgstr "Riba"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__message_follower_ids
@@ -2035,13 +1917,13 @@ msgstr "Font awesome ikona npr. fa-tasks"
 #. module: survey
 #: model:survey.survey,title:survey.survey_demo_food_preferences
 msgid "Food Preferences"
-msgstr "Prehrambene preferencije"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_question.py:0
 msgid "For this question, you can only select one answer."
-msgstr "Za ovo pitanje možete odabrati samo jedan odgovor."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_user_input_line__answer_type__text_box
@@ -2071,7 +1953,7 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
 msgid "Functional Training"
-msgstr "Funkcionalni trening"
+msgstr ""
 
 #. module: survey
 #: model:ir.model,name:survey.model_gamification_badge
@@ -2086,18 +1968,18 @@ msgstr "Izazov igre"
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_form
 msgid "Gather feedbacks from your employees and customers"
-msgstr "Prikupite povratne informacije od zaposlenika i kupaca"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating_time_limit
 msgid "General Time limit (seconds)"
-msgstr "Opće vremensko ograničenje (sekunde)"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p2
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p1_q1_sug1
 msgid "Geography"
-msgstr "Geografija"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__certification_give_badge
@@ -2123,12 +2005,12 @@ msgstr "Sretno!"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug4
 msgid "Good value for money"
-msgstr "Dobar omjer cijene i kvalitete"
+msgstr ""
 
 #. module: survey
 #: model_terms:survey.survey,description_done:survey.survey_demo_food_preferences
 msgid "Got it!"
-msgstr "Razumijem!"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q4_sug2
@@ -2153,7 +2035,7 @@ msgstr "HTTP usmjeravanje"
 #: model:ir.model.fields,field_description:survey.field_survey_invite__existing_mode
 #: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
 msgid "Handle existing"
-msgstr "Obradi postojeće"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_form
@@ -2174,7 +2056,7 @@ msgstr "Ima poruku"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__has_image_only_suggested_answer
 msgid "Has image only suggested answer"
-msgstr "Ima predloženi odgovor samo sa slikom"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_1_question_3_choice_2
@@ -2184,12 +2066,12 @@ msgstr "Visina"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Help Participants know what to write"
-msgstr "Pomozite sudionicima da znaju što napisati"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q2_sug3
 msgid "Hemiunu"
-msgstr "Hemiunu"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
@@ -2211,68 +2093,67 @@ msgstr "Povijest"
 #. module: survey
 #: model:survey.question,title:survey.survey_feedback_p1_q3
 msgid "How frequently do you buy products online?"
-msgstr "Koliko često kupujete proizvode putem interneta?"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "How frequently do you use our products?"
-msgstr "Koliko često koristite naše proizvode?"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "How good of a presenter are you? Let's find out!"
-msgstr "Koliko ste dobar voditelj prezentacije? Saznajmo!"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "How likely are you to recommend the following products to a friend?"
-msgstr "Koliko je vjerojatno da ćete sljedeće proizvode preporučiti prijatelju?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p2_q1
 msgid "How long is the White Nile river?"
-msgstr "Koliko je dugačka rijeka Bijeli Nil?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_3_question_6
 msgid ""
 "How many chairs do you think we should aim to sell in a year (not rated)?"
 msgstr ""
-"Koliko stolica mislite da bismo trebali prodati u godini dana (ne boduje se)?"
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_3_question_1
 msgid "How many days is our money-back guarantee?"
-msgstr "Koliko dana traje naše jamstvo za povrat novca?"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "How many orders did you pass during the last 6 months?"
-msgstr "Koliko ste narudžbi napravili u posljednjih 6 mjeseci?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_feedback_p1_q4
 msgid "How many times did you order products on our website?"
-msgstr "Koliko ste puta naručili proizvode na našoj web-stranici?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_1_question_4
 msgid "How many versions of the Corner Desk do we have?"
-msgstr "Koliko verzija kutnog stola imamo?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p3_q3
 msgid "How many years did the 100 years war last?"
-msgstr "Koliko je godina trajao Stogodišnji rat?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_2_question_1
 msgid "How much do we sell our Cable Management Box?"
-msgstr "Po kojoj cijeni prodajemo našu kutiju za organizaciju kabela?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p3_q5
@@ -2290,8 +2171,6 @@ msgid ""
 "I actually don't like thinking. I think people think I like to think a lot. "
 "And I don't. I do not like to think at all."
 msgstr ""
-"Zapravo ne volim razmišljati. Mislim da ljudi misle da volim puno "
-"razmišljati. Ali ne volim. Uopće ne volim razmišljati."
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q3_sug2
@@ -2299,8 +2178,6 @@ msgid ""
 "I am fascinated by air. If you remove the air from the sky, all the birds "
 "would fall to the ground. And all the planes, too."
 msgstr ""
-"Fasciniran sam zrakom. Ako bi uklonili zrak s neba, sve bi ptice pale na "
-"tlo. I svi avioni, također."
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q2_row5
@@ -2315,7 +2192,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q3_sug3
 msgid "I've been noticing gravity since I was very young!"
-msgstr "Primjećujem gravitaciju od ranog djetinjstva!"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__id
@@ -2350,8 +2227,6 @@ msgid ""
 "If Number is selected, it will display the number of questions answered on "
 "the total number of question to answer."
 msgstr ""
-"Ako je odabrano \"Broj\", prikazat će se broj odgovorenih pitanja u odnosu "
-"na ukupan broj pitanja."
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_3_question_3
@@ -2359,8 +2234,6 @@ msgid ""
 "If a customer purchases a 1 year warranty on 6 January 2020, when do we "
 "expect the warranty to expire?"
 msgstr ""
-"Ako kupac kupi jednogodišnje jamstvo 6. siječnja 2020., kada očekujemo da "
-"jamstvo istječe?"
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_3_question_2
@@ -2368,8 +2241,6 @@ msgid ""
 "If a customer purchases a product on 6 January 2020, what is the latest day "
 "we expect to ship it?"
 msgstr ""
-"Ako kupac kupi proizvod 6. siječnja 2020., koji je najkasniji dan kada "
-"očekujemo otpremu?"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__message_needaction
@@ -2390,19 +2261,16 @@ msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 msgid ""
 "If checked, this option will save the user's answer as its email address."
 msgstr ""
-"Ako je označeno, ova opcija spremit će korisnikov odgovor kao njegovu e-mail "
-"adresu."
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__save_as_nickname
 msgid "If checked, this option will save the user's answer as its nickname."
 msgstr ""
-"Ako je označeno, ova opcija spremit će korisnikov odgovor kao njegov nadimak."
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__users_can_go_back
 msgid "If checked, users can go back to previous pages."
-msgstr "Ako je označeno, korisnici se mogu vratiti na prethodne stranice."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_invite__survey_users_login_required
@@ -2410,8 +2278,6 @@ msgstr "Ako je označeno, korisnici se mogu vratiti na prethodne stranice."
 msgid ""
 "If checked, users have to login before answering even with a valid token."
 msgstr ""
-"Ako je označeno, korisnici se moraju prijaviti prije odgovaranja čak i s "
-"valjanim tokenom."
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.question_container
@@ -2425,7 +2291,6 @@ msgid ""
 "If randomized is selected, add the number of random questions next to the "
 "section."
 msgstr ""
-"Ako je odabrano nasumično, dodajte broj nasumičnih pitanja pored sekcije."
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__questions_selection
@@ -2433,13 +2298,11 @@ msgid ""
 "If randomized is selected, you can configure the number of random questions "
 "by section. This mode is ignored in live session."
 msgstr ""
-"Ako je odabrano nasumično, možete konfigurirati broj nasumičnih pitanja po "
-"sekciji. Ovaj način zanemaruje se u živoj sesiji."
 
 #. module: survey
 #: model:survey.question,question_placeholder:survey.vendor_certification_page_1_question_5
 msgid "If yes, explain what you think is missing, give examples."
-msgstr "Ako da, objasnite što mislite da nedostaje, navedite primjere."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_answer__value_image
@@ -2456,17 +2319,17 @@ msgstr "Ime datoteke slike"
 #. odoo-javascript
 #: code:addons/survey/static/src/xml/survey_image_zoomer_templates.xml:0
 msgid "Image Zoom Dialog"
-msgstr "Dijalog uvećanja slike"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q2_sug1
 msgid "Imhotep"
-msgstr "Imhotep"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug6
 msgid "Impractical"
-msgstr "Nepraktično"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__session_state__in_progress
@@ -2491,8 +2354,6 @@ msgid ""
 "Include this question as part of quiz scoring. Requires an answer and answer "
 "score to be taken into account."
 msgstr ""
-"Uključite ovo pitanje kao dio bodovanja kviza. Potreban je odgovor i bod "
-"odgovora da bi se uzelo u obzir."
 
 #. module: survey
 #. odoo-javascript
@@ -2505,7 +2366,7 @@ msgstr "Netočno"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug7
 msgid "Ineffective"
-msgstr "Neučinkovito"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__validation_email
@@ -2516,7 +2377,7 @@ msgstr "Unos mora biti e-pošta"
 #. odoo-javascript
 #: code:addons/survey/static/src/views/widgets/integer_update_flag_field/integer_update_flag_fields.js:0
 msgid "Integer updating comparison flag"
-msgstr "Oznaka za ažuriranje usporedbe (cijeli broj)"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__invite_token
@@ -2558,7 +2419,7 @@ msgstr "Je u sesiji"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__is_placed_before_trigger
 msgid "Is misplaced?"
-msgstr "Je li krivo postavljeno?"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
@@ -2568,7 +2429,7 @@ msgstr "Nije certifikat"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_user_input__is_session_answer
 msgid "Is that user input part of a survey session or not."
-msgstr "Je li korisnički unos dio sesije ankete ili nije."
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p4_q3
@@ -2579,66 +2440,63 @@ msgstr ""
 #: model:ir.model.fields,help:survey.field_survey_question__is_placed_before_trigger
 msgid "Is this question placed before any of its trigger questions?"
 msgstr ""
-"Je li ovo pitanje postavljeno prije bilo kojeg od svojih okidajućih pitanja?"
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q2_sug4
 msgid "Istanbul"
-msgstr "Istanbul"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_food_preferences_q1_sug3
 msgid "It depends"
-msgstr "Ovisi"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "It does not mean anything specific"
-msgstr "Ne znači ništa posebno"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "It helps attendees focus on what you are saying"
-msgstr "Pomaže sudionicima da se usredotoče na ono što govorite"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "It helps attendees remember the content of your presentation"
-msgstr "Pomaže sudionicima da zapamte sadržaj Vaše prezentacije"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "It is a small bit of text, displayed to help participants answer"
 msgstr ""
-"To je mali dio teksta koji se prikazuje kako bi pomogao sudionicima u "
-"odgovaranju"
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "It is an option that can be different for each Survey"
-msgstr "To je opcija koja može biti različita za svaku anketu"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q2_row2
 msgid "It is easy to find the product that I want"
-msgstr "Lako je pronaći proizvod koji želim"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "It is more engaging for your audience"
-msgstr "Zanimljivije je za Vašu publiku"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "It's a Belgian word for \"Management\""
-msgstr "To je belgijska riječ za \"Upravljanje\""
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p5_q1_sug3
@@ -2651,8 +2509,6 @@ msgid ""
 "I’ve never really wanted to go to Japan. Simply because I don’t like eating "
 "fish. And I know that’s very popular out there in Africa."
 msgstr ""
-"Nikada zapravo nisam želio ići u Japan. Jednostavno zato što ne volim jesti "
-"ribu. A znam da je to vrlo popularno tamo u Africi."
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q2_sug1
@@ -2662,7 +2518,7 @@ msgstr "Japan"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_session_code
 msgid "Join Session"
-msgstr "Pridruži se sesiji"
+msgstr ""
 
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_demo_quiz_p1_q4
@@ -2672,12 +2528,12 @@ msgstr ""
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q1_sug2
 msgid "Kim Jong-hyun"
-msgstr "Kim Jong-hyun"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p5_q1_sug1
 msgid "Kurt Cobain"
-msgstr "Kurt Cobain"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -2692,7 +2548,7 @@ msgstr "Redoslijed oznaka"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__matrix_row_ids
 msgid "Labels used for proposed choices: rows of matrix"
-msgstr "Oznake korištene za predložene izbore: redovi matrice"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__suggested_answer_ids
@@ -2700,8 +2556,6 @@ msgid ""
 "Labels used for proposed choices: simple choice, multiple choice and columns "
 "of matrix"
 msgstr ""
-"Oznake korištene za predložene izbore: jednostavan izbor, višestruki izbor i "
-"stupci matrice"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__lang
@@ -2746,13 +2600,13 @@ msgstr "Zakašnjele aktivnosti"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_session_code
 msgid "Launch Session"
-msgstr "Pokreni sesiju"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_inner
 #: model_terms:ir.ui.view,arch_db:survey.user_input_session_manage_content
 msgid "Leaderboard"
-msgstr "Ljestvica"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_access_error
@@ -2773,31 +2627,31 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
 msgid "Let's get started!"
-msgstr "Počnimo!"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
 msgid "Let's give it a spin!"
-msgstr "Pokušajmo!"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
 msgid "Let's have a look at your answers!"
-msgstr "Pogledajmo Vaše odgovore!"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
 msgid "Let's open the survey you just submitted."
-msgstr "Otvorimo anketu koju ste upravo poslali."
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Likely"
-msgstr "Vjerojatno"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
@@ -2821,7 +2675,7 @@ msgstr "Sesija uživo"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__session_available
 msgid "Live Session available"
-msgstr "Uživo sesija dostupna"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -2842,7 +2696,7 @@ msgstr "Sesija uživo dostupna"
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
 msgid "Load a <b>sample Survey</b> to get started quickly."
-msgstr "Učitajte <b>uzorak ankete</b> za brzi početak."
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_auth_required
@@ -2868,7 +2722,7 @@ msgstr "Matrica"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__matrix_row_ids
 msgid "Matrix Rows"
-msgstr "Redovi matrice"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__matrix_subtype
@@ -2884,7 +2738,6 @@ msgstr "Maks. datum ne može biti manji od min. datuma!"
 #: model:ir.model.constraint,message:survey.constraint_survey_question_validation_datetime
 msgid "Max datetime cannot be smaller than min datetime!"
 msgstr ""
-"Najveći datum i vrijeme ne može biti manji od najmanjeg datuma i vremena!"
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_question_validation_length
@@ -2920,7 +2773,7 @@ msgstr "Maksimalna dužina teksta"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__scoring_max_obtainable
 msgid "Maximum obtainable score"
-msgstr "Maksimalan mogući rezultat"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__validation_max_float_value
@@ -2930,7 +2783,7 @@ msgstr "Maksimalna vrijednost"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_403_page
 msgid "Maybe you were looking for"
-msgstr "Možda ste tražili"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__message_has_error
@@ -2947,7 +2800,7 @@ msgstr "Poruke"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Min/Max Limits"
-msgstr "Min/Max ograničenja"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
@@ -2998,17 +2851,17 @@ msgstr ""
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q3_sug4
 msgid "Mount Elbrus (Russia)"
-msgstr "Mount Elbrus (Russia)"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q3_sug3
 msgid "Mount Etna (Italy - Sicily)"
-msgstr "Mount Etna (Italy - Sicily)"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q3_sug1
 msgid "Mount Teide (Spain - Tenerife)"
-msgstr "Mount Teide (Spain - Tenerife)"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q5_sug4
@@ -3023,12 +2876,12 @@ msgstr "Tekstualno polje s više redaka"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Multiple choice with multiple answers"
-msgstr "Višestruki izbor s više odgovora"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Multiple choice with one answer"
-msgstr "Višestruki izbor s jednim odgovorom"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_question__question_type__multiple_choice
@@ -3054,12 +2907,12 @@ msgstr "Rok za moju aktivnost"
 #. module: survey
 #: model:gamification.badge,name:survey.vendor_certification_badge
 msgid "MyCompany Vendor"
-msgstr "MyCompany Vendor"
+msgstr ""
 
 #. module: survey
 #: model:survey.survey,title:survey.vendor_certification
 msgid "MyCompany Vendor Certification"
-msgstr "MyCompany Vendor Certification"
+msgstr ""
 
 #. module: survey
 #. odoo-python
@@ -3072,7 +2925,7 @@ msgstr "Neutralno"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Never (less than once a month)"
-msgstr "Nikad (manje od jednom mjesečno)"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_user_input__state__new
@@ -3083,17 +2936,17 @@ msgstr "Novi"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q2_sug3
 msgid "New York"
-msgstr "New York"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_invite__existing_mode__new
 msgid "New invite"
-msgstr "Nova pozivnica"
+msgstr ""
 
 #. module: survey
 #: model:mail.message.subtype,description:survey.mt_survey_survey_user_input_completed
 msgid "New participation completed."
-msgstr "Novo sudjelovanje završeno."
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
@@ -3129,7 +2982,7 @@ msgstr "Tip sljedeće aktivnosti"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_in_progress
 msgid "Next Skipped"
-msgstr "Sljedeće preskočeno"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__nickname
@@ -3147,12 +3000,12 @@ msgstr "Ne"
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_question_form
 msgid "No Questions yet!"
-msgstr "Još nema pitanja!"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_form
 msgid "No Survey Found"
-msgstr "Nije pronađena anketa"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_user_input
@@ -3164,12 +3017,12 @@ msgstr "Još nema odgovora!"
 #. odoo-python
 #: code:addons/survey/models/survey_survey.py:0
 msgid "No attempts left."
-msgstr "Nema više pokušaja."
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_void_content
 msgid "No question yet, come back later."
-msgstr "Još nema pitanja, vratite se kasnije."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__scoring_type__no_scoring
@@ -3179,7 +3032,7 @@ msgstr "Nema bodovanja"
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.survey_question_answer_action
 msgid "No survey labels found"
-msgstr "Nisu pronađene oznake ankete"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.survey_user_input_line_action
@@ -3189,7 +3042,7 @@ msgstr "Nisu pronađene linije unosa korisnika"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q3_sug2
 msgid "No, it's too small for the human eye."
-msgstr "Ne, previše je malen za ljudsko oko."
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q5_sug2
@@ -3204,19 +3057,19 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Not likely at all"
-msgstr "Uopće nije vjerojatno"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
 msgid "Now that you are done, submit your form."
-msgstr "Sada kada ste završili, pošaljite obrazac."
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
 msgid "Now, use this shortcut to go back to the survey."
-msgstr "Sada koristite ovaj prečac za povratak na anketu."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__progression_mode__number
@@ -3240,7 +3093,7 @@ msgstr "Broj pokušaja"
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_1_question_3_choice_5
 msgid "Number of drawers"
-msgstr "Broj ladica"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__message_has_error_counter
@@ -3274,12 +3127,12 @@ msgstr "Numerički odgovor"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Object-Directed Open Organization"
-msgstr "Otvorena organizacija usmjerena na objekt"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.question_result_number_or_date_or_datetime
 msgid "Occurrence"
-msgstr "Pojava"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
@@ -3290,7 +3143,7 @@ msgstr "Odoo"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Odoo Certification"
-msgstr "Odoo Certification"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_5
@@ -3301,7 +3154,7 @@ msgstr "Uredska stolica crna"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Often (1-3 times per week)"
-msgstr "Često (1-3 puta tjedno)"
+msgstr ""
 
 #. module: survey
 #. odoo-python
@@ -3309,30 +3162,28 @@ msgstr "Često (1-3 puta tjedno)"
 msgid ""
 "On Survey questions, one can define \"placeholders\". But what are they for?"
 msgstr ""
-"Na pitanjima ankete, mogu se definirati \"rezervirana mjesta\". Ali čemu "
-"služe?"
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p1_q3_sug1
 msgid "Once a day"
-msgstr "Jednom dnevno"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q5_sug1
 #: model:survey.question.answer,value:survey.survey_feedback_p1_q3_sug3
 msgid "Once a month"
-msgstr "Jednom mjesečno"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q5_sug2
 #: model:survey.question.answer,value:survey.survey_feedback_p1_q3_sug2
 msgid "Once a week"
-msgstr "Jednom tjedno"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p1_q3_sug4
 msgid "Once a year"
-msgstr "Jednom godišnje"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_question__matrix_subtype__simple
@@ -3343,13 +3194,13 @@ msgstr "Jedan odabir po retku"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "One needs to answer at least half the questions correctly"
-msgstr "Treba točno odgovoriti na barem polovicu pitanja"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "One needs to get 50% of the total score"
-msgstr "Treba ostvariti 50% od ukupnog rezultata"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__questions_layout__page_per_question
@@ -3370,7 +3221,7 @@ msgstr "Jedna stranica sa svim pitanjima"
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
 msgid "Only a single question left!"
-msgstr "Ostalo je samo još jedno pitanje!"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.question_result_choice
@@ -3378,18 +3229,18 @@ msgstr "Ostalo je samo još jedno pitanje!"
 #: model_terms:ir.ui.view,arch_db:survey.question_result_number_or_date_or_datetime
 #: model_terms:ir.ui.view,arch_db:survey.question_result_text
 msgid "Only show survey results having selected this answer"
-msgstr "Prikaži samo rezultate ankete koji su odabrali ovaj odgovor"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey.py:0
 msgid "Only survey users can manage sessions."
-msgstr "Samo korisnici ankete mogu upravljati sesijama."
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_session_code
 msgid "Oops! No survey matches this code."
-msgstr "Ups! Niti jedna anketa ne odgovara ovom kodu."
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_access_error
@@ -3398,20 +3249,17 @@ msgid ""
 "correct link and are allowed to\n"
 "                        participate or get in touch with its organizer."
 msgstr ""
-"Ups! Nismo Vam mogli omogućiti otvaranje ove ankete. Provjerite koristite li "
-"ispravnu poveznicu i imate li dopuštenje za\n"
-"                        sudjelovanje ili se obratite organizatoru."
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Open Session Manager"
-msgstr "Otvori upravitelj sesije"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/question_page/description_page_field.xml:0
 msgid "Open section"
-msgstr "Otvori sekciju"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -3437,13 +3285,13 @@ msgstr "Opcije"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Organizational Development for Operation Officers"
-msgstr "Organizacijski razvoj za operativne djelatnike"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_question.py:0
 msgid "Other (see comments)"
-msgstr "Ostalo (vidi komentare)"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p2
@@ -3459,12 +3307,12 @@ msgstr "Poslužitelj odlazne e-pošte"
 #. odoo-javascript
 #: code:addons/survey/static/src/js/survey_result.js:0
 msgid "Overall Performance"
-msgstr "Ukupna izvedba"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug5
 msgid "Overpriced"
-msgstr "Preskupo"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__page_id
@@ -3484,7 +3332,7 @@ msgstr "Raspored stranica"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q2_sug4
 msgid "Papyrus"
-msgstr "Papyrus"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
@@ -3492,7 +3340,7 @@ msgstr "Papyrus"
 #: code:addons/survey/models/survey_user_input.py:0
 #: code:addons/survey/static/src/js/survey_result.js:0
 msgid "Partially"
-msgstr "Djelomično"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_search
@@ -3508,7 +3356,7 @@ msgstr "Prisutni"
 #. odoo-python
 #: code:addons/survey/wizard/survey_invite.py:0
 msgid "Participate to %(survey_name)s"
-msgstr "Sudjelujte u %(survey_name)s"
+msgstr ""
 
 #. module: survey
 #: model:mail.template,subject:survey.mail_template_user_input_invite
@@ -3519,12 +3367,12 @@ msgstr "Sudjelujte u {{ object.survey_id.display_name }} anketi"
 #: model:mail.message.subtype,name:survey.mt_survey_survey_user_input_completed
 #: model:mail.message.subtype,name:survey.mt_survey_user_input_completed
 msgid "Participation completed"
-msgstr "Sudjelovanje završeno"
+msgstr ""
 
 #. module: survey
 #: model:mail.message.subtype,description:survey.mt_survey_user_input_completed
 msgid "Participation completed."
-msgstr "Sudjelovanje završeno."
+msgstr ""
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.action_survey_user_input
@@ -3547,17 +3395,17 @@ msgstr "Prošao"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
 msgid "Passed and Failed"
-msgstr "Uspjele i neuspjele"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
 msgid "Passed only"
-msgstr "Samo uspjele"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_in_progress
 msgid "Pay attention to the host screen until the next question."
-msgstr "Obraćajte pozornost na zaslon voditelja do sljedećeg pitanja."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__progression_mode__percent
@@ -3568,7 +3416,7 @@ msgstr "Preostali postotak"
 #. odoo-javascript
 #: code:addons/survey/static/src/js/survey_result.js:0
 msgid "Performance by Section"
-msgstr "Izvedba po sekciji"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q6_sug3
@@ -3578,7 +3426,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q1_sug2
 msgid "Peter W. Higgs"
-msgstr "Peter W. Higgs"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
@@ -3598,7 +3446,7 @@ msgstr "Odaberite predložak..."
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p1_q1
 msgid "Pick a subject"
-msgstr "Odaberite temu"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__triggering_answer_ids
@@ -3606,8 +3454,6 @@ msgid ""
 "Picking any of these answers will trigger this question.\n"
 "Leave the field empty if the question should always be displayed."
 msgstr ""
-"Odabir bilo kojeg od ovih odgovora aktivirat će ovo pitanje.\n"
-"Ostavite polje prazno ako se pitanje uvijek treba prikazivati."
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q1_sug1
@@ -3626,19 +3472,17 @@ msgid ""
 "Please complete this very short survey to let us know how satisfied your are "
 "with our products."
 msgstr ""
-"Molimo ispunite ovu vrlo kratku anketu kako biste nam rekli koliko ste "
-"zadovoljni našim proizvodima."
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/wizard/survey_invite.py:0
 msgid "Please enter at least one valid recipient."
-msgstr "Molimo unesite barem jednog valjanog primatelja."
+msgstr ""
 
 #. module: survey
 #: model_terms:survey.survey,description:survey.survey_demo_food_preferences
 msgid "Please give us your preferences for this event's dinner!"
-msgstr "Molimo recite nam Vaše preferencije za večeru ovog događaja!"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_void_content
@@ -3646,8 +3490,6 @@ msgid ""
 "Please make sure you have at least one question in your survey. You also "
 "need at least one section if you chose the \"Page per section\" layout.<br/>"
 msgstr ""
-"Provjerite imate li barem jedno pitanje u anketi. Također Vam je potrebna "
-"barem jedna sekcija ako ste odabrali raspored \"Stranica po sekciji\".<br/>"
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_3
@@ -3662,13 +3504,13 @@ msgstr ""
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug8
 msgid "Poor quality"
-msgstr "Loša kvaliteta"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Practice in front of a mirror"
-msgstr "Vježbajte ispred ogledala"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__predefined_question_ids
@@ -3694,7 +3536,7 @@ msgstr "Ispis"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_print
 msgid "Print Results"
-msgstr "Ispiši rezultate"
+msgstr ""
 
 #. module: survey
 #: model:ir.actions.server,name:survey.action_survey_print
@@ -3722,7 +3564,7 @@ msgstr "Pitanje"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Question & Pages"
-msgstr "Pitanja i stranice"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_answer__matrix_question_id
@@ -3732,12 +3574,12 @@ msgstr "Pitanje (kao redak matrice)"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_answer_view_form
 msgid "Question Answer Form"
-msgstr "Obrazac odgovora na pitanje"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_question_answer_count
 msgid "Question Answers Count"
-msgstr "Broj odgovora na pitanje"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__questions_selection
@@ -3748,7 +3590,7 @@ msgstr "Odabir pitanja"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__question_time_limit_reached
 msgid "Question Time Limit Reached"
-msgstr "Dosegnuto vremensko ograničenje pitanja"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__question_type
@@ -3760,7 +3602,7 @@ msgstr "Vrsta pitanja"
 #. odoo-python
 #: code:addons/survey/models/survey_question.py:0
 msgid "Question type should be empty for these pages: %s"
-msgstr "Tip pitanja treba biti prazan za ove stranice: %s"
+msgstr ""
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.action_survey_question_form
@@ -3782,7 +3624,7 @@ msgstr "Pitanja & odgovori"
 msgid ""
 "Questions containing the triggering answer(s) to display the current "
 "question."
-msgstr "Pitanja koja sadrže okidajuće odgovore za prikaz trenutnog pitanja."
+msgstr ""
 
 #. module: survey
 #: model:survey.survey,title:survey.survey_demo_quiz
@@ -3803,7 +3645,7 @@ msgstr "Kviz prošao"
 #. odoo-javascript
 #: code:addons/survey/static/src/views/widgets/radio_selection_with_filter/radio_selection_field_with_filter.js:0
 msgid "Radio for Selection With Filter"
-msgstr "Radio za odabir s filterom"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__questions_selection__random
@@ -3814,7 +3656,7 @@ msgstr "Nasumično po odjeljku"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Rarely (1-3 times per month)"
-msgstr "Rijetko (1-3 puta mjesečno)"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__rating_ids
@@ -3831,7 +3673,7 @@ msgstr "Spremno"
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
 msgid "Ready to change the way you <b>gather data</b>?"
-msgstr "Spremni promijeniti način na koji <b>prikupljate podatke</b>?"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_form
@@ -3847,7 +3689,7 @@ msgstr "Primatelji"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Red Pen"
-msgstr "Crvena olovka"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__answer_count
@@ -3880,17 +3722,17 @@ msgstr "Potreban rezultat (%)"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__existing_text
 msgid "Resend Comment"
-msgstr "Ponovno pošalji komentar"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_form
 msgid "Resend Invitation"
-msgstr "Ponovno pošalji pozivnicu"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_invite__existing_mode__resend
 msgid "Resend invite"
-msgstr "Ponovno pošalji pozivnicu"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__user_id
@@ -3917,7 +3759,7 @@ msgstr "Pokušaj ponovo"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
 msgid "Review your answers"
-msgstr "Pregledajte svoje odgovore"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
@@ -3995,7 +3837,7 @@ msgstr "Maksimalna vrijednost skale"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Scale Maximum Value (0 to 10)"
-msgstr "Najveća vrijednost skale (0 do 10)"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__scale_mid_label
@@ -4015,7 +3857,7 @@ msgstr "Minimalna vrijednost skale"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Scale Minimum Value (0 to 10)"
-msgstr "Najmanja vrijednost skale (0 do 10)"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__value_scale
@@ -4026,7 +3868,7 @@ msgstr "Vrijednost ljestvice"
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p4
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p1_q1_sug3
 msgid "Sciences"
-msgstr "Znanosti"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__answer_score
@@ -4046,12 +3888,12 @@ msgstr "Rezultat (%)"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__answer_score
 msgid "Score value for a correct answer to this question."
-msgstr "Vrijednost boda za točan odgovor na ovo pitanje."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__is_scored_question
 msgid "Scored"
-msgstr "Bodovano"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__scoring_type
@@ -4083,7 +3925,7 @@ msgstr "Bodovanje bez odgovora"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_answer_view_search
 msgid "Search Label"
-msgstr "Pretraži oznaku"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_search
@@ -4093,12 +3935,12 @@ msgstr "Search Question"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_search
 msgid "Search Survey User Inputs"
-msgstr "Pretraži korisničke unose ankete"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_line_view_search
 msgid "Search User input lines"
-msgstr "Pretraži stavke korisničkih unosa"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__page_id
@@ -4109,7 +3951,7 @@ msgstr "Odlomak"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__question_and_page_ids
 msgid "Sections and Questions"
-msgstr "Sekcije i pitanja"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
@@ -4120,22 +3962,22 @@ msgstr "Pogledajte rezultate"
 #. module: survey
 #: model_terms:survey.survey,description_done:survey.survey_demo_food_preferences
 msgid "See you soon!"
-msgstr "Vidimo se uskoro!"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_1_question_3
 msgid "Select all the available customizations for our Customizable Desk"
-msgstr "Odaberite sve dostupne prilagodbe za naš prilagodljivi stol"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_1_question_2
 msgid "Select all the existing products"
-msgstr "Odaberite sve postojeće proizvode"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_2_question_2
 msgid "Select all the products that sell for $100 or more"
-msgstr "Odaberite sve proizvode koji se prodaju za $100 ili više"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p3_q3
@@ -4160,12 +4002,12 @@ msgstr "Pošalji e-mailom"
 #. module: survey
 #: model:mail.template,description:survey.mail_template_certification
 msgid "Sent to participant if they succeeded the certification"
-msgstr "Poslano sudioniku ako je uspješno položio certifikaciju"
+msgstr ""
 
 #. module: survey
 #: model:mail.template,description:survey.mail_template_user_input_invite
 msgid "Sent to participant when you share a survey"
-msgstr "Poslano sudioniku kada dijelite anketu"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__sequence
@@ -4181,7 +4023,7 @@ msgstr "Šifra sesije"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_link
 msgid "Session Link"
-msgstr "Poveznica sesije"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_state
@@ -4191,12 +4033,12 @@ msgstr "Stanje sesije"
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_session_code_unique
 msgid "Session code should be unique"
-msgstr "Kod sesije mora biti jedinstven"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q2_sug1
 msgid "Shanghai"
-msgstr "Shanghai"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
@@ -4224,30 +4066,30 @@ msgstr "Prikaži polje za komentiranje"
 #. odoo-javascript
 #: code:addons/survey/static/src/js/survey_session_manage.js:0
 msgid "Show Correct Answer(s)"
-msgstr "Prikaži točne odgovore"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/survey_session_manage.js:0
 msgid "Show Final Leaderboard"
-msgstr "Prikaži završnu ljestvicu"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/survey_session_manage.js:0
 msgid "Show Leaderboard"
-msgstr "Prikaži ljestvicu"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/survey_session_manage.js:0
 msgid "Show Results"
-msgstr "Prikaži rezultate"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__session_show_leaderboard
 msgid "Show Session Leaderboard"
-msgstr "Prikaži ljestvicu sesije"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
@@ -4258,7 +4100,7 @@ msgstr "Prikazuje sve zapise kojima je sljedeći datum akcije prije danas"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Show them slides with a ton of text they need to read fast"
-msgstr "Pokažite im slajdove s hrpom teksta koji moraju brzo pročitati"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_question__question_type__char_box
@@ -4282,7 +4124,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/survey/wizard/survey_invite.py:0
 msgid "Some emails you just entered are incorrect: %s"
-msgstr "Neki e-mailovi koje ste upravo unijeli su neispravni: %s"
+msgstr ""
 
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_demo_quiz_p1
@@ -4300,17 +4142,17 @@ msgstr ""
 #. odoo-python
 #: code:addons/survey/models/survey_user_input.py:0
 msgid "Someone just participated in \"%(survey_title)s\"."
-msgstr "Netko je upravo sudjelovao u \"%(survey_title)s\"."
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_header
 msgid "Sorry, no one answered this survey yet."
-msgstr "Nažalost, nitko još nije odgovorio na ovu anketu."
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_in_progress
 msgid "Sorry, you have not been fast enough."
-msgstr "Nažalost, niste bili dovoljno brzi."
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q4_sug4
@@ -4331,13 +4173,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Speak softly so that they need to focus to hear you"
-msgstr "Govorite tiho kako bi se morali usredotočiti da Vas čuju"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Speak too fast"
-msgstr "Govoriti prebrzo"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q6_sug1
@@ -4354,7 +4196,7 @@ msgstr "Start"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
 msgid "Start Certification"
-msgstr "Započni certifikaciju"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
@@ -4393,7 +4235,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_food_preferences_q4_sug1
 msgid "Steak with french fries"
-msgstr "Odrezak s pomfritom"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q6_row2
@@ -4428,7 +4270,7 @@ msgstr "Postotak uspješnosti (%)"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_inner
 msgid "Success rate"
-msgstr "Stopa uspjeha"
+msgstr ""
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.survey_question_answer_action
@@ -4447,8 +4289,6 @@ msgid ""
 "Suggested answer value must not be empty (a text and/or an image must be "
 "provided)."
 msgstr ""
-"Vrijednost predloženog odgovora ne smije biti prazna (potrebno je navesti "
-"tekst i/ili sliku)."
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_answer__value
@@ -4487,7 +4327,7 @@ msgstr "Anketa"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_access_error
 msgid "Survey Access Error"
-msgstr "Greška pristupa anketi"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_response_line_view_tree
@@ -4502,12 +4342,12 @@ msgstr "Prvo predavanje upitnika"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_gamification_badge__survey_ids
 msgid "Survey Ids"
-msgstr "ID-evi ankete"
+msgstr ""
 
 #. module: survey
 #: model:ir.model,name:survey.model_survey_invite
 msgid "Survey Invitation Wizard"
-msgstr "Čarobnjak za pozivnice ankete"
+msgstr ""
 
 #. module: survey
 #: model:ir.model,name:survey.model_survey_question_answer
@@ -4518,7 +4358,7 @@ msgstr "Oznaka ankete"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
 msgid "Survey Link"
-msgstr "Poveznica ankete"
+msgstr ""
 
 #. module: survey
 #. odoo-python
@@ -4556,7 +4396,7 @@ msgstr "Vrsta upitnika"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__survey_start_url
 msgid "Survey URL"
-msgstr "URL ankete"
+msgstr ""
 
 #. module: survey
 #: model:ir.model,name:survey.model_survey_user_input
@@ -4566,23 +4406,23 @@ msgstr "Anketa koju popunjava korisnik"
 #. module: survey
 #: model:ir.model,name:survey.model_survey_user_input_line
 msgid "Survey User Input Line"
-msgstr "Stavka korisničkog unosa ankete"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_form
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_tree
 msgid "Survey User inputs"
-msgstr "Korisnički unosi ankete"
+msgstr ""
 
 #. module: survey
 #: model:mail.template,name:survey.mail_template_certification
 msgid "Survey: Certification Success"
-msgstr "Anketa: Uspjeh certifikacije"
+msgstr ""
 
 #. module: survey
 #: model:mail.template,name:survey.mail_template_user_input_invite
 msgid "Survey: Invite"
-msgstr "Anketa: Pozivnica"
+msgstr ""
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.action_survey_form
@@ -4594,12 +4434,12 @@ msgstr "Upitnici"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q1_sug3
 msgid "Takaaki Kajita"
-msgstr "Takaaki Kajita"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_button_retake
 msgid "Take Again"
-msgstr "Ponovno pokušaj"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
@@ -4616,22 +4456,22 @@ msgstr "Testni unos"
 #. module: survey
 #: model_terms:survey.question,description:survey.vendor_certification_page_3
 msgid "Test your knowledge of our policies."
-msgstr "Testirajte svoje znanje o našim pravilima."
+msgstr ""
 
 #. module: survey
 #: model_terms:survey.question,description:survey.vendor_certification_page_2
 msgid "Test your knowledge of our prices."
-msgstr "Testirajte svoje znanje o našim cijenama."
+msgstr ""
 
 #. module: survey
 #: model_terms:survey.question,description:survey.vendor_certification_page_1
 msgid "Test your knowledge of your products!"
-msgstr "Testirajte svoje znanje o svojim proizvodima!"
+msgstr ""
 
 #. module: survey
 #: model_terms:survey.survey,description:survey.vendor_certification
 msgid "Test your vendor skills!"
-msgstr "Testirajte svoje vještine dobavljača!"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_view_search
@@ -4652,15 +4492,13 @@ msgstr "Tekstualni odgovor"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Thank you for your participation, hope you had a blast!"
-msgstr "Hvala Vam na sudjelovanju, nadamo se da ste se zabavili!"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Thank you very much for your feedback. We highly value your opinion!"
 msgstr ""
-"Hvala Vam puno na povratnim informacijama. Vaše mišljenje nam je iznimno "
-"važno!"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
@@ -4672,7 +4510,7 @@ msgstr "Hvala vam!"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Thank you. We will contact you soon."
-msgstr "Hvala Vam. Uskoro ćemo Vas kontaktirati."
+msgstr ""
 
 #. module: survey
 #. odoo-python
@@ -4682,22 +4520,19 @@ msgid ""
 "responsible still has access to it: \n"
 "%(survey_names)s\n"
 msgstr ""
-"Pristup sljedećim anketama je ograničen. Provjerite ima li njihov odgovorni "
-"još uvijek pristup: \n"
-"%(survey_names)s\n"
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_user_input.py:0
 msgid "The answer must be in the right type"
-msgstr "Odgovor mora biti odgovarajućeg tipa"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_question.py:0
 #: model_terms:ir.ui.view,arch_db:survey.question_container
 msgid "The answer you entered is not valid."
-msgstr "Odgovor koji ste unijeli nije valjan."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_attempts_limit_check
@@ -4711,22 +4546,22 @@ msgstr ""
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_badge_uniq
 msgid "The badge for each survey should be unique!"
-msgstr "Značka za svaku anketu mora biti jedinstvena!"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q2_row4
 msgid "The checkout process is clear and secure"
-msgstr "Postupak plaćanja je jasan i siguran"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_print
 msgid "The correct answer was:"
-msgstr "Točan odgovor bio je:"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__session_question_id
 msgid "The current question of the survey session."
-msgstr "Trenutno pitanje sesije ankete."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__description
@@ -4735,20 +4570,18 @@ msgid ""
 "use this to give the purpose and guidelines to your candidates before they "
 "start it."
 msgstr ""
-"Opis će biti prikazan na početnoj stranici ankete. Možete ga koristiti za "
-"davanje svrhe i smjernica kandidatima prije nego što započnu."
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/wizard/survey_invite.py:0
 msgid "The following customers have already received an invite"
-msgstr "Sljedeći kupci već su primili pozivnicu"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/wizard/survey_invite.py:0
 msgid "The following emails have already received an invite"
-msgstr "Sljedeći e-mailovi već su primili pozivnicu"
+msgstr ""
 
 #. module: survey
 #. odoo-python
@@ -4757,13 +4590,11 @@ msgid ""
 "The following recipients have no user account: %s. You should create user "
 "accounts for them or allow external signup in configuration."
 msgstr ""
-"Sljedeći primatelji nemaju korisnički račun: %s. Trebate im kreirati "
-"korisničke račune ili dopustiti vanjsku registraciju u konfiguraciji."
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q2_row1
 msgid "The new layout and design is fresh and up-to-date"
-msgstr "Novi raspored i dizajn su svježi i moderni"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_403_page
@@ -4773,7 +4604,7 @@ msgstr "Stranica koju tražite nemože biti odobrena."
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_scoring_success_min_check
 msgid "The percentage of success has to be defined between 0 and 100."
-msgstr "Postotak uspjeha mora biti definiran između 0 i 100."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__is_time_limited
@@ -4784,23 +4615,23 @@ msgstr "Pitanje je vremenski ograničeno"
 #: model:ir.model.constraint,message:survey.constraint_survey_question_scale
 msgid ""
 "The scale must be a growing non-empty range between 0 and 10 (inclusive)"
-msgstr "Skala mora biti rastući neprazan raspon između 0 i 10 (uključivo)"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_session_code
 msgid "The session did not start yet."
-msgstr "Sesija još nije započela."
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
 msgid "The session will begin automatically when the host starts."
-msgstr "Sesija će automatski započeti kada voditelj pokrene."
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/controllers/main.py:0
 msgid "The survey has already started."
-msgstr "Anketa je već započela."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__is_time_limited
@@ -4813,8 +4644,6 @@ msgid ""
 "The time at which the current question has started, used to handle the timer "
 "for attendees."
 msgstr ""
-"Vrijeme kada je trenutno pitanje započelo, koristi se za upravljanje "
-"brojačem za sudionike."
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_time_limit_check
@@ -4827,37 +4656,37 @@ msgstr ""
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q2_row3
 msgid "The tool to compare the products is useful to make a choice"
-msgstr "Alat za usporedbu proizvoda koristan je pri donošenju odluke"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/controllers/main.py:0
 msgid "The user has not succeeded the certification"
-msgstr "Korisnik nije uspio položiti certifikaciju"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form
 msgid "There was an error during the validation of the survey."
-msgstr "Došlo je do greške tijekom provjere ankete."
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "They are a default answer, used if the participant skips the question"
-msgstr "To je zadani odgovor, koristi se ako sudionik preskoči pitanje"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid ""
 "They are technical parameters that guarantees the responsiveness of the page"
-msgstr "To su tehnički parametri koji jamče responzivnost stranice"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_user_input.py:0
 msgid "This answer cannot be overwritten."
-msgstr "Ovaj se odgovor ne može prepisati."
+msgstr ""
 
 #. module: survey
 #. odoo-python
@@ -4870,7 +4699,7 @@ msgstr "Odgovor mora biti e-mail adresa"
 #. odoo-javascript
 #: code:addons/survey/static/src/js/survey_form.js:0
 msgid "This answer must be an email address."
-msgstr "Ovaj odgovor mora biti e-mail adresa."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__session_code
@@ -4878,13 +4707,11 @@ msgid ""
 "This code will be used by your attendees to reach your session. Feel free to "
 "customize it however you like!"
 msgstr ""
-"Ovaj kod koristit će Vaši sudionici za pristup sesiji. Slobodno ga "
-"prilagodite kako želite!"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_button_form_view
 msgid "This is a Test Survey Entry."
-msgstr "Ovo je testni unos ankete."
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
@@ -4893,7 +4720,7 @@ msgstr "Ovo je testni unos ankete."
 #: code:addons/survey/static/src/js/survey_form.js:0
 #: code:addons/survey/tests/test_survey.py:0
 msgid "This is not a date"
-msgstr "Ovo nije datum"
+msgstr ""
 
 #. module: survey
 #. odoo-python
@@ -4926,13 +4753,11 @@ msgid ""
 "This section is about general information about you. Answering them helps "
 "qualifying your answers."
 msgstr ""
-"Ova sekcija sadrži opće informacije o Vama. Odgovaranje na njih pomaže "
-"kvalificirati Vaše odgovore."
 
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_feedback_p2
 msgid "This section is about our eCommerce experience itself."
-msgstr "Ova sekcija odnosi se na samo iskustvo naše e-trgovine."
+msgstr ""
 
 #. module: survey
 #: model_terms:survey.survey,description:survey.survey_demo_quiz
@@ -4947,9 +4772,6 @@ msgid ""
 "products.\n"
 "    Filling it helps us improving your experience."
 msgstr ""
-"Ova anketa omogućuje Vam davanje povratnih informacija o Vašem iskustvu s "
-"našim proizvodima.\n"
-"    Ispunjavanje nam pomaže poboljšati Vaše iskustvo."
 
 #. module: survey
 #. odoo-python
@@ -4958,13 +4780,11 @@ msgid ""
 "This survey does not allow external people to participate. You should create "
 "user accounts or update survey access mode accordingly."
 msgstr ""
-"Ova anketa ne dopušta sudjelovanje vanjskih osoba. Trebate kreirati "
-"korisničke račune ili ažurirati način pristupa anketi."
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_closed_expired
 msgid "This survey is now closed. Thank you for your interest!"
-msgstr "Ova anketa je sada zatvorena. Hvala Vam na interesu!"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_auth_required
@@ -4979,7 +4799,7 @@ msgstr "Vrijeme & bodovanje"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
 msgid "Time Limit"
-msgstr "Vremensko ograničenje"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -4989,7 +4809,7 @@ msgstr "Vremensko ograničenje (sekunde)"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__time_limit
 msgid "Time limit (minutes)"
-msgstr "Vremensko ograničenje (minute)"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__time_limit
@@ -5000,7 +4820,7 @@ msgstr "Vremensko ograničenje (sekunde)"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
 msgid "Time limit for this certification:"
-msgstr "Vremensko ograničenje za ovu certifikaciju:"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
@@ -5020,7 +4840,7 @@ msgstr "Naslov"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.user_input_session_manage_content
 msgid "To join:"
-msgstr "Za pridruživanje:"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form
@@ -5037,17 +4857,17 @@ msgstr "Današnje aktivnosti"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p2_q2_sug2
 msgid "Tokyo"
-msgstr "Tokyo"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.question_result_number_or_date_or_datetime
 msgid "Top User Responses"
-msgstr "Najbolji korisnički odgovori"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__scoring_total
 msgid "Total Score"
-msgstr "Ukupan rezultat"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q2_col4
@@ -5072,7 +4892,7 @@ msgstr "Pokretanje odgovora"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__triggering_question_ids
 msgid "Triggering Questions"
-msgstr "Okidajuća pitanja"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
@@ -5082,9 +4902,6 @@ msgid ""
 "positioned after this question:\n"
 "\"%s\"."
 msgstr ""
-"Okidači temeljeni na sljedećim pitanjima neće raditi jer su postavljeni "
-"nakon ovog pitanja:\n"
-"\"%s\"."
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_search
@@ -5130,40 +4947,40 @@ msgstr "Nije kategorizirano"
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_3_choice_2
 msgid "Underpriced"
-msgstr "Prejeftino"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
 msgid "Unfortunately, you have failed the test."
-msgstr "Nažalost, niste položili test."
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug3
 msgid "Unique"
-msgstr "Jedinstveno"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Unlikely"
-msgstr "Malo vjerojatno"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Upcoming Activities"
-msgstr "Nadolazeće aktivnosti"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Use a fun visual support, like a live presentation"
-msgstr "Koristite zabavnu vizualnu podršku, poput žive prezentacije"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Use humor and make jokes"
-msgstr "Koristite humor i šale"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_invite_view_form
@@ -5174,7 +4991,7 @@ msgstr "Koristi predložak"
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
 msgid "Use the breadcrumbs to quickly go back to the dashboard."
-msgstr "Koristite izbornik tragova za brzi povratak na kontrolnu ploču."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__description
@@ -5182,8 +4999,6 @@ msgid ""
 "Use this field to add additional explanations about your question or to "
 "illustrate it with pictures or a video"
 msgstr ""
-"Koristite ovo polje za dodavanje dodatnih objašnjenja o pitanju ili za "
-"ilustriranje slikama ili videom"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__random_questions_count
@@ -5191,13 +5006,11 @@ msgid ""
 "Used on randomized sections to take X random questions from all the "
 "questions of that section."
 msgstr ""
-"Koristi se na nasumično odabranim sekcijama za uzimanje X nasumičnih pitanja "
-"iz svih pitanja te sekcije."
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug2
 msgid "Useful"
-msgstr "Korisno"
+msgstr ""
 
 #. module: survey
 #: model:res.groups,name:survey.group_survey_user
@@ -5207,7 +5020,7 @@ msgstr "Korisnik"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.question_result_choice
 msgid "User Choice"
-msgstr "Korisnikov izbor"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__user_input_id
@@ -5224,7 +5037,7 @@ msgstr "Odgovori korisnika"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_line_view_form
 msgid "User input line details"
-msgstr "Detalji stavke korisničkog unosa"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__user_input_ids
@@ -5240,7 +5053,7 @@ msgstr "Korisnici se mogu vratiti"
 #: model:ir.model.fields,field_description:survey.field_survey_invite__survey_users_can_signup
 #: model:ir.model.fields,field_description:survey.field_survey_survey__users_can_signup
 msgid "Users can signup"
-msgstr "Korisnici se mogu registrirati"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__validation_required
@@ -5257,7 +5070,7 @@ msgstr "Greška kod provjere"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_answer__value_label
 msgid "Value Label"
-msgstr "Oznaka vrijednosti"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q1_sug2
@@ -5267,17 +5080,17 @@ msgstr ""
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_food_preferences_q3_sug2
 msgid "Vegetarian burger"
-msgstr "Vegetarijanski burger"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_food_preferences_q3_sug1
 msgid "Vegetarian pizza"
-msgstr "Vegetarijanska pizza"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_3_choice_1
 msgid "Very underpriced"
-msgstr "Vrlo prejeftino"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q2_sug3
@@ -5287,7 +5100,7 @@ msgstr "Vijetnam"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.user_input_session_open
 msgid "Waiting for attendees..."
-msgstr "Čekanje na sudionike..."
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_in_progress
@@ -5295,8 +5108,6 @@ msgid ""
 "We have registered your answer! Please wait for the host to go to the next "
 "question."
 msgstr ""
-"Zabilježili smo Vaš odgovor! Molimo pričekajte da voditelj prijeđe na "
-"sljedeće pitanje."
 
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_demo_quiz_p4
@@ -5329,8 +5140,6 @@ msgid ""
 "Welcome to this Odoo certification. You will receive 2 random questions out "
 "of a pool of 3."
 msgstr ""
-"Dobro došli na ovu Odoo certifikaciju. Dobit ćete 2 nasumična pitanja iz "
-"skupa od 3."
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_3_question_5
@@ -5338,8 +5147,6 @@ msgid ""
 "What day and time do you think most customers are most likely to call "
 "customer service (not rated)?"
 msgstr ""
-"Koji dan i u koje vrijeme mislite da većina kupaca najčešće zove korisničku "
-"službu (ne boduje se)?"
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_3_question_4
@@ -5347,18 +5154,16 @@ msgid ""
 "What day to you think is best for us to start having an annual sale (not "
 "rated)?"
 msgstr ""
-"Koji dan mislite da je najbolji za početak godišnje rasprodaje (ne boduje se)"
-"?"
 
 #. module: survey
 #: model:survey.question,title:survey.survey_feedback_p2_q2
 msgid "What do you think about our new eCommerce?"
-msgstr "Što mislite o našoj novoj e-trgovini?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_2_question_3
 msgid "What do you think about our prices (not rated)?"
-msgstr "Što mislite o našim cijenama (ne boduje se)?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p5_q1
@@ -5369,30 +5174,30 @@ msgstr ""
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "What does \"ODOO\" stand for?"
-msgstr "Što znači \"ODOO\"?"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "What does one need to get to pass an Odoo Survey?"
-msgstr "Što je potrebno da bi se položila Odoo anketa?"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "What is a frequent mistake public speakers do?"
-msgstr "Koja je česta pogreška koju rade javni govornici?"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "What is the best way to catch the attention of an audience?"
-msgstr "Koji je najbolji način za privlačenje pažnje publike?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p2_q2
 msgid "What is the biggest city in the world?"
-msgstr "Koji je najveći grad na svijetu?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p1_q1
@@ -5407,12 +5212,12 @@ msgstr ""
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p4_q2
 msgid "What is, approximately, the critical mass of plutonium-239?"
-msgstr "Kolika je, približno, kritična masa plutonija-239?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p3_q1
 msgid "When did Genghis Khan die?"
-msgstr "Kada je umro Džingis-kan?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p2_q2
@@ -5432,13 +5237,13 @@ msgstr ""
 #. module: survey
 #: model:survey.question,title:survey.survey_feedback_p1_q2
 msgid "When is your date of birth?"
-msgstr "Kada ste rođeni?"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
 msgid "Whenever you pick an answer, Odoo saves it for you."
-msgstr "Svaki put kada odaberete odgovor, Odoo ga sprema za Vas."
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p1_q3
@@ -5448,18 +5253,18 @@ msgstr ""
 #. module: survey
 #: model:survey.question,title:survey.survey_feedback_p1_q1
 msgid "Where do you live?"
-msgstr "Gdje živite?"
+msgstr ""
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__session_show_leaderboard
 msgid ""
 "Whether or not we want to show the attendees leaderboard for this survey."
-msgstr "Želimo li ili ne prikazati ljestvicu sudionika za ovu anketu."
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p5_q1
 msgid "Which Musician is not in the 27th Club?"
-msgstr "Koji glazbenik nije u klubu 27?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p3_q1
@@ -5469,12 +5274,12 @@ msgstr ""
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p2_q3
 msgid "Which is the highest volcano in Europe?"
-msgstr "Koji je najviši vulkan u Europi?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_feedback_p2_q1
 msgid "Which of the following words would you use to describe our products?"
-msgstr "Koje od sljedećih riječi biste koristili za opis naših proizvoda?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p3_q2
@@ -5484,12 +5289,12 @@ msgstr ""
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p5_q2
 msgid "Which painting/drawing was not made by Pablo Picasso?"
-msgstr "Koju sliku/crtež nije napravio Pablo Picasso?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p5_q3
 msgid "Which quote is from Jean-Claude Van Damme"
-msgstr "Koji je citat od Jean-Claude Van Dammea"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p1
@@ -5499,7 +5304,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p3_q2
 msgid "Who is the architect of the Great Pyramid of Giza?"
-msgstr "Tko je arhitekt Velike piramide u Gizi?"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_burger_quiz_p4_q1
@@ -5507,8 +5312,6 @@ msgid ""
 "Who received a Nobel prize in Physics for the discovery of neutrino "
 "oscillations, which shows that neutrinos have mass?"
 msgstr ""
-"Tko je primio Nobelovu nagradu za fiziku za otkriće oscilacija neutrina, "
-"koje pokazuju da neutrini imaju masu?"
 
 #. module: survey
 #. odoo-python
@@ -5516,8 +5319,6 @@ msgstr ""
 msgid ""
 "Why should you consider making your presentation more fun with a small quiz?"
 msgstr ""
-"Zašto biste trebali razmotriti činjenje svoje prezentacije zabavnijom s "
-"malim kvizom?"
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_1_question_3_choice_3
@@ -5527,7 +5328,7 @@ msgstr "Širina"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q1_sug4
 msgid "Willard S. Boyle"
-msgstr "Willard S. Boyle"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p3_q6_sug4
@@ -5537,7 +5338,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_food_preferences_q2
 msgid "Would you prefer a veggie meal if possible?"
-msgstr "Biste li radije vegetarijanski obrok ako je moguće?"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -5546,9 +5347,6 @@ msgid ""
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
-"GGGG-MM-DD\n"
-"                                        <i class=\"fa fa-calendar\" "
-"role=\"img\" aria-label=\"Kalendar\" title=\"Kalendar\"/>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -5557,15 +5355,12 @@ msgid ""
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
-"GGGG-MM-DD hh:mm:ss\n"
-"                                        <i class=\"fa fa-calendar\" "
-"role=\"img\" aria-label=\"Kalendar\" title=\"Kalendar\"/>"
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid "Yellow Pen"
-msgstr "Žuta olovka"
+msgstr ""
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_food_preferences_q1_sug1
@@ -5578,14 +5373,13 @@ msgstr "Da"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q3_sug1
 msgid "Yes, that's the only thing a human eye can see."
-msgstr "Da, to je jedino što ljudsko oko može vidjeti."
+msgstr ""
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_certification_check
 msgid ""
 "You can only create certifications for surveys that have a scoring mechanism."
 msgstr ""
-"Certifikacije možete kreirati samo za ankete koje imaju mehanizam bodovanja."
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_user_input
@@ -5603,8 +5397,6 @@ msgid ""
 "You cannot delete questions from surveys \"%(survey_names)s\" while live "
 "sessions are in progress."
 msgstr ""
-"Ne možete brisati pitanja iz anketa \"%(survey_names)s\" dok su u tijeku "
-"žive sesije."
 
 #. module: survey
 #. odoo-python
@@ -5613,8 +5405,6 @@ msgid ""
 "You cannot send an invitation for a \"One page per section\" survey if the "
 "survey has no sections."
 msgstr ""
-"Ne možete poslati pozivnicu za anketu \"Jedna stranica po sekciji\" ako "
-"anketa nema sekcija."
 
 #. module: survey
 #. odoo-python
@@ -5623,8 +5413,6 @@ msgid ""
 "You cannot send an invitation for a \"One page per section\" survey if the "
 "survey only contains empty sections."
 msgstr ""
-"Ne možete poslati pozivnicu za anketu \"Jedna stranica po sekciji\" ako "
-"anketa sadrži samo prazne sekcije."
 
 #. module: survey
 #. odoo-python
@@ -5641,7 +5429,7 @@ msgstr "Ne možete slati pozivnice za zatvorene ankete."
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
 msgid "You received the badge"
-msgstr "Primili ste značku"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
@@ -5660,42 +5448,40 @@ msgid ""
 "Your responses will help us improve our product range to serve you even "
 "better."
 msgstr ""
-"Vaši odgovori pomoći će nam poboljšati naš asortiman proizvoda kako bismo "
-"Vas još bolje posluživali."
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/xml/survey_image_zoomer_templates.xml:0
 msgid "Zoom in"
-msgstr "Uvećaj"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/xml/survey_image_zoomer_templates.xml:0
 msgid "Zoom out"
-msgstr "Smanji"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/xml/survey_image_zoomer_templates.xml:0
 msgid "Zoomed Image"
-msgstr "Uvećana slika"
+msgstr ""
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_question.py:0
 msgid "[Question Title]"
-msgstr "[Question Title]"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "ans"
-msgstr "odg"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_progression
 msgid "answered"
-msgstr "odgovoreno"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_form
@@ -5733,7 +5519,7 @@ msgstr "npr. \"Što je...\""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_session_code
 msgid "e.g. 4812"
-msgstr "npr. 4812"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -5743,7 +5529,7 @@ msgstr "npr. smjernice, upute, slika, ... za pomoć sudionicima pri odgovaranju"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.gamification_badge_form_view_simplified
 msgid "e.g. No one can solve challenges like you do"
-msgstr "npr. Nitko ne može rješavati izazove kao Vi"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.gamification_badge_form_view_simplified
@@ -5778,7 +5564,7 @@ msgstr "od"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
 msgid "of achievement"
-msgstr "za postignuće"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
@@ -5790,28 +5576,28 @@ msgstr "ili pritisnite CTRL+Enter"
 #. odoo-javascript
 #: code:addons/survey/static/src/js/survey_form.js:0
 msgid "or press Enter"
-msgstr "ili pritisnite Enter"
+msgstr ""
 
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/survey_form.js:0
 msgid "or press ⌘+Enter"
-msgstr "ili pritisnite ⌘+Enter"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_progression
 msgid "pages"
-msgstr "stranica"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_closed_expired
 msgid "survey expired"
-msgstr "anketa istekla"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_void_content
 msgid "survey is empty"
-msgstr "anketa je prazna"
+msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_403_page
@@ -5829,8 +5615,6 @@ msgid ""
 "⚠️ This question is positioned before some or all of its triggers and could "
 "be skipped."
 msgstr ""
-"⚠️ Ovo pitanje postavljeno je prije nekih ili svih svojih okidača i moglo bi "
-"biti preskočeno."
 
 #~ msgid "$100"
 #~ msgstr "$100"

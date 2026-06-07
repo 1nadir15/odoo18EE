@@ -8,14 +8,13 @@
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # Bole <bole@dajmi5.com>, 2024
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:49+0000\n"
-"PO-Revision-Date: 2026-04-29 19:37+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2025-08-22 22:30+0000\n"
+"Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "spreadsheet_dashboard_sale_renting/hr/>\n"
 "Language: hr\n"
@@ -24,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: spreadsheet_dashboard_sale_renting
 #. odoo-javascript
@@ -59,7 +58,7 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_sale_renting/data/files/rental_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale_renting/data/files/rental_sample_dashboard.json:0
 msgid "KPI"
-msgstr "KPI"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale_renting
 #. odoo-javascript
@@ -160,7 +159,7 @@ msgstr "Prodavač"
 #: code:addons/spreadsheet_dashboard_sale_renting/data/files/rental_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale_renting/data/files/rental_sample_dashboard.json:0
 msgid "Top Customers"
-msgstr "Najbolji kupci"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale_renting
 #. odoo-javascript
@@ -174,18 +173,18 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_sale_renting/data/files/rental_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale_renting/data/files/rental_sample_dashboard.json:0
 msgid "Top Products"
-msgstr "Najprodavaniji proizvodi"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale_renting
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_renting/data/files/rental_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale_renting/data/files/rental_sample_dashboard.json:0
 msgid "Top Salespeople"
-msgstr "Najbolji prodavači"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale_renting
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_renting/data/files/rental_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale_renting/data/files/rental_sample_dashboard.json:0
 msgid "since last period"
-msgstr "od posljednjeg razdoblja"
+msgstr ""

@@ -6,13 +6,13 @@
 # Martin Trigaux, 2018
 # Boško Stojaković <bluesoft83@gmail.com>, 2018
 # Bole <bole@dajmi5.com>, 2018
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:48+0000\n"
-"PO-Revision-Date: 2026-05-13 14:39+0000\n"
+"PO-Revision-Date: 2025-11-17 16:32+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
 "account_accountant/bs/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: account_accountant
 #. odoo-python
@@ -216,7 +216,7 @@ msgstr "Konto"
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Predložak kontnog plana"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.actions.act_window,name:account_accountant.action_account_group_tree
@@ -370,7 +370,7 @@ msgstr "Analitička raspodjela"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget_line__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_res_config_settings__use_anglo_saxon
@@ -385,9 +385,6 @@ msgid ""
 "in accordance with its journal sequence. This lock date is irreversible and "
 "does not allow any exception."
 msgstr ""
-"Svaki unos do tog datuma, uključujući i taj, bit će odgođen za kasnije, u "
-"skladu s redoslijedom u dnevniku. Ovaj datum zaključavanja je nepovratan i "
-"ne dopušta nikakve iznimke."
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_account_change_lock_date__fiscalyear_lock_date
@@ -395,8 +392,6 @@ msgid ""
 "Any entry up to and including that date will be postponed to a later time, "
 "in accordance with its journal's sequence."
 msgstr ""
-"Svaki unos do tog datuma uključujući i taj datum bit će odgođen za kasnije, "
-"u skladu s redoslijedom u časopisu."
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_account_change_lock_date__tax_lock_date
@@ -405,9 +400,6 @@ msgid ""
 "later time, in accordance with its journal's sequence. The tax lock date is "
 "automatically set when the tax closing entry is posted."
 msgstr ""
-"Svaki unos s porezima do tog datuma uključujući i taj datum bit će odgođen "
-"za kasnije, u skladu s redoslijedom u dnevniku. Datum zaključavanja poreza "
-"automatski se postavlja kada se knjiži unos zatvaranja poreza."
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_account_change_lock_date__purchase_lock_date
@@ -415,8 +407,6 @@ msgid ""
 "Any purchase entry prior to and including this date will be postponed to a "
 "later date, in accordance with its journal's sequence."
 msgstr ""
-"Svaki unos kupnje prije ovog datuma uključujući i taj datum bit će odgođen "
-"za kasniji datum, u skladu s redoslijedom u dnevniku."
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_account_change_lock_date__sale_lock_date
@@ -424,8 +414,6 @@ msgid ""
 "Any sales entry prior to and including this date will be postponed to a "
 "later date, in accordance with its journal's sequence."
 msgstr ""
-"Svaki unos prodaje prije ovog datuma uključujući i taj datum bit će odgođen "
-"za kasniji datum, u skladu s redoslijedom u dnevniku."
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_bank_statement__message_attachment_count
@@ -599,7 +587,7 @@ msgstr ""
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr ""
 
 #. module: account_accountant
 #. odoo-javascript
@@ -710,7 +698,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_accountant/models/bank_rec_widget.py:0
 msgid "Customer/Vendor"
-msgstr "Kupac/Dobavljač"
+msgstr ""
 
 #. module: account_accountant
 #. odoo-javascript
@@ -750,7 +738,7 @@ msgstr "Dugovanje"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget_line__journal_default_account_id
 msgid "Default Account"
-msgstr "Zadani konto"
+msgstr ""
 
 #. module: account_accountant
 #. odoo-python
@@ -799,7 +787,7 @@ msgstr ""
 #. module: account_accountant
 #: model:ir.model.fields.selection,name:account_accountant.selection__account_move__deferred_entry_type__revenue
 msgid "Deferred Revenue"
-msgstr "Odgođeni prihodi"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_res_company__deferred_revenue_account_id
@@ -852,7 +840,7 @@ msgstr ""
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_digest_digest
 msgid "Digest"
-msgstr "Sažetak"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_auto_reconcile_wizard
@@ -864,12 +852,12 @@ msgstr "Odbaci"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_move_line_reconcile_tree
 msgid "Discount Amount"
-msgstr "Iznos popusta"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_move_line_reconcile_tree
 msgid "Discount Date"
-msgstr "Datum popusta"
+msgstr ""
 
 #. module: account_accountant
 #. odoo-javascript
@@ -910,13 +898,13 @@ msgstr ""
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget_line__distribution_analytic_account_ids
 msgid "Distribution Analytic Account"
-msgstr "Analitički konto distribucije"
+msgstr ""
 
 #. module: account_accountant
 #. odoo-python
 #: code:addons/account_accountant/models/digest.py:0
 msgid "Do not have access, skip this data for user's digest email"
-msgstr "Nemate pristup, preskočite ove podatke za sažetak e-pošte korisnika"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_move_line_list_bank_rec_widget
@@ -927,7 +915,7 @@ msgstr "Dokument"
 #. odoo-python
 #: code:addons/account_accountant/wizard/account_change_lock_date.py:0
 msgid "Draft Entries"
-msgstr "Stavke u nacrtu"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_reconcile_wizard__edit_mode
@@ -1033,7 +1021,7 @@ msgstr "Zadnji mjesec fiskalne godine"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget_line__flag
 msgid "Flag"
-msgstr "Zastava"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_bank_statement__message_follower_ids
@@ -1068,7 +1056,7 @@ msgstr ""
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget_line__transaction_currency_id
 msgid "Foreign Currency"
-msgstr "Strana valuta"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget__form_index
@@ -1083,12 +1071,12 @@ msgstr "Od"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_move_line_reconcile_search
 msgid "From Trade Payable accounts"
-msgstr "S konta obveza koja su trgovačka"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_move_line_reconcile_search
 msgid "From Trade Receivable accounts"
-msgstr "S konta potraživanja koja su trgovačka"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:digest.tip,tip_description:account_accountant.digest_tip_account_accountant_0
@@ -1150,7 +1138,7 @@ msgstr ""
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_bank_statement__has_message
 msgid "Has Message"
-msgstr "Ima poruku"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_auto_reconcile_wizard__id
@@ -1171,7 +1159,7 @@ msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 #: model:ir.model.fields,help:account_accountant.field_account_bank_statement__message_has_error
 #: model:ir.model.fields,help:account_accountant.field_account_bank_statement__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_bank_rec_widget__st_line_checked
@@ -1190,7 +1178,7 @@ msgstr ""
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_move_line_reconcile_tree
 msgid "In Currency"
-msgstr "U valuti"
+msgstr ""
 
 #. module: account_accountant
 #. odoo-javascript
@@ -1210,8 +1198,6 @@ msgid ""
 "Incorrect fiscal year date: day is out of range for month. Month: %(month)s; "
 "Day: %(day)s"
 msgstr ""
-"Netačan datum fiskalne godine: dan je izvan opsega za mjesec. Mjesec: %"
-"(month)s; Dan: %(day)s"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget_line__index
@@ -1227,7 +1213,7 @@ msgstr ""
 #. module: account_accountant
 #: model:ir.model.fields.selection,name:account_accountant.selection__bank_rec_widget__state__invalid
 msgid "Invalid"
-msgstr "Neispravno"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_bank_statement_line_search_bank_rec_widget
@@ -1282,7 +1268,7 @@ msgstr ""
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget__st_line_is_reconciled
 msgid "Is Reconciled"
-msgstr "Je zatvoreno"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_reconcile_wizard__is_write_off_required
@@ -1323,7 +1309,7 @@ msgstr "Dnevnik knjiženja"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget__journal_currency_id
 msgid "Journal Currency"
-msgstr "Dnevnik valute"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_move
@@ -1355,7 +1341,7 @@ msgstr ""
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_move_line_reconcile_search
 msgid "Journal items where matching number isn't set"
-msgstr "Stavke dnevnika kod kojih nije postavljen odgovarajući broj"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_move_line_reconcile_search
@@ -1363,8 +1349,6 @@ msgid ""
 "Journal items where the account allows reconciliation no matter the residual "
 "amount"
 msgstr ""
-"Stavke dnevnika gdje konto dozvoljava sravnjenje bez obzira na preostali "
-"iznos"
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_res_config_settings__deferred_expense_journal_id
@@ -1392,7 +1376,7 @@ msgstr "Posljednji dan"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.account_journal_dashboard_kanban_view
 msgid "Last Statement"
-msgstr "Najnoviji izvod"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_auto_reconcile_wizard__write_uid
@@ -1551,7 +1535,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_accountant/models/account_payment.py:0
 msgid "Matched Transactions"
-msgstr "Podudarne transakcije"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_move_line_reconcile_tree
@@ -1576,7 +1560,7 @@ msgstr "Meni"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_bank_statement__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_bank_statement__message_ids
@@ -1752,17 +1736,17 @@ msgstr "Broj akcija"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_bank_statement__message_has_error_counter
 msgid "Number of errors"
-msgstr "Broj grešaka"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_account_bank_statement__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Broj poruka koje zahtijevaju radnju"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_account_bank_statement__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama pri isporuci"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields.selection,name:account_accountant.selection__res_company__generate_deferred_expense_entries_method__on_validation
@@ -1811,7 +1795,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_move_line_reconcile_search
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_move_line_reconcile_tree
 msgid "Originator Tax"
-msgstr "Porez na izvor"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_move_line_search_bank_rec_widget
@@ -1930,12 +1914,12 @@ msgstr ""
 #: model:ir.model,name:account_accountant.model_account_reconcile_model
 msgid ""
 "Preset to create journal entries during a invoices and payments matching"
-msgstr "Prethodno postaviti za stvaranje knjiženja tijekom zatvaranja stavaka"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_bank_statement__rating_ids
 msgid "Ratings"
-msgstr "Ocjene"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
@@ -2042,7 +2026,7 @@ msgstr "Ostatak"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_move_line_reconcile_tree
 msgid "Residual in Currency"
-msgstr "Dospjelo u valuti"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget__return_todo_command
@@ -2052,22 +2036,22 @@ msgstr ""
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "Review"
-msgstr "Pregledaj"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "Revoke"
-msgstr "Opozovi"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_reconcile_model_line
 msgid "Rules for the reconciliation model"
-msgstr "Pravila za model pomirenja"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_bank_statement__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "Greška u slanju SMSa"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
@@ -2077,7 +2061,7 @@ msgstr "Sačuvaj"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_bank_statement_line_form_bank_rec_widget
 msgid "Save & Close"
-msgstr "Spremi i zatvori"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_bank_statement_line_form_bank_rec_widget
@@ -2286,12 +2270,12 @@ msgstr ""
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_move_line_reconcile_tree
 msgid "Tax Grids"
-msgstr "Oznake poreza"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget_line__tax_repartition_line_id
 msgid "Tax Repartition Line"
-msgstr "Poreska linija podjele"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget_line__tax_tag_ids
@@ -2318,8 +2302,6 @@ msgid ""
 "The ISO country code in two chars. \n"
 "You can use this field for quick search."
 msgstr ""
-"ISO oznaka države u dva slova.\n"
-"Možete koristiti za brzo pretraživanje."
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_bank_rec_widget_line__amount_transaction_currency
@@ -2439,7 +2421,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_accountant/wizard/account_reconcile_wizard.py:0
 msgid "This can only be used on journal items"
-msgstr "Ovo se može koristiti samo na stavkama dnevnika"
+msgstr ""
 
 #. module: account_accountant
 #. odoo-python
@@ -2490,7 +2472,7 @@ msgstr ""
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_move_line_reconcile_tree
 msgid "Total Balance"
-msgstr "Ukupno saldo"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_move_line_reconcile_tree
@@ -2510,7 +2492,7 @@ msgstr "Ukupno preostalo"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_move_line_reconcile_tree
 msgid "Total Residual in Currency"
-msgstr "Ukupni ostatak u valuti"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_bank_statement_line_search_bank_rec_widget
@@ -2526,7 +2508,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_accountant/static/src/components/bank_reconciliation/bank_rec_form.xml:0
 msgid "Transaction Details"
-msgstr "Detalji transakcije"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.account_journal_dashboard_kanban_view
@@ -2565,7 +2547,7 @@ msgstr ""
 #. module: account_accountant
 #: model:ir.model.fields.selection,name:account_accountant.selection__bank_rec_widget__state__valid
 msgid "Valid"
-msgstr "Važeće"
+msgstr ""
 
 #. module: account_accountant
 #. odoo-javascript
@@ -2601,12 +2583,12 @@ msgstr "Poruke sa website-a"
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_account_bank_statement__website_message_ids
 msgid "Website communication history"
-msgstr "Povijest komunikacije Web stranice"
+msgstr ""
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_move_line_reconcile_search
 msgid "With residual"
-msgstr "Ima ostatak"
+msgstr ""
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_bank_rec_widget_line__wizard_id
@@ -2801,7 +2783,7 @@ msgstr ""
 #. module: account_accountant
 #: model:ir.model.fields.selection,name:account_accountant.selection__account_change_lock_date__exception_duration__forever
 msgid "forever"
-msgstr "zauvijek"
+msgstr ""
 
 #. module: account_accountant
 #. odoo-javascript

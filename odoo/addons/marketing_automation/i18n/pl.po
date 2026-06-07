@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 19:42+0000\n"
-"PO-Revision-Date: 2026-05-20 12:27+0000\n"
-"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+"POT-Creation-Date: 2025-12-29 18:45+0000\n"
+"PO-Revision-Date: 2026-02-27 05:18+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "marketing_automation/pl/>\n"
 "Language: pl\n"
@@ -22,9 +22,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
-"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
-"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 5.17\n"
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
@@ -169,9 +169,8 @@ msgid ""
 "Activity\"/>"
 msgstr ""
 "<i data-trigger-type=\"activity\" class=\"fa fa-code-fork fa-rotate-180 fa-"
-"flip-vertical o_ma_text_processed o_add_child_activity text-success\" "
-"title=\"Dodaj inną aktywność\" role=\"img\" aria-label=\"Dodaj inną "
-"aktywność\"/>"
+"flip-vertical o_ma_text_processed o_add_child_activity text-success\" title="
+"\"Dodaj inną aktywność\" role=\"img\" aria-label=\"Dodaj inną aktywność\"/>"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
@@ -198,16 +197,16 @@ msgid ""
 "filter\"/>\n"
 "                                                        </span>"
 msgstr ""
-"<span role=\"img\" title=\"Graf\" aria-label=\"Graf\" "
-"class=\"o_ma_activity_tab active\" data-tab-type=\"graph\">\n"
-"                                                            <i class=\"fa fa-"
-"pie-chart\"/>\n"
+"<span role=\"img\" title=\"Graf\" aria-label=\"Graf\" class="
+"\"o_ma_activity_tab active\" data-tab-type=\"graph\">\n"
+"                                                            <i class="
+"\"fa fa-pie-chart\"/>\n"
 "                                                        </span>\n"
-"                                                        <span "
-"title=\"Filtr\" role=\"img\" aria-label=\"Filtr\" "
-"class=\"o_ma_activity_tab\" data-tab-type=\"filter\">\n"
-"                                                            <i class=\"fa fa-"
-"filter\"/>\n"
+"                                                        <span title=\"Filtr\""
+" role=\"img\" aria-label=\"Filtr\" class=\"o_ma_activity_tab\" data-tab-type="
+"\"filter\">\n"
+"                                                            <i class="
+"\"fa fa-filter\"/>\n"
 "                                                        </span>"
 
 #. module: marketing_automation
@@ -502,8 +501,8 @@ msgid ""
 "event, …)"
 msgstr ""
 "Zaznacz tę opcję, aby upewnić się, że Twoje działania nie zostaną wykonane "
-"po upływie określonego czasu od zaplanowanej daty. (np. oferta ograniczona "
-"czasowo, nadchodzące wydarzenie itp.)"
+"po upływie określonego czasu od zaplanowanej daty. "
+"(np. oferta ograniczona czasowo, nadchodzące wydarzenie itp.)"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__child_ids
@@ -585,7 +584,8 @@ msgstr "Tworzenie kampanii marketing automation"
 #. odoo-javascript
 #: code:addons/marketing_automation/static/src/components/campaign_template_picker_dialog/campaign_template_picker_dialog.xml:0
 msgid "Create one or load a template prepared by our experts."
-msgstr "Utwórz lub załaduj szablon przygotowany przez naszych ekspertów."
+msgstr ""
+"Utwórz szablon lub załaduj jeden z przygotowanych przez naszych ekspertów."
 
 #. module: marketing_automation
 #: model_terms:ir.actions.act_window,help:marketing_automation.marketing_campaign_action
@@ -1242,14 +1242,6 @@ msgid "Offer free catalog"
 msgstr "Oferta bezpłatnego katalogu"
 
 #. module: marketing_automation
-#. odoo-python
-#: code:addons/marketing_automation/models/mailing_mailing.py:0
-msgid ""
-"Oops! You can't retry sending emails from inside a Marketing Automation "
-"campaign."
-msgstr ""
-
-#. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "Opened"
 msgstr "Otwarte"
@@ -1580,8 +1572,7 @@ msgstr "Wyślij po (w godzinach)"
 #. odoo-python
 #: code:addons/marketing_automation/models/marketing_campaign.py:0
 msgid "Send an email to new recipients to confirm their consent."
-msgstr ""
-"Wyślij wiadomość e-mail do nowych odbiorców, aby potwierdzić ich zgodę."
+msgstr "Wyślij wiadomość e-mail do nowych odbiorców, aby potwierdzić ich zgodę."
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form

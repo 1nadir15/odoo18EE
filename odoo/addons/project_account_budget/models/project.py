@@ -20,10 +20,7 @@ class Project(models.Model):
 
     def _compute_budget(self):
         budget_items = self.env['budget.line'].sudo()._read_group(
-            expression.AND([
-                self._get_budget_analytic_account_domain(),
-                [('budget_analytic_id.state', 'in', ['confirmed', 'done'])],
-            ]),
+            self._get_budget_analytic_account_domain(),
             groupby=['account_id', 'budget_analytic_id'],
             aggregates=['budget_amount:sum', 'achieved_amount:sum'],
         )

@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:06+0000\n"
-"PO-Revision-Date: 2026-05-23 18:21+0000\n"
+"PO-Revision-Date: 2026-03-27 16:46+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18-l10n/"
 "l10n_be_hr_payroll/nl/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.dmfa_pdf_report
@@ -307,26 +307,6 @@ msgid ""
 "professional income which consists exclusively of pensions, annuities or "
 "similar income and which exceeds %(other_income_threshold)s€ net per month."
 msgstr ""
-"- Zonder inkomen: De echtgeno(o)t(e) van de inkomentrekker heeft geen "
-"beroepsinkomen of een inkomen lager dan € %(no_income_threshold)s.\n"
-"\n"
-"- Hoog inkomen: De echtgeno(o)t(e) van de inkomentrekker heeft een "
-"beroepsinkomen, andere dan pensioenen, lijfrenten of soortgelijke inkomen, "
-"die hoger zijn dan %(low_income_threshold)s€ netto per maand.\n"
-"\n"
-"- Laag inkomen: De echtgeno(o)t(e) van de inkomentrekker heeft een "
-"beroepsinkomen, andere dan pensioenen, lijfrenten of soortgelijke inkomen, "
-"die hoger zijn dan %(low_income_threshold)s€ netto per maand.\n"
-"\n"
-"- Laag pensioen: De echtgeno(o)t(e) van de inkomentrekker heeft "
-"beroepsinkomen die uitsluitend bestaan uit pensioenen, lijfrenten of "
-"soortgelijke inkomsten en die niet meer bedragen dan %"
-"(other_income_threshold)s€ netto per maand.\n"
-"\n"
-"- Hoog pensioen: De echtgeno(o)t(e) van de inkomentrekker heeft "
-"beroepsinkomen die uitsluitend bestaan uit pensioenen, lijfrenten of "
-"soortgelijke inkomsten en die meer bedragen dan %(other_income_threshold)s€ "
-"netto per maand."
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_281_10
@@ -790,8 +770,8 @@ msgid ""
 "and related rights referred to in art. 17, § 1, 5°, CIR 92:</span>"
 msgstr ""
 "<span class=\"text-start fw-bold\">5. Brutobedrag van de inkomsten uit "
-"auteursrechten en naburige rechten zoals bedoeld in art. 17, § 1, 5°, WIB "
-"92:</span>"
+"auteursrechten en naburige rechten zoals bedoeld in art. 17, § 1, 5°, WIB 92:"
+"</span>"
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_281_10
@@ -1402,7 +1382,7 @@ msgstr "<strong>Eenvoudig vakantiegeld</strong>"
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_termination_fees
 msgid "<strong>Quantity</strong>"
-msgstr "<strong>Aantal</strong>"
+msgstr "<strong>Hoeveelheid</strong>"
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_termination_fees
@@ -3224,8 +3204,8 @@ msgid ""
 "Domicile, siège social ou siège du principal établissement administratif "
 "(adresse complète) :"
 msgstr ""
-"Woonplaats, vennootschapszetel of zetel van het hoofdkantoor (volledig adres)"
-":"
+"Woonplaats, vennootschapszetel of zetel van het hoofdkantoor (volledig "
+"adres):"
 
 #. module: l10n_be_hr_payroll
 #: model:ir.model.fields.selection,name:l10n_be_hr_payroll.selection__l10n_be_273s__state__done
@@ -3677,9 +3657,6 @@ msgid ""
 "€) not equal to total (%(total_employment_bonus)s) for payslip (id=%"
 "(payslip_id)s) of employee %(employee_name)s"
 msgstr ""
-"Werkgelegenheidsbonus: Luik A (€ %(bonus_volet_A)s) + Luik B (€ %"
-"(bonus_volet_B)s) is niet gelijk aan het totaal (%(total_employment_bonus)s) "
-"voor de loonstrook (id=%(payslip_id)s) van de werknemer %(employee_name)s"
 
 #. module: l10n_be_hr_payroll
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll.field_l10n_be_hr_payroll_schedule_change_wizard__date_end
@@ -3719,7 +3696,7 @@ msgstr "Boekingen"
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_individual_account
 msgid "Entry date"
-msgstr "Indiensttreding"
+msgstr "Invoerdatum"
 
 #. module: l10n_be_hr_payroll
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll.field_l10n_be_273s__error_message
@@ -6191,8 +6168,6 @@ msgid ""
 "Please configure a gender (either male or female) for the following "
 "employee: %s"
 msgstr ""
-"Gelieve een geslacht (mannelijk of vrouwelijk) te configureren voor de "
-"volgende werknemer: %s"
 
 #. module: l10n_be_hr_payroll
 #. odoo-python
@@ -6226,10 +6201,10 @@ msgid ""
 "previous year may be useful for you to complete information concerning the "
 "previous accounting year."
 msgstr ""
-"Hieronder vind je enkele gegevens die nuttig voor je kunnen zijn bij het "
-"opstellen van de Sociale Balans over het hieronder vermelde boekjaar. De "
-"Sociale Balans van het voorgaande jaar kan nuttig zijn om de informatie over "
-"het voorgaande boekjaar aan te vullen."
+"Hierbij treft je enkele gegevens aan die voor jou van nut kunnen zijn bij "
+"het opstellen van het Sociaal Verslag over het hieronder vermelde boekjaar. "
+"Het Sociaal Verslag over het voorgaande jaar kan nuttig zijn om de "
+"informatie over het voorgaande boekjaar aan te vullen."
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.l10n_be_dmfa_view_form
@@ -6440,7 +6415,7 @@ msgstr "Begin van het kwartaal"
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.dmfa_pdf_report
 msgid "Quarter Start:"
-msgstr "Begin kwartaal:"
+msgstr "Einde kwartaal:"
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_273S
@@ -7012,7 +6987,7 @@ msgstr ""
 #: code:addons/l10n_be_hr_payroll/wizard/l10n_be_social_security_certificate.py:0
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_social_security_certificate
 msgid "Special Social Cotisation"
-msgstr "Bijzondere bijdrage sociale zekerheid"
+msgstr "Bijzondere sociale bijdrage"
 
 #. module: l10n_be_hr_payroll
 #: model:hr.salary.rule.category,name:l10n_be_hr_payroll.hr_salary_rule_category_m_onss_total
@@ -7028,7 +7003,7 @@ msgstr "Bijzondere sociale bijdrage"
 #: model:hr.salary.rule,name:l10n_be_hr_payroll.cp200_employees_salary_mis_ex_onss
 #: model:hr.salary.rule,name:l10n_be_hr_payroll.cp200_employees_thirteen_month_mis_ex_onss
 msgid "Special social cotisation"
-msgstr "Bijzondere bijdrage sociale zekerheid"
+msgstr "Speciale sociale bijdrage"
 
 #. module: l10n_be_hr_payroll
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll.field_hr_employee__spouse_fiscal_status_explanation
@@ -8447,7 +8422,7 @@ msgid ""
 "registered in the general staff register"
 msgstr ""
 "Werknemers waarvoor het bedrijf een DIMONA-aangifte heeft ingediend of die "
-"zijn ingeschreven in het algemeen personeelsregister"
+"in het algemene personeelsregister zijn ingeschreven"
 
 #. module: l10n_be_hr_payroll
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll.field_l10n_be_dmfa_location_unit__partner_id
@@ -8610,7 +8585,7 @@ msgstr "Jeugdverlof"
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_273S
 msgid "a)"
-msgstr "a)"
+msgstr ""
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_281_10
@@ -8719,7 +8694,7 @@ msgstr "en op de"
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_273S
 msgid "b)"
-msgstr "b)"
+msgstr ""
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_281_45
@@ -8727,8 +8702,6 @@ msgid ""
 "b) Amount recognized as an expense in 2024 if this amount does not "
 "correspond to the amount indicated in section 4.a:"
 msgstr ""
-"b) Bedrag dat in kosten is geboekt in 2024 indien dat bedrag niet "
-"overeenstemt met het bedrag aangegeven in rubriek 4.a:"
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_281_45
@@ -8737,9 +8710,6 @@ msgid ""
 "correspond to the total of the amounts indicated in sections 5.a.1) and "
 "5.a.2):"
 msgstr ""
-"b) Bedrag dat in kosten is geboekt in 2024 indien dat bedrag niet "
-"overeenstemt met het totaal van de in de rubrieken 5.a.1) en 5.a.2) "
-"ingevulde bedragen:"
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_281_10
@@ -8841,7 +8811,7 @@ msgstr "b) die in aanmerking komt voor het belastingkrediet van 52,54%"
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_273S
 msgid "c)"
-msgstr "c)"
+msgstr ""
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_281_10
@@ -8899,7 +8869,7 @@ msgstr ""
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_273S
 msgid "d)"
-msgstr "d)"
+msgstr ""
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_281_10

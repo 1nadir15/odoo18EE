@@ -39,7 +39,6 @@ import { nodeSize } from "@html_editor/utils/position";
 import { closestElement } from "@html_editor/utils/dom_traversal";
 import { QWebTablePlugin } from "./qweb_table_plugin";
 import { visitNode } from "../utils";
-import { ColorPlugin as _ColorPlugin } from "@html_editor/main/font/color_plugin";
 import { TablePlugin } from "@html_editor/main/table/table_plugin";
 import { withSequence } from "@html_editor/utils/resource";
 import { uniqueId } from "@web/core/utils/functions";
@@ -164,14 +163,6 @@ class _TablePlugin extends TablePlugin {
     }
 }
 
-class ColorPlugin extends _ColorPlugin {
-    getPropsForColorSelector(...args) {
-        const props = super.getPropsForColorSelector(...args);
-        props.useDefaultThemeColors = false;
-        return props;
-    }
-}
-
 const EXCLUDED_PLUGIN_IDS = new Set(["powerButtons"]);
 const REPORT_EDITOR_PLUGINS_MAP = Object.fromEntries(
     MAIN_PLUGINS.filter((cls) => !EXCLUDED_PLUGIN_IDS.has(cls.id)).map((cls) => [cls.id, cls])
@@ -180,12 +171,7 @@ Object.assign(REPORT_EDITOR_PLUGINS_MAP, {
     [QWebPlugin.id]: QWebPlugin,
     [QWebTablePlugin.id]: QWebTablePlugin,
     [TablePlugin.id]: _TablePlugin,
-    [_ColorPlugin.id]: ColorPlugin,
 });
-
-export function getReportEditorPlugins() {
-    return Object.values(REPORT_EDITOR_PLUGINS_MAP);
-}
 
 export class ReportEditorWysiwyg extends Component {
     static components = {

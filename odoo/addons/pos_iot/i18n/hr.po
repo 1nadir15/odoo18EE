@@ -11,14 +11,13 @@
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 # Alen Komljen <alen@uvid.hr>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-04-29 19:03+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2025-08-25 17:24+0000\n"
+"Last-Translator: Alen Komljen <alen@uvid.hr>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/pos_iot/"
 "hr/>\n"
 "Language: hr\n"
@@ -27,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
@@ -279,7 +278,7 @@ msgstr "Načini plaćanja na prodajnom mjestu"
 #. module: pos_iot
 #: model:ir.model,name:pos_iot.model_pos_printer
 msgid "Point of Sale Printer"
-msgstr "Pisač prodajnog mjesta"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model,name:pos_iot.model_pos_session
@@ -327,7 +326,7 @@ msgstr ""
 #. module: pos_iot
 #: model:ir.model.fields,help:pos_iot.field_pos_printer__proxy_ip
 msgid "The IP Address or hostname of the Printer's hardware proxy"
-msgstr "IP adresa ili naziv hosta hardverskog proxyja pisača"
+msgstr ""
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot

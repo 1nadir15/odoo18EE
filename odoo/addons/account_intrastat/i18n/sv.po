@@ -13,15 +13,15 @@
 # Bengt Evertsson <zyberfart@gmail.com>, 2024
 # Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Hanna Kharraziha <hakha@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
-"PO-Revision-Date: 2026-06-06 10:53+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 18:48+0000\n"
+"PO-Revision-Date: 2026-04-02 15:40+0000\n"
+"Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "account_intrastat/sv/>\n"
 "Language: sv\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_intrastat
 #. odoo-javascript
@@ -306,12 +306,6 @@ msgstr "Intrastat transaktionskod"
 
 #. module: account_intrastat
 #. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid "Invalid Intrastat Code"
-msgstr ""
-
-#. module: account_intrastat
-#. odoo-python
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 msgid "Invalid commodity intrastat code products."
 msgstr "Produkter med ogiltiga varukoder."
@@ -364,14 +358,6 @@ msgstr "Produkter inte angivna"
 #: model:res.country,name:account_intrastat.xi
 msgid "Northern Ireland"
 msgstr "Nordirland"
-
-#. module: account_intrastat
-#. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid ""
-"Note that the selected commodity code is invalid based on its start or "
-"expiry date. You can still select it."
-msgstr ""
 
 #. module: account_intrastat
 #. odoo-javascript
@@ -505,16 +491,6 @@ msgid "The number of supplementary units per product quantity."
 msgstr "Antalet kompletterande enheter per produktmängd."
 
 #. module: account_intrastat
-#. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid ""
-"The product template has no products/variants. At least one variant is "
-"required to set the Intrastat values."
-msgstr ""
-"Produktmallen har inga produkter/varianter. Minst en variant krävs för att "
-"ange Intrastat-värden."
-
-#. module: account_intrastat
 #. odoo-javascript
 #: code:addons/account_intrastat/static/src/components/intrastat_report/warnings.xml:0
 msgid "There are some"
@@ -593,7 +569,7 @@ msgstr "ct/l"
 #: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__supplementary_unit__g
 #: model:ir.model.fields.selection,name:account_intrastat.selection__product_template__intrastat_supplementary_unit__g
 msgid "g"
-msgstr "g"
+msgstr ""
 
 #. module: account_intrastat
 #: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__supplementary_unit__gi_f_/_s
@@ -671,7 +647,7 @@ msgstr "kg/netto eda"
 #: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__supplementary_unit__l
 #: model:ir.model.fields.selection,name:account_intrastat.selection__product_template__intrastat_supplementary_unit__l
 msgid "l"
-msgstr "l"
+msgstr ""
 
 #. module: account_intrastat
 #: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__supplementary_unit__l_alc__100_%
@@ -683,7 +659,7 @@ msgstr "l alc. 100 %"
 #: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__supplementary_unit__m
 #: model:ir.model.fields.selection,name:account_intrastat.selection__product_template__intrastat_supplementary_unit__m
 msgid "m"
-msgstr "m"
+msgstr ""
 
 #. module: account_intrastat
 #: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__supplementary_unit__m2

@@ -42,11 +42,14 @@ patch(TicketScreen.prototype, {
         );
     },
     _isEWalletGiftCard(orderline) {
-        return this.pos.models["loyalty.program"].some(
-            (program) =>
-                ["gift_card", "ewallet"].includes(program.program_type) &&
-                program.trigger_product_ids.map((p) => p.id).includes(orderline.product_id.id)
-        );
+        if (orderline.is_reward_line) {
+            const reward = orderline.reward_id;
+            const program = reward && reward.program_id;
+            if (program && ["gift_card", "ewallet"].includes(program.program_type)) {
+                return true;
+            }
+        }
+        return false;
     },
     async _setOrder() {
         await super._setOrder(...arguments);

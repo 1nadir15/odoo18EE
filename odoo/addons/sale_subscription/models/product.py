@@ -30,7 +30,9 @@ class product_template(models.Model):
         In this case, the 'Subscription Product' field is automatically
         unchecked.
         """
-        confirmed_lines = self._get_confirmed_order_lines()
+        confirmed_lines = self.env['sale.order.line'].search([
+            ('product_template_id', 'in', self.ids),
+            ('state', '=', 'sale')])
         if confirmed_lines:
             self.recurring_invoice = self._origin.recurring_invoice
             return {'warning': {
@@ -68,16 +70,6 @@ class product_template(models.Model):
                 raise ValidationError(
                     _("A subscription combo product can only contain subscription products.")
                 )
-
-    def write(self, vals):
-        # Ensure that we don't upate the recurring_invoice flag of product already sold
-        if self.env.context.get('import_file') and 'recurring_invoice' in vals:
-            confirmed_lines = self._get_confirmed_order_lines()
-            updated_product = self.filtered(lambda p: p.recurring_invoice != vals['recurring_invoice'])
-            if confirmed_lines and updated_product:
-                problematic_products = confirmed_lines.product_template_id & updated_product
-                raise UserError("You can not change the recurring property of this product because it has been sold already (%s)", ", ".join(problematic_products.mapped('display_name')))
-        return super().write(vals)
 
     def copy(self, default=None):
         copied_tmpls = self.env['product.template']
@@ -190,8 +182,3 @@ class product_template(models.Model):
         return self.env['sale.subscription.pricing'].sudo()._get_first_suitable_recurring_pricing(
             product_or_template, plan=subscription_plan, pricelist=pricelist
         )
-
-    def _get_confirmed_order_lines(self):
-        return self.env['sale.order.line'].search([
-        ('product_template_id', 'in', self.ids),
-        ('state', '=', 'sale')])

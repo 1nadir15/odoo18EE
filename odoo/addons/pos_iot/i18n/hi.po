@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-05-20 23:47+0000\n"
+"PO-Revision-Date: 2026-03-21 09:02+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/pos_iot/"
 "hi/>\n"
@@ -20,34 +20,33 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
 msgid "Accept payments with a Worldline payment terminal"
-msgstr "Worldline पेमेंट टर्मिनल से पेमेंट स्वीकार करें"
+msgstr ""
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
 msgid "Accept payments with an Ingenico payment terminal"
-msgstr "Ingenico पेमेंट टर्मिनल से पेमेंट स्वीकार करें"
+msgstr ""
 
 #. module: pos_iot
 #. odoo-javascript
 #: code:addons/pos_iot/static/src/app/iot_box_disconnected_dialog.xml:0
 msgid "Access your"
-msgstr "ऐक्सेस करें"
+msgstr ""
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
 msgid "Barcode Scanners/Card Readers"
-msgstr "बारकोड स्कैनर/कार्ड रीडर"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model.fields,help:pos_iot.field_pos_config__iface_print_via_proxy
 msgid "Bypass browser printing and prints via the hardware proxy."
 msgstr ""
-"ब्राउज़र प्रिंटिंग और हार्डवेयर प्रॉक्सी के माध्यम से प्रिंट को बायपास करें।"
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
@@ -59,7 +58,7 @@ msgstr "कैशड्रावर"
 #. odoo-javascript
 #: code:addons/pos_iot/static/src/app/iot_box_disconnected_dialog.xml:0
 msgid "Click on Advanced/Show Details/Details/More information"
-msgstr "एडवांस्ड/विवरण दिखाएं/विवरण/ज़्यादा जानकारी पर क्लिक करें"
+msgstr ""
 
 #. module: pos_iot
 #. odoo-javascript
@@ -67,13 +66,12 @@ msgstr "एडवांस्ड/विवरण दिखाएं/विवर
 msgid ""
 "Click on Proceed to .../Add Exception/Visit this website/Go on to the webpage"
 msgstr ""
-"... पर आगे बढ़ें/अपवाद जोड़ें/इस वेबसाइट पर जाएं/वेबपेज पर जाएं पर क्लिक करें"
 
 #. module: pos_iot
 #. odoo-javascript
 #: code:addons/pos_iot/static/src/app/iot_box_disconnected_dialog.xml:0
 msgid "Close this window and try again"
-msgstr "इस विंडो को बंद करें और फिर से कोशिश करें"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model,name:pos_iot.model_res_config_settings
@@ -84,7 +82,7 @@ msgstr "कॉन्फ़िगरेशन सेटिंग"
 #. odoo-javascript
 #: code:addons/pos_iot/static/src/app/payment.js:0
 msgid "Configuration of payment terminal failed"
-msgstr "पेमेंट टर्मिनल का कॉन्फ़िगरेशन नहीं हो सका"
+msgstr ""
 
 #. module: pos_iot
 #. odoo-javascript
@@ -96,20 +94,20 @@ msgstr "IoT Box से कनेक्शन फ़ेल हो गया"
 #. odoo-javascript
 #: code:addons/pos_iot/static/src/app/payment.js:0
 msgid "Connection to terminal failed"
-msgstr "टर्मिनल से कनेक्शन नहीं हो सका"
+msgstr ""
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
 msgid "Customer Display"
-msgstr "कस्टमर डिस्प्ले"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_electronic_scale
 #: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
 msgid "Electronic Scale"
-msgstr "इलेक्ट्रॉनिक स्केल"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model.fields,help:pos_iot.field_pos_config__iface_scan_via_proxy
@@ -119,19 +117,17 @@ msgid ""
 "Enable barcode scanning with a remotely connected barcode scanner and card "
 "swiping with a Vantiv card reader."
 msgstr ""
-"दूर से जुड़े स्कैनर का उपयोग करके बारकोड पढ़ने और Vantiv कार्ड रीडर से कार्ड पेमेंट लेने की "
-"सुविधा चालू करें।"
 
 #. module: pos_iot
 #: model:ir.model.fields,help:pos_iot.field_pos_config__iface_electronic_scale
 msgid "Enables Electronic Scale integration."
-msgstr "इलेक्ट्रॉनिक स्केल इंटिग्रेशन को चालू करता है।"
+msgstr ""
 
 #. module: pos_iot
 #. odoo-javascript
 #: code:addons/pos_iot/static/src/app/iot_box_disconnected_dialog.xml:0
 msgid "Firefox only: Click on Confirm Security Exception"
-msgstr "सिर्फ़ Firefox: 'सुरक्षा अपवाद की पुष्टि करें' पर क्लिक करें"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model,name:pos_iot.model_iot_device
@@ -149,41 +145,40 @@ msgstr "आइडेंटिफ़ॉयर"
 msgid ""
 "If you are on a secure server (HTTPS) check if you accepted the certificate:"
 msgstr ""
-"अगर आप एक सुरक्षित सर्वर (HTTPS) पर हैं, तो जांचें कि क्या आपने सर्टिफ़िकेट स्वीकार किया है:"
 
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_display_id
 #: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__pos_iface_display_id
 msgid "Iface Display"
-msgstr "Iface डिस्प्ले"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_printer_id
 #: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__pos_iface_printer_id
 msgid "Iface Printer"
-msgstr "Iface प्रिंटर"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_scale_id
 #: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__pos_iface_scale_id
 msgid "Iface Scale"
-msgstr "Iface स्केल"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_scanner_ids
 #: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__pos_iface_scanner_ids
 msgid "Iface Scanner"
-msgstr "Iface स्कैनर"
+msgstr ""
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
 msgid "Ingenico (BENELUX)"
-msgstr "Ingenico (BENELUX)"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__ingenico_payment_terminal
 msgid "Ingenico Payment Terminal"
-msgstr "Ingenico पेमेंट टर्मिनल"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model,name:pos_iot.model_iot_box
@@ -194,7 +189,7 @@ msgstr "आईओटी बॉक्स"
 #. odoo-javascript
 #: code:addons/pos_iot/static/src/app/iot_box_disconnected_dialog.xml:0
 msgid "IoT Box Homepage"
-msgstr "IoT बॉक्स होमपेज"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_pos_printer__device_id
@@ -210,13 +205,13 @@ msgstr "IoT डिवाइस"
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_pos_config__iot_device_ids
 msgid "Iot Device"
-msgstr "IoT डिवाइस"
+msgstr ""
 
 #. module: pos_iot
 #. odoo-javascript
 #: code:addons/pos_iot/static/src/app/iot_box_disconnected_dialog.xml:0
 msgid "Network Error"
-msgstr "नेटवर्क में गड़बड़ी"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_pos_payment_method__payment_terminal_ids
@@ -227,7 +222,7 @@ msgstr "पेमेंट टर्मिनल"
 #: model:ir.model.fields,field_description:pos_iot.field_pos_config__payment_terminal_device_ids
 #: model:ir.model.fields,field_description:pos_iot.field_pos_payment_method__iot_device_id
 msgid "Payment Terminal Device"
-msgstr "पेमेंट टर्मिनल डिवाइस"
+msgstr ""
 
 #. module: pos_iot
 #. odoo-javascript
@@ -240,13 +235,13 @@ msgstr ""
 #: code:addons/pos_iot/static/src/app/iot_box_disconnected_dialog.xml:0
 #: code:addons/pos_iot/static/src/app/payment.js:0
 msgid "Please check if the IoT Box is still connected."
-msgstr "कृपया जांचें कि IoT बॉक्स अभी भी कनेक्ट है।"
+msgstr ""
 
 #. module: pos_iot
 #. odoo-javascript
 #: code:addons/pos_iot/static/src/app/payment.js:0
 msgid "Please check if the terminal is still connected."
-msgstr "कृपया जांचें कि टर्मिनल अभी भी जुड़ा हुआ है।"
+msgstr ""
 
 #. module: pos_iot
 #. odoo-javascript
@@ -260,7 +255,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_iot/static/src/overrides/models/pos_store.js:0
 msgid "Please process or cancel the current transaction."
-msgstr "कृपया मौजूदा ट्रांज़ैक्शन को प्रोसेस करें या रद्द करें।"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model,name:pos_iot.model_pos_config
@@ -270,12 +265,12 @@ msgstr "पॉइंट ऑफ़ सेल कॉन्फ़िगरेशन
 #. module: pos_iot
 #: model:ir.model,name:pos_iot.model_pos_payment_method
 msgid "Point of Sale Payment Methods"
-msgstr "पॉइंट ऑफ़ सेल के पेमेंट के तरीके"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model,name:pos_iot.model_pos_printer
 msgid "Point of Sale Printer"
-msgstr "पॉइंट ऑफ़ सेल प्रिंटर"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model,name:pos_iot.model_pos_session
@@ -285,18 +280,18 @@ msgstr "पॉइंट ऑफ़ सेल सेशन"
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_print_via_proxy
 msgid "Print via Proxy"
-msgstr "प्रॉक्सी के ज़रिए प्रिंट करें"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_pos_printer__proxy_ip
 msgid "Proxy IP Address"
-msgstr "प्रॉक्सी आईपी पता"
+msgstr ""
 
 #. module: pos_iot
 #. odoo-python
 #: code:addons/pos_iot/models/pos_printer.py:0
 msgid "Proxy IP cannot be empty."
-msgstr "प्रॉक्सी आईपी खाली नहीं हो सकती।"
+msgstr ""
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
@@ -307,7 +302,7 @@ msgstr "रसीद निकालने वाला प्रिंटर"
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_scan_via_proxy
 msgid "Scan via Proxy"
-msgstr "प्रॉक्सी के जऱिए स्कैन करें"
+msgstr ""
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
@@ -323,7 +318,7 @@ msgstr ""
 #. module: pos_iot
 #: model:ir.model.fields,help:pos_iot.field_pos_printer__proxy_ip
 msgid "The IP Address or hostname of the Printer's hardware proxy"
-msgstr "प्रिंटर के हार्डवेयर प्रॉक्सी का आईपी पता या होस्टनेम"
+msgstr ""
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
@@ -350,23 +345,23 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_iot/static/src/overrides/models/pos_store.js:0
 msgid "Transaction in progress"
-msgstr "ट्रांज़ैक्शन जारी है"
+msgstr ""
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
 msgid "Worldline (BENELUX)"
-msgstr "Worldline (BENELUX)"
+msgstr ""
 
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__worldline_payment_terminal
 msgid "Worldline Payment Terminal"
-msgstr "Worldline पेमेंट टर्मिनल"
+msgstr ""
 
 #. module: pos_iot
 #. odoo-javascript
 #: code:addons/pos_iot/static/src/app/payment.js:0
 msgid "You must select a payment terminal in your POS config."
-msgstr "आपको अपने पीओएस कॉन्फ़िगरेशन में एक पेमेंट टर्मिनल चुनना होगा।"
+msgstr ""
 
 #. module: pos_iot
 #. odoo-python

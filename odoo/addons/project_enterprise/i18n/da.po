@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:48+0000\n"
-"PO-Revision-Date: 2026-05-13 14:39+0000\n"
+"PO-Revision-Date: 2026-03-13 23:32+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "project_enterprise/da/>\n"
@@ -22,13 +22,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: project_enterprise
 #. odoo-python
 #: code:addons/project_enterprise/models/project_task.py:0
 msgid "%(partner)s has %(amount)s tasks at the same time."
-msgstr "%(partner)s har %(amount)s opgaver på samme tid."
+msgstr ""
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_form
@@ -98,7 +98,7 @@ msgstr ""
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.portal_my_task
 msgid "<strong>Planned Date:</strong>"
-msgstr "<strong>Planlagt dato:</strong>"
+msgstr ""
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_project_view_gantt
@@ -126,12 +126,12 @@ msgstr "Ansvarlige"
 #. odoo-javascript
 #: code:addons/project_enterprise/static/src/views/view_dialogs/select_auto_plan_create_dialog.xml:0
 msgid "Auto Plan"
-msgstr "Automatisk planlægning"
+msgstr ""
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_form
 msgid "Check it out <i class=\"oi oi-chevron-right ms-2\"/>"
-msgstr "Tjek det ud <i class=\"oi oi-chevron-right ms-2\"/>"
+msgstr ""
 
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__partner_id
@@ -163,8 +163,6 @@ msgid ""
 "One parameter is missing to use this method. You should give a start and end "
 "dates."
 msgstr ""
-"Der mangler en parameter for at kunne bruge denne metode. Du skal angive en "
-"start- og en slutdato."
 
 #. module: project_enterprise
 #. odoo-python
@@ -193,7 +191,7 @@ msgstr "Planlagt dato"
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__planned_date_start
 msgid "Planned Date Start"
-msgstr "Planlagt startdato"
+msgstr ""
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_project_view_gantt
@@ -218,13 +216,13 @@ msgstr "Projekt"
 #. odoo-javascript
 #: code:addons/project_enterprise/static/src/views/task_gantt/milestones_popover.xml:0
 msgid "Project due"
-msgstr "Projektfrist"
+msgstr ""
 
 #. module: project_enterprise
 #. odoo-javascript
 #: code:addons/project_enterprise/static/src/views/task_gantt/milestones_popover.xml:0
 msgid "Project start"
-msgstr "Projektstart"
+msgstr ""
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_form_in_gantt
@@ -235,7 +233,7 @@ msgstr "Gem"
 #. odoo-python
 #: code:addons/project_enterprise/models/project_task.py:0
 msgid "Some tasks were planned after their initial deadline."
-msgstr "Nogle opgaver blev planlagt efter deres oprindelige deadline."
+msgstr ""
 
 #. module: project_enterprise
 #. odoo-python
@@ -245,10 +243,6 @@ msgid ""
 "limited availability of the assignees. The planned dates for these tasks may "
 "not align with their allocated hours."
 msgstr ""
-"Nogle opgaver blev planlagt samtidig, hvilket har medført en konflikt på "
-"grund af de tildelte personers begrænsede tilgængelighed. De planlagte "
-"tidspunkter for disse opgaver stemmer muligvis ikke overens med de timer, "
-"der er afsat til dem."
 
 #. module: project_enterprise
 #. odoo-python
@@ -257,8 +251,6 @@ msgid ""
 "Some tasks weren't planned because the closest available starting date was "
 "too far ahead in the future"
 msgstr ""
-"Nogle opgaver blev ikke planlagt, fordi den nærmeste mulige startdato lå for "
-"langt ude i fremtiden"
 
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__planned_date_begin
@@ -284,13 +276,13 @@ msgstr "Opgave analyse"
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_search_conflict_task_project_enterprise
 msgid "Tasks Scheduled"
-msgstr "Planlagte opgaver"
+msgstr ""
 
 #. module: project_enterprise
 #. odoo-javascript
 #: code:addons/project_enterprise/static/src/views/task_gantt/task_gantt_renderer.js:0
 msgid "Tasks have been successfully scheduled for the upcoming periods."
-msgstr "Opgaverne for de kommende perioder er planlagt uden problemer."
+msgstr ""
 
 #. module: project_enterprise
 #. odoo-python
@@ -302,7 +294,7 @@ msgstr "Opgaver der konflikter"
 #. module: project_enterprise
 #: model:ir.model.constraint,message:project_enterprise.constraint_project_task_planned_dates_check
 msgid "The planned start date must be before the planned end date."
-msgstr "Den planlagte startdato skal ligge før den planlagte slutdato."
+msgstr ""
 
 #. module: project_enterprise
 #. odoo-python
@@ -311,14 +303,12 @@ msgid ""
 "The tasks could not be rescheduled due to the assignees' lack of "
 "availability at this time."
 msgstr ""
-"Opgaverne kunne ikke udskydes, da de udpegede personer ikke var tilgængelige "
-"på det tidspunkt."
 
 #. module: project_enterprise
 #. odoo-python
 #: code:addons/project_enterprise/models/project_task.py:0
 msgid "This Progress Bar is not implemented."
-msgstr "Denne statuslinje er ikke implementeret."
+msgstr ""
 
 #. module: project_enterprise
 #. odoo-python
@@ -327,8 +317,6 @@ msgid ""
 "This task cannot be planned before the following tasks on which it depends: %"
 "(task_list)s"
 msgstr ""
-"Denne opgave kan ikke planlægges før de opgaver, som den afhænger af: %"
-"(task_list)s"
 
 #. module: project_enterprise
 #. odoo-python
@@ -337,8 +325,6 @@ msgid ""
 "This user isn't expected to have any tasks assigned during this period "
 "because they don't have any running contract."
 msgstr ""
-"Denne bruger vil sandsynligvis ikke få tildelt opgaver i denne periode, da "
-"vedkommende ikke har en aktiv kontrakt."
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.res_config_settings_view_form
@@ -366,7 +352,7 @@ msgstr "Bruger"
 #. odoo-javascript
 #: code:addons/project_enterprise/static/src/views/project_task_map/project_task_map_renderer.xml:0
 msgid "View customer locations for your tasks"
-msgstr "Vis kundernes placeringer for dine opgaver"
+msgstr ""
 
 #. module: project_enterprise
 #. odoo-javascript
@@ -384,4 +370,4 @@ msgstr "👤 Ikke tildelt"
 #. odoo-javascript
 #: code:addons/project_enterprise/static/src/views/task_gantt/task_gantt_model.js:0
 msgid "🔒 Private"
-msgstr "🔒 Privat"
+msgstr ""

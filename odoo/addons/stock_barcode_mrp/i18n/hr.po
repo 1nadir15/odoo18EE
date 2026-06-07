@@ -10,13 +10,13 @@
 # Vladimir Vrgoč, 2024
 # Goran Kliska <gkliska@gmail.com>, 2025
 # Luka Carević <luka@uvid.hr>, 2025
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:49+0000\n"
-"PO-Revision-Date: 2026-05-06 21:38+0000\n"
+"PO-Revision-Date: 2025-11-21 15:47+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "stock_barcode_mrp/hr/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: stock_barcode_mrp
 #: model_terms:ir.ui.view,arch_db:stock_barcode_mrp.res_config_settings_view_form
@@ -36,7 +36,7 @@ msgstr "<i class=\"fa fa-print\"/> Ispiši naredbe barkoda i vrste operacija"
 #. module: stock_barcode_mrp
 #: model_terms:ir.ui.view,arch_db:stock_barcode_mrp.res_config_settings_view_form
 msgid "<i class=\"fa fa-print\"/> Print barcode demo sheet"
-msgstr "<i class=\"fa fa-print\"/> Ispiši demo list barkoda"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
@@ -47,7 +47,7 @@ msgstr "Dodaj komponentu"
 #. module: stock_barcode_mrp
 #: model_terms:ir.ui.view,arch_db:stock_barcode_mrp.view_picking_type_form
 msgid "Allow full order validation"
-msgstr "Dopusti potpunu potvrdu naloga"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #: model:ir.model.fields,help:stock_barcode_mrp.field_stock_move_line__pick_type_create_components_lots
@@ -58,8 +58,6 @@ msgstr "Omogućeno kreiranje novih lot/serijskih brojeva za komponente"
 #: model_terms:ir.ui.view,arch_db:stock_barcode_mrp.view_picking_type_form
 msgid "Allow user to produce all even if no components were scanned"
 msgstr ""
-"Dopusti korisniku da proizvede sve čak i ako nijedna komponenta nije "
-"skenirana"
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
@@ -70,7 +68,7 @@ msgstr "Jeste li sigurni da želite otkazati ovaj proizvodni nalog?"
 #. module: stock_barcode_mrp
 #: model:ir.actions.client,name:stock_barcode_mrp.stock_barcode_mo_client_action
 msgid "Barcode MO Client Action"
-msgstr "Akcija klijenta barkoda naloga za proizvodnju"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #: model_terms:ir.ui.view,arch_db:stock_barcode_mrp.res_config_settings_view_form
@@ -81,13 +79,13 @@ msgstr "Barkod nomenklatura"
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/models/barcode_mrp_model.js:0
 msgid "Cancel Manufacturing Order"
-msgstr "Otkaži nalog za proizvodnju"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/components/main.js:0
 msgid "Cancel manufacturing order?"
-msgstr "Otkazati nalog za proizvodnju?"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #: model_terms:ir.ui.view,arch_db:stock_barcode_mrp.res_config_settings_view_form
@@ -103,7 +101,7 @@ msgstr "Potvrdi"
 #. module: stock_barcode_mrp
 #: model:ir.model.fields,field_description:stock_barcode_mrp.field_stock_picking_type__count_mo_confirmed
 msgid "Count Mo Confirmed"
-msgstr "Broj potvrđenih naloga za proizvodnju"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #: model:ir.model.fields,field_description:stock_barcode_mrp.field_stock_move_line__pick_type_create_components_lots
@@ -113,7 +111,7 @@ msgstr "Kreiraj nove lot/SN za komponente"
 #. module: stock_barcode_mrp
 #: model_terms:ir.actions.act_window,help:stock_barcode_mrp.mrp_action_kanban
 msgid "Create a new Manufacturing Order"
-msgstr "Kreirajte novi nalog za proizvodnju"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #: model_terms:ir.ui.view,arch_db:stock_barcode_mrp.mrp_product_selector
@@ -129,7 +127,7 @@ msgstr "Odbaci"
 #. module: stock_barcode_mrp
 #: model:ir.model.fields,field_description:stock_barcode_mrp.field_mrp_production__is_completed
 msgid "Is Completed"
-msgstr "Je dovršeno"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #: model:ir.model.fields,field_description:stock_barcode_mrp.field_stock_move_line__manual_consumption
@@ -144,12 +142,12 @@ msgstr "Proizvodni nalog"
 #. module: stock_barcode_mrp
 #: model:ir.model.fields,field_description:stock_barcode_mrp.field_mrp_production__move_byproduct_line_ids
 msgid "Move Byproduct Line"
-msgstr "Stavka kretanja nusprodukta"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #: model:ir.model.fields,field_description:stock_barcode_mrp.field_mrp_production__move_raw_line_ids
 msgid "Move Raw Line"
-msgstr "Stavka kretanja sirovine"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #: model:ir.model.fields,field_description:stock_barcode_mrp.field_mrp_production__backorder_ids
@@ -166,13 +164,13 @@ msgstr "Novi"
 #. odoo-python
 #: code:addons/stock_barcode_mrp/models/mrp_production.py:0
 msgid "No Manufacturing Order ready for this %(barcode_type)s"
-msgstr "Nijedan nalog za proizvodnju nije spreman za ovaj %(barcode_type)s"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-python
 #: code:addons/stock_barcode_mrp/models/mrp_production.py:0
 msgid "No product or order found for barcode %s"
-msgstr "Nema proizvoda ili naloga pronađenog za barkod %s"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #: model:ir.actions.act_window,name:stock_barcode_mrp.mrp_action_kanban
@@ -188,19 +186,19 @@ msgstr "Vrsta dokumenta"
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/models/barcode_mrp_model.js:0
 msgid "Print Finished Product Label (PDF)"
-msgstr "Ispiši naljepnicu gotovog proizvoda (PDF)"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/models/barcode_mrp_model.js:0
 msgid "Print Finished Product Label (ZPL)"
-msgstr "Ispiši naljepnicu gotovog proizvoda (ZPL)"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/models/barcode_mrp_model.js:0
 msgid "Print Production Order"
-msgstr "Ispiši nalog za proizvodnju"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
@@ -218,7 +216,7 @@ msgstr "Proizvedi sve"
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/components/header.xml:0
 msgid "Producing"
-msgstr "Proizvodi se"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #: model_terms:ir.ui.view,arch_db:stock_barcode_mrp.mrp_product_selector
@@ -239,7 +237,7 @@ msgstr "Varijanta proizvoda"
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/models/barcode_mrp_model.js:0
 msgid "Product not Allowed"
-msgstr "Proizvod nije dopušten"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #: model_terms:ir.ui.view,arch_db:stock_barcode_mrp.mrp_product_selector
@@ -250,13 +248,13 @@ msgstr "Količina"
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/models/barcode_mrp_model.js:0
 msgid "Scan a component"
-msgstr "Skeniraj komponentu"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-python
 #: code:addons/stock_barcode_mrp/models/mrp_production.py:0
 msgid "Scan a product to filter the orders."
-msgstr "Skenirajte proizvod za filtriranje naloga."
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
@@ -265,14 +263,12 @@ msgid ""
 "Scan an %(bold_start)s order %(bold_end)s or a %(bold_start)s product %"
 "(bold_end)s to filter your records"
 msgstr ""
-"Skenirajte %(bold_start)snalog%(bold_end)s ili %(bold_start)sproizvod%"
-"(bold_end)s za filtriranje zapisa"
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/models/barcode_mrp_model.js:0
 msgid "Scan your final product or more components"
-msgstr "Skenirajte gotov proizvod ili više komponenti"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #: model_terms:ir.ui.view,arch_db:stock_barcode_mrp.mrp_product_selector
@@ -289,7 +285,7 @@ msgstr "Skladišni prijenos"
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/models/barcode_mrp_model.js:0
 msgid "The Manufacturing Order has been cancelled"
-msgstr "Nalog za proizvodnju je otkazan"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
@@ -298,14 +294,12 @@ msgid ""
 "The lines with a kit have been replaced with their components. Please check "
 "the picking before the final validation."
 msgstr ""
-"Stavke s kompletom zamijenjene su njihovim komponentama. Provjerite "
-"prikupljanje prije konačne potvrde."
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/models/barcode_mrp_model.js:0
 msgid "The manufacturing order has been validated"
-msgstr "Nalog za proizvodnju je potvrđen"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
@@ -317,7 +311,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/models/barcode_mrp_model.js:0
 msgid "This order is cancelled"
-msgstr "Ovaj nalog je otkazan"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
@@ -349,24 +343,20 @@ msgid ""
 "If not activated, and any of the components consumption is edited manually "
 "on the manufacturing order, Odoo assumes manual consumption also."
 msgstr ""
-"Kada je aktivirano, evidentiranje potrošnje za tu komponentu bilježi se "
-"isključivo ručno.\n"
-"Ako nije aktivirano, a potrošnja bilo koje komponente se ručno uređuje na "
-"nalogu za proizvodnju, Odoo pretpostavlja i ručnu potrošnju."
 
 #. module: stock_barcode_mrp
 #: model:ir.model,name:stock_barcode_mrp.model_mrp_production_backorder
 msgid "Wizard to mark as done or create back order"
-msgstr "Čarobnjak za označavanje kao dovršeno ili kreiranje zaostalog naloga"
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/models/barcode_mrp_model.js:0
 msgid "You are expected to scan one or more products."
-msgstr "Očekuje se da skenirate jedan ili više proizvoda."
+msgstr ""
 
 #. module: stock_barcode_mrp
 #. odoo-javascript
 #: code:addons/stock_barcode_mrp/static/src/models/barcode_mrp_model.js:0
 msgid "You can't add the final product of a MO as a byproduct."
-msgstr "Gotov proizvod naloga za proizvodnju ne možete dodati kao nusprodukt."
+msgstr ""

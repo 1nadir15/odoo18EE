@@ -204,27 +204,6 @@ class TestFsmFlowSale(TestFsmFlowSaleCommon):
         so_form.save()
         self.assertEqual(sol.qty_to_invoice, 0.0, "Anglo Saxon Accounting should be disable")
 
-    def test_qty_to_invoice_with_service_policy(self):
-        """
-        Check that free service products with prepaid invoice policies are added to invoices, even
-        when Anglo-Saxon Accounting is not enabled
-        """
-        self.task.partner_id = self.partner_1.id
-        self.env.company.anglo_saxon_accounting = False
-        self.service_product_delivered.list_price = 0.0
-        # Case 1: Service product is not invoiced while not on 'Prepaid' service_policy
-        self.service_product_delivered.service_policy = 'delivered_timesheet'
-        self.service_product_delivered.with_user(self.project_user).with_context({'fsm_task_id': self.task.id}).fsm_add_quantity()
-        so = self.task.sale_order_id
-        sol = so.order_line[0]
-        if so.state == 'draft':
-            so.action_confirm()  # needed if stock is not installed
-        self.assertEqual(sol.qty_to_invoice, 0.0, "Qty to invoice should not be set for non-prepaid, free services (non-anglo-saxon)")
-        # Case 2: Service product is invoiced on 'Prepaid' service_policy
-        self.service_product_delivered.service_policy = 'ordered_prepaid'
-        self.service_product_delivered.with_user(self.project_user).with_context({'fsm_task_id': self.task.id}).fsm_add_quantity()
-        self.assertEqual(sol.qty_to_invoice, 2.0, "Qty to invoice should be set for prepaid, free services, even if Anglo-Saxon Accounting is disabled")
-
     def test_uom_conversion_fsm_task_to_so(self):
         """Checks that the hours recorded on Timesheets are converted to the correct UOM on the Sales Order"""
 

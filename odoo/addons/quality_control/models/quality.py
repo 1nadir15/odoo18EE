@@ -468,7 +468,7 @@ class QualityCheck(models.Model):
                     })
                 check.failure_location_id = dest_location
                 return
-            move.with_context(do_not_unreserve=True).product_uom_qty -= min(failed_qty, move_line.quantity)
+            move.with_context(do_not_unreserve=True, failed_quality=True, failed_lot_id=self.lot_id.id).product_uom_qty -= min(failed_qty, move_line.quantity)
             failed_demand_qty = min(failed_qty, move_line.quantity)
             move_line.quantity -= failed_demand_qty
             failed_move_line = move_line.with_context(default_check_ids=None, no_checks=True).copy({

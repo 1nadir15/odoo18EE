@@ -27,9 +27,6 @@ export class AttributeSelection extends Component {
         });
 
         this.selectedValues = useState(this.env.selectedValues);
-        this.attributesToDisplay = this.props.product.attribute_line_ids.filter(
-            (a) => this.availableAttributeValue(a).length > 0
-        );
 
         this.initAttribute();
         onMounted(this.onMounted);
@@ -101,7 +98,7 @@ export class AttributeSelection extends Component {
             return false;
         };
 
-        for (const attr of this.attributesToDisplay) {
+        for (const attr of this.props.product.attribute_line_ids) {
             this.selectedValues[attr.id] = {};
 
             for (const value of attr.product_template_value_ids) {

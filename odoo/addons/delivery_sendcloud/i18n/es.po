@@ -7,14 +7,13 @@
 # Larissa Manderfeld, 2025
 #
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:47+0000\n"
-"PO-Revision-Date: 2026-04-29 19:51+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2025-08-25 10:08+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/"
 "delivery_sendcloud/es/>\n"
 "Language: es\n"
@@ -23,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: delivery_sendcloud
 #. odoo-python
@@ -64,8 +63,6 @@ msgid ""
 " Please make sure there is an address with the same name under \"Address "
 "Name (optional)\" in your Sendcloud Address configuration."
 msgstr ""
-" Asegúrate de que haya una dirección con el mismo nombre en «Nombre de la "
-"dirección (opcional)» en la configuración de tu dirección de Sendcloud."
 
 #. module: delivery_sendcloud
 #. odoo-python
@@ -778,4 +775,4 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/delivery_sendcloud/static/src/views/sendcloud_product_selection_widget.xml:0
 msgid "g"
-msgstr "g"
+msgstr ""

@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-15 17:38+0000\n"
-"PO-Revision-Date: 2026-05-27 15:25+0000\n"
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+"PO-Revision-Date: 2026-04-15 09:54+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/"
 "account_peppol/nl/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_peppol
 #. odoo-python
@@ -36,12 +36,6 @@ msgstr " (Klant niet op Peppol)"
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (Demo)"
 msgstr " (Demo)"
-
-#. module: account_peppol
-#. odoo-python
-#: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
-msgid " (Missing %(eas)s)"
-msgstr " (%(eas)s ontbreekt)"
 
 #. module: account_peppol
 #. odoo-python
@@ -136,7 +130,7 @@ msgstr "Wizard voor Boeking verzenden"
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__account_peppol_edi_user
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_edi_user
 msgid "Account Peppol Edi User"
-msgstr "Account Peppol Edi-gebruiker"
+msgstr "Gebruiker Account Peppol Edi"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_journal__is_peppol_journal
@@ -410,7 +404,7 @@ msgstr "Documentnaam"
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_move__peppol_move_state__done
 msgid "Done"
-msgstr "Voltooid"
+msgstr "Gereed"
 
 #. module: account_peppol
 #. odoo-javascript
@@ -736,12 +730,6 @@ msgstr "Peppol ID"
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Peppol ID should be different from main company."
 msgstr "Peppol-ID moet anders zijn dan dat van het moederbedrijf."
-
-#. module: account_peppol
-#: model:ir.model.fields,field_description:account_peppol.field_account_bank_statement_line__peppol_is_sent
-#: model:ir.model.fields,field_description:account_peppol.field_account_move__peppol_is_sent
-msgid "Peppol Is Sent"
-msgstr "Peppol is verzonden"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_parent_company_id

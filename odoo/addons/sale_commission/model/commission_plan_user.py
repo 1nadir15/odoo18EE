@@ -43,11 +43,7 @@ class CommissionPlanUser(models.Model):
             pu_date_to = pu.date_to or pu.plan_id.date_to
             other_plans_ids = []
             for plan in (plan_ids - pu.plan_id._origin -pu.plan_id):
-                # get employee-specific dates for this plan
-                user_line = plan.user_ids.filtered(lambda u: u.user_id == pu.user_id)
-                plan_date_from = user_line.date_from or plan.date_from
-                plan_date_to = user_line.date_to or plan.date_to
-                if plan_date_to < pu_date_from or plan_date_from > pu_date_to:
+                if plan.date_to < pu_date_from or plan.date_from > pu_date_to:
                     # no overlap
                     continue
                 other_plans_ids.append(plan.id)

@@ -1112,23 +1112,6 @@ class Document(models.Model):
             'context': {'searchpanel_default_folder_id': self.id}
         }
 
-    def get_formview_action(self, access_uid=None):
-        """Returns the action used to open a many2one field into the documents view."""
-        action = self.env["ir.actions.act_window"]._for_xml_id("documents.document_action")
-        default_folder_id = (
-            "TRASH" if not self.active
-            else self.id if self.type == "folder" else self.folder_id.id
-        )
-        context = {
-            **self.env.context,
-            "no_documents_unique_folder_id": True,
-            "searchpanel_default_folder_id": default_folder_id,
-            "documents_init_document_id": self.id if self.type != "folder" or not self.active else False,
-            "documents_show_default_breadcrumb": True,
-        }
-        action.update({"context": context, "help": _("Upload a file or drag it here")})
-        return action
-
     def toggle_is_pinned_folder(self):
         # TODO: remove in master
         self.ensure_one()
@@ -1205,7 +1188,7 @@ class Document(models.Model):
             # first pinned action should be displayed first
             last_action = self.env['ir.embedded.actions'].search(
                 [], order='sequence DESC', limit=1)
-            self.env['ir.embedded.actions'].create({
+            embedded_action = self.env['ir.embedded.actions'].create({
                 'name': action.name,
                 'parent_action_id': self.env.ref("documents.document_action").id,
                 'action_id': action.id,
@@ -1214,6 +1197,10 @@ class Document(models.Model):
                 'groups_ids': self.env.ref('base.group_user').ids,
                 'sequence': last_action.sequence + 1 if last_action else 1,
             })
+            action_name_translations = action._fields['name']._get_stored_translations(action)
+            for lang, translation in action_name_translations.items():
+                if self.env['res.lang']._lang_get(lang):
+                    embedded_action.with_context(lang=lang).name = translation
 
         return self.get_documents_actions(folder_id)
 
@@ -1759,6 +1746,13 @@ class Document(models.Model):
         if not active_documents:
             return
 
+        # As document archiving leads to deletion
+        message = _("You do not have sufficient access rights to delete these documents.")
+        try:
+            active_documents.check_access('unlink')
+        except UserError as e:
+            raise AccessError(message) from e
+
         active_documents._raise_if_unauthorized_archive()
         active_documents._raise_if_used_folder()
         deletion_date = fields.Date.to_string(fields.Date.today() + relativedelta(days=self.get_deletion_delay()))
@@ -1989,11 +1983,10 @@ class Document(models.Model):
                     for d in documents_to_move):
                 raise AccessError(_("You are not allowed to move (some of) these documents."))
 
-        if (to_active := vals.get('active')) is not None:
+        if vals.get('active') is False:
             if self.env.user.share:
                 raise UserError(_("You are not allowed to (un)archive documents."))
-            if not to_active:
-                self.check_access('unlink')  # As archived gc leads to unlink after `deletion_delay` days.
+            self.check_access('unlink')  # As archived gc leads to unlink after `deletion_delay` days.
 
         attachment_id = vals.get('attachment_id')
         if attachment_id:
@@ -2287,23 +2280,12 @@ class Document(models.Model):
                 removable_parent_folders.unlink()
         return res
 
-    def _check_access(self, operation: str):
-        """Prevent unlink when not the owner and no edit permission on the containing folder."""
-        res = super()._check_access(operation)
-        if self.env.su or operation != 'unlink':
-            return res
-        forbidden_documents = res[0] if res else self.browse()
-        forbidden_documents |= self.filtered(
-            lambda d: d.owner_id != self.env.user and d.folder_id and d.folder_id.user_permission != 'edit')
-        if forbidden_documents:
-            # Hide potentially unknown inaccessible content's name.
-            message = _("You do not have sufficient access rights to delete these documents.")
-            return forbidden_documents, lambda: AccessError(message)
-        return res
-
     @api.ondelete(at_uninstall=False)
     def _unlink_except_unauthorized(self):
-        """deprecated: legacy hook as the logic is now included in `_check_access`. todo: remove in master."""
+        try:
+            self.check_access('unlink')
+        except UserError as e:  # Hide potentially unknown inaccessible content's name.
+            raise UserError(_("You are not allowed to delete all these items.")) from e
         self._raise_if_unauthorized_archive()
 
     @api.ondelete(at_uninstall=False)
@@ -2317,7 +2299,10 @@ class Document(models.Model):
                 raise ValidationError(_("Impossible to delete folders used by other applications."))
 
     def _raise_if_unauthorized_archive(self):
-        """deprecated: legacy hook as the logic is now included in `_check_access`. todo: remove in master."""
+        """Check that the user is owner of documents or has edit permission on the containing folder."""
+        if unowned_documents_folders := self.filtered(lambda d: d.active and d.owner_id != self.env.user).folder_id:
+            if any(folder.user_permission != 'edit' for folder in unowned_documents_folders):
+                raise UserError(_("You do not have sufficient access rights to delete these documents."))
 
     def _unlink_shortcut_if_target_inaccessible(self):
         """As a fix in stable version, delete shortcuts when target is no longer accessible to the owner."""

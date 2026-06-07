@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:46+0000\n"
-"PO-Revision-Date: 2026-05-19 17:15+0000\n"
+"PO-Revision-Date: 2026-03-04 17:23+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
 "quality_repair/hi/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #. module: quality_repair
 #: model_terms:ir.ui.view,arch_db:quality_repair.view_repair_order_form_inherit_quality
@@ -30,12 +30,12 @@ msgstr ""
 #. module: quality_repair
 #: model_terms:ir.ui.view,arch_db:quality_repair.view_repair_order_form_inherit_quality
 msgid "<span class=\"o_stat_text text-danger\">Quality Checks</span>"
-msgstr "<span class=\"o_stat_text text-danger\">क्वालिटी चेक</span>"
+msgstr ""
 
 #. module: quality_repair
 #: model_terms:ir.ui.view,arch_db:quality_repair.view_repair_order_form_inherit_quality
 msgid "<span class=\"o_stat_text text-success\">Quality Checks</span>"
-msgstr "<span class=\"o_stat_text text-success\">क्वालिटी चेक</span>"
+msgstr ""
 
 #. module: quality_repair
 #: model_terms:ir.ui.view,arch_db:quality_repair.view_repair_order_form_inherit_quality
@@ -45,7 +45,7 @@ msgstr ""
 #. module: quality_repair
 #: model_terms:ir.ui.view,arch_db:quality_repair.view_repair_order_form_inherit_quality
 msgid "<span class=\"o_stat_text\">Quality Checks</span>"
-msgstr "<span class=\"o_stat_text\">क्वालिटी चेक</span>"
+msgstr ""
 
 #. module: quality_repair
 #: model:ir.model.fields,field_description:quality_repair.field_repair_order__quality_alert_ids
@@ -98,7 +98,7 @@ msgstr "क्वालिटी कंट्रोल पॉइंट"
 #: model:ir.model.fields,field_description:quality_repair.field_quality_alert__repair_id
 #: model:ir.model.fields,field_description:quality_repair.field_quality_check__repair_id
 msgid "Repair Order"
-msgstr "रिपेयर ऑर्डर"
+msgstr ""
 
 #. module: quality_repair
 #. odoo-python

@@ -28,11 +28,10 @@ class HelpdeskTeam(models.Model):
             if stage:
                 default_stages += stage
         if not default_stages:
-            email_template = self.env.ref('helpdesk.new_ticket_request_email_template', raise_if_not_found=False)
             default_stages = self.env['helpdesk.stage'].create({
                 'name': _("New"),
                 'sequence': 0,
-                'template_id': email_template and email_template.id,
+                'template_id': self.env.ref('helpdesk.new_ticket_request_email_template', raise_if_not_found=False).id or None
             })
         return [Command.set(default_stages.ids)]
 

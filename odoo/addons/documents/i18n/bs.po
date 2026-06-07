@@ -6,13 +6,13 @@
 # Bole <bole@dajmi5.com>, 2018
 # Martin Trigaux, 2018
 # Boško Stojaković <bluesoft83@gmail.com>, 2018
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-22 17:52+0000\n"
-"PO-Revision-Date: 2026-04-29 19:08+0000\n"
+"POT-Creation-Date: 2026-04-10 18:47+0000\n"
+"PO-Revision-Date: 2025-11-17 16:34+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
 "documents/bs/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: documents
 #. odoo-javascript
@@ -46,7 +46,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/documents/static/src/views/documents_model_mixin.js:0
 msgid "%s Files"
-msgstr "%s fajl"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -696,12 +696,12 @@ msgstr "Aktivnost"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija iznimke aktivnosti"
+msgstr ""
 
 #. module: documents
 #: model:ir.ui.menu,name:documents.mail_activity_plan_menu
 msgid "Activity Plans"
-msgstr "Planovi aktivnosti"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__activity_state
@@ -716,7 +716,7 @@ msgstr "Tip aktivnosti"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Ikona tipa aktivnosti"
+msgstr ""
 
 #. module: documents
 #: model:ir.actions.act_window,name:documents.mail_activity_type_action_document
@@ -834,7 +834,7 @@ msgstr ""
 #. module: documents
 #: model:res.groups,name:documents.group_documents_manager
 msgid "Administrator"
-msgstr "Administrator"
+msgstr ""
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_tag_ads
@@ -859,12 +859,12 @@ msgstr "Alias domena"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__alias_domain
 msgid "Alias Domain Name"
-msgstr "Naziv domene aliasa"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__alias_full_name
 msgid "Alias Email"
-msgstr "Alias email"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__alias_name
@@ -874,7 +874,7 @@ msgstr "Naziv nadimka"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__alias_status
 msgid "Alias Status"
-msgstr "Status aliasa"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__alias_tag_ids
@@ -884,7 +884,7 @@ msgstr ""
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__alias_status
 msgid "Alias status assessed on the last message received."
-msgstr "Status aliasa procijenjen prema zadnje primljenoj poruci."
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__alias_model_id
@@ -937,7 +937,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/documents/static/src/views/hooks.js:0
 msgid "An error occured while uploading."
-msgstr "Došlo je do greške prilikom učitavanja."
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -1098,7 +1098,7 @@ msgstr ""
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__checksum
 msgid "Checksum/SHA1"
-msgstr "Kontrolni zbroj/SHA1"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__children_ids
@@ -1161,7 +1161,7 @@ msgstr "Zatvori"
 #. odoo-javascript
 #: code:addons/documents/static/src/js/tours/documents.js:0
 msgid "Close (Esc)"
-msgstr "Zatvori (Esc)"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -1198,7 +1198,7 @@ msgstr "Kompanija"
 #. module: documents
 #: model:ir.model,name:documents.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr ""
 
 #. module: documents
 #: model:ir.ui.menu,name:documents.Config
@@ -1231,13 +1231,13 @@ msgstr "Ugovori"
 #. odoo-javascript
 #: code:addons/documents/static/src/views/documents_controller_mixin.xml:0
 msgid "Control panel buttons"
-msgstr "Dugmad kontrolne ploče"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
 #: code:addons/documents/static/src/components/documents_permission_panel/documents_permission_panel.js:0
 msgid "Copy Link"
-msgstr "Kopiraj link"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -1248,7 +1248,7 @@ msgstr ""
 #. module: documents
 #: model:ir.actions.server,name:documents.ir_actions_server_create_activity
 msgid "Create Activity"
-msgstr "Kreiraj aktivnost"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -1310,12 +1310,12 @@ msgstr "Datum kreiranja"
 #. odoo-javascript
 #: code:addons/documents/static/src/components/documents_manage_versions_panel/documents_manage_versions_panel.xml:0
 msgid "Current Version"
-msgstr "Trenutna verzija"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__alias_bounced_content
 msgid "Custom Bounced Message"
-msgstr "Prilagođena poruka odbijanja"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_document__create_activity_date_deadline_range_type__days
@@ -1575,7 +1575,7 @@ msgstr "Gotovo"
 #. odoo-javascript
 #: code:addons/documents/static/src/views/search/documents_search_panel.js:0
 msgid "Done!"
-msgstr "Gotovo!"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -1626,13 +1626,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:documents.field_documents_document__create_activity_date_deadline_range
 #: model:ir.model.fields,field_description:documents.field_documents_request_wizard__activity_date_deadline_range
 msgid "Due Date In"
-msgstr "Datum dospijeća u"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__create_activity_date_deadline_range_type
 #: model:ir.model.fields,field_description:documents.field_documents_request_wizard__activity_date_deadline_range_type
 msgid "Due type"
-msgstr "Tip dospijeća"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -1677,12 +1677,12 @@ msgstr ""
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__email_cc
 msgid "Email cc"
-msgstr "Email cc"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr "Email domen npr. 'example.com' u 'odoo@example.com'"
+msgstr ""
 
 #. module: documents
 #: model:ir.actions.act_window,name:documents.mail_alias_action
@@ -1729,7 +1729,7 @@ msgstr "Trošak"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_access__expiration_date
 msgid "Expiration"
-msgstr "Istječe"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -1759,12 +1759,12 @@ msgstr "Datoteka"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__datas
 msgid "File Content (base64)"
-msgstr "Sadržaj fajla (base64)"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__raw
 msgid "File Content (raw)"
-msgstr "Sadržaj fajla (neobrađen)"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__file_extension
@@ -1780,13 +1780,13 @@ msgstr "Veličine datoteke"
 #. module: documents
 #: model:ir.model,name:documents.model_ir_binary
 msgid "File streaming helper model for controllers"
-msgstr "Model pomoćnika za strimovanje datoteka za kontrolere"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
 #: code:addons/documents/static/src/views/kanban/documents_kanban_renderer.xml:0
 msgid "Files"
-msgstr "Fajlovi"
+msgstr ""
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.res_config_settings_view_form
@@ -1870,7 +1870,7 @@ msgstr "Pratioci (Partneri)"
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Font awesome ikona npr. fa-tasks"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -1907,7 +1907,7 @@ msgstr ""
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__has_message
 msgid "Has Message"
-msgstr "Ima poruku"
+msgstr ""
 
 #. module: documents
 #: model:res.groups,comment:documents.group_documents_system
@@ -1942,8 +1942,6 @@ msgid ""
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
 msgstr ""
-"ID matične evidencije sadrži pseudonim (na primjer : projekt sadrži "
-"pseudonim pod kojim djelatnik kreira zadatak)"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__activity_exception_icon
@@ -1953,7 +1951,7 @@ msgstr "Znak"
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Ikona za prikaz iznimki."
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__is_access_via_link_hidden
@@ -1972,7 +1970,7 @@ msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 #: model:ir.model.fields,help:documents.field_documents_document__message_has_error
 #: model:ir.model.fields,help:documents.field_documents_document__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__alias_bounced_content
@@ -1980,13 +1978,11 @@ msgid ""
 "If set, this content will automatically be sent out to unauthorized users "
 "instead of the default message."
 msgstr ""
-"Ako je postavljeno, ovaj sadržaj bit će automatsku poslan neovlaštenim "
-"korisnicima umjesto zadane poruke."
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_tag_images
 msgid "Images"
-msgstr "Slike"
+msgstr ""
 
 #. module: documents
 #. odoo-python
@@ -2143,7 +2139,7 @@ msgstr ""
 #. module: documents
 #: model:ir.model,name:documents.model_kpi_provider
 msgid "KPI Provider"
-msgstr "KPI Provider"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_access__last_access_date
@@ -2170,7 +2166,7 @@ msgstr "Zadnje ažurirano"
 #. module: documents
 #: model:documents.tag,name:documents.documents_tag_legal
 msgid "Legal"
-msgstr "Pravno"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -2248,7 +2244,7 @@ msgstr ""
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__alias_incoming_local
 msgid "Local-part based incoming detection"
-msgstr "Otkrivanje dolazne pošte temeljeno na lokalnom dijelu adrese"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -2321,7 +2317,7 @@ msgstr "Poruka"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__message_ids
@@ -2415,7 +2411,7 @@ msgstr "Moje aktivnosti"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Rok za moju aktivnost"
+msgstr ""
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.document_view_search
@@ -2482,7 +2478,7 @@ msgstr ""
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr "Događaj sljedećeg kalendara aktivnosti"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__activity_date_deadline
@@ -2508,7 +2504,7 @@ msgstr "Nema aktivnosti"
 #. module: documents
 #: model_terms:ir.actions.act_window,help:documents.mail_activity_type_action_document
 msgid "No activity types found. Let's create one!"
-msgstr "Nisu pronađene vrste aktivnosti. Kreirajmo jednu!"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -2595,22 +2591,22 @@ msgstr "Broj akcija"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__message_has_error_counter
 msgid "Number of errors"
-msgstr "Broj grešaka"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Broj poruka koje zahtijevaju radnju"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama pri isporuci"
+msgstr ""
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.public_page_layout
 msgid "Odoo Logo"
-msgstr "Odoo Logo"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -2762,7 +2758,7 @@ msgstr "Roditeljski model"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__parent_path
 msgid "Parent Path"
-msgstr "Putanja nadređenih"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__alias_parent_thread_id
@@ -2776,9 +2772,6 @@ msgid ""
 "necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
-"Matični model sadrži pseudonim. Model sadrži alias referencu ali nije nužno "
-"da model daje alias_model_id (na primjer: projekt ( matični_model ) kraj "
-"zadatka (model))"
 
 #. module: documents
 #. odoo-javascript
@@ -2818,15 +2811,11 @@ msgid ""
 "- followers: only followers of the related document or members of following "
 "channels\n"
 msgstr ""
-"Pravila za objavu poruke na dokumentu putem poštanskog sandučića.\n"
-"- svatko: svatko može objaviti poruku\n"
-"- partneri: samo autentificirani partner\n"
-"- pratitelji: samo pratitelji srodne dokumentacije\n"
 
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_document__thumbnail_status__present
 msgid "Present"
-msgstr "Prisutan"
+msgstr ""
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_tag_presentations
@@ -2852,13 +2841,13 @@ msgstr ""
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__rating_ids
 msgid "Ratings"
-msgstr "Ocjene"
+msgstr ""
 
 #. module: documents
 #. odoo-python
 #: code:addons/documents/models/documents_document.py:0
 msgid "Recent"
-msgstr "Nedavno"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -2941,7 +2930,7 @@ msgstr ""
 #: code:addons/documents/static/src/views/search/documents_control_panel.xml:0
 #: model_terms:ir.ui.view,arch_db:documents.document_view_form_rename
 msgid "Rename"
-msgstr "Preimenuj"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -3037,7 +3026,7 @@ msgstr "Oporavi"
 #. odoo-python
 #: code:addons/documents/models/documents_document.py:0
 msgid "Restricted"
-msgstr "Ograničeno"
+msgstr ""
 
 #. module: documents
 #. odoo-python
@@ -3059,7 +3048,7 @@ msgstr "Uloga"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "Greška u slanju SMSa"
+msgstr ""
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_tag_sales
@@ -3103,7 +3092,7 @@ msgstr ""
 #: code:addons/documents/static/src/views/kanban/documents_kanban_renderer.js:0
 #: code:addons/documents/static/src/views/list/documents_list_renderer.js:0
 msgid "Select all"
-msgstr "Označi sve"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -3323,16 +3312,12 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status po aktivnostima\n"
-"U kašnjenju: Datum aktivnosti je već prošao\n"
-"Danas: Datum aktivnosti je danas\n"
-"Planirano: Buduće aktivnosti."
 
 #. module: documents
 #. odoo-javascript
 #: code:addons/documents/static/src/owl/components/pdf_exit_dialog/pdf_exit_dialog.xml:0
 msgid "Stay here"
-msgstr "Ostani ovdje"
+msgstr ""
 
 #. module: documents
 #: model:ir.ui.menu,name:documents.structure
@@ -3445,9 +3430,6 @@ msgid ""
 "email that does not reply to an existing record will cause the creation of a "
 "new record of this model (e.g. a Project Task)"
 msgstr ""
-"Model (Odoo vrsta dokumenta) na koje se ovaj alias odgovara. Svaki dolazni e-"
-"mail koji ne odgovara na postojeći zapis uzrokovati će stvaranje novog "
-"zapisa ovog modela (npr. projektni zadatak)"
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__alias_name
@@ -3455,8 +3437,6 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
-"Ime e-mail aliasa, npr. 'poslovi' ako žele uhvatiti e-poštu "
-"za<jobs@example.odoo.com>"
 
 #. module: documents
 #. odoo-python
@@ -3546,13 +3526,11 @@ msgid ""
 "Those represent the different categories of things you have to do (e.g. "
 "\"Call\" or \"Send email\")."
 msgstr ""
-"To predstavlja različite kategorije stvari koje trebate uraditi (npr. "
-"\"Poziv\" ili \"Pošalji email\")."
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__thumbnail
 msgid "Thumbnail"
-msgstr "Thumbnail"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__thumbnail_status
@@ -3573,12 +3551,12 @@ msgstr ""
 #. module: documents
 #: model:documents.tag,name:documents.documents_tag_to_validate
 msgid "To Validate"
-msgstr "Za odobriti"
+msgstr ""
 
 #. module: documents
 #: model:mail.activity.type,name:documents.mail_documents_activity_data_tv
 msgid "To validate"
-msgstr "Za odobriti"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_document__last_access_date_group__3_day
@@ -3595,7 +3573,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:documents.field_documents_tag__tooltip
 #: model_terms:ir.ui.view,arch_db:documents.tag_view_form
 msgid "Tooltip"
-msgstr "Objašnjenje"
+msgstr ""
 
 #. module: documents
 #. odoo-python
@@ -3622,7 +3600,7 @@ msgstr "Tip"
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Vrsta aktivnosti iznimke na zapisu."
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_document__type__url
@@ -3666,7 +3644,7 @@ msgstr "Bez imena"
 #: code:addons/documents/static/src/views/documents_controller_mixin.xml:0
 #: model_terms:ir.ui.view,arch_db:documents.public_folder_page
 msgid "Upload"
-msgstr "Upload"
+msgstr ""
 
 #. module: documents
 #: model_terms:ir.actions.act_window,help:documents.document_action
@@ -3680,12 +3658,6 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/documents/static/src/components/documents_manage_versions_panel/documents_manage_versions_panel.xml:0
 msgid "Upload New Version"
-msgstr ""
-
-#. module: documents
-#. odoo-python
-#: code:addons/documents/models/documents_document.py:0
-msgid "Upload a file or drag it here"
 msgstr ""
 
 #. module: documents
@@ -3756,7 +3728,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:documents.selection__documents_document__access_via_link__view
 #: model:ir.model.fields.selection,name:documents.selection__documents_document__user_permission__view
 msgid "Viewer"
-msgstr "Posmatrač"
+msgstr ""
 
 #. module: documents
 #. odoo-javascript
@@ -3773,7 +3745,7 @@ msgstr "Poruke sa website-a"
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__website_message_ids
 msgid "Website communication history"
-msgstr "Historija komunikacije Web stranice"
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_document__create_activity_date_deadline_range_type__weeks
@@ -3815,6 +3787,12 @@ msgstr ""
 #. module: documents
 #. odoo-python
 #: code:addons/documents/models/documents_document.py:0
+msgid "You are not allowed to delete all these items."
+msgstr ""
+
+#. module: documents
+#. odoo-python
+#: code:addons/documents/models/documents_document.py:0
 msgid "You are not allowed to execute embedded actions."
 msgstr ""
 
@@ -3848,8 +3826,6 @@ msgid ""
 "You can either upload a file from your computer or copy/paste an internet "
 "link to your file."
 msgstr ""
-"Možete ili da otpremite fajl sa svog računara ili da kopirate/nalepite "
-"internet vezu u svoj fajl."
 
 #. module: documents
 #. odoo-javascript
@@ -3985,7 +3961,7 @@ msgstr ""
 #: code:addons/documents/static/src/components/documents_details_panel/documents_details_panel.xml:0
 #: model_terms:ir.ui.view,arch_db:documents.document_view_form_details
 msgid "alias"
-msgstr "alias"
+msgstr ""
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.format_file_size
@@ -4039,7 +4015,7 @@ msgstr ""
 #: code:addons/documents/static/src/components/documents_details_panel/documents_details_panel.xml:0
 #: model_terms:ir.ui.view,arch_db:documents.document_view_form_details
 msgid "e.g. mycompany.com"
-msgstr "npr. mojafirma.com"
+msgstr ""
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.public_folder_page
@@ -4050,7 +4026,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/documents/static/src/components/documents_permission_panel/documents_permission_panel.js:0
 msgid "folder"
-msgstr "folder"
+msgstr ""
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.public_folder_page

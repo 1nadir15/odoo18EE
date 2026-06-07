@@ -6,14 +6,13 @@
 # Wil Odoo, 2024
 #
 # Yana Bystrytska <yana.bystrytska@erp.co.ua>, 2026.
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:48+0000\n"
-"PO-Revision-Date: 2026-05-27 11:04+0000\n"
-"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"PO-Revision-Date: 2026-03-30 16:47+0000\n"
+"Last-Translator: Yana Bystrytska <yana.bystrytska@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "project_timesheet_forecast_sale/uk/>\n"
 "Language: uk\n"
@@ -24,7 +23,7 @@ msgstr ""
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
 "100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: project_timesheet_forecast_sale
 #. odoo-python
@@ -50,7 +49,7 @@ msgstr "Консультант"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_timesheet_forecast_report_analysis__effective_billable_hours
 msgid "Effective Billable Time"
-msgstr "Ефективний оплачуваний час"
+msgstr ""
 
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_timesheet_forecast_report_analysis__effective_margin
@@ -60,7 +59,7 @@ msgstr "Ефективна маржа"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_timesheet_forecast_report_analysis__effective_non_billable_hours
 msgid "Effective Non-Billable Time"
-msgstr "Ефективний час, що не підлягає оплаті"
+msgstr ""
 
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_timesheet_forecast_report_analysis__effective_revenues
@@ -70,12 +69,12 @@ msgstr "Ефективні доходи"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_planning_analysis_report__non_billable_allocated_hours
 msgid "Non-billable Time Allocated"
-msgstr "Виділений час, що не підлягає оплаті"
+msgstr ""
 
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_timesheet_forecast_report_analysis__planned_billable_hours
 msgid "Planned Billable Time"
-msgstr "Запланований оплачуваний час"
+msgstr ""
 
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_timesheet_forecast_report_analysis__planned_margin
@@ -85,7 +84,7 @@ msgstr "Запланована маржа"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_timesheet_forecast_report_analysis__planned_non_billable_hours
 msgid "Planned Non-Billable Time"
-msgstr "Запланований неоплачуваний час"
+msgstr ""
 
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_timesheet_forecast_report_analysis__planned_revenues
@@ -105,12 +104,12 @@ msgstr "Планування зміни"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model,name:project_timesheet_forecast_sale.model_project_project
 msgid "Project"
-msgstr "Проєкт"
+msgstr "Проект"
 
 #. module: project_timesheet_forecast_sale
 #: model:ir.model,name:project_timesheet_forecast_sale.model_project_update
 msgid "Project Update"
-msgstr "Оновлення проєкту"
+msgstr "Оновлення проекту"
 
 #. module: project_timesheet_forecast_sale
 #: model:ir.model,name:project_timesheet_forecast_sale.model_sale_order_line

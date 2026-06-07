@@ -1,27 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * sale_subscription
+# 	* sale_subscription
 #
 # Translators:
 # Abe Manyo, 2025
 # Wil Odoo, 2025
 #
-# "Nurul Aini Akrima Sabila (nuaas)" <nuaas@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-03 18:51+0000\n"
-"PO-Revision-Date: 2026-06-06 10:12+0000\n"
-"Last-Translator: \"Nurul Aini Akrima Sabila (nuaas)\" <nuaas@odoo.com>\n"
-"Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-18/"
-"sale_subscription/id/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
 
 #. module: sale_subscription
 #. odoo-python
@@ -2067,7 +2064,7 @@ msgstr "Tanggal:"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_plan_view_form
 msgid "Days"
-msgstr "Hari"
+msgstr "Hari-Hari"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
@@ -2727,7 +2724,7 @@ msgstr "Terakhir kali saat kita mengirim pengingat pembayaran"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Late Activities"
-msgstr "Aktivitas terakhir"
+msgstr "Aktifitas terakhir"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
@@ -3541,7 +3538,7 @@ msgstr "Penawaran Terkirim"
 #: model:ir.model,name:sale_subscription.model_sale_order_template
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_tree
 msgid "Quotation Template"
-msgstr "Template Penawaran"
+msgstr "Kutipan Template"
 
 #. module: sale_subscription
 #: model:ir.model,name:sale_subscription.model_sale_order_template_line
@@ -3562,7 +3559,7 @@ msgstr "Templat Quotation:"
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_template_action
 #: model:ir.ui.menu,name:sale_subscription.menu_template_of_subscription
 msgid "Quotation Templates"
-msgstr "Template Penawaran"
+msgstr "Kutipan template"
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_action_quotes
@@ -5128,7 +5125,7 @@ msgid ""
 "calendar to compute the date based on working days."
 msgstr ""
 "Saat menghitung kondisi waktu berdasarkan hari, kalender dapat digunakan "
-"untuk menghitung tanggal berdasarkan hari kerja."
+"untuk menghitung tanggal berdasarkan hari-hari kerja."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_order_alert__trg_date_id

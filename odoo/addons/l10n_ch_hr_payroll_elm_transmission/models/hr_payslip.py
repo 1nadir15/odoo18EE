@@ -769,7 +769,7 @@ class HrPayslip(models.Model):
                         self._log_is_line(is_canton=new_canton, is_code=new_code, municipality=new_municipality, code='ISDTSALARY', amount=is_dt_salary, corrected_payslip_id=payslip_to_reverse.id, is_correction=True, correction_type='new')
 
                         min_is, rate = self._find_rate(f"{new_canton}-{new_code}-{new_municipality}", is_dt_salary)
-                        is_amount = max(is_salary * rate / 100, min_is)
+                        is_amount = max(is_salary * rate / 100, 0)
                         total_compensation -= is_amount
                         self._log_is_line(is_canton=new_canton, is_code=new_code, municipality=new_municipality, code='IS', amount=is_amount, corrected_payslip_id=payslip_to_reverse.id, is_correction=True, correction_type='new')
 

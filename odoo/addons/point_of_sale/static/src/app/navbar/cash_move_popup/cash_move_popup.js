@@ -8,9 +8,6 @@ import { CashMoveReceipt } from "@point_of_sale/app/navbar/cash_move_popup/cash_
 import { Dialog } from "@web/core/dialog/dialog";
 import { useAsyncLockedMethod } from "@point_of_sale/app/utils/hooks";
 import { Input } from "@point_of_sale/app/generic_components/inputs/input/input";
-import { formatDateTime } from "@web/core/l10n/dates";
-
-const { DateTime } = luxon;
 
 export class CashMovePopup extends Component {
     static template = "point_of_sale.CashMovePopup";
@@ -62,7 +59,7 @@ export class CashMovePopup extends Component {
             translatedType,
             formattedAmount,
             headerData: this.pos.getReceiptHeaderData(),
-            date: formatDateTime(DateTime.now()),
+            date: new Date().toLocaleString(),
         });
 
         this.props.close();

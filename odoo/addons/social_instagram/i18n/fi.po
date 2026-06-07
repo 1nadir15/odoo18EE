@@ -9,14 +9,13 @@
 # Martin Trigaux, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 # "Jessica Tuulia Sade Jäkärä (jtsj)" <jtsj@odoo.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-13 18:49+0000\n"
-"PO-Revision-Date: 2026-05-09 18:26+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2025-08-27 22:30+0000\n"
+"Last-Translator: \"Jessica Tuulia Sade Jäkärä (jtsj)\" <jtsj@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-18/"
 "social_instagram/fi/>\n"
 "Language: fi\n"
@@ -24,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview
@@ -38,8 +37,6 @@ msgid ""
 "- Check permissions: Your site's robots.txt might be blocking Instagram from "
 "accessing the media folder (make sure /social_instagram is not blocked)."
 msgstr ""
-"- Tarkista käyttöoikeudet: Sivustosi robots.txt saattaa estää Instagramin "
-"pääsyn mediakansioon (varmista, että /social_instagram ei ole estetty)."
 
 #. module: social_instagram
 #. odoo-python
@@ -48,8 +45,6 @@ msgid ""
 "- Check your connection: Your server may be offline or temporarily "
 "unreachable."
 msgstr ""
-"- Tarkista yhteytesi: Palvelimesi saattaa olla offline-tilassa tai "
-"tilapäisesti saavuttamattomissa."
 
 #. module: social_instagram
 #. odoo-python
@@ -58,8 +53,6 @@ msgid ""
 "- Check your file: Ensure it isn't corrupted and is from 320 to 1440 pixels "
 "wide, 8MB maximum, aspect ratio between 4:5 and 1.91:1."
 msgstr ""
-"- Tarkista tiedostosi: Varmista, ettei se ole vioittunut, ja että sen leveys "
-"on 320-1440 pikseliä, koko enintään 8Mt ja kuvasuhde 4:5-1.91:1."
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview
@@ -434,13 +427,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/social_instagram/models/social_live_post.py:0
 msgid "The media container expired."
-msgstr "Mediasäilö on vanhentunut."
+msgstr ""
 
 #. module: social_instagram
 #. odoo-python
 #: code:addons/social_instagram/models/social_live_post.py:0
 msgid "The media container failed to process."
-msgstr "Mediasäilön käsittely epäonnistui."
+msgstr ""
 
 #. module: social_instagram
 #. odoo-python
@@ -516,7 +509,7 @@ msgstr "Kuva näyttää olevan vioittunut, yritä ladata se uudelleen."
 #: code:addons/social_instagram/models/social_live_post.py:0
 msgid ""
 "Your media didn't go through. This is usually caused by one of the following:"
-msgstr "Median lähetys epäonnistui. Syynä on yleensä jokin seuraavista:"
+msgstr ""
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview

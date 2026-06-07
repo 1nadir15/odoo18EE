@@ -102,19 +102,12 @@ describe("select a full table on cross over", () => {
             await testEditor({
                 contentBefore:
                     "<p>a[bc</p><table><tbody><tr><td>a]b</td><td>cd</td><td>ef</td></tr></tbody></table>",
-                contentBeforeEdit:
-                    "<p>a[bc</p>" +
-                    '<table class="o_selected_table"><tbody><tr>' +
-                    '<td class="o_selected_td">ab</td>' +
-                    '<td class="o_selected_td">cd</td>' +
-                    '<td class="o_selected_td">ef]</td>' +
-                    "</tr></tbody></table>",
                 contentAfterEdit:
                     "<p>a[bc</p>" +
                     '<table class="o_selected_table"><tbody><tr>' +
-                    '<td class="o_selected_td">ab</td>' +
+                    '<td class="o_selected_td">a]b</td>' +
                     '<td class="o_selected_td">cd</td>' +
-                    '<td class="o_selected_td">ef]</td>' +
+                    '<td class="o_selected_td">ef</td>' +
                     "</tr></tbody></table>",
             });
         });
@@ -123,16 +116,11 @@ describe("select a full table on cross over", () => {
             await testEditor({
                 contentBefore:
                     "<table><tbody><tr><td>ab</td><td>cd</td><td>e[f</td></tr></tbody></table><p>a]bc</p>",
-                contentBeforeEdit:
-                    '<table class="o_selected_table"><tbody><tr>' +
-                    '<td class="o_selected_td">[ab</td>' +
-                    '<td class="o_selected_td">cd</td>' +
-                    '<td class="o_selected_td">ef</td></tr></tbody></table><p>a]bc</p>',
                 contentAfterEdit:
                     '<table class="o_selected_table"><tbody><tr>' +
-                    '<td class="o_selected_td">[ab</td>' +
+                    '<td class="o_selected_td">ab</td>' +
                     '<td class="o_selected_td">cd</td>' +
-                    '<td class="o_selected_td">ef</td></tr></tbody></table><p>a]bc</p>',
+                    '<td class="o_selected_td">e[f</td></tr></tbody></table><p>a]bc</p>',
             });
         });
 
@@ -152,24 +140,15 @@ describe("select a full table on cross over", () => {
             await testEditor({
                 contentBefore:
                     "<p>a[bc</p><table><tbody><tr><td>ab</td><td>cd</td><td>ef</td></tr></tbody></table><p>abc</p><table><tbody><tr><td>a]b</td><td>cd</td><td>ef</td></tr></tbody></table>",
-                contentBeforeEdit:
-                    '<p>a[bc</p><table class="o_selected_table"><tbody><tr>' +
-                    '<td class="o_selected_td">ab</td>' +
-                    '<td class="o_selected_td">cd</td>' +
-                    '<td class="o_selected_td">ef</td></tr></tbody></table>' +
-                    '<p>abc</p><table class="o_selected_table"><tbody><tr>' +
-                    '<td class="o_selected_td">ab</td>' +
-                    '<td class="o_selected_td">cd</td>' +
-                    '<td class="o_selected_td">ef]</td></tr></tbody></table>',
                 contentAfterEdit:
                     '<p>a[bc</p><table class="o_selected_table"><tbody><tr>' +
                     '<td class="o_selected_td">ab</td>' +
                     '<td class="o_selected_td">cd</td>' +
                     '<td class="o_selected_td">ef</td></tr></tbody></table>' +
                     '<p>abc</p><table class="o_selected_table"><tbody><tr>' +
-                    '<td class="o_selected_td">ab</td>' +
+                    '<td class="o_selected_td">a]b</td>' +
                     '<td class="o_selected_td">cd</td>' +
-                    '<td class="o_selected_td">ef]</td></tr></tbody></table>',
+                    '<td class="o_selected_td">ef</td></tr></tbody></table>',
             });
         });
 
@@ -332,18 +311,7 @@ describe("select a full table on cross over", () => {
                             </tr>
                         </tbody>
                     </table>`),
-                contentBeforeEdit: unformat(`
-                    <p>a[bc</p>
-                    <table class="o_selected_table">
-                        <tbody>
-                            <tr>
-                                <td class="o_selected_td">ab</td>
-                                <td class="o_selected_td">cd</td>
-                                <td class="o_selected_td">ef]</td>
-                            </tr>
-                        </tbody>
-                    </table>`),
-                stepFunction: async (editor) => {
+                stepFunction: async editor => {
                     // Table selection happens on selectionchange
                     // event which is fired in the next tick.
                     await tick();
@@ -357,13 +325,13 @@ describe("select a full table on cross over", () => {
                         <tbody>
                             <tr>
                                 <td class="o_selected_td">
-                                    <font style="color: aquamarine;">ab</font>
+                                    <font style="color: aquamarine;">a]b</font>
                                 </td>
                                 <td class="o_selected_td">
                                     <font style="color: aquamarine;">cd</font>
                                 </td>
                                 <td class="o_selected_td">
-                                    <font style="color: aquamarine;">ef]</font>
+                                    <font style="color: aquamarine;">ef</font>
                                 </td>
                             </tr>
                         </tbody>
@@ -379,23 +347,18 @@ describe("select a full table on cross over", () => {
                     "<td>cd</td>" +
                     "<td>e[f</td>" +
                     "</tr></tbody></table><p>a]bc</p>",
-                contentBeforeEdit:
-                    '<table class="o_selected_table"><tbody><tr>' +
-                    '<td class="o_selected_td">[ab</td>' +
-                    '<td class="o_selected_td">cd</td>' +
-                    '<td class="o_selected_td">ef</td></tr></tbody></table><p>a]bc</p>',
                 stepFunction: setColor("aquamarine", "color"),
                 contentAfterEdit: unformat(`
                     <table class="o_selected_table">
                         <tbody><tr>
                             <td class="o_selected_td">
-                                <font style="color: aquamarine;">[ab</font>
+                                <font style="color: aquamarine;">ab</font>
                             </td>
                             <td class="o_selected_td">
                                 <font style="color: aquamarine;">cd</font>
                             </td>
                             <td class="o_selected_td">
-                                <font style="color: aquamarine;">ef</font>
+                                <font style="color: aquamarine;">e[f</font>
                             </td>
                         </tr></tbody>
                     </table>
@@ -454,19 +417,6 @@ describe("select a full table on cross over", () => {
                     "<td>cd</td>" +
                     "<td>ef</td>" +
                     "</tr></tbody></table>",
-                contentBeforeEdit:
-                    "<p>a[bc</p>" +
-                    '<table class="o_selected_table"><tbody><tr>' +
-                    '<td class="o_selected_td">ab</td>' +
-                    '<td class="o_selected_td">cd</td>' +
-                    '<td class="o_selected_td">ef</td>' +
-                    "</tr></tbody></table>" +
-                    "<p>abc</p>" +
-                    '<table class="o_selected_table"><tbody><tr>' +
-                    '<td class="o_selected_td">ab</td>' +
-                    '<td class="o_selected_td">cd</td>' +
-                    '<td class="o_selected_td">ef]</td>' +
-                    "</tr></tbody></table>",
                 stepFunction: async (editor) => {
                     // Table selection happens on selectionchange
                     // event which is fired in the next tick.
@@ -496,13 +446,13 @@ describe("select a full table on cross over", () => {
                     <table class="o_selected_table">
                         <tbody><tr>
                             <td class="o_selected_td">
-                                <font style="color: aquamarine;">ab</font>
+                                <font style="color: aquamarine;">a]b</font>
                             </td>
                             <td class="o_selected_td">
                                 <font style="color: aquamarine;">cd</font>
                             </td>
                             <td class="o_selected_td">
-                                <font style="color: aquamarine;">ef]</font>
+                                <font style="color: aquamarine;">ef</font>
                             </td>
                         </tr></tbody>
                     </table>`),

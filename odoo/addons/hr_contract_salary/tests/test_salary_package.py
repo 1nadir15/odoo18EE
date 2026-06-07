@@ -376,10 +376,7 @@ class TestSalaryPackageItems(HttpCase):
             'employee_id': self.employee.id,
             'applicant_id': self.env['hr.applicant'].create({
                 'candidate_id': self.env['hr.candidate'].create({
-                    'partner_id': self.env['res.partner'].create({
-                        'name': 'test',
-                        'email': 'test@example.com'
-                    }).id,
+                    'partner_id': self.env.ref('base.res_partner_12').id,
                 }).id,
             }).id,
         })

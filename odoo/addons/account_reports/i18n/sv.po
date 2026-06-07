@@ -36,8 +36,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
-"PO-Revision-Date: 2026-05-30 18:22+0000\n"
+"POT-Creation-Date: 2026-04-17 18:46+0000\n"
+"PO-Revision-Date: 2026-04-18 18:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "account_reports/sv/>\n"
@@ -46,7 +46,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_reports
 #. odoo-javascript
@@ -563,13 +563,13 @@ msgstr "Alla Journaler"
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/account_report/filters/filters.js:0
 msgid "All Payable"
-msgstr "Alla skulder"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/account_report/filters/filters.js:0
 msgid "All Receivable"
-msgstr "Alla kundfordringar"
+msgstr ""
 
 #. module: account_reports
 #. odoo-python
@@ -832,7 +832,7 @@ msgstr "Bank och Kontobalans"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.bank_information_customer_report
 msgid "Bank:"
-msgstr "Bank:"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -890,7 +890,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_reports/models/account_general_ledger.py:0
 msgid "CSV"
-msgstr "CSV"
+msgstr ""
 
 #. module: account_reports
 #. odoo-python
@@ -1202,6 +1202,12 @@ msgstr "Kostnad för intäkter"
 msgid ""
 "Could not expand term %(term)s while evaluating formula %"
 "(unexpanded_formula)s"
+msgstr ""
+
+#. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+msgid "Could not parse account_code formula from token '%s'"
 msgstr ""
 
 #. module: account_reports
@@ -1697,7 +1703,7 @@ msgstr "Slutsaldo"
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/account_report/filters/filters.js:0
 msgid "End of Month"
-msgstr "Vid månadens slut"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -1738,7 +1744,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/multicurrency_revaluation_report/filters/filter_exchange_rate.xml:0
 msgid "Exchange Rates"
-msgstr "Växelkurser"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_move_line__exclude_bank_lines
@@ -1889,7 +1895,7 @@ msgstr "Filter"
 #: code:addons/account_reports/static/src/components/account_report/filters/filter_aml_ir_filters.xml:0
 #: model_terms:ir.ui.view,arch_db:account_reports.pdf_export_filters
 msgid "Filters:"
-msgstr "Filter:"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.actions.act_window,name:account_reports.action_account_report_budget_tree
@@ -2183,7 +2189,7 @@ msgstr "Inaktiv"
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/journal_report/filter_extra_options.xml:0
 msgid "Include Payments"
-msgstr "Inkludera betalningar"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -2561,13 +2567,13 @@ msgstr "Hantera filgenereringsfel från rapportexport."
 #. odoo-python
 #: code:addons/account_reports/models/account_report.py:0
 msgid "Manual value"
-msgstr "Manuellt värde"
+msgstr ""
 
 #. module: account_reports
 #. odoo-python
 #: code:addons/account_reports/models/account_report.py:0
 msgid "Manual values"
-msgstr "Manuella värden"
+msgstr ""
 
 #. module: account_reports
 #: model:account.report.column,name:account_reports.partner_ledger_report_matching_number
@@ -3061,7 +3067,7 @@ msgstr "Periodicitet i månaden"
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/account_report/filters/filters.js:0
 msgid "Periods"
-msgstr "Perioder"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -3338,7 +3344,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/account_report/filters/filter_variant.xml:0
 msgid "Report:"
-msgstr "Rapport:"
+msgstr ""
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.res_config_settings_view_form
@@ -3584,7 +3590,7 @@ msgstr "Ingående balans"
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/aged_partner_balance/line_name/line_name.xml:0
 msgid "Statement"
-msgstr "Kontoutdrag"
+msgstr "Uttalande"
 
 #. module: account_reports
 #. odoo-python
@@ -3612,7 +3618,7 @@ msgstr "Ärendemening..."
 #. odoo-python
 #: code:addons/account_reports/models/account_journal_report.py:0
 msgid "T: %s"
-msgstr "T: %s"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -4082,7 +4088,7 @@ msgstr "Totalt %s"
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/account_report/filters/filters.js:0
 msgid "Trade Partners"
-msgstr "Handelspartners"
+msgstr ""
 
 #. module: account_reports
 #: model:account.report.line,name:account_reports.transaction_without_statement
@@ -4407,7 +4413,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_reports.pdf_export_main
 #: model_terms:ir.ui.view,arch_db:account_reports.pdf_export_main_customer_report
 msgid "[Draft]"
-msgstr "[Utkast]"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript

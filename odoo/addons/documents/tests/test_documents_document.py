@@ -472,8 +472,8 @@ class TestCaseDocuments(TransactionCaseDocuments):
         self.env['documents.document'].action_folder_embed_action(self.folder_a.id, server_action.id)
         doc.invalidate_recordset(['available_embedded_actions_ids'])
         embedded_action = doc.available_embedded_actions_ids
-        self.assertEqual(embedded_action.display_name, server_action.display_name)
-        self.assertEqual(embedded_action.with_context(lang='fr_FR').display_name, "Blablabla")
+        self.assertEqual(embedded_action.name, server_action.name)
+        self.assertEqual(embedded_action.with_context(lang='fr_FR').name, "Blablabla")
 
     def test_embedding_actions_permission(self):
         """Test that embedding actions enforces permissions but allows sudo bypass."""

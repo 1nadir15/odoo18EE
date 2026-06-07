@@ -12,28 +12,30 @@ patch(OrderlineNoteButton.prototype, {
         const productId = selectedOrderline.product_id.id;
         const order = selectedOrderline.order_id;
 
-        if (!order.uiState.noteHistory) {
-            order.uiState.noteHistory = {};
-        }
-
-        if (!order.uiState.noteHistory[productId]) {
-            order.uiState.noteHistory[productId] = [];
-        }
-
-        let added = false;
-        for (const note of order.uiState.noteHistory[productId]) {
-            if (note.lineId === selectedOrderline.id) {
-                note.new = inputNote;
-                added = true;
+        if (confirmed) {
+            if (!order.uiState.noteHistory) {
+                order.uiState.noteHistory = {};
             }
-        }
-        if (!added) {
-            order.uiState.noteHistory[productId].push({
-                old: oldNote,
-                new: inputNote || "",
-                lineId: selectedOrderline.id,
-                uuid: selectedOrderline.uuid,
-            });
+
+            if (!order.uiState.noteHistory[productId]) {
+                order.uiState.noteHistory[productId] = [];
+            }
+
+            let added = false;
+            for (const note of order.uiState.noteHistory[productId]) {
+                if (note.lineId === selectedOrderline.id) {
+                    note.new = inputNote;
+                    added = true;
+                }
+            }
+            if (!added) {
+                order.uiState.noteHistory[productId].push({
+                    old: oldNote,
+                    new: inputNote || "",
+                    lineId: selectedOrderline.id,
+                    uuid: selectedOrderline.uuid,
+                });
+            }
         }
     },
 });

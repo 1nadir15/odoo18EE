@@ -3,7 +3,7 @@
 
 {
     'name': 'Belgium - Accounting Reports (post wizard)',
-    'version': '1.1',
+    'version': '1.0',
     'category': 'Accounting/Localizations/Reporting',
     'description': """
 Enable the VAT wizard when posting a tax return journal entry

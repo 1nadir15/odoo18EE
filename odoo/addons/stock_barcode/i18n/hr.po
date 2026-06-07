@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:47+0000\n"
-"PO-Revision-Date: 2026-05-02 18:23+0000\n"
+"PO-Revision-Date: 2026-04-11 18:35+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "stock_barcode/hr/>\n"
@@ -31,15 +31,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 msgid "%s can't be inventoried. Only storable products can be inventoried."
 msgstr ""
-"%s ne može se inventarizirati. Samo skladišni proizvodi mogu se "
-"inventarizirati."
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -52,13 +50,11 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-fw fa-lg fa-barcode me-3\" title=\"Serial/Lot Number\"/>"
 msgstr ""
-"<i class=\"fa fa-fw fa-lg fa-barcode me-3\" title=\"Serijski broj / broj "
-"lota\"/>"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.scrap_product_selector
 msgid "<i class=\"fa fa-fw fa-lg fa-cube me-3\" title=\"Quantity\"/>"
-msgstr "<i class=\"fa fa-fw fa-lg fa-cube me-3\" title=\"Količina\"/>"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.scrap_product_selector
@@ -66,8 +62,6 @@ msgid ""
 "<i class=\"fa fa-fw fa-lg fa-long-arrow-right me-3\" title=\"Scrap "
 "Location\"/>"
 msgstr ""
-"<i class=\"fa fa-fw fa-lg fa-long-arrow-right me-3\" title=\"Lokacija "
-"otpada\"/>"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.scrap_product_selector
@@ -79,7 +73,7 @@ msgstr ""
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.scrap_product_selector
 msgid "<i class=\"fa fa-fw fa-lg fa-tags me-3\" title=\"Product\"/>"
-msgstr "<i class=\"fa fa-fw fa-lg fa-tags me-3\" title=\"Proizvod\"/>"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_quant_barcode_kanban_2
@@ -99,23 +93,23 @@ msgstr "<i class=\"fa fa-print\"/> Ispiši naredbe barkoda i vrste operacija"
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.res_config_settings_view_form
 msgid "<i class=\"fa fa-print\"/> Print barcode demo sheet"
-msgstr "<i class=\"fa fa-print\"/> Ispiši demo list barkoda"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.res_config_settings_view_form
 msgid "<i class=\"fa fa-print\"/> Print storage locations"
-msgstr "<i class=\"fa fa-print\"/> Ispiši skladišne lokacije"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_move_line_product_selector
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_quant_barcode
 msgid "<i class=\"fa fs-4 fa-tags me-1\" title=\"Product\"/>"
-msgstr "<i class=\"fa fs-4 fa-tags me-1\" title=\"Proizvod\"/>"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.scrap_product_selector
 msgid "<span>Replenish Quantities</span>"
-msgstr "<span>Nadopuni količine</span>"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -124,8 +118,6 @@ msgid ""
 "A product tracked by serial numbers can't have multiple quantities for the "
 "same serial number."
 msgstr ""
-"Proizvod praćen serijskim brojevima ne može imati više količina za isti "
-"serijski broj."
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -137,13 +129,13 @@ msgstr "Dodaj proizvod"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/extra_product_dialog.js:0
 msgid "Add extra product?"
-msgstr "Dodati dodatni proizvod?"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields.selection,name:stock_barcode.selection__stock_picking_type__restrict_put_in_pack__mandatory
 #: model:ir.model.fields.selection,name:stock_barcode.selection__stock_picking_type__restrict_scan_dest_location__mandatory
 msgid "After each product"
-msgstr "Nakon svakog proizvoda"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields.selection,name:stock_barcode.selection__stock_picking_type__restrict_put_in_pack__optional
@@ -155,7 +147,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "All products need to be packed"
-msgstr "Svi proizvodi moraju biti zapakirani"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_picking_barcode
@@ -201,7 +193,6 @@ msgid ""
 "An unexisting package type was scanned. This part of the barcode can't be "
 "processed."
 msgstr ""
-"Skenirana je nepostojeća vrsta paketa. Ovaj dio barkoda ne može se obraditi."
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -213,13 +204,13 @@ msgstr "Primjeni"
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_barcode_cancel_operation_view
 msgid "Are you sure you want to cancel this operation?"
-msgstr "Jeste li sigurni da želite otkazati ovu operaciju?"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/backorder_dialog.xml:0
 msgid "Backorder"
-msgstr "Backorder"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_backorder_confirmation
@@ -244,7 +235,7 @@ msgstr "Aplikacija za barkod"
 #. module: stock_barcode
 #: model:ir.actions.client,name:stock_barcode.stock_barcode_inventory_client_action
 msgid "Barcode Inventory Client Action"
-msgstr "Klijentska akcija inventara barkoda"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.res_config_settings_view_form
@@ -254,7 +245,7 @@ msgstr "Barkod nomenklatura"
 #. module: stock_barcode
 #: model:ir.actions.client,name:stock_barcode.stock_barcode_picking_client_action
 msgid "Barcode Picking Client Action"
-msgstr "Klijentska akcija prijenosa barkoda"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_scrap___barcode_scanned
@@ -272,19 +263,17 @@ msgstr "Barkod čitač"
 #: code:addons/stock_barcode/static/src/models/barcode_model.js:0
 msgid "Barcode scan is ambiguous with several model: %s. Use the most likely."
 msgstr ""
-"Skeniranje barkoda je dvosmisleno za više modela: %s. Koristi se "
-"najvjerojatniji."
 
 #. module: stock_barcode
 #. odoo-python
 #: code:addons/stock_barcode/controllers/stock_barcode.py:0
 msgid "Barcodes are not available."
-msgstr "Barkodovi nisu dostupni."
+msgstr ""
 
 #. module: stock_barcode
 #: model:product.template,name:stock_barcode.product_cable_management_box_2_product_template
 msgid "Cable Management Box"
-msgstr "Kutija za upravljanje kablovima"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -296,24 +285,24 @@ msgstr "Otkaži"
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_barcode_cancel_operation
 msgid "Cancel Operation"
-msgstr "Otkaži operaciju"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Cancel Transfer"
-msgstr "Otkaži prijenos"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_barcode_cancel_operation_view
 msgid "Cancel operation"
-msgstr "Otkaži operaciju"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-python
 #: code:addons/stock_barcode/models/stock_picking.py:0
 msgid "Cancel this operation?"
-msgstr "Otkazati ovu operaciju?"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -360,7 +349,7 @@ msgstr "Prebrojana količina"
 #. module: stock_barcode
 #: model_terms:ir.actions.act_window,help:stock_barcode.stock_picking_action_kanban
 msgid "Create a new transfer"
-msgstr "Kreiraj novi prijenos"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_cancel_operation__create_uid
@@ -375,12 +364,12 @@ msgstr "Kreirano"
 #. module: stock_barcode
 #: model:product.template,name:stock_barcode.product_custom_cabinet_metric_product_template
 msgid "Customized Cabinet (Metric)"
-msgstr "Prilagođeni ormar (metrički)"
+msgstr ""
 
 #. module: stock_barcode
 #: model:product.template,name:stock_barcode.product_custom_cabinet_usa_product_template
 msgid "Customized Cabinet (USA)"
-msgstr "Prilagođeni ormar (SAD)"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -391,7 +380,7 @@ msgstr "Obriši"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_res_config_settings__stock_barcode_demo_active
 msgid "Demo Data Active"
-msgstr "Demo podaci aktivni"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -410,7 +399,7 @@ msgstr "Odredišni paket"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Destination location must be scanned"
-msgstr "Odredišna lokacija mora biti skenirana"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.res_config_settings_view_form
@@ -439,8 +428,6 @@ msgid ""
 "Do you want to permanently remove this message ? It won't appear anymore, so "
 "make sure you don't need the barcodes sheet or you have a copy."
 msgstr ""
-"Želite li trajno ukloniti ovu poruku? Više se neće prikazivati, pa se "
-"uvjerite da vam nije potrebna tablica barkoda ili da imate kopiju."
 
 #. module: stock_barcode
 #: model:ir.model.fields,help:stock_barcode.field_stock_picking_type__restrict_put_in_pack
@@ -457,7 +444,7 @@ msgstr ""
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_barcode_cancel_operation_view
 msgid "Don't cancel"
-msgstr "Ne otkazuj"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -469,19 +456,19 @@ msgstr "Ne prikazuj ponovno ovu poruku"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/backorder_dialog.xml:0
 msgid "Done / To do"
-msgstr "Gotovo / Za obaviti"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/main_menu/main_menu.xml:0
 msgid "Download demo data sheet"
-msgstr "Preuzmi tablicu demo podataka"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/main_menu/main_menu.xml:0
 msgid "Download operation barcodes"
-msgstr "Preuzmi barkodove operacija"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__dummy_id
@@ -492,7 +479,7 @@ msgstr "Prazan"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_backorder_confirmation__empty_move_count
 msgid "Empty Move Count"
-msgstr "Broj praznih premještanja"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -509,13 +496,13 @@ msgstr "Finalna validacija"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Following backorder was created:"
-msgstr "Kreiran je sljedeći backorder:"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Following backorders were created:"
-msgstr "Kreirani su sljedeći backorderi:"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -524,8 +511,6 @@ msgid ""
 "Following scanned products are not reserved for this transfer. Are you sure "
 "you want to add them?"
 msgstr ""
-"Sljedeći skenirani proizvodi nisu rezervirani za ovaj prijenos. Jeste li "
-"sigurni da ih želite dodati?"
 
 #. module: stock_barcode
 #: model:ir.model.fields,help:stock_barcode.field_stock_picking_type__barcode_allow_extra_product
@@ -570,7 +555,7 @@ msgstr "Obavezno zahtjevaj stavljanje u paket?"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__formatted_product_barcode
 msgid "Formatted Product Barcode"
-msgstr "Formatirani barkod proizvoda"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_product_product__has_image
@@ -580,12 +565,12 @@ msgstr "Ima sliku"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__hide_lot
 msgid "Hide Lot"
-msgstr "Sakrij lot"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__hide_lot_name
 msgid "Hide Lot Name"
-msgstr "Sakrij naziv lota"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_cancel_operation__id
@@ -599,15 +584,13 @@ msgid ""
 "If the source location must be scanned, then the destination location must "
 "either be scanned after each product or not scanned at all."
 msgstr ""
-"Ako izvorna lokacija mora biti skenirana, tada odredišna lokacija mora biti "
-"skenirana nakon svakog proizvoda ili uopće ne skenirana."
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/backorder_dialog.xml:0
 msgid ""
 "If you validate now, the remaining products will be added to a backorder."
-msgstr "Ako sada potvrdite, preostali proizvodi bit će dodani u backorder."
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__image_1920
@@ -619,7 +602,7 @@ msgstr "Slika"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/backorder_dialog.xml:0
 msgid "Incomplete Transfer"
-msgstr "Nepotpun prijenos"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -653,7 +636,7 @@ msgstr "Inventura"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_picking_type__is_barcode_picking_type
 msgid "Is Barcode Picking Type"
-msgstr "Je vrsta prijenosa barkoda"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_cancel_operation__write_uid
@@ -708,7 +691,7 @@ msgstr "Lot/Serija"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Mandatory Destination Location"
-msgstr "Obavezna odredišna lokacija"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields.selection,name:stock_barcode.selection__stock_picking_type__restrict_scan_source_location__mandatory
@@ -721,7 +704,7 @@ msgstr "Obavezno skeniranje"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Mandatory Source Location"
-msgstr "Obavezna izvorna lokacija"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_res_config_settings__barcode_max_time_between_keys_in_ms
@@ -731,7 +714,7 @@ msgstr "Maksimalno vrijeme između svakog unosa tipke"
 #. module: stock_barcode
 #: model:ir.model.fields,help:stock_barcode.field_res_config_settings__barcode_max_time_between_keys_in_ms
 msgid "Maximum delay between each key in ms (100 ms by default)"
-msgstr "Maksimalno kašnjenje između svake tipke u ms (100 ms zadano)"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_res_config_settings__barcode_separator_regex
@@ -753,24 +736,24 @@ msgstr "Ne"
 #. odoo-python
 #: code:addons/stock_barcode/models/stock_picking.py:0
 msgid "No %(picking_type)s ready for this %(barcode_type)s"
-msgstr "Nema %(picking_type)s spremnih za ovaj %(barcode_type)s"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-python
 #: code:addons/stock_barcode/models/stock_move_line.py:0
 msgid "No Barcode"
-msgstr "Bez barkoda"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields.selection,name:stock_barcode.selection__stock_picking_type__restrict_scan_source_location__no
 msgid "No Scan"
-msgstr "Bez skeniranja"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-python
 #: code:addons/stock_barcode/controllers/stock_barcode.py:0
 msgid "No internal operation type. Please configure one in warehouse settings."
-msgstr "Nema interne vrste operacije. Konfigurirajte je u postavkama skladišta."
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-python
@@ -794,7 +777,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/apply_quant_dialog.xml:0
 msgid "No, I'll count them later"
-msgstr "Ne, prebrojit ću ih kasnije"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_res_config_settings__barcode_nomenclature_id
@@ -805,14 +788,14 @@ msgstr "Nomenklatura"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Not the expected scan"
-msgstr "Nije očekivano skeniranje"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-python
 #: code:addons/stock_barcode/models/stock_picking.py:0
 #: model:ir.actions.act_window,name:stock_barcode.open_picking
 msgid "Open picking form"
-msgstr "Otvori obrazac prijenosa"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -826,7 +809,7 @@ msgstr "Operacije"
 #. module: stock_barcode
 #: model:ir.model.fields.selection,name:stock_barcode.selection__stock_picking_type__restrict_scan_tracking_number__optional
 msgid "Optional Scan"
-msgstr "Opcionalno skeniranje"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_barcode_view_picking_type_form
@@ -849,7 +832,7 @@ msgstr "Paket"
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 msgid "Package type %(type)s applied to the package %(package)s"
-msgstr "Vrsta paketa %(type)s primijenjena na paket %(package)s"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_quant_package
@@ -874,17 +857,17 @@ msgstr "Nadređena lokacija"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__parent_location_dest_id
 msgid "Parent Location Dest"
-msgstr "Nadređena odredišna lokacija"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_backorder_confirmation__partial_move_count
 msgid "Partial Move Count"
-msgstr "Broj djelomičnih premještanja"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_picking_barcode
 msgid "Picking Details"
-msgstr "Detalji prijenosa"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_picking_type
@@ -895,7 +878,7 @@ msgstr "Vrsta dokumenta"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Please scan destination location for %s before scanning other product"
-msgstr "Skenirajte odredišnu lokaciju za %s prije skeniranja drugog proizvoda"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -907,7 +890,7 @@ msgstr "Skenirajte ponovno!"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Press Validate or scan another product"
-msgstr "Pritisnite Potvrdi ili skenirajte drugi proizvod"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -919,13 +902,13 @@ msgstr "Ispis"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Print Barcodes"
-msgstr "Ispiši barkodove"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Print Delivery Slip"
-msgstr "Ispiši otpremnicu"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -937,13 +920,13 @@ msgstr "Ispis zaliha"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Print Packages"
-msgstr "Ispiši pakete"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Print Picking Operations"
-msgstr "Ispiši operacije prijenosa"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -955,7 +938,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/main.js:0
 msgid "Processing %(processed)s/%(toProcess)s barcodes"
-msgstr "Obrada %(processed)s/%(toProcess)s barkodova"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -987,12 +970,12 @@ msgstr "Pakiranje proizvoda"
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__product_reference_code
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_quant__product_reference_code
 msgid "Product Reference Code"
-msgstr "Referentni kod proizvoda"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__product_stock_quant_ids
 msgid "Product Stock Quant"
-msgstr "Kvant zalihe proizvoda"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_uom_uom
@@ -1018,7 +1001,7 @@ msgstr "Stavi u paket"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__qty_done
 msgid "Qty Done"
-msgstr "Obavljena kol."
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.scrap_product_selector
@@ -1049,19 +1032,19 @@ msgstr "Količine"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_res_config_settings__barcode_rfid_batch_time
 msgid "RFID Timer"
-msgstr "RFID mjerač vremena"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/count_screen_rfid.xml:0
 msgid "Read Rate"
-msgstr "Stopa čitanja"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/count_screen_rfid.xml:0
 msgid "Read Time"
-msgstr "Vrijeme čitanja"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1126,25 +1109,25 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a lot number"
-msgstr "Skenirajte broj lota"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a lot number or a packages then the destination location"
-msgstr "Skenirajte broj lota ili paket, a zatim odredišnu lokaciju"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a lot number then the destination location"
-msgstr "Skenirajte broj lota, a zatim odredišnu lokaciju"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a package"
-msgstr "Skenirajte paket"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1156,13 +1139,13 @@ msgstr "Skeniraj pakiranje ili stavi u paket"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a package or the destination location"
-msgstr "Skenirajte paket ili odredišnu lokaciju"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a package, the destination location or another product"
-msgstr "Skenirajte paket, odredišnu lokaciju ili drugi proizvod"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1175,13 +1158,13 @@ msgstr "Skeniraj proizvod"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a product before scanning a tracking number"
-msgstr "Skenirajte proizvod prije skeniranja broja praćenja"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a product from %s"
-msgstr "Skenirajte proizvod iz %s"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1193,25 +1176,25 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a product or a package"
-msgstr "Skenirajte proizvod ili paket"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a product or another package"
-msgstr "Skenirajte proizvod ili drugi paket"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a product or the destination location."
-msgstr "Skenirajte proizvod ili odredišnu lokaciju."
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a product then the destination location"
-msgstr "Skenirajte proizvod, a zatim odredišnu lokaciju"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-python
@@ -1224,37 +1207,37 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a product, a package or the destination location"
-msgstr "Skenirajte proizvod, paket ili odredišnu lokaciju"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a product, a package or the destination location."
-msgstr "Skenirajte proizvod, paket ili odredišnu lokaciju."
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a serial number"
-msgstr "Skenirajte serijski broj"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a serial number or a package"
-msgstr "Skenirajte serijski broj ili paket"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a serial number or a package then the destination location"
-msgstr "Skenirajte serijski broj ili paket, a zatim odredišnu lokaciju"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan a serial number then the destination location"
-msgstr "Skenirajte serijski broj, a zatim odredišnu lokaciju"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1266,7 +1249,7 @@ msgstr "Skeniraj"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan another serial number"
-msgstr "Skenirajte drugi serijski broj"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1278,13 +1261,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan more lot numbers"
-msgstr "Skenirajte još brojeva lotova"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan more lot numbers or a package"
-msgstr "Skenirajte još brojeva lotova ili paket"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1296,13 +1279,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan more products or a package"
-msgstr "Skenirajte još proizvoda ili paket"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan more products, or scan a new source location"
-msgstr "Skenirajte još proizvoda ili skenirajte novu izvornu lokaciju"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1326,19 +1309,19 @@ msgstr "Skenirajte odredišnu lokaciju"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan the package %s"
-msgstr "Skeniraj paket %s"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan the source location"
-msgstr "Skenirajte izvornu lokaciju"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scan the source location or a package"
-msgstr "Skenirajte izvornu lokaciju ili paket"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1361,7 +1344,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "Scanning package"
-msgstr "Skeniranje paketa"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1379,7 +1362,7 @@ msgstr "Lokacija otpisa"
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_move_line_product_selector
 msgid "Select a Product"
-msgstr "Odaberite proizvod"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.scrap_product_selector
@@ -1398,12 +1381,12 @@ msgstr ""
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_res_config_settings__show_barcode_nomenclature
 msgid "Show Barcode Nomenclature"
-msgstr "Prikaži nomenklaturu barkoda"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_picking_type__show_barcode_validation
 msgid "Show Barcode Validation"
-msgstr "Prikaži provjeru barkoda"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_res_config_settings__group_barcode_show_quantity_count
@@ -1426,7 +1409,7 @@ msgstr "Potpiši"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/apply_quant_dialog.xml:0
 msgid "Some serials where not counted, set them as missing?"
-msgstr "Neki serijski brojevi nisu prebrojani, postaviti ih kao nedostajuće?"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.scrap_product_selector
@@ -1444,7 +1427,7 @@ msgstr "Izvorni paket"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/backorder_dialog.xml:0
 msgid "Stay on transfer"
-msgstr "Ostani na prijenosu"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_move
@@ -1454,12 +1437,12 @@ msgstr "Skladišni prijenos"
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_request_count
 msgid "Stock Request an Inventory Count"
-msgstr "Zahtjev za prebrojavanjem inventure"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_package_type
 msgid "Stock package type"
-msgstr "Vrsta skladišnog paketa"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,help:stock_barcode.field_stock_picking_type__is_barcode_picking_type
@@ -1479,25 +1462,25 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 msgid "The inventory count has been updated"
-msgstr "Brojanje inventara je ažurirano"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "The product %s should not be picked in this operation."
-msgstr "Proizvod %s ne bi trebao biti preuzet u ovoj operaciji."
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "The scanned location doesn't belong to this operation's destination"
-msgstr "Skenirana lokacija ne pripada odredištu ove operacije"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "The scanned location doesn't belong to this operation's location"
-msgstr "Skenirana lokacija ne pripada lokaciji ove operacije"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1509,31 +1492,31 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_model.js:0
 msgid "The scanned serial number %s is already used."
-msgstr "Skenirani serijski broj %s već je u upotrebi."
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "The transfer has been cancelled"
-msgstr "Prijenos je otkazan"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "The transfer has been validated"
-msgstr "Prijenos je potvrđen"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 msgid "There is nothing to apply in this page."
-msgstr "Nema ničega za primijeniti na ovoj stranici."
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 msgid "There is nothing to print in this page."
-msgstr "Nema ničega za ispis na ovoj stranici."
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1542,33 +1525,31 @@ msgid ""
 "This package contains extra products and extra products are not allowed on "
 "this operation."
 msgstr ""
-"Ovaj paket sadrži dodatne proizvode, a dodatni proizvodi nisu dopušteni u "
-"ovoj operaciji."
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 msgid "This package is already scanned."
-msgstr "Ovaj paket je već skeniran."
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "This picking is already done"
-msgstr "Ovaj prijenos je već obavljen"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "This picking is cancelled"
-msgstr "Ovaj prijenos je otkazan"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_model.js:0
 msgid "This product doesn't exist."
-msgstr "Ovaj proizvod ne postoji."
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model.fields,help:stock_barcode.field_res_config_settings__barcode_separator_regex
@@ -1586,7 +1567,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_model.js:0
 msgid "This serial number is already used."
-msgstr "Ovaj serijski broj već je u upotrebi."
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.res_config_settings_view_form
@@ -1601,13 +1582,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "To use packages, enable 'Packages' in the settings"
-msgstr "Za korištenje paketa, omogućite 'Paketi' u postavkama"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/count_screen_rfid.xml:0
 msgid "Total Reads"
-msgstr "Ukupno čitanja"
+msgstr ""
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_picking
@@ -1618,7 +1599,7 @@ msgstr "Prijenos"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_cancel_operation__picking_name
 msgid "Transfer Name"
-msgstr "Naziv prijenosa"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.actions.act_window,help:stock_barcode.stock_picking_action_kanban
@@ -1630,7 +1611,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/count_screen_rfid.xml:0
 msgid "Unique Tags"
-msgstr "Jedinstvene oznake"
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.scrap_product_selector
@@ -1695,9 +1676,6 @@ msgid ""
 "(locationName)s but this product isn't reserved in this location.\n"
 "Scan the current location to confirm that."
 msgstr ""
-"Upravo ćete preuzeti proizvod %(productName)s s lokacije %(locationName)s, "
-"ali ovaj proizvod nije rezerviran na ovoj lokaciji.\n"
-"Skenirajte trenutnu lokaciju za potvrdu."
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1706,28 +1684,24 @@ msgid ""
 "You are expected to scan one or more products or a package available at the "
 "picking location"
 msgstr ""
-"Očekuje se da skenirate jedan ili više proizvoda ili paket dostupan na "
-"lokaciji preuzimanja"
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "You are supposed to scan %s or another source location"
-msgstr "Trebali biste skenirati %s ili drugu izvornu lokaciju"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "You can't apply a package type. First, scan product or select a line"
 msgstr ""
-"Ne možete primijeniti vrstu paketa. Prvo skenirajte proizvod ili odaberite "
-"stavku"
 
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "You can't register scrap at this state of the operation"
-msgstr "Ne možete registrirati otpad u ovom stanju operacije"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1736,7 +1710,6 @@ msgid ""
 "You have already scanned %s items of this package. Do you want to scan the "
 "whole package?"
 msgstr ""
-"Već ste skenirali %s stavki ovog paketa. Želite li skenirati cijeli paket?"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.view_backorder_confirmation
@@ -1753,7 +1726,7 @@ msgstr "Morate skenirati pakiranje ili staviti u paket"
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 msgid "You must scan a product"
-msgstr "Morate skenirati proizvod"
+msgstr ""
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -1812,7 +1785,7 @@ msgstr "proizvod"
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.view_backorder_confirmation
 msgid "products were not processed at all."
-msgstr "proizvodi uopće nisu obrađeni."
+msgstr ""
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.view_backorder_confirmation

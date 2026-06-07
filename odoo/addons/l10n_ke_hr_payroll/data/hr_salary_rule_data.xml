@@ -160,6 +160,21 @@ result = contract.l10n_ke_pension_allowance - payslip._rule_parameter('l10n_ke_p
             'sequence': 34}"/>
     </function>
 
+    <record id="l10n_ke_employees_salary_pension_contribution" model="hr.salary.rule">
+        <field name="category_id" ref="hr_payroll.DED"/>
+        <field name="name">Pension Contribution</field>
+        <field name="code">PENSION</field>
+        <field name="sequence">35</field>
+        <field name="condition_select">python</field>
+        <field name="condition_python">result = not contract.l10n_ke_is_secondary</field>
+        <field name="amount_select">code</field>
+        <field name="amount_python_compute">
+result = contract.l10n_ke_pension_contribution
+        </field>
+        <field name="struct_id" ref="l10n_ke_hr_payroll.hr_payroll_structure_ken_employee_salary"/>
+        <field name="appears_on_payroll_report" eval="True"/>
+    </record>
+
     <record id="l10n_ke_employees_salary_gross_taxable" model="hr.salary.rule">
         <field name="category_id" ref="hr_payroll.DED"/>
         <field name="name">Mortgage Interest</field>
@@ -185,9 +200,7 @@ result = employee.l10n_ke_mortgage
         <field name="code">NSSF_EMPLOYEE_TIER_1</field>
         <field name="sequence">37</field>
         <field name="condition_select">python</field>
-        <field name="condition_python">
-result = not (contract.l10n_ke_is_secondary or payslip._l10n_ke_is_employee_at_least_60())
-        </field>
+        <field name="condition_python">result = not contract.l10n_ke_is_secondary</field>
         <field name="amount_select">code</field>
         <field name="amount_python_compute">
 lower_limit = payslip._rule_parameter('l10n_ke_nssf_lower_limit')
@@ -206,9 +219,7 @@ result_rate = 6
         <field name="code">NSSF_EMPLOYEE_TIER_2</field>
         <field name="sequence">38</field>
         <field name="condition_select">python</field>
-        <field name="condition_python">
-result = not (contract.l10n_ke_is_secondary or payslip._l10n_ke_is_employee_at_least_60())
-        </field>
+        <field name="condition_python">result = not contract.l10n_ke_is_secondary</field>
         <field name="amount_select">code</field>
         <field name="amount_python_compute">
 lower_limit = payslip._rule_parameter('l10n_ke_nssf_lower_limit')
@@ -402,9 +413,7 @@ result = - payslip._rule_parameter('l10n_ke_personal_relief')
         <field name="code">NSSF_AMOUNT</field>
         <field name="sequence">53</field>
         <field name="condition_select">python</field>
-        <field name="condition_python">
-result = not (contract.l10n_ke_is_secondary or payslip._l10n_ke_is_employee_at_least_60())
-        </field>
+        <field name="condition_python">result = not contract.l10n_ke_is_secondary</field>
         <field name="amount_select">code</field>
         <field name="amount_python_compute">
 result = result_rules['NSSF_EMPLOYEE_TIER_1']['total'] + result_rules['NSSF_EMPLOYEE_TIER_2']['total']
@@ -651,9 +660,7 @@ result = payslip._rule_parameter('l10n_ke_nita')
         <field name="code">NSSF_EMP</field>
         <field name="sequence">120</field>
         <field name="condition_select">python</field>
-        <field name="condition_python">
-result = not (contract.l10n_ke_is_secondary or payslip._l10n_ke_is_employee_at_least_60())
-        </field>
+        <field name="condition_python">result = not contract.l10n_ke_is_secondary</field>
         <field name="amount_select">code</field>
         <field name="amount_python_compute">
 result = result_rules['NSSF_AMOUNT']['total']

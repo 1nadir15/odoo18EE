@@ -93,11 +93,4 @@ patch(PosOrderline.prototype, {
         }
         return super.getDisplayData();
     },
-
-    can_be_merged_with(orderline) {
-        return (
-            super.can_be_merged_with(...arguments) &&
-            this._e_wallet_program_id === orderline._e_wallet_program_id
-        );
-    },
 });

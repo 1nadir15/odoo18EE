@@ -5,13 +5,13 @@
 # Translators:
 # Martin Trigaux, 2024
 #
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:48+0000\n"
-"PO-Revision-Date: 2026-05-08 15:56+0000\n"
+"PO-Revision-Date: 2025-11-08 16:53+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "product_barcodelookup/da/>\n"
@@ -20,28 +20,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: product_barcodelookup
 #: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
 msgid "API Key:"
-msgstr "API-nøgle:"
+msgstr ""
 
 #. module: product_barcodelookup
 #: model:ir.model.fields,field_description:product_barcodelookup.field_res_config_settings__barcodelookup_api_key
 msgid "API key"
-msgstr "API-nøgle"
+msgstr ""
 
 #. module: product_barcodelookup
 #: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
 msgid "Barcode Database"
-msgstr "Stregkodedatabase"
+msgstr ""
 
 #. module: product_barcodelookup
 #: model:ir.model.fields,help:product_barcodelookup.field_res_config_settings__barcodelookup_api_key
 msgid "Barcode Lookup API Key for create product from barcode."
 msgstr ""
-"API-nøgle til stregkodesøgning ved oprettelse af produkter ud fra stregkoder."
 
 #. module: product_barcodelookup
 #: model:ir.model,name:product_barcodelookup.model_res_config_settings
@@ -51,7 +50,7 @@ msgstr "Konfigurer opsætning"
 #. module: product_barcodelookup
 #: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
 msgid "Create products by scanning using"
-msgstr "Opret produkter ved at scanne med"
+msgstr ""
 
 #. module: product_barcodelookup
 #: model:ir.model,name:product_barcodelookup.model_product_template
@@ -66,17 +65,17 @@ msgstr "Varevariant"
 #. module: product_barcodelookup
 #: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_8
 msgid "age group"
-msgstr "aldersgruppe"
+msgstr ""
 
 #. module: product_barcodelookup
 #: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
 msgid "barcodelookup.com"
-msgstr "barcodelookup.com"
+msgstr ""
 
 #. module: product_barcodelookup
 #: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_6
 msgid "brand"
-msgstr "brand"
+msgstr ""
 
 #. module: product_barcodelookup
 #: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_1
@@ -86,12 +85,12 @@ msgstr "farve"
 #. module: product_barcodelookup
 #: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
 msgid "e.g. d7vctmiv2rwgenebha8bxq7irooudn"
-msgstr "f.eks. d7vctmiv2rwgenebha8bxq7irooudn"
+msgstr ""
 
 #. module: product_barcodelookup
 #: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_2
 msgid "gender"
-msgstr "køn"
+msgstr ""
 
 #. module: product_barcodelookup
 #: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_5
@@ -101,14 +100,14 @@ msgstr "fabrikant"
 #. module: product_barcodelookup
 #: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_3
 msgid "material"
-msgstr "materiale"
+msgstr ""
 
 #. module: product_barcodelookup
 #: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_4
 msgid "pattern"
-msgstr "mønster"
+msgstr ""
 
 #. module: product_barcodelookup
 #: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_7
 msgid "size"
-msgstr "størrelse"
+msgstr ""

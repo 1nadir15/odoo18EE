@@ -83,12 +83,9 @@ registry.category("web_tour.tours").add("PreparationDisplayTourInternalNotes", {
             ProductScreen.clickDisplayedProduct("Coca-Cola"),
             ProductScreen.addInternalNote("Test Internal Notes"),
             ProductScreen.orderlineIsToOrder("Coca-Cola"),
-            ProductScreen.clickDisplayedProduct("water"),
-            ProductScreen.addInternalNote("Test Internal Notes water", "Note"),
             ProductScreen.clickOrderButton(),
             ProductScreen.orderlinesHaveNoChange(),
-            ProductScreen.clickInternalNoteButton(),
-            Dialog.cancel(),
+            ProductScreen.clickDisplayedProduct("Coca-Cola"),
             ProductScreen.clickOrderButton(),
             ProductScreen.orderlinesHaveNoChange(),
             Order.hasLine({
@@ -96,7 +93,7 @@ registry.category("web_tour.tours").add("PreparationDisplayTourInternalNotes", {
                 internalNote: "Test Internal Notes",
             }),
             Order.hasLine({
-                productName: "water",
+                productName: "Coca-Cola",
                 internalNote: "",
             }),
             Chrome.clickPlanButton(),

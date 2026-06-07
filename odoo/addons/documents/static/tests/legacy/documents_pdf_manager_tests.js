@@ -25,8 +25,8 @@ async function mountSetup(PdfManager, target, env) {
                 { id: 2, name: "blip", mimetype: "application/pdf", available_embedded_actions_ids: [1] },
             ],
             embeddedActions: [
-                { id: 1, name: "Action1"},
-                { id: 2, name: "Action2"},
+                { id: 1, name: "action1"},
+                { id: 2, name: "action2"},
             ],
             onProcessDocuments: async () => {},
             close: () => {},
@@ -90,18 +90,18 @@ QUnit.module("documents", {}, function () {
                 );
                 assert.strictEqual(
                     target.querySelectorAll(".o_pdf_manager_button")[2].innerText,
-                    "Add File",
-                    "There should be a Add File button"
+                    "ADD FILE",
+                    "There should be a ADD FILE button"
                 );
                 assert.strictEqual(
                     target.querySelectorAll(".o_pdf_manager_button")[3].innerText,
-                    "Action1",
-                    "There should be a Action1 button"
+                    "ACTION1",
+                    "There should be a ACTION1 button"
                 );
                 assert.strictEqual(
                     target.querySelectorAll(".o_pdf_manager_button")[4].innerText,
-                    "Action2",
-                    "There should be a Action2 button"
+                    "ACTION2",
+                    "There should be a ACTION2 button"
                 );
                 assert.containsOnce(
                     target,

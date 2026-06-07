@@ -5,9 +5,18 @@ patch(OrderSummary.prototype, {
     async updateSelectedOrderline({ buffer, key }) {
         const updatedLine = await super.updateSelectedOrderline({ buffer, key });
         const order = this.pos.get_order();
-        // cancel the transaction if last line is removed
-        if (this.pos.isCountryGermanyAndFiskaly() && !order.lines.length) {
-            await this.pos.handleFiskalyCancellation(order);
+        if (this.pos.isCountryGermanyAndFiskaly()) {
+            if (!order.lines.length) {
+                // cancel the transaction if last line is removed
+                await this.pos.transactionMutex.exec(async () => {
+                    return await this.pos.handleFiskalyCancellation(order);
+                });
+            } else {
+                // update the transaction if orderline is updated
+                this.pos.transactionMutex.exec(async () => {
+                    return await this.pos.createTransaction(order);
+                });
+            }
         }
         return updatedLine;
     },

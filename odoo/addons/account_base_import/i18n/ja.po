@@ -1,27 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * account_base_import
+# 	* account_base_import
 #
 # Translators:
 # Wil Odoo, 2024
 # Junko Augias, 2025
 #
-# "Junko Augias (juau)" <juau@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:46+0000\n"
-"PO-Revision-Date: 2026-05-07 10:20+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
-"Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
-"account_base_import/ja/>\n"
+"PO-Revision-Date: 2024-09-25 09:43+0000\n"
+"Last-Translator: Junko Augias, 2025\n"
+"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17\n"
 
 #. module: account_base_import
 #: model_terms:ir.ui.view,arch_db:account_base_import.res_config_settings_import_view_form
@@ -115,7 +112,7 @@ msgstr "ダウンロード"
 #. odoo-javascript
 #: code:addons/account_base_import/static/src/xml/account_import.xml:0
 msgid "Excel Import"
-msgstr "Excelインポート"
+msgstr "Excelでインポート"
 
 #. module: account_base_import
 #. odoo-javascript
@@ -218,13 +215,13 @@ msgstr "連絡先をインポート"
 #. odoo-javascript
 #: code:addons/account_base_import/static/src/xml/account_import.xml:0
 msgid "Import customers or suppliers (partners) and their contacts using a"
-msgstr "顧客/仕入先(取引先)と連絡先を次の方法でインポート:"
+msgstr "お客様や仕入先 (取引先)の連絡先情報をインポートするに"
 
 #. module: account_base_import
 #. odoo-javascript
 #: code:addons/account_base_import/static/src/xml/account_import.xml:0
 msgid "Import the Chart of Accounts and initial balances using a"
-msgstr "勘定科目表と期首残高を次の方法でインポート:"
+msgstr "勘定科目表及び開始残高をインポートするに"
 
 #. module: account_base_import
 #: model_terms:ir.ui.view,arch_db:account_base_import.account_import_summary_form
@@ -271,9 +268,8 @@ msgid ""
 "purposes.\n"
 "                            Use the"
 msgstr ""
-"欧州の多くの会計ソフトウェアは、監査目的で SAF‑T ファイルのエクスポートに対応"
-"しています。\n"
-"                            次を使用してください:"
+"フランスの大抵の会計ソフトは、監査目的としたSAF-Tファイルのエクスポートに対応"
+"しています。"
 
 #. module: account_base_import
 #. odoo-javascript
@@ -283,9 +279,8 @@ msgid ""
 "purposes.\n"
 "                            Use the"
 msgstr ""
-"フランスの多くの会計ソフトウェアは、監査目的でFECファイルのエクスポートに対応"
-"しています。\n"
-"                            次を使用してください："
+"フランス大抵の会計ソフトは、監査目的としたFECファイルのエクスポートに対応して"
+"います。"
 
 #. module: account_base_import
 #: model_terms:ir.ui.view,arch_db:account_base_import.account_import_summary_form
@@ -296,9 +291,7 @@ msgstr "インポートされたデータはありません。"
 #. odoo-javascript
 #: code:addons/account_base_import/static/src/xml/account_import.xml:0
 msgid "Optional, but useful to import open receivables & payables using a"
-msgstr ""
-"任意ですが、未決の売掛金および買掛金を、次を使用してインポートする際に役立ち"
-"ます："
+msgstr "オプションですが、役に立ちます。未決済の買掛・売掛をインポートするに"
 
 #. module: account_base_import
 #. odoo-javascript
@@ -402,9 +395,7 @@ msgstr "Winbooks"
 msgid ""
 "Winbooks is an old school Belgian accounting software acquired by Exact.\n"
 "                            Use the"
-msgstr ""
-"Winbooksは、Exactに買収されたベルギーの会計ソフトです。\n"
-"                            以下を使用してください："
+msgstr "Winbooksは、Exactに買収されたベルギーの会計ソフトです。"
 
 #. module: account_base_import
 #. odoo-python

@@ -41,7 +41,7 @@ class PosEdiXmlUBLDian(models.AbstractModel):
         pos_order = vals['pos_order']
 
         vals.update({
-            'name': pos_order.l10n_co_edi_pos_name or vals['name'],
+            'name': pos_order.l10n_co_edi_pos_name,
             'l10n_co_edi_type': pos_order._l10n_co_edi_type(),
             'l10n_co_edi_operation_type': pos_order._l10n_co_edi_operation_type(),
             'l10n_co_dian_identifier_type': pos_order._l10n_co_dian_identifier_type(),

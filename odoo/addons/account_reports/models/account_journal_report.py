@@ -112,15 +112,13 @@ class JournalReportCustomHandler(models.AbstractModel):
                 WHERE %(case_statement)s AND %(search_conditions)s
                 GROUP BY %(groupby_clause)s
                 ORDER BY %(groupby_clause)s
-                %(query_tail)s
             """,
             select_from_groupby=select_from_groupby,
             account_code=account_code,
             table=query.from_clause,
             search_conditions=query.where_clause,
             case_statement=self._get_payment_lines_filter_case_statement(options),
-            groupby_clause=groupby_clause,
-            query_tail=report._get_engine_query_tail(offset, limit),
+            groupby_clause=groupby_clause
         )
         self._cr.execute(query)
         query_lines = self._cr.dictfetchall()

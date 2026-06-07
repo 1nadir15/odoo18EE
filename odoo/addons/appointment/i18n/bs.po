@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 18:45+0000\n"
-"PO-Revision-Date: 2026-04-29 19:59+0000\n"
+"PO-Revision-Date: 2026-03-21 18:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
 "appointment/bs/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: appointment
 #. odoo-python
@@ -1036,7 +1036,7 @@ msgstr "Aktivnosti"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Oznaka izuzetka aktivnosti"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__activity_state
@@ -1046,7 +1046,7 @@ msgstr "Status aktivnosti"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Ikona tipa aktivnosti"
+msgstr ""
 
 #. module: appointment
 #. odoo-javascript
@@ -1100,7 +1100,7 @@ msgstr ""
 #. module: appointment
 #: model:res.groups,name:appointment.group_appointment_manager
 msgid "Administrator"
-msgstr "Administrator"
+msgstr ""
 
 #. module: appointment
 #. odoo-python
@@ -1196,7 +1196,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:appointment.field_appointment_booking_line__appointment_type_id
 #: model:ir.model.fields,field_description:appointment.field_calendar_event__appointment_type_id
 msgid "Appointment"
-msgstr "Sastanak"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model,name:appointment.model_appointment_answer_input
@@ -1402,7 +1402,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:appointment.portal_my_home_appointment
 #: model_terms:ir.ui.view,arch_db:appointment.portal_my_home_menu_appointment
 msgid "Appointments"
-msgstr "Sastanci"
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.portal_my_appointments
@@ -1429,7 +1429,7 @@ msgstr ""
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_invite__resources_choice
 msgid "Assign to"
-msgstr "Dodijeli"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__assign_method
@@ -1488,27 +1488,27 @@ msgstr ""
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_resource__avatar_1920
 msgid "Avatar"
-msgstr "Avatar"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_resource__avatar_1024
 msgid "Avatar 1024"
-msgstr "Avatar 1024"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_resource__avatar_128
 msgid "Avatar 128"
-msgstr "Avatar 128"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_resource__avatar_256
 msgid "Avatar 256"
-msgstr "Avatar 256"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_resource__avatar_512
 msgid "Avatar 512"
-msgstr "Avatar 512"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__image_1920
@@ -1605,7 +1605,7 @@ msgstr ""
 #: model:ir.model,name:appointment.model_calendar_event
 #: model:ir.model.fields,field_description:appointment.field_appointment_answer_input__calendar_event_id
 msgid "Calendar Event"
-msgstr "Događaj na kalendaru"
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_form
@@ -1748,7 +1748,7 @@ msgstr ""
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__message_confirmation
 msgid "Confirmation Message"
-msgstr "Poruka potvrde"
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_validated
@@ -1775,7 +1775,7 @@ msgstr "Kontakt"
 #. odoo-python
 #: code:addons/appointment/models/calendar_event.py:0
 msgid "Contact Details"
-msgstr "Detalji kontakta"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_appointment_type__message_partner_ids
@@ -1801,7 +1801,7 @@ msgstr ""
 #: code:addons/appointment/static/src/views/appointment_calendar/appointment_calendar_controller.xml:0
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_validated
 msgid "Copy Link"
-msgstr "Kopiraj link"
+msgstr ""
 
 #. module: appointment
 #. odoo-javascript
@@ -2104,7 +2104,7 @@ msgstr ""
 #. module: appointment
 #: model:ir.model,name:appointment.model_ir_binary
 msgid "File streaming helper model for controllers"
-msgstr "Model pomoćnika za strimovanje datoteka za kontrolere"
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.portal_my_home_appointment
@@ -2119,7 +2119,7 @@ msgstr "Pratioci"
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_appointment_type__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Font awesome ikona npr. fa-tasks"
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_info
@@ -2186,12 +2186,12 @@ msgstr "Gostiju"
 #. module: appointment
 #: model:ir.model,name:appointment.model_ir_http
 msgid "HTTP Routing"
-msgstr "HTTP rutiranje"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__has_message
 msgid "Has Message"
-msgstr "Ima poruku"
+msgstr ""
 
 #. module: appointment
 #. odoo-javascript
@@ -2237,7 +2237,7 @@ msgstr "Znak"
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_appointment_type__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Ikona za prikaz aktivnosti izuzetka."
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_appointment_type__message_needaction
@@ -2248,7 +2248,7 @@ msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 #: model:ir.model.fields,help:appointment.field_appointment_type__message_has_error
 #: model:ir.model.fields,help:appointment.field_appointment_type__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_type_view_form
@@ -2314,25 +2314,25 @@ msgstr "Slika"
 #: model:ir.model.fields,field_description:appointment.field_appointment_resource__image_1024
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__image_1024
 msgid "Image 1024"
-msgstr "Slika 1024"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_resource__image_128
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__image_128
 msgid "Image 128"
-msgstr "Slika 128"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_resource__image_256
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__image_256
 msgid "Image 256"
-msgstr "Slika 256"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_resource__image_512
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__image_512
 msgid "Image 512"
-msgstr "Slika 512"
+msgstr ""
 
 #. module: appointment
 #. odoo-javascript
@@ -2390,7 +2390,7 @@ msgstr "Je pratilac"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__is_published
 msgid "Is Published"
-msgstr "je objavljeno"
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_validated
@@ -2549,7 +2549,7 @@ msgstr "Sastanci"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__message_ids
@@ -2570,7 +2570,7 @@ msgstr ""
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Rok za moju aktivnost"
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_type_view_search
@@ -2609,7 +2609,7 @@ msgstr ""
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr "Događaj sljedećeg kalendara aktivnosti"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__activity_date_deadline
@@ -2668,7 +2668,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:appointment.calendar_event_action_appointment_reporting
 #: model_terms:ir.actions.act_window,help:appointment.calendar_event_action_report_all
 msgid "No data yet!"
-msgstr "Još nema podataka!"
+msgstr ""
 
 #. module: appointment
 #. odoo-python
@@ -2691,17 +2691,17 @@ msgstr "Broj akcija"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__message_has_error_counter
 msgid "Number of errors"
-msgstr "Broj grešaka"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_appointment_type__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Broj poruka koje zahtijevaju radnju"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_appointment_type__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama pri isporuci"
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_info
@@ -2824,7 +2824,7 @@ msgstr ""
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_question__placeholder
 msgid "Placeholder"
-msgstr "Rezervirano"
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_info
@@ -2888,7 +2888,7 @@ msgstr ""
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__rating_ids
 msgid "Ratings"
-msgstr "Ocjene"
+msgstr ""
 
 #. module: appointment
 #. odoo-javascript
@@ -3039,7 +3039,7 @@ msgstr ""
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_appointment_type__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "Greška u slanju SMSa"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__appointment_slot__weekday__6
@@ -3055,7 +3055,7 @@ msgstr "Sačuvaj"
 #. odoo-javascript
 #: code:addons/appointment/static/src/views/gantt/gantt_renderer.js:0
 msgid "Save & Close"
-msgstr "Spremi i zatvori"
+msgstr ""
 
 #. module: appointment
 #. odoo-javascript
@@ -3303,7 +3303,7 @@ msgstr ""
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_form
 msgid "Sign in"
-msgstr "Prijava"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__appointment_question__question_type__char
@@ -3419,10 +3419,6 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status po aktivnostima\n"
-"U kašnjenju: Datum aktivnosti je već prošao\n"
-"Danas: Datum aktivnosti je danas\n"
-"Planirano: Buduće aktivnosti."
 
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_appointment_booking_line__event_stop
@@ -3635,8 +3631,6 @@ msgid ""
 "This field is used in order to define in which timezone the resources will "
 "work."
 msgstr ""
-"Ovo se polje koristi za definiranje u kojoj vremenskoj zoni će resursi "
-"raditi."
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_edit_in_backend
@@ -3710,7 +3704,7 @@ msgstr ""
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_event_view_form_gantt_booking
 msgid "Total Reserved"
-msgstr "Uk. Rezervirano"
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.portal_my_appointments
@@ -3731,7 +3725,7 @@ msgstr "Tip"
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_appointment_type__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Vrsta aktivnosti iznimke na zapisu."
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_event__on_leave_partner_ids
@@ -3844,7 +3838,7 @@ msgstr "Poruke sa website-a"
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_appointment_type__website_message_ids
 msgid "Website communication history"
-msgstr "Historija komunikacije Web stranice"
+msgstr ""
 
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__appointment_slot__weekday__3
@@ -4059,4 +4053,4 @@ msgstr ""
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.portal_my_appointments
 msgid "with"
-msgstr "s"
+msgstr ""

@@ -41,15 +41,12 @@ class TestPosUrbanPiperCommon(TestPointOfSaleHttpCommon):
         cls.MockRequest = staticmethod(MockRequest)
 
     def _test_order_json(self, data):
-        product = data['product_id']
-        tax_types = product.taxes_id.flatten_taxes_hierarchy().mapped('price_include')
-        taxes = product.taxes_id.compute_all(
-            product.list_price, product.currency_id, data['quantity']
+        taxes = data['product_id'].taxes_id.compute_all(
+            data['product_id'].list_price, data['product_id'].currency_id, data['quantity']
         )
-        unit_prices = product.taxes_id.compute_all(
-            product.list_price, product.currency_id, 1
-        )
-        unit_price = unit_prices['total_included'] if tax_types and tax_types[0] else unit_prices['total_excluded']
+        unit_price = data['product_id'].taxes_id.compute_all(
+            data['product_id'].list_price, data['product_id'].currency_id, 1
+        )['total_excluded']
         price_with_tax = taxes['total_included']
         price_without_tax = taxes['total_excluded']
         delivery_datetime = data['delivery_datetime']
@@ -72,10 +69,10 @@ class TestPosUrbanPiperCommon(TestPointOfSaleHttpCommon):
             "order": {
                 "next_states": ["Acknowledged", "Food Ready", "Dispatched", "Completed", "Cancelled"],
                 "items": [{
-                    "food_type": product.urbanpiper_meal_type,
+                    "food_type": data['product_id'].urbanpiper_meal_type,
                     "total": price_without_tax,
                     "id": 1111111,
-                    "title": product.name,
+                    "title": data['product_id'].name,
                     "total_with_tax": price_with_tax,
                     "discounts": [],
                     "tags": [],
@@ -308,31 +305,6 @@ class TestFrontend(TestPosUrbanPiperCommon):
         self.assertEqual(order.lines[2].tax_ids.id, False)
         self.assertEqual(order.lines[3].tax_ids.id, self.tax_15.id)
 
-    def test_inclusive_tax_type_with_normal_order_line(self):
-        self.tax_15 = self.env['account.tax'].create({
-            'name': '15% VAT Inclusive',
-            'amount': 15,
-            'amount_type': 'percent',
-            'price_include_override': 'tax_included',
-        })
-        self.product_1.taxes_id = [(6, 0, self.tax_15.ids)]
-        self.urban_piper_config.open_ui()
-        with MockRequest(self.env):
-            self.make_test_order({
-                'product_id': self.product_1,
-                'quantity': 2,
-                'delivery_instruction': 'Leave at door',
-                'delivery_provider_id': self.env.ref('pos_urban_piper.pos_delivery_provider_justeat'),
-                'delivery_identifier': "order_inclusive_tax",
-                'config_id': self.urban_piper_config,
-            })
-        order = self.env['pos.order'].search([('delivery_identifier', '=', 'order_inclusive_tax')])
-        line = order.lines[0]
-        self.assertEqual(line.tax_ids.id, self.tax_15.id)
-        self.assertAlmostEqual(line.price_unit, 100.0, places=2)
-        self.assertAlmostEqual(line.price_subtotal, 173.91, places=2)
-        self.assertAlmostEqual(line.price_subtotal_incl, 200.0, places=2)
-
     def test_charges_sent_to_urbanpiper(self):
         up = UrbanPiperClient(self.urban_piper_config)
         delivery_charge_product = self.env.ref('pos_urban_piper.product_delivery_charges')
@@ -342,30 +314,3 @@ class TestFrontend(TestPosUrbanPiperCommon):
             charges,
             [{'code': 'DC_F', 'title': 'Delivery Charges', 'active': True, 'structure': {'applicable_on': 'order.order_subtotal', 'value': 10.0}, 'item_ref_ids': ['all']}]
         )
-
-    def test_order_cancllaton_status(self):
-        self.urban_piper_config.open_ui()
-        with MockRequest(self.env):
-            self.make_test_order({
-                'product_id': self.product_1,
-                'config_id': self.urban_piper_config,
-                'delivery_instruction': 'Too Late',
-                'delivery_provider_id': self.env.ref('pos_urban_piper.pos_delivery_provider_justeat'),
-                'delivery_identifier': 'order-to-cancel',
-            })
-        order = self.env['pos.order'].search([('delivery_identifier', '=', 'order-to-cancel')], limit=1)
-        self.env['pos_preparation_display.order'].process_order(order.id)
-        with MockRequest(self.env):
-            UpController = self.up_controller
-            UpController._order_status_update({
-                'order_id': 'order-to-cancel',
-                'new_state': 'Cancelled',
-                'store_id': self.urban_piper_config.urbanpiper_store_identifier,
-            })
-        self.assertEqual(order.delivery_status, 'cancelled')
-        self.assertEqual(order.state, 'cancel')
-        prep_order = self.env['pos_preparation_display.order'].search([('pos_order_id', '=', order.id)])
-        prep_line = prep_order.preparation_display_order_line_ids
-        self.assertEqual(len(prep_line), 1)
-        self.assertEqual(prep_line.product_quantity, 1)
-        self.assertEqual(prep_line.product_cancelled, 1)

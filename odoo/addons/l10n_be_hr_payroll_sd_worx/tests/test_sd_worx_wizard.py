@@ -36,6 +36,7 @@ class TestSdWorxWizard(TestSdworxExportCommon):
             'date_from': '2026-01-12 00:00:00',
             'date_to': '2026-01-12 23:59:59',
             'work_entry_type_id': self.gto_work_entry_type.id,
+            'calendar_id': self.employee_georges.resource_calendar_id.id,
         })
 
         export_wizard = self.env['l10n_be.export.sdworx.leaves.wizard'].create({
@@ -52,17 +53,3 @@ class TestSdWorxWizard(TestSdworxExportCommon):
 
         self.assertIn(expected_line_am, content)
         self.assertIn(expected_line_pm, content)
-
-    def test_freelancer_excluded_from_sdworx_check(self):
-        """ Test that Freelance employees without a SDWorx code should not block the export wizard """
-        self.env['hr.employee'].create({
-            'name': 'Freelancer Bob',
-            'company_id': self.env.company.id,
-            'employee_type': 'freelance',
-        })
-        export_wizard = self.env['l10n_be.export.sdworx.leaves.wizard'].create({
-            'reference_month': '1',
-            'reference_year': 2026,
-        })
-        action = export_wizard.action_generate_export_file()
-        self.assertTrue(action)

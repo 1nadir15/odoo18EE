@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 17.5alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:06+0000\n"
-"PO-Revision-Date: 2026-05-23 18:21+0000\n"
+"PO-Revision-Date: 2026-03-14 18:21+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18-l10n/"
 "l10n_be_reports/nl/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: l10n_be_reports
 #: model:account.report.line,name:l10n_be_reports.account_financial_report_pl_asso_a_a_plcf
@@ -2875,8 +2875,9 @@ msgstr "Het bedrijf verantwoordelijk voor het verzenden van het formulier."
 #. module: l10n_be_reports
 #. odoo-javascript
 #: code:addons/l10n_be_reports/static/src/components/tax_report/warnings.xml:0
+#, fuzzy
 msgid "The following controls failed:"
-msgstr "De volgende controles zijn mislukt:"
+msgstr "Sommige controles zijn mislukt"
 
 #. module: l10n_be_reports
 #. odoo-python

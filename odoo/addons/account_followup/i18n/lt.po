@@ -21,14 +21,13 @@
 # Martin Trigaux, 2024
 # Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2024
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# Vialaurea <ramune@vialaurea.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:48+0000\n"
-"PO-Revision-Date: 2026-05-27 11:07+0000\n"
-"Last-Translator: Vialaurea <ramune@vialaurea.com>\n"
+"PO-Revision-Date: 2025-11-17 14:06+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Lithuanian <https://translate.odoo.com/projects/odoo-18/"
 "account_followup/lt/>\n"
 "Language: lt\n"
@@ -36,9 +35,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
-"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 "
-": n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: account_followup
 #. odoo-python
@@ -70,17 +69,17 @@ msgstr "30 dienų"
 #. module: account_followup
 #: model:account_followup.followup.line,name:account_followup.demo_followup_line3
 msgid "40 Days"
-msgstr "40 dienų"
+msgstr ""
 
 #. module: account_followup
 #: model:account_followup.followup.line,name:account_followup.demo_followup_line4
 msgid "50 Days"
-msgstr "50 dienų"
+msgstr ""
 
 #. module: account_followup
 #: model:account_followup.followup.line,name:account_followup.demo_followup_line5
 msgid "60 Days"
-msgstr "60 dienų"
+msgstr ""
 
 #. module: account_followup
 #: model:mail.template,body_html:account_followup.email_template_followup_1
@@ -221,7 +220,7 @@ msgstr ""
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.res_partner_view_form
 msgid "<span class=\"o_stat_text\">Customer Statement</span>"
-msgstr "<span class=\"o_stat_text\">Kliento ataskaita</span>"
+msgstr ""
 
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.res_partner_view_form
@@ -237,9 +236,6 @@ msgid ""
 "                                Pending Invoices\n"
 "                            </strong>"
 msgstr ""
-"<strong>\n"
-"                                Laukiančios sąskaitos faktūros\n"
-"                            </strong>"
 
 #. module: account_followup
 #: model:ir.model.constraint,message:account_followup.constraint_account_followup_followup_line_uniq_name
@@ -577,7 +573,7 @@ msgstr ""
 #. module: account_followup
 #: model:mail.template,name:account_followup.demo_followup_email_template_4
 msgid "Fourth reminder followup"
-msgstr "Ketvirtas priminimas"
+msgstr ""
 
 #. module: account_followup
 #: model:ir.model.fields,field_description:account_followup.field_res_partner__has_moves
@@ -628,7 +624,7 @@ msgstr "Žurnalo įrašas"
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
 msgid "Kind reminder!"
-msgstr "Švelnus priminimas!"
+msgstr ""
 
 #. module: account_followup
 #: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__lang
@@ -671,7 +667,7 @@ msgstr "Rankinė"
 #: code:addons/account_followup/models/res_partner.py:0
 #: code:addons/account_followup/wizard/followup_missing_information.py:0
 msgid "Missing information"
-msgstr "Trūkstama informacija"
+msgstr ""
 
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.line_template
@@ -758,7 +754,7 @@ msgstr "Partneris"
 #. module: account_followup
 #: model:mail.template,name:account_followup.email_template_followup_1
 msgid "Payment Reminder"
-msgstr "Priminimas dėl apmokėjimo"
+msgstr ""
 
 #. module: account_followup
 #: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__print
@@ -838,7 +834,7 @@ msgstr "Tęsti paiešką"
 #. module: account_followup
 #: model:mail.template,name:account_followup.demo_followup_email_template_2
 msgid "Second reminder followup"
-msgstr "Antras skolų priminimas"
+msgstr ""
 
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form

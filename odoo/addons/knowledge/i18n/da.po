@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-05-17 06:00+0000\n"
+"PO-Revision-Date: 2026-04-18 18:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/knowledge/"
 "da/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: knowledge
 #. odoo-javascript
@@ -6433,7 +6433,7 @@ msgstr "Sidemenu til/fra"
 #. odoo-javascript
 #: code:addons/knowledge/static/src/components/topbar/topbar.xml:0
 msgid "Toggle chatter"
-msgstr "Chatter til/fra"
+msgstr ""
 
 #. module: knowledge
 #: model:ir.actions.act_window,name:knowledge.knowledge_article_action_trashed

@@ -5,13 +5,13 @@
 # Translators:
 # Jumshud Sultanov <cumshud@gmail.com>, 2024
 # erpgo translator <jumshud@erpgo.az>, 2024
-# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025, 2026.
+# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:49+0000\n"
-"PO-Revision-Date: 2026-05-19 14:44+0000\n"
+"PO-Revision-Date: 2025-11-25 09:48+0000\n"
 "Last-Translator: ERPGo Odoo <erpgo.odoo@gmail.com>\n"
 "Language-Team: Azerbaijani <https://translate.odoo.com/projects/odoo-18/"
 "spreadsheet_dashboard_hr_payroll/az/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: spreadsheet_dashboard_hr_payroll
 #. odoo-javascript
@@ -48,14 +48,14 @@ msgstr "Davamiyyətin Dərəcəsi"
 #: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
 msgid "Average Basic Wage"
-msgstr "Orta Əsas Əməkhaqqı"
+msgstr "Orta Əsas Əmək Haqqı"
 
 #. module: spreadsheet_dashboard_hr_payroll
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
 msgid "Average Gross Wage"
-msgstr "Orta Brutto Əməkhaqqı"
+msgstr "Orta Brutto Əmək Haqqı"
 
 #. module: spreadsheet_dashboard_hr_payroll
 #. odoo-javascript
@@ -69,7 +69,7 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
 msgid "Average Net Wage"
-msgstr "Vergilər çıxıldıqdan sonra qalan Orta Əməkhaqqı"
+msgstr "Vergilər çıxıldıqdan sonra qalan Orta Əmək Haqqı"
 
 #. module: spreadsheet_dashboard_hr_payroll
 #. odoo-javascript
@@ -141,14 +141,14 @@ msgstr "Ödənişli məzuniyyət"
 #. module: spreadsheet_dashboard_hr_payroll
 #: model:spreadsheet.dashboard,name:spreadsheet_dashboard_hr_payroll.spreadsheet_dashboard_payroll
 msgid "Payroll"
-msgstr "Əməkhaqqı"
+msgstr "Əmək Haqqı"
 
 #. module: spreadsheet_dashboard_hr_payroll
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
 msgid "Payroll Analysis"
-msgstr "Əməkhaqqı Analizi"
+msgstr "Əmək Haqqı Analizi"
 
 #. module: spreadsheet_dashboard_hr_payroll
 #. odoo-javascript
@@ -175,14 +175,14 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
 msgid "Total Gross Wage"
-msgstr "Cəmi Ümumi Əməkhaqqı"
+msgstr "Cəmi Ümumi Əmək Haqqı"
 
 #. module: spreadsheet_dashboard_hr_payroll
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
 msgid "Total Net Wage"
-msgstr "Ümumi Xalis Əməkhaqqı"
+msgstr "Ümumi Xalis Əmək Haqqı"
 
 #. module: spreadsheet_dashboard_hr_payroll
 #. odoo-javascript

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 16.5alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-20 19:04+0000\n"
-"PO-Revision-Date: 2026-05-16 09:04+0000\n"
+"PO-Revision-Date: 2026-03-14 18:21+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18-l10n/l10n_pe_reports/es_419/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: l10n_pe_reports
 #: model:ir.model,name:l10n_pe_reports.model_account_report
@@ -123,7 +123,7 @@ msgstr "Gestor personalizado de los reportes de flujo de caja"
 #. module: l10n_pe_reports
 #: model:account.report.line,name:l10n_pe_reports.account_financial_report_bs_A_C_CASH
 msgid "Cash and cash equivalents"
-msgstr "Efectivo y equivalentes de efectivo"
+msgstr "Efectivo y otros medios líquidos equivalentes"
 
 #. module: l10n_pe_reports
 #: model:ir.model.fields,field_description:l10n_pe_reports.field_res_company__l10n_pe_chart_of_accounts

@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:47+0000\n"
-"PO-Revision-Date: 2026-05-23 09:03+0000\n"
+"PO-Revision-Date: 2026-04-11 18:34+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
 "sale_renting/hi/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: sale_renting
 #. odoo-python
@@ -37,7 +37,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_renting/models/product_template.py:0
 msgid "%(amount)s (fixed)"
-msgstr "%(amount)s (फिक्स)"
+msgstr ""
 
 #. module: sale_renting
 #. odoo-python
@@ -57,7 +57,7 @@ msgstr ""
 #: code:addons/sale_renting/models/product_product.py:0
 #: code:addons/sale_renting/models/product_template.py:0
 msgid "%s (Rental)"
-msgstr "%s (रेंटल)"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.actions.report,print_report_name:sale_renting.action_report_rental_saleorder
@@ -65,8 +65,6 @@ msgid ""
 "(object.rental_status not in ('draft', 'sent') and 'Delivery or Return "
 "Receipt - %s' %(object.name)) or 'Order - %s' % (object.name)"
 msgstr ""
-"(object.rental_status 'ड्राफ़्ट', 'भेजा गया' में नहीं है और 'डिलीवरी या रिटर्न रसीद - "
-"%s' %(object.name)) या 'ऑर्डर - %s' % (object.name)"
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.report_rental_order_document
@@ -152,7 +150,7 @@ msgstr ""
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_schedule_view_gantt
 msgid "<strong>Return — </strong>"
-msgstr "<strong>रिटर्न — </strong>"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.report_rental_order_document
@@ -162,14 +160,13 @@ msgstr ""
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_schedule_view_gantt
 msgid "<strong>Status — </strong>"
-msgstr "<strong>स्टेटस — </strong>"
+msgstr ""
 
 #. module: sale_renting
 #. odoo-python
 #: code:addons/sale_renting/models/product_template.py:0
 msgid "A rental combo product can only contain rental products."
 msgstr ""
-"एक रेंटल कॉम्बो प्रॉडक्ट सिर्फ़ रेंटल के प्रॉडक्ट को ही शामिल कर सकता है।"
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_temporal_recurrence__active
@@ -179,24 +176,24 @@ msgstr "सक्रिय"
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.product_template_form_view_rental
 msgid "Add a price"
-msgstr "कीमत जोड़ें"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.res_config_settings_view_form
 msgid "Additional costs for late returns"
-msgstr "देर से रिटर्न पर अतिरिक्त कीमत"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,help:sale_renting.field_product_product__rent_ok
 #: model:ir.model.fields,help:sale_renting.field_product_template__rent_ok
 #: model:ir.model.fields,help:sale_renting.field_sale_order_line__is_product_rentable
 msgid "Allow renting of this product."
-msgstr "इस प्रॉडक्ट को किराए पर लेने की अनुमति दें।"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.res_config_settings_view_form
 msgid "Apply after"
-msgstr "के बाद लागू करें"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.res_config_settings_view_form
@@ -207,7 +204,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sale_renting/static/src/js/tours/rental.js:0
 msgid "At first, let's create some products to rent."
-msgstr "सबसे पहले, किराए के लिए कुछ प्रॉडक्ट बनाएं।"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_order_form_view
@@ -239,13 +236,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sale_renting/static/src/js/tours/rental.js:0
 msgid "Click here to register the pickup."
-msgstr "पिकअप रजिस्टर करने के लिए यहां क्लिक करें।"
+msgstr ""
 
 #. module: sale_renting
 #. odoo-javascript
 #: code:addons/sale_renting/static/src/js/tours/rental.js:0
 msgid "Click here to set up your first rental product."
-msgstr "अपना पहला किराये का प्रॉडक्ट सेट अप करने के लिए यहां क्लिक करें।"
+msgstr ""
 
 #. module: sale_renting
 #. odoo-javascript
@@ -286,55 +283,55 @@ msgstr "कॉन्फ़िगरेशन"
 #. odoo-javascript
 #: code:addons/sale_renting/static/src/js/tours/rental.js:0
 msgid "Confirm the order when the customer agrees with the terms."
-msgstr "जब ग्राहक शर्तों से सहमत हो, तो ऑर्डर की पुष्टि करें।"
+msgstr ""
 
 #. module: sale_renting
 #. odoo-javascript
 #: code:addons/sale_renting/static/src/js/tours/rental.js:0
 msgid "Confirm the returned quantities and hit Validate."
-msgstr "वापस की गई मात्राओं की पुष्टि करें और \"मान्य करें\" दबाएं।"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_report_search_view
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_schedule_view_search
 msgid "Confirmed Orders"
-msgstr "पुष्टि किए गए ऑर्डर"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.actions.act_window,name:sale_renting.action_create_rental_order
 msgid "Create Rental Orders"
-msgstr "किराये के ऑर्डर बनाएं"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.actions.act_window,help:sale_renting.sale_temporal_recurrence_action
 msgid "Create a new period"
-msgstr "एक नया पीरियड बनाएं"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.actions.act_window,help:sale_renting.rental_order_action
 msgid "Create a new quotation, the first step of a new rental!"
-msgstr "एक नया कोटेशन बनाएं, एक नए किराए का पहला कदम!"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.actions.act_window,help:sale_renting.product_pricing_action
 msgid "Create a new recurrence"
-msgstr "एक नई आवृत्ति बनाएं"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.actions.act_window,help:sale_renting.action_rental_report
 msgid "Create a new rental order"
-msgstr "नया रेंटल ऑर्डर बनाएं"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.actions.act_window,help:sale_renting.rental_product_template_action
 msgid "Create a new rental product!"
-msgstr "एक नया रेंटल प्रॉडक्ट बनाएं!"
+msgstr ""
 
 #. module: sale_renting
 #. odoo-javascript
 #: code:addons/sale_renting/static/src/js/tours/rental.js:0
 msgid "Create or select a customer here."
-msgstr "यहां एक ग्राहक बनाएं या चुनें।"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_order__is_rental_order
@@ -367,7 +364,7 @@ msgstr "करेंसी"
 #: model:ir.model.fields,field_description:sale_renting.field_product_product__product_pricing_ids
 #: model:ir.model.fields,field_description:sale_renting.field_product_template__product_pricing_ids
 msgid "Custom Pricings"
-msgstr "कस्टम रेटिंग"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_report__partner_id
@@ -382,7 +379,7 @@ msgstr "साथी"
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_schedule__country_id
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_schedule_view_search
 msgid "Customer Country"
-msgstr "ग्राहक का देश"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_schedule__commercial_partner_id
@@ -407,22 +404,22 @@ msgstr "हर दिन"
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_report__price
 msgid "Daily Amount"
-msgstr "हर दिन की राशि"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_report__quantity
 msgid "Daily Ordered Qty"
-msgstr "रोज़ाना ऑर्डर की गई मात्रा"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_report__qty_delivered
 msgid "Daily Picked-Up Qty"
-msgstr "रोज़ाना पिक-अप की गई मात्रा"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_report__qty_returned
 msgid "Daily Returned Qty"
-msgstr "रोज़ाना लौटाई गई मात्रा"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_report__date
@@ -445,12 +442,12 @@ msgstr "दिन"
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.res_config_settings_view_form
 msgid "Default Delay Costs"
-msgstr "देरी होने पर लगने वाली डिफ़ॉल्ट कीमतें"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_res_config_settings__extra_product
 msgid "Delay Product"
-msgstr "देर होने वाले प्रॉडक्ट"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_product_pricing__description
@@ -484,29 +481,29 @@ msgstr "अवधि"
 #: model:ir.model.fields,field_description:sale_renting.field_product_pricing__name
 #: model:ir.model.fields,field_description:sale_renting.field_sale_temporal_recurrence__duration_display
 msgid "Duration Display"
-msgstr "अवधि का डिस्प्ले"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_order__duration_days
 msgid "Duration in days"
-msgstr "अवधि दिनों में"
+msgstr ""
 
 #. module: sale_renting
 #. odoo-javascript
 #: code:addons/sale_renting/static/src/js/tours/rental.js:0
 msgid "Enter the product name."
-msgstr "प्रॉडक्ट का नाम दर्ज करें।"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.report_rental_order_document
 msgid "Expected Return"
-msgstr "अनुमानित रिटर्न"
+msgstr ""
 
 #. module: sale_renting
 #. odoo-python
 #: code:addons/sale_renting/models/sale_order_line.py:0
 msgid "Expected: %(date)s"
-msgstr "अनुमानित: %(date)s"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_product_product__extra_daily
@@ -524,7 +521,7 @@ msgstr ""
 #: model:ir.model.fields,help:sale_renting.field_product_product__extra_daily
 #: model:ir.model.fields,help:sale_renting.field_product_template__extra_daily
 msgid "Fine by day overdue"
-msgstr "दिन के अनुसार ठीक, बकाया तारीख से अधिक"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,help:sale_renting.field_product_product__extra_hourly
@@ -536,13 +533,13 @@ msgstr ""
 #: model:ir.model.fields,help:sale_renting.field_product_product__display_price
 #: model:ir.model.fields,help:sale_renting.field_product_template__display_price
 msgid "First rental pricing of the product"
-msgstr "प्रॉडक्ट का पहला किराया मूल्य"
+msgstr ""
 
 #. module: sale_renting
 #. odoo-javascript
 #: code:addons/sale_renting/static/src/js/tours/rental.js:0
 msgid "Go to the orders menu."
-msgstr "ऑर्डर मेन्यू पर जाएं।"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_order_view_search
@@ -554,22 +551,22 @@ msgstr "इन्होंने ग्रुप किया"
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_order__show_update_duration
 msgid "Has Duration Changed"
-msgstr "अवधि बदली है"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_order__has_pickable_lines
 msgid "Has Pickable Lines"
-msgstr "चुनने लायक लाइनें हैं"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_order__has_rented_products
 msgid "Has Rented Products"
-msgstr "रेंट पर लिए गए प्रॉडक्ट हैं"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_order__has_returnable_lines
 msgid "Has Returnable Lines"
-msgstr "वापस करने लायक लाइनें हैं"
+msgstr ""
 
 #. module: sale_renting
 #. odoo-python
@@ -600,17 +597,17 @@ msgstr "आईडी"
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.report_rental_order_document
 msgid "Invoicing Address:"
-msgstr "इनवॉइसिंग के लिए पता:"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.report_rental_order_document
 msgid "Invoicing and Shipping Address:"
-msgstr "इनवॉइसिंग और शिपिंग के लिए पता:"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_schedule__late
 msgid "Is Late"
-msgstr "देर है"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_order_line__is_rental
@@ -621,12 +618,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_renting.field_rental_order_wizard__is_late
 #: model:ir.model.fields,field_description:sale_renting.field_sale_order__is_late
 msgid "Is overdue"
-msgstr "देरी हो गई है"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.report_rental_order_document
 msgid "Jane Doe"
-msgstr "जेन डोई"
+msgstr ""
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.report_rental_order_document
@@ -928,7 +925,7 @@ msgstr "उत्पाद"
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.report_rental_order_document
 msgid "Product A"
-msgstr "प्रॉडक्ट A"
+msgstr ""
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_report__categ_id

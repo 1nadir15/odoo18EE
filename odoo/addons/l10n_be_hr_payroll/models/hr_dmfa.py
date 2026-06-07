@@ -601,11 +601,7 @@ class DMFAOccupation(DMFANode):
             days_per_week = 5.0
             mean_working_hours = 38.0
         else:
-            if contract.resource_calendar_id.work_time_rate == 100:
-                days_per_week = contract.resource_calendar_id._get_days_per_week()
-            else:
-                reference_days_per_week = contract.company_id.resource_calendar_id._get_days_per_week() if contract.company_id.resource_calendar_id else 5
-                days_per_week = reference_days_per_week * contract.resource_calendar_id.work_time_rate / 100
+            days_per_week = 5 * contract.resource_calendar_id.work_time_rate / 100
             mean_working_hours = contract.resource_calendar_id.hours_per_week
 
         self.days_per_week = format_amount(days_per_week, width=3)

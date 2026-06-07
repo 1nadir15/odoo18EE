@@ -212,7 +212,7 @@ class BankRecWidget(models.Model):
     def _compute_journal_currency_id(self):
         for wizard in self:
             wizard.journal_currency_id = wizard.st_line_id.journal_id.currency_id \
-                                         or wizard.st_line_id.journal_id.sudo().company_id.currency_id
+                                         or wizard.st_line_id.journal_id.company_id.currency_id
 
     def _format_transaction_details(self):
         """ Format the 'transaction_details' field of the statement line to be more readable for the end user.

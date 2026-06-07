@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * spreadsheet_dashboard_sale_subscription
+# 	* spreadsheet_dashboard_sale_subscription
 #
 # Translators:
 # Mads Søndergaard, 2024
@@ -13,22 +13,20 @@
 # Wil Odoo, 2025
 # Sammi Iversen <sammi@vkdata.dk>, 2025
 # Kira Petersen, 2025
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:49+0000\n"
-"PO-Revision-Date: 2026-05-17 05:59+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
-"spreadsheet_dashboard_sale_subscription/da/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Kira Petersen, 2025\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: spreadsheet_dashboard_sale_subscription
 #. odoo-javascript
@@ -111,7 +109,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_subscription/data/files/subscriptions_sample_dashboard.json:0
 msgid "Camera Services"
-msgstr "Kameratjenester"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale_subscription
 #. odoo-javascript
@@ -545,7 +543,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_subscription/data/files/subscriptions_sample_dashboard.json:0
 msgid "Motion Sensors"
-msgstr "Bevægelsessensorer"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale_subscription
 #. odoo-javascript

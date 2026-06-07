@@ -1,28 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * project_enterprise
+# 	* project_enterprise
 #
 # Translators:
 # Wil Odoo, 2024
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025, 2026.
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:48+0000\n"
-"PO-Revision-Date: 2026-05-26 13:08+0000\n"
-"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
-"Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
-"project_enterprise/uk/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025\n"
+"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
-"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
-"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
-"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #. module: project_enterprise
 #. odoo-python
@@ -79,7 +78,7 @@ msgstr "<strong>Розподілений час — </strong>"
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
 msgid "<strong>Assignees — </strong>"
-msgstr "<strong>Призначені — </strong>"
+msgstr "<strong>Призначенці — </strong>"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_project_view_gantt
@@ -105,12 +104,12 @@ msgstr "<strong>Запланована дата:</strong>"
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_project_view_gantt
 msgid "<strong>Project Manager — </strong>"
-msgstr "<strong>Проєктний менеджер — </strong>"
+msgstr "<strong>Проектний менеджер — </strong>"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
 msgid "<strong>Project — </strong>"
-msgstr "<strong>Проєкт — </strong>"
+msgstr "<strong>Проект — </strong>"
 
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__allocated_hours
@@ -218,19 +217,19 @@ msgstr "Приватний"
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__project_id
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view
 msgid "Project"
-msgstr "Проєкт"
+msgstr "Проект"
 
 #. module: project_enterprise
 #. odoo-javascript
 #: code:addons/project_enterprise/static/src/views/task_gantt/milestones_popover.xml:0
 msgid "Project due"
-msgstr "Термін виконання проєкту"
+msgstr ""
 
 #. module: project_enterprise
 #. odoo-javascript
 #: code:addons/project_enterprise/static/src/views/task_gantt/milestones_popover.xml:0
 msgid "Project start"
-msgstr "Початок проєкту"
+msgstr ""
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_form_in_gantt
@@ -241,7 +240,7 @@ msgstr "Зберегти"
 #. odoo-python
 #: code:addons/project_enterprise/models/project_task.py:0
 msgid "Some tasks were planned after their initial deadline."
-msgstr "Деякі завдання були заплановані після початкового терміну виконання."
+msgstr ""
 
 #. module: project_enterprise
 #. odoo-python
@@ -251,9 +250,6 @@ msgid ""
 "limited availability of the assignees. The planned dates for these tasks may "
 "not align with their allocated hours."
 msgstr ""
-"Деякі завдання було заплановано одночасно, що призвело до конфлікту через "
-"обмежену доступність виконавців. Заплановані дати цих завдань могли не "
-"збігатися з їхніми виділеними годинами."
 
 #. module: project_enterprise
 #. odoo-python
@@ -289,7 +285,7 @@ msgstr "Аналіз завдань"
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_search_conflict_task_project_enterprise
 msgid "Tasks Scheduled"
-msgstr "Заплановані завдання"
+msgstr ""
 
 #. module: project_enterprise
 #. odoo-javascript
@@ -316,8 +312,6 @@ msgid ""
 "The tasks could not be rescheduled due to the assignees' lack of "
 "availability at this time."
 msgstr ""
-"Завдання не вдалося перенести через відсутність доступності виконавців на "
-"цей час."
 
 #. module: project_enterprise
 #. odoo-python
@@ -332,8 +326,6 @@ msgid ""
 "This task cannot be planned before the following tasks on which it depends: %"
 "(task_list)s"
 msgstr ""
-"Це завдання не можна планувати раніше за такі завдання, від яких воно "
-"залежить: %(task_list)s"
 
 #. module: project_enterprise
 #. odoo-python
@@ -342,8 +334,6 @@ msgid ""
 "This user isn't expected to have any tasks assigned during this period "
 "because they don't have any running contract."
 msgstr ""
-"Не очікується, що цьому користувачеві будуть призначені жодні завдання "
-"протягом цього періоду, оскільки в нього немає діючого контракту."
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.res_config_settings_view_form
@@ -371,7 +361,7 @@ msgstr "Користувач"
 #. odoo-javascript
 #: code:addons/project_enterprise/static/src/views/project_task_map/project_task_map_renderer.xml:0
 msgid "View customer locations for your tasks"
-msgstr "Перегляд місцезнаходження клієнтів для ваших завдань"
+msgstr ""
 
 #. module: project_enterprise
 #. odoo-javascript

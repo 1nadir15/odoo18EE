@@ -6,14 +6,13 @@
 # Wil Odoo, 2025
 #
 # Yana Bystrytska <yana.bystrytska@erp.co.ua>, 2026.
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:46+0000\n"
-"PO-Revision-Date: 2026-05-20 12:00+0000\n"
-"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"PO-Revision-Date: 2026-03-30 16:47+0000\n"
+"Last-Translator: Yana Bystrytska <yana.bystrytska@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "mrp_mps/uk/>\n"
 "Language: uk\n"
@@ -24,12 +23,12 @@ msgstr ""
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
 "100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_production_schedule_form_view
 msgid "<span invisible=\"enable_batch_size\">No Batch Size</span>"
-msgstr "<span invisible=\"enable_batch_size\">Без групового розміру</span>"
+msgstr "<span invisible=\"enable_batch_size\">Без розміру партії</span>"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_production_schedule_form_view
@@ -126,7 +125,7 @@ msgstr "Автоматичний"
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "Automatically Replenished"
-msgstr "Автоматично поповнюється"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -137,7 +136,7 @@ msgstr "В наявності для зобов'язання"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__batch_size
 msgid "Batch Size"
-msgstr "Груповий розмір"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_mrp_bom
@@ -213,7 +212,7 @@ msgstr "День"
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.res_config_settings_view_form
 msgid "Default Time Range"
-msgstr "Діапазон часу за замовчуванням"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__product_uom_id
@@ -276,7 +275,7 @@ msgstr "Відображати прогнозований попит"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_indirect_demand
 msgid "Display Indirect Demand"
-msgstr "Відображати непрямий попит"
+msgstr "Відоражати непрямий попит"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__display_name
@@ -303,12 +302,12 @@ msgstr "Відображати Поповнити"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__enable_batch_size
 msgid "Enable Batch Size"
-msgstr "Увімкнути груповий розмір"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__enable_max_replenish
 msgid "Enable Max Replenish"
-msgstr "Увімкнути максимальне поповнення"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields.selection,name:mrp_mps.selection__mrp_production_schedule__replenish_state__excessive_replenishment
@@ -367,8 +366,6 @@ msgstr "ID"
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__bom_id
 msgid "If set, the bill of materials components will also be imported."
 msgstr ""
-"Якщо встановлено, компоненти специфікації матеріалів також будуть "
-"імпортовані."
 
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__batch_size
@@ -376,20 +373,18 @@ msgid ""
 "If set, the generated manufacturing orders will be split in quantities of "
 "this value at maximum."
 msgstr ""
-"Якщо встановлено, згенеровані виробничі замовлення будуть розділені на "
-"кількість, що не перевищує цього значення."
 
 #. module: mrp_mps
 #. odoo-python
 #: code:addons/mrp_mps/models/mrp_mps.py:0
 msgid "Import Template for Master Production Schedule"
-msgstr "Шаблон імпорту для головного виробничого графіка"
+msgstr ""
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_production_schedule_form_view
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "Indirect Demand"
-msgstr "Непрямий попит"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -401,12 +396,12 @@ msgstr "Прогноз непрямого попиту"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__is_indirect
 msgid "Indirect demand product"
-msgstr "Товар непрямого попиту"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__is_manufacture_route
 msgid "Is Manufacture Route"
-msgstr "Маршрут виробництва"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__write_uid
@@ -430,7 +425,7 @@ msgstr "MPS"
 #. module: mrp_mps
 #: model:ir.actions.server,name:mrp_mps.ir_cron_replenish_automated_mps_ir_actions_server
 msgid "MPS: replenish automated schedules"
-msgstr "MPS: поповнення автоматизованих графіків"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields.selection,name:mrp_mps.selection__mrp_production_schedule__replenish_trigger__manual
@@ -444,19 +439,16 @@ msgid ""
 "Automatic: Product replenished automatically via scheduled action.\n"
 "Never: Product is not replenished from MPS."
 msgstr ""
-"Вручну: Товар поповнюється вручну з MPS.\n"
-"Автоматично: Товар поповнюється автоматично за запланованим графіком.\n"
-"Ніколи: Товар не поповнюється з MPS."
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "Manually Replenished"
-msgstr "Переміщено вручну"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__manufacture_string
 msgid "Manufacture String"
-msgstr "Рядок виробництва"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-python
@@ -484,8 +476,6 @@ msgid ""
 "Manufacturing Settings: Your Master Production Schedule must always display "
 "at least 1 period."
 msgstr ""
-"Налаштування виробництва: Ваш головний виробничий графік завжди повинен "
-"відображати принаймні 1 період."
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -525,7 +515,7 @@ msgstr "Переміщення"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__moves_string
 msgid "Moves String"
-msgstr "Рядки переміщень"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields.selection,name:mrp_mps.selection__mrp_production_schedule__replenish_trigger__never
@@ -541,32 +531,32 @@ msgstr "Ще немає жодного товару. Додайте його, щ
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "Not Replenished from MPS"
-msgstr "Не поповнено з MPS"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_config_settings__manufacturing_period_to_display_day
 msgid "Number of Daily Manufacturing Period Columns"
-msgstr "Кількість стовпців щоденного періоду виробництва"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_config_settings__manufacturing_period_to_display_month
 msgid "Number of Monthly Manufacturing Period Columns"
-msgstr "Кількість стовпців щомісячного періоду виробництва"
+msgstr ""
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.res_config_settings_view_form
 msgid "Number of Periods"
-msgstr "Кількість періоду"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_config_settings__manufacturing_period_to_display_week
 msgid "Number of Weekly Manufacturing Period Columns"
-msgstr "Кількість стовпців тижневого періоду виробництва"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_config_settings__manufacturing_period_to_display_year
 msgid "Number of Yearly Manufacturing Period Columns"
-msgstr "Кількість стовпців річного періоду виробництва"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__manufacturing_period_to_display_day
@@ -574,8 +564,6 @@ msgid ""
 "Number of columns for the daily period to display in Master Production "
 "Schedule"
 msgstr ""
-"Кількість стовпців для щоденного періоду, що відображаються в головному "
-"виробничому графіку"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__manufacturing_period_to_display_month
@@ -583,8 +571,6 @@ msgid ""
 "Number of columns for the monthly period to display in Master Production "
 "Schedule"
 msgstr ""
-"Кількість стовпців для щомісячного періоду, що відображаються в головному "
-"виробничому графіку"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__manufacturing_period_to_display_week
@@ -592,8 +578,6 @@ msgid ""
 "Number of columns for the weekly period to display in Master Production "
 "Schedule"
 msgstr ""
-"Кількість стовпців для тижневого періоду, що відображаються в головному "
-"виробничому графіку"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__manufacturing_period_to_display_year
@@ -601,8 +585,6 @@ msgid ""
 "Number of columns for the yearly period to display in Master Production "
 "Schedule"
 msgstr ""
-"Кількість стовпців за річний період для відображення в головному виробничому "
-"графіку"
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -740,19 +722,19 @@ msgstr "Поповнення занадто низьке"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__replenish_trigger
 msgid "Replenishment Trigger"
-msgstr "Запуск поповнення"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/components/line.xml:0
 msgid "Replenishment:"
-msgstr "Поповнення:"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-python
 #: code:addons/mrp_mps/wizard/mrp_mps_forecast_details.py:0
 msgid "Request for quotation"
-msgstr "Запит на пропозицію"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-python
@@ -764,7 +746,7 @@ msgstr "Запит на комерційну пропозицію"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__rfq_string
 msgid "Rfq String"
-msgstr "Рядок ЗНКП"
+msgstr ""
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_production_schedule_form_view
@@ -774,7 +756,7 @@ msgstr "Маршрут"
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__route_id
 msgid "Route to replenish your product."
-msgstr "Маршрут поповнення запасів вашого товару."
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -818,7 +800,7 @@ msgstr "Послідовність"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__show_bom
 msgid "Show Bom"
-msgstr "Показати Bom"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__show_vendor
@@ -905,10 +887,6 @@ msgid ""
 "if the demand is higher than that amount, the remaining quantity will be "
 "transferred to the next period automatically."
 msgstr ""
-"Максимальне поповнення запасів, яке ви бажаєте запустити для кожного періоду "
-"в MPS. Застосовується лише для періоду, визначеного в налаштуваннях. "
-"Зверніть увагу, що якщо попит перевищує цю суму, залишок запасів буде "
-"автоматично перенесено на наступний період."
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -941,7 +919,7 @@ msgstr ""
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "To Forecast"
-msgstr "До прогнозу"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -956,7 +934,7 @@ msgstr "Поповнити"
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/components/main.js:0
 msgid "Toggle Indirect Demand"
-msgstr "Перемикання непрямого попиту"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields.selection,name:mrp_mps.selection__mrp_production_schedule__replenish_state__under_replenishment
@@ -995,7 +973,7 @@ msgstr "Щотижня"
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__is_indirect
 msgid "When checked, this product will not appear in the 'To Forecast' filter."
-msgstr "Якщо позначено, цей товар не відображатиметься у фільтрі «До прогнозу»."
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript

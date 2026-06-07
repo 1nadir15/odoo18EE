@@ -311,10 +311,7 @@ class AccountMove(models.Model):
                 'date': line.move_id.date,
             })
             lines_vals_to_create.append([
-                {
-                    **self.env['account.move.line']._get_deferred_lines_values(account.id, coeff * line.balance, ref, line.analytic_distribution, line),
-                    'partner_id': line.partner_id.id,
-                }
+                self.env['account.move.line']._get_deferred_lines_values(account.id, coeff * line.balance, ref, line.analytic_distribution, line)
                 for (account, coeff) in [(line.account_id, -1), (deferred_account, 1)]
             ])
             lines_periods.append((line, periods))

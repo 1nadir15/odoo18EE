@@ -23,7 +23,7 @@
     </record>
 
     <record id="hr_work_entry_contract.work_entry_type_home_working" model="hr.work.entry.type">
-        <field name="prisma_code">0004</field>
+        <field name="prisma_code">0001</field>
     </record>
 
     <record id="hr_work_entry_contract.work_entry_type_unpaid_leave" model="hr.work.entry.type">
@@ -37,7 +37,7 @@
 
     <!-- be payroll-->
     <record id="l10n_be_hr_payroll.work_entry_type_work_accident" model="hr.work.entry.type">
-        <field name="prisma_code">0820</field>
+        <field name="prisma_code"></field>
     </record>
 
     <record id="l10n_be_hr_payroll.work_entry_type_small_unemployment" model="hr.work.entry.type">
@@ -49,7 +49,7 @@
     </record>
 
     <record id="l10n_be_hr_payroll.work_entry_type_maternity" model="hr.work.entry.type">
-        <field name="prisma_code">0851</field>
+        <field name="prisma_code">ZV </field>
     </record>
 
     <record id="l10n_be_hr_payroll.work_entry_type_paternity_legal" model="hr.work.entry.type">
@@ -65,7 +65,7 @@
     </record>
 
     <record id="l10n_be_hr_payroll.work_entry_type_flemish_training_time_off" model="hr.work.entry.type">
-        <field name="prisma_code">0162</field>
+        <field name="prisma_code">0161</field>
     </record>
 
     <record id="l10n_be_hr_payroll.work_entry_type_recovery_additional" model="hr.work.entry.type">

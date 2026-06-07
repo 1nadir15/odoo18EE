@@ -124,10 +124,9 @@ class SaleOrder(models.Model):
             carrier = self.carrier_id
         else:
             name = _('Add a shipping method')
-            partner_id = self.with_company(self.company_id).partner_shipping_id
             carrier = (
-                partner_id.property_delivery_carrier_id.filtered("active")
-                or partner_id.commercial_partner_id.property_delivery_carrier_id.filtered("active")
+                self.with_company(self.company_id).partner_shipping_id.property_delivery_carrier_id
+                or self.with_company(self.company_id).partner_shipping_id.commercial_partner_id.property_delivery_carrier_id
             )
         return {
             'name': name,

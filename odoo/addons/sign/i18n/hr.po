@@ -26,14 +26,13 @@
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Vladimir Vrgoč <vladimir@uvid.hr>, 2025.
-# Ana Matulin <ana@uvid.hr>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:47+0000\n"
-"PO-Revision-Date: 2026-05-29 14:15+0000\n"
-"Last-Translator: Ana Matulin <ana@uvid.hr>\n"
+"PO-Revision-Date: 2026-04-11 18:35+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/sign/"
 "hr/>\n"
 "Language: hr\n"
@@ -42,7 +41,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_partner__signature_count
@@ -116,11 +115,6 @@ msgid ""
 "                                            Waiting Signature\n"
 "                                        </em>"
 msgstr ""
-"- <em>\n"
-"\n"
-"                                            Čeka potpisivanje\n"
-"\n"
-"                                        </em>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
@@ -251,7 +245,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.signer_status_wrapper
 msgid "<small><i> Waiting Signature </i></small>"
-msgstr "<small><i> Čeka potpisivanje </i></small>"
+msgstr ""
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -517,7 +511,7 @@ msgstr ""
 #: code:addons/sign/static/src/backend_components/sign_template/sign_item_custom_popover.xml:0
 #: model:ir.model.fields,field_description:sign.field_sign_item__alignment
 msgid "Alignment"
-msgstr "Poravnanje"
+msgstr ""
 
 #. module: sign
 #. odoo-python
@@ -1752,7 +1746,7 @@ msgstr "U dijeljenju"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.signer_status_wrapper
 msgid "Is Signing"
-msgstr "Potpisuje"
+msgstr ""
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__is_user_signer
@@ -1763,7 +1757,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sign/static/src/dialogs/thank_you_dialog.xml:0
 msgid "It's signed!"
-msgstr "Potpisano je!"
+msgstr ""
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -1869,7 +1863,7 @@ msgstr "Labela retka"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__activity_id
 msgid "Linked Activity"
-msgstr "Povezana aktivnost"
+msgstr ""
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__reference_doc
@@ -2126,7 +2120,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sign/static/src/dialogs/next_direct_sign_dialog.xml:0
 msgid "Next signatory ("
-msgstr "Sljedeći potpisnik ("
+msgstr ""
 
 #. module: sign
 #. odoo-python
@@ -2433,7 +2427,7 @@ msgstr "Odbij"
 #: code:addons/sign/static/src/backend_components/sign_request/signable_sign_request_control_panel.xml:0
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign
 msgid "Refuse Document"
-msgstr "Odbij dokument"
+msgstr ""
 
 #. module: sign
 #. odoo-javascript
@@ -2501,7 +2495,7 @@ msgstr "Obavezno"
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_item_view_tree
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_tree
 msgid "Resend"
-msgstr "Ponovno pošalji"
+msgstr ""
 
 #. module: sign
 #. odoo-javascript
@@ -2697,7 +2691,7 @@ msgstr "Poslan zahtjev"
 #. odoo-javascript
 #: code:addons/sign/static/src/dialogs/thank_you_dialog.xml:0
 msgid "Sent by"
-msgstr "Poslao"
+msgstr ""
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_settings_action
@@ -3135,8 +3129,6 @@ msgid ""
 "Since you're the one signing this document, you can do it directly within "
 "Odoo.<br>External users can use the link provided by email."
 msgstr ""
-"Budući da vi potpisujete ovaj dokument, možete ga potpisati izravno u Odoo-"
-"u.<br>Vanjski korisnici mogu koristiti poveznicu poslanu e-poštom."
 
 #. module: sign
 #. odoo-javascript
@@ -3549,7 +3541,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sign/static/src/dialogs/thank_you_dialog.xml:0
 msgid "There are other documents waiting for your signature:"
-msgstr "Postoje drugi dokumenti koji čekaju na potpisivanje:"
+msgstr ""
 
 #. module: sign
 #. odoo-python
@@ -3848,7 +3840,7 @@ msgstr "Potvrdi i pošalji"
 #. odoo-javascript
 #: code:addons/sign/static/src/backend_components/sign_request/edit_while_signing_signable_pdf_iframe.js:0
 msgid "Validate & the next signatory is “%s”"
-msgstr "Potvrdi, sljedeći potpisnik je “%s”"
+msgstr ""
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
@@ -3954,7 +3946,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sign/static/src/dialogs/next_direct_sign_dialog.xml:0
 msgid "We will send you this document by email once everyone has signed."
-msgstr "Poslati ćemo vam ovaj dokument e-poštom nakon što ga svi potpišu."
+msgstr ""
 
 #. module: sign
 #. odoo-javascript
@@ -4102,7 +4094,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sign/static/src/dialogs/thank_you_dialog.js:0
 msgid "You will get the signed document by email."
-msgstr "Potpisani dokument ćete dobiti mailom."
+msgstr ""
 
 #. module: sign
 #. odoo-javascript
@@ -4111,8 +4103,6 @@ msgid ""
 "You will get the signed document by email. You may also request a paper copy "
 "from the sender."
 msgstr ""
-"Potpisani dokument primit ćete e-poštom. Također možete zatražiti tiskani "
-"primjerak od pošiljatelja."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.canceled_sign_request_item
@@ -4161,7 +4151,7 @@ msgstr "Vaše ime "
 #. odoo-javascript
 #: code:addons/sign/static/src/dialogs/next_direct_sign_dialog.xml:0
 msgid "Your signature has been saved. Next signatory is"
-msgstr "Vaš potpis je spremljen. Sljedeći potpisnik je:"
+msgstr ""
 
 #. module: sign
 #. odoo-javascript

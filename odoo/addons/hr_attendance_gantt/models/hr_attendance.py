@@ -1,9 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-from datetime import datetime
-
 from dateutil.relativedelta import relativedelta
-from pytz import UTC, utc, timezone
+from pytz import UTC, utc
 
 from odoo import api, fields, models
 from odoo.osv import expression
@@ -38,9 +36,6 @@ class HrAttendance(models.Model):
         Compute the total work hours of the employee based on the intervals selected on the Gantt view.
         The calculation takes into account the working calendar (flexible or not).
         """
-        user_tz = timezone(self.env.user.tz or 'UTC')
-        start = datetime.combine(start.astimezone(user_tz).date(), datetime.min.time(), tzinfo=UTC)
-        stop = datetime.combine(stop.astimezone(user_tz).date(), datetime.min.time(), tzinfo=UTC)
         return self.env['resource.calendar']._get_attendance_intervals_days_data(employee._employee_attendance_intervals(start, stop))['hours']
 
     def _get_gantt_progress_bar_domain(self, res_ids, start, stop):

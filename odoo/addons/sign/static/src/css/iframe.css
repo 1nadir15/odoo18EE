@@ -12,7 +12,6 @@
     --btn-font-size: 0.875rem;
     --btn-line-height: 1.5;
     --border-radius: 0.25rem;
-    --sidebar-width: 200px;
 }
 
 .btn {
@@ -480,58 +479,4 @@
 
 .textLayer {
     z-index: 2 !important; /* allow for text selection after adding canvas_layer_0 */
-}
-
-#outerContainer {
-    overflow: hidden;
-}
-
-#sidebarContainer {
-    inset-inline-end: calc(-1 * var(--sidebar-width));
-    inset-inline-start: unset !important;
-    transition-property: inset-inline-end !important;
-}
-
-#viewerContainer {
-    inset-inline-start: 0 !important;
-}
-
-#outerContainer.sidebarOpen #sidebarContainer {
-    inset-inline-end: 0;
-}
-
-#outerContainer.sidebarOpen #loadingBar {
-    inset-inline-end: var(--sidebar-width);
-    inset-inline-start: unset !important;
-}
-
-#outerContainer.sidebarOpen #viewerContainer:not(.pdfPresentationMode) {
-    inset-inline-end: var(--sidebar-width);
-    transition-property: inset-inline-end;
-}
-
-#sidebarResizer {
-    inset-inline-end: unset !important;
-    position: absolute;
-    inset-block: unset;
-}
-
-#sidebarToggleButton {
-    position: absolute;
-    right: 0;
-    z-index: 1000;
-}
-
-#toolbarViewerRight {
-    padding-right: 40px !important;
-}
-
-@media all and (max-width: 690px) {
-    #sidebarToggle {
-        margin-right: 16px;
-    }
-
-    #toolbarViewerRight {
-        padding-right: 56px !important;
-    }
 }

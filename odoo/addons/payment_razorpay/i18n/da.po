@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
-"PO-Revision-Date: 2026-05-02 18:01+0000\n"
+"PO-Revision-Date: 2026-03-02 19:55+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "payment_razorpay/da/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #. module: payment_razorpay
 #. odoo-python
@@ -30,7 +30,6 @@ msgstr ""
 msgid ""
 "An error occurred during the processing of your payment. Please try again."
 msgstr ""
-"Der opstod en fejl under behandlingen af din betaling. Prøv venligst igen."
 
 #. module: payment_razorpay
 #: model:ir.model.fields,field_description:payment_razorpay.field_payment_provider__code
@@ -46,23 +45,23 @@ msgstr "Det var ikke muligt at oprette forbindelse til API'et."
 #. module: payment_razorpay
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
 msgid "Enable recurring payments on Razorpay"
-msgstr "Aktivér tilbagevendende betalinger på Razorpay"
+msgstr ""
 
 #. module: payment_razorpay
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
 msgid "Key Id"
-msgstr "Nøgle-ID"
+msgstr ""
 
 #. module: payment_razorpay
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
 msgid "Key Secret"
-msgstr "Nøglehemmelighed"
+msgstr ""
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
-msgstr "Der blev ikke fundet nogen transaktion, der matcher referencen %s."
+msgstr ""
 
 #. module: payment_razorpay
 #: model:ir.model,name:payment_razorpay.model_payment_provider
@@ -93,59 +92,58 @@ msgstr "Razorpay"
 #. module: payment_razorpay
 #: model:ir.model.fields,field_description:payment_razorpay.field_payment_provider__razorpay_key_id
 msgid "Razorpay Key Id"
-msgstr "Razorpay-nøgle-ID"
+msgstr ""
 
 #. module: payment_razorpay
 #: model:ir.model.fields,field_description:payment_razorpay.field_payment_provider__razorpay_key_secret
 msgid "Razorpay Key Secret"
-msgstr "Razorpay-nøglehemmelighed"
+msgstr ""
 
 #. module: payment_razorpay
 #: model:ir.model.fields,field_description:payment_razorpay.field_payment_provider__razorpay_webhook_secret
 msgid "Razorpay Webhook Secret"
-msgstr "Razorpay-webhook-hemmelighed"
+msgstr ""
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_provider.py:0
 msgid "Razorpay gave us the following information: '%s'"
-msgstr "Razorpay gav os følgende oplysninger: '%s'"
+msgstr ""
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with invalid status: %s"
-msgstr "Modtagne data med ugyldig status: %s"
+msgstr ""
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with missing entity id."
-msgstr "Modtagne data med manglende enheds-ID."
+msgstr ""
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with missing reference."
-msgstr "Modtagne data med manglende reference."
+msgstr ""
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with missing status."
-msgstr "Modtagne data med manglende status."
+msgstr ""
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received incomplete refund data."
-msgstr "Ufuldstændige refusionsdata modtaget."
+msgstr ""
 
 #. module: payment_razorpay
 #: model:ir.model.fields,help:payment_razorpay.field_payment_provider__razorpay_key_id
 msgid "The key solely used to identify the account with Razorpay."
 msgstr ""
-"Nøglen, der udelukkende bruges til at identificere kontoen hos Razorpay."
 
 #. module: payment_razorpay
 #. odoo-python
@@ -162,21 +160,19 @@ msgstr "Telefonnummeret mangler."
 #. module: payment_razorpay
 #: model:ir.model.fields,help:payment_razorpay.field_payment_provider__code
 msgid "The technical code of this payment provider."
-msgstr "Betalingsudbyderens tekniske kode."
+msgstr ""
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "The transaction is not linked to a token."
-msgstr "Transaktionen er ikke knyttet til et token."
+msgstr ""
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Transactions processed by Razorpay can't be manually voided from Odoo."
 msgstr ""
-"Transaktioner, der behandles af Razorpay, kan ikke annulleres manuelt fra "
-"Odoo."
 
 #. module: payment_razorpay
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
@@ -190,8 +186,6 @@ msgid ""
 "You can not pay amounts greater than %(currency_symbol)s %(max_amount)s with "
 "this payment method"
 msgstr ""
-"Du kan ikke betale beløb på over %(currency_symbol)s %(max_amount)s med "
-"denne betalingsform"
 
 #. module: payment_razorpay
 #. odoo-python
@@ -200,6 +194,3 @@ msgid ""
 "Your last payment with reference %s will soon be processed. Please wait up "
 "to 24 hours before trying again, or use another payment method."
 msgstr ""
-"Din seneste betaling med referencenummer %s behandles i øjeblikket. Vent "
-"venligst op til 24 timer, før du prøver igen, eller brug en anden "
-"betalingsform."

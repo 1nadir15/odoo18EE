@@ -4,26 +4,26 @@
 #
 # Translators:
 # Wil Odoo, 2024
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025, 2026.
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-05-20 23:46+0000\n"
-"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"PO-Revision-Date: 2025-11-17 14:19+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "pos_pricer/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
-"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
-"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
-"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: pos_pricer
 #: model:ir.model.constraint,message:pos_pricer.constraint_pricer_tag_name_unique
@@ -119,8 +119,6 @@ msgid ""
 "Invalid tag name. Should be 1 letter followed by 16 digits. Example: "
 "'N4081315789813275'"
 msgstr ""
-"Недійсна назва тегу. Має бути 1 літера, а потім 16 цифр. Приклад: "
-"'N4081315789813275'"
 
 #. module: pos_pricer
 #: model:ir.model.fields,help:pos_pricer.field_pricer_tag__name
@@ -163,12 +161,12 @@ msgstr "Зайдіть у ваш обліковий запис Pricer"
 #. odoo-javascript
 #: code:addons/pos_pricer/static/src/views/pricer_quick_pairing_form_view.js:0
 msgid "No product found for barcode '%s'"
-msgstr "Не знайдено товару для штрих-коду '%s'"
+msgstr ""
 
 #. module: pos_pricer
 #: model:ir.model.fields,field_description:pos_pricer.field_product_product__on_sale_price
 msgid "On Sale Price"
-msgstr "На продажній ціні"
+msgstr ""
 
 #. module: pos_pricer
 #: model:ir.actions.server,name:pos_pricer.pricer_sync_cron_ir_actions_server
@@ -188,7 +186,7 @@ msgstr "Налаштування точки продажу"
 #. module: pos_pricer
 #: model:ir.model.fields,help:pos_pricer.field_product_product__on_sale_price
 msgid "Price after setting a Pricer Sales Pricelist"
-msgstr "Ціна після встановлення прайс-листа цінника"
+msgstr ""
 
 #. module: pos_pricer
 #: model:ir.ui.menu,name:pos_pricer.pos_menu_pricer_configuration
@@ -224,7 +222,7 @@ msgstr "Товар Pricer для зʼєднання"
 #. module: pos_pricer
 #: model:ir.model.fields,field_description:pos_pricer.field_product_product__pricer_sale_pricelist_id
 msgid "Pricer Sales Pricelist"
-msgstr "Продажний прайс-лист цінника"
+msgstr ""
 
 #. module: pos_pricer
 #: model:ir.model.fields,field_description:pos_pricer.field_product_product__pricer_store_id
@@ -294,7 +292,7 @@ msgstr "Тег Pricer"
 #. module: pos_pricer
 #: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__dummy_tag_barcode
 msgid "Pricer tag barcode"
-msgstr "Штрих-код цінника"
+msgstr ""
 
 #. module: pos_pricer
 #: model:ir.model.fields,field_description:pos_pricer.field_product_product__pricer_tag_ids
@@ -310,7 +308,7 @@ msgstr "Товар"
 #. odoo-javascript
 #: code:addons/pos_pricer/static/src/views/pricer_quick_pairing_form_view.js:0
 msgid "Product '%s' found"
-msgstr "Товар '%s' знайдено"
+msgstr ""
 
 #. module: pos_pricer
 #: model:ir.model,name:pos_pricer.model_product_product
@@ -320,7 +318,7 @@ msgstr "Варіант товару"
 #. module: pos_pricer
 #: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__dummy_prod_barcode
 msgid "Product barcode"
-msgstr "Штрих-код товару"
+msgstr ""
 
 #. module: pos_pricer
 #: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__product_ids
@@ -330,17 +328,17 @@ msgstr "Товари"
 #. module: pos_pricer
 #: model_terms:ir.ui.view,arch_db:pos_pricer.pricer_pricer_store_form_view
 msgid "Quick pairing"
-msgstr "Швидке сполучення"
+msgstr ""
 
 #. module: pos_pricer
 #: model:ir.model.fields,help:pos_pricer.field_pricer_store__dummy_tag_barcode
 msgid "Scan the Pricer tag barcode here"
-msgstr "Відскануйте штрих-код цінника тут"
+msgstr ""
 
 #. module: pos_pricer
 #: model:ir.model.fields,help:pos_pricer.field_pricer_store__dummy_prod_barcode
 msgid "Scan the product barcode here"
-msgstr "Відскануйте штрих-код товару тут"
+msgstr ""
 
 #. module: pos_pricer
 #: model:ir.model.fields,help:pos_pricer.field_pricer_store__last_update_status_message
@@ -366,19 +364,19 @@ msgstr "Прайс-лист постачальника"
 #. odoo-javascript
 #: code:addons/pos_pricer/static/src/views/pricer_quick_pairing_form_view.js:0
 msgid "Tag '%s' found"
-msgstr "Тег '%s' знайдено"
+msgstr ""
 
 #. module: pos_pricer
 #. odoo-javascript
 #: code:addons/pos_pricer/static/src/views/pricer_quick_pairing_form_view.js:0
 msgid "Tag '%s' not found, creating it"
-msgstr "Тег '%s' не знайдено, створіть його"
+msgstr ""
 
 #. module: pos_pricer
 #. odoo-javascript
 #: code:addons/pos_pricer/static/src/views/pricer_quick_pairing_form_view.js:0
 msgid "Tag '%s' successfully linked with product '%s'"
-msgstr "Тег '%s' успішно зʼєднано з товаром '%s'"
+msgstr ""
 
 #. module: pos_pricer
 #. odoo-python
@@ -400,8 +398,6 @@ msgstr "Податок"
 msgid ""
 "This pricelist will be used to set sales on Pricer tags for this product"
 msgstr ""
-"Цей прайс-лист буде використано для встановлення продажів на тегах цінника "
-"для цього товару"
 
 #. module: pos_pricer
 #: model:ir.model.fields,help:pos_pricer.field_pricer_tag__pricer_store_id

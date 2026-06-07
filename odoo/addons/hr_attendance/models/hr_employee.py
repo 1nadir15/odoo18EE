@@ -78,7 +78,7 @@ class HrEmployee(models.Model):
 
     def action_archive(self):
         super().action_archive()
-        self.env['hr.attendance'].sudo().search([
+        self.env['hr.attendance'].search([
             ('employee_id', 'in', self.ids),
             ('check_out', '=', False),
         ]).write({

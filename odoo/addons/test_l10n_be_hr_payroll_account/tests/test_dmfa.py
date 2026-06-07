@@ -66,36 +66,6 @@ class TestDMFA(AccountTestInvoicingCommon):
             ],
         })
 
-        cls.calendar_4_days_36_hours = cls.env['resource.calendar'].create([{
-            'name': "Test Calendar: 4 days, 36 hours/week",
-            'company_id': cls.belgian_company.id,
-            'hours_per_day': 9,
-            'tz': "Europe/Brussels",
-            'two_weeks_calendar': False,
-            'full_time_required_hours': 36.0,
-            'attendance_ids': [(5, 0, 0)] + [(0, 0, {
-                'name': name,
-                'dayofweek': dayofweek,
-                'hour_from': hour_from,
-                'hour_to': hour_to,
-                'day_period': day_period,
-                'work_entry_type_id': cls.env.ref('hr_work_entry.work_entry_type_attendance').id,
-            }) for name, dayofweek, hour_from, hour_to, day_period in [
-                ("Monday Morning", "0", 8.0, 12.0, "morning"),
-                ("Monday Lunch", "0", 12.0, 13.0, "lunch"),
-                ("Monday Afternoon", "0", 13.0, 18, "afternoon"),
-                ("Tuesday Morning", "1", 8.0, 12.0, "morning"),
-                ("Tuesday Lunch", "1", 12.0, 13.0, "lunch"),
-                ("Tuesday Afternoon", "1", 13.0, 18, "afternoon"),
-                ("Wednesday Morning", "2", 8.0, 12.0, "morning"),
-                ("Wednesday Lunch", "2", 12.0, 13.0, "lunch"),
-                ("Wednesday Afternoon", "2", 13.0, 18, "afternoon"),
-                ("Thursday Morning", "3", 8.0, 12.0, "morning"),
-                ("Thursday Lunch", "3", 12.0, 13.0, "lunch"),
-                ("Thursday Afternoon", "3", 13.0, 18, "afternoon"),
-            ]]
-        }]).sudo(False)
-
         cls.calendar_4_5_wednesday_off = cls.env['resource.calendar'].create([{
             'name': "Test Calendar: 4/5 Wednesday Off",
             'company_id': cls.belgian_company.id,
@@ -1197,23 +1167,3 @@ class TestDMFA(AccountTestInvoicingCommon):
         self.assertEqual(declaration.state, 'notified')
         self.assertEqual(declaration.error_message, 'Anomaly (1/2) - Code: 90007-262\nMore workers declared in DmfA than in DIMONA\n- NISS: False\n- Anomaly Class: Non-percentage-based anomaly\n\n\nAnomaly (2/2) - Code: 90001-476\nSpecial contribution on severance pay not present\n- Employee: Laurie Poiret (NISS: 91111111192)\n- Anomaly Class: Non-percentage-based anomaly\n\n')
         self.assertEqual(declaration.onss_file_count, 9)
-
-    def test_93_dmfa_WorkingDaysSystems_4_days_week(self):
-        self.belgian_company.resource_calendar_id = self.calendar_4_days_36_hours
-        self.contract.resource_calendar_id = self.calendar_4_days_36_hours
-        payslip = self.env['hr.payslip'].create([{
-            'name': 'Payslip Jan 2025',
-            'contract_id': self.contract.id,
-            'date_from': date(2025, 1, 1),
-            'date_to': date(2025, 1, 31),
-            'employee_id': self.employee.id,
-            'struct_id': self.env.ref('l10n_be_hr_payroll.hr_payroll_structure_cp200_employee_salary').id,
-            'company_id': self.belgian_company.id,
-        }])
-        payslip.compute_sheet()
-        payslip.action_payslip_done()
-        dmfa_dict = self._generate_dmfa_declaration()
-        self.assertEqual(
-            dmfa_dict['DmfAOriginal']['Form']['EmployerDeclaration']['NaturalPerson']['WorkerRecord']['Occupation']['WorkingDaysSystem'],
-            '400'
-        )

@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
+"POT-Creation-Date: 2026-04-10 18:48+0000\n"
 "PO-Revision-Date: 2026-01-17 09:04+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
@@ -308,12 +308,6 @@ msgstr "Codi de transacció Intrastat"
 
 #. module: account_intrastat
 #. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid "Invalid Intrastat Code"
-msgstr ""
-
-#. module: account_intrastat
-#. odoo-python
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 msgid "Invalid commodity intrastat code products."
 msgstr "Productes amb un codi Intrastat de mercaderia no vàlid."
@@ -366,14 +360,6 @@ msgstr "Producte que manca"
 #: model:res.country,name:account_intrastat.xi
 msgid "Northern Ireland"
 msgstr "Irlanda del Nord"
-
-#. module: account_intrastat
-#. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid ""
-"Note that the selected commodity code is invalid based on its start or "
-"expiry date. You can still select it."
-msgstr ""
 
 #. module: account_intrastat
 #. odoo-javascript
@@ -505,14 +491,6 @@ msgstr "L'interval de dates ha de ser un mes o un trimestre sencer."
 #: model:ir.model.fields,help:account_intrastat.field_product_template__intrastat_supplementary_unit_amount
 msgid "The number of supplementary units per product quantity."
 msgstr "El nombre d'unitats complementàries per quantitat de producte."
-
-#. module: account_intrastat
-#. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid ""
-"The product template has no products/variants. At least one variant is "
-"required to set the Intrastat values."
-msgstr ""
 
 #. module: account_intrastat
 #. odoo-javascript

@@ -515,8 +515,8 @@ class TestInventoryAdjustmentBarcodeClientAction(TestBarcodeClientAction):
         # Enables multilocations and tracking.
         grp_multi_loc = self.env.ref('stock.group_stock_multi_locations')
         grp_lot = self.env.ref('stock.group_production_lot')
-        grp_uom = self.env.ref('uom.group_uom')
-        self.env.user.write({'groups_id': [Command.link(grp_multi_loc.id), Command.link(grp_lot.id), Command.link(grp_uom.id)]})
+        self.env.user.write({'groups_id': [(4, grp_multi_loc.id, 0)]})
+        self.env.user.write({'groups_id': [(4, grp_lot.id, 0)]})
         Quant = self.env['stock.quant']
 
         # Creates some lots and serial numbers.
@@ -531,8 +531,6 @@ class TestInventoryAdjustmentBarcodeClientAction(TestBarcodeClientAction):
             Quant._update_available_quantity(self.productserial1, self.stock_location, 1, lot_id=sn)
         Quant._update_available_quantity(self.productlot1, self.stock_location, 3, lot_id=lots[0])
         Quant._update_available_quantity(self.productlot1, self.stock_location, 4, lot_id=lots[1])
-        self.product1.uom_id = self.uom_dozen
-        self.uom_dozen.action_archive()
         Quant._update_available_quantity(self.product1, self.stock_location, 5)
 
         # Mark added quants as to count.
@@ -549,7 +547,7 @@ class TestInventoryAdjustmentBarcodeClientAction(TestBarcodeClientAction):
         grp_show_quantity_count = self.env.ref('stock_barcode.group_barcode_show_quantity_count')
         group_user = self.env.ref('base.group_user')
         group_user.write({'implied_ids': [(3, grp_show_quantity_count.id)]})
-        self.env.user.write({'groups_id': [Command.unlink(grp_show_quantity_count.id), Command.unlink(grp_uom.id)]})
+        self.env.user.write({'groups_id': [(3, grp_show_quantity_count.id)]})
         self.start_tour("/odoo/barcode", 'test_inventory_setting_show_quantity_to_count_off', login='admin', timeout=180)
 
     def test_inventory_using_buttons(self):

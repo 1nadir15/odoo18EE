@@ -8,13 +8,12 @@
 #
 # "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 # Yoshi Tashiro <tashiro@quartile.co>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-03 18:51+0000\n"
-"PO-Revision-Date: 2026-06-06 10:57+0000\n"
+"PO-Revision-Date: 2026-04-17 09:58+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "sale_subscription/ja/>\n"
@@ -23,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: sale_subscription
 #. odoo-python
@@ -2712,7 +2711,7 @@ msgstr "最後の支払督促送信"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Late Activities"
-msgstr "期限超過の活動"
+msgstr "遅れた活動"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
@@ -4633,10 +4632,6 @@ msgid ""
 "You should first invoice the original subscription, use an earlier start "
 "date for the upsell or create a renewal quotation."
 msgstr ""
-"アップセルの開始日は、サブスクリプション %s の次回請求日以降に設定することは"
-"できません。\n"
-"先に元のサブスクリプションの請求を確定させるか、アップセルの開始日を早めるか"
-"、あるいは更新用見積を作成してください。"
 
 #. module: sale_subscription
 #: model:sale.order.close.reason,name:sale_subscription.close_reason_renew
@@ -4776,7 +4771,7 @@ msgstr "更新する"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Today Activities"
-msgstr "今日の活動"
+msgstr "本日の活動"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__price_total
@@ -5449,7 +5444,7 @@ msgstr "週ごとに"
 #. odoo-python
 #: code:addons/sale_subscription/models/sale_subscription_plan.py:0
 msgid "per year"
-msgstr "/年"
+msgstr "年ごとに"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription_portal_template

@@ -1,29 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * project_helpdesk
+# 	* project_helpdesk
 #
 # Translators:
 # Wil Odoo, 2024
 #
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:48+0000\n"
-"PO-Revision-Date: 2026-05-26 13:08+0000\n"
-"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
-"Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
-"project_helpdesk/uk/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Wil Odoo, 2024\n"
+"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
-"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
-"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
-"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #. module: project_helpdesk
 #: model_terms:ir.ui.view,arch_db:project_helpdesk.helpdesk_ticket_convert_to_task_wizard_view_form
@@ -39,7 +36,7 @@ msgstr "Конвертуйте заявки служби підтримки в �
 #. module: project_helpdesk
 #: model:ir.model,name:project_helpdesk.model_project_task_convert_wizard
 msgid "Convert Project Tasks to Tickets"
-msgstr "Конвертувати завдання проєкту у заявки"
+msgstr "Конвертувати завдання проекту у заявки"
 
 #. module: project_helpdesk
 #. odoo-python
@@ -119,7 +116,7 @@ msgstr "Останнє оновлення"
 #. module: project_helpdesk
 #: model:ir.model.fields,field_description:project_helpdesk.field_helpdesk_ticket_convert_wizard__project_id
 msgid "Project"
-msgstr "Проєкт"
+msgstr "Проект"
 
 #. module: project_helpdesk
 #. odoo-python
@@ -142,7 +139,7 @@ msgstr "Завдання"
 #. odoo-python
 #: code:addons/project_helpdesk/wizard/project_task_convert_wizard.py:0
 msgid "Task converted into ticket %s"
-msgstr "Завдання конвертоване в заявку %s"
+msgstr "Завдання конвертоваре в заявку %s"
 
 #. module: project_helpdesk
 #: model:ir.model.fields,field_description:project_helpdesk.field_project_task_convert_wizard__team_id

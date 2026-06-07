@@ -96,12 +96,6 @@ patch(PosStore.prototype, {
             return;
         }
         updateRewardsMutex.exec(() => {
-            // Remove stale reward lines from a draft order loaded from another POS session.
-            for (const line of order._get_reward_lines()) {
-                if (!line.coupon_id) {
-                    line.delete();
-                }
-            }
             return this.orderUpdateLoyaltyPrograms().then(async () => {
                 // Try auto claiming rewards
                 const claimableRewards = order.getClaimableRewards(false, false, true);
@@ -648,7 +642,7 @@ patch(PosStore.prototype, {
     computePartnerCouponIds(loyaltyCards = null) {
         const cards = loyaltyCards || this.models["loyalty.card"].getAll();
         for (const card of cards) {
-            if (!card.partner_id || card.id < 0 || !card.program_id) {
+            if (!card.partner_id || card.id < 0) {
                 continue;
             }
 
@@ -842,9 +836,6 @@ patch(PosStore.prototype, {
             return agg;
         }, {});
         for (const line of rewardLines) {
-            if (!line.coupon_id) {
-                continue;
-            }
             const reward = line.reward_id;
             const couponId = line.coupon_id.id;
             if (!couponData[couponId]) {

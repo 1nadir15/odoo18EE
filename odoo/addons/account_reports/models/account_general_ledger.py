@@ -276,11 +276,11 @@ class GeneralLedgerCustomHandler(models.AbstractModel):
                     ('account_id.include_initial_balance', '=', True),
                 ]
 
-            if options_group.get('export_mode') == 'print' and (search := options_group.get('filter_search_bar')):
+            if options_group.get('export_mode') == 'print' and options_group.get('filter_search_bar'):
                 if options_group.get('hierarchy'):
                     query_domain += [
                         '|',
-                        ('account_id', 'ilike', search),
+                        ('account_id', 'ilike', options_group['filter_search_bar']),
                         ('account_id.id', 'in', SQL(
                             """
                             /*
@@ -303,14 +303,10 @@ class GeneralLedgerCustomHandler(models.AbstractModel):
                             )""",
                             lang=self.env.lang,
                             company_id=self.env.company.id,
-                            filter_search_bar="%" + search + "%")),
+                            filter_search_bar="%" + options_group['filter_search_bar'] + "%")),
                     ]
                 else:
-                    query_domain += [
-                        '|',
-                        ('account_id', 'ilike', search),
-                        ('account_id.code', 'like', search),
-                    ]
+                    query_domain.append(('account_id', 'ilike', options_group['filter_search_bar']))
 
             if options_group.get('include_current_year_in_unaff_earnings'):
                 query_domain += [('account_id.include_initial_balance', '=', True)]
@@ -795,7 +791,7 @@ class GeneralLedgerCustomHandler(models.AbstractModel):
             handler = self.with_env(self.env(cr=new_cr))
             decimal_places_per_cur_id = {
                 currency.id: currency.decimal_places
-                for currency in handler.env['res.currency'].with_context(active_test=False).search([])
+                for currency in handler.env['res.currency'].search([])
             }
             company_currency_id = handler.env.company.currency_id.id
 
@@ -847,10 +843,6 @@ class GeneralLedgerCustomHandler(models.AbstractModel):
                     account_lines.append(agg_line)
 
             initial_balances = handler._get_initial_balance_values(report, accounts, options)
-            accounts_currencies = {
-                account.id: account.currency_id.id or company_currency_id
-                for account in handler.env['account.account'].browse(accounts)
-            }
 
             aml_query, aml_params = handler._get_query_amls(report, options, accounts, order_by_account_code=True)
             handler.env.cr.execute(aml_query, aml_params)
@@ -864,7 +856,6 @@ class GeneralLedgerCustomHandler(models.AbstractModel):
                     yield csv_format_account_line(account_line)
                     _model, account_id = report._get_model_info_from_id(account_line['id'])
                     if initial_balance_vals := next(iter(initial_balances.get(account_id)[1].values())):
-                        initial_balance_vals['currency_id'] = accounts_currencies[account_id]
                         progress = initial_balance_vals['balance']
                     else:
                         progress = 0

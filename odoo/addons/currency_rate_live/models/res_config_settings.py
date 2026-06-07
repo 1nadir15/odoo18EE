@@ -838,7 +838,6 @@ class ResCompany(models.Model):
             "UF": "uf",
             "UTM": "utm",
         }
-        timeout = int(icp.get_param('mindicador_api_timeout', 30))
         available_currency_names = available_currencies.mapped('name')
         logger.debug('mindicador: available currency names: %s', available_currency_names)
         today_date = fields.Date.context_today(self.with_context(tz='America/Santiago'))
@@ -851,7 +850,7 @@ class ResCompany(models.Model):
                 logger.debug('Index %s not in available currency name', index)
                 continue
             url = server_url + '/%s/%s' % (currency, request_date)
-            res = requests.get(url, timeout=timeout)
+            res = requests.get(url, timeout=30)
             res.raise_for_status()
             if 'html' in res.text:
                 raise ValueError('Should be json')

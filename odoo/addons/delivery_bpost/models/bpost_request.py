@@ -331,7 +331,9 @@ class BpostRequest():
         used in creating the request in making order in bpost.
         """
         boxes = []
-        eu_group = carrier.env.ref("base.europe")
+        eu_group = carrier.env["res.country.group"].search(
+            [("name", "=", "European Union")], limit=1
+        )
         is_eu = picking.partner_id.country_id.id in eu_group.country_ids.ids
         for package in picking.move_line_ids.result_package_id:
             package_lines = picking.move_line_ids.filtered(lambda sml: sml.result_package_id.id == package.id)
@@ -412,7 +414,9 @@ class BpostRequest():
             'contentDescription': ' '.join(["%d %s" % (line.product_qty, re.sub(r'[\W_]+', ' ', line.product_id.name or '')) for line in picking.move_ids])[:50],
         }]
 
-        eu_group = carrier.env.ref("base.europe")
+        eu_group = carrier.env["res.country.group"].search(
+            [("name", "=", "European Union")], limit=1
+        )
         if picking.partner_id.country_id.id not in eu_group.country_ids.ids:
             customs_items = []
             for move in picking.move_ids:

@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-22 17:52+0000\n"
+"POT-Creation-Date: 2026-04-10 18:47+0000\n"
 "PO-Revision-Date: 2026-01-02 22:07+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
@@ -4110,12 +4110,6 @@ msgstr "Pujar nova versió"
 
 #. module: documents
 #. odoo-python
-#: code:addons/documents/models/documents_document.py:0
-msgid "Upload a file or drag it here"
-msgstr ""
-
-#. module: documents
-#. odoo-python
 #: code:addons/documents/models/mail_activity.py:0
 msgid "Upload file request"
 msgstr "Sol·licitud de càrrega d'arxius"
@@ -4244,6 +4238,12 @@ msgstr "No tens permís per (des)arxivar documents."
 msgid "You are not allowed to change ownerships of documents you do not own."
 msgstr ""
 "No tens permís per canviar la propietat dels documents que no són teus."
+
+#. module: documents
+#. odoo-python
+#: code:addons/documents/models/documents_document.py:0
+msgid "You are not allowed to delete all these items."
+msgstr "No tens permís per eliminar tots aquests elements."
 
 #. module: documents
 #. odoo-python
@@ -4575,9 +4575,6 @@ msgid ""
 msgstr ""
 "•\n"
 "                                        <b>URL</b>"
-
-#~ msgid "You are not allowed to delete all these items."
-#~ msgstr "No tens permís per eliminar tots aquests elements."
 
 #~ msgid "2025"
 #~ msgstr "2025"

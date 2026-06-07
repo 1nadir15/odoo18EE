@@ -30,7 +30,6 @@ class TestHolidayContract(TransactionCase):
             'birthday': '1984-05-01',
             'country_id': cls.env.ref('base.be').id,
             'department_id': cls.dep_rd.id,
-            'tz': 'Europe/Brussels',
         })
 
         cls.calendar_35h = cls.env['resource.calendar'].create({

@@ -46,7 +46,7 @@ class DenmarkSalesReportTest(AccountSalesReportCommon):
         )
 
         correct_report = (
-            '0,58403288,LISTE,,,,,,\r\n'
+            '0,58403288,LIST,,,,,,\r\n'
             '2,0,2019-12-31,58403288,FR,23334175221,6000,0,7000\r\n'
             '2,1,2019-12-31,58403288,BE,0477472701,0,2000,4000\r\n'
             '10,2,19000,,,,,,\r\n'

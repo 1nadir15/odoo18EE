@@ -190,9 +190,6 @@ export class DeletePlugin extends Plugin {
      */
     delete(direction, granularity) {
         const selection = this.dependencies.selection.getEditableSelection();
-
-        this.dependencies.history.stageSelection();
-
         this.dispatchTo("before_delete_handlers");
 
         if (!selection.isCollapsed) {
@@ -1107,16 +1104,9 @@ export class DeletePlugin extends Plugin {
             // TODO ABD: add test
             return true;
         }
-        // Return true for FEFFs to the right of a button, such that the user
-        // can backspace the cursor into the button without deleting its first
-        // character. Return true for FEFFs to the left of an *empty* button,
-        // such that the user can delete the empty button without deleting also
-        // the first visible character to its left.
-        const isEmptyButton = (node) => isButton(node) && /^\ufeff*$/.test(node.textContent);
-        if (
-            isZwnbsp(textNode) &&
-            (isButton(textNode.previousSibling) || isEmptyButton(textNode.nextSibling))
-        ) {
+        const isZwnbspLinkPad = (node) =>
+            isButton(node.previousSibling) || isButton(node.nextSibling);
+        if (isZwnbsp(textNode) && isZwnbspLinkPad(textNode)) {
             return true;
         }
         // ZWS and ZWNBSP are invisible.

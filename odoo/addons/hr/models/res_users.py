@@ -19,7 +19,6 @@ HR_READABLE_FIELDS = [
     'last_activity_time',
     'can_edit',
     'is_system',
-    'employee_country_code',
     'employee_resource_calendar_id',
     'work_contact_id',
 ]

@@ -11,15 +11,14 @@
 # Lasse L, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 # Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2024
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
-# Hanna Kharraziha <hakha@odoo.com>, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:46+0000\n"
-"PO-Revision-Date: 2026-06-06 11:22+0000\n"
-"Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
+"PO-Revision-Date: 2025-11-20 21:03+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "quality_mrp_workorder/sv/>\n"
 "Language: sv\n"
@@ -27,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: quality_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.worksheet_page
@@ -37,7 +36,7 @@ msgstr "<strong>Parti- och serienummer: </strong>"
 #. module: quality_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.worksheet_page
 msgid "<strong>Work Order: </strong>"
-msgstr "<strong>Arbetsorder: </strong>"
+msgstr ""
 
 #. module: quality_mrp_workorder
 #: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_production__check_ids
@@ -53,7 +52,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/quality_mrp_workorder/static/src/components/menuPopup.xml:0
 msgid "Create a Quality Alert"
-msgstr "Skapa en kvalitetsvarning"
+msgstr ""
 
 #. module: quality_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_alert_view_form_inherit_mrp
@@ -74,28 +73,28 @@ msgstr "Misslyckas"
 #. odoo-python
 #: code:addons/quality_mrp_workorder/models/quality.py:0
 msgid "Failure"
-msgstr "Icke-godkänd"
+msgstr ""
 
 #. module: quality_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_check_view_search_inherit_quality_mrp_workorder
 msgid "Finished Lot/Serial"
-msgstr "Färdig parti/serie"
+msgstr "Färdig Lot/Batch"
 
 #. module: quality_mrp_workorder
 #: model:ir.model,name:quality_mrp_workorder.model_stock_lot
 msgid "Lot/Serial"
-msgstr "Parti/Serie"
+msgstr "Lot/Batch"
 
 #. module: quality_mrp_workorder
 #: model:ir.model,name:quality_mrp_workorder.model_mrp_production
 msgid "Manufacturing Order"
-msgstr "Produktionsorder"
+msgstr "Tillverkningsorder"
 
 #. module: quality_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_check_view_search_inherit_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_point_view_search_inherit_mrp_workorder
 msgid "Manufacturing Steps"
-msgstr "Produktionssteg"
+msgstr ""
 
 #. module: quality_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_check_view_form_tablet_inherit_quality
@@ -111,7 +110,7 @@ msgstr ""
 #. module: quality_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_alert_view_search_inherit_quality_mrp_workorder
 msgid "Operation"
-msgstr "Operation"
+msgstr "Drift"
 
 #. module: quality_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_check_view_form_tablet_inherit_quality
@@ -126,7 +125,7 @@ msgstr "Produkt"
 #. module: quality_mrp_workorder
 #: model:ir.model,name:quality_mrp_workorder.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
-msgstr "Produktförflyttningar (rad i lagerförflyttning)"
+msgstr "Produktflyttar (lagerflyttsrad)"
 
 #. module: quality_mrp_workorder
 #: model:ir.model,name:quality_mrp_workorder.model_product_product
@@ -142,7 +141,7 @@ msgstr "Kvalitetskontroll"
 #. odoo-python
 #: code:addons/quality_mrp_workorder/models/quality.py:0
 msgid "Quality Check Failed"
-msgstr "Icke-godkänd kvalitetskontroll"
+msgstr ""
 
 #. module: quality_mrp_workorder
 #. odoo-javascript
@@ -160,7 +159,7 @@ msgstr "Kvalitetskontrollpunkt"
 #. module: quality_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_point_view_search_inherit_mrp_workorder
 msgid "Quality Points"
-msgstr "Kvalitetspunkter"
+msgstr ""
 
 #. module: quality_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_alert_view_form_inherit_mrp
@@ -176,15 +175,13 @@ msgstr "Steg"
 #. odoo-python
 #: code:addons/quality_mrp_workorder/models/quality.py:0
 msgid "Success"
-msgstr "Godkänd"
+msgstr "Framgång"
 
 #. module: quality_mrp_workorder
 #. odoo-python
 #: code:addons/quality_mrp_workorder/models/quality.py:0
 msgid "The On-demand frequency is not possible with work order quality points."
 msgstr ""
-"Frekvensen Vid behov går inte att använda vid kvalitetspunkter i "
-"arbetsordrar."
 
 #. module: quality_mrp_workorder
 #. odoo-python
@@ -207,4 +204,4 @@ msgstr "Arbetsorder"
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_check_view_form_inherit_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_check_view_tree_inherit_mrp_workorder
 msgid "Work Order Operation"
-msgstr "Operation i arbetsorder"
+msgstr "Arbetsorderhantering"

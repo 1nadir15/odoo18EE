@@ -271,12 +271,11 @@ class SendCloud:
     def _send_request(self, endpoint, method='get', data=None, params=None, route=BASE_URL):
 
         url = url_join(route, endpoint)
-        headers = {'Sendcloud-Partner-Id': '280b92c9-afae-4b9f-a66e-957bf5eb2f95'}
-        self.logger(f'{url}\n{headers}\n{method}\n{data}\n{params}', f'sendcloud request {endpoint}')
+        self.logger(f'{url}\n{method}\n{data}\n{params}', f'sendcloud request {endpoint}')
         if method not in ['get', 'post']:
             raise Exception(f'Unhandled request method {method}')
         try:
-            res = self.session.request(method=method, url=url, headers=headers, json=data, params=params, timeout=60)
+            res = self.session.request(method=method, url=url, json=data, params=params, timeout=60)
             self.logger(f'{res.status_code} {res.text}', f'sendcloud response {endpoint}')
             res = res.json()
         except Exception as err:
@@ -579,13 +578,12 @@ class SendCloud:
         apply_rules = carrier_id.sendcloud_shipping_rules
         sendcloud_product_id = carrier_id.sendcloud_return_id if is_return else carrier_id.sendcloud_shipping_id
 
-        shipping_cost = 0.0
         if picking.sale_id:
             currency_name = picking.sale_id.currency_id.name
-            if len(picking.sale_id.picking_ids.filtered(lambda p: p.state == 'done')) <= 1:  # Picking state is updated before the call to send the parcel
-                shipping_cost = sum(sol.price_total for sol in picking.sale_id.order_line if sol.is_delivery)
+            shipping_cost = sum(sol.price_total for sol in picking.sale_id.order_line if sol.is_delivery)
         else:
             currency_name = picking.company_id.currency_id.name
+            shipping_cost = sum(ml.sale_price for ml in picking.move_line_ids)
 
         parcel_common = {
             'name': (to_partner_id.name or to_partner_id.parent_id.name or '')[:75],

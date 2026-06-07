@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:44+0000\n"
-"PO-Revision-Date: 2026-06-06 10:00+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+"PO-Revision-Date: 2026-04-18 18:31+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "web_studio/ja/>\n"
 "Language: ja\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: web_studio
 #. odoo-python
@@ -584,7 +584,7 @@ msgstr "承認済 <i class=\"fa fa-thumbs-up text-success\"/>"
 #. odoo-javascript
 #: code:addons/web_studio/static/src/approval/approval_infos.xml:0
 msgid "Approved on"
-msgstr "承認日"
+msgstr "承認済み"
 
 #. module: web_studio
 #: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__user_id
@@ -886,7 +886,7 @@ msgstr "背景を変更する"
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/rainbow_effect.xml:0
 msgid "Change Image"
-msgstr "画像を変更"
+msgstr "画像を変更する"
 
 #. module: web_studio
 #. odoo-javascript
@@ -2055,13 +2055,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/map/map_editor_sidebar.xml:0
 msgid "Hide Address"
-msgstr "住所を非表示"
+msgstr "非表示アドレス"
 
 #. module: web_studio
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/map/map_editor_sidebar.xml:0
 msgid "Hide Name"
-msgstr "名前を非表示"
+msgstr "名前を隠す"
 
 #. module: web_studio
 #. odoo-javascript
@@ -2397,7 +2397,7 @@ msgstr "最終更新日"
 #. odoo-python
 #: code:addons/web_studio/models/ir_ui_view.py:0
 msgid "Late Activities"
-msgstr "期限超過の活動"
+msgstr "遅れた活動"
 
 #. module: web_studio
 #. odoo-javascript
@@ -2431,7 +2431,7 @@ msgstr "グループへの可視性を制限する"
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor.js:0
 msgid "Line"
-msgstr "折れ線"
+msgstr "ライン"
 
 #. module: web_studio
 #. odoo-javascript
@@ -2492,13 +2492,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor_sidebar.xml:0
 msgid "Measure"
-msgstr "集計項目"
+msgstr "測定対象"
 
 #. module: web_studio
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor_sidebar.xml:0
 msgid "Measure Field"
-msgstr "集計項目フィールド"
+msgstr "測定フィールド"
 
 #. module: web_studio
 #. odoo-javascript
@@ -2732,7 +2732,7 @@ msgstr "新規"
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/interactive_editor.js:0
 msgid "New %s"
-msgstr "新規%s"
+msgstr "New %s"
 
 #. module: web_studio
 #. odoo-javascript
@@ -3662,7 +3662,7 @@ msgstr ""
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/kanban_legacy/kanban_editor_sidebar_legacy/kanban_editor_sidebar_legacy.xml:0
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.xml:0
 msgid "Sort By"
-msgstr "並べ替え"
+msgstr "並び替え"
 
 #. module: web_studio
 #. odoo-javascript
@@ -4201,7 +4201,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/web_studio/models/ir_ui_view.py:0
 msgid "Today Activities"
-msgstr "今日の活動"
+msgstr "本日の活動"
 
 #. module: web_studio
 #. odoo-javascript

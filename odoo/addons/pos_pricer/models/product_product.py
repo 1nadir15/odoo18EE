@@ -148,7 +148,7 @@ class PricerProductProduct(models.Model):
 
         return result
 
-    @api.onchange('pricer_sale_pricelist_id', 'lst_price', 'standard_price')
+    @api.onchange('pricer_sale_pricelist_id', 'lst_price')
     def _onchange_compute_pricing(self):
         # We use '._origin' to avoid getting a NewId (as the record is in a transient state) instead of id
         for product in self:

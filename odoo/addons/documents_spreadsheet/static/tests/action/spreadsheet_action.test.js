@@ -223,22 +223,6 @@ test("ask confirmation when merging", async function () {
     expect(model.getters.isSingleCellOrMerge(sheetId, toZone("A1:A2"))).toBe(true);
 });
 
-test("Cancel callback of askConfirmation is called when using the cancel button", async function () {
-    const { env } = await createSpreadsheet();
-    env.askConfirmation(
-        "Dialog title",
-        () => {},
-        () => {
-            expect.step("cancel callback");
-        }
-    );
-    await animationFrame();
-    expect(".o_dialog .btn-primary").toHaveText("Yes");
-    expect(".o_dialog .btn-secondary").toHaveText("No");
-    await contains(".o_dialog .btn-secondary").click();
-    expect.verifySteps(["cancel callback"]);
-});
-
 test("Grid has still the focus after a dialog", async function () {
     const { model, env } = await createSpreadsheet();
     selectCell(model, "F4");

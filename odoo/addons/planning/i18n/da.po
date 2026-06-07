@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:47+0000\n"
-"PO-Revision-Date: 2026-05-13 16:55+0000\n"
+"PO-Revision-Date: 2026-04-11 18:34+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/planning/"
 "da/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: planning
 #. odoo-python
@@ -43,7 +43,7 @@ msgstr "%s (kopi)"
 #. module: planning
 #: model:ir.actions.report,print_report_name:planning.report_planning_slot
 msgid "'Planning'"
-msgstr "'Planlægning'"
+msgstr ""
 
 #. module: planning
 #. odoo-python
@@ -101,8 +101,6 @@ msgid ""
 "<b class=\"o_gantt_title d-flex align-items-center justify-content-center "
 "bg-100 position-sticky start-0 p-2 border-end\"> Schedule</b>"
 msgstr ""
-"<b class=\"o_gantt_title d-flex align-items-center justify-content-center bg-"
-"100 position-sticky start-0 p-2 border-end\"> Vagtplan</b>"
 
 #. module: planning
 #: model_terms:digest.tip,tip_description:planning.digest_tip_planning_0
@@ -112,7 +110,7 @@ msgstr "<b class=\"tip_title\">Råd: Registrer din planlægning hurtigere</b>"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_ics_description
 msgid "<b>Allocated Time:</b>"
-msgstr "<b>Tildelt tid:</b>"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -122,25 +120,22 @@ msgid ""
 "duplicate it instead.</i> <b>Adjust the size</b> of the shift to modify its "
 "period."
 msgstr ""
-"Flyt din vagt ved at <b>trække og slippe</b> den. <i>Tip: Hold CTRL (eller "
-"CMD) nede for at duplikere den i stedet.</i> <b>Justér størrelsen</b> på "
-"vagten for at ændre tidsperioden."
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_ics_description
 msgid "<b>Note:</b>"
-msgstr "<b>Note:</b>"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/js/tours/planning.js:0
 msgid "<b>Publish & send</b> your employee's planning."
-msgstr "<b>Offentliggør og send</b> din medarbejders vagtplan."
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_ics_description
 msgid "<b>Role:</b>"
-msgstr "<b>Rolle:</b>"
+msgstr ""
 
 #. module: planning
 #: model:mail.template,body_html:planning.email_template_shift_switch_email
@@ -215,76 +210,6 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
-"<div>\n"
-"                    <p t-if=\"ctx.get('old_assignee_name')\">Hej <t t-"
-"out=\"ctx['old_assignee_name']\">Anita Oliver</t></p>\n"
-"                    <p t-else=\"\">Hej</p>\n"
-"                    <br/>\n"
-"                   <p> \n"
-"                        Den følgende vagt, som du anmodede om at skifte til, "
-"er blevet omfordelt\n"
-"                       <t t-if=\"ctx.get('new_assignee_name')\"> til <t t-"
-"out=\"ctx['new_assignee_name']\">Marc Demo</t></t>.\n"
-"                   </p>\n"
-"                    <table style=\"margin-left: 30px;\"> \n"
-"                       <tr t-if=\"(ctx.get('start_datetime') and ctx.get"
-"('end_datetime'))                                   or ctx.get"
-"('allocated_hours')                                   or ctx.get"
-"('allocated_percentage')\">\n"
-"                            <th style=\"padding: 5px; text-align: left;\"> "
-"Dato</th>\n"
-"                            <td style=\"padding: 5px;\">\n"
-"                               <span t-if=\"ctx.get('start_datetime') and "
-"ctx.get('end_datetime')\" t-out=\"'%s ⟶ %s' % "
-"(                                     "
-"ctx['start_datetime'],                                     "
-"ctx['end_datetime'],                                 )\"> \n"
-"                                    31.05.2021, kl. 08:00 ⟶ 31.05.2021, kl. "
-"16:00\n"
-"                               </span>\n"
-"                                <span t-if=\"ctx.get('allocated_hours')\" "
-"style=\"opacity: 0.5;\"> \n"
-"                                    (<t t-out=\"ctx['allocated_hours']\">"
-"16:00</t>h)\n"
-"                               </span>\n"
-"                                <span t-if=\"ctx.get('allocated_percentage') "
-"and ctx['allocated_percentage'] != '100'\" style=\"opacity: 0.5;\"> \n"
-"                                    (<t t-"
-"out=\"ctx['allocated_percentage']\">50</t>%)\n"
-"                               </span>\n"
-"                            </td> \n"
-"                       </tr>\n"
-"                        <tr t-if=\"object.role_id\"> \n"
-"                           <th style=\"padding: 5px; text-align: left;\"> "
-"Rolle</th>\n"
-"                            <td style=\"padding: 5px;\" t-"
-"out=\"object.role_id.name or ''\">Bartender</td>\n"
-"                        </tr>\n"
-"                       <tr t-if=\"hasattr(object, 'project_id') and "
-"object.project_id\">\n"
-"                            <th style=\"padding: 5px; text-align: left;\"> "
-"Projekt</th>\n"
-"                            <td style=\"padding: 5px;\" t-out=\"object.sudo()"
-".project_id.name or ''\">Sammenkomst</td>\n"
-"                        </tr>\n"
-"                       <tr t-if=\"hasattr(object, 'sale_line_id') and "
-"object.sale_line_id\">\n"
-"                            <th style=\"padding: 5px; text-align: left;\"> "
-"Salgsordrepost</th>\n"
-"                            <td style=\"padding: 5px;\" t-out=\"object.sudo()"
-".sale_line_id.name or ''\">Kaffe</td>\n"
-"                        </tr>\n"
-"                       <tr t-if=\"hasattr(object, 'name') and object.name\">"
-"\n"
-"                            <th style=\"padding: 5px; text-align: left;\"> "
-"Note</th>\n"
-"                            <td style=\"padding: 5px;\" t-out=\"object.name "
-"or ''\">/</td>\n"
-"                        </tr>\n"
-"                   </table>\n"
-"                    <br/> \n"
-"               </div> \n"
-"            "
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_notification
@@ -293,9 +218,6 @@ msgid ""
 "                        You have successfully requested to switch your "
 "shift. You will be notified when another employee takes over your shift."
 msgstr ""
-"<i class=\"fa fa-check-circle\"/>\n"
-"                        Du har med succes ansøgt om at bytte vagt. Du får "
-"besked, når en anden medarbejder overtager din vagt."
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_notification
@@ -303,22 +225,19 @@ msgid ""
 "<i class=\"fa fa-check-circle\"/> Request to switch shift cancelled "
 "successfully."
 msgstr ""
-"<i class=\"fa fa-check-circle\"/> Anmodningen om vagtbytte for denne vagt er "
-"blevet annulleret."
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_notification
 msgid ""
 "<i class=\"fa fa-check-circle\"/> This shift is no longer assigned to you."
 msgstr ""
-"<i class=\"fa fa-check-circle\"/> Denne vagt er ikke længere tildelt dig."
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_notification
 msgid ""
 "<i class=\"fa fa-check-circle\"/> You were successfully assigned this open "
 "shift."
-msgstr "<i class=\"fa fa-check-circle\"/> Du er blevet tildelt denne åbne vagt."
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_slot_template_view_kanban
@@ -344,8 +263,6 @@ msgid ""
 "<i class=\"fa fa-exclamation-circle\"/> This shift is already assigned to "
 "another employee."
 msgstr ""
-"<i class=\"fa fa-exclamation-circle\"/> Denne vagt er allerede blevet "
-"tildelt en anden medarbejder."
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_notification
@@ -353,8 +270,6 @@ msgid ""
 "<i class=\"fa fa-exclamation-circle\"/> You can no longer unassign yourself "
 "from this shift."
 msgstr ""
-"<i class=\"fa fa-exclamation-circle\"/> Du kan ikke længere framelde dig "
-"denne vagt."
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_slot_template_view_form
@@ -401,8 +316,6 @@ msgid ""
 "<i class=\"o_group_caret fa fa-fw me-1 fa-caret-down\"></i> <span "
 "class=\"text-truncate w-0 flex-grow-1 text-start\">Bartender</span>"
 msgstr ""
-"<i class=\"o_group_caret fa fa-fw me-1 fa-caret-down\"></i> <span "
-"class=\"text-truncate w-0 flex-grow-1 text-start\">Bartender</span>"
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
@@ -410,8 +323,6 @@ msgid ""
 "<i class=\"o_group_caret fa fa-fw me-1 fa-caret-down\"></i> <span "
 "class=\"text-truncate w-0 flex-grow-1 text-start\">Waiter</span>"
 msgstr ""
-"<i class=\"o_group_caret fa fa-fw me-1 fa-caret-down\"></i> <span "
-"class=\"text-truncate w-0 flex-grow-1 text-start\">Tjener</span>"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form
@@ -451,8 +362,6 @@ msgid ""
 "<span class=\"o_gantt_pill_title bg-view text-truncate px-1 z-1\">04:00</"
 "span>"
 msgstr ""
-"<span class=\"o_gantt_pill_title bg-view text-truncate px-1 z-1\">04:00</"
-"span>"
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
@@ -460,8 +369,6 @@ msgid ""
 "<span class=\"o_gantt_pill_title bg-view text-truncate px-1 z-1\">08:00</"
 "span>"
 msgstr ""
-"<span class=\"o_gantt_pill_title bg-view text-truncate px-1 z-1\">08:00</"
-"span>"
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
@@ -469,8 +376,6 @@ msgid ""
 "<span class=\"o_gantt_pill_title bg-view text-truncate px-1 z-1\">12:00</"
 "span>"
 msgstr ""
-"<span class=\"o_gantt_pill_title bg-view text-truncate px-1 z-1\">12:00</"
-"span>"
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
@@ -478,14 +383,13 @@ msgid ""
 "<span class=\"o_gantt_pill_title text-truncate mx-1\">1:00 PM - 5:00 PM</"
 "span>"
 msgstr ""
-"<span class=\"o_gantt_pill_title text-truncate mx-1\">13:00-17:00</span>"
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
 msgid ""
 "<span class=\"o_gantt_pill_title text-truncate mx-1\">8:00 AM - 12:00 PM</"
 "span>"
-msgstr "<span class=\"o_gantt_pill_title text-truncate mx-1\">8:00-12:00</span>"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
@@ -503,7 +407,7 @@ msgstr ""
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.hr_employee_view_form_inherit
 msgid "<span class=\"o_stat_text\">Planning</span>"
-msgstr "<span class=\"o_stat_text\">Planlægning</span>"
+msgstr ""
 
 #. module: planning
 #: model_terms:hr.job,job_details:planning.job_maintenance_technician
@@ -528,7 +432,6 @@ msgstr "<span class=\"text-muted small\">Tid til at svare</span>"
 msgid ""
 "<span class=\"text-truncate w-0 flex-grow-1 text-start\">Open Shifts</span>"
 msgstr ""
-"<span class=\"text-truncate w-0 flex-grow-1 text-start\">Åbne vagter</span>"
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
@@ -536,8 +439,6 @@ msgid ""
 "<span class=\"text-truncate w-0 flex-grow-1\"> <span>Doris Cole </span> "
 "<span class=\"text-muted text-truncate\">(Bartender)</span> </span>"
 msgstr ""
-"<span class=\"text-truncate w-0 flex-grow-1\"> <span>Doris Cole </span> "
-"<span class=\"text-muted text-truncate\">(Bartender)</span> </span>"
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
@@ -545,8 +446,6 @@ msgid ""
 "<span class=\"text-truncate w-0 flex-grow-1\"> <span>Eli Lambert </span> "
 "<span class=\"text-muted text-truncate\">(Waiter)</span> </span>"
 msgstr ""
-"<span class=\"text-truncate w-0 flex-grow-1\"> <span>Eli Lambert </span> "
-"<span class=\"text-muted text-truncate\">(Tjener)</span> </span>"
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
@@ -554,8 +453,6 @@ msgid ""
 "<span class=\"text-truncate w-0 flex-grow-1\"> <span>Jeffrey Kelly </span> "
 "<span class=\"text-muted text-truncate\">(Bartender)</span> </span>"
 msgstr ""
-"<span class=\"text-truncate w-0 flex-grow-1\"> <span>Jeffrey Kelly </span> "
-"<span class=\"text-muted text-truncate\">(Bartender)</span> </span>"
 
 #. module: planning
 #: model_terms:web_tour.tour,rainbow_man_message:planning.planning_tour
@@ -563,13 +460,11 @@ msgid ""
 "<span><b>Congratulations!</b> You are now a master of planning.\n"
 "        </span>"
 msgstr ""
-"<span><b>Tillykke!</b> Du er nu en ekspert i planlægning.\n"
-"       </span>"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
 msgid "<span>Allow employees to:</span>"
-msgstr "<span>Giv medarbejderne mulighed for at:</span>"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form
@@ -578,12 +473,11 @@ msgid ""
 "<span>The employee assigned would like to switch shifts with someone else.</"
 "span>"
 msgstr ""
-"<span>Den tildelte medarbejder ønsker at bytte vagt med en anden.</span>"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
 msgid "<span>months ahead</span>"
-msgstr "<span>måneder frem</span>"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_gantt
@@ -705,120 +599,6 @@ msgid ""
 "                </div>\n"
 "            </body>"
 msgstr ""
-"<style>\n"
-"                    .planning_mail_template_button {\n"
-"                        padding: 5px 10px;\n"
-"                        text-decoration: none;\n"
-"                        border: 1px;\n"
-"                        border-radius: 3px;\n"
-"                        text-align: center;\n"
-"                        color: #374151;\n"
-"                        background-color: #E7E9ED;\n"
-"                        border: solid #E7E9ED;\n"
-"                        flex: 1 1 40%;\n"
-"                    }\n"
-"                    .top_button {\n"
-"                        color: #FFFFFF;\n"
-"                        background-color: #714B67;\n"
-"                        border: solid #714B67;\n"
-"                        flex: 1 1 60%;\n"
-"                    }\n"
-"                    .button_box {\n"
-"                        display: flex;\n"
-"                        flex-wrap: wrap;\n"
-"                        gap: 10px;\n"
-"                        margin: 20px 15px 0px 15px;\n"
-"                    }\n"
-"               </style>\n"
-"                <body> <div>\n"
-"                    <p t-if=\"ctx.get('employee_name')\"> Hej <t t-"
-"out=\"ctx['employee_name']\">Anita Oliver</t></p>\n"
-"                    <p t-else=\"\">Hej</p>\n"
-"                    <br/>\n"
-"                   <p t-if=\"ctx.get('open_shift_available')\"> Vi har en ny "
-"vagt ledig:</p>\n"
-"                    <p t-else=\"\">Du er blevet tildelt følgende vagt:</p>\n"
-"                    <table style=\"margin-left: 30px;\">\n"
-"                       <tr t-if=\"(ctx.get('start_datetime') and ctx.get"
-"('end_datetime'))                                   or ctx.get"
-"('allocated_hours')                                   or ctx.get"
-"('allocated_percentage')\">\n"
-"                            <th style=\"padding: 5px; text-align: left;\"> "
-"Dato</th>\n"
-"                            <td style=\"padding: 5px;\">\n"
-"                               <span t-if=\"ctx.get('start_datetime') and "
-"ctx.get('end_datetime')\" t-out=\"'%s ⟶ %s' % "
-"(                                     "
-"ctx['start_datetime'],                                     "
-"ctx['end_datetime'],                                 )\"> \n"
-"                                    31.05.2021, kl. 08:00 ⟶ 31.05.2021, kl. "
-"16:00\n"
-"                               </span>\n"
-"                                <span t-if=\"ctx.get('allocated_hours')\" "
-"style=\"opacity: 0.5;\"> \n"
-"                                    (<t t-out=\"ctx['allocated_hours']\">"
-"16:00</t>h)\n"
-"                               </span>\n"
-"                                <span t-if=\"ctx.get('allocated_percentage') "
-"and ctx['allocated_percentage'] != '100'\" style=\"opacity: 0.5;\"> \n"
-"                                    (<t t-"
-"out=\"ctx['allocated_percentage']\">50</t>%)\n"
-"                               </span>\n"
-"                            </td> \n"
-"                       </tr>\n"
-"                        <tr t-if=\"object.role_id\"> \n"
-"                           <th style=\"padding: 5px; text-align: left;\"> "
-"Rolle</th>\n"
-"                            <td style=\"padding: 5px;\" t-"
-"out=\"object.role_id.name or ''\">Bartender</td>\n"
-"                        </tr>\n"
-"                       <tr t-if=\"hasattr(object, 'project_id') and "
-"object.project_id\">\n"
-"                            <th style=\"padding: 5px; text-align: left;\"> "
-"Projekt</th>\n"
-"                            <td style=\"padding: 5px;\" t-out=\"object.sudo()"
-".project_id.name or ''\">Sammenkomst</td>\n"
-"                        </tr>\n"
-"                       <tr t-if=\"hasattr(object, 'sale_line_id') and "
-"object.sale_line_id\">\n"
-"                            <th style=\"padding: 5px; text-align: left;\"> "
-"Salgsordrepost</th>\n"
-"                            <td style=\"padding: 5px;\" t-out=\"object.sudo()"
-".sale_line_id.name or ''\">Kaffe</td>\n"
-"                        </tr>\n"
-"                       <tr t-if=\"hasattr(object, 'name') and object.name\">"
-"\n"
-"                            <th style=\"padding: 5px; text-align: left;\"> "
-"Note</th>\n"
-"                            <td style=\"padding: 5px;\" t-out=\"object.name "
-"or ''\">/</td>\n"
-"                        </tr>\n"
-"                   </table>\n"
-"                    <div class=\"button_box\"> \n"
-"                       <a t-if=\"ctx.get('available_link')\" t-att-"
-"href=\"ctx['available_link']\" target=\"_blank\" "
-"class=\"planning_mail_template_button top_button\"> Tildel mig denne vagt</a>"
-"\n"
-"                        <a t-if=\"ctx.get('unavailable_link')\" t-att-"
-"href=\"ctx['unavailable_link']\" target=\"_blank\" "
-"class=\"planning_mail_template_button top_button\">Jeg er ikke til rådighed</"
-"a>\n"
-"                        <a t-if=\"ctx.get('google_url')\" t-att-"
-"href=\"ctx['google_url']\" target=\"_blank\" "
-"class=\"planning_mail_template_button\">Føj til Google Kalender</a>\n"
-"                        <a t-if=\"ctx.get('iCal_url')\" t-att-"
-"href=\"ctx['iCal_url']\" target=\"_blank\" "
-"class=\"planning_mail_template_button\">Føj til iCal/Outlook</a>\n"
-"                    </div>\n"
-"                   <br/>\n"
-"                    <p t-if=\"ctx.get('open_shift_available')\"> Hvis du er "
-"interesseret og til rådighed, bedes du tildele dig selv denne ledige vagt.</"
-"p>\n"
-"                    <p t-else=\"\">Hvis den aktuelle vagt ikke passer dig, "
-"anbefaler vi, at du kontakter dine kolleger og spørger, om de vil bytte "
-"vagt. De er måske interesserede i at bytte med dig.</p>\n"
-"                </div>\n"
-"           </body>"
 
 #. module: planning
 #: model:mail.template,body_html:planning.email_template_planning_planning
@@ -899,7 +679,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/planning/models/planning_recurrency.py:0
 msgid "A shift must be in the same company as its recurrence."
-msgstr "En vagt skal være i samme virksomhed som sin gentagelse."
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_role__active
@@ -911,7 +691,7 @@ msgstr "Aktiv"
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_gantt/planning_gantt_controller.js:0
 msgid "Add Shift"
-msgstr "Tilføj vagt"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,help:planning.field_planning_send__note
@@ -921,12 +701,12 @@ msgstr "Ekstra besked vist i emailen afsendt til medarbejdere"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_send_view_form
 msgid "Additional message included in the email sent to your employees"
-msgstr "Yderligere besked inkluderet i e-mailen til dine medarbejdere"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form
 msgid "Additional note sent to the employee"
-msgstr "Ekstra note sendt til medarbejderne"
+msgstr ""
 
 #. module: planning
 #: model:res.groups,name:planning.group_planning_manager
@@ -940,15 +720,13 @@ msgid ""
 "All open shifts have already been assigned, or there are no resources "
 "available to take them at this time."
 msgstr ""
-"Alle ledige vagter er allerede blevet tildelt, eller der er i øjeblikket "
-"ingen tilgængelige medarbejdere til at overtage dem."
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_calendar/planning_ask_recurrence_update/planning_ask_recurrence_update_dialog.js:0
 #: model:ir.model.fields.selection,name:planning.selection__planning_slot__recurrence_update__all
 msgid "All shifts"
-msgstr "Alle vagter"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form_in_gantt
@@ -966,7 +744,7 @@ msgstr "Tildelte timer"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_tree
 msgid "Allocated Percentage"
-msgstr "Tildelt procentdel"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_analysis_report__allocated_hours
@@ -978,7 +756,7 @@ msgstr "Tildelt tid"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__allocated_percentage
 msgid "Allocated Time %"
-msgstr "Tildelt tid %"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_analysis_report__allocated_percentage
@@ -988,13 +766,12 @@ msgstr "Tildelt tid (%)"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_ics_description
 msgid "Allocated Time:"
-msgstr "Tildelt tid:"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_planning_slot_check_allocated_hours_positive
 msgid "Allocated hours and allocated time percentage cannot be negative."
 msgstr ""
-"De tildelte timer og procentdelen af den tildelte tid må ikke være negative."
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__allocation_type
@@ -1007,8 +784,6 @@ msgid ""
 "Analyze the allocation of your resources across roles, projects, and sales "
 "orders, and estimate future needs."
 msgstr ""
-"Analysér fordelingen af dit personale på tværs af roller, projekter og "
-"salgsordrer, og vurdér det fremtidige behov."
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_role_view_form
@@ -1026,15 +801,13 @@ msgid ""
 "Archiving this resource will transform all of its future shifts into open "
 "shifts. Are you sure you want to continue?"
 msgstr ""
-"Hvis denne ressource arkiveres, vil alle fremtidige vagter blive gjort åbne. "
-"Er du sikker på, at du vil fortsætte?"
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_form/planning_form_view.js:0
 #: code:addons/planning/static/src/views/planning_gantt/planning_gantt_renderer.js:0
 msgid "Are you sure you want to delete this shift?"
-msgstr "Er du sikker på, at du vil slette denne vagt?"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -1053,12 +826,12 @@ msgstr "Pil ikon"
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form_in_gantt
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_tree
 msgid "Ask To Switch"
-msgstr "Anmod om at skifte vagt"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
 msgid "Ask to Switch"
-msgstr "Anmod om at skifte"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -1068,9 +841,6 @@ msgid ""
 "open shifts for the roles you will be needing to complete a mission. Then, "
 "assign those open shifts to the resources that are available.</i>"
 msgstr ""
-"Tildel en <b>ressource</b>, eller lad den være åben indtil videre. <i>Tip: "
-"Opret åbne vagter for de roller, du skal bruge til at udføre en opgave, og "
-"tildel dem senere til ressourcer, der er til rådighed.</i>"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.unwanted_slots_list_template
@@ -1084,14 +854,14 @@ msgstr "Tildelt"
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form_in_gantt
 msgid "Auto Plan"
-msgstr "Automatisk planlægning"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_calendar/planning_calendar_controller.xml:0
 #: code:addons/planning/static/src/views/planning_gantt/planning_gantt_controller.xml:0
 msgid "Automatically plan open shifts and sales orders"
-msgstr "Planlæg åbne vagter og salgsordrer automatisk"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -1102,7 +872,7 @@ msgstr "Avatar"
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
 msgid "Bartender"
-msgstr "Bartender"
+msgstr ""
 
 #. module: planning
 #: model:ir.model,name:planning.model_hr_employee_base
@@ -1112,7 +882,7 @@ msgstr "Standard medarbejder"
 #. module: planning
 #: model:ir.ui.menu,name:planning.planning_menu_schedule_by_resource
 msgid "By Resource"
-msgstr "Efter ressource"
+msgstr ""
 
 #. module: planning
 #: model:ir.ui.menu,name:planning.planning_menu_schedule_by_role
@@ -1122,7 +892,7 @@ msgstr "Per rolle"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.unwanted_slots_list_template
 msgid "CANCEL SWITCH"
-msgstr "ANNULLÉR VAGT"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
@@ -1130,7 +900,7 @@ msgstr "ANNULLÉR VAGT"
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form_in_gantt
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_tree
 msgid "Cancel Switch"
-msgstr "Annullér vagt"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.hr_employee_view_form_simplified
@@ -1146,7 +916,7 @@ msgstr "Farve"
 #. module: planning
 #: model:planning.role,name:planning.planning_role_cm
 msgid "Community Manager"
-msgstr "Community Manager"
+msgstr ""
 
 #. module: planning
 #: model:ir.model,name:planning.model_res_company
@@ -1168,8 +938,6 @@ msgid ""
 "Company linked to the material resource. Leave empty for the resource to be "
 "available in every company."
 msgstr ""
-"Virksomhed, som er knyttet til den pågældende ressource. Lad feltet være "
-"tomt, hvis ressourcen skal være tilgængelig i alle virksomheder."
 
 #. module: planning
 #: model:ir.model,name:planning.model_res_config_settings
@@ -1191,7 +959,7 @@ msgstr "Bekræft"
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_calendar/planning_calendar_controller.xml:0
 msgid "Copy previous"
-msgstr "Kopiér forrige"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -1203,7 +971,7 @@ msgstr "Kopier forrige uge"
 #. module: planning
 #: model:planning.role,name:planning.planning_role_crane
 msgid "Crane"
-msgstr "Kran"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_planning__create_uid
@@ -1253,7 +1021,7 @@ msgstr "Dage"
 #: model:ir.model.fields,field_description:planning.field_res_company__planning_self_unassign_days_before
 #: model:ir.model.fields,field_description:planning.field_res_config_settings__planning_self_unassign_days_before
 msgid "Days before shift for unassignment"
-msgstr "Dage før fristen for at ophæve tildelingen"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
@@ -1266,18 +1034,18 @@ msgstr "Deadline"
 #: model:ir.model.fields,help:planning.field_res_company__planning_self_unassign_days_before
 #: model:ir.model.fields,help:planning.field_res_config_settings__planning_self_unassign_days_before
 msgid "Deadline in days for shift unassignment"
-msgstr "Frist i dage for ophævelse af tildelingen"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_hr_employee__default_planning_role_id
 #: model:ir.model.fields,field_description:planning.field_resource_resource__default_role_id
 msgid "Default Role"
-msgstr "Standardrolle"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.resource_resource_search_view_inherit
 msgid "Default Roles"
-msgstr "Standardroller"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.employee_no_email_list_wizard
@@ -1285,8 +1053,6 @@ msgid ""
 "Define a work email address for the following employees so they will receive "
 "the planning."
 msgstr ""
-"Angiv en arbejdsmail for hver af de følgende medarbejdere, så de kan modtage "
-"vagtplanen."
 
 #. module: planning
 #: model:ir.model.fields,help:planning.field_planning_slot__role_id
@@ -1295,10 +1061,6 @@ msgid ""
 "Create open shifts for the roles you need to complete a mission. Then, "
 "assign those open shifts to the resources that are available."
 msgstr ""
-"Angiv de roller, som dine medarbejdere skal varetage (f.eks. kok, "
-"barpersonale, tjener osv.). Opret ledige vagter for de roller, du har brug "
-"for til at udføre en opgave, og tildel derefter disse ledige vagter til de "
-"tilgængelige medarbejdere."
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
@@ -1307,10 +1069,6 @@ msgid ""
 "Create open shifts for the roles you will be needing to complete a mission. "
 "Then, assign those open shifts to the resources that are available."
 msgstr ""
-"Angiv de roller, som dine medarbejdere skal varetage (f.eks. kok, "
-"barpersonale, tjener osv.). Opret ledige vagter for de roller, du har brug "
-"for til at udføre en opgave, og tildel derefter disse ledige vagter til de "
-"tilgængelige medarbejdere."
 
 #. module: planning
 #. odoo-javascript
@@ -1326,7 +1084,7 @@ msgstr "Slet"
 #. odoo-javascript
 #: code:addons/planning/static/src/components/address_recurrency_confirmation_dialog/address_recurrency_confirmation_dialog.js:0
 msgid "Delete Recurring Shift"
-msgstr "Slet tilbagevendende vagt"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_analysis_report__department_id
@@ -1366,12 +1124,12 @@ msgstr "Vis navn"
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_resources
 msgid "Distribute your material resources across projects and sales orders."
-msgstr "Fordel dine materielle ressourcer på tværs af projekter og salgsordrer."
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
 msgid "Doris Cole (Bartender)"
-msgstr "Doris Cole (Bartender)"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -1388,9 +1146,6 @@ msgid ""
 "Drag a shift to another day to reschedule it, or to another row to reassign "
 "the shift. Press CTRL (or Cmd on Mac) while dragging a shift to duplicate it."
 msgstr ""
-"Træk en vagt til en anden dag for at flytte det, eller til en anden række "
-"for at omfordele det. Hold CTRL nede (eller Cmd på Mac), mens du trækker en "
-"vagt, for at duplikere det."
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__duration
@@ -1400,7 +1155,7 @@ msgstr "Varighed"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot_template__duration_days
 msgid "Duration Days"
-msgstr "Varighed i dage"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_role_view_kanban
@@ -1412,12 +1167,12 @@ msgstr "Rediger"
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_calendar/planning_ask_recurrence_update/planning_ask_recurrence_update_dialog.xml:0
 msgid "Edit Recurrent Shift"
-msgstr "Redigér tilbagevendende vagt"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
 msgid "Eli Lambert (Waiter)"
-msgstr "Eli Lambert (Tjener)"
+msgstr ""
 
 #. module: planning
 #: model:mail.template,description:planning.email_template_shift_switch_email
@@ -1426,20 +1181,16 @@ msgid ""
 "of another employee, notifying the person who requested to switch that the "
 "shift has been taken"
 msgstr ""
-"Der sendes automatisk en e-mail, når en medarbejder overtager en anden "
-"medarbejders uønskede vagt, og den medarbejder, der ønskede at bytte, får "
-"besked om, at vagten er blevet overtaget"
 
 #. module: planning
 #: model:mail.template,description:planning.email_template_slot_single
 msgid "Email sent automatically when publishing a shift"
-msgstr "E-mail sendes automatisk ved offentliggørelse af en vagt"
+msgstr ""
 
 #. module: planning
 #: model:mail.template,description:planning.email_template_planning_planning
 msgid "Email sent automatically when publishing the schedule of your employees"
 msgstr ""
-"E-mail sendes automatisk, når du offentliggør dine medarbejderes vagtplan"
 
 #. module: planning
 #: model:ir.model,name:planning.model_hr_employee
@@ -1458,7 +1209,7 @@ msgstr "Medarbejder navn"
 #: model:ir.model.fields,field_description:planning.field_res_config_settings__planning_employee_unavailabilities
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
 msgid "Employee Unavailabilities"
-msgstr "Tidspunkter, hvor medarbejdere er ikke er til rådighed"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_send__employee_ids
@@ -1471,7 +1222,7 @@ msgstr "Medarbejdere"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.employee_no_email_list_wizard
 msgid "Employees with no Work Email"
-msgstr "Medarbejdere uden arbejdsmail"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.resource_planning
@@ -1488,7 +1239,7 @@ msgstr "Slut dato"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot_template__end_time
 msgid "End Hour"
-msgstr "Sluttidspunkt"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_hr_employee_employee_token_unique
@@ -1512,8 +1263,6 @@ msgid ""
 "Find here your planning. Assign yourself open shifts that match your roles, "
 "or indicate your unavailability."
 msgstr ""
-"Find din vagtplan her. Tag ledige vagter, der matcher dine roller, eller "
-"registrér din tilgængelighed."
 
 #. module: planning
 #. odoo-python
@@ -1524,12 +1273,12 @@ msgstr "Først skal du angive datoen for opfordringen."
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.view_employee_filter_inherit_hr
 msgid "Fixed Hours"
-msgstr "Faste timer"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.view_employee_filter_inherit_hr
 msgid "Flexible Hours"
-msgstr "Fleksible timer"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields.selection,name:planning.selection__planning_slot__allocation_type__forecast
@@ -1551,7 +1300,7 @@ msgstr "For evigt, hver %s uge(r)"
 #. module: planning
 #: model:planning.role,name:planning.planning_furniture_assembler
 msgid "Furniture Assembler"
-msgstr "Møbelmontør"
+msgstr ""
 
 #. module: planning
 #: model:planning.role,name:planning.planning_furniture_tool
@@ -1561,7 +1310,7 @@ msgstr "Møbelværktøj"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
 msgid "Generate shifts"
-msgstr "Generér vagter"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.brand_promotion
@@ -1580,12 +1329,12 @@ msgstr "Sortér efter"
 #: model:ir.model.fields,field_description:planning.field_hr_employee_base__has_slots
 #: model:ir.model.fields,field_description:planning.field_hr_employee_public__has_slots
 msgid "Has Slots"
-msgstr "Har tidsblokke"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_analysis_report__request_to_switch
 msgid "Has there been a request to switch on this shift slot?"
-msgstr "Er der kommet en anmodning om at bytte denne vagt?"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot_template__name
@@ -1647,8 +1396,6 @@ msgid ""
 "If you are happy with your planning, you can now <b>send</b> it to your "
 "employees."
 msgstr ""
-"Hvis du er tilfreds med din vagtplan, kan du nu <b>sende</b> den til dine "
-"medarbejdere."
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_send__include_unassigned
@@ -1663,7 +1410,7 @@ msgstr "Inkluderer Åbne Vagter"
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
 msgid "Jeffrey Kelly (Bartender)"
-msgstr "Jeffrey Kelly (Bartender)"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_analysis_report__job_title
@@ -1710,8 +1457,6 @@ msgid ""
 "Let employees switch shifts with colleagues or unassign themselves when "
 "unavailable"
 msgstr ""
-"Giv dine medarbejdere mulighed for at bytte vagter med kolleger eller melde "
-"fra, hvis de ikke er til rådighed"
 
 #. module: planning
 #. odoo-javascript
@@ -1721,9 +1466,6 @@ msgid ""
 "schedule</b> and easily plan your shifts with just one click by <em>copying "
 "the previous week's schedule</em>."
 msgstr ""
-"Lad os se nærmere på Gantt-visningen og dens smarte funktioner. Gør dig klar "
-"til at <b>dele din vagtplan,</b> og planlæg nemt dine vagter med et enkelt "
-"klik ved at <em>kopiere sidste uges vagtplan</em>."
 
 #. module: planning
 #. odoo-javascript
@@ -1732,14 +1474,12 @@ msgid ""
 "Let's create your first <b>shift</b>. <i>Tip: use the (+) shortcut available "
 "on each cell of the Gantt view to save time.</i>"
 msgstr ""
-"Opret din første <b>vagt</b>. <i>Tip: Brug (+)-kommandoen, som findes i hver "
-"celle i Gantt-visningen, for at spare tid.</i>"
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/js/tours/planning.js:0
 msgid "Let's schedule a <b>shift</b> for this time range."
-msgstr "Lad os planlægge en <b>vagt</b> for dette tidsrum."
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -1757,12 +1497,12 @@ msgstr "Liste"
 #: model:hr.job,name:planning.job_maintenance_technician
 #: model:planning.role,name:planning.planning_maintenance_technician
 msgid "Maintenance Technician"
-msgstr "Vedligeholdelsestekniker"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_shift_template
 msgid "Make encoding shifts easy with templates."
-msgstr "Gør det nemmere at oprette vagter med skabeloner."
+msgstr ""
 
 #. module: planning
 #: model:planning.role,name:planning.planning_role_management
@@ -1800,7 +1540,7 @@ msgstr "Materialer"
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
 msgid "May 2024"
-msgstr "Maj 2024"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_analysis_report__publication_warning
@@ -1868,13 +1608,13 @@ msgstr "Nyt arrangement"
 #: code:addons/planning/models/planning.py:0
 #: code:addons/planning/static/src/views/planning_calendar/planning_calendar_controller.js:0
 msgid "New Shift"
-msgstr "Ny vagt"
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/controllers/main.py:0
 msgid "New_Shift"
-msgstr "New_Shift"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_search_base
@@ -1885,12 +1625,12 @@ msgstr "Næste uge"
 #. odoo-python
 #: code:addons/planning/wizard/planning_send.py:0
 msgid "No Email Address for Some Employees"
-msgstr "Nogle medarbejdere mangler en e-mailadresse"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,help:planning.field_planning_recurrency__repeat_number
 msgid "No Of Repetitions of the plannings"
-msgstr "Antal gentagelser af vagtplanerne"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_report_action_analysis
@@ -1900,7 +1640,7 @@ msgstr "Ingen data endnu!"
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_resources
 msgid "No material resources found. Let's create one!"
-msgstr "Der blev ikke fundet nogen materielle ressourcer. Lad os oprette en!"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
@@ -1910,7 +1650,7 @@ msgstr "Ingen roller fundet. Lad os oprette en!"
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_shift_template
 msgid "No shift templates found. Let's create one!"
-msgstr "Der blev ikke fundet nogen vagtskabeloner. Lad os oprette en!"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_my_calendar
@@ -1945,7 +1685,7 @@ msgstr ""
 #. module: planning
 #: model:ir.model.fields.selection,name:planning.selection__planning_slot__repeat_type__x_times
 msgid "Number of Occurrences"
-msgstr "Antal forekomster"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields.selection,name:planning.selection__planning_recurrency__repeat_type__x_times
@@ -1956,7 +1696,7 @@ msgstr "Antal Gentagelser"
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_tree
 msgid "Open Shift"
-msgstr "Åben vagt"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -1977,13 +1717,13 @@ msgstr "Åbne vagter tilgængelige"
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_hooks.js:0
 msgid "Open shifts assigned"
-msgstr "Tildelte åbne vagter"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_hooks.js:0
 msgid "Open shifts unscheduled"
-msgstr "Ikke planlagte åbne vagter"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -2013,8 +1753,6 @@ msgid ""
 "Plan resource allocation across projects and estimate deadlines more "
 "accurately"
 msgstr ""
-"Planlæg ressourceallokering på tværs af flere projekter, og estimér "
-"tidsfrister mere præcist"
 
 #. module: planning
 #. odoo-javascript
@@ -2023,8 +1761,6 @@ msgid ""
 "Plan your shifts in one click by <b>copying the schedule from the previous "
 "week</b>."
 msgstr ""
-"Planlæg dine vagter med et enkelt klik ved at <b>kopiere vagtplanen fra den "
-"foregående uge</b>."
 
 #. module: planning
 #. odoo-javascript
@@ -2033,8 +1769,6 @@ msgid ""
 "Plan your shifts in one click by <b>copying the schedule from the previous "
 "week</b>. Open the menu to access this option."
 msgstr ""
-"Planlæg dine vagter med et enkelt klik ved at <b>kopiere vagtplanen fra den "
-"foregående uge</b>. Åbn menuen for at få adgang til denne mulighed."
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot_template__start_time
@@ -2073,7 +1807,7 @@ msgstr "Planlægnings analyserapport"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.resource_planning
 msgid "Planning Meeting"
-msgstr "Planlægge møde"
+msgstr ""
 
 #. module: planning
 #: model:ir.model,name:planning.model_planning_recurrency
@@ -2104,7 +1838,7 @@ msgstr "Planlægningstidsblok"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_role__slot_properties_definition
 msgid "Planning Slot Properties"
-msgstr "Egenskaber for planlægningstidsblok"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
@@ -2114,17 +1848,17 @@ msgstr "Planlægning:"
 #. module: planning
 #: model:mail.template,name:planning.email_template_planning_planning
 msgid "Planning: New Schedule"
-msgstr "Planlægning: Ny vagtplan"
+msgstr ""
 
 #. module: planning
 #: model:mail.template,name:planning.email_template_slot_single
 msgid "Planning: New Shift"
-msgstr "Planlægning: Ny vagt"
+msgstr ""
 
 #. module: planning
 #: model:mail.template,name:planning.email_template_shift_switch_email
 msgid "Planning: Shift Re-assigned"
-msgstr "Planlægning: Vagt omfordelt"
+msgstr ""
 
 #. module: planning
 #: model:ir.actions.server,name:planning.ir_cron_forecast_schedule_ir_actions_server
@@ -2135,13 +1869,13 @@ msgstr "Planlægning: generer gentagende vagter"
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "Planning: new open shift available on"
-msgstr "Planlægning: ny åbent vagt tilgængeligt på"
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "Planning: new shift on"
-msgstr "Planlægning: ny vagt den"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.brand_promotion
@@ -2154,20 +1888,18 @@ msgid ""
 "Please add a work email for the following employee so that they can receive "
 "their planning:"
 msgstr ""
-"Indtast venligst en arbejdsmail for følgende medarbejder, så vagtplanen kan "
-"sendes:"
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/components/conflicting_slot_ids_field/conflicting_slot_ids_field.xml:0
 msgid "Prepare for the ultimate multi-tasking challenge:"
-msgstr "Gør dig klar til den ultimative multitasking-udfordring:"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_gantt/planning_gantt_renderer_controls.xml:0
 msgid "Press Ctrl to duplicate the shift"
-msgstr "Tryk på Ctrl for at duplikere vagten"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_res_config_settings__module_project_forecast
@@ -2204,7 +1936,7 @@ msgstr "Udgiv & afsend"
 #. module: planning
 #: model:ir.actions.act_window,name:planning.planning_send_action
 msgid "Publish & Send the Schedule by Email"
-msgstr "Offentliggør og send vagtplanen via e-mail"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -2219,7 +1951,7 @@ msgstr "Udgivet"
 #: model:hr.job,name:planning.job_quality_control
 #: model:planning.role,name:planning.planning_quality_control
 msgid "Quality Control Inspector"
-msgstr "Kvalitetskontrolmedarbejder"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_res_company__planning_generation_interval
@@ -2240,13 +1972,13 @@ msgstr "Gentagelse"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
 msgid "Recurring Shifts"
-msgstr "Tilbagevendende vagt"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_form/planning_form_view.js:0
 msgid "Recurring shifts created"
-msgstr "Oprettede tilbagevendende vagter"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_recurrency__slot_ids
@@ -2309,7 +2041,7 @@ msgstr "Rapportering"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_search_base
 msgid "Requests to Switch"
-msgstr "Anmodning om at skifte"
+msgstr ""
 
 #. module: planning
 #: model:ir.actions.server,name:planning.model_planning_slot_action_reset_to_draft
@@ -2328,7 +2060,7 @@ msgstr "Ressource"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__resource_color
 msgid "Resource color"
-msgstr "Ressourcefarve"
+msgstr ""
 
 #. module: planning
 #: model:ir.model,name:planning.model_resource_resource
@@ -2357,10 +2089,6 @@ msgid ""
 "This role will also have precedence over the other roles of the employee "
 "when planning orders."
 msgstr ""
-"Den rolle, der som standard vælges, når du opretter en vagt for denne "
-"medarbejder.\n"
-"Denne rolle har også forrang frem for medarbejderens andre roller ved "
-"planlægning af ordrer."
 
 #. module: planning
 #: model:ir.model.fields,help:planning.field_resource_resource__default_role_id
@@ -2370,15 +2098,11 @@ msgid ""
 "This role will also have precedence over the other roles of the resource "
 "when planning shifts."
 msgstr ""
-"Den rolle, der som standard vælges, når du opretter et skift for denne "
-"ressource.\n"
-"Denne rolle har også forrang frem for ressourcens øvrige roller ved "
-"vagtplanlægning."
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_ics_description
 msgid "Role:"
-msgstr "Rolle:"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -2404,14 +2128,6 @@ msgid ""
 "(with the default planning role having precedence over the other ones).\n"
 "Leave empty for the employee to be assigned shifts regardless of the role."
 msgstr ""
-"Roller, som medarbejderen kan varetage. Når du opretter et vagtskema for "
-"denne medarbejder, vises kun skabeloner for disse roller.\n"
-"Når vagtplanen offentliggøres, sendes kun ledige vagter, der matcher disse "
-"roller, til medarbejderen.\n"
-"Medarbejderen tildeles kun vagter inden for disse roller (hvor "
-"standardplanlægningsfunktionen har forrang over øvrige roller).\n"
-"Lad feltet stå tomt, hvis medarbejderen kan tildeles vagter uafhængigt af "
-"rolle."
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form_in_gantt
@@ -2421,7 +2137,7 @@ msgstr "Gem"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.employee_no_email_list_wizard
 msgid "Save & Send Schedule"
-msgstr "Gem og send vagtplan"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form_in_gantt
@@ -2454,7 +2170,7 @@ msgstr "Plan"
 #. module: planning
 #: model:ir.actions.act_window,name:planning.planning_action_schedule_by_resource
 msgid "Schedule by Resource"
-msgstr "Planlæg efter ressource"
+msgstr ""
 
 #. module: planning
 #: model:ir.actions.act_window,name:planning.planning_action_schedule_by_role
@@ -2465,7 +2181,7 @@ msgstr "Skema ud fra Rolle"
 #. odoo-python
 #: code:addons/planning/wizard/planning_send.py:0
 msgid "Schedule sent to your employees"
-msgstr "Vagtplan sendt til dine medarbejdere"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_schedule_by_resource
@@ -2492,7 +2208,7 @@ msgstr "Sikkerhedstoken"
 #. odoo-javascript
 #: code:addons/planning/static/src/components/conflicting_slot_ids_field/conflicting_slot_ids_field.xml:0
 msgid "See conflicting shifts"
-msgstr "Se overlappende vagter"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form
@@ -2525,8 +2241,6 @@ msgid ""
 "Share the schedule with your team by publishing and sending it. Open the "
 "menu to access this option."
 msgstr ""
-"Del vagtplanen med dit team ved at offentliggøre og sende den. Åbn menuen "
-"for at bruge denne funktion."
 
 #. module: planning
 #. odoo-python
@@ -2566,18 +2280,18 @@ msgstr "Vagt skabeloner"
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_form/planning_form_view.js:0
 msgid "Shift saved as template"
-msgstr "Vagt gemt som skabelon"
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "Shift sent"
-msgstr "Vagt sendt"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_search_base
 msgid "Shifts Planned"
-msgstr "Vagter planlagt"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
@@ -2589,12 +2303,12 @@ msgstr "Vagter fra"
 #: code:addons/planning/models/planning.py:0
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_search_base
 msgid "Shifts in Conflict"
-msgstr "Overlappende vagter"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_search_base
 msgid "Shifts of Your Department Member"
-msgstr "Vagter for medarbejdere i din afdeling"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_search_base
@@ -2605,18 +2319,18 @@ msgstr "Vagter for dine Team medlemmer"
 #. odoo-python
 #: code:addons/planning/wizard/planning_send.py:0
 msgid "Shifts published — employees without a work email were skipped"
-msgstr "Vagter offentliggjort – medarbejdere uden arbejdsmail er udeladt"
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "Shifts reset to draft"
-msgstr "Vagter nulstillet til kladde"
+msgstr ""
 
 #. module: planning
 #: model:planning.role,name:planning.planning_shipping_associate
 msgid "Shipping Associate"
-msgstr "Forsendelsesmedarbejder"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_gantt
@@ -2626,7 +2340,7 @@ msgstr "Visse ændringer blev fortaget siden denne vagt blev udgivet."
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_slot_template_view_form
 msgid "Span"
-msgstr "Tidsrum"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.resource_planning
@@ -2636,7 +2350,7 @@ msgstr "Start"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_slot_template_view_form
 msgid "Start & End Hours"
-msgstr "Start- og sluttidspunkt"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_analysis_report__start_datetime
@@ -2661,32 +2375,30 @@ msgstr "Stop dato"
 #. module: planning
 #: model:ir.model.fields.selection,name:planning.selection__res_company__planning_employee_unavailabilities__switch
 msgid "Switch shifts with other employees"
-msgstr "Byt vagt med andre medarbejdere"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_res_company_planning_self_unassign_days_before_positive
 msgid ""
 "The amount of days before unassignment must be positive or equal to zero."
 msgstr ""
-"Antallet af dage før ophævelse af tildelingen skal være større end eller lig "
-"med nul."
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "The company does not allow you to unassign yourself from shifts."
-msgstr "Virksomheden tillader ikke, at du ophæver tildelingen selv."
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "The deadline for unassignment has passed."
-msgstr "Fristen for at afmelde opgaven er udløbet."
+msgstr ""
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_planning_slot_check_start_date_lower_end_date
 msgid "The end date of a shift should be after its start date."
-msgstr "Slutdatoen for en vagt skal være efter startdatoen."
+msgstr ""
 
 #. module: planning
 #. odoo-python
@@ -2697,7 +2409,7 @@ msgstr "Antallet af gentagelser kan ikke være negativ."
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_planning_recurrency_check_repeat_interval_positive
 msgid "The recurrence should be greater than 0."
-msgstr "Gentagelsen skal være større end 0."
+msgstr ""
 
 #. module: planning
 #. odoo-python
@@ -2709,7 +2421,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_form/planning_form_view.js:0
 msgid "The shift has successfully been created."
-msgstr "Vagten er oprettet."
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -2719,36 +2431,34 @@ msgstr "Vagten er oprettet."
 msgid ""
 "The shifts have already been published, or there are no shifts to publish."
 msgstr ""
-"Vagterne er allerede offentliggjort, eller der er ingen vagter at "
-"offentliggøre."
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "The shifts have successfully been published and sent."
-msgstr "Vagterne er blevet offentliggjort og sendt uden problemer."
+msgstr ""
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_planning_slot_template_check_duration_days_positive
 msgid "The span must be at least 1 working day."
-msgstr "Tidsrummet skal være mindst 1 arbejdsdag."
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning_template.py:0
 msgid ""
 "The start and end hours must be greater or equal to 0 and lower than 24."
-msgstr "Start- og sluttidspunktet skal være mellem 0 og 24."
+msgstr ""
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_planning_slot_template_check_start_time_lower_than_24
 msgid "The start hour cannot be greater than 24."
-msgstr "Starttiden må ikke være over 24."
+msgstr ""
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_planning_slot_template_check_start_time_positive
 msgid "The start hour cannot be negative."
-msgstr "Starttiden må ikke være negativ."
+msgstr ""
 
 #. module: planning
 #. odoo-python
@@ -2756,13 +2466,12 @@ msgstr "Starttiden må ikke være negativ."
 msgid ""
 "The start hour cannot be before the end hour for a one-day shift template."
 msgstr ""
-"Ved en dagsvagtplan må starttidspunktet ikke ligge efter sluttidspunktet."
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "There are no resources available for this open shift."
-msgstr "Der er ingen ledige ressourcer til disse åbne vagter."
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -2771,26 +2480,24 @@ msgid ""
 "There are no shifts planned for the previous week, or they have already been "
 "copied."
 msgstr ""
-"Der er ikke planlagt nogen vagter i den forrige uge, eller de er allerede "
-"blevet kopieret."
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "There are no shifts to publish and send."
-msgstr "Der er ingen vagter til offentliggørelse og afsendelse."
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "There are no shifts to reset to draft."
-msgstr "Der er ingen vagter, der kan nulstilles til kladde."
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "This Progress Bar is not implemented."
-msgstr "Denne statuslinje er ikke implementeret."
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__was_copied
@@ -2807,7 +2514,7 @@ msgstr "Denne uge"
 #: code:addons/planning/static/src/views/planning_calendar/planning_ask_recurrence_update/planning_ask_recurrence_update_dialog.js:0
 #: model:ir.model.fields.selection,name:planning.selection__planning_slot__recurrence_update__subsequent
 msgid "This and following shifts"
-msgstr "Denne og følgende vagt"
+msgstr ""
 
 #. module: planning
 #. odoo-python
@@ -2816,14 +2523,12 @@ msgid ""
 "This employee is not expected to work during this period, either because "
 "they do not have a current contract or because they are on leave."
 msgstr ""
-"Det forventes ikke, at denne medarbejder arbejder i denne periode, enten "
-"fordi han ikke har en gældende kontrakt eller er på ferie."
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "This method must take two slots in argument."
-msgstr "Denne metode kræver to tidsintervaller som argumenter."
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
@@ -2831,21 +2536,19 @@ msgid ""
 "This open shift is no longer available, or the planning has been updated in "
 "the meantime. Please contact your manager for further information."
 msgstr ""
-"Denne ledige vagt er ikke længere tilgængelig, eller vagtplanen er blevet "
-"opdateret siden. Kontakt din overordnede for yderligere oplysninger."
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/views/planning_calendar/planning_ask_recurrence_update/planning_ask_recurrence_update_dialog.js:0
 #: model:ir.model.fields.selection,name:planning.selection__planning_slot__recurrence_update__this
 msgid "This shift"
-msgstr "Denne vagt"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/components/address_recurrency_confirmation_dialog/address_recurrency_confirmation_dialog.xml:0
 msgid "This shift is recurrent. Delete:"
-msgstr "Denne vagt forekommer gentagne gange. Slet:"
+msgstr ""
 
 #. module: planning
 #: model:digest.tip,name:planning.digest_tip_planning_0
@@ -2860,10 +2563,6 @@ msgid ""
 "passes by in order to always get shifts 6 months ahead. This value can be "
 "modified from the settings of Planning, in debug mode."
 msgstr ""
-"For at undgå overbelastning af databasen og ydelsesproblemer oprettes vagter "
-"kun for de kommende 6 måneder. Derefter oprettes de gradvist, så der altid "
-"er planlagt vagter 6 måneder frem i tiden. Denne periode kan ændres i "
-"planlægningsindstillingerne i fejlfindingstilstand."
 
 #. module: planning
 #. odoo-javascript
@@ -2886,7 +2585,7 @@ msgstr "Type"
 #. module: planning
 #: model:ir.model.fields.selection,name:planning.selection__res_company__planning_employee_unavailabilities__unassign
 msgid "Unassign themselves from shifts"
-msgstr "At afmelde sig selv fra vagter"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields.selection,name:planning.selection__planning_recurrency__repeat_type__until
@@ -2897,7 +2596,7 @@ msgstr "Indtil"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.unwanted_slots_list_template
 msgid "Unwanted Shifts Available"
-msgstr "Uønskede vagter er tilgængelige"
+msgstr ""
 
 #. module: planning
 #: model:ir.model.fields,help:planning.field_planning_recurrency__repeat_until
@@ -2920,7 +2619,7 @@ msgstr "Vis Plan"
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
 msgid "Waiter"
-msgstr "Tjener"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -2948,7 +2647,7 @@ msgstr "Arbejdssted"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_slot_template_view_form
 msgid "Working Days"
-msgstr "Arbejdsdage"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -2959,10 +2658,6 @@ msgid ""
 "needing to complete a mission. Then, assign those open shifts to the "
 "resources that are available.</i>"
 msgstr ""
-"Indtast den <b>rolle</b>, som din medarbejder skal varetage (<i>f.eks. kok, "
-"barpersonale, tjener</i>). <i>Tip: Opret åbne vagter for de roller, du har "
-"brug for til at udføre en opgave. Tildel derefter disse åbne vagter til de "
-"tilgængelige ressourcer.</i>"
 
 #. module: planning
 #: model:ir.model.fields.selection,name:planning.selection__planning_recurrency__repeat_unit__year
@@ -2974,7 +2669,7 @@ msgstr "År"
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "You are not allowed to reset shifts to draft."
-msgstr "Du har ikke tilladelse til at nulstille vagter til kladde."
+msgstr ""
 
 #. module: planning
 #. odoo-python
@@ -2992,44 +2687,43 @@ msgstr "Du kan ikke fraskrive en anden ansat end dig selv."
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "You cannot assign yourself to a shift in the past."
-msgstr "Du kan ikke tildele dig selv en vagt i fortiden."
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "You cannot cancel a request to switch made by another user."
 msgstr ""
-"Du kan ikke annullere en bytteanmodning, som er oprettet af en anden bruger."
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "You cannot cancel a request to switch that is in the past."
-msgstr "Du kan ikke annullere en bytteanmodning, der ligger i fortiden."
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "You cannot request to switch a shift that is assigned to another user."
-msgstr "Du kan ikke anmode om at bytte en vagt, der er tildelt en anden bruger."
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "You cannot switch a shift that is in the past."
-msgstr "Du kan ikke bytte en vagt, der allerede har fundet sted."
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "You cannot unassign yourself from a shift in the past."
-msgstr "Du kan ikke afmelde dig selv fra en vagt i fortiden."
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/js/planning_calendar_front.js:0
 msgid "You don't have any shifts planned yet."
-msgstr "Der er endnu ikke planlagt nogen vagter."
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
@@ -3038,26 +2732,24 @@ msgid ""
 "You don't have any shifts planned yet. You can assign yourself some of the "
 "available open shifts."
 msgstr ""
-"Du har endnu ikke planlagt nogen vagter. Du kan selv tage nogle af de ledige "
-"vagter."
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "You don't have the right to assign yourself to shifts."
-msgstr "Du har ikke tilladelse til at tildele dig selv vagter."
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "You don't have the right to cancel a request to switch."
-msgstr "Du har ikke tilladelse til at annullere en bytteanmodning."
+msgstr ""
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "You don't have the right to switch shifts."
-msgstr "Du har ikke tilladelse til at bytte vagter."
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.slot_unassign
@@ -3075,8 +2767,6 @@ msgid ""
 "Your planning from {{ format_date(ctx.get('start_datetime')) }} to "
 "{{ format_date(ctx.get('end_datetime')) }}"
 msgstr ""
-"Din planlægning fra {{ format_date(ctx.get('start_datetime')) }} til {{ "
-"format_date(ctx.get('end_datetime')) }}"
 
 #. module: planning
 #: model:mail.template,subject:planning.email_template_shift_switch_email
@@ -3084,14 +2774,12 @@ msgid ""
 "Your shift on {{ ctx.get('start_datetime') }} was re-assigned to "
 "{{ ctx.get('new_assignee_name', 'Marc Demo') }}"
 msgstr ""
-"Din vagt den {{ ctx.get('start_datetime') }} blev omfordelt til {{ ctx.get"
-"('new_assignee_name', 'Marc Demo') }}"
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/components/address_recurrency_confirmation_dialog/address_recurrency_confirmation_dialog.xml:0
 msgid "all shifts"
-msgstr "alle vagter"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
@@ -3101,25 +2789,25 @@ msgstr "luk"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
 msgid "days before the beginning of the shift"
-msgstr "dage før vagtens begyndelse"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.hr_employee_view_form_inherit
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_tree
 msgid "e.g. Bartender"
-msgstr "f.eks. Bartender"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_role_view_tree
 msgid "e.g. Cleaner"
-msgstr "f.eks. Rengøringsassistent"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.resource_resource_form_view_inherit
 #: model_terms:ir.ui.view,arch_db:planning.resource_resource_tree_view_inherit
 msgid "e.g. Crane"
-msgstr "f.eks. Kran"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.hr_employee_view_form_simplified
@@ -3136,13 +2824,13 @@ msgstr "andre vagt(er) i konflikt."
 #. odoo-javascript
 #: code:addons/planning/static/src/components/address_recurrency_confirmation_dialog/address_recurrency_confirmation_dialog.xml:0
 msgid "this and following shifts"
-msgstr "denne og følgende vagt"
+msgstr ""
 
 #. module: planning
 #. odoo-javascript
 #: code:addons/planning/static/src/components/address_recurrency_confirmation_dialog/address_recurrency_confirmation_dialog.xml:0
 msgid "this shift"
-msgstr "denne vagt"
+msgstr ""
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
@@ -3152,7 +2840,7 @@ msgstr "til"
 #. module: planning
 #: model:mail.template,subject:planning.email_template_slot_single
 msgid "{{ ctx.get('mail_subject', '') }} {{ ctx.get('start_datetime' , '') }}"
-msgstr "{{ ctx.get('mail_subject', '') }} {{ ctx.get('start_datetime' , '') }}"
+msgstr ""
 
 #~ msgid "04:00"
 #~ msgstr "04:00"

@@ -85,7 +85,6 @@ class AccountMove(models.Model):
                         'account_id': debit_pdiff_account.id,
                         'analytic_distribution': line.analytic_distribution,
                         'display_type': 'cogs',
-                        'tax_ids': [],
                     }
                     lines_vals_list.append(vals)
 
@@ -109,7 +108,6 @@ class AccountMove(models.Model):
                         'account_id': line.account_id.id,
                         'analytic_distribution': line.analytic_distribution,
                         'display_type': 'cogs',
-                        'tax_ids': [],
                     }
                     lines_vals_list.append(vals)
         return lines_vals_list

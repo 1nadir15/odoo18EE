@@ -4,67 +4,63 @@
 #
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2017
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
-# Bone NI <bounkirdni@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 16:01+0000\n"
-"PO-Revision-Date: 2026-05-19 10:55+0000\n"
-"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
-"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/hr_appraisal/"
-"lo/>\n"
+"PO-Revision-Date: 2017-10-02 11:49+0000\n"
+"Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
+"Language-Team: Lao (https://www.transifex.com/odoo/teams/41243/lo/)\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17\n"
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "%(user)s decided, as %(role)s, to publish the employee's feedback"
-msgstr "%(user)s ຕັດສິນໃຈ, ໃນນາມ %(role)s, ເພື່ອເຜີຍແຜ່ຄຳຄິດຄຳເຫັນຂອງພະນັກງານ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "%s Goals"
-msgstr "%s ເປົ້າໝາຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "1 Meeting"
-msgstr "1 ການປະຊຸມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_goal__progression__100
 msgid "100%"
-msgstr "100%"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_goal__progression__025
 msgid "25%"
-msgstr "25%"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_config_settings__module_hr_appraisal_survey
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "360 Feedback"
-msgstr "ຄຳຄິດຄຳເຫັນແບບ 360 ອົງສາ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_goal__progression__050
 msgid "50%"
-msgstr "50%"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_goal__progression__075
 msgid "75%"
-msgstr "75%"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:mail.template,body_html:hr_appraisal.mail_template_appraisal_confirm
@@ -86,27 +82,6 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
-"<div style=\"margin: 0px; padding: 0px;\">\n"
-"                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">"
-"\n"
-"                        ການປະເມີນຜົນຂອງ <t t-out=\"ctx.get('employee_to_name', "
-"'employee')\">ພະນັກງານ</t> ໄດ້ຮັບການຢືນຢັນແລ້ວ.\n"
-"                        <br><br>\n"
-"                        ກະລຸນານັດໝາຍວັນທີປະເມີນຜົນຮ່ວມກັນ.\n"
-"                        <br><br>\n"
-"                        <t t-if=\"ctx.get('recipient_users')\">\n"
-"                            <p style=\"margin: 16px 0px 16px 0px; text-"
-"align: center;\">\n"
-"                                <a t-att-href=\"ctx.get('url')\" "
-"style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-"
-"decoration: none; color: #fff; border-radius: 5px;\">\n"
-"                                    ເບິ່ງການປະເມີນຜົນ\n"
-"                                </a>\n"
-"                            </p>\n"
-"                        </t>\n"
-"                    </p>\n"
-"                </div>\n"
-"            "
 
 #. module: hr_appraisal
 #: model:mail.template,body_html:hr_appraisal.mail_template_appraisal_request_from_employee
@@ -132,35 +107,6 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
-"<div style=\"margin: 0px; padding: 0px;\">\n"
-"                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">"
-"\n"
-"                        ຮຽນ <t t-out=\"ctx.get('employee_to_name', "
-"'employee')\">ພະນັກງານ</t>,\n"
-"                        <br>\n"
-"                        <t t-out=\"ctx.get('author_name', '')\">Addison "
-"Olson</t> (<t t-out=\"ctx.get('author_mail', '')\">"
-"addison.olson28@example.com</t>) ມີຄວາມປະສົງຂໍຮັບການປະເມີນຜົນ.\n"
-"                        <t t-if=\"ctx.get('user_body')\">\n"
-"                            <div style=\"margin: 16px 0px 16px 0px; padding: "
-"8px 16px 8px 16px; background-color: #F1F1F1;\">\n"
-"                                <t t-out=\"ctx.get('user_body')\">ການປະເມີນຜົນປ"
-"ະຈຳປີ.</t>\n"
-"                            </div>\n"
-"                        </t>\n"
-"                        <t t-if=\"ctx.get('recipient_users')\">\n"
-"                            <p style=\"margin: 16px 0px 16px 0px; padding: "
-"8px 16px 8px 16px; text-align: center;\">\n"
-"                                <a t-att-t-att-href=\"ctx.get('url')\" "
-"style=\" margin: auto; background-color:#875A7B; padding: 8px 16px 8px 16px; "
-"text-decoration: none; color: #fff; border-radius: 5px;\">\n"
-"                                    ເບິ່ງການປະເມີນຜົນ\n"
-"                                </a>\n"
-"                            </p>\n"
-"                        </t>\n"
-"                    </p>\n"
-"                </div>\n"
-"            "
 
 #. module: hr_appraisal
 #: model:mail.template,body_html:hr_appraisal.mail_template_appraisal_request
@@ -189,38 +135,6 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
-"<div style=\"margin: 0px; padding: 0px;\">\n"
-"                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">"
-"\n"
-"                        ຮຽນ <t t-out=\"ctx.get('employee_to_name', "
-"'employee')\">ພະນັກງານ</t>,\n"
-"                        <br>\n"
-"                        ມີການຮ້ອງຂໍການປະເມີນຜົນໂດຍ <t t-out=\"ctx.get"
-"('author_name', '')\">Addison Olson</t>\n"
-"                        <br>\n"
-"                        (<t t-out=\"ctx.get('author_mail', '')\">"
-"addison.olson28@example.com</t>).\n"
-"                        <t t-if=\"ctx.get('user_body')\">\n"
-"                            <div style=\"margin: 16px 0px 16px 0px; padding: "
-"8px 16px 8px 16px; background-color: #F1F1F1;\">\n"
-"                                <t t-out=\"ctx.get('user_body')\">ການປະເມີນຜົນປ"
-"ະຈຳປີ.</t>\n"
-"                            </div>\n"
-"                        </t>\n"
-"                        <t t-if=\"ctx.get('recipient_users')\">\n"
-"                            <p style=\"margin: 16px 0px 16px 0px; padding: "
-"8px 16px 8px 16px; text-align: center;\">\n"
-"                                <a t-att-t-att-href=\"ctx.get('url')\" "
-"style=\" margin: auto; background-color:#875A7B; padding: 8px 16px 8px 16px; "
-"text-decoration: none; color: #fff; border-radius: 5px;\">\n"
-"                                    ເບິ່ງການປະເມີນຜົນ\n"
-"                                </a>\n"
-"                            </p>\n"
-"                        </t>\n"
-"                        <br>\n"
-"                    </p>\n"
-"                </div>\n"
-"            "
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -230,10 +144,6 @@ msgid ""
 "                the company.\n"
 "            </em>"
 msgstr ""
-"<em>\n"
-"                ອະທິບາຍບາງຢ່າງທີ່ເຮັດໃຫ້ທ່ານພູມໃຈ, ຜົນງານທີ່ມີຜົນບວກຕໍ່\n"
-"                ບໍລິສັດ.\n"
-"            </em>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -243,10 +153,6 @@ msgid ""
 "                obstacles?\n"
 "            </em>"
 msgstr ""
-"<em>\n"
-"                ທ່ານໄດ້ພົບກັບຄວາມຫຍຸ້ງຍາກໃໝ່ໆບໍ່? ທ່ານໄດ້ປະເຊີນໜ້າກັບ\n"
-"                ອຸປະສັກໃໝ່ໆບໍ່?\n"
-"            </em>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -256,10 +162,6 @@ msgid ""
 "                you enjoy the most/the least?\n"
 "            </em>"
 msgstr ""
-"<em>\n"
-"                ທຸກໆວຽກລ້ວນແຕ່ມີຈຸດເດັ່ນ, ໃນຄວາມຄິດເຫັນຂອງທ່ານ, ວຽກໃດທີ່\n"
-"                ທ່ານມັກຫຼາຍທີ່ສຸດ/ໜ້ອຍທີ່ສຸດ?\n"
-"            </em>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
@@ -269,10 +171,6 @@ msgid ""
 "                overcome their weaknesses?\n"
 "            </em>"
 msgstr ""
-"<em>\n"
-"                ໃນມຸມມອງຂອງຜູ້ຈັດການ, ທ່ານຈະຊ່ວຍພະນັກງານແນວໃດເພື່ອ\n"
-"                ຜ່ານຜ່າຈຸດອ່ອນຂອງພວກເຂົາ?\n"
-"            </em>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -282,10 +180,6 @@ msgid ""
 "                for you to reach your goals and look for the best collaboration.\n"
 "            </em>"
 msgstr ""
-"<em>\n"
-"                ບໍລິສັດຈະຊ່ວຍທ່ານແນວໃດໃນເລື່ອງຄວາມຕ້ອງການ ແລະ ຈຸດປະສົງ ເພື່ອ\n"
-"                ໃຫ້ທ່ານບັນລຸເປົ້າໝາຍ ແລະ ສ້າງການຮ່ວມມືທີ່ດີທີ່ສຸດ.\n"
-"            </em>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
@@ -295,10 +189,6 @@ msgid ""
 "                employee's desire?\n"
 "            </em>"
 msgstr ""
-"<em>\n"
-"                ທ່ານເບິ່ງອະນາຄົດຂອງພະນັກງານແນວໃດ, ວິໄສທັດຂອງທ່ານສອດຄ່ອງກັບ\n"
-"                ຄວາມຕ້ອງການຂອງພະນັກງານບໍ່?\n"
-"            </em>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
@@ -308,15 +198,11 @@ msgid ""
 "                issues.\n"
 "            </em>"
 msgstr ""
-"<em>\n"
-"                ຜົນສຳເລັດບາງຢ່າງທີ່ເຮັດໃຫ້ທ່ານໝັ້ນໃຈໃນຈຸດແຂງຂອງພວກເຂົາເພື່ອຮັບມືກັບ\n"
-"                ບັນຫາໃນວຽກ.\n"
-"            </em>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
 msgid "<em>Autonomy</em>"
-msgstr "<em>ຄວາມເປັນເອກະລາດໃນການເຮັດວຽກ</em>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -326,29 +212,21 @@ msgid ""
 "                    <i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/>\n"
 "                </span>"
 msgstr ""
-"<em>ວັດທະນະທຳ/ພຶດຕິກຳ:</em>\n"
-"                <span class=\"o_stars o_five_stars\" id=\"checkId-1\">\n"
-"                    <i class=\"fa fa-star-o\" contenteditable=\"false\"/><i "
-"class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/>\n"
-"                </span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
 msgid "<em>Do you need rapid answer to the current situation?</em>"
-msgstr "<em>ທ່ານຕ້ອງການຄຳຕອບທີ່ວ່ອງໄວຕໍ່ສະຖານະການໃນປະຈຸບັນບໍ່?</em>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
 msgid "<em>Give an example of long-term objective (&gt; 6 months)</em>"
-msgstr "<em>ຍົກຕົວຢ່າງເປົ້າໝາຍໄລຍະຍາວ (&gt; 6 ເດືອນ)</em>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
 msgid "<em>Give an example of short-term objective (&lt; 6 months)</em>"
-msgstr "<em>ຍົກຕົວຢ່າງເປົ້າໝາຍໄລຍະສັ້ນ (&lt; 6 ເດືອນ)</em>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -358,14 +236,6 @@ msgid ""
 "                    <i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/>\n"
 "                </span>"
 msgstr ""
-"<em>ການສື່ສານພາຍໃນ:</em>\n"
-"                <span class=\"o_stars o_five_stars\" id=\"checkId-2\">\n"
-"                    <i class=\"fa fa-star-o\" contenteditable=\"false\"/><i "
-"class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/>\n"
-"                </span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -375,19 +245,11 @@ msgid ""
 "                    <i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/>\n"
 "                </span>"
 msgstr ""
-"<em>ເນື້ອໃນຂອງວຽກ:</em>\n"
-"                <span class=\"o_stars o_five_stars\" id=\"checkId-3\">\n"
-"                    <i class=\"fa fa-star-o\" contenteditable=\"false\"/><i "
-"class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/>\n"
-"                </span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
 msgid "<em>Pro-activity</em>"
-msgstr "<em>ການເຮັດວຽກແບບກະຕືລືລົ້ນ</em>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -397,29 +259,21 @@ msgid ""
 "                    <i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/>\n"
 "                </span>"
 msgstr ""
-"<em>ຄ່າຕອບແທນ:</em>\n"
-"                <span class=\"o_stars o_five_stars\" id=\"checkId-5\">\n"
-"                    <i class=\"fa fa-star-o\" contenteditable=\"false\"/><i "
-"class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/>\n"
-"                </span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
 msgid "<em>Stress Resistance</em>"
-msgstr "<em>ຄວາມອົດທົນຕໍ່ຄວາມກົດດັນ</em>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
 msgid "<em>Teamwork</em>"
-msgstr "<em>ການເຮັດວຽກເປັນທີມ</em>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
 msgid "<em>Time Management</em>"
-msgstr "<em>ການຈັດການເວລາ</em>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -429,14 +283,6 @@ msgid ""
 "                    <i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" contenteditable=\"false\"/>\n"
 "                </span>"
 msgstr ""
-"<em>ການຈັດຕັ້ງວຽກ:</em>\n"
-"                <span class=\"o_stars o_five_stars\" id=\"checkId-4\">\n"
-"                    <i class=\"fa fa-star-o\" contenteditable=\"false\"/><i "
-"class=\"fa fa-star-o\" contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/><i class=\"fa fa-star-o\" "
-"contenteditable=\"false\"/>\n"
-"                </span>"
 
 #. module: hr_appraisal
 #. odoo-python
@@ -448,12 +294,6 @@ msgid ""
 "                            Plan appraisals with your colleagues, collect and discuss feedback.\n"
 "                        </p>"
 msgstr ""
-"<p class=\"o_view_nocontent_smiling_face\">\n"
-"                            ນັດໝາຍການປະເມີນຜົນ\n"
-"                        </p><p>\n"
-"                            ວາງແຜນການປະເມີນຜົນກັບເພື່ອນຮ່ວມງານຂອງທ່ານ, ເກັບກຳ ແລະ ສົນທ"
-"ະນາຄຳຄິດຄຳເຫັນ.\n"
-"                        </p>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_employee_view_form
@@ -463,35 +303,32 @@ msgid ""
 "                            Last Appraisal\n"
 "                        </span>"
 msgstr ""
-"<span class=\"o_stat_text\">\n"
-"                            ການປະເມີນຄັ້ງລ່າສຸດ\n"
-"                        </span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "<span class=\"o_stat_text\">Appraisals</span>"
-msgstr "<span class=\"o_stat_text\">ການປະເມີນຜົນ</span>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "<span class=\"o_stat_text\">Goals</span>"
-msgstr "<span class=\"o_stat_text\">ເປົ້າໝາຍ</span>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_kanban
 msgid "<span class=\"text-bg-info\">Ready</span>"
-msgstr "<span class=\"text-bg-info\">ພ້ອມແລ້ວ</span>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_kanban
 msgid "<span class=\"text-bg-secondary\">Canceled</span>"
-msgstr "<span class=\"text-bg-secondary\">ຍົກເລີກແລ້ວ</span>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_kanban
 msgid "<span class=\"text-bg-success\">Done</span>"
-msgstr "<span class=\"text-bg-success\">ສຳເລັດແລ້ວ</span>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
@@ -499,12 +336,6 @@ msgid ""
 "<span class=\"text-end\" attrs=\"{'invisible': ['|', ('manager_feedback_published', '=', True), ('can_see_manager_publish', '=', False)]}\">Not Visible to Employee</span>\n"
 "                                                <span class=\"text-end\" attrs=\"{'invisible': ['|', ('manager_feedback_published', '=', False), ('can_see_manager_publish', '=', False)]}\">Visible to Employee</span>"
 msgstr ""
-"<span class=\"text-end\" attrs=\"{'invisible': ['|', "
-"('manager_feedback_published', '=', True), ('can_see_manager_publish', '=', "
-"False)]}\">ພະນັກງານບໍ່ສາມາດເຫັນໄດ້</span>\n"
-"                                                <span class=\"text-end\" "
-"attrs=\"{'invisible': ['|', ('manager_feedback_published', '=', False), "
-"('can_see_manager_publish', '=', False)]}\">ພະນັກງານສາມາດເຫັນໄດ້</span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
@@ -512,11 +343,6 @@ msgid ""
 "<span class=\"text-end\" attrs=\"{'invisible': [('employee_feedback_published', '=', True)]}\">Not Visible to Manager</span>\n"
 "                                                <span class=\"text-end\" attrs=\"{'invisible': [('employee_feedback_published', '=', False)]}\">Visible to Manager</span>"
 msgstr ""
-"<span class=\"text-end\" attrs=\"{'invisible': ["
-"('employee_feedback_published', '=', True)]}\">ຜູ້ຈັດການບໍ່ສາມາດເຫັນໄດ້</span>\n"
-"                                                <span class=\"text-end\" "
-"attrs=\"{'invisible': [('employee_feedback_published', '=', False)]}\">ຜູ້ຈັດການ"
-"ສາມາດເຫັນໄດ້</span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
@@ -525,9 +351,6 @@ msgid ""
 "                Evaluation\n"
 "            </span>"
 msgstr ""
-"<span style=\"font-weight: bolder;\">\n"
-"                ການປະເມີນຜົນ\n"
-"            </span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
@@ -536,9 +359,6 @@ msgid ""
 "                Feedback\n"
 "            </span>"
 msgstr ""
-"<span style=\"font-weight: bolder;\">\n"
-"                ຄຳຄິດຄຳເຫັນ\n"
-"            </span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
@@ -547,9 +367,6 @@ msgid ""
 "                Improvements\n"
 "            </span>"
 msgstr ""
-"<span style=\"font-weight: bolder;\">\n"
-"                ການປັບປຸງ\n"
-"            </span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -558,9 +375,6 @@ msgid ""
 "                My feelings\n"
 "            </span>"
 msgstr ""
-"<span style=\"font-weight: bolder;\">\n"
-"                ຄວາມຮູ້ສຶກຂອງຂ້ອຍ\n"
-"            </span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -569,9 +383,6 @@ msgid ""
 "                My future\n"
 "            </span>"
 msgstr ""
-"<span style=\"font-weight: bolder;\">\n"
-"                ອະນາຄົດຂອງຂ້ອຍ\n"
-"            </span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -580,65 +391,62 @@ msgid ""
 "                My work\n"
 "            </span>"
 msgstr ""
-"<span style=\"font-weight: bolder;\">\n"
-"                ວຽກຂອງຂ້ອຍ\n"
-"            </span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_kanban
 msgid "<strong><span>Meeting: </span></strong>"
-msgstr "<strong><span>ການປະຊຸມ: </span></strong>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_report_view_gantt
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_view_gantt
 msgid "<strong>Date — </strong>"
-msgstr "<strong>ວັນທີ — </strong>"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__message_needaction
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__message_needaction
 msgid "Action Needed"
-msgstr "ຕ້ອງດຳເນີນການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__active
 msgid "Active"
-msgstr "ເປີດໃຊ້"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__activity_ids
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__activity_ids
 msgid "Activities"
-msgstr "ກິດຈະກຳ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__activity_exception_decoration
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "ການຕົກແຕ່ງກິດຈະກຳທີ່ຍົກເວັ້ນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__activity_state
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__activity_state
 msgid "Activity State"
-msgstr "ສະຖານະກິດຈະກຳ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__activity_type_icon
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "ໄອຄອນປະເພດກິດຈະກຳ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.request_appraisal_view_form
 msgid "Add existing contacts..."
-msgstr "ເພີ່ມລາຍຊື່ຜູ້ຕິດຕໍ່ທີ່ມີຢູ່..."
+msgstr ""
 
 #. module: hr_appraisal
 #: model:res.groups,name:hr_appraisal.group_hr_appraisal_manager
 msgid "Administrator"
-msgstr "ຜູ້ດູແລລະບົບ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.actions.act_window,name:hr_appraisal.hr_appraisal_action
@@ -650,7 +458,7 @@ msgstr "ຜູ້ດູແລລະບົບ"
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_tree
 msgid "Appraisal"
-msgstr "ການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.actions.act_window,name:hr_appraisal.action_appraisal_report_all
@@ -661,116 +469,116 @@ msgstr "ການປະເມີນຜົນ"
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_pivot
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "Appraisal Analysis"
-msgstr "ການວິເຄາະການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_hr_appraisal_note
 msgid "Appraisal Assessment Note"
-msgstr "ບັນທຶກການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_company__appraisal_confirm_mail_template
 msgid "Appraisal Confirm Mail Template"
-msgstr "ແມ່ແບບອີເມລຢືນຢັນການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__employee_appraisal_count
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee__appraisal_count
 msgid "Appraisal Count"
-msgstr "ຈຳນວນການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__date_close
 msgid "Appraisal Date"
-msgstr "ວັນທີປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__employee_id
 msgid "Appraisal Employee"
-msgstr "ພະນັກງານທີ່ຖືກປະເມີນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_company__appraisal_employee_feedback_template
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_config_settings__appraisal_employee_feedback_template
 msgid "Appraisal Employee Feedback Template"
-msgstr "ແມ່ແບບຄຳຄິດຄຳເຫັນຂອງພະນັກງານໃນການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Appraisal Form to Fill"
-msgstr "ແບບຟອມການປະເມີນຜົນທີ່ຕ້ອງຕື່ມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_hr_appraisal_goal
 msgid "Appraisal Goal"
-msgstr "ເປົ້າໝາຍການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_company__appraisal_manager_feedback_template
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_config_settings__appraisal_manager_feedback_template
 msgid "Appraisal Manager Feedback Template"
-msgstr "ແມ່ແບບຄຳຄິດຄຳເຫັນຂອງຜູ້ຈັດການໃນການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Appraisal Officer"
-msgstr "ເຈົ້າໜ້າທີ່ການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__appraisal_plan_posted
 msgid "Appraisal Plan Posted"
-msgstr "ລົງແຜນການປະເມີນຜົນແລ້ວ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Appraisal Request"
-msgstr "ການຮ້ອງຂໍການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:mail.template,subject:hr_appraisal.mail_template_appraisal_request
 msgid "Appraisal Requested"
-msgstr "ຮ້ອງຂໍການປະເມີນຜົນແລ້ວ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_report__state__pending
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "Appraisal Sent"
-msgstr "ສົ່ງການປະເມີນຜົນແລ້ວ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_hr_appraisal_report
 msgid "Appraisal Statistics"
-msgstr "ສະຖິຕິການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_department_view_form
 msgid "Appraisal Templates"
-msgstr "ແມ່ແບບການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Appraisal of %s"
-msgstr "ການປະເມີນຜົນຂອງ %s"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/res_company.py:0
 msgid "Appraisal to Confirm and Send"
-msgstr "ການປະເມີນຜົນທີ່ຕ້ອງຢືນຢັນ ແລະ ສົ່ງ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.actions.act_window,name:hr_appraisal.hr_appraisal_action_from_department
 msgid "Appraisal to start"
-msgstr "ການປະເມີນຜົນທີ່ຈະເລີ່ມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.actions.server,name:hr_appraisal.ir_cron_scheduler_appraisal_ir_actions_server
 msgid "Appraisal: Run employee appraisal"
-msgstr "ການປະເມີນຜົນ: ດຳເນີນການປະເມີນຜົນພະນັກງານ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.actions.act_window,name:hr_appraisal.open_view_hr_appraisal_tree
@@ -780,133 +588,133 @@ msgstr "ການປະເມີນຜົນ: ດຳເນີນການປະ�
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_departure_wizard_view_form
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "Appraisals"
-msgstr "ການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "Appraisals Plans"
-msgstr "ແຜນການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_department__appraisals_to_process_count
 msgid "Appraisals to Process"
-msgstr "ການປະເມີນຜົນທີ່ຕ້ອງດຳເນີນການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "Archived"
-msgstr "ເກັບໄວ້ແລ້ວ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "Ask to fill a survey to other employees"
-msgstr "ຂໍໃຫ້ພະນັກງານຄົນອື່ນຕື່ມແບບສອບຖາມ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Assessment"
-msgstr "ການປະເມີນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_company__assessment_note_ids
 msgid "Assessment Note"
-msgstr "ບັນທຶກການປະເມີນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__message_attachment_count
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__message_attachment_count
 msgid "Attachment Count"
-msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__author_id
 msgid "Author"
-msgstr "ຜູ້ຂຽນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_company__appraisal_plan
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_config_settings__appraisal_plan
 msgid "Automatically Generate Appraisals"
-msgstr "ສ້າງການປະເມີນຜົນໂດຍອັດຕະໂນມັດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "Automatically generate appraisals"
-msgstr "ສ້າງການປະເມີນຜົນໂດຍອັດຕະໂນມັດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__avatar_1920
 msgid "Avatar"
-msgstr "ຮູບແທນຕົວ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__avatar_128
 msgid "Avatar 128"
-msgstr "ຮູບແທນຕົວ 128"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_hr_employee_base
 msgid "Basic Employee"
-msgstr "ຂໍ້ມູນພະນັກງານເບື້ອງຕົ້ນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__body_has_template_value
 msgid "Body content is the same as tmeplate"
-msgstr "ເນື້ອໃນຂໍ້ຄວາມຄືກັນກັບແມ່ແບບ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_calendar_event
 msgid "Calendar Event"
-msgstr "ເຫດການໃນປະຕິທິນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__can_edit_body
 msgid "Can Edit Body"
-msgstr "ສາມາດແກ້ໄຂເນື້ອໃນໄດ້"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__can_see_employee_publish
 msgid "Can See Employee Publish"
-msgstr "ສາມາດເຫັນສິ່ງທີ່ພະນັກງານເຜີຍແຜ່"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__can_see_manager_publish
 msgid "Can See Manager Publish"
-msgstr "ສາມາດເຫັນສິ່ງທີ່ຜູ້ຈັດການເຜີຍແຜ່"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.request_appraisal_view_form
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "Cancel"
-msgstr "ຍົກເລີກ"
+msgstr "ຍົກເລີອກ"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_departure_wizard__cancel_appraisal
 msgid "Cancel Future Appraisals"
-msgstr "ຍົກເລີກການປະເມີນຜົນໃນອະນາຄົດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_departure_wizard__cancel_appraisal
 msgid "Cancel all appraisal after contract end date."
-msgstr "ຍົກເລີກການປະເມີນຜົນທັງໝົດຫຼັງຈາກວັນທີສິ້ນສຸດສັນຍາ."
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal__state__cancel
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_report__state__cancel
 msgid "Cancelled"
-msgstr "ຍົກເລີກແລ້ວ"
+msgstr "ຍົກເລີກ"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_report__color
 msgid "Color"
-msgstr "ສີ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_res_company
 msgid "Companies"
-msgstr "ບໍລິສັດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__company_id
@@ -917,65 +725,65 @@ msgstr "ບໍລິສັດ"
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.request_appraisal_view_form
 msgid "Compose Email"
-msgstr "ຂຽນອີເມລ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_res_config_settings
 msgid "Config Settings"
-msgstr "ການຕັ້ງຄ່າ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.ui.menu,name:hr_appraisal.menu_hr_appraisal_configuration
 msgid "Configuration"
-msgstr "ການກໍານົດຄ່າ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "Configure General Feedback Template"
-msgstr "ຕັ້ງຄ່າແມ່ແບບຄຳຄິດຄຳເຫັນທົ່ວໄປ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "Confirm"
-msgstr "ຢືນຢັນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal__state__pending
 msgid "Confirmed"
-msgstr "ຢືນຢັນແລ້ວ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__body
 msgid "Contents"
-msgstr "ເນື້ອໃນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_report__create_date
 msgid "Create Date"
-msgstr "ວັນທີສ້າງ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_company__duration_first_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_config_settings__duration_first_appraisal
 msgid "Create a first Appraisal after"
-msgstr "ສ້າງການປະເມີນຜົນຄັ້ງທຳອິດຫຼັງຈາກ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_company__duration_next_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_config_settings__duration_next_appraisal
 msgid "Create a second Appraisal after"
-msgstr "ສ້າງການປະເມີນຜົນຄັ້ງທີສອງຫຼັງຈາກ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_company__duration_after_recruitment
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_config_settings__duration_after_recruitment
 msgid "Create an Appraisal after recruitment"
-msgstr "ສ້າງການປະເມີນຜົນຫຼັງຈາກການຮັບພະນັກງານ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.actions.act_window,help:hr_appraisal.action_hr_appraisal_goal
 msgid "Create new goals"
-msgstr "ສ້າງເປົ້າໝາຍໃໝ່"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__create_uid
@@ -983,7 +791,7 @@ msgstr "ສ້າງເປົ້າໝາຍໃໝ່"
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_note__create_uid
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__create_uid
 msgid "Created by"
-msgstr "ສ້າງໂດຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__create_date
@@ -991,51 +799,50 @@ msgstr "ສ້າງໂດຍ"
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_note__create_date
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__create_date
 msgid "Created on"
-msgstr "ສ້າງເມື່ອ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "Creation Date"
-msgstr "ວັນທີສ້າງ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_department__custom_appraisal_templates
 msgid "Custom Appraisal Templates"
-msgstr "ແມ່ແບບການປະເມີນຜົນແບບກຳນົດເອງ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "Date"
-msgstr "ວັນທີ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__date_close
 msgid "Date of the appraisal, automatically updated when the appraisal is Done or Cancelled."
 msgstr ""
-"ວັນທີປະເມີນຜົນ, ຈະຖືກອັບເດດໂດຍອັດຕະໂນມັດເມື່ອການປະເມີນສຳເລັດ ຫຼື ຖືກຍົກເລີກ."
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__deadline
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_report__deadline
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_search
 msgid "Deadline"
-msgstr "ກຳນົດເວລາ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_view_activity
 msgid "Deadline:"
-msgstr "ກຳນົດເວລາ:"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal_goal.py:0
 msgid "Deadline: %s"
-msgstr "ກຳນົດເວລາ: %s"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_kanban
 msgid "Delete"
-msgstr "ລຶບ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_hr_department
@@ -1043,18 +850,18 @@ msgstr "ລຶບ"
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_report__department_id
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "Department"
-msgstr "ພະແນກ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_hr_departure_wizard
 msgid "Departure Wizard"
-msgstr "ຕົວຊ່ວຍການລາອອກ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__description
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_form
 msgid "Description"
-msgstr "ຄຳອະທິບາຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__display_name
@@ -1063,7 +870,7 @@ msgstr "ຄຳອະທິບາຍ"
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_report__display_name
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__display_name
 msgid "Display Name"
-msgstr "ຊື່ທີ່ສະແດງ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal__state__done
@@ -1072,7 +879,7 @@ msgstr "ຊື່ທີ່ສະແດງ"
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "Done"
-msgstr "ສຳເລັດແລ້ວ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_hr_employee
@@ -1083,117 +890,117 @@ msgstr "ສຳເລັດແລ້ວ"
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_department_view_form
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "Employee"
-msgstr "ພະນັກງານ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_hr_appraisal
 msgid "Employee Appraisal"
-msgstr "ການປະເມີນຜົນພະນັກງານ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__employee_autocomplete_ids
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__employee_autocomplete_ids
 msgid "Employee Autocomplete"
-msgstr "ຕື່ມຂໍ້ມູນພະນັກງານອັດຕະໂນມັດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__employee_feedback
 msgid "Employee Feedback"
-msgstr "ຄຳຄິດຄຳເຫັນຂອງພະນັກງານ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__employee_feedback_published
 msgid "Employee Feedback Published"
-msgstr "ຄຳຄິດຄຳເຫັນຂອງພະນັກງານຖືກເຜີຍແຜ່ແລ້ວ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__employee_feedback_template
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_department__employee_feedback_template
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "Employee Feedback Template"
-msgstr "ແມ່ແບບຄຳຄິດຄຳເຫັນຂອງພະນັກງານ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_report__name
 msgid "Employee Name"
-msgstr "ຊື່ພະນັກງານ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__employee_user_id
 msgid "Employee User"
-msgstr "ຜູ້ໃຊ້ພະນັກງານ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "Employee's Feedback"
-msgstr "ຄຳຄິດຄຳເຫັນຂອງພະນັກງານ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.actions.act_window,name:hr_appraisal.action_hr_appraisal_note
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_config_settings__assessment_note_ids
 #: model:ir.ui.menu,name:hr_appraisal.menu_hr_appraisal_note
 msgid "Evaluation Scale"
-msgstr "ເກນການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/res_company.py:0
 msgid "Exceeds expectations"
-msgstr "ເກີນຄວາມຄາດໝາຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "Extended Filters..."
-msgstr "ຕົວຕອງເພີ່ມເຕີມ..."
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "Feedback Templates"
-msgstr "ແມ່ແບບຄຳຄິດຄຳເຫັນ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Fill appraisal for %s"
-msgstr "ຕື່ມແບບປະເມີນຜົນໃຫ້ %s"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__date_final_interview
 msgid "Final Interview"
-msgstr "ການສຳພາດຄັ້ງສຸດທ້າຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "Final Interview Date"
-msgstr "ວັນທີສຳພາດຄັ້ງສຸດທ້າຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__assessment_note
 msgid "Final Rating"
-msgstr "ຄະແນນສຸດທ້າຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__message_follower_ids
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__message_follower_ids
 msgid "Followers"
-msgstr "ຜູ້ຕິດຕາມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__message_partner_ids
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຮ່ວມງານ)"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__activity_type_icon
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal_goal__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "ໄອຄອນ Font awesome ເຊັ່ນ: fa-tasks"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
 msgid "Future Activities"
-msgstr "ກິດຈະກຳໃນອະນາຄົດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
@@ -1201,66 +1008,64 @@ msgid ""
 "Give one positive achievement that convinced you of the employee's\n"
 "            value."
 msgstr ""
-"ຍົກຕົວຢ່າງຜົນສຳເລັດທີ່ດີຢ່າງໜຶ່ງທີ່ເຮັດໃຫ້ທ່ານໝັ້ນໃຈໃນ\n"
-"            ຄຸນຄ່າຂອງພະນັກງານ."
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_form
 msgid "Goal"
-msgstr "ເປົ້າໝາຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.actions.act_window,name:hr_appraisal.action_hr_appraisal_goal
 #: model:ir.ui.menu,name:hr_appraisal.menu_hr_appraisal_goal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_graph
 msgid "Goals"
-msgstr "ເປົ້າໝາຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "Group By"
-msgstr "ຈັດກຸ່ມໂດຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
 msgid "Group by..."
-msgstr "ຈັດກຸ່ມໂດຍ..."
+msgstr ""
 
 #. module: hr_appraisal
 #: model:mail.template,name:hr_appraisal.mail_template_appraisal_confirm
 msgid "HR: Appraisal Confirmation"
-msgstr "HR: ການຢືນຢັນການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:mail.template,name:hr_appraisal.mail_template_appraisal_request_from_employee
 msgid "HR: Employee Appraisal Request"
-msgstr "HR: ການຮ້ອງຂໍການປະເມີນຜົນຈາກພະນັກງານ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:mail.template,name:hr_appraisal.mail_template_appraisal_request
 msgid "HR: Manager appraisal request"
-msgstr "HR: ການຮ້ອງຂໍການປະເມີນຜົນຈາກຜູ້ຈັດການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__has_message
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__has_message
 msgid "Has Message"
-msgstr "ມີຂໍ້ຄວາມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
 msgid "How could the employee improve?"
-msgstr "ພະນັກງານຈະປັບປຸງໃຫ້ດີຂຶ້ນໄດ້ແນວໃດ?"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
 msgid "How do I feel about my own..."
-msgstr "ຂ້ອຍຮູ້ສຶກແນວໃດຕໍ່ກັບຂອງຂ້ອຍເອງ..."
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
 msgid "How do I feel about the company..."
-msgstr "ຂ້ອຍຮູ້ສຶກແນວໃດຕໍ່ກັບບໍລິສັດ..."
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__id
@@ -1269,83 +1074,83 @@ msgstr "ຂ້ອຍຮູ້ສຶກແນວໃດຕໍ່ກັບບໍລ
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_report__id
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__id
 msgid "ID"
-msgstr "ລະຫັດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__activity_exception_icon
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__activity_exception_icon
 msgid "Icon"
-msgstr "ໄອຄອນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__activity_exception_icon
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal_goal__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "ໄອຄອນເພື່ອບົ່ງບອກກິດຈະກຳທີ່ຍົກເວັ້ນ."
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__message_needaction
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal_goal__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "ຖ້າໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຈະຕ້ອງໄດ້ຮັບຄວາມສົນໃຈຈາກທ່ານ."
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__message_has_error
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal_goal__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "ຖ້າໝາຍໄວ້, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__image_1920
 msgid "Image"
-msgstr "ຮູບພາບ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__image_128
 msgid "Image 128"
-msgstr "ຮູບພາບ 128"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "In progress Evaluations"
-msgstr "ການປະເມີນທີ່ກຳລັງດຳເນີນການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_report__final_interview
 msgid "Interview"
-msgstr "ການສຳພາດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__is_appraisal_manager
 msgid "Is Appraisal Manager"
-msgstr "ແມ່ນຜູ້ຈັດການການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__is_mail_template_editor
 msgid "Is Editor"
-msgstr "ແມ່ນຜູ້ແກ້ໄຂ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__message_is_follower
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__message_is_follower
 msgid "Is Follower"
-msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__is_implicit_manager
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__is_implicit_manager
 msgid "Is Implicit Manager"
-msgstr "ແມ່ນຜູ້ຈັດການໂດຍທາງອ້ອມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__is_manager
 msgid "Is Manager"
-msgstr "ແມ່ນຜູ້ຈັດການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__lang
 msgid "Language"
-msgstr "ພາສາ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__last_appraisal_id
@@ -1354,20 +1159,20 @@ msgstr "ພາສາ"
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee_public__last_appraisal_id
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_users__last_appraisal_id
 msgid "Last Appraisal"
-msgstr "ການປະເມີນຄັ້ງລ່າສຸດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__last_appraisal_date
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee__last_appraisal_date
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_users__last_appraisal_date
 msgid "Last Appraisal Date"
-msgstr "ວັນທີປະເມີນຄັ້ງລ່າສຸດ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Last Meeting"
-msgstr "ການປະຊຸມຄັ້ງລ່າສຸດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__write_uid
@@ -1375,7 +1180,7 @@ msgstr "ການປະຊຸມຄັ້ງລ່າສຸດ"
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_note__write_uid
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__write_uid
 msgid "Last Updated by"
-msgstr "ອັບເດດລ່າສຸດໂດຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__write_date
@@ -1383,18 +1188,18 @@ msgstr "ອັບເດດລ່າສຸດໂດຍ"
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_note__write_date
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__write_date
 msgid "Last Updated on"
-msgstr "ອັບເດດລ່າສຸດເມື່ອ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_search
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
 msgid "Late"
-msgstr "ຊ້າ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
 msgid "Late Activities"
-msgstr "ກິດຈະກຳທີ່ຊ້າ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
@@ -1402,13 +1207,11 @@ msgid ""
 "Long term (&gt; 6 months) career discussion, where does the employee\n"
 "            wants to go, how to help them reach this path?"
 msgstr ""
-"ການສົນທະນາເລື່ອງອາຊີບໃນໄລຍະຍາວ (&gt; 6 ເດືອນ), ພະນັກງານ\n"
-"            ຕ້ອງການກ້າວໄປໃສ, ຈະຊ່ວຍໃຫ້ພວກເຂົາບັນລຸເສັ້ນທາງນີ້ໄດ້ແນວໃດ?"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__template_id
 msgid "Mail Template"
-msgstr "ແມ່ແບບອີເມລ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
@@ -1417,260 +1220,257 @@ msgstr "ແມ່ແບບອີເມລ"
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__manager_id
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_department_view_form
 msgid "Manager"
-msgstr "ຜູ້ຈັດການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "Manager Assessment will show here"
-msgstr "ການປະເມີນຈາກຜູ້ຈັດການຈະສະແດງຢູ່ນີ້"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__manager_feedback
 msgid "Manager Feedback"
-msgstr "ຄຳຄິດຄຳເຫັນຂອງຜູ້ຈັດການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__manager_feedback_published
 msgid "Manager Feedback Published"
-msgstr "ຄຳຄິດຄຳເຫັນຂອງຜູ້ຈັດການຖືກເຜີຍແຜ່ແລ້ວ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__manager_feedback_template
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_department__manager_feedback_template
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "Manager Feedback Template"
-msgstr "ແມ່ແບບຄຳຄິດຄຳເຫັນຂອງຜູ້ຈັດການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__manager_user_ids
 msgid "Manager Users"
-msgstr "ຜູ້ໃຊ້ລະດັບຜູ້ຈັດການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "Manager's Feedback"
-msgstr "ຄຳຄິດຄຳເຫັນຂອງຜູ້ຈັດການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_form
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "Mark as Done"
-msgstr "ໝາຍວ່າສຳເລັດແລ້ວ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__meeting_count_display
 msgid "Meeting Count"
-msgstr "ຈຳນວນການປະຊຸມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__meeting_ids
 msgid "Meetings"
-msgstr "ການປະຊຸມ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/res_company.py:0
 msgid "Meets expectations"
-msgstr "ເປັນໄປຕາມຄວາມຄາດໝາຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__message_has_error
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__message_has_error
 msgid "Message Delivery error"
-msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__message_ids
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__message_ids
 msgid "Messages"
-msgstr "ຂໍ້ຄວາມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__my_activity_date_deadline
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "ກຳນົດເວລາກິດຈະກຳຂອງຂ້ອຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.actions.act_window,name:hr_appraisal.hr_appraisal_action_my
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
 msgid "My Appraisals"
-msgstr "ການປະເມີນຜົນຂອງຂ້ອຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_search
 msgid "My Goals"
-msgstr "ເປົ້າໝາຍຂອງຂ້ອຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__name
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_note__name
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_tree
 msgid "Name"
-msgstr "ຊື່"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/res_company.py:0
 msgid "Needs improvement"
-msgstr "ຕ້ອງໄດ້ຮັບການປັບປຸງ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__activity_calendar_event_id
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr "ເຫດການປະຕິທິນກິດຈະກຳຖັດໄປ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__activity_date_deadline
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "ກຳນົດເວລາກິດຈະກຳຖັດໄປ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__activity_summary
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__activity_summary
 msgid "Next Activity Summary"
-msgstr "ສະຫຼຸບກິດຈະກຳຖັດໄປ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__activity_type_id
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__activity_type_id
 msgid "Next Activity Type"
-msgstr "ປະເພດກິດຈະກຳຖັດໄປ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee__next_appraisal_date
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_users__next_appraisal_date
 msgid "Next Appraisal Date"
-msgstr "ວັນທີປະເມີນຄັ້ງຖັດໄປ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Next Meeting"
-msgstr "ການປະຊຸມຄັ້ງຖັດໄປ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "No Meeting"
-msgstr "ບໍ່ມີການປະຊຸມ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Note"
-msgstr "ໝາຍເຫດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__message_needaction_counter
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__message_needaction_counter
 msgid "Number of Actions"
-msgstr "ຈຳນວນການດຳເນີນການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__message_has_error_counter
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__message_has_error_counter
 msgid "Number of errors"
-msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__message_needaction_counter
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal_goal__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງດຳເນີນການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__message_has_error_counter
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal_goal__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:res.groups,name:hr_appraisal.group_hr_appraisal_user
 msgid "Officer: Access all appraisals"
-msgstr "ເຈົ້າໜ້າທີ່: ເຂົ້າເຖິງການປະເມີນຜົນທັງໝົດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee__ongoing_appraisal_count
 msgid "Ongoing Appraisal Count"
-msgstr "ຈຳນວນການປະເມີນທີ່ກຳລັງດຳເນີນການ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal_goal.py:0
 msgid "Operation not supported"
-msgstr "ການດຳເນີນການບໍ່ຮອງຮັບ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_request_appraisal__lang
 msgid "Optional translation language (ISO code) to select when sending out an email. If not set, the english version will be used. This should usually be a placeholder expression that provides the appropriate language, e.g. {{ object.partner_id.lang }}."
 msgstr ""
-"ພາສາແປທາງເລືອກ (ລະຫັດ ISO) ເພື່ອເລືອກເມື່ອສົ່ງອີເມລ. ຖ້າບໍ່ໄດ້ຕັ້ງໄວ້, ຈະໃຊ້ເວີຊັນພາສາອັງກິດ. ປົກກະຕິ"
-"ຄວນເປັນ placeholder ທີ່ໃຫ້ພາສາທີ່ເໝາະສົມ, ເຊັ່ນ: {{ object.partner_id.lang }}."
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee__parent_user_id
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee_base__parent_user_id
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee_public__parent_user_id
 msgid "Parent User"
-msgstr "ຜູ້ໃຊ້ລະດັບຫົວໜ້າ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_search
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
 msgid "People I Manage"
-msgstr "ຄົນທີ່ຂ້ອຍບໍລິຫານ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.actions.act_window,help:hr_appraisal.open_view_hr_appraisal_tree
 msgid "Plan appraisals with your colleagues, collect and discuss feedback."
 msgstr ""
-"ວາງແຜນການປະເມີນຜົນກັບເພື່ອນຮ່ວມງານຂອງທ່ານ, ເກັບກຳ ແລະ ສົນທະນາຄຳຄິດຄຳເຫັນ."
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Previous Appraisals"
-msgstr "ການປະເມີນຄັ້ງກ່ອນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__note
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "Private Note"
-msgstr "ບັນທຶກສ່ວນຕົວ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "Private note (only accessible to people set as managers)"
-msgstr "ບັນທຶກສ່ວນຕົວ (ເຂົ້າເຖິງໄດ້ສະເພາະຜູ້ທີ່ຖືກຕັ້ງເປັນຜູ້ຈັດການເທົ່ານັ້ນ)"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__progression
 msgid "Progress"
-msgstr "ຄວາມຄືບໜ້າ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_hr_employee_public
 msgid "Public Employee"
-msgstr "ພະນັກງານທົ່ວໄປ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__rating_ids
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__rating_ids
 msgid "Ratings"
-msgstr "ການໃຫ້ຄະແນນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__recipient_ids
 msgid "Recipients"
-msgstr "ຜູ້ຮັບ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee__related_partner_id
 msgid "Related Partner"
-msgstr "ຄູ່ຮ່ວມງານທີ່ກ່ຽວຂ້ອງ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__employee_user_id
@@ -1678,17 +1478,17 @@ msgstr "ຄູ່ຮ່ວມງານທີ່ກ່ຽວຂ້ອງ"
 #: model:ir.model.fields,help:hr_appraisal.field_hr_employee__parent_user_id
 #: model:ir.model.fields,help:hr_appraisal.field_hr_employee_base__parent_user_id
 msgid "Related user name for the resource to manage its access."
-msgstr "ຊື່ຜູ້ໃຊ້ທີ່ກ່ຽວຂ້ອງເພື່ອຈັດການການເຂົ້າເຖິງ."
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__render_model
 msgid "Rendering Model"
-msgstr "ຮູບແບບການສະແດງຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "Reopen"
-msgstr "ເປີດຄືນໃໝ່"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.ui.menu,name:hr_appraisal.menu_hr_appraisal_report
@@ -1700,102 +1500,101 @@ msgstr "ບົດລາຍງານ"
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_employee_view_form
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_users_view_form
 msgid "Request Appraisal"
-msgstr "ຮ້ອງຂໍການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.actions.server,name:hr_appraisal.action_create_multi_appraisals
 msgid "Request Appraisals"
-msgstr "ຮ້ອງຂໍການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_request_appraisal
 msgid "Request an Appraisal"
-msgstr "ຮ້ອງຂໍການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__activity_user_id
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__activity_user_id
 msgid "Responsible User"
-msgstr "ຜູ້ໃຊ້ທີ່ຮັບຜິດຊອບ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.actions.act_window,help:hr_appraisal.open_view_hr_appraisal_tree
 msgid "Schedule an appraisal"
-msgstr "ນັດໝາຍການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
 msgid "Search Appraisal"
-msgstr "ຄົ້ນຫາການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "Self Assessment will show here"
-msgstr "ການປະເມີນຕົນເອງຈະສະແດງຢູ່ນີ້"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.request_appraisal_view_form
 msgid "Send"
-msgstr "ສົ່ງ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "Send by email"
-msgstr "ສົ່ງທາງອີເມລ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:mail.template,description:hr_appraisal.mail_template_appraisal_confirm
 msgid "Sent automatically to both employee and manager when appraisal is confirmed"
 msgstr ""
-"ສົ່ງໃຫ້ທັງພະນັກງານ ແລະ ຜູ້ຈັດການໂດຍອັດຕະໂນມັດເມື່ອການປະເມີນໄດ້ຮັບການຢືນຢັນ"
 
 #. module: hr_appraisal
 #: model:mail.template,description:hr_appraisal.mail_template_appraisal_request_from_employee
 msgid "Sent manually to the employee by the manager who wants to do an appraisal"
-msgstr "ສົ່ງໃຫ້ພະນັກງານໂດຍຜູ້ຈັດການທີ່ຕ້ອງການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:mail.template,description:hr_appraisal.mail_template_appraisal_request
 msgid "Sent manually to the manager by the employee who wants an appraisal"
-msgstr "ສົ່ງໃຫ້ຜູ້ຈັດການໂດຍພະນັກງານທີ່ຕ້ອງການຮັບການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_note__sequence
 msgid "Sequence"
-msgstr "ລຳດັບ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.actions.act_window,name:hr_appraisal.hr_appraisal_config_settings_action
 #: model:ir.ui.menu,name:hr_appraisal.hr_appraisal_menu_configuration
 msgid "Settings"
-msgstr "ການຕັ້ງຄ່າ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_manager_feedback
 msgid "Short term (6-months) actions / decisions / objectives"
-msgstr "ການດຳເນີນການ / ການຕັດສິນໃຈ / ຈຸດປະສົງໃນໄລຍະສັ້ນ (6 ເດືອນ)"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__show_employee_feedback_full
 msgid "Show Employee Feedback Full"
-msgstr "ສະແດງຄຳຄິດຄຳເຫັນຂອງພະນັກງານແບບເຕັມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__show_manager_feedback_full
 msgid "Show Manager Feedback Full"
-msgstr "ສະແດງຄຳຄິດຄຳເຫັນຂອງຜູ້ຈັດການແບບເຕັມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
 msgid "Show all records which has next action date is before today"
-msgstr "ສະແດງບັນທຶກທັງໝົດທີ່ມີວັນທີດຳເນີນການຖັດໄປກ່ອນມື້ນີ້"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__state
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_report__state
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "Status"
-msgstr "ສະຖານະ"
+msgstr "ສະພາບ"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__activity_state
@@ -1806,163 +1605,152 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"ສະຖານະອີງຕາມກິດຈະກຳ\n"
-"ກາຍກຳນົດ: ວັນທີຄົບກຳນົດຜ່ານໄປແລ້ວ\n"
-"ມື້ນີ້: ວັນທີກິດຈະກຳແມ່ນມື້ນີ້\n"
-"ວາງແຜນໄວ້: ກິດຈະກຳໃນອະນາຄົດ."
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/res_company.py:0
 msgid "Strongly Exceed Expectations"
-msgstr "ເກີນຄວາມຄາດໝາຍຫຼາຍ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__subject
 msgid "Subject"
-msgstr "ຫົວຂໍ້"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.request_appraisal_view_form
 msgid "Subject..."
-msgstr "ຫົວຂໍ້..."
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Such grouping is not allowed."
-msgstr "ບໍ່ອະນຸຍາດໃຫ້ຈັດກຸ່ມແບບນີ້."
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Thanks to your Appraisal Plan, without any new manual Appraisal, the new Appraisal will be automatically created on %s."
 msgstr ""
-"ເນື່ອງຈາກແຜນການປະເມີນຜົນຂອງທ່ານ, ໂດຍບໍ່ຕ້ອງສ້າງການປະເມີນຜົນດ້ວຍຕົນເອງ, ການປະເມີນຜົນໃໝ່ຈະຖືກສ້າງ"
-"ໂດຍອັດຕະໂນມັດໃນວັນທີ %s."
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "The appraisal's status has been set to Done by %s"
-msgstr "ສະຖານະການປະເມີນຜົນຖືກຕັ້ງເປັນ ສຳເລັດແລ້ວ ໂດຍ %s"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__note
 msgid "The content of this note is not visible by the Employee."
-msgstr "ພະນັກງານບໍ່ສາມາດເຫັນເນື້ອໃນຂອງບັນທຶກນີ້ໄດ້."
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__last_appraisal_date
 #: model:ir.model.fields,help:hr_appraisal.field_hr_employee__last_appraisal_date
 #: model:ir.model.fields,help:hr_appraisal.field_res_users__last_appraisal_date
 msgid "The date of the last appraisal"
-msgstr "ວັນທີຂອງການປະເມີນຄັ້ງລ່າສຸດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_employee__next_appraisal_date
 #: model:ir.model.fields,help:hr_appraisal.field_res_users__next_appraisal_date
 msgid "The date of the next appraisal is computed by the appraisal plan's dates (first appraisal + periodicity)."
 msgstr ""
-"ວັນທີຂອງການປະເມີນຄັ້ງຖັດໄປແມ່ນຄິດໄລ່ຈາກວັນທີຂອງແຜນການປະເມີນ (ການປະເມີນຄັ້ງທຳອິດ + ຄວາມຖີ່)."
 
 #. module: hr_appraisal
 #: model:ir.model.constraint,message:hr_appraisal.constraint_res_company_positif_number_months
 msgid "The duration time must be bigger or equal to 1 month."
-msgstr "ໄລຍະເວລາຕ້ອງຫຼາຍກວ່າ ຫຼື ເທົ່າກັບ 1 ເດືອນ."
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/res_company.py:0
 msgid "The employee %s arrived %s months ago. An appraisal for %s is created. You can assess %s & determinate the date for '1to1' meeting before %s."
 msgstr ""
-"ພະນັກງານ %s ໄດ້ມາຮ່ວມງານ %s ເດືອນແລ້ວ. ມີການສ້າງການປະເມີນຜົນສຳລັບ %s. ທ່ານສາມາດປະເມີນ %s "
-"& ກຳນົດວັນທີສຳລັບການປະຊຸມ '1to1' ກ່ອນວັນທີ %s."
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "The employee feedback cannot be changed by managers."
-msgstr "ຜູ້ຈັດການບໍ່ສາມາດປ່ຽນແປງຄຳຄິດຄຳເຫັນຂອງພະນັກງານໄດ້."
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-javascript
 #: code:addons/hr_appraisal/static/src/fields/boolean_confirm.js:0
 msgid "The employee's feedback will be published without their consent. Do you really want to publish it? This action will be logged in the chatter."
 msgstr ""
-"ຄຳຄິດຄຳເຫັນຂອງພະນັກງານຈະຖືກເຜີຍແຜ່ໂດຍບໍ່ໄດ້ຮັບການຍິນຍອມ. ທ່ານຕ້ອງການເຜີຍແຜ່ແທ້ໆບໍ່? ການດຳເນີນການ"
-"ນີ້ຈະຖືກບັນທຶກໄວ້ໃນ chatter."
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "The manager feedback cannot be changed by an employee."
-msgstr "ພະນັກງານບໍ່ສາມາດປ່ຽນແປງຄຳຄິດຄຳເຫັນຂອງຜູ້ຈັດການໄດ້."
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__assessment_note
 msgid "This field is not visible to the Employee."
-msgstr "ຟິວນີ້ພະນັກງານບໍ່ສາມາດເຫັນໄດ້."
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal__state__new
 msgid "To Confirm"
-msgstr "ລໍຖ້າຢືນຢັນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
 msgid "To Do"
-msgstr "ສິ່ງທີ່ຕ້ອງເຮັດ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_report__state__new
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "To Start"
-msgstr "ລໍຖ້າເລີ່ມ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
 msgid "Today Activities"
-msgstr "ກິດຈະກຳມື້ນີ້"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__activity_exception_decoration
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal_goal__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "ປະເພດຂອງກິດຈະກຳທີ່ຍົກເວັ້ນໃນບັນທຶກ."
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__uncomplete_goals_count
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee__uncomplete_goals_count
 msgid "Uncomplete Goals Count"
-msgstr "ຈຳນວນເປົ້າໝາຍທີ່ຍັງບໍ່ສຳເລັດ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Unpublished"
-msgstr "ຍັງບໍ່ໄດ້ເຜີຍແຜ່"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_res_users
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__manager_user_id
 msgid "User"
-msgstr "ຜູ້ໃຊ້"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__user_body
 msgid "User Contents"
-msgstr "ເນື້ອໃນຈາກຜູ້ໃຊ້"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__waiting_feedback
 msgid "Waiting Feedback from Employee/Managers"
-msgstr "ກຳລັງລໍຖ້າຄຳຄິດຄຳເຫັນຈາກ ພະນັກງານ/ຜູ້ຈັດການ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
 msgid "What are my best achievement(s) since my last appraisal?"
-msgstr "ຜົນສຳເລັດທີ່ດີທີ່ສຸດຂອງຂ້ອຍຕັ້ງແຕ່ການປະເມີນຄັ້ງສຸດທ້າຍແມ່ນຫຍັງ?"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -1970,8 +1758,6 @@ msgid ""
 "What are my short and long-term goals with the company, and for my\n"
 "            carreer?"
 msgstr ""
-"ເປົ້າໝາຍໄລຍະສັ້ນ ແລະ ໄລຍະຍາວຂອງຂ້ອຍກັບບໍລິສັດ ແລະ ສຳລັບ\n"
-"            ອາຊີບຂອງຂ້ອຍແມ່ນຫຍັງ?"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
@@ -1979,102 +1765,93 @@ msgid ""
 "What has been the most challenging aspect of my work this past year and\n"
 "            why?"
 msgstr ""
-"ສິ່ງທີ່ທ້າທາຍທີ່ສຸດໃນວຽກຂອງຂ້ອຍໃນປີທີ່ຜ່ານມາແມ່ນຫຍັງ ແລະ\n"
-"            ຍ້ອນຫຍັງ?"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
 msgid "What would I need to improve my work?"
-msgstr "ຂ້ອຍຕ້ອງການຫຍັງເພື່ອປັບປຸງວຽກຂອງຂ້ອຍໃຫ້ດີຂຶ້ນ?"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_employee_feedback
 msgid "Which parts of my job do I most / least enjoy?"
-msgstr "ສ່ວນໃດຂອງວຽກທີ່ຂ້ອຍມັກຫຼາຍທີ່ສຸດ / ໜ້ອຍທີ່ສຸດ?"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/res_company.py:0
 msgid "You arrived %s months ago. Your appraisal is created you can assess yourself here. Your manager will determinate the date for your '1to1' meeting."
 msgstr ""
-"ທ່ານໄດ້ມາຮ່ວມງານ %s ເດືອນແລ້ວ. ມີການສ້າງການປະເມີນຜົນຂອງທ່ານແລ້ວ ທ່ານສາມາດປະເມີນຕົນເອງໄດ້ທີ່ນີ້. "
-"ຜູ້ຈັດການຂອງທ່ານຈະກຳນົດວັນທີສຳລັບການປະຊຸມ '1to1'."
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "You cannot delete appraisal which is not in draft or canceled state"
 msgstr ""
-"ທ່ານບໍ່ສາມາດລຶບການປະເມີນຜົນທີ່ບໍ່ໄດ້ຢູ່ໃນສະຖານະສະບັບຮ່າງ ຫຼື ຖືກຍົກເລີກໄດ້"
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 msgid "Your Appraisal has been completed"
-msgstr "ການປະເມີນຜົນຂອງທ່ານສຳເລັດແລ້ວ"
+msgstr ""
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/res_company.py:0
 msgid "Your employee's last appraisal was %s months ago. An appraisal for %s is created. You can assess %s & determinate the date for '1to1' meeting before %s."
 msgstr ""
-"ການປະເມີນຄັ້ງສຸດທ້າຍຂອງພະນັກງານຂອງທ່ານແມ່ນ %s ເດືອນກ່ອນ. ມີການສ້າງການປະເມີນຜົນສຳລັບ %s. ທ່ານສ"
-"າມາດປະເມີນ %s & ກຳນົດວັນທີສຳລັບການປະຊຸມ '1to1' ກ່ອນວັນທີ %s."
 
 #. module: hr_appraisal
 #. odoo-python
 #: code:addons/hr_appraisal/models/res_company.py:0
 msgid "Your last appraisal was %s months ago. Your appraisal is created you can assess yourself here. Your manager will determinate the date for your '1to1' meeting."
 msgstr ""
-"ການປະເມີນຄັ້ງສຸດທ້າຍຂອງທ່ານແມ່ນ %s ເດືອນກ່ອນ. ມີການສ້າງການປະເມີນຜົນຂອງທ່ານແລ້ວ ທ່ານສາມາດປະເມີນ"
-"ຕົນເອງໄດ້ທີ່ນີ້. ຜູ້ຈັດການຂອງທ່ານຈະກຳນົດວັນທີສຳລັບການປະຊຸມ '1to1'."
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "e.g. John Doe"
-msgstr "ເຊັ່ນ: John Doe"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_form
 msgid "e.g. Present yourself to your new team"
-msgstr "ເຊັ່ນ: ແນະນຳຕົນເອງໃຫ້ທີມໃໝ່ຮູ້ຈັກ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "months after recruitment, then after"
-msgstr "ເດືອນຫຼັງຈາກການຮັບພະນັກງານ, ຫຼັງຈາກນັ້ນອີກ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "months, then every"
-msgstr "ເດືອນ, ຫຼັງຈາກນັ້ນທຸກໆ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "months."
-msgstr "ເດືອນ."
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_kanban
 msgid "oe_kanban_text_red"
-msgstr "oe_kanban_text_red"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "once published"
-msgstr "ເມື່ອເຜີຍແຜ່ແລ້ວ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_view_activity
 msgid "text-danger"
-msgstr "text-danger"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:mail.template,subject:hr_appraisal.mail_template_appraisal_request_from_employee
 msgid "{{ hasattr(object, 'name') and object.name or '' }} requests an Appraisal"
-msgstr "{{ hasattr(object, 'name') and object.name or '' }} ຮ້ອງຂໍການປະເມີນຜົນ"
+msgstr ""
 
 #. module: hr_appraisal
 #: model:mail.template,subject:hr_appraisal.mail_template_appraisal_confirm
 msgid "{{ object.employee_id.name }}: Appraisal Confirmed"
-msgstr "{{ object.employee_id.name }}: ການປະເມີນຜົນໄດ້ຮັບການຢືນຢັນແລ້ວ"
+msgstr ""

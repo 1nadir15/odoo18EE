@@ -19,15 +19,15 @@
 # Martin Dinovski, 2025
 # KeyVillage, 2025
 # Petko Karamotchev, 2025
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "v.kanev" <v.kanev@tutanota.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-05-17 06:00+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-03-20 14:24+0000\n"
+"Last-Translator: \"v.kanev\" <v.kanev@tutanota.com>\n"
 "Language-Team: Bulgarian <https://translate.odoo.com/projects/odoo-18/"
 "knowledge/bg/>\n"
 "Language: bg\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: knowledge
 #. odoo-javascript
@@ -929,12 +929,6 @@ msgid ""
 "            to share documents that are frequently needed\n"
 "        </span>"
 msgstr ""
-"<span style=\"font-size: 14px;\">\n"
-"            Използвайте\n"
-"            /<span style=\"font-weight: bolder;\"><font class=\"text-o-color-"
-"2\">файл</font></span>\n"
-"            за да споделяте документи, които често ви са необходими\n"
-"        </span>"
 
 #. module: knowledge
 #: model_terms:ir.ui.view,arch_db:knowledge.knowledge_article_user_onboarding
@@ -2440,8 +2434,6 @@ msgid ""
 "Centralize account insights in one document for comprehensive monitoring and "
 "follow-up."
 msgstr ""
-"Обединете данните за акаунтите в един документ, за да осигурите цялостно "
-"наблюдение и последващи действия."
 
 #. module: knowledge
 #: model:knowledge.article,template_description:knowledge.knowledge_article_template_meeting_minutes
@@ -2449,13 +2441,11 @@ msgid ""
 "Centralize team meetings in a single article, while making sure notes are "
 "handled efficiently."
 msgstr ""
-"Обединете срещите на екипа в една статия, като същевременно се погрижите "
-"бележките да се обработват ефективно."
 
 #. module: knowledge
 #: model_terms:knowledge.article,template_body:knowledge.knowledge_article_template_account_management
 msgid "Challenges &amp; Competitive Landscape<br>"
-msgstr "Предизвикателства и конкурентна среда<br>"
+msgstr ""
 
 #. module: knowledge
 #: model_terms:knowledge.article,template_body:knowledge.knowledge_article_template_software_specification

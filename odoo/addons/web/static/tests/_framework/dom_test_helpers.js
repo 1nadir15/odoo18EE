@@ -236,6 +236,7 @@ export function contains(target, options) {
             consumeContains();
 
             await cancelCurrentDragSequence?.();
+            cancelCurrentDragSequence = cancelWithDelay;
 
             const { cancel, drop, moveTo } = await drag(nodePromise, options);
             const helpersWithDelay = {
@@ -243,8 +244,6 @@ export function contains(target, options) {
                 drop: dropWithDelay,
                 moveTo: moveToWithDelay,
             };
-
-            cancelCurrentDragSequence = cancelWithDelay;
 
             await waitForTouchDelay(options?.pointerDownDuration);
 

@@ -681,7 +681,7 @@ class AccountJournal(models.Model):
                         infoLine['communication'] = line[40:113]
                     statement['lines'].append(infoLine)
                 elif line[1] == '2':
-                    if infoLine['ref_move'] != rmspaces(line[2:6]):
+                    if infoLine['ref'] != rmspaces(line[2:10]):
                         raise UserError(_(
                             "Error %(error_code)s: CODA parsing error on information data record 3.2, seq nr %(seq_nr)s! Please report this issue via your Odoo support channel.",
                             error_code="R3004",
@@ -689,7 +689,7 @@ class AccountJournal(models.Model):
                         ))
                     statement['lines'][-1]['communication'] += rmspaces(line[10:115])
                 elif line[1] == '3':
-                    if infoLine['ref_move'] != rmspaces(line[2:6]):
+                    if infoLine['ref'] != rmspaces(line[2:10]):
                         raise UserError(_(
                             "Error %(error_code)s: CODA parsing error on information data record 3.3, seq nr %(seq_nr)s! Please report this issue via your Odoo support channel.",
                             error_code="R3005",

@@ -4,23 +4,19 @@
 #
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2017
-# Bone NI <bounkirdni@gmail.com>, 2026.
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
-"PO-Revision-Date: 2026-05-30 08:12+0000\n"
-"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
-"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
-"base_import_module/lo/>\n"
+"PO-Revision-Date: 2017-10-24 09:00+0000\n"
+"Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
+"Language-Team: Lao (https://www.transifex.com/odoo/teams/41243/lo/)\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17\n"
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
@@ -30,58 +26,57 @@ msgstr "ຍົກເລີອກ"
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Close"
-msgstr "ປິດ"
+msgstr ""
 
 #. module: base_import_module
 #: code:addons/base_import_module/controllers/main.py:0
 msgid "Could not select database '%s'"
-msgstr "ບໍ່ສາມາດເລືອກຖານຂໍ້ມູນ '%s' ໄດ້"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__create_uid
 msgid "Created by"
-msgstr "ສ້າງໂດຍ"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__create_date
 msgid "Created on"
-msgstr "ສ້າງເມື່ອ"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__display_name
 msgid "Display Name"
-msgstr "ຊື່ທີ່ສະແດງ"
+msgstr ""
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "File '%s' exceed maximum allowed file size"
-msgstr "ໄຟລ໌ '%s' ມີຂະໜາດໃຫຍ່ເກີນກວ່າທີ່ກຳນົດໄວ້"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__force
 msgid "Force init"
-msgstr "ບັງຄັບການເລີ່ມຕົ້ນ (Force init)"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,help:base_import_module.field_base_import_module__force
 msgid "Force init mode even if installed. (will update `noupdate='1'` records)"
 msgstr ""
-"ບັງຄັບໂໝດເລີ່ມຕົ້ນເຖິງແມ່ນວ່າຈະຕິດຕັ້ງແລ້ວ (ຈະອັບເດດຂໍ້ມູນທີ່ມີ `noupdate='1'`)"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__id
 msgid "ID"
-msgstr "ລະຫັດ (ID)"
+msgstr ""
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Import App"
-msgstr "ນຳເຂົ້າແອັບ"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__import_message
 msgid "Import Message"
-msgstr "ຂໍ້ຄວາມການນຳເຂົ້າ"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.actions.act_window,name:base_import_module.action_view_base_module_import
@@ -89,88 +84,87 @@ msgstr "ຂໍ້ຄວາມການນຳເຂົ້າ"
 #: model:ir.ui.menu,name:base_import_module.menu_view_base_module_import
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Import Module"
-msgstr "ນຳເຂົ້າໂມດູນ"
+msgstr ""
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Import module"
-msgstr "ນຳເຂົ້າໂມດູນ"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__imported
 msgid "Imported Module"
-msgstr "ໂມດູນທີ່ນຳເຂົ້າແລ້ວ"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module____last_update
 msgid "Last Modified on"
-msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__write_uid
 msgid "Last Updated by"
-msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__write_date
 msgid "Last Updated on"
-msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_module_module
 msgid "Module"
-msgstr "ໂມດູນ"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__module_file
 msgid "Module .ZIP file"
-msgstr "ໄຟລ໌ .ZIP ຂອງໂມດູນ"
+msgstr ""
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "No file sent."
-msgstr "ບໍ່ມີໄຟລ໌ຖືກສົ່ງ."
+msgstr ""
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Note: you can only import data modules (.xml files and static assets)"
 msgstr ""
-"ໝາຍເຫດ: ເຈົ້າສາມາດນຳເຂົ້າໄດ້ສະເພາະໂມດູນຂໍ້ມູນ (ໄຟລ໌ .xml ແລະ static assets) ເທົ່ານັ້ນ"
 
 #. module: base_import_module
 #: code:addons/base_import_module/controllers/main.py:0
 msgid "Only administrators can upload a module"
-msgstr "ມີພຽງແຕ່ຜູ້ເບິ່ງແຍງລະບົບເທົ່ານັ້ນທີ່ສາມາດອັບໂຫຼດໂມດູນໄດ້"
+msgstr ""
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Only zip files are supported."
-msgstr "ຮອງຮັບສະເພາະໄຟລ໌ zip ເທົ່ານັ້ນ."
+msgstr ""
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Open Modules"
-msgstr "ເປີດໂມດູນ"
+msgstr ""
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Select module package to import (.zip file):"
-msgstr "ເລືອກແພັກເກດໂມດູນເພື່ອທີ່ຈະນຳເຂົ້າ (ໄຟລ໌ .zip):"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__state
 msgid "Status"
-msgstr "ສະຖານະ"
+msgstr "ສະພາບ"
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Studio customizations require Studio"
-msgstr "ການປັບແຕ່ງດ້ວຍ Studio ຕ້ອງການ Studio"
+msgstr ""
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Studio customizations require the Odoo Studio app."
-msgstr "ການປັບແຕ່ງດ້ວຍ Studio ຕ້ອງການແອັບ Odoo Studio."
+msgstr ""
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
@@ -179,21 +173,18 @@ msgid ""
 "\n"
 " - %s"
 msgstr ""
-"ໂມດູນທີ່ຈຳເປັນຍັງບໍ່ຄົບຖ້ວນ: \n"
-"\n"
-" - %s"
 
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_ui_view
 msgid "View"
-msgstr "ມຸມມອງ"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields.selection,name:base_import_module.selection__base_import_module__state__done
 msgid "done"
-msgstr "ສຳເລັດ"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields.selection,name:base_import_module.selection__base_import_module__state__init
 msgid "init"
-msgstr "ເລີ່ມຕົ້ນ (init)"
+msgstr ""

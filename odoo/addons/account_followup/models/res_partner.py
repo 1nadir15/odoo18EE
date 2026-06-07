@@ -660,7 +660,7 @@ class ResPartner(models.Model):
 
     def _show_pay_now_button(self):
         invoice_online_payment = bool(self.env['ir.config_parameter'].sudo().get_param('account_payment.enable_portal_payment'))
-        payment_method_available = bool('payment.method' in self.env and self.env['payment.method'].sudo().search_count([('active', '=', 'True')]))
+        payment_method_available = bool(self.env['payment.method'].sudo().search_count([('active', '=', 'True')]))
         return invoice_online_payment and payment_method_available
 
     def _compute_has_moves(self):

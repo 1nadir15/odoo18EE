@@ -6,7 +6,6 @@ from collections import defaultdict
 from odoo import fields, models, api, _, Command
 from odoo.osv.expression import AND
 from odoo.tools import float_is_zero, format_date
-from odoo.tools.sql import column_exists, create_column
 
 from .sale_order import SUBSCRIPTION_CLOSED_STATE
 
@@ -193,11 +192,6 @@ class SaleOrderLine(models.Model):
             if line.recurring_invoice and is_order_active and not float_is_zero(line.price_subtotal, precision_rounding=line.currency_id.rounding):
                 recurring_monthly_tax_incl = line.recurring_monthly / line.price_subtotal * line.price_total
                 line.amount_to_invoice = recurring_monthly_tax_incl
-
-    def _auto_init(self):
-        if not column_exists(self.env.cr, 'sale_order_line', 'last_invoiced_date'):
-            create_column(self.env.cr, 'sale_order_line', 'last_invoiced_date', 'date')
-        return super()._auto_init()
 
     @api.depends('invoice_lines.deferred_end_date', 'invoice_lines.move_id.state', 'invoice_lines.subscription_id')
     def _compute_last_invoiced_date(self):

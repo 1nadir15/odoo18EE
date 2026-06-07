@@ -6,16 +6,16 @@
 # Wil Odoo, 2025
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
 # Fernanda Alvarez, 2025
-# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
 # "Patricia Gutiérrez (pagc)" <pagc@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
-"PO-Revision-Date: 2026-06-06 11:16+0000\n"
-"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
+"POT-Creation-Date: 2026-04-17 18:46+0000\n"
+"PO-Revision-Date: 2026-04-18 09:17+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/account_reports/es_419/>\n"
 "Language: es_419\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_reports
 #. odoo-javascript
@@ -634,7 +634,7 @@ msgstr "Analítica"
 #: model:ir.model.fields,field_description:account_reports.field_account_analytic_line__analytic_coverage
 #: model:ir.model.fields,field_description:account_reports.field_account_move_line__analytic_coverage
 msgid "Analytic Coverage"
-msgstr "Cobertura analítica"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_report__filter_analytic_groupby
@@ -657,7 +657,7 @@ msgstr "Simulaciones analíticas"
 #: code:addons/account_reports/static/src/components/account_report/header/header.xml:0
 #: model_terms:ir.ui.view,arch_db:account_reports.pdf_export_main_table_header
 msgid "Analytic coverage"
-msgstr "Cobertura analítica"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -1202,6 +1202,12 @@ msgid ""
 msgstr ""
 "No se pudo expandir el término %(term)s al evaluar la fórmula %"
 "(unexpanded_formula)s"
+
+#. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+msgid "Could not parse account_code formula from token '%s'"
+msgstr "No se pudo analizar la fórmula account_code del token '%s'"
 
 #. module: account_reports
 #. odoo-javascript
@@ -2417,7 +2423,7 @@ msgstr "Apunte contable"
 #: code:addons/account_reports/static/src/components/general_ledger/line_name.xml:0
 #: code:addons/account_reports/static/src/components/partner_ledger/line_name.xml:0
 msgid "Journal Items"
-msgstr "Apuntes contables"
+msgstr "Apuntes contables "
 
 #. module: account_reports
 #. odoo-python
@@ -2527,12 +2533,12 @@ msgstr "Más tarde"
 #. module: account_reports
 #: model:account.report.line,name:account_reports.account_financial_report_cost_sales0
 msgid "Less Costs of Revenue"
-msgstr "Menos costos de ingresos"
+msgstr "Menos costo de ingresos"
 
 #. module: account_reports
 #: model:account.report.line,name:account_reports.account_financial_report_expense0
 msgid "Less Operating Expenses"
-msgstr "Menos gastos operativos"
+msgstr "Menos gasto de operación"
 
 #. module: account_reports
 #: model:account.report.line,name:account_reports.account_financial_report_depreciation0
@@ -4720,6 +4726,3 @@ msgstr ""
 #: code:addons/account_reports/static/src/components/multicurrency_revaluation_report/warnings.xml:0
 msgid "⇒ Reset to Odoo’s Rate"
 msgstr "⇒ Restablecer a la tasa de Odoo"
-
-#~ msgid "Could not parse account_code formula from token '%s'"
-#~ msgstr "No se pudo analizar la fórmula account_code del token '%s'"

@@ -217,8 +217,7 @@ export default class BarcodePickingModel extends BarcodeModel {
     }
 
     groupKey(line) {
-        const key = super.groupKey(...arguments) + `_${line.location_dest_id.id}`;
-        return this.mustGroupSameProductLines() ? key : `${line.move_id}_${key}`;
+        return super.groupKey(...arguments) + `_${line.location_dest_id.id}`;
     }
 
     lineCanBeSelected(line) {
@@ -288,10 +287,6 @@ export default class BarcodePickingModel extends BarcodeModel {
 
     lineIsReserved(line) {
         return !line.picked && line.quantity;
-    }
-
-    mustGroupSameProductLines() {
-        return false;
     }
 
     async updateLine(line, args) {
@@ -689,7 +684,6 @@ export default class BarcodePickingModel extends BarcodeModel {
             }
         }
         selectedLine.location_dest_id = this.cache.getRecord('stock.location', id);
-        selectedLine.lastScannedDestination = selectedLine.location_dest_id;
         this._markLineAsDirty(selectedLine);
         this._clearScanData();
         return true;
@@ -760,7 +754,8 @@ export default class BarcodePickingModel extends BarcodeModel {
         if (!this.pageLines.length && !this.packageLines.length) {
             return false;
         }
-        if (this._needsScanDestinationBeforeValidation()) {
+        if (this.config.restrict_scan_dest_location == 'mandatory' &&
+            !this.lastScanned.destLocation && (this.selectedLine || this.lastScanned.packageId)) {
             return false;
         }
         for (let line of this.pageLines) {
@@ -946,19 +941,9 @@ export default class BarcodePickingModel extends BarcodeModel {
         return pickingTypeCode === 'outgoing' && !signature && this.groups.group_stock_sign_delivery;
     }
 
-    _needsScanDestinationBeforeValidation() {
-        if (
-            this.config.restrict_scan_dest_location == "mandatory" ||
-            (this.config.restrict_scan_dest_location == "optional" &&
-                this.config.barcode_validation_after_dest_location)
-        ) {
-            return this.currentState.lines.some((l) => l.wasUpdated && !l.lastScannedDestination);
-        }
-        return false;
-    }
-
     async _validate() {
-        if (this._needsScanDestinationBeforeValidation()) {
+        if (this.config.restrict_scan_dest_location == 'mandatory' &&
+            !this.lastScanned.destLocation && (this.selectedLine || this.lastScanned.packageId)) {
             return this.notification(_t("Destination location must be scanned"), { type: "danger" });
         }
         if (this.config.lines_need_to_be_packed &&

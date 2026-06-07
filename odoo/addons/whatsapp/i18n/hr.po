@@ -18,14 +18,13 @@
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 # Alen Komljen <alen@uvid.hr>, 2025.
 # Vladimir Vrgoč <vladimir@uvid.hr>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-04-29 19:00+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2025-12-01 12:45+0000\n"
+"Last-Translator: Vladimir Vrgoč <vladimir@uvid.hr>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "whatsapp/hr/>\n"
 "Language: hr\n"
@@ -34,7 +33,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: whatsapp
 #. odoo-python
@@ -276,7 +275,7 @@ msgstr ""
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__template_type__authentication
 msgid "Authentication"
-msgstr "Autentikacija"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields,help:whatsapp.field_whatsapp_template__template_type
@@ -307,7 +306,7 @@ msgstr ""
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__bn
 msgid "Bengali"
-msgstr "Bengalski"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__bn_in
@@ -573,7 +572,7 @@ msgstr "Zadani korisnici"
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__status__deleted
 msgid "Deleted"
-msgstr "Obrisano"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_message__state__delivered
@@ -619,7 +618,7 @@ msgstr "Dokument"
 #. module: whatsapp
 #: model:ir.model.fields,field_description:whatsapp.field_whatsapp_composer__res_ids
 msgid "Document IDs"
-msgstr "ID-ovi dokumenata"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields,field_description:whatsapp.field_whatsapp_composer__res_model
@@ -822,7 +821,7 @@ msgstr ""
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__fil
 msgid "Filipino"
-msgstr "Filipinski"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__fi
@@ -1062,7 +1061,7 @@ msgstr "Pozdrav {{1}}, ovdje je vaša narudžba s referencom {{2}} ..."
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__hi
 msgid "Hindi"
-msgstr "Hindski"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__hu
@@ -1127,7 +1126,7 @@ msgstr "Ulazni"
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__id
 msgid "Indonesian"
-msgstr "Indonezijski"
+msgstr ""
 
 #. module: whatsapp
 #. odoo-javascript
@@ -1327,7 +1326,7 @@ msgstr ""
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__mr
 msgid "Marathi"
-msgstr "Marathski"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__template_type__marketing
@@ -1692,7 +1691,7 @@ msgstr ""
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__pa
 msgid "Punjabi"
-msgstr "Pandžapski"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields,field_description:whatsapp.field_whatsapp_template__quality
@@ -1713,7 +1712,7 @@ msgstr "Ocjene"
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_message__state__read
 msgid "Read"
-msgstr "Čitanje"
+msgstr ""
 
 #. module: whatsapp
 #: model_terms:ir.ui.view,arch_db:whatsapp.whatsapp_message_view_search
@@ -1776,7 +1775,7 @@ msgstr "Izvještaj"
 #. module: whatsapp
 #: model_terms:ir.ui.view,arch_db:whatsapp.whatsapp_template_view_form
 msgid "Reset to draft"
-msgstr "Vrati u nacrt"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields,field_description:whatsapp.field_whatsapp_message__parent_id
@@ -1824,7 +1823,7 @@ msgstr ""
 #. module: whatsapp
 #: model_terms:ir.ui.view,arch_db:whatsapp.whatsapp_composer_view_form
 msgid "Send Message"
-msgstr "Pošalji poruku"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__ir_actions_server__state__whatsapp
@@ -2029,7 +2028,7 @@ msgstr ""
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__te
 msgid "Telugu"
-msgstr "Telugu"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields,field_description:whatsapp.field_whatsapp_composer__wa_template_id
@@ -2313,7 +2312,7 @@ msgstr ""
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__ur
 msgid "Urdu"
-msgstr "Urdski"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields,field_description:whatsapp.field_whatsapp_template_button__url_type
@@ -2333,14 +2332,6 @@ msgid ""
 "acknowledgment\n"
 "'user_notification': generated for a specific recipient"
 msgstr ""
-"Koristi se za kategorizaciju generatora poruka\n"
-"'email': generirano dolaznim e-mailom npr. mailgatewayom\n"
-"'comment': generirano unosom korisnika npr. kroz discuss ili composer\n"
-"'email_outgoing': generirano slanjem\n"
-"'notification': generirano sustavom npr. poruke praćenja\n"
-"'auto_comment': generirano automatskim mehanizmom obavijesti npr. potvrda "
-"primitka\n"
-"'user_notification': generirano za određenog primatelja"
 
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template_variable__field_type__user_mobile
@@ -2487,7 +2478,7 @@ msgstr "Povijest komunikacije Web stranice"
 #: model:ir.ui.menu,name:whatsapp.whatsapp_menu_main
 #: model_terms:ir.ui.view,arch_db:whatsapp.res_config_settings_view_form
 msgid "WhatsApp"
-msgstr "WhatsApp"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.actions.server,name:whatsapp.ir_actions_server_resend_whatsapp_queue
@@ -2631,7 +2622,7 @@ msgstr ""
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_message__failure_type__phone_invalid
 msgid "Wrong Number Format"
-msgstr "Pogrešan format broja"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__quality__yellow
@@ -2706,7 +2697,7 @@ msgstr ""
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__zu
 msgid "Zulu"
-msgstr "Zulu"
+msgstr ""
 
 #. module: whatsapp
 #. odoo-python
@@ -2753,7 +2744,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/whatsapp/models/discuss_channel.py:0
 msgid "joined the channel"
-msgstr "pridružio se kanalu"
+msgstr ""
 
 #. module: whatsapp
 #: model_terms:ir.actions.act_window,help:whatsapp.whatsapp_account_action

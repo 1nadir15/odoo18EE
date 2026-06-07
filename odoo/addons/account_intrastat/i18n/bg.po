@@ -12,13 +12,13 @@
 # Petko Karamotchev, 2025
 # Martin Dinovski, 2025
 # Veselina Slavkova, 2025
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
-"PO-Revision-Date: 2026-05-06 21:40+0000\n"
+"POT-Creation-Date: 2026-04-10 18:48+0000\n"
+"PO-Revision-Date: 2025-12-31 10:27+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bulgarian <https://translate.odoo.com/projects/odoo-18/"
 "account_intrastat/bg/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: account_intrastat
 #. odoo-javascript
@@ -304,12 +304,6 @@ msgstr "Интрастат код на транзакция"
 
 #. module: account_intrastat
 #. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid "Invalid Intrastat Code"
-msgstr ""
-
-#. module: account_intrastat
-#. odoo-python
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 msgid "Invalid commodity intrastat code products."
 msgstr "Невалиден код за стоки в Интрастат (продукти)."
@@ -361,14 +355,6 @@ msgstr "Липсващ продукт"
 #. module: account_intrastat
 #: model:res.country,name:account_intrastat.xi
 msgid "Northern Ireland"
-msgstr ""
-
-#. module: account_intrastat
-#. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid ""
-"Note that the selected commodity code is invalid based on its start or "
-"expiry date. You can still select it."
 msgstr ""
 
 #. module: account_intrastat
@@ -501,14 +487,6 @@ msgstr "Диапазонът от дати трябва да бъде за ця�
 #: model:ir.model.fields,help:account_intrastat.field_product_template__intrastat_supplementary_unit_amount
 msgid "The number of supplementary units per product quantity."
 msgstr "Броят на допълнителните единици за количество продукт."
-
-#. module: account_intrastat
-#. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid ""
-"The product template has no products/variants. At least one variant is "
-"required to set the Intrastat values."
-msgstr ""
 
 #. module: account_intrastat
 #. odoo-javascript
@@ -679,7 +657,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__supplementary_unit__m
 #: model:ir.model.fields.selection,name:account_intrastat.selection__product_template__intrastat_supplementary_unit__m
 msgid "m"
-msgstr "м"
+msgstr ""
 
 #. module: account_intrastat
 #: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__supplementary_unit__m2

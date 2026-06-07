@@ -6,13 +6,13 @@
 # Junko Augias, 2024
 # Wil Odoo, 2025
 #
-# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
+# "Junko Augias (juau)" <juau@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:50+0000\n"
-"PO-Revision-Date: 2026-05-06 21:40+0000\n"
+"PO-Revision-Date: 2025-08-26 22:31+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "website_appointment/ja/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: website_appointment
 #: model_terms:ir.ui.view,arch_db:website_appointment.appointment_card_top
@@ -162,7 +162,7 @@ msgstr "アポイントメント"
 #. module: website_appointment
 #: model_terms:ir.ui.view,arch_db:website_appointment.snippet_options
 msgid "Appointments Page"
-msgstr "予約ページ"
+msgstr "アポイントメントページ"
 
 #. module: website_appointment
 #: model_terms:ir.ui.view,arch_db:website_appointment.s_online_appointment

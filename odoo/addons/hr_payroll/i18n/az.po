@@ -7,14 +7,14 @@
 # Jumshud Sultanov <cumshud@gmail.com>, 2024
 # Nurlan Farajov <coolinuxoid@gmail.com>, 2025
 # erpgo translator <jumshud@erpgo.az>, 2025
-# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025, 2026.
+# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:45+0000\n"
-"PO-Revision-Date: 2026-06-06 09:46+0000\n"
+"PO-Revision-Date: 2025-12-04 13:17+0000\n"
 "Last-Translator: ERPGo Odoo <erpgo.odoo@gmail.com>\n"
 "Language-Team: Azerbaijani <https://translate.odoo.com/projects/odoo-18/"
 "hr_payroll/az/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: hr_payroll
 #. odoo-python
@@ -41,7 +41,7 @@ msgstr "# Ödəniş bildirişi"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_history__payslips_count
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_attachment__payslip_count
 msgid "# Payslips"
-msgstr "# Maaş Hesablamaları"
+msgstr "# Ödəniş bildirişləri"
 
 #. module: hr_payroll
 #. odoo-python
@@ -118,7 +118,7 @@ msgstr ""
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_view_kanban
 msgid "/ Month"
-msgstr "/ Ay"
+msgstr ""
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_form_inherit
@@ -128,7 +128,7 @@ msgstr ""
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_form_inherit
 msgid "/ half-month"
-msgstr "/ yarım ay"
+msgstr ""
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_form_inherit
@@ -143,7 +143,7 @@ msgstr ""
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_form_inherit
 msgid "/ two months"
-msgstr "/ 2 ay"
+msgstr ""
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_form_inherit
@@ -487,7 +487,7 @@ msgstr ""
 #. module: hr_payroll
 #: model_terms:ir.actions.act_window,help:hr_payroll.action_view_hr_payroll_structure_from_type
 msgid "Add a new salary structure"
-msgstr "Yeni əməkhaqqı strukturu əlavə et"
+msgstr "Yeni əmək haqqı strukturu əlavə et"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
@@ -512,7 +512,7 @@ msgstr "Administrator"
 #. odoo-javascript
 #: code:addons/hr_payroll/static/src/components/dashboard/payslip_batch/payslip_batch.xml:0
 msgid "All"
-msgstr "Hamısı"
+msgstr "BÜTÜN"
 
 #. module: hr_payroll
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_employee_payslips
@@ -737,12 +737,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_report__basic_wage
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__basic_wage
 msgid "Basic Wage"
-msgstr "Əsas əməkhaqqı"
+msgstr "Əsas əmək haqqı"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_report__leave_basic_wage
 msgid "Basic Wage for Time Off"
-msgstr "Məzuniyyət üçün əsas əməkhaqqı"
+msgstr "Məzuniyyət üçün əsas əmək haqqı"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
@@ -772,7 +772,7 @@ msgstr "Belçika Ödəniş Vərəqi"
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_contract__schedule_pay__bi-monthly
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_payroll_structure_type__default_schedule_pay__bi-monthly
 msgid "Bi-monthly"
-msgstr "İki aydan bir"
+msgstr "İki aylıq"
 
 #. module: hr_payroll
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_contract__schedule_pay__bi-weekly
@@ -1023,7 +1023,7 @@ msgstr "Hesablama"
 #: model:ir.actions.server,name:hr_payroll.action_hr_payroll_compute_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Compute Sheet"
-msgstr "Əməkhaqqını hesablayın"
+msgstr "Əmək haqqını hesablayın"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__compute_date
@@ -1756,7 +1756,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_headcount_line__employee_type
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_headcount_line_search
 msgid "Employee Type"
-msgstr "İşçi növü"
+msgstr ""
 
 #. module: hr_payroll
 #. odoo-python
@@ -1778,7 +1778,7 @@ msgstr ""
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_contract__hourly_wage
 msgid "Employee's hourly gross wage."
-msgstr "İşçinin saatlıq brutto əməkhaqqı "
+msgstr "İşçinin saatlıq brutto əmək haqqı "
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_contract__resource_calendar_id
@@ -1789,10 +1789,6 @@ msgid ""
 "week.\n"
 "        "
 msgstr ""
-"İşçinin iş qrafiki.\n"
-"        Boş buraxıldıqda, işçi tam çevik iş qrafikinə malik hesab edilir və "
-"həftənin istənilən vaxtında vaxt məhdudiyyəti olmadan işləyə bilər.\n"
-"        "
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_employees__employee_ids
@@ -1887,7 +1883,7 @@ msgstr ""
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__partner_id
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule__partner_id
 msgid "Eventual third party involved in the salary payment of the employees."
-msgstr "İşçilərin əməkhaqqının ödənilməsinə  cəlb olunan mümkün üçüncü şəxs."
+msgstr "İşçilərin əmək haqqının ödənilməsinə  cəlb olunan mümkün üçüncü şəxs."
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_work_entry_export_employee_mixin__export_id
@@ -1953,7 +1949,7 @@ msgstr "Sabit Məbləğ"
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_contract__wage_type__monthly
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_payroll_structure_type__wage_type__monthly
 msgid "Fixed Wage"
-msgstr "Sabit Əməkhaqqı"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__message_follower_ids
@@ -1984,7 +1980,7 @@ msgstr "Məsələn,  50% tətbiq etmək üçün 50.0 rəqəmini daxil edin."
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings__module_l10n_fr_hr_payroll
 msgid "French Payroll"
-msgstr "Əməkhaqqı (Fransa)"
+msgstr "Əmək Haqqı (Fransa)"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_headcount__date_from
@@ -2067,7 +2063,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_report__gross_wage
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__gross_wage
 msgid "Gross Wage"
-msgstr "Ümumi əməkhaqqı"
+msgstr "Ümumi əmək haqqı"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_employee_declaration_view_search
@@ -2191,7 +2187,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_contract__wage_type__hourly
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_payroll_structure_type__wage_type__hourly
 msgid "Hourly Wage"
-msgstr "Saatlıq Əməkhaqqı"
+msgstr "Vaxtamuzd əmək haqqı"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
@@ -2279,8 +2275,6 @@ msgid ""
 "If empty, the default salary structure from the Salary structure type of the "
 "employee will be used"
 msgstr ""
-"Boş buraxıldıqda, işçinin əməkhaqqı strukturu növünə uyğun standart "
-"əməkhaqqı strukturu istifadə ediləcək"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_employee__is_non_resident
@@ -2302,7 +2296,7 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the salary "
 "rule without removing it."
 msgstr ""
-"Aktiv sahə Yanlış olaraq təyin edilibsə, sizə əməkhaqqı qaydasını silmədən "
+"Aktiv sahə Yanlış olaraq təyin edilibsə, sizə əmək haqqı qaydasını silmədən "
 "gizlətməyə icazə veriləcək."
 
 #. module: hr_payroll
@@ -2323,18 +2317,18 @@ msgstr "Şəkil 128"
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_view_tree
 msgid "Index Contracts"
-msgstr "Müqavilələrin İndekslənməsi"
+msgstr "İndeks müqavilə"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_payroll_index
 #: model:ir.actions.server,name:hr_payroll.action_index_contracts
 msgid "Index contract(s)"
-msgstr "Müqavilə(lər)-in İndekslənməsi"
+msgstr "İndeks müqavilə (müqavilələr)"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payroll_index
 msgid "Index contracts"
-msgstr "Müqavilələrin İndekslənməsi"
+msgstr "İndeks müqavilə"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings__module_l10n_in_hr_payroll
@@ -2561,7 +2555,7 @@ msgid ""
 "Linking a salary category to its parent is used only for the reporting "
 "purpose."
 msgstr ""
-"Əməkhaqqı kateqoriyasının əsas lateqoriyaya bağlanması yalnız hesabat "
+"Əmək haqqı kateqoriyasının əsas lateqoriyaya bağlanması yalnız hesabat "
 "məqsədilə istifadə olunur."
 
 #. module: hr_payroll
@@ -2744,7 +2738,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_report__net_wage
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__net_wage
 msgid "Net Wage"
-msgstr "Xalis Əməkhaqqı"
+msgstr "Xalis Əmək Haqqı"
 
 #. module: hr_payroll
 #. odoo-python
@@ -2841,7 +2835,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_employee__is_non_resident
 #: model:ir.model.fields,field_description:hr_payroll.field_res_users__is_non_resident
 msgid "Non-resident"
-msgstr "Qeyri-rezident"
+msgstr ""
 
 #. module: hr_payroll
 #. odoo-python
@@ -3082,17 +3076,17 @@ msgstr "Əsas"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract__time_credit
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_search_inherit
 msgid "Part Time"
-msgstr "Yarımştat"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract__time_credit_type_id
 msgid "Part Time Work Entry Type"
-msgstr "Yarımştat İş Qeydi Növü"
+msgstr ""
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_form_inherit
 msgid "Part time"
-msgstr "Yarımştat"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__partner_id
@@ -3154,7 +3148,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_hr_employee_view_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Payroll"
-msgstr "Əməkhaqqı"
+msgstr "Əmək Haqqı"
 
 #. module: hr_payroll
 #: model:ir.actions.server,name:hr_payroll.action_reset_work_entries
@@ -3168,12 +3162,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_report_view_pivot
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_report_view_search
 msgid "Payroll Analysis"
-msgstr "Əməkhaqqı Analizi"
+msgstr "Əmək Haqqı Analizi"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payroll_report
 msgid "Payroll Analysis Report"
-msgstr "Əməkhaqqı Hesabatı"
+msgstr "Əmək Haqqı Hesabatı"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_edit_payslip_worked_days_line__code
@@ -3210,7 +3204,7 @@ msgstr ""
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Payroll Entries"
-msgstr "Əməkhaqqı Girişləri"
+msgstr "Əmək Haqqı Girişləri"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payroll_headcount
@@ -3230,17 +3224,17 @@ msgstr ""
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Payroll SEPA"
-msgstr "Əməkhaqqı SEPA"
+msgstr "Əmək Haqqı SEPA"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_structure_filter
 msgid "Payroll Structures"
-msgstr "Əməkhaqqı Strukturları"
+msgstr "Əmək Haqqı Strukturları"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Payroll rules that apply to your country"
-msgstr "Ölkəniz üçün tətbiq olunan Əməkhaqqı qaydaları"
+msgstr "Ölkəniz üçün tətbiq olunan Əmək Haqqı qaydaları"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_note_demo_content
@@ -3282,7 +3276,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_report__payslip_id
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Payslip"
-msgstr "Əməkhaqqı cədvəli"
+msgstr "Maaş cədvəli"
 
 #. module: hr_payroll
 #. odoo-python
@@ -3347,7 +3341,7 @@ msgstr "Maaş cədvəli Girişləri"
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_hr_employee_view_form
 msgid "Payslip Language"
-msgstr "Əməkhaqqı Cədvəli Dili"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_line
@@ -3517,7 +3511,7 @@ msgstr ""
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Post payroll slips in accounting"
-msgstr "Əməkhaqqı jurnal girişlərini daxil edin"
+msgstr "Əmək Haqqı jurnal girişlərini daxil edin"
 
 #. module: hr_payroll
 #. odoo-python
@@ -3820,7 +3814,7 @@ msgstr "SMS-in Çatdırılmasında xəta"
 #. module: hr_payroll
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_salary_configuration
 msgid "Salary"
-msgstr "Əməkhaqqı"
+msgstr "Əmək haqqı"
 
 #. module: hr_payroll
 #. odoo-python
@@ -3859,52 +3853,52 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_attachment_view_tree
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Salary Attachments"
-msgstr "Əməkhaqqı qoşmaları"
+msgstr ""
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_category_form
 msgid "Salary Categories"
-msgstr "Əməkhaqqı Kateqoriyaları"
+msgstr "Əmək haqqı Kateqoriyaları"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Salary Computation"
-msgstr "Əməkhaqqının Hesablanması"
+msgstr "Əmək haqqının Hesablanması"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_salary_rule
 msgid "Salary Rule"
-msgstr "Əməkhaqqı Qaydası"
+msgstr "Əmək haqqı Qaydası"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_salary_rule_category
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_category_tree
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_salary_rule_category_filter
 msgid "Salary Rule Categories"
-msgstr "Əməkhaqqı Qaydası Kateqoriyaları"
+msgstr "Əmək haqqı Qaydası Kateqoriyaları"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_salary_rule_category
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_line_view_search_register
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Salary Rule Category"
-msgstr "Əməkhaqqı Qaydası Kateqoriyası"
+msgstr "Əmək haqqı Qaydası Kateqoriyası"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_rule_parameter
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_rule_parameter_view_form
 msgid "Salary Rule Parameter"
-msgstr "Əməkhaqqı Qaydası Parametri"
+msgstr "Əmək haqqı Qaydası Parametri"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_rule_parameter_value
 msgid "Salary Rule Parameter Value"
-msgstr "Əməkhaqqı Qaydası Parametr Dəyəri"
+msgstr "Əmək haqqı Qaydası Parametr Dəyəri"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.hr_rule_parameter_action
 msgid "Salary Rule Parameters"
-msgstr "Əməkhaqqı Qaydası Parametrləri"
+msgstr "Əmək haqqı Qaydası Parametrləri"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_salary_rule_form
@@ -3914,7 +3908,7 @@ msgstr "Əməkhaqqı Qaydası Parametrləri"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_employee_grade_form
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Salary Rules"
-msgstr "Əməkhaqqı Qaydaları"
+msgstr "Əmək haqqı Qaydaları"
 
 #. module: hr_payroll
 #. odoo-python
@@ -3932,7 +3926,7 @@ msgstr "Maaş Cədvəli"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_tree_register
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Salary Structure"
-msgstr "Əməkhaqqı Strukturu"
+msgstr "Əmək haqqı Strukturu"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payroll_structure_type
@@ -3940,18 +3934,18 @@ msgstr "Əməkhaqqı Strukturu"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_employees__structure_type_id
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_employee_tree_inherit
 msgid "Salary Structure Type"
-msgstr "Əməkhaqqı Struktur Növü"
+msgstr "Əmək haqqı Struktur Növü"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payroll_structure_from_type
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payroll_structure_list_form
 msgid "Salary Structures"
-msgstr "Əməkhaqqı Strukturları"
+msgstr "Əmək haqqı Strukturları"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract__schedule_pay
 msgid "Schedule Pay"
-msgstr "Ödəniş Dövrü"
+msgstr ""
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_employee_declaration_view_search
@@ -3993,7 +3987,7 @@ msgstr ""
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Search Salary Rule"
-msgstr "Əməkhaqqı Qaydasının Axtarışı"
+msgstr "Əmək Haqqı Qaydasının Axtarışı"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_structure_type_view_search
@@ -4010,7 +4004,7 @@ msgstr "Yarımillik"
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_contract__schedule_pay__semi-monthly
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_payroll_structure_type__default_schedule_pay__semi-monthly
 msgid "Semi-monthly"
-msgstr "Ayda iki dəfə"
+msgstr ""
 
 #. module: hr_payroll
 #: model:mail.template,description:hr_payroll.mail_template_new_payslip
@@ -4255,7 +4249,7 @@ msgid ""
 "The code of salary rules can be used as reference in computation of other "
 "rules. In that case, it is case sensitive."
 msgstr ""
-"Əməkhaqqı qaydaları məcəlləsi digər qaydaların hesablanması zamanı istinad "
+"Əmək haqqı qaydaları məcəlləsi digər qaydaların hesablanması zamanı istinad "
 "materialı kimi istifadə edilə bilər. Bu vəziyyətdə, həssaslıq halıdır."
 
 #. module: hr_payroll
@@ -4263,7 +4257,7 @@ msgstr ""
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input_type__code
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_worked_days__work_entry_type_id
 msgid "The code that can be used in the salary rules"
-msgstr "Əməkhaqqı qaydalarında istifadə oluna bilən kod"
+msgstr "Əmək haqqı qaydalarında istifadə oluna bilən kod"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__amount_select
@@ -4421,7 +4415,7 @@ msgstr ""
 #: model:ir.model.fields,help:hr_payroll.field_hr_rule_parameter_value__code
 msgid "This code is used in salary rules to refer to this parameter."
 msgstr ""
-"Bu kod bu parametrə istinad üçün əməkhaqqı qaydalarında istifadə olunur."
+"Bu kod bu parametrə istinad üçün əmək haqqı qaydalarında istifadə olunur."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input_type__struct_ids
@@ -4658,7 +4652,7 @@ msgstr "Hesablama ardıcıllığını təşkil etmək üçün istifadə et"
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line__appears_on_payslip
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule__appears_on_payslip
 msgid "Used to display the salary rule on payslip."
-msgstr "Əməkhaqqı qaydasını maaş cədvəlində göstərmək üçün istifadə olunur."
+msgstr "Əmək haqqı qaydasını maaş cədvəlində göstərmək üçün istifadə olunur."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule__appears_on_employee_cost_dashboard
@@ -4727,14 +4721,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_history__wage_type
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__wage_type
 msgid "Wage Type"
-msgstr "Əməkhaqqı Növü"
+msgstr "Əmək Haqqı Növü"
 
 #. module: hr_payroll
 #. odoo-python
 #: code:addons/hr_payroll/wizard/hr_payroll_index_wizard.py:0
 msgid "Wage indexed by %(percentage).2f%% on %(date)s"
 msgstr ""
-"Əməkhaqqı %(date)s tarixində %(percentage).2f%% nisbətində indeksləndirildi"
 
 #. module: hr_payroll
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_payslip__state__verify
@@ -4837,7 +4830,7 @@ msgid ""
 "Will be used as the message specifying why the wage on the contract has been "
 "modified"
 msgstr ""
-"Müqavilədəki əməkhaqqının niyə dəyişdirildiyini göstərən mesaj olaraq "
+"Müqavilədəki əmək haqqının niyə dəyişdirildiyini göstərən mesaj olaraq "
 "istifadə ediləcəkdir"
 
 #. module: hr_payroll

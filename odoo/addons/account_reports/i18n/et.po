@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
+"POT-Creation-Date: 2026-04-17 18:46+0000\n"
 "PO-Revision-Date: 2026-04-18 09:17+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Estonian <https://translate.odoo.com/projects/odoo-18/"
@@ -1205,6 +1205,12 @@ msgid ""
 "(unexpanded_formula)s"
 msgstr ""
 "Ei õnnestunud terminit laiendada %(term)s hinnates %(unexpanded_formula)s"
+
+#. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+msgid "Could not parse account_code formula from token '%s'"
+msgstr "Ei suutnud tuvastada account_code tokenist '%s'"
 
 #. module: account_reports
 #. odoo-javascript
@@ -4635,6 +4641,3 @@ msgstr ""
 #: code:addons/account_reports/static/src/components/multicurrency_revaluation_report/warnings.xml:0
 msgid "⇒ Reset to Odoo’s Rate"
 msgstr "⇒ Lähtesta Odoo kursile"
-
-#~ msgid "Could not parse account_code formula from token '%s'"
-#~ msgstr "Ei suutnud tuvastada account_code tokenist '%s'"

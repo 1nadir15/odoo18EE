@@ -257,20 +257,12 @@ class PartnerVATListingCustomHandler(models.AbstractModel):
         be_format = r'BE%'
         query = SQL(
             """
-            WITH partner_turnover AS (
-                SELECT
-                    res_partner.id,
-                    res_partner.vat,
-                    -- Include different partners with the same vat number with a turnover of more than 250.
-                    SUM(account_move_line.credit - account_move_line.debit) OVER (PARTITION BY res_partner.vat) AS vat_total_turnover
-               FROM %(turnover_from)s
-              WHERE %(turnover_where)s
-                AND res_partner.vat ILIKE %(be_format)s
-            )
-            SELECT id, vat
-              FROM partner_turnover
-             WHERE vat_total_turnover > 250
-          GROUP BY id, vat
+            SELECT res_partner.id, res_partner.vat
+            FROM %(turnover_from)s
+            WHERE %(turnover_where)s
+            AND res_partner.vat ILIKE %(be_format)s
+            GROUP BY res_partner.id, res_partner.vat
+            HAVING SUM(account_move_line.credit - account_move_line.debit) > 250
 
             UNION
 

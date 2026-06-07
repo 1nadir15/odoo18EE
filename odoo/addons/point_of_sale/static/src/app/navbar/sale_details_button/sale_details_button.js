@@ -3,9 +3,6 @@ import { renderToElement } from "@web/core/utils/render";
 import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 import { Component } from "@odoo/owl";
 import { usePos } from "@point_of_sale/app/store/pos_hook";
-import { formatDateTime } from "@web/core/l10n/dates";
-
-const { DateTime } = luxon;
 
 export async function handleSaleDetails(pos, hardwareProxy, dialog) {
     const saleDetails = await pos.data.call(
@@ -16,7 +13,7 @@ export async function handleSaleDetails(pos, hardwareProxy, dialog) {
     const report = renderToElement(
         "point_of_sale.SaleDetailsReport",
         Object.assign({}, saleDetails, {
-            date: formatDateTime(DateTime.now()),
+            date: new Date().toLocaleString(),
             pos: pos,
             formatCurrency: pos.env.utils.formatCurrency,
         })

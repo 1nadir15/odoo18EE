@@ -891,7 +891,7 @@ class MrpProductionWorkcenterLine(models.Model):
         if len(loss_id) < 1:
             raise UserError(_("You need to define at least one productivity loss in the category 'Productive'. Create one from the Manufacturing app, menu: Configuration / Productivity Losses."))
 
-        self.state = 'done'
+        wo.state = 'done'
         self._set_default_time_log(loss_id)
 
     def _set_default_time_log(self, loss_id):

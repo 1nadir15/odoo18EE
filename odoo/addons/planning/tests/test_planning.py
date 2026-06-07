@@ -1004,24 +1004,3 @@ class TestPlanning(TestCommonPlanning, MockEmail):
             'week',
         )
         self.assertNotIn(employee.resource_id.id, unavailabilities)
-
-    def test_set_shift_template_on_planning_slot_with_long_calendar_leave(self):
-        """
-        Test that applying a shift template on a planning slot when the
-        resource calendar has a long leave.
-        """
-        self.env['resource.calendar.leaves'].create({
-            'name': "Long Leaves",
-            'calendar_id': self.resource_bert.calendar_id.id,
-            'date_from': datetime(2019, 6, 5, 8, 0),
-            'date_to': datetime(2023, 6, 24, 18, 0),
-        })
-        self.template.duration_days = 2
-
-        self.slot.write({
-            'resource_id': self.resource_bert.id,
-            'template_id': self.template.id,
-        })
-
-        self.assertEqual(self.slot.start_datetime, datetime(2019, 6, 27, 11, 0))
-        self.assertEqual(self.slot.end_datetime, datetime(2019, 6, 28, 14, 0))

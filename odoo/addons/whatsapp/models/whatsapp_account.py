@@ -2,7 +2,6 @@
 
 import logging
 import mimetypes
-import re
 import secrets
 import string
 from markupsafe import Markup
@@ -12,7 +11,6 @@ from odoo.exceptions import UserError, ValidationError
 from odoo.addons.whatsapp.tools.whatsapp_api import WhatsAppApi
 from odoo.addons.whatsapp.tools.whatsapp_exception import WhatsAppError
 from odoo.tools import plaintext2html
-from odoo.addons.whatsapp.tools import phone_validation as wa_phone_validation
 
 _logger = logging.getLogger(__name__)
 
@@ -177,16 +175,7 @@ class WhatsAppAccount(models.Model):
             parent_id = False
             channel = False
             sender_name = value.get('contacts', [{}])[0].get('profile', {}).get('name')
-            cleaned_number = re.sub(r"[^\d+]", "", messages['from'])
-            cleaned_number = "+" + re.sub(r"\D", "", cleaned_number)
-            sender_mobile_formatted = wa_phone_validation.wa_phone_format(
-                self,
-                country=None,
-                number=cleaned_number,
-                force_format="WHATSAPP",
-                raise_exception=False,
-            ) or cleaned_number
-            messages['from'] = sender_mobile_formatted
+            sender_mobile = messages['from']
             message_type = messages['type']
             if 'context' in messages and messages['context'].get('id'):
                 parent_whatsapp_message = self.env['whatsapp.message'].sudo().search([('msg_uid', '=', messages['context']['id'])])
@@ -197,7 +186,7 @@ class WhatsAppAccount(models.Model):
                     channel = self.env['discuss.channel'].sudo().search([('message_ids', 'in', parent_id.id)], limit=1)
 
             if not channel:
-                channel = self._find_active_channel(sender_mobile_formatted, sender_name=sender_name, create_if_not_found=True)
+                channel = self._find_active_channel(sender_mobile, sender_name=sender_name, create_if_not_found=True)
             kwargs = {
                 'message_type': 'whatsapp_message',
                 'author_id': channel.whatsapp_partner_id.id,

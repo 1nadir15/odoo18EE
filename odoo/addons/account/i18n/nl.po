@@ -18,9 +18,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:37+0000\n"
-"PO-Revision-Date: 2026-05-09 09:03+0000\n"
-"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
+"POT-Creation-Date: 2026-04-17 18:36+0000\n"
+"PO-Revision-Date: 2026-04-14 08:27+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/account/nl/"
 ">\n"
 "Language: nl\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__type
@@ -10899,7 +10899,7 @@ msgstr "Annulatieverzoek nodig"
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Need to update"
-msgstr "Moet worden bijgewerkt"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__needed_terms
@@ -12798,7 +12798,6 @@ msgstr "Productcategorieën"
 #: model:ir.model,name:account.model_product_category
 #: model:ir.model.fields,field_description:account.field_account_analytic_applicability__product_categ_id
 #: model:ir.model.fields,field_description:account.field_account_analytic_distribution_model__product_categ_id
-#: model:ir.model.fields,field_description:account.field_account_analytic_line__product_category
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__product_categ_id
 #: model:ir.model.fields,field_description:account.field_account_move_line__product_category_id
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_report_search
@@ -12932,7 +12931,7 @@ msgstr "QIF import"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_base_document_layout
 msgid "QR Code"
-msgstr "QR-code"
+msgstr "QR code"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__qr_code
@@ -13408,6 +13407,11 @@ msgstr "Rest in valuta"
 #: model:ir.model.fields,field_description:account.field_res_partner_bank__activity_user_id
 msgid "Responsible User"
 msgstr "Verantwoordelijke gebruiker"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_tax__tax_scope
+msgid "Restrict the use of taxes to a type of product."
+msgstr "Beperk het gebruik van btw tot een soort product."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_same_currency
@@ -17711,7 +17715,7 @@ msgstr "Algemene voorwaarden bijwerken"
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Update app"
-msgstr "App bijwerken"
+msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -19798,9 +19802,6 @@ msgid ""
 "{{ object.company_id.name }} Payment Receipt (Ref {{ object.name or 'n/a' }})"
 msgstr ""
 "{{ object.company_id.name }} Betaalbewijs (Ref {{ object.name or 'nvt' }})"
-
-#~ msgid "Restrict the use of taxes to a type of product."
-#~ msgstr "Beperk het gebruik van btw tot een soort product."
 
 #~ msgid "1.05"
 #~ msgstr "1.05"

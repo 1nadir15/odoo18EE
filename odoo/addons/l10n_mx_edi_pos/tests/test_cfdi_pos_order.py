@@ -5,7 +5,7 @@ from odoo.addons.l10n_mx_edi.tests.common import EXTERNAL_MODE
 from odoo.addons.point_of_sale.tests.test_frontend import TestPointOfSaleHttpCommon
 from odoo.exceptions import UserError, ValidationError
 from odoo.tests import tagged
-from datetime import datetime
+from datetime import timedelta
 
 
 @tagged('post_install_l10n', 'post_install', '-at_install', *(['-standard', 'external'] if EXTERNAL_MODE else []))
@@ -719,7 +719,7 @@ class TestCFDIPosOrder(TestMxEdiPosCommon, TestPointOfSaleHttpCommon):
     def test_global_invoice_periodicity_month(self):
         """Test that when creating a global invoice from the order, the month of the global invoice is the month the order was made."""
         with self.mx_external_setup(self.frozen_today), self.with_pos_session():
-            order_date = datetime(2025, 6, 1, 4, 0, 0)
+            order_date = self.frozen_today - timedelta(days=31)
             first_order = self._create_order({
                 'pos_order_lines_ui_args': [
                     (self.product, 1.0),
@@ -729,4 +729,4 @@ class TestCFDIPosOrder(TestMxEdiPosCommon, TestPointOfSaleHttpCommon):
             with self.with_mocked_pac_sign_success():
                 first_order._l10n_mx_edi_cfdi_global_invoice_try_send()
             xml_tree = self.get_xml_tree_from_string(first_order.l10n_mx_edi_document_ids.attachment_id.raw)
-            self.assertEqual(int(xml_tree.find('{http://www.sat.gob.mx/cfd/4}InformacionGlobal').attrib['Meses']), 5)
+            self.assertEqual(int(xml_tree.find('{http://www.sat.gob.mx/cfd/4}InformacionGlobal').attrib['Meses']), order_date.month)

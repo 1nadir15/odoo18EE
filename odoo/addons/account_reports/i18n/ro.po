@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
+"POT-Creation-Date: 2026-04-17 18:46+0000\n"
 "PO-Revision-Date: 2026-04-18 18:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-18/"
@@ -1198,6 +1198,12 @@ msgid ""
 msgstr ""
 "Nu s-a putut extinde termenul %(term)s la evaluarea formulei %"
 "(unexpanded_formula)s"
+
+#. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+msgid "Could not parse account_code formula from token '%s'"
+msgstr "Nu s-a putut interpreta formula account_code din token-ul '%s'"
 
 #. module: account_reports
 #. odoo-javascript
@@ -4705,6 +4711,3 @@ msgstr ""
 #: code:addons/account_reports/static/src/components/multicurrency_revaluation_report/warnings.xml:0
 msgid "⇒ Reset to Odoo’s Rate"
 msgstr "⇒ Resetează la cursul Odoo"
-
-#~ msgid "Could not parse account_code formula from token '%s'"
-#~ msgstr "Nu s-a putut interpreta formula account_code din token-ul '%s'"

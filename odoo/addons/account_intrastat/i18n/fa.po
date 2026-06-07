@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
+"POT-Creation-Date: 2026-04-10 18:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:44+0000\n"
 "Last-Translator: Naser mars, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/odoo/teams/41243/fa/)\n"
@@ -294,12 +294,6 @@ msgstr "کد تراکنش intrastat"
 
 #. module: account_intrastat
 #. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid "Invalid Intrastat Code"
-msgstr ""
-
-#. module: account_intrastat
-#. odoo-python
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 msgid "Invalid commodity intrastat code products."
 msgstr "محصولات دارای کد intrastat نامعتبر"
@@ -352,14 +346,6 @@ msgstr ""
 #: model:res.country,name:account_intrastat.xi
 msgid "Northern Ireland"
 msgstr "ایرلند شمالی"
-
-#. module: account_intrastat
-#. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid ""
-"Note that the selected commodity code is invalid based on its start or "
-"expiry date. You can still select it."
-msgstr ""
 
 #. module: account_intrastat
 #. odoo-javascript
@@ -491,14 +477,6 @@ msgstr ""
 #: model:ir.model.fields,help:account_intrastat.field_product_template__intrastat_supplementary_unit_amount
 msgid "The number of supplementary units per product quantity."
 msgstr "تعداد واحدهای تکمیلی به ازای مقدار هر محصول"
-
-#. module: account_intrastat
-#. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid ""
-"The product template has no products/variants. At least one variant is "
-"required to set the Intrastat values."
-msgstr ""
 
 #. module: account_intrastat
 #. odoo-javascript

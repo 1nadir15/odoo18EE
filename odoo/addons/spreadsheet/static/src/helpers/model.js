@@ -13,7 +13,6 @@ import {
     isMarkdownIrMenuIdUrl,
     isIrMenuXmlUrl,
 } from "@spreadsheet/ir_ui_menu/odoo_menu_link_cell";
-import { getNeutralizedLink } from "./neutralized_link";
 
 /**
  * @typedef {import("@spreadsheet").OdooSpreadsheetModel} OdooSpreadsheetModel
@@ -135,7 +134,7 @@ export async function freezeOdooData(model) {
                 }
             }
             if (containsLinkToOdoo(evaluatedCell.link)) {
-                cell.content = `[${evaluatedCell.link.label}](${getNeutralizedLink()})`;
+                cell.content = evaluatedCell.link.label;
             }
         }
         for (const figure of sheet.figures) {

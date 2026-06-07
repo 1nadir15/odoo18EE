@@ -9,14 +9,13 @@
 # Abe Manyo, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
-# "Nurul Aini Akrima Sabila (nuaas)" <nuaas@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
-"PO-Revision-Date: 2026-06-06 09:50+0000\n"
-"Last-Translator: \"Nurul Aini Akrima Sabila (nuaas)\" <nuaas@odoo.com>\n"
+"POT-Creation-Date: 2026-04-17 18:46+0000\n"
+"PO-Revision-Date: 2026-04-18 18:31+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-18/"
 "account_reports/id/>\n"
 "Language: id\n"
@@ -24,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_reports
 #. odoo-javascript
@@ -573,8 +572,8 @@ msgid ""
 "All selected companies or branches do not share the same Tax ID. Please "
 "check the Tax ID of the selected companies."
 msgstr ""
-"Semua perusahaan atau cabang yang dipilih tidak memiliki ID Pajak yang sama. "
-"Mohon periksa ID Pajak dari perusahaan yang dipilih."
+"Semua perusahaan atau cabang yang dipilih tidak memiliki Pajak ID yang sama. "
+"Mohon periksa Pajak ID dari perusahaan terpilih"
 
 #. module: account_reports
 #: model:account.report.column,name:account_reports.account_financial_report_ec_sales_amount
@@ -1200,6 +1199,12 @@ msgstr ""
 "(unexpanded_formula)s"
 
 #. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+msgid "Could not parse account_code formula from token '%s'"
+msgstr "Tidak dapat parse formula account_code dari token '%s'"
+
+#. module: account_reports
 #. odoo-javascript
 #. odoo-python
 #: code:addons/account_reports/models/account_journal_report.py:0
@@ -1312,7 +1317,7 @@ msgstr "Terbaru"
 #: model:account.report.line,name:account_reports.account_financial_report_current_assets0
 #: model:account.report.line,name:account_reports.account_financial_report_current_assets_view0
 msgid "Current Assets"
-msgstr "Aktiva Lancar"
+msgstr "Aktiva Terkini"
 
 #. module: account_reports
 #: model:account.report.line,name:account_reports.account_financial_report_current_liabilities0
@@ -1400,7 +1405,7 @@ msgstr "Tanggal dianggap sebagai dianotasi oleh anotasi."
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/aged_partner_balance/filter_aging.xml:0
 msgid "Days"
-msgstr "Hari"
+msgstr "Hari-Hari"
 
 #. module: account_reports
 #. odoo-python
@@ -2130,7 +2135,7 @@ msgstr "Kelompok Horizontal:"
 #: model:ir.model.fields,field_description:account_reports.field_account_report__horizontal_group_ids
 #: model:ir.ui.menu,name:account_reports.menu_action_account_report_horizontal_groups
 msgid "Horizontal Groups"
-msgstr "Grup Horizontal"
+msgstr "Kelompok-kelompok Horizontal"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_report_horizontal_group
@@ -4083,9 +4088,9 @@ msgid ""
 "using different currencies,\n"
 "        which can lead the report to be unbalanced."
 msgstr ""
-"Laporan ini menggunakan metode konversi CTA untuk mengonsolidasi beberapa "
-"perusahaan menggunakan mata uang berbeda-beda,\n"
-"        dan hal ini dapat menyebabkan laporan tidak seimbang."
+"Laporan ini menggunakan metode konversi CTA untuk menkonsolidasi lebih dari "
+"satu perusahaan menggunakan mata uang yang berbeda-beda,\n"
+"        yang dapat berujung ke laporan yang tidak seimbang."
 
 #. module: account_reports
 #. odoo-python
@@ -4156,7 +4161,7 @@ msgstr "Transaksi tanpa statement"
 #: model:ir.actions.client,name:account_reports.action_account_report_coa
 #: model:ir.ui.menu,name:account_reports.menu_action_account_report_coa
 msgid "Trial Balance"
-msgstr "Neraca Saldo"
+msgstr "Saldo Trial"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_trial_balance_report_handler
@@ -4410,14 +4415,14 @@ msgstr "Anda sedang menggunakan kurs custom."
 #: code:addons/account_reports/models/account_move.py:0
 msgid "You can't open a tax report from a move without a VAT closing date."
 msgstr ""
-"Anda tidak dapat membuka laporan paja kdari pergerakan tanpa tanggal closing "
-"PPN."
+"Anda tidak dapat membuka laporan paja kdari pergerakkan tanpa tanggal "
+"closing PPN."
 
 #. module: account_reports
 #. odoo-python
 #: code:addons/account_reports/models/account_move_line.py:0
 msgid "You cannot add taxes on a tax closing move line."
-msgstr "Anda tidak dapat menambakan pajak ke baris pergerakan closing pajak."
+msgstr "Anda tidak dapat menambakan pajak ke baris pergerakkan closing pajak."
 
 #. module: account_reports
 #. odoo-python
@@ -4618,7 +4623,7 @@ msgstr "unit pajak [%s]"
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/sales_report/warnings.xml:0
 msgid "that are not established abroad."
-msgstr "yang tidak didirikan di luar negeri."
+msgstr "yang tidak didirikan diluar negeri"
 
 #. module: account_reports
 #. odoo-javascript
@@ -4691,6 +4696,3 @@ msgstr ""
 #: code:addons/account_reports/static/src/components/multicurrency_revaluation_report/warnings.xml:0
 msgid "⇒ Reset to Odoo’s Rate"
 msgstr "⇒ Reset ke Kurs Odoo"
-
-#~ msgid "Could not parse account_code formula from token '%s'"
-#~ msgstr "Tidak dapat parse formula account_code dari token '%s'"

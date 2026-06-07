@@ -23,14 +23,13 @@
 # Veselina Slavkova, 2025
 # Martin Dinovski, 2025
 # "v.kanev" <v.kanev@tutanota.com>, 2026.
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:47+0000\n"
-"PO-Revision-Date: 2026-05-17 05:59+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-03-20 14:24+0000\n"
+"Last-Translator: \"v.kanev\" <v.kanev@tutanota.com>\n"
 "Language-Team: Bulgarian <https://translate.odoo.com/projects/odoo-18/sign/"
 "bg/>\n"
 "Language: bg\n"
@@ -38,7 +37,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_partner__signature_count
@@ -1556,7 +1555,7 @@ msgstr "Здрасти"
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_item_type__tip
 msgid "Hint displayed in the signing hint"
-msgstr "Подсказка, показвана в подсказката за подписване"
+msgstr ""
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign

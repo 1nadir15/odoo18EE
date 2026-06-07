@@ -1,27 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * social_instagram
+# 	* social_instagram
 #
 # Translators:
 # Wil Odoo, 2024
 # Chloe Wang, 2024
 #
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-13 18:49+0000\n"
-"PO-Revision-Date: 2026-05-17 05:59+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-18/social_instagram/zh_Hans/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Chloe Wang, 2024\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/"
+"zh_CN/)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17\n"
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview
@@ -35,8 +33,6 @@ msgid ""
 "- Check permissions: Your site's robots.txt might be blocking Instagram from "
 "accessing the media folder (make sure /social_instagram is not blocked)."
 msgstr ""
-"- 检查权限：您网站的 robots.txt 文件可能阻止了 Instagram 访问媒体文件夹（请确"
-"保 /social_instagram 未被屏蔽）。"
 
 #. module: social_instagram
 #. odoo-python
@@ -44,7 +40,7 @@ msgstr ""
 msgid ""
 "- Check your connection: Your server may be offline or temporarily "
 "unreachable."
-msgstr "- 请检查网络连接：您的服务器可能处于离线状态或暂时无法访问。"
+msgstr ""
 
 #. module: social_instagram
 #. odoo-python
@@ -53,8 +49,6 @@ msgid ""
 "- Check your file: Ensure it isn't corrupted and is from 320 to 1440 pixels "
 "wide, 8MB maximum, aspect ratio between 4:5 and 1.91:1."
 msgstr ""
-"- 检查文件：确保文件未损坏，宽度在 320 至 1440 像素之间，最大不超过 8MB，宽高"
-"比介于 4:5 至 1.91:1 之间。"
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview

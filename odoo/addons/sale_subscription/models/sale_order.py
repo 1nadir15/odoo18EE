@@ -13,7 +13,6 @@ from odoo.exceptions import UserError, ValidationError
 from odoo.tools.float_utils import float_is_zero
 from odoo.osv import expression
 from odoo.tools import config, format_amount, format_list, plaintext2html, split_every, str2bool
-from odoo.tools.sql import column_exists, create_column
 from odoo.tools.misc import format_date
 
 _logger = logging.getLogger(__name__)
@@ -95,7 +94,7 @@ class SaleOrder(models.Model):
                                         copy=False)
     payment_term_id = fields.Many2one(tracking=True)
     currency_id = fields.Many2one(tracking=True)
-    last_reminder_date = fields.Date(help="Last time when we sent a payment reminder", copy=False)
+    last_reminder_date = fields.Date(help="Last time when we sent a payment reminder")
 
     ###################
     # KPI / reporting #
@@ -490,11 +489,6 @@ class SaleOrder(models.Model):
         if 'subscription_state' in init_values:
             return self.env.ref('sale_subscription.subtype_state_change')
         return super()._track_subtype(init_values)
-
-    def _auto_init(self):
-        if not column_exists(self.env.cr, 'sale_order', 'plan_id'):
-            create_column(self.env.cr, 'sale_order', 'plan_id', 'int4')
-        return super()._auto_init()
 
     @api.depends('sale_order_template_id')
     def _compute_plan_id(self):

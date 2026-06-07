@@ -207,8 +207,8 @@ class CustomerPortal(payment_portal.PaymentPortal):
         }
 
         history_session_key = request.session.get('current_history', 'my_subscriptions_history')
-        portal_page_values = self._sale_order_get_page_view_values(
-            order_sudo, access_token, portal_page_values, history_session_key, **kw)
+        portal_page_values = self._get_page_view_values(
+            order_sudo, access_token, portal_page_values, history_session_key, False)
 
         payment_form_values = {
             'default_token_id': order_sudo.payment_token_id.id,

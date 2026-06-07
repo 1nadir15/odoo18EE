@@ -2,7 +2,6 @@ import copy
 import json
 import logging
 import re
-from contextlib import contextmanager
 from difflib import SequenceMatcher
 from stdnum.eu.vat import guess_country
 
@@ -71,7 +70,7 @@ class AccountMove(models.Model):
     extract_partner_name = fields.Char("Extract Detected Partner Name", readonly=True)
 
     def action_reload_ai_data(self):
-        self = self.with_context(skip_is_manually_modified=True, from_ocr=True)  # noqa: PLW0642
+        self = self.with_context(skip_is_manually_modified=True)  # noqa: PLW0642
         try:
             with self._get_edi_creation() as move_form:
                 # The OCR doesn't overwrite the fields, so it's necessary to reset them
@@ -690,7 +689,7 @@ class AccountMove(models.Model):
         return vals
 
     def _fill_document_with_results(self, ocr_results):
-        self = self.with_context(skip_is_manually_modified=True, from_ocr=True)  # noqa: PLW0642
+        self = self.with_context(skip_is_manually_modified=True)  # noqa: PLW0642
         if self.state != 'draft' or ocr_results is None:
             return
 
@@ -761,7 +760,7 @@ class AccountMove(models.Model):
 
     def _save_form(self, ocr_results):
         # Avoid marking is_manually_modified as True when posting an invoice
-        self = self.with_context(skip_is_manually_modified=True, from_ocr=True)  # noqa: PLW0642
+        self = self.with_context(skip_is_manually_modified=True)  # noqa: PLW0642
 
         date_ocr = self._get_ocr_selected_value(ocr_results, 'date', "")
         due_date_ocr = self._get_ocr_selected_value(ocr_results, 'due_date', "")
@@ -940,18 +939,10 @@ class AccountMove(models.Model):
 
     @api.model
     def _import_invoice_ocr(self, invoice, file_data, new=False):
-        with invoice.with_context(from_ocr=True)._get_edi_creation() as invoice:
+        with invoice._get_edi_creation() as invoice:
             invoice._message_set_main_attachment_id(file_data['attachment'], force=True, filter_xml=False)
             invoice._send_batch_for_digitization()
         return True
-
-    @contextmanager
-    def _disable_discount_precision(self):
-        if self.env.context.get('from_ocr', False):  # Don't disable discount precision if OCR is used
-            yield
-        else:
-            with super()._disable_discount_precision():
-                yield
 
     def _get_edi_decoder(self, file_data, new=False):
         # EXTENDS 'account'

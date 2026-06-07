@@ -49,10 +49,9 @@ class AccountJournal(models.Model):
     def _get_DbtrAcctOthr(self, payment_method_code=None, partner_acc_type=None):
         # EXTEND of account_iso20022
         Othr = super()._get_DbtrAcctOthr(payment_method_code)
-        if payment_method_code == 'iso20022_se':
+        if self._is_se_bban(payment_method_code):
             SchmeNm = etree.SubElement(Othr, "SchmeNm")
-            # Nordea has a special rule for DbtrAcct as they only use IBAN or BBAN
-            if self.bank_account_id.acc_type == 'bankgiro' and 'nordea' not in self.bank_account_id.bank_name.lower():
+            if self.bank_account_id.acc_type == 'bankgiro':
                 Prtry = etree.SubElement(SchmeNm, "Prtry")
                 Prtry.text = 'BGNR'
             else:
@@ -61,7 +60,7 @@ class AccountJournal(models.Model):
         return Othr
 
     def _get_CdtrAcctIdOthr(self, bank_account, payment_method_code=None):
-        if payment_method_code != 'iso20022_se':
+        if not self._is_se_bban(payment_method_code):
             return super()._get_CdtrAcctIdOthr(bank_account, payment_method_code)
 
         Othr = etree.Element("Othr")
@@ -151,6 +150,6 @@ class AccountJournal(models.Model):
                  result of the standard implementation.
         :rtype: bool
         """
-        if payment_method_code == 'iso20022_se':
+        if payment_method_code == 'iso20022_se' and partner_bank.acc_type in ('bankgiro', 'plusgiro'):
             return False
         return super()._skip_CdtrAgt(partner_bank, payment_method_code)

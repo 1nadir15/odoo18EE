@@ -1,8 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import models, api
-from odoo.tools import formatLang, float_repr, float_round
-from odoo.tools.misc import get_lang
+from odoo.tools import formatLang
 
 
 class AccountPayment(models.Model):
@@ -20,13 +19,11 @@ class AccountPayment(models.Model):
                 # Start by getting the integer amount
                 amount_company_currency = abs(pay.amount_company_currency_signed)
                 check_amount = pay.currency_id.amount_to_text(int(amount_company_currency)).removesuffix(' Peso')
-                if get_lang(self.env).code.startswith('en'):
+                if self.env.lang.startswith('en'):
                     check_amount = check_amount.replace('And ', '').replace(',', '')
                 if amount_company_currency % 1 > 0:
                     # If there are decimals, we write them as x/100
-                    decimal_places = pay.currency_id.decimal_places
-                    amount = float_repr(float_round(amount_company_currency, decimal_places), decimal_places)
-                    check_amount += f' and {amount.split(".")[1].ljust(2, "0")}/100'
+                    check_amount += f' and {str(amount_company_currency).split(".")[1].ljust(2, "0")}/100'
                 else:
                     check_amount += ' ONLY'
                 pay.check_amount_in_words = check_amount

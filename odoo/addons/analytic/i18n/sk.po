@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-29 18:36+0000\n"
-"PO-Revision-Date: 2026-05-09 09:13+0000\n"
+"PO-Revision-Date: 2026-04-11 09:10+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/analytic/"
 "sk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: analytic
 #. odoo-python
@@ -34,12 +34,12 @@ msgstr "%s (kópia)"
 #. odoo-python
 #: code:addons/analytic/models/analytic_line.py:0
 msgid "%s analytic lines created"
-msgstr "%s vytvorené analytické riadky"
+msgstr ""
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
-msgstr "<span class=\"o_stat_text\">Analytický účet</span>"
+msgstr ""
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
@@ -53,14 +53,12 @@ msgid ""
 "A 'Project' plan needs to exist and its id needs to be set as "
 "`analytic.project_plan` in the system variables"
 msgstr ""
-"Musí existovať plán „Projekt“ a jeho ID musí byť nastavené ako "
-"\"analytic.project_plan\" v systémových premenných"
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Account field"
-msgstr "Pole účtu"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__account_ids
@@ -70,7 +68,7 @@ msgstr "Účty"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_agrolait
 msgid "Acme Corporation"
-msgstr "Acme Corporation"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_needaction
@@ -85,7 +83,7 @@ msgstr "Aktívne"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_active_account
 msgid "Active account"
-msgstr "Aktívny účet"
+msgstr ""
 
 #. module: analytic
 #. odoo-javascript
@@ -107,7 +105,7 @@ msgstr "Administratívne"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__all_account_count
 msgid "All Analytic Accounts Count"
-msgstr "Počet všetkých analytických účtov"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__amount
@@ -152,7 +150,7 @@ msgstr "Analytické účty"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__account_count
 msgid "Analytic Accounts Count"
-msgstr "Počet analytických účtov"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
@@ -178,7 +176,7 @@ msgstr "Modely analytických distribúcií"
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_form
 msgid "Analytic Item"
-msgstr "Analytická položka"
+msgstr ""
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.account_analytic_line_action_entries
@@ -211,7 +209,7 @@ msgstr "Analytický plán"
 #. module: analytic
 #: model:ir.model,name:analytic.model_analytic_plan_fields_mixin
 msgid "Analytic Plan Fields"
-msgstr "Pole analytického plánu"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_account_analytic_applicability
@@ -237,13 +235,13 @@ msgstr "Analytická presnosť"
 #. odoo-python
 #: code:addons/analytic/models/analytic_plan.py:0
 msgid "Analytical Accounts"
-msgstr "Analytické účty"
+msgstr ""
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_plan.py:0
 msgid "Analytical Plans"
-msgstr "Analytické plány"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__applicability
@@ -266,13 +264,13 @@ msgstr "Pridružený partner"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_asustek
 msgid "Asustek"
-msgstr "Asustek"
+msgstr ""
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_line.py:0
 msgid "At least one analytic account must be set"
-msgstr "Musí být nastavený aspoň jeden analytický účet"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_attachment_count
@@ -294,17 +292,17 @@ msgstr "Bilancia:"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Business domain"
-msgstr "Obchodná oblasť"
+msgstr ""
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_partners_camp_to_camp
 msgid "Camp to Camp"
-msgstr "Camp to Camp"
+msgstr ""
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_integration_c2c
 msgid "CampToCamp"
-msgstr "CampToCamp"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__category
@@ -319,7 +317,7 @@ msgstr "Graf analytických účtov"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__children_count
 msgid "Children Plans Count"
-msgstr "Počet podriadených plánov"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__children_ids
@@ -329,7 +327,7 @@ msgstr "Podradené"
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_plan_action
 msgid "Click to add a new analytic account plan."
-msgstr "Kliknite pre pridanie nového analytického účtu."
+msgstr ""
 
 #. module: analytic
 #. odoo-javascript
@@ -350,7 +348,7 @@ msgstr "Index farieb"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_commercial_marketing
 msgid "Commercial & Marketing"
-msgstr "Obchod a marketing"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__company_id
@@ -368,7 +366,7 @@ msgstr "Kompletný názov"
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_form_view
 msgid "Conditions to meet"
-msgstr "Podmienky, ktoré je potrebné splniť"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_res_config_settings
@@ -450,12 +448,12 @@ msgstr "Má dať"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__default_applicability
 msgid "Default Applicability"
-msgstr "Predvolená použiteľnosť"
+msgstr ""
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_deltapc
 msgid "Delta PC"
-msgstr "Delta PC"
+msgstr ""
 
 #. module: analytic
 #: model:account.analytic.plan,name:analytic.analytic_plan_departments
@@ -471,13 +469,13 @@ msgstr "Popis"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_desertic_hispafuentes
 msgid "Desertic - Hispafuentes"
-msgstr "Desertic - Hispafuentes"
+msgstr ""
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Disable save"
-msgstr "Zakázať ukladanie"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__display_name
@@ -497,7 +495,7 @@ msgstr "Priradenie analytického účtu"
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_form_view
 msgid "Distribution to apply"
-msgstr "Rozdelenie, ktoré sa má použiť"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__business_domain
@@ -529,7 +527,7 @@ msgstr "Odberatelia (partneri)"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Force applicability"
-msgstr "Vynútená použiteľnosť"
+msgstr ""
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.account_analytic_line_action
@@ -620,12 +618,12 @@ msgstr "Legálne"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_think_big_systems
 msgid "Lumber Inc"
-msgstr "Lumber Inc"
+msgstr ""
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_luminous_technologies
 msgid "Luminous Technologies"
-msgstr "Luminous Technologies"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__applicability__mandatory
@@ -646,7 +644,7 @@ msgstr "Správy"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_millennium_industries
 msgid "Millennium Industries"
-msgstr "Millennium Industries"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__business_domain__general
@@ -657,7 +655,7 @@ msgstr "Účtovné záznamy"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Multi edit"
-msgstr "Hromadná úprava"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__name
@@ -668,13 +666,13 @@ msgstr "Meno"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_nebula
 msgid "Nebula"
-msgstr "Nebula"
+msgstr ""
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "New Model"
-msgstr "Nový model"
+msgstr ""
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
@@ -690,7 +688,7 @@ msgstr "Zatiaľ žiadna aktivita na tomto účte"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "No analytic plans found"
-msgstr "Nenašli sa žiadne analytické plány"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_needaction_counter
@@ -721,7 +719,7 @@ msgstr "Jeden alebo viacero riadkov vyžaduje 100 % analytické rozdelenie."
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_internal
 msgid "Operating Costs"
-msgstr "Prevádzkové náklady"
+msgstr ""
 
 #. module: analytic
 #. odoo-python
@@ -743,7 +741,7 @@ msgstr "Iné"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_our_super_product
 msgid "Our Super Product"
-msgstr "Náš super produkt"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__parent_id
@@ -764,7 +762,7 @@ msgstr "Partner"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__partner_category_id
 msgid "Partner Category"
-msgstr "Kategória partnera"
+msgstr ""
 
 #. module: analytic
 #. odoo-javascript
@@ -781,7 +779,7 @@ msgstr "Plán"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Product field"
-msgstr "Pole produktu"
+msgstr ""
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_production
@@ -841,18 +839,18 @@ msgstr "Pôvod"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__root_plan_id
 msgid "Root Plan"
-msgstr "Základný plán"
+msgstr ""
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Save as new analytic distribution model"
-msgstr "Uložiť ako nový model analytického rozdelenia"
+msgstr ""
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_seagate_p2
 msgid "Seagate P2"
-msgstr "Seagate P2"
+msgstr ""
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter
@@ -863,7 +861,7 @@ msgstr "Vyhľadávať analytické riadky"
 #. odoo-python
 #: code:addons/analytic/models/analytic_account.py:0
 msgid "See them"
-msgstr "Pozrite si ich"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__company_id
@@ -872,9 +870,6 @@ msgid ""
 "create new customer invoice or Sales order if we select this company, it "
 "will automatically take this as an analytic account)"
 msgstr ""
-"Vyberte spoločnosť, pre ktorú sa bude používať toto analytické rozdelenie "
-"(napr. vytvorenie novej zákazníckej faktúry alebo predajnej objednávky; ak "
-"vyberieme túto spoločnosť, automaticky sa to použije ako analytický účet)"
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__partner_category_id
@@ -883,9 +878,6 @@ msgid ""
 "(e.g. create new customer invoice or Sales order if we select this partner, "
 "it will automatically take this as an analytic account)"
 msgstr ""
-"Vyberte kategóriu partnera, pre ktorú sa použije analytické rozdelenie "
-"(napr. vytvorenie novej faktúry pre zákazníka alebo predajnej objednávky; ak "
-"vyberieme tohto partnera, automaticky sa to použije ako analytický účet)"
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__partner_id
@@ -894,9 +886,6 @@ msgid ""
 "create new customer invoice or Sales order if we select this partner, it "
 "will automatically take this as an analytic account)"
 msgstr ""
-"Vyberte partnera, pre ktorého sa použije analytické rozdelenie (napr. "
-"vytvorenie novej faktúry pre zákazníka alebo predajnej objednávky; ak "
-"vyberieme tohto partnera, automaticky sa to použije ako Analytický účet)"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__sequence
@@ -907,12 +896,12 @@ msgstr "Postupnosť"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_spark
 msgid "Spark Systems"
-msgstr "Spark Systems"
+msgstr ""
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "Subplans"
-msgstr "Podplány"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_ir_config_parameter
@@ -926,8 +915,6 @@ msgid ""
 "The value for %s must be the ID to a valid analytic plan that is not a "
 "subplan"
 msgstr ""
-"Hodnota pre %s musí byť ID platného analytického plánu, ktorý nie je "
-"podplánom"
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_absences
@@ -943,7 +930,7 @@ msgstr "Celkom"
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__applicability__unavailable
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_plan__default_applicability__unavailable
 msgid "Unavailable"
-msgstr "Nedostupné"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__product_uom_id
@@ -973,8 +960,6 @@ msgid ""
 "Whoa there! Making this change would wipe out your current data. Let's avoid "
 "that, shall we?"
 msgstr ""
-"Počkajte! Táto zmena by vymazala vaše aktuálne údaje. Radšej tomu predíďme, "
-"dobre?"
 
 #. module: analytic
 #. odoo-python
@@ -988,7 +973,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/analytic/models/analytic_plan.py:0
 msgid "You cannot add a parent to the base plan '%s'"
-msgstr "Nemôžete pridať nadradený plánu k základnému plánu „%s “"
+msgstr ""
 
 #. module: analytic
 #. odoo-python
@@ -997,9 +982,6 @@ msgid ""
 "You defined a distribution with analytic account(s) belonging to a specific "
 "company but a model shared between companies or with a different company"
 msgstr ""
-"Definovali ste distribúciu s analytickými účtami patriacimi konkrétnej "
-"spoločnosti, ale s modelom zdieľaným medzi spoločnosťami alebo s inou "
-"spoločnosťou"
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form

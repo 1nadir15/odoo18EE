@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * account_iso20022
+# 	* account_iso20022
 #
 # Translators:
 # Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2024
@@ -9,23 +9,21 @@
 # Tina Milas, 2024
 # Bole <bole@dajmi5.com>, 2024
 # Jasmina Otročak <jasmina@uvid.hr>, 2024
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-29 18:45+0000\n"
-"PO-Revision-Date: 2026-05-08 15:56+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
-"account_iso20022/hr/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Jasmina Otročak <jasmina@uvid.hr>, 2024\n"
+"Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
 
 #. module: account_iso20022
 #. odoo-python
@@ -47,7 +45,7 @@ msgstr "Austrijski"
 #. module: account_iso20022
 #: model_terms:ir.ui.view,arch_db:account_iso20022.view_batch_payment_form_inherit
 msgid "Batch Booking"
-msgstr "Skupno knjiženje"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model,name:account_iso20022.model_account_batch_payment
@@ -57,7 +55,7 @@ msgstr "Skupno plaćanje"
 #. module: account_iso20022
 #: model:ir.model.fields,field_description:account_iso20022.field_account_batch_payment__iso20022_charge_bearer
 msgid "Charge Bearer"
-msgstr "Nositelj troška"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model,name:account_iso20022.model_res_company
@@ -73,7 +71,7 @@ msgstr "Konfiguracijske postavke"
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "Configure Journal"
-msgstr "Konfiguriraj dnevnik"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model,name:account_iso20022.model_res_partner
@@ -83,18 +81,18 @@ msgstr "Kontakt"
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_batch_payment__iso20022_charge_bearer__cred
 msgid "Creditor"
-msgstr "Vjerovnik"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_batch_payment__iso20022_charge_bearer__debt
 msgid "Debtor"
-msgstr "Dužnik"
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_journal.py:0
 msgid "Employee %s has no country in their address."
-msgstr "Zaposlenik %s nema državu u svojoj adresi."
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_res_company__iso20022_orgid_issr
@@ -112,17 +110,17 @@ msgstr "Njemački"
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "Go to settings"
-msgstr "Idi na postavke"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,field_description:account_iso20022.field_account_journal__has_sepa_ct_payment_method
 msgid "Has Sepa Ct Payment Method"
-msgstr "Ima SEPA CT metodu plaćanja"
+msgstr ""
 
 #. module: account_iso20022
 #: model:account.payment.method,name:account_iso20022.account_payment_method_iso20022
 msgid "ISO20022"
-msgstr "ISO 20022"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,field_description:account_iso20022.field_res_company__iso20022_orgid_id
@@ -152,14 +150,14 @@ msgstr "Dnevnik"
 #: model:ir.model.fields,field_description:account_iso20022.field_res_partner__iso20022_lei
 #: model:ir.model.fields,field_description:account_iso20022.field_res_users__iso20022_lei
 msgid "LEI"
-msgstr "LEI"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_res_company__iso20022_lei
 #: model:ir.model.fields,help:account_iso20022.field_res_partner__iso20022_lei
 #: model:ir.model.fields,help:account_iso20022.field_res_users__iso20022_lei
 msgid "Legal Entity Identifier"
-msgstr "Identifikator pravne osobe"
+msgstr ""
 
 #. module: account_iso20022
 #: model_terms:ir.ui.view,arch_db:account_iso20022.res_partner_sepa_inherit_form
@@ -178,7 +176,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "Non-EUR Payments"
-msgstr "Plaćanja koja nisu u EUR"
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
@@ -221,7 +219,7 @@ msgstr "Plaćanja za poslati preko SEPA"
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "Payments without IBAN"
-msgstr "Plaćanja bez IBAN-a"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_account_batch_payment__iso20022_batch_booking
@@ -231,7 +229,7 @@ msgstr ""
 #. module: account_iso20022
 #: model:ir.model.fields,field_description:account_iso20022.field_account_batch_payment__iso20022_batch_booking
 msgid "SCT Batch Booking"
-msgstr "SCT skupno knjiženje"
+msgstr ""
 
 #. module: account_iso20022
 #: model:account.payment.method,name:account_iso20022.account_payment_method_sepa_ct
@@ -249,26 +247,26 @@ msgstr "SEPA kreditni prijenosi za slanje"
 #. odoo-python
 #: code:addons/account_iso20022/models/account_payment.py:0
 msgid "SEPA only accepts payments in EUR."
-msgstr "SEPA prihvaća samo plaćanja u EUR."
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid ""
 "SEPA only accepts payments in EUR. Some payments are using another currency."
-msgstr "SEPA prihvaća samo plaćanja u EUR. Neka plaćanja koriste drugu valutu."
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_account_journal__sepa_pain_version
 #: model:ir.model.fields,help:account_iso20022.field_account_payment__sepa_pain_version
 msgid ""
 "SEPA version to use to generate Credit Transfer XML files from this journal"
-msgstr "SEPA verzija za generiranje XML datoteka doznaka iz ovog dnevnika"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_batch_payment__iso20022_charge_bearer__slev
 msgid "Service Level"
-msgstr "Razina usluge"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_batch_payment__iso20022_charge_bearer__shar
@@ -285,7 +283,7 @@ msgstr "Neka plaćanja su iznad maksimalno dozvoljenog iznosa."
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "Some payments have no recipient bank account set."
-msgstr "Neka plaćanja nemaju postavljeni bankovni račun primatelja."
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_account_batch_payment__iso20022_charge_bearer
@@ -293,18 +291,16 @@ msgid ""
 "Specifies which party/parties will bear the charges associated with the "
 "processing of the payment transaction."
 msgstr ""
-"Određuje koja će strana/strane snositi troškove povezane s obradom "
-"transakcije plaćanja."
 
 #. module: account_iso20022
 #: model:account.payment.method,name:account_iso20022.account_payment_method_iso20022_se
 msgid "Swedish ISO20022"
-msgstr "Švedski ISO 20022"
+msgstr ""
 
 #. module: account_iso20022
 #: model:account.payment.method,name:account_iso20022.account_payment_method_iso20022_ch
 msgid "Swiss ISO20022"
-msgstr "Švicarski ISO 20022"
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
@@ -319,13 +315,6 @@ msgid ""
 "- 2 letters or digits: location code\n"
 "- 3 letters or digits: branch code, optional\n"
 msgstr ""
-"BIC kod '%(bic_code)s' povezan s bankom '%(bank)s' bankovnog računa '%"
-"(account)s' partnera '%(partner)s' ne poštuje traženu konvenciju.\n"
-"Mora sadržavati 8 ili 11 znakova i odgovarati sljedećoj strukturi:\n"
-"- 4 slova: kod institucije ili banke\n"
-"- 2 slova: kod države\n"
-"- 2 slova ili znamenke: kod lokacije\n"
-"- 3 slova ili znamenke: kod poslovnice, neobavezno\n"
 
 #. module: account_iso20022
 #. odoo-python
@@ -336,9 +325,6 @@ msgid ""
 "- 18 alphanumeric characters with capital letters\n"
 "- 2 digits in the end\n"
 msgstr ""
-"LEI broj mora sadržavati 20 znakova i odgovarati sljedećoj strukturi:\n"
-"- 18 alfanumeričkih znakova s velikim slovima\n"
-"- 2 znamenke na kraju\n"
 
 #. module: account_iso20022
 #. odoo-python
@@ -347,8 +333,6 @@ msgid ""
 "The Name Identification and Issuer details are required to proceed. Please "
 "configure them in the settings."
 msgstr ""
-"Identifikacija imena i detalji izdavatelja potrebni su za nastavak. "
-"Konfigurirajte ih u postavkama."
 
 #. module: account_iso20022
 #. odoo-python
@@ -358,8 +342,6 @@ msgid ""
 "IBAN.\n"
 "A valid IBAN account is required to use SEPA features."
 msgstr ""
-"Bankovni račun %(account)s dnevnika '%(journal)s' nije vrste IBAN.\n"
-"Za korištenje SEPA značajki potreban je valjani IBAN račun."
 
 #. module: account_iso20022
 #. odoo-python
@@ -368,8 +350,6 @@ msgid ""
 "The customer bank account set on some payments does not have an IBAN number. "
 "This is required for SEPA."
 msgstr ""
-"Bankovni račun kupca postavljen na nekim plaćanjima nema IBAN broj. Ovo je "
-"potrebno za SEPA."
 
 #. module: account_iso20022
 #. odoo-python
@@ -385,7 +365,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_iso20022/models/account_journal.py:0
 msgid "This journal does not have a bank account defined."
-msgstr "Ovaj dnevnik nema definiran bankovni račun."
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
@@ -396,18 +376,18 @@ msgstr "Previše transakcija za jednu datoteku."
 #. module: account_iso20022
 #: model:ir.model.fields,field_description:account_iso20022.field_account_payment__iso20022_uetr
 msgid "UETR"
-msgstr "UETR"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_account_payment__iso20022_uetr
 msgid "Unique end-to-end transaction reference"
-msgstr "Jedinstvena end-to-end referenca transakcije"
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "View Payments"
-msgstr "Pogledaj plaćanja"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_res_company__iso20022_initiating_party_name
@@ -415,8 +395,6 @@ msgid ""
 "Will appear as the name of the party initiating the payment. Limited to 70 "
 "characters."
 msgstr ""
-"Pojavit će se kao naziv strane koja pokreće plaćanje. Ograničeno na 70 "
-"znakova."
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_res_config_settings__iso20022_orgid_issr
@@ -442,9 +420,9 @@ msgstr "Naziv vaše tvrtke"
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__sepa_pain_version__pain_001_001_03
 msgid "pain.001.001.03"
-msgstr "pain.001.001.03"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__sepa_pain_version__pain_001_001_09
 msgid "pain.001.001.09"
-msgstr "pain.001.001.09"
+msgstr ""

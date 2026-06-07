@@ -15,8 +15,7 @@ export default class PackageLineComponent extends LineComponent {
     }
 
     get qtyDemand() {
-        const hasDemand = this.props.line.reservedPackage || this.props.line.result_package_id;
-        return hasDemand ? 1 : false;
+        return this.props.line.reservedPackage ? 1 : false;
     }
 
     get qtyDone() {

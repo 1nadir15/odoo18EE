@@ -99,39 +99,6 @@ class AppointmentGoogleReserveControllerTest(GoogleReserveCommon, common.HttpCas
 
     @freeze_time('2022-02-14 07-00-00')
     @patch('odoo.addons.appointment_google_reserve.tools.google_reserve_iap.GoogleReserveIAP.update_availabilities', autospec=True)
-    def test_google_reserve_availability_lookup_resource_on_leave(self, update_availabilities):
-        start_slot = datetime(2022, 2, 14, 15, 0, 0)
-        self.env['resource.calendar.leaves'].create({
-            'name': 'Table 1 on leave',
-            'resource_id': self.apt_type_resources_table_1.resource_id.id,
-            'date_from': datetime(2022, 2, 14, 14, 0, 0),
-            'date_to': datetime(2022, 2, 14, 17, 0, 0),
-        })
-
-        response = self.opener.get(
-            f'{self.base_url()}/appointment/{self.apt_type_resource_google.id}/{self.apt_type_resource_google.google_reserve_access_token}/google_reserve/availabilities',
-            data=json.dumps([{
-                'duration_sec': '3600',
-                'resource_ids': {
-                    'party_size': 4,
-                },
-                'start_sec': self._to_utc(start_slot),
-            }]),
-            headers={
-                'Content-Type': 'application/json',
-            },
-        )
-
-        self.assertEqual(response.status_code, 200)
-        self.assertTrue(bool(response.json()))
-        availability = response.json()[0]
-        slot_time = availability.get('slot_time')
-        self.assertEqual(slot_time.get('resource_ids').get('party_size'), 4)
-        self.assertEqual(slot_time.get('start_sec'), self._to_utc(start_slot))
-        self.assertFalse(availability.get('available'), False)
-
-    @freeze_time('2022-02-14 07-00-00')
-    @patch('odoo.addons.appointment_google_reserve.tools.google_reserve_iap.GoogleReserveIAP.update_availabilities', autospec=True)
     def test_google_reserve_availability_lookup_combinable(self, update_availabilities):
         self.apt_type_resources_table_1.write({
             'linked_resource_ids': [(4, self.apt_type_resources_table_2.id)],

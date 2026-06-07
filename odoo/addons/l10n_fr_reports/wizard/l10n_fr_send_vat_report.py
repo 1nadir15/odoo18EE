@@ -410,7 +410,7 @@ class L10nFrSendVatReport(models.TransientModel):
             [('tax_receivable_account_id', '!=', False)]
         ).tax_receivable_account_id
         tax_carried_forward_line_ids = tax_closing_entry.line_ids.filtered(
-            lambda line: line.account_id in tax_receivable_account_ids and line.name != _('Balance tax current account (receivable)')
+            lambda line: line.account_id in tax_receivable_account_ids
         )
 
         lines = []

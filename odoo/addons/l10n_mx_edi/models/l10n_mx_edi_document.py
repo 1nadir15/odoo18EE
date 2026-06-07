@@ -1245,7 +1245,7 @@ class L10nMxEdiDocument(models.Model):
         if currency.is_zero(cfdi_values['descuento']):
             cfdi_values['descuento'] = None
         for concepto in cfdi_values['conceptos_list']:
-            if float_is_zero(concepto['descuento'], precision_digits=6):
+            if currency.is_zero(concepto['descuento']):
                 concepto['descuento'] = None
             for key in ('traslados_list', 'retenciones_list'):
                 for tax_values in concepto[key]:

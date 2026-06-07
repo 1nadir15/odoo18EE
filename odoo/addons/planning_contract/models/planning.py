@@ -79,7 +79,7 @@ class Planning(models.Model):
         If not, we return the working hours within the contract period. If no period overlaps, we return 0.
         """
         if self.resource_id and self.resource_id._is_flexible():
-            contract = self.resource_id.employee_id.sudo().contract_id
+            contract = self.resource_id.employee_id.contract_id
             if contract and contract.state == 'open':
                 start_contract_utc = pytz.utc.localize(datetime.combine(fields.Datetime.to_datetime(contract.date_start), datetime.min.time()))
                 if contract.date_end:

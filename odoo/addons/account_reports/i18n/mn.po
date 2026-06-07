@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
-"PO-Revision-Date: 2026-05-30 18:22+0000\n"
+"POT-Creation-Date: 2026-04-17 18:46+0000\n"
+"PO-Revision-Date: 2026-04-18 18:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Mongolian <https://translate.odoo.com/projects/odoo-18/"
 "account_reports/mn/>\n"
@@ -32,7 +32,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_reports
 #. odoo-javascript
@@ -398,7 +398,7 @@ msgstr "Үйлдэл"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_report_file_download_error_wizard__actionable_errors
 msgid "Actionable Errors"
-msgstr "Засаж болох алдаанууд"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_mail_activity_type__category
@@ -1016,7 +1016,7 @@ msgstr "Түгжих огноо солих"
 #. odoo-python
 #: code:addons/account_reports/wizard/account_report_send.py:0
 msgid "Check Partner(s) Email(s)"
-msgstr "Харилцагч(ид)-н имэйл шалгах"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -1166,6 +1166,12 @@ msgstr "Борлуулалтын өртөг"
 msgid ""
 "Could not expand term %(term)s while evaluating formula %"
 "(unexpanded_formula)s"
+msgstr ""
+
+#. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+msgid "Could not parse account_code formula from token '%s'"
 msgstr ""
 
 #. module: account_reports
@@ -1459,7 +1465,7 @@ msgstr "Хоцролтын нэгж"
 #. odoo-python
 #: code:addons/account_reports/models/account_move.py:0
 msgid "Depending moves"
-msgstr "Хамаарал бүхий хөдөлгөөн"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -1548,7 +1554,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/account_report/filters/filter_extra_options.xml:0
 msgid "Draft Entries"
-msgstr "Ноорог бичилт"
+msgstr ""
 
 #. module: account_reports
 #. odoo-python
@@ -1627,7 +1633,7 @@ msgstr "Имэйл"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_report_send__mail_template_id
 msgid "Email template"
-msgstr "Имэйлийн загвар"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_report_send__enable_download
@@ -2053,7 +2059,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/account_report/filters/filter_extra_options.xml:0
 msgid "Hide lines at 0"
-msgstr "0 утгатай мөрүүд нуух"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -2220,7 +2226,7 @@ msgstr "Эхний үлдэгдэл"
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/account_report/filters/filter_extra_options.xml:0
 msgid "Integer Rounding"
-msgstr "Бүхэл тоонд дугуйруулах"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -2492,7 +2498,7 @@ msgstr ""
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_report_send__mail_attachments_widget
 msgid "Mail Attachments Widget"
-msgstr "Имэйлийн хавсралтын виджет"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_tax_unit__main_company_id
@@ -2580,7 +2586,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_reports/models/account_report.py:0
 msgid "Multi-ledger"
-msgstr "Олон дэвтэр"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_multicurrency_revaluation_report_handler
@@ -2730,13 +2736,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_reports/models/account_report.py:0
 msgid "Non Trade Payable"
-msgstr "Үндсэн бус өглөг"
+msgstr ""
 
 #. module: account_reports
 #. odoo-python
 #: code:addons/account_reports/models/account_report.py:0
 msgid "Non Trade Receivable"
-msgstr "Үндсэн бус авлага"
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -2901,7 +2907,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_reports/wizard/account_report_send.py:0
 msgid "Partner(s) should have an email address."
-msgstr "Харилцагч(ид) имэйл хаягтай байх ёстой."
+msgstr ""
 
 #. module: account_reports
 #. odoo-javascript
@@ -3154,7 +3160,7 @@ msgstr "Өнгөрсөн жилийн хуримтлагдсан ашиг"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.account_report_send_form
 msgid "Print & Send"
-msgstr "Хэвлэх & Илгээх"
+msgstr ""
 
 #. module: account_reports
 #. odoo-python
@@ -3362,7 +3368,7 @@ msgstr "Хайх..."
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.account_report_form
 msgid "Sections"
-msgstr "Хэсгүүд"
+msgstr ""
 
 #. module: account_reports
 #. odoo-python
@@ -3543,7 +3549,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/account_report/line/popover/debug_popover.xml:0
 msgid "Subformula"
-msgstr "Дэд томьёо"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_report_send__mail_subject
@@ -3738,7 +3744,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_reports/static/src/components/account_report/ellipsis/ellipsis.js:0
 msgid "Text copied"
-msgstr "Текст хуулагдлаа"
+msgstr ""
 
 #. module: account_reports
 #. odoo-python

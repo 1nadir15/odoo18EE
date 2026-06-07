@@ -18,14 +18,13 @@
 # Martin Dinovski, 2025
 # Veselina Slavkova, 2025
 # "v.kanev" <v.kanev@tutanota.com>, 2026.
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-15 17:52+0000\n"
-"PO-Revision-Date: 2026-05-16 18:31+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 18:49+0000\n"
+"PO-Revision-Date: 2026-03-20 14:24+0000\n"
+"Last-Translator: \"v.kanev\" <v.kanev@tutanota.com>\n"
 "Language-Team: Bulgarian <https://translate.odoo.com/projects/odoo-18/"
 "hr_contract_salary/bg/>\n"
 "Language: bg\n"
@@ -33,7 +32,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_personal_info__impacts_net_salary
@@ -602,7 +601,6 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_benefit__manual_res_field_id
 msgid "Contract field used to manually encode an benefit value."
 msgstr ""
-"Поле „Договор“, използвано за ръчно въвеждане на стойност на обезщетението."
 
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_hr_contract_history
@@ -1720,13 +1718,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_applicant__proposed_contracts
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_applicant_view_form
 msgid "Proposed Contracts"
-msgstr "Предложени договори"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_applicant__proposed_contracts_count
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract__contract_reviews_count
 msgid "Proposed Contracts Count"
-msgstr "Брой предложени договори"
+msgstr ""
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_personal_info__display_type__radio
@@ -2523,6 +2521,11 @@ msgstr ""
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_benefit_view_form
 msgid "e.g. Meal Vouchers"
+msgstr ""
+
+#. module: hr_contract_salary
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_salary_offer_view_form
+msgid "e.g. Permanent, Replacement, Short term"
 msgstr ""
 
 #. module: hr_contract_salary

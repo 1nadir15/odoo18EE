@@ -7,14 +7,13 @@
 # Jumshud Sultanov <cumshud@gmail.com>, 2024
 # erpgo translator <jumshud@erpgo.az>, 2025
 # Nurlan Farajov <coolinuxoid@gmail.com>, 2025
-# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025, 2026.
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 18:37+0000\n"
-"PO-Revision-Date: 2026-05-26 15:18+0000\n"
+"PO-Revision-Date: 2025-11-07 15:24+0000\n"
 "Last-Translator: ERPGo Odoo <erpgo.odoo@gmail.com>\n"
 "Language-Team: Azerbaijani <https://translate.odoo.com/projects/odoo-18/hr/"
 "az/>\n"
@@ -23,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_email_amount
@@ -464,7 +463,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Approvers"
-msgstr "Təsdiqləyənlər"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
@@ -700,7 +699,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee__certificate
 #: model:ir.model.fields,field_description:hr.field_res_users__certificate
 msgid "Certificate Level"
-msgstr "Təhsil dərəcəsi"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.res_users_action_my
@@ -737,7 +736,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Citizenship"
-msgstr "Vətəndaşlıq"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -752,7 +751,7 @@ msgstr "Şəhər"
 #: model:ir.model.fields,field_description:hr.field_res_users__coach_id
 #: model:ir.model.fields.selection,name:hr.selection__mail_activity_plan_template__responsible_type__coach
 msgid "Coach"
-msgstr "Təlimçi"
+msgstr ""
 
 #. module: hr
 #. odoo-python
@@ -859,7 +858,7 @@ msgstr "Kontaktın Adı"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__emergency_phone
 #: model:ir.model.fields,field_description:hr.field_res_users__emergency_phone
 msgid "Contact Phone"
-msgstr "Əlaqə Telefonu"
+msgstr ""
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_contract_type
@@ -892,7 +891,7 @@ msgstr "Ölkə Kodu"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__country_of_birth
 #: model:ir.model.fields,field_description:hr.field_res_users__country_of_birth
 msgid "Country of Birth"
-msgstr "Doğulduğu Ölkə"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__location_type
@@ -1003,7 +1002,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee__birthday
 #: model:ir.model.fields,field_description:hr.field_res_users__birthday
 msgid "Date of Birth"
-msgstr "Doğum Tarixi"
+msgstr ""
 
 #. module: hr
 #. odoo-python
@@ -1184,12 +1183,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Divorced"
-msgstr "Boşanmış"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__doctor
 msgid "Doctor"
-msgstr "Doktorantura"
+msgstr "Həkim"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__driving_license
@@ -1249,7 +1248,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Emergency"
-msgstr "Fövqəladə hal"
+msgstr ""
 
 #. module: hr
 #. odoo-python
@@ -1476,7 +1475,7 @@ msgstr ""
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Family Status"
-msgstr "Ailə statusu"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__gender__female
@@ -1487,7 +1486,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee__study_field
 #: model:ir.model.fields,field_description:hr.field_res_users__study_field
 msgid "Field of Study"
-msgstr "İxtisas"
+msgstr ""
 
 #. module: hr
 #: model:hr.departure.reason,name:hr.departure_fired
@@ -1552,7 +1551,7 @@ msgstr "Gələcək Fəaliyyətlər"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__gender
 #: model:ir.model.fields,field_description:hr.field_res_users__gender
 msgid "Gender"
-msgstr "Cinsiyyət"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
@@ -1578,7 +1577,7 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__graduate
 msgid "Graduate"
-msgstr "Məzun"
+msgstr "Ölçü"
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1654,19 +1653,19 @@ msgstr "Əsas"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__distance_home_work
 #: model:ir.model.fields,field_description:hr.field_res_users__distance_home_work
 msgid "Home-Work Distance"
-msgstr "Ev-İş Arası Məsafə"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__km_home_work
 #: model:ir.model.fields,field_description:hr.field_res_users__km_home_work
 msgid "Home-Work Distance in Km"
-msgstr "Ev-İş Arası Məsafə (km ilə)"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__distance_home_work_unit
 #: model:ir.model.fields,field_description:hr.field_res_users__distance_home_work_unit
 msgid "Home-Work Distance unit"
-msgstr "Ev-İş Arası Məsafə Vahidi"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__hr_icon_display
@@ -1746,7 +1745,7 @@ msgstr "İstisna fəaliyyətini göstərmək üçün ikon."
 #: model:ir.model.fields,field_description:hr.field_hr_employee__identification_id
 #: model:ir.model.fields,field_description:hr.field_res_users__identification_id
 msgid "Identification No"
-msgstr "ID no"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_department__message_needaction
@@ -1844,7 +1843,7 @@ msgstr "İzləyicidir"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__is_fully_flexible
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__is_fully_flexible
 msgid "Is Fully Flexible"
-msgstr "Tam çevikdir"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__is_manager
@@ -1986,7 +1985,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Legal Cohabitant"
-msgstr "Rəsmi birlikdə yaşayan şəxs"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.action_hr_job
@@ -2061,7 +2060,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_res_users__marital
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Marital Status"
-msgstr "Ailə vəziyyəti"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,name:hr.job_marketing
@@ -2072,12 +2071,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Married"
-msgstr "Evli"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__master
 msgid "Master"
-msgstr "Magistr"
+msgstr "Əsas"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__master_department_id
@@ -2171,7 +2170,7 @@ msgstr "Ad"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__country_id
 msgid "Nationality (Country)"
-msgstr "Milliyyət (Ölkə)"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2295,7 +2294,7 @@ msgstr "Əməliyyatların sayı"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__children
 #: model:ir.model.fields,field_description:hr.field_res_users__children
 msgid "Number of Dependent Children"
-msgstr "Uşaqların sayı"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_tree
@@ -2456,7 +2455,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee__passport_id
 #: model:ir.model.fields,field_description:hr.field_res_users__passport_id
 msgid "Passport No"
-msgstr "Ş/V seriya nömrəsi"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2514,7 +2513,7 @@ msgstr "Telefon"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__place_of_birth
 #: model:ir.model.fields,field_description:hr.field_res_users__place_of_birth
 msgid "Place of Birth"
-msgstr "Doğum Yeri"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__plan_ids
@@ -2628,7 +2627,7 @@ msgstr "Şəxsi Ünvan "
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_car_plate
 msgid "Private Car Plate"
-msgstr "Şəxsi avtomobil nömrəsi"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_city
@@ -2639,7 +2638,7 @@ msgstr ""
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Private Contact"
-msgstr "Şəxsi Əlaqə Məlumatları"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_country_id
@@ -2651,19 +2650,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_email
 #: model:ir.model.fields,field_description:hr.field_res_users__private_email
 msgid "Private Email"
-msgstr "Şəxsi e-poçt"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Private Information"
-msgstr "Şəxsi Məlumatlar"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_phone
 #: model:ir.model.fields,field_description:hr.field_res_users__private_phone
 msgid "Private Phone"
-msgstr "Şəxsi Telefon Nömrəsi"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_state_id
@@ -2921,7 +2920,7 @@ msgstr "Planlaşdırın"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__study_school
 #: model:ir.model.fields,field_description:hr.field_res_users__study_school
 msgid "School"
-msgstr "Məktəb/Universitet"
+msgstr ""
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_seasonal
@@ -2982,7 +2981,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Single"
-msgstr "Subay"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_skills
@@ -3419,7 +3418,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee__visa_expire
 #: model:ir.model.fields,field_description:hr.field_res_users__visa_expire
 msgid "Visa Expiration Date"
-msgstr "Vizanın Bitmə Tarixi"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__visa_no
@@ -3497,7 +3496,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Widower"
-msgstr "Dul"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__address_id
@@ -3506,7 +3505,7 @@ msgstr "Dul"
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__address_id
 #: model:ir.model.fields,field_description:hr.field_res_users__address_id
 msgid "Work Address"
-msgstr "İş ünvanı"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_contact_id
@@ -3523,14 +3522,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_res_users__work_email
 #: model:ir.model.fields,field_description:hr.field_resource_resource__work_email
 msgid "Work Email"
-msgstr "İş e-poçtu"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Work Information"
-msgstr "İş Məlumatları"
+msgstr ""
 
 #. module: hr
 #. odoo-javascript
@@ -3574,7 +3573,7 @@ msgstr "İş Yerləri"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__mobile_phone
 #: model:ir.model.fields,field_description:hr.field_res_users__mobile_phone
 msgid "Work Mobile"
-msgstr "İş mobil nömrəsi"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -3586,12 +3585,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Work Permit"
-msgstr "İş icazəsi"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_permit_expiration_date
 msgid "Work Permit Expiration Date"
-msgstr "İş icazəsinin bitmə tarixi"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__permit_no
@@ -3611,7 +3610,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_res_users__work_phone
 #: model:ir.model.fields,field_description:hr.field_resource_resource__work_phone
 msgid "Work Phone"
-msgstr "İş telefonu"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__worker

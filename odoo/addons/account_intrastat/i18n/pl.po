@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 17:48+0000\n"
-"PO-Revision-Date: 2026-06-06 09:35+0000\n"
-"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+"POT-Creation-Date: 2026-04-10 18:48+0000\n"
+"PO-Revision-Date: 2026-04-11 18:33+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "account_intrastat/pl/>\n"
 "Language: pl\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_intrastat
 #. odoo-javascript
@@ -302,12 +302,6 @@ msgstr "Kod transakcji Intrastat"
 
 #. module: account_intrastat
 #. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid "Invalid Intrastat Code"
-msgstr "Nieprawidłowy kod Intrastat"
-
-#. module: account_intrastat
-#. odoo-python
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 msgid "Invalid commodity intrastat code products."
 msgstr "Nieprawidłowy kod Intrastat towaru."
@@ -360,16 +354,6 @@ msgstr "Brakujący produkt"
 #: model:res.country,name:account_intrastat.xi
 msgid "Northern Ireland"
 msgstr "Północna Irlandia"
-
-#. module: account_intrastat
-#. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid ""
-"Note that the selected commodity code is invalid based on its start or "
-"expiry date. You can still select it."
-msgstr ""
-"Zwróć uwagę na to, że wybrany kod towaru jest nieprawidłowy ze względu na "
-"datę rozpoczęcia lub wygaśnięcia. Nadal można go wybrać."
 
 #. module: account_intrastat
 #. odoo-javascript
@@ -501,16 +485,6 @@ msgstr "Zakres dat musi być pełnym miesiącem, lub pełnym kwartałem."
 #: model:ir.model.fields,help:account_intrastat.field_product_template__intrastat_supplementary_unit_amount
 msgid "The number of supplementary units per product quantity."
 msgstr "Liczba jednostek uzupełniających na ilość produktu."
-
-#. module: account_intrastat
-#. odoo-python
-#: code:addons/account_intrastat/models/product.py:0
-msgid ""
-"The product template has no products/variants. At least one variant is "
-"required to set the Intrastat values."
-msgstr ""
-"Szablon produktu nie zawiera produktów/wariantów. Do ustawienia wartości "
-"Intrastat wymagany jest co najmniej jeden wariant."
 
 #. module: account_intrastat
 #. odoo-javascript

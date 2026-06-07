@@ -3,7 +3,7 @@ import requests
 from collections import defaultdict
 from dateutil.relativedelta import relativedelta
 
-from odoo import modules, models, _, fields
+from odoo import models, _, fields
 from odoo.exceptions import UserError
 from odoo.addons.l10n_be_codabox.const import get_error_msg, get_iap_endpoint
 
@@ -134,17 +134,15 @@ class AccountJournal(models.Model):
                 })
                 # We parse first the CODA to get the IBAN and Currency so that we can select a matching journal
                 currency, account_number, __ = self.with_context(ignore_statements=True)._parse_bank_statement_file(coda_attachment)
-                # Prefer a journal with an explicit currency matching
-                base_domain = [
+                journal = self.search([
                     ("bank_acc_number", "=", account_number),
                     ("bank_statements_source", "in", ("l10n_be_codabox", "undefined")),
-                ]
-                journal = self.search(base_domain + [("currency_id.name", "=", currency)], limit=1)
-                if not journal:
-                    journal = self.search(
-                        base_domain + [("currency_id", "=", False), ("company_id.currency_id.name", "=", currency)],
-                        limit=1,
-                    )
+                    "|",
+                        ("currency_id.name", "=", currency),
+                        "&",
+                            ("currency_id", "=", False),
+                            ("company_id.currency_id.name", "=", currency),
+                ], limit=1)
                 if journal:
                     journal.bank_statements_source = "l10n_be_codabox"
                 else:
@@ -173,8 +171,7 @@ class AccountJournal(models.Model):
                     })
                     self.env['account.bank.statement'].browse(statement_id).attachment_ids |= pdf + coda_attachment
                     # We may have a lot of files to import, so we commit after each file so that a later error doesn't discard previous work
-                    if not modules.module.current_test:
-                        self.env.cr.commit()
+                    self.env.cr.commit()
             except (UserError, ValueError) as e:
                 _logger.error("L10nBeCodabox: Error while importing CodaBox file: %s", e)
                 # We need to rollback here otherwise the next iteration will still have the error when trying to commit
@@ -190,7 +187,7 @@ class AccountJournal(models.Model):
 
     def l10n_be_codabox_manually_fetch_coda_transactions(self):
         self.ensure_one()
-        statement_ids = self._l10n_be_codabox_fetch_coda_transactions(self.company_id.with_context(read_only=True))
+        statement_ids = self._l10n_be_codabox_fetch_coda_transactions(self.company_id)
         return self.env["account.bank.statement.line"]._action_open_bank_reconciliation_widget(
             extra_domain=[("statement_id", "in", statement_ids)],
         )

@@ -6,13 +6,13 @@
 # Martin Trigaux, 2018
 # Boško Stojaković <bluesoft83@gmail.com>, 2018
 # Bole <bole@dajmi5.com>, 2018
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:50+0000\n"
-"PO-Revision-Date: 2026-04-29 18:50+0000\n"
+"PO-Revision-Date: 2025-12-31 13:12+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
 "website_appointment/bs/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: website_appointment
 #: model_terms:ir.ui.view,arch_db:website_appointment.appointment_card_top
@@ -121,7 +121,7 @@ msgstr ""
 #: code:addons/website_appointment/models/website.py:0
 #: model:website.menu,name:website_appointment.menu_appointment
 msgid "Appointment"
-msgstr "Sastanak"
+msgstr ""
 
 #. module: website_appointment
 #: model_terms:ir.ui.view,arch_db:website_appointment.website_online_appointment_snippet
@@ -156,7 +156,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_appointment.s_online_appointment_options
 #: model_terms:ir.ui.view,arch_db:website_appointment.snippets
 msgid "Appointments"
-msgstr "Sastanci"
+msgstr ""
 
 #. module: website_appointment
 #: model_terms:ir.ui.view,arch_db:website_appointment.snippet_options
@@ -172,7 +172,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_appointment.field_appointment_invite__can_publish
 #: model:ir.model.fields,field_description:website_appointment.field_appointment_type__can_publish
 msgid "Can Publish"
-msgstr "Može objavljivati"
+msgstr ""
 
 #. module: website_appointment
 #. odoo-python
@@ -237,7 +237,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_appointment.field_appointment_invite__is_published
 #: model:ir.model.fields,field_description:website_appointment.field_appointment_type__is_published
 msgid "Is Published"
-msgstr "je objavljeno"
+msgstr ""
 
 #. module: website_appointment
 #: model_terms:ir.ui.view,arch_db:website_appointment.appointment_progress_bar
@@ -302,17 +302,17 @@ msgstr "Resursi"
 #: model:ir.model.fields,help:website_appointment.field_appointment_invite__website_id
 #: model:ir.model.fields,help:website_appointment.field_appointment_type__website_id
 msgid "Restrict to a specific website."
-msgstr "Ograniči na konkretan website."
+msgstr ""
 
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_appointment_type__is_seo_optimized
 msgid "SEO optimized"
-msgstr "SEO optimizirana"
+msgstr ""
 
 #. module: website_appointment
 #: model_terms:ir.ui.view,arch_db:website_appointment.dynamic_filter_template_appointment_type_card
 msgid "Sample"
-msgstr "Uzorak"
+msgstr ""
 
 #. module: website_appointment
 #. odoo-python
@@ -333,7 +333,7 @@ msgstr ""
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_appointment_type__seo_name
 msgid "Seo name"
-msgstr "SEO naziv"
+msgstr ""
 
 #. module: website_appointment
 #: model_terms:ir.ui.view,arch_db:website_appointment.snippet_options
@@ -424,7 +424,7 @@ msgstr "Korisnici"
 #: model:ir.model.fields,field_description:website_appointment.field_appointment_invite__website_published
 #: model:ir.model.fields,field_description:website_appointment.field_appointment_type__website_published
 msgid "Visible on current website"
-msgstr "Vidljivo na trenutnom websiteu"
+msgstr ""
 
 #. module: website_appointment
 #: model:ir.model,name:website_appointment.model_website
@@ -437,7 +437,7 @@ msgstr "Web stranica"
 #. module: website_appointment
 #: model:ir.model,name:website_appointment.model_website_snippet_filter
 msgid "Website Snippet Filter"
-msgstr "Filter snippet-a websitea"
+msgstr ""
 
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_appointment_invite__website_url
@@ -463,7 +463,7 @@ msgstr "Website meta naslov"
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_appointment_type__website_meta_og_img
 msgid "Website opengraph image"
-msgstr "OpenGraph slika web stranice"
+msgstr ""
 
 #. module: website_appointment
 #. odoo-javascript

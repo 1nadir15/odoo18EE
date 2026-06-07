@@ -26,14 +26,19 @@ before(() => {
     }
 });
 
-import { getReportEditorPlugins } from "@web_studio/client_action/report_editor/report_editor_wysiwyg/report_editor_wysiwyg";
+import { QWebPlugin } from "@html_editor/others/qweb_plugin";
+import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
+import { QWebTablePlugin } from "@web_studio/client_action/report_editor/report_editor_wysiwyg/qweb_table_plugin";
+
+const REPORT_EDITOR_PLUGINS = [...MAIN_PLUGINS, QWebPlugin, QWebTablePlugin];
+const baseConfig = {
+    Plugins: REPORT_EDITOR_PLUGINS,
+    classList: ["odoo-editor-qweb"],
+};
 
 function getEditorOptions() {
     return {
-        config: {
-            Plugins: getReportEditorPlugins(),
-            classList: ["odoo-editor-qweb"],
-        },
+        config: { ...baseConfig },
         props: {
             iframe: true,
             copyCss: true,
@@ -406,10 +411,4 @@ test("move outside table menu shouldn't remove it if the menu is close, we shoul
     await animationFrame();
     expect(".o-overlay-container .o-we-table-menu").toHaveCount(0);
     expect(".o-dropdown-item").toHaveCount(0);
-});
-
-test("theme colors are not available", async () => {
-    await setupEditor(`<div><span>some [text]</span></div>`, getEditorOptions());
-    await contains(".o-we-toolbar .o-select-color-foreground").click();
-    expect(".o_colorpicker_section").toHaveInnerHTML("");
 });

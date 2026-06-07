@@ -23,7 +23,7 @@ export class ProjectTaskKanbanDynamicGroupList extends RelationalModel.DynamicGr
                 });
             });
         }
-        return super._unlinkGroups(groups);
+        return super._unlinkGroups();
     }
 }
 

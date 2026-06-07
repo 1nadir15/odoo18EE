@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-04-29 18:44+0000\n"
+"PO-Revision-Date: 2026-02-27 17:00+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/whatsapp/"
 "da/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: whatsapp
 #. odoo-python
@@ -479,7 +479,7 @@ msgstr "Kinesisk (TAI)"
 #. module: whatsapp
 #: model_terms:ir.ui.view,arch_db:whatsapp.ir_actions_server_view_form_whatsapp
 msgid "Choose a template..."
-msgstr "Vælg en skabelon ..."
+msgstr ""
 
 #. module: whatsapp
 #: model_terms:ir.ui.view,arch_db:whatsapp.whatsapp_composer_view_form
@@ -2189,7 +2189,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/whatsapp/static/src/core/common/message_patch.js:0
 msgid "The message has been bounced."
-msgstr "Meddelelsen blev ikke leveret."
+msgstr ""
 
 #. module: whatsapp
 #. odoo-javascript
@@ -2793,7 +2793,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/whatsapp/models/discuss_channel.py:0
 msgid "joined the channel"
-msgstr "kom ind i kanalen"
+msgstr ""
 
 #. module: whatsapp
 #: model_terms:ir.actions.act_window,help:whatsapp.whatsapp_account_action

@@ -11,13 +11,13 @@
 # Lasse L, 2024
 # Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2024
 # Chrille Hedberg <hedberg.chrille@gmail.com>, 2025
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 18:47+0000\n"
-"PO-Revision-Date: 2026-04-29 18:50+0000\n"
+"PO-Revision-Date: 2025-11-12 08:27+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "industry_fsm_report/sv/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: industry_fsm_report
 #. odoo-javascript
@@ -61,7 +61,7 @@ msgstr ""
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
 msgid "<span class=\"o_stat_text\">Worksheet</span>"
-msgstr "<span class=\"o_stat_text\">Arbetsblad</span>"
+msgstr ""
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
@@ -69,8 +69,6 @@ msgid ""
 "<span class=\"o_stat_text\">Worksheet</span>\n"
 "                            <span class=\"o_stat_text\">Complete</span>"
 msgstr ""
-"<span class=\"o_stat_text\">Arbetsblad</span>\n"
-"                            <span class=\"o_stat_text\">Färdigställt</span>"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_task_view_gantt_fsm_worksheet
@@ -82,7 +80,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.x_project_task_worksheet_template_3_ir_ui_view_1
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.x_project_task_worksheet_template_4_ir_ui_view_1
 msgid "Add details about your intervention..."
-msgstr "Lägg till information om underhållet..."
+msgstr ""
 
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_project_task_burndown_chart_report
@@ -143,7 +141,7 @@ msgstr "Datum"
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.x_project_task_worksheet_template_3_ir_model_1
 msgid "Default Worksheet"
-msgstr "Standard arbetsblad"
+msgstr ""
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_4
@@ -276,7 +274,7 @@ msgstr "Ingen aktivitet hittad. Låt oss skapa en!"
 #. module: industry_fsm_report
 #: model_terms:ir.actions.act_window,help:industry_fsm_report.fsm_worksheets_action_settings
 msgid "No worksheet templates found. Let's create one!"
-msgstr "Ingen mall för arbetsblad hittades. Skapa en ny!"
+msgstr ""
 
 #. module: industry_fsm_report
 #. odoo-javascript
@@ -414,7 +412,7 @@ msgstr "Mall kalkylblad"
 #: model:ir.actions.act_window,name:industry_fsm_report.fsm_worksheets_action_settings
 #: model:ir.ui.menu,name:industry_fsm_report.fsm_settings_worksheets
 msgid "Worksheet Templates"
-msgstr "Mallar för arbetsblad"
+msgstr ""
 
 #. module: industry_fsm_report
 #: model:ir.actions.act_window,name:industry_fsm_report.x_project_task_worksheet_template_3_ir_actions_act_window_1
@@ -427,4 +425,4 @@ msgstr "Arbetsblad"
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_project_form_inherit_industry_fsm_report
 msgid "e.g. Device Installation"
-msgstr "t.ex. installationer av enheter"
+msgstr ""

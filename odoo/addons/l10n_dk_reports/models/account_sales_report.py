@@ -100,9 +100,9 @@ class DenmarkECSalesReportCustomHandler(models.AbstractModel):
                 )
 
         # First heading line:
-        # Always start with 0, then our CVR number, then the word LISTE, rest is empty
+        # Always start with 0, then our CVR number, then the word LIST, rest is empty
         csv_lines = [
-            [0, cvr_number, 'LISTE', '', '', '', '', '', ''],
+            [0, cvr_number, 'LIST', '', '', '', '', '', ''],
         ]
 
         # We don't need formatting since we just need raw data

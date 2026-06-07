@@ -6,15 +6,15 @@
 # Wil Odoo, 2024
 # Manon Rondou, 2025
 #
-# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025, 2026.
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:47+0000\n"
-"PO-Revision-Date: 2026-05-08 09:18+0000\n"
-"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
+"PO-Revision-Date: 2026-01-17 09:09+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-18/planning/"
 "fr/>\n"
 "Language: fr\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: planning
 #. odoo-python
@@ -40,7 +40,7 @@ msgstr "%s (copie)"
 #. module: planning
 #: model:ir.actions.report,print_report_name:planning.report_planning_slot
 msgid "'Planning'"
-msgstr "'Planification'"
+msgstr "'Planning'"
 
 #. module: planning
 #. odoo-python
@@ -2125,7 +2125,7 @@ msgstr "Heures planifiées"
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:planning.slot_report
 msgid "Planning"
-msgstr "Planification"
+msgstr "Planning"
 
 #. module: planning
 #: model:ir.actions.act_window,name:planning.planning_report_action_analysis
@@ -2179,39 +2179,39 @@ msgstr "Propriétés des créneaux horaires"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
 msgid "Planning:"
-msgstr "Planification :"
+msgstr "Planning :"
 
 #. module: planning
 #: model:mail.template,name:planning.email_template_planning_planning
 msgid "Planning: New Schedule"
-msgstr "Planificiation : Nouveau planning"
+msgstr "Planning : Nouveau planning"
 
 #. module: planning
 #: model:mail.template,name:planning.email_template_slot_single
 msgid "Planning: New Shift"
-msgstr "Planificiation : Nouveau poste"
+msgstr "Planning : Nouveau poste"
 
 #. module: planning
 #: model:mail.template,name:planning.email_template_shift_switch_email
 msgid "Planning: Shift Re-assigned"
-msgstr "Planificiation : Poste réassigné"
+msgstr "Planning : Poste réassigné"
 
 #. module: planning
 #: model:ir.actions.server,name:planning.ir_cron_forecast_schedule_ir_actions_server
 msgid "Planning: generate next recurring shifts"
-msgstr "Planificiation : générer les prochains postes récurrents"
+msgstr "Planning : générer les prochains postes récurrents"
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "Planning: new open shift available on"
-msgstr "Planificiation : nouveau poste ouvert disponible le"
+msgstr "Planning : nouveau poste ouvert disponible le"
 
 #. module: planning
 #. odoo-python
 #: code:addons/planning/models/planning.py:0
 msgid "Planning: new shift on"
-msgstr "Planificiation : nouveau poste le"
+msgstr "Planning : nouveau poste le"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.brand_promotion
@@ -2519,17 +2519,17 @@ msgstr "Scanner"
 #: model:ir.ui.menu,name:planning.planning_menu_schedule
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_gantt
 msgid "Schedule"
-msgstr "Planificiation"
+msgstr "Planning"
 
 #. module: planning
 #: model:ir.actions.act_window,name:planning.planning_action_schedule_by_resource
 msgid "Schedule by Resource"
-msgstr "Planificiation par ressource"
+msgstr "Planning par ressource"
 
 #. module: planning
 #: model:ir.actions.act_window,name:planning.planning_action_schedule_by_role
 msgid "Schedule by Role"
-msgstr "Planificiation par rôle"
+msgstr "Planning par rôle"
 
 #. module: planning
 #. odoo-python

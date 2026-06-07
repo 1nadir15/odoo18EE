@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-01 18:09+0000\n"
+"POT-Creation-Date: 2026-04-10 19:09+0000\n"
 "PO-Revision-Date: 2025-11-08 12:38+0000\n"
 "Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
 "Language-Team: Luxembourgish <https://translate.odoo.com/projects/odoo-18-"
@@ -2549,8 +2549,8 @@ msgstr "Total wann applicabel TVA abegraff"
 #. module: l10n_lu_reports
 #: model_terms:ir.ui.view,arch_db:l10n_lu_reports.saft_template_inherit_l10n_lu_saft
 #: model_terms:ir.ui.view,arch_db:l10n_lu_reports.tax_information_inherit_l10n_lu_saft
-msgid "TVA"
-msgstr ""
+msgid "TVA-"
+msgstr "Tva-"
 
 #. module: l10n_lu_reports
 #: model:account.report.column,name:l10n_lu_reports.account_financial_report_ec_sales_tax
@@ -3054,6 +3054,3 @@ msgstr "vu va opgeruff"
 #: model:account.report.line,name:l10n_lu_reports.l10n_lu_annual_tax_report_appendix_e_a1
 msgid "which of total under 1.a. is"
 msgstr "wéi eng vun am Ganzen ënner 1.A.ass"
-
-#~ msgid "TVA-"
-#~ msgstr "Tva-"

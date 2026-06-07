@@ -553,7 +553,6 @@ export class MrpDisplayRecord extends Component {
             if (action.context) {
                 action.context.skip_redirection = true;
             }
-            return this._doAction(action);
         } else if (this.props.record.resModel === "mrp.production") {
             await this.props.removeFromValidationStack(this.props.record);
             this.state.validated = true;

@@ -1,5 +1,4 @@
 import { _t } from "@web/core/l10n/translation";
-import { accountTaxHelpers } from "@account/helpers/account_tax";
 import { NumberPopup } from "@point_of_sale/app/utils/input_popups/number_popup";
 import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 import { ControlButtons } from "@point_of_sale/app/screens/product_screen/control_buttons/control_buttons";
@@ -51,19 +50,15 @@ patch(ControlButtons.prototype, {
                 lines.filter((ll) => ll.isGlobalDiscountApplicable())
             );
 
-            const taxesForDiscountLine = tax_ids_array
+            const taxes = tax_ids_array
                 .map((taxId) => this.pos.models["account.tax"].get(taxId))
-                .filter((tax) => tax && accountTaxHelpers.can_be_discounted(tax));
+                .filter(Boolean);
 
             // We add the price as manually set to avoid recomputation when changing customer.
             const discount = (-pc / 100.0) * baseToDiscount;
             if (discount < 0) {
                 await this.pos.addLineToCurrentOrder(
-                    {
-                        product_id: product,
-                        price_unit: discount,
-                        tax_ids: [["link", ...taxesForDiscountLine]],
-                    },
+                    { product_id: product, price_unit: discount, tax_ids: [["link", ...taxes]] },
                     { merge: false }
                 );
             }

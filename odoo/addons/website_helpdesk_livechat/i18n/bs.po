@@ -4,13 +4,13 @@
 #
 # Translators:
 # Boško Stojaković <bluesoft83@gmail.com>, 2018
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:46+0000\n"
-"PO-Revision-Date: 2026-05-13 16:55+0000\n"
+"PO-Revision-Date: 2025-11-17 16:44+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
 "website_helpdesk_livechat/bs/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: website_helpdesk_livechat
 #. odoo-python
@@ -99,7 +99,7 @@ msgstr ""
 #. module: website_helpdesk_livechat
 #: model:ir.model,name:website_helpdesk_livechat.model_discuss_channel
 msgid "Discussion Channel"
-msgstr "Kanal za diskusiju"
+msgstr ""
 
 #. module: website_helpdesk_livechat
 #: model:chatbot.script.step,message:website_helpdesk_livechat.chatbot_script_helpdesk_step_dispatch
@@ -156,7 +156,7 @@ msgstr "Razgovor u živo"
 #. odoo-python
 #: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
 msgid "Load More"
-msgstr "Učitaj više"
+msgstr ""
 
 #. module: website_helpdesk_livechat
 #: model:chatbot.script.answer,name:website_helpdesk_livechat.chatbot_script_helpdesk_step_administrative_customer_ref_answer_no

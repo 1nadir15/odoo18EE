@@ -211,17 +211,8 @@
 }
 
 .o_sign_tags_format {
+    width: 25%;
     min-height: 72px;
-}
-
-@include media-breakpoint-up(lg) {
-    .o_sign_tags_format {
-        max-width: 25%;
-    }
-}
-
-.o_field_many2many_tags {
-    min-width: 0;
 }
 
 .o_sign_template_tags_and_save .o_tags_input {

@@ -13,10 +13,10 @@ class HrContract(models.Model):
     def _check_acerta_code(self):
         problematic_contracts = self.env['hr.contract']
         for contract in self:
-            if contract.acerta_code and len(contract.acerta_code) != 17:
-                if len(contract.acerta_code) > 17:
+            if contract.acerta_code and len(contract.acerta_code) != 20:
+                if len(contract.acerta_code) > 20:
                     problematic_contracts |= contract
-                contract.acerta_code = contract.acerta_code.zfill(17)
+                contract.acerta_code = contract.acerta_code.zfill(20)
 
         if problematic_contracts:
             raise ValueError(self.env._(

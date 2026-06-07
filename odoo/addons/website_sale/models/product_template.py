@@ -842,10 +842,7 @@ class ProductTemplate(models.Model):
             list_price = self.env['ir.qweb.field.monetary'].value_to_html(
                 combination_info['list_price'], monetary_options
             )
-        if (
-            combination_info["compare_list_price"]
-            and combination_info["compare_list_price"] > combination_info["price"]
-        ):
+        if combination_info['compare_list_price']:
             list_price = self.env['ir.qweb.field.monetary'].value_to_html(
                 combination_info['compare_list_price'], monetary_options
             )

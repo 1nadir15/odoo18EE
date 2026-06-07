@@ -27,7 +27,7 @@ from odoo import api, fields, models, http, _, Command
 from odoo.tools import config, email_normalize, format_list, get_lang, is_html_empty, format_date, formataddr, groupby, consteq
 from odoo.exceptions import UserError, ValidationError
 from odoo.tools.misc import hmac
-from odoo.tools.pdf import PdfFileReader, PdfFileWriter, PdfReadError, reshape_text, NameObject
+from odoo.tools.pdf import PdfFileReader, PdfFileWriter, PdfReadError, reshape_text
 
 
 TTFSearchPath.append(os.path.join(config["root_path"], "..", "addons", "web", "static", "fonts", "sign"))
@@ -793,22 +793,6 @@ class SignRequest(models.Model):
                 page = old_pdf.getPage(p)
                 page.mergePage(item_pdf.getPage(p))
                 new_pdf.addPage(page)
-                new_pdf.getPage(-1).compressContentStreams()
-                # Preserve page indirect object identity so internal PDF references remain valid.
-                ref = page.indirect_reference if hasattr(page, "indirect_reference") else None
-                if ref:
-                    old_pdf.resolved_objects[ref.generation, ref.idnum] = page
-
-            # Copy bookmarks from the original PDF to the new one, if any exist
-            root = old_pdf.trailer.get("/Root")
-            old_outlines_ref = root.get("/Outlines") if root else None
-            if old_outlines_ref:
-                outlines_obj = old_outlines_ref.getObject()
-                copied_outlines = new_pdf._addObject(outlines_obj)
-                new_pdf._root_object.update({
-                    NameObject("/Outlines"): copied_outlines,
-                    NameObject("/PageMode"): NameObject("/UseOutlines")
-                })
 
             if isEncrypted:
                 new_pdf.encrypt(password)

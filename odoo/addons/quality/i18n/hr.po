@@ -14,13 +14,13 @@
 # Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2024
 # Bole <bole@dajmi5.com>, 2024
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-22 17:54+0000\n"
-"PO-Revision-Date: 2026-04-29 18:53+0000\n"
+"POT-Creation-Date: 2025-12-29 18:46+0000\n"
+"PO-Revision-Date: 2025-11-17 16:27+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/quality/"
 "hr/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert_team__alert_count
@@ -51,12 +51,6 @@ msgid ""
 msgstr ""
 "Python rječnik koji će se evaluirati kako bi dobili zadane vrijednosti pri "
 "kreiranju novog zapisa za ovaj alias."
-
-#. module: quality
-#. odoo-python
-#: code:addons/quality/models/quality.py:0
-msgid "A quality team must have a company assigned."
-msgstr ""
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__message_needaction
@@ -347,7 +341,7 @@ msgstr "Email cc"
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_alert_team__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr "Domena e-pošte, npr. 'example.com' u 'odoo@example.com'"
+msgstr ""
 
 #. module: quality
 #: model:ir.model.fields.selection,name:quality.selection__quality_check__quality_state__fail
@@ -821,13 +815,11 @@ msgid ""
 "Quality Point will apply to every Products in the selected Product "
 "Categories."
 msgstr ""
-"Točka kvalitete primijenit će se na svaki proizvod u odabranim kategorijama "
-"proizvoda."
 
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_point__product_ids
 msgid "Quality Point will apply to every selected Products."
-msgstr "Točka kvalitete primijenit će se na svaki odabrani proizvod."
+msgstr ""
 
 #. module: quality
 #: model:ir.model,name:quality.model_quality_tag
@@ -1057,7 +1049,7 @@ msgstr "Jako visok"
 #. odoo-javascript
 #: code:addons/quality/static/src/tablet_image_field/tablet_image_field.xml:0
 msgid "Viewer"
-msgstr "Preglednik"
+msgstr ""
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__website_message_ids

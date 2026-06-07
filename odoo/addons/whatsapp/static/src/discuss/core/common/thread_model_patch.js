@@ -26,13 +26,6 @@ const threadPatch = {
         }
         return res;
     },
-    computeCorrespondent() {
-        const correspondent = super.computeCorrespondent();
-        if (this.channel_type === "whatsapp" && !correspondent) {
-            return this.whatsappMember;
-        }
-        return correspondent;
-    },
     get hasMemberList() {
         return this.channel_type === "whatsapp" || super.hasMemberList;
     },

@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * mrp_mps
+# 	* mrp_mps
 #
 # Translators:
 # 0ba0ac30481a756f36528ba6f9a4317e_6443a87 <52eefe24349934c364624ef40611b7a3_1010754>, 2024
@@ -9,23 +9,21 @@
 # Bole <bole@dajmi5.com>, 2024
 # Martin Trigaux, 2024
 # Luka Carević <luka@uvid.hr>, 2025
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:46+0000\n"
-"PO-Revision-Date: 2026-05-02 09:03+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/mrp_mps/"
-"hr/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Luka Carević <luka@uvid.hr>, 2025\n"
+"Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_production_schedule_form_view
@@ -40,13 +38,13 @@ msgstr ""
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_bom_form_view_inherit_mps
 msgid "<span>Schedules</span>"
-msgstr "<span>Rasporedi</span>"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/components/line.xml:0
 msgid "ATP"
-msgstr "ATP"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -64,35 +62,35 @@ msgstr "Stvarna potražnja"
 #. odoo-python
 #: code:addons/mrp_mps/models/mrp_mps.py:0
 msgid "Actual Demand %(product)s %(date)s (%(date_start)s - %(date_end)s)"
-msgstr "Stvarna potražnja %(product)s %(date)s (%(date_start)s - %(date_end)s)"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/components/line.xml:0
 #: code:addons/mrp_mps/static/src/search/group_menu.xml:0
 msgid "Actual Demand Y-1"
-msgstr "Stvarna potražnja G-1"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/components/line.xml:0
 #: code:addons/mrp_mps/static/src/search/group_menu.xml:0
 msgid "Actual Demand Y-2"
-msgstr "Stvarna potražnja G-2"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/search/group_menu.xml:0
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__total_qty
 msgid "Actual Replenishment"
-msgstr "Stvarna nadopuna"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-python
 #: code:addons/mrp_mps/models/mrp_mps.py:0
 msgid ""
 "Actual Replenishment %(product)s %(date)s (%(date_start)s - %(date_end)s)"
-msgstr "Stvarna nadopuna %(product)s %(date)s (%(date_start)s - %(date_end)s)"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -126,7 +124,7 @@ msgstr "Automatski"
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "Automatically Replenished"
-msgstr "Automatski nadopunjeno"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -137,7 +135,7 @@ msgstr "Raspoloživo za obećati"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__batch_size
 msgid "Batch Size"
-msgstr "Veličina serije"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_mrp_bom
@@ -213,7 +211,7 @@ msgstr "Dan"
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.res_config_settings_view_form
 msgid "Default Time Range"
-msgstr "Zadani vremenski raspon"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__product_uom_id
@@ -225,8 +223,6 @@ msgstr "Zadana jedinica mjere za sve skladišne operacije."
 #: model:ir.model.fields,help:mrp_mps.field_res_config_settings__manufacturing_period
 msgid "Default value for the time ranges in Master Production Schedule report."
 msgstr ""
-"Zadana vrijednost za vremenske raspone u izvještaju glavnog proizvodnog "
-"rasporeda."
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -249,17 +245,17 @@ msgstr "Prikaži stvarnu potražnju"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_actual_demand_year_minus_2
 msgid "Display Actual Demand Before Year"
-msgstr "Prikaži stvarnu potražnju prije godine"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_actual_demand_year_minus_1
 msgid "Display Actual Demand Last Year"
-msgstr "Prikaži stvarnu potražnju prošle godine"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_actual_replenishment
 msgid "Display Actual Replenishment"
-msgstr "Prikaži stvarnu nadopunu"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_available_to_promise
@@ -291,17 +287,17 @@ msgstr "Prikaži sigurnosnu zalihu"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_starting_inventory
 msgid "Display Starting Inventory"
-msgstr "Prikaži početno stanje zaliha"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_to_replenish
 msgid "Display To Replenish"
-msgstr "Prikaži za nadopunu"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__enable_batch_size
 msgid "Enable Batch Size"
-msgstr "Omogući veličinu serije"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__enable_max_replenish
@@ -311,7 +307,7 @@ msgstr ""
 #. module: mrp_mps
 #: model:ir.model.fields.selection,name:mrp_mps.selection__mrp_production_schedule__replenish_state__excessive_replenishment
 msgid "Excessive Replenishment"
-msgstr "Prekomjerna nadopuna"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -328,7 +324,7 @@ msgstr "Vanjski ID"
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_mrp_mps_forecast_details
 msgid "Forecast Demand Details"
-msgstr "Detalji predviđene potražnje"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -352,7 +348,7 @@ msgstr "Predviđena zaliha"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__forecast_ids
 msgid "Forecasted quantity at date"
-msgstr "Predviđena količina na datum"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__id
@@ -364,7 +360,7 @@ msgstr "ID"
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__bom_id
 msgid "If set, the bill of materials components will also be imported."
-msgstr "Ako je postavljeno, uvest će se i komponente sastavnice materijala."
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__batch_size
@@ -377,13 +373,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp_mps/models/mrp_mps.py:0
 msgid "Import Template for Master Production Schedule"
-msgstr "Predložak za uvoz glavnog proizvodnog rasporeda"
+msgstr ""
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_production_schedule_form_view
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "Indirect Demand"
-msgstr "Neizravna potražnja"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -395,12 +391,12 @@ msgstr "Prognoza indirektne potražnje"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__is_indirect
 msgid "Indirect demand product"
-msgstr "Proizvod neizravne potražnje"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__is_manufacture_route
 msgid "Is Manufacture Route"
-msgstr "Je proizvodna ruta"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__write_uid
@@ -419,12 +415,12 @@ msgstr "Promijenjeno"
 #. module: mrp_mps
 #: model:ir.ui.menu,name:mrp_mps.mrp_mps_menu_planning
 msgid "MPS"
-msgstr "MPS"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.actions.server,name:mrp_mps.ir_cron_replenish_automated_mps_ir_actions_server
 msgid "MPS: replenish automated schedules"
-msgstr "MPS: nadopunjavanje automatiziranih rasporeda"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields.selection,name:mrp_mps.selection__mrp_production_schedule__replenish_trigger__manual
@@ -438,19 +434,16 @@ msgid ""
 "Automatic: Product replenished automatically via scheduled action.\n"
 "Never: Product is not replenished from MPS."
 msgstr ""
-"Ručno: Proizvod se ručno nadopunjava iz MPS-a.\n"
-"Automatski: Proizvod se automatski nadopunjava putem zakazane radnje.\n"
-"Nikad: Proizvod se ne nadopunjava iz MPS-a."
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "Manually Replenished"
-msgstr "Ručno nadopunjeno"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__manufacture_string
 msgid "Manufacture String"
-msgstr "Oznaka proizvodnje"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-python
@@ -478,8 +471,6 @@ msgid ""
 "Manufacturing Settings: Your Master Production Schedule must always display "
 "at least 1 period."
 msgstr ""
-"Postavke proizvodnje: Vaš glavni proizvodni raspored uvijek mora prikazivati "
-"barem 1 razdoblje."
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -498,7 +489,7 @@ msgstr ""
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__min_to_replenish_qty
 msgid "Minimum to Replenish"
-msgstr "Minimum za nadopunu"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -519,7 +510,7 @@ msgstr "Temeljnica"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__moves_string
 msgid "Moves String"
-msgstr "Oznaka kretanja"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields.selection,name:mrp_mps.selection__mrp_production_schedule__replenish_trigger__never
@@ -530,37 +521,37 @@ msgstr "Nikad"
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/components/main.xml:0
 msgid "No product yet. Add one to start scheduling."
-msgstr "Još nema proizvoda. Dodajte jedan kako biste započeli raspoređivanje."
+msgstr ""
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "Not Replenished from MPS"
-msgstr "Nije nadopunjeno iz MPS-a"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_config_settings__manufacturing_period_to_display_day
 msgid "Number of Daily Manufacturing Period Columns"
-msgstr "Broj stupaca dnevnog proizvodnog razdoblja"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_config_settings__manufacturing_period_to_display_month
 msgid "Number of Monthly Manufacturing Period Columns"
-msgstr "Broj stupaca mjesečnog proizvodnog razdoblja"
+msgstr ""
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.res_config_settings_view_form
 msgid "Number of Periods"
-msgstr "Broj razdoblja"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_config_settings__manufacturing_period_to_display_week
 msgid "Number of Weekly Manufacturing Period Columns"
-msgstr "Broj stupaca tjednog proizvodnog razdoblja"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_config_settings__manufacturing_period_to_display_year
 msgid "Number of Yearly Manufacturing Period Columns"
-msgstr "Broj stupaca godišnjeg proizvodnog razdoblja"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__manufacturing_period_to_display_day
@@ -568,8 +559,6 @@ msgid ""
 "Number of columns for the daily period to display in Master Production "
 "Schedule"
 msgstr ""
-"Broj stupaca za dnevno razdoblje koje se prikazuje u glavnom proizvodnom "
-"rasporedu"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__manufacturing_period_to_display_month
@@ -577,8 +566,6 @@ msgid ""
 "Number of columns for the monthly period to display in Master Production "
 "Schedule"
 msgstr ""
-"Broj stupaca za mjesečno razdoblje koje se prikazuje u glavnom proizvodnom "
-"rasporedu"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__manufacturing_period_to_display_week
@@ -586,8 +573,6 @@ msgid ""
 "Number of columns for the weekly period to display in Master Production "
 "Schedule"
 msgstr ""
-"Broj stupaca za tjedno razdoblje koje se prikazuje u glavnom proizvodnom "
-"rasporedu"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__manufacturing_period_to_display_year
@@ -595,8 +580,6 @@ msgid ""
 "Number of columns for the yearly period to display in Master Production "
 "Schedule"
 msgstr ""
-"Broj stupaca za godišnje razdoblje koje se prikazuje u glavnom proizvodnom "
-"rasporedu"
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -614,7 +597,7 @@ msgstr "Preferirana ruta"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_product_forecast__procurement_launched
 msgid "Procurement has been run for this forecast"
-msgstr "Nabava je pokrenuta za ovo predviđanje"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_product_template
@@ -630,7 +613,7 @@ msgstr "Kategorija proizvoda"
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_mrp_product_forecast
 msgid "Product Forecast at Date"
-msgstr "Predviđanje proizvoda na datum"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__product_tmpl_id
@@ -670,17 +653,17 @@ msgstr "Stavka naloga nabave"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__moves_qty
 msgid "Quantity from Incoming Moves"
-msgstr "Količina iz ulaznih kretanja"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__manufacture_qty
 msgid "Quantity from Manufacturing Order"
-msgstr "Količina iz radnog naloga"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__rfq_qty
 msgid "Quantity from RFQ"
-msgstr "Količina iz zahtjeva za ponudu"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -689,8 +672,6 @@ msgid ""
 "Quantity predicted to be available for sale at the end of the period (= to "
 "replenish - actual demand)."
 msgstr ""
-"Predviđena količina dostupna za prodaju na kraju razdoblja (= za nadopunu - "
-"stvarna potražnja)."
 
 #. module: mrp_mps
 #. odoo-python
@@ -714,51 +695,51 @@ msgstr "Nadopunjavanje"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__replenish_state
 msgid "Replenish State"
-msgstr "Stanje nadopune"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_product_forecast__replenish_qty_updated
 msgid "Replenish_qty has been manually updated"
-msgstr "Replenish_qty je ručno ažurirano"
+msgstr ""
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "Replenishment Too High"
-msgstr "Nadopuna previsoka"
+msgstr ""
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "Replenishment Too Low"
-msgstr "Nadopuna preniska"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__replenish_trigger
 msgid "Replenishment Trigger"
-msgstr "Okidač nadopune"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/components/line.xml:0
 msgid "Replenishment:"
-msgstr "Nadopuna:"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-python
 #: code:addons/mrp_mps/wizard/mrp_mps_forecast_details.py:0
 msgid "Request for quotation"
-msgstr "Zahtjev za ponudu"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-python
 #: code:addons/mrp_mps/wizard/mrp_mps_forecast_details.py:0
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_forecast_details_form_view
 msgid "Requests for quotation"
-msgstr "Zahtjevi za ponudu"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__rfq_string
 msgid "Rfq String"
-msgstr "Oznaka zahtjeva za ponudu"
+msgstr ""
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_production_schedule_form_view
@@ -768,7 +749,7 @@ msgstr "Rute"
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__route_id
 msgid "Route to replenish your product."
-msgstr "Ruta za nadopunu vašeg proizvoda."
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -779,7 +760,7 @@ msgstr "Retci"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__forecast_target_qty
 msgid "Safety Stock Target"
-msgstr "Ciljna sigurnosna zaliha"
+msgstr ""
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_production_schedule_form_view
@@ -789,7 +770,7 @@ msgstr "Spremi"
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_mrp_production_schedule
 msgid "Schedule the production of Product in a warehouse"
-msgstr "Zakažite proizvodnju proizvoda u skladištu"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_purchase_order__date_planned_mps
@@ -802,7 +783,7 @@ msgstr "Zakazani datum"
 #: model_terms:ir.ui.view,arch_db:mrp_mps.product_normal_form_view_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.product_template_only_form_view_mps
 msgid "Schedules"
-msgstr "Rasporedi"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__mps_sequence
@@ -812,12 +793,12 @@ msgstr "Sekvenca"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__show_bom
 msgid "Show Bom"
-msgstr "Prikaži sastavnicu"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__show_vendor
 msgid "Show Vendor"
-msgstr "Prikaži dobavljača"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -833,18 +814,18 @@ msgstr "Skladišno pravilo"
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__replenish_state
 msgid "Technical field to support filtering by replenish state"
-msgstr "Tehničko polje za podršku filtriranja po stanju nadopune"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.constraint,message:mrp_mps.constraint_mrp_production_schedule_warehouse_product_ref_uniq
 msgid "The combination of warehouse and product must be unique!"
-msgstr "Kombinacija skladišta i proizvoda mora biti jedinstvena!"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/components/line.xml:0
 msgid "The confirmed demand, based on the confirmed sales orders."
-msgstr "Potvrđena potražnja, temeljena na potvrđenim prodajnim nalozima."
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -853,25 +834,24 @@ msgid ""
 "The forecasted demand to fulfill the needs in components of the "
 "Manufacturing Orders."
 msgstr ""
-"Predviđena potražnja za ispunjavanje potreba za komponentama radnih naloga."
 
 #. module: mrp_mps
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/components/line.xml:0
 msgid "The forecasted demand. This value has to be entered manually."
-msgstr "Predviđena potražnja. Ova vrijednost mora se unijeti ručno."
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/components/line.xml:0
 msgid "The forecasted quantity in stock at the beginning of the period."
-msgstr "Predviđena količina na zalihi na početku razdoblja."
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/components/line.xml:0
 msgid "The forecasted quantity in stock at the end of the period."
-msgstr "Predviđena količina na zalihi na kraju razdoblja."
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -883,12 +863,6 @@ msgid ""
 "constraints such as: safety stock, production capacity, lead times.\n"
 "                    It's the perfect tool to support your S&OP meetings."
 msgstr ""
-"Glavni raspored pretvara vaša predviđanja prodaje i potražnje u plan "
-"proizvodnje i nabave za svaku komponentu.\n"
-"                    Osigurava da sve bude zakazano na vrijeme, na temelju "
-"ograničenja poput: sigurnosne zalihe, proizvodnog kapaciteta, vremena "
-"isporuke.\n"
-"                    To je savršen alat za podršku vaših S&OP sastanaka."
 
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__max_to_replenish_qty
@@ -906,8 +880,6 @@ msgid ""
 "The quantity being replenished, based on the Requests for Quotation and the "
 "Manufacturing Orders."
 msgstr ""
-"Količina koja se nadopunjuje, temeljena na zahtjevima za ponudu i radnim "
-"nalozima."
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -922,13 +894,11 @@ msgid ""
 "This is the minimum free stock you want to keep for that product at all "
 "times."
 msgstr ""
-"Ovo je minimalna slobodna zaliha koju želite održavati za taj proizvod u "
-"svakom trenutku."
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "To Forecast"
-msgstr "Za predvidjeti"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
@@ -937,24 +907,24 @@ msgstr "Za predvidjeti"
 #: model:ir.model.fields.selection,name:mrp_mps.selection__mrp_production_schedule__replenish_state__to_replenish
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_search_view
 msgid "To Replenish"
-msgstr "Za nadopunu"
+msgstr ""
 
 #. module: mrp_mps
 #. odoo-javascript
 #: code:addons/mrp_mps/static/src/components/main.js:0
 msgid "Toggle Indirect Demand"
-msgstr "Prebaci neizravnu potražnju"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields.selection,name:mrp_mps.selection__mrp_production_schedule__replenish_state__under_replenishment
 msgid "Under Replenishment"
-msgstr "Ispod nadopune"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__min_to_replenish_qty
 msgid ""
 "Unless the demand is 0, Odoo will always at least replenish this quantity."
-msgstr "Osim ako je potražnja 0, Odoo će uvijek nadopuniti barem ovu količinu."
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__supplier_id
@@ -971,7 +941,7 @@ msgstr "Tjedan"
 #. odoo-python
 #: code:addons/mrp_mps/models/res_company.py:0
 msgid "Week %(week_num)s (%(start_date)s-%(end_date)s/%(month)s)"
-msgstr "Tjedan %(week_num)s (%(start_date)s-%(end_date)s/%(month)s)"
+msgstr ""
 
 #. module: mrp_mps
 #: model:ir.model.fields.selection,name:mrp_mps.selection__res_company__manufacturing_period__week
@@ -982,7 +952,6 @@ msgstr "Tjedno"
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__is_indirect
 msgid "When checked, this product will not appear in the 'To Forecast' filter."
 msgstr ""
-"Kada je označeno, ovaj proizvod se neće pojaviti u filteru 'Za predvidjeti'."
 
 #. module: mrp_mps
 #. odoo-javascript

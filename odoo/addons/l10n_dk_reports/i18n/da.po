@@ -4,14 +4,13 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Odoo Translation Bot <c3p@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:07+0000\n"
-"PO-Revision-Date: 2026-05-02 09:30+0000\n"
-"Last-Translator: Odoo Translation Bot <c3p@odoo.com>\n"
+"PO-Revision-Date: 2025-11-08 12:32+0000\n"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18-l10n/"
 "l10n_dk_reports/da/>\n"
 "Language: da\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_bs_a
@@ -95,7 +94,7 @@ msgstr "CSV"
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_bs_a_ca_cce
 msgid "Cash and cash equivalents"
-msgstr "Kurstab på likvider, bankgæld og prioritetsgæld"
+msgstr "Likvide beholdninger"
 
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_pl_pla_gpl_cifgwip
@@ -274,7 +273,7 @@ msgstr ""
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_pl_pla_plbt_iigea_ipi
 msgid "Income from participating interests"
-msgstr "Indtægter af kapitalandele i kapitalinteresser"
+msgstr "Indtægter af kapitalinteresser"
 
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_bs_a_fa_ifa
@@ -284,7 +283,7 @@ msgstr "Immaterielle anlægsaktiver"
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_bs_a_ca_i
 msgid "Inventories"
-msgstr "Omsætningsaktiver"
+msgstr "Varebeholdninger"
 
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_bs_a_fa_tfa_ip
@@ -381,7 +380,7 @@ msgstr ""
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_bs_a_fa_tfa_offte
 msgid "Other fixtures and fittings, tools and equipment"
-msgstr "Andre anlæg, driftsmateriel og inventar, bogført værdi primo"
+msgstr "Andre anlæg, driftsmateriel og inventar"
 
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_bs_a_fa_tfa_offtemucao
@@ -449,7 +448,7 @@ msgstr ""
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_pl_pla_ply_ot
 msgid "Other taxes"
-msgstr "Øvrige afgifter"
+msgstr "Andre skatter"
 
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_pl_pla_gpl_owc
@@ -540,7 +539,7 @@ msgstr "Modtagne forudbetalinger fra kunder (kortfristet)"
 #: model:account.report,name:l10n_dk_reports.account_report_pl
 #: model:ir.actions.client,name:l10n_dk_reports.action_account_report_pl
 msgid "Profit and Loss"
-msgstr "RESULTATOPGØRELSE"
+msgstr "Resultatopgørelse"
 
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_pl_pla_plbt
@@ -647,7 +646,7 @@ msgstr "SAF-T"
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_pl_pla_gpl_ee_oee_sc
 msgid "Sales costs"
-msgstr "Salgsmæssige omkostninger"
+msgstr "Salgsomkostninger"
 
 #. module: l10n_dk_reports
 #: model:account.report.line,name:l10n_dk_reports.account_report_bs_a_ca_si

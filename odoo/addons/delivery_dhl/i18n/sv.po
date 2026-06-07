@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * delivery_dhl
+# 	* delivery_dhl
 #
 # Translators:
 # Chrille Hedberg <hedberg.chrille@gmail.com>, 2024
@@ -11,22 +11,20 @@
 # Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 # Bengt Evertsson <zyberfart@gmail.com>, 2024
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:50+0000\n"
-"PO-Revision-Date: 2026-05-13 16:53+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
-"delivery_dhl/sv/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Bengt Evertsson <zyberfart@gmail.com>, 2024\n"
+"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: delivery_dhl
 #: model_terms:ir.ui.view,arch_db:delivery_dhl.view_delivery_carrier_form_with_provider_dhl
@@ -71,7 +69,7 @@ msgstr ""
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__6x4_a4_pdf
 msgid "6X4_A4_PDF"
-msgstr "6X4_A4_PDF"
+msgstr ""
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__6x4_pdf
@@ -81,7 +79,7 @@ msgstr "6X4_PDF"
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__6x4_thermal
 msgid "6X4_thermal"
-msgstr "6X4_thermal"
+msgstr ""
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__7
@@ -96,37 +94,37 @@ msgstr ""
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_a4_pdf
 msgid "8X4_A4_PDF"
-msgstr "8X4_A4_PDF"
+msgstr ""
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_a4_tc_pdf
 msgid "8X4_A4_TC_PDF"
-msgstr "8X4_A4_TC_PDF"
+msgstr ""
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_ci_pdf
 msgid "8X4_CI_PDF"
-msgstr "8X4_CI_PDF"
+msgstr ""
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_ci_thermal
 msgid "8X4_CI_thermal"
-msgstr "8X4_CI_thermal"
+msgstr ""
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_pdf
 msgid "8X4_PDF"
-msgstr "8X4_PDF"
+msgstr ""
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_ru_a4_pdf
 msgid "8X4_RU_A4_PDF"
-msgstr "8X4_RU_A4_PDF"
+msgstr ""
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_thermal
 msgid "8X4_thermal"
-msgstr "8X4_thermal"
+msgstr ""
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__9
@@ -305,7 +303,7 @@ msgstr ""
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_image_format__epl2
 msgid "EPL2"
-msgstr "EPL2"
+msgstr ""
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_region_code__eu
@@ -589,4 +587,4 @@ msgstr ""
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_image_format__zpl2
 msgid "ZPL2"
-msgstr "ZPL2"
+msgstr ""

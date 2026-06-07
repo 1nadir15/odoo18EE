@@ -258,9 +258,6 @@
             @extend .o_documents_drop_over;
             background: $red-100;
         }
-        &.o_kanban_ungrouped {
-            min-height: 0;
-        }
     }
 }
 

@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:47+0000\n"
-"PO-Revision-Date: 2026-05-15 11:25+0000\n"
-"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"PO-Revision-Date: 2026-04-11 18:34+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "hr_referral/uk/>\n"
 "Language: uk\n"
@@ -24,7 +24,7 @@ msgstr ""
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
 "100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: hr_referral
 #. odoo-python
@@ -49,9 +49,6 @@ msgid ""
 "            <br/>\n"
 "            <br/>"
 msgstr ""
-",\n"
-"            <br/>\n"
-"            <br/>"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.referral_campaign_sms_template
@@ -60,14 +57,11 @@ msgid ""
 "If you know someone who would be a great fit for this position, please share "
 "this link with them:"
 msgstr ""
-".\n"
-"Якщо ви знаєте когось, хто чудово підійшов би на цю посаду, будь ласка, "
-"поділіться з ним цим посиланням:"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.referral_email_body_template
 msgid "/ Job Offers"
-msgstr "/ Вакансії"
+msgstr ""
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_applicant_employee_referral_kanban
@@ -81,9 +75,6 @@ msgid ""
 "            <br/>\n"
 "            Thanks!"
 msgstr ""
-"<br/>\n"
-"            <br/>\n"
-"            Дякуємо!"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_job_employee_referral_kanban
@@ -94,11 +85,6 @@ msgid ""
 "                                    <span title=\"Send by Mail\">Send Email</"
 "span>"
 msgstr ""
-"<i class=\"fa fa-2x fa-envelope-o\" role=\"img\" aria-label=\"Send by "
-"Mail\"/>\n"
-"                                    <br/>\n"
-"                                    <span title=\"Send by Mail\">Надіслати "
-"Email</span>"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_job_employee_referral_kanban
@@ -107,10 +93,6 @@ msgid ""
 "                                    <br/>\n"
 "                                    <span title=\"More info\">Job Page</span>"
 msgstr ""
-"<i class=\"fa fa-2x fa-globe\" role=\"img\" aria-label=\"Job Page\"/>\n"
-"                                    <br/>\n"
-"                                    <span title=\"More info\">Сторінка "
-"вакансії</span>"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_job_employee_referral_kanban
@@ -120,10 +102,6 @@ msgid ""
 "                                    <span title=\"Send by SMS\">Send SMS</"
 "span>"
 msgstr ""
-"<i class=\"fa fa-2x fa-mobile\" role=\"img\" aria-label=\"Send by SMS\"/>\n"
-"                                    <br/>\n"
-"                                    <span title=\"Send by SMS\">Надіслати "
-"SMS</span>"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_applicant_employee_referral_kanban
@@ -174,10 +152,6 @@ msgid ""
 "role=\"img\" aria-label=\"Share on facebook\"/>\n"
 "                                    </span>"
 msgstr ""
-"<span title=\"Share on Facebook\">\n"
-"                                        <i class=\"fa fa-lg fa-facebook\" "
-"role=\"img\" aria-label=\"Share on facebook\"/>\n"
-"                                    </span>"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_job_employee_referral_kanban
@@ -187,10 +161,6 @@ msgid ""
 "role=\"img\" aria-label=\"Share on linkedin\"/>\n"
 "                                    </span>"
 msgstr ""
-"<span title=\"Share on Linkedin\">\n"
-"                                        <i class=\"fa fa-lg fa-linkedin\" "
-"role=\"img\" aria-label=\"Share on linkedin\"/>\n"
-"                                    </span>"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_job_employee_referral_kanban
@@ -200,10 +170,6 @@ msgid ""
 "role=\"img\" aria-label=\"Share on twitter\"/>\n"
 "                                    </span>"
 msgstr ""
-"<span title=\"Share on Twitter\">\n"
-"                                        <i class=\"fa fa-lg fa-twitter\" "
-"role=\"img\" aria-label=\"Share on twitter\"/>\n"
-"                                    </span>"
 
 #. module: hr_referral
 #. odoo-python
@@ -344,8 +310,6 @@ msgid ""
 "Browse through open job positions, promote them on social media, or refer "
 "friends."
 msgstr ""
-"Перегляньте відкриті вакансії, рекламуйте їх у соціальних мережах або "
-"рекомендуйте друзям."
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_job__utm_campaign_id
@@ -381,7 +345,7 @@ msgstr "Натисніть, щоби збільшити рівень!"
 #. odoo-javascript
 #: code:addons/hr_referral/static/src/widgets/copy_referral_link_button.xml:0
 msgid "Click(s)"
-msgstr "Клік(и)"
+msgstr ""
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.hr_referral_link_to_share_view_form
@@ -391,7 +355,7 @@ msgstr "Закрити"
 #. module: hr_referral
 #: model:hr.referral.onboarding,text:hr_referral.welcome3
 msgid "Collect points and exchange them for awesome gifts in the shop."
-msgstr "Збирайте бали та обмінюйте їх на чудові подарунки в магазині."
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model,name:hr_referral.model_res_company
@@ -412,7 +376,6 @@ msgstr "Компанія"
 #: model:hr.referral.onboarding,text:hr_referral.welcome4
 msgid "Compete against your colleagues to build the best justice league!"
 msgstr ""
-"Змагайтеся зі своїми колегами, щоб створити найкращу лігу справедливості!"
 
 #. module: hr_referral
 #: model:ir.model,name:hr_referral.model_res_config_settings
@@ -427,7 +390,7 @@ msgstr "Налаштування"
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_campaign_wizard__target
 msgid "Contacted Employees"
-msgstr "Сконтактовані співробітники"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_reward__cost
@@ -644,7 +607,7 @@ msgstr "Аналіз рекомендацій співробітників"
 #. odoo-javascript
 #: code:addons/hr_referral/static/src/widgets/copy_referral_link_button.js:0
 msgid "Error while copying the Referral link: %s to clipboard"
-msgstr "Помилка під час копіювання реферального посилання: %s у буфер обміну"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model.fields,help:hr_referral.field_hr_referral_alert__url
@@ -777,8 +740,6 @@ msgid ""
 "Hello! There is an amazing job offer for %(job_name)s in my company! It will "
 "be a fit for you %(referral_url)s"
 msgstr ""
-"Привіт! Є чудова пропозиція роботи для %(job_name)s у моїй компанії! Вона "
-"підійде вам %(referral_url)s"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.referral_email_body_template
@@ -787,9 +748,6 @@ msgid ""
 "                There are some amazing job offers in my company! Have a "
 "look, they can be interesting for you:"
 msgstr ""
-"Вітаємо,<br/><br/>\n"
-"                У моїй компанії є кілька чудових пропозицій роботи! "
-"Перегляньте, вони можуть бути вам цікаві.:"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.referral_email_body_template
@@ -797,8 +755,6 @@ msgid ""
 "Hello,<br/><br/>\n"
 "                There is an amazing job offer for a"
 msgstr ""
-"Вітаємо,<br/><br/>\n"
-"                Є чудова пропозиція роботи"
 
 #. module: hr_referral
 #: model:ir.model.fields.selection,name:hr_referral.selection__hr_applicant__referral_state__hired
@@ -892,7 +848,7 @@ msgstr "Вакансія"
 #. odoo-python
 #: code:addons/hr_referral/wizard/hr_referral_campaign_wizard.py:0
 msgid "Job Offer for a %(job_title)s at %(company_name)s"
-msgstr "Пропозиція роботи %(job_title)s в %(company_name)s"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model,name:hr_referral.model_hr_job
@@ -1009,7 +965,7 @@ msgstr "Посилання, щоби поділитися"
 #. odoo-javascript
 #: code:addons/hr_referral/static/src/widgets/copy_referral_link_button.xml:0
 msgid "Link to share"
-msgstr "Посилання для поширення"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model.fields.selection,name:hr_referral.selection__hr_referral_link_to_share__channel__linkedin
@@ -1111,8 +1067,6 @@ msgstr "Немає вакансій для поширення."
 #: code:addons/hr_referral/wizard/hr_referral_campaign_wizard.py:0
 msgid "No users to send the campaign to. Please adapt your target."
 msgstr ""
-"Немає користувачів, яким можна було б надіслати кампанію. Будь ласка, "
-"адаптуйте свою цільову аудиторію."
 
 #. module: hr_referral
 #: model:ir.model.fields.selection,name:hr_referral.selection__hr_referral_alert__onclick__no
@@ -1154,9 +1108,6 @@ msgid ""
 "Villains are lurking the city!\n"
 "Help us recruit a team of superheroes to save the day!"
 msgstr ""
-"Ой ні!\n"
-"Злодії чатують на місто!\n"
-"Допоможіть нам набрати команду супергероїв, щоб врятувати ситуацію!"
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_alert__onclick
@@ -1190,7 +1141,7 @@ msgstr "Відкриті вакансії"
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.referral_campaign_email_body_template
 msgid "Our company is hiring for a"
-msgstr "Наша компанія проводить набір на роботу"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_points__applicant_name
@@ -1314,7 +1265,7 @@ msgstr "Рекомендація"
 #. odoo-python
 #: code:addons/hr_referral/models/hr_job.py:0
 msgid "Referral %(user)s: %(job_url)s"
-msgstr "Реферрал %(user)s: %(job_url)s"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model,name:hr_referral.model_hr_referral_alert_mail_wizard
@@ -1324,7 +1275,7 @@ msgstr "Майстер повідомлень рекомендацій"
 #. module: hr_referral
 #: model:ir.ui.menu,name:hr_referral.menu_report_employee_referral_all
 msgid "Referral Analysis"
-msgstr "Реферальний аналіз"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_res_company__hr_referral_background
@@ -1336,18 +1287,18 @@ msgstr "Довідкова інформація"
 #: model:ir.actions.server,name:hr_referral.action_hr_job_launch_referral_campaign
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_job_kanban_inherit_referral
 msgid "Referral Campaign"
-msgstr "Реферальна кампанія"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model,name:hr_referral.model_hr_referral_campaign_wizard
 msgid "Referral Campaign Wizard"
-msgstr "Помічник реферальної кампанії"
+msgstr ""
 
 #. module: hr_referral
 #. odoo-python
 #: code:addons/hr_referral/models/hr_job.py:0
 msgid "Referral Campaign for %(job)s"
-msgstr "Реферальна кампанія для %(job)s"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model,name:hr_referral.model_hr_referral_link_to_share
@@ -1377,7 +1328,7 @@ msgstr "Надіслані листи рекомендацій"
 #. module: hr_referral
 #: model:ir.model,name:hr_referral.model_hr_referral_send_sms
 msgid "Referral Send sms"
-msgstr "Надіслати sms рефералу"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_applicant__referral_state
@@ -1389,7 +1340,7 @@ msgstr "Стан рекомендації"
 #. odoo-javascript
 #: code:addons/hr_referral/static/src/widgets/copy_referral_link_button.js:0
 msgid "Referral link: %s has been copied to clipboard"
-msgstr "Реферальне посилання: %s скопійовано у буфер обміну"
+msgstr ""
 
 #. module: hr_referral
 #. odoo-python
@@ -1509,12 +1460,12 @@ msgstr "Пошук рекомендації"
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.referral_email_body_template
 msgid "See Job Offer"
-msgstr "Переглянути вакансію"
+msgstr ""
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.hr_referral_campaign_wizard_view_form
 msgid "Select employees"
-msgstr "Обрати співробітників"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model.fields.selection,name:hr_referral.selection__hr_referral_campaign_wizard__target__selection
@@ -1535,7 +1486,7 @@ msgstr "Надіслати вакансію поштою"
 #. module: hr_referral
 #: model:ir.actions.act_window,name:hr_referral.hr_referral_send_sms_action
 msgid "Send Job Offer by SMS"
-msgstr "Надіслати вакансію через SMS"
+msgstr ""
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.hr_referral_send_mail_view_form
@@ -1545,7 +1496,7 @@ msgstr "Надіслати вакансію поштою"
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.hr_referral_send_sms_view_form
 msgid "Send Job by sms"
-msgstr "Надіслати вакансію через SMS"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.actions.act_window,name:hr_referral.hr_referral_alert_mail_wizard_action
@@ -1562,7 +1513,7 @@ msgstr "Надіслати SMS"
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_campaign_wizard__sending_method
 msgid "Sending Method"
-msgstr "Спосіб надсилання"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_onboarding__sequence
@@ -1683,7 +1634,7 @@ msgstr "Текст"
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.referral_campaign_sms_template
 msgid "Thanks!"
-msgstr "Дякуємо!"
+msgstr ""
 
 #. module: hr_referral
 #: model:ir.model.fields,help:hr_referral.field_hr_referral_friend__image
@@ -1718,8 +1669,6 @@ msgid ""
 "This job position is not published. \n"
 "                    The referral campaign will automatically publish it."
 msgstr ""
-"Цю вакансію не опубліковано. \n"
-"                    Реферальна кампанія опублікує його автоматично."
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.hr_referral_link_to_share_view_form
@@ -1860,7 +1809,7 @@ msgstr "X"
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_job__twitter_clicks
 msgid "X Clicks"
-msgstr "Кліки X"
+msgstr ""
 
 #. module: hr_referral
 #. odoo-python
@@ -1918,7 +1867,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_referral/wizard/hr_referral_send_sms.py:0
 msgid "You do not have the required access rights to send SMS."
-msgstr "У вас немає необхідних прав доступу для надсилання SMS."
+msgstr ""
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_applicant_employee_referral_kanban
@@ -1934,13 +1883,13 @@ msgstr "Вам необхідний інший"
 #. odoo-python
 #: code:addons/hr_referral/models/hr_applicant.py:0
 msgid "Your referrer got a step further! %(message)s"
-msgstr "Ваш реферал зробив крок вперед! %(message)s"
+msgstr ""
 
 #. module: hr_referral
 #. odoo-python
 #: code:addons/hr_referral/models/hr_applicant.py:0
 msgid "Your referrer is hired! %(message)s"
-msgstr "Вашого реферала найнято! %(message)s"
+msgstr ""
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_job_employee_referral_kanban
@@ -1964,13 +1913,11 @@ msgid ""
 "in my company! It will be a fit for you.\n"
 "                <br/>"
 msgstr ""
-"у моїй компанії! Це тобі підійде.\n"
-"                <br/>"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.referral_campaign_sms_template
 msgid "is hiring for a position"
-msgstr "наймається на вакансію"
+msgstr ""
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.referral_campaign_email_body_template
@@ -1979,9 +1926,6 @@ msgid ""
 "                If you know someone who would be a great fit for this "
 "position, please share this link with them:"
 msgstr ""
-"вакансія.\n"
-"                Якщо ви знаєте когось, хто чудово підійшов би на цю посаду, "
-"будь ласка, поділіться з ним цим посиланням:"
 
 #. module: hr_referral
 #. odoo-javascript

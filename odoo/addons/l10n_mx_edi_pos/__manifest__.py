@@ -20,6 +20,7 @@
         'point_of_sale._assets_pos': [
             'account/static/src/components/document_state/*',
             'l10n_mx_edi_pos/static/src/**/*',
+            'l10n_mx/static/src/**/*',
         ],
         'web.assets_tests': [
             'l10n_mx_edi_pos/static/tests/tours/invoice_order_tour.js',

@@ -11,19 +11,19 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
-"PO-Revision-Date: 2026-05-21 13:00+0000\n"
-"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"PO-Revision-Date: 2026-03-29 12:12+0000\n"
+"Last-Translator: Yana Bystrytska <yana.bystrytska@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "pos_restaurant/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
-"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
-"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
-"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -54,9 +54,6 @@ msgid ""
 "iceberg salad, red onions, grilled bacon, tomato sauce, pickles, barbecue "
 "sauce"
 msgstr ""
-"200 г яловичини ірландського чорного ангуса, карамелізована цибуля з "
-"паприкою, подрібнений салат айсберг, червона цибуля, смажений бекон, "
-"томатний соус, мариновані огірки, соус барбекю"
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_kanban
@@ -66,7 +63,7 @@ msgstr "<strong>Найменування поверху: </strong>"
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_kanban
 msgid "<strong>Point of Sales:</strong>"
-msgstr "<strong>Точка продажу:</strong>"
+msgstr ""
 
 #. module: pos_restaurant
 #: model_terms:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
@@ -94,7 +91,7 @@ msgstr "Додати зал"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Add Table"
-msgstr "Додати стіл"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -157,7 +154,7 @@ msgstr "Дозвольте розбиття рахунку"
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__takeaway
 #: model:ir.model.fields,help:pos_restaurant.field_res_config_settings__pos_takeaway
 msgid "Allow to create orders for takeaway customers."
-msgstr "Дозволити створювати замовлення для клієнтів, які купують їжу на винос."
+msgstr ""
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
@@ -179,12 +176,12 @@ msgstr "Альтернативна схема оподаткування"
 #. module: pos_restaurant
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_anchovy
 msgid "Anchovy"
-msgstr "Анчоус"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.product_aperol_spritz_product_template
 msgid "Aperol Spritz"
-msgstr "Апероль Шприц"
+msgstr ""
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.view_restaurant_table_form
@@ -227,7 +224,7 @@ msgstr "Бургер з беконом"
 #. module: pos_restaurant
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_fries
 msgid "Belgian fresh homemade fries"
-msgstr "Бельгійська свіжа домашня картопля фрі"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -252,7 +249,7 @@ msgstr "Розбиття рахунку"
 #. module: pos_restaurant
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_black_olives
 msgid "Black olives"
-msgstr "Чорні оливки"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -263,7 +260,7 @@ msgstr "Забронювати стіл"
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_old_fashioned_product_template
 msgid "Bourbon, bitters, sugar, and a twist of citrus zest."
-msgstr "Бурбон, біттер, цукор та дрібка цитрусової цедри."
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.burger_drink_combo_product_template
@@ -285,13 +282,13 @@ msgstr "Кошик"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Change Floor Background"
-msgstr "Змінити фон залу"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "Change table number?"
-msgstr "Змінити номер столу?"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.pos_food_cheeseburger_product_template
@@ -307,7 +304,7 @@ msgstr "Сендвіч з куркою каррі"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Clone"
-msgstr "Клон"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -328,7 +325,7 @@ msgstr "Coca-Cola"
 #. module: pos_restaurant
 #: model:pos.category,name:pos_restaurant.pos_category_cocktails
 msgid "Cocktails"
-msgstr "Коктейлі"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__color
@@ -349,12 +346,12 @@ msgstr "Продовжити"
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.product_cosmopolitan_product_template
 msgid "Cosmopolitan"
-msgstr "Космополітан"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_cosmopolitan_product_template
 msgid "Cranberry Jus, lime jus, vodka and Cointreau"
-msgstr "Журавлиний сік, лаймовий сік, горілка та Куантро"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__create_uid
@@ -389,7 +386,7 @@ msgstr "Налаштуйте поверхи та призначте замовл
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/models/pos_store.js:0
 msgid "Dine in"
-msgstr "В закладі"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__display_name
@@ -417,7 +414,7 @@ msgstr "Їсти в закладі / Замовлення з собою"
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.js:0
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
 msgid "Edit Order Name"
-msgstr "Редагувати назву замовлення"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -442,7 +439,7 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.js:0
 msgid "Enter a table number"
-msgstr "Введіть номер столу"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.espresso_product_template
@@ -453,7 +450,7 @@ msgstr "Espresso"
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_extra_cheese
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_extra_cheese_pasta
 msgid "Extra cheese"
-msgstr "Додатковий сир"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.attribute,name:pos_restaurant.product_extra_pasta
@@ -490,7 +487,7 @@ msgstr "Зал"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__floor_background_image
 msgid "Floor Background Image"
-msgstr "Фонове зображення залу"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__name
@@ -507,7 +504,7 @@ msgstr "Назва залу?"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Floor Plan"
-msgstr "План залу"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,name:pos_restaurant.action_restaurant_floor_form
@@ -556,7 +553,7 @@ msgstr "Фунджі"
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_negroni_product_template
 msgid "Gin, vermouth rosso, Campari, and an orange peel."
-msgstr "Джин, вермут россо, кампарі та апельсинова цедра."
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.green_tea_product_template
@@ -566,7 +563,7 @@ msgstr "Зелений чай"
 #. module: pos_restaurant
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_grilled_vegetables
 msgid "Grilled vegetables"
-msgstr "Овочі на грилі"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -607,7 +604,8 @@ msgstr "Ice Tea"
 msgid ""
 "If false, the table is deactivated and will not be available in the point of "
 "sale"
-msgstr "Якщо помилка, стіл деактивовано і він не буде доступний в точці продажу"
+msgstr ""
+"Якщо помилка, стіл деактивовано і він не буде доступний в точці продажу"
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -663,24 +661,24 @@ msgstr "Ланч Temaki mix 3pc"
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.product_mai_tai_product_template
 msgid "Mai Tai"
-msgstr "Mai Tai"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Make Round"
-msgstr "Зробити круглим"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Make Square"
-msgstr "Зробити квадратним"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.product_margarita_product_template
 msgid "Margarita"
-msgstr "Маргарита"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -701,12 +699,12 @@ msgstr "Minute Maid"
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.product_mojito_product_template
 msgid "Mojito"
-msgstr "Мохіто"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.product_moscow_mule_product_template
 msgid "Moscow Mule"
-msgstr "Київський мул"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.pos_food_mozza_product_template
@@ -717,12 +715,12 @@ msgstr "Сендвіч з моцареллою"
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_mushroom
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_mushroom_pasta
 msgid "Mushroom"
-msgstr "Гриби"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.product_negroni_product_template
 msgid "Negroni"
-msgstr "Негроні"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -751,7 +749,7 @@ msgstr "Кількість місць?"
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.product_old_fashioned_product_template
 msgid "Old Fashioned"
-msgstr "Старомодний"
+msgstr ""
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
@@ -799,12 +797,12 @@ msgstr "ПРОФОРМА"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__parent_id
 msgid "Parent Table"
-msgstr "Батьківський стіл"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.pos_food_4formaggi_product_template
 msgid "Pasta 4 Formaggi"
-msgstr "Паста 4 Формаджі"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.pos_food_bolo_product_template
@@ -827,12 +825,12 @@ msgstr "Оплата"
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.pos_food_4formaggi_product_template
 msgid "Pepe, latte, gorgonzola dolce, taleggio, parmigiano reggiano"
-msgstr "Пепе, латте, горгонзола дольче, таледжіо, парміджано реджано"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_peperoni
 msgid "Pepperoni"
-msgstr "Пепероні"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -843,7 +841,7 @@ msgstr "Зображення"
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.product_pina_colada_product_template
 msgid "Pina colada"
-msgstr "Піна колада"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.pos_food_margherita_product_template
@@ -905,7 +903,7 @@ msgstr "Встановлення чайових після оплати Pos"
 #. module: pos_restaurant
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_potato_thyme
 msgid "Potatoes with thyme"
-msgstr "Картопля з чебрецем"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -916,13 +914,13 @@ msgstr "Друк"
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_aperol_spritz_product_template
 msgid "Prosecco, aperol, soda"
-msgstr "Просекко, апероль, содова"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/product_screen/order_summary/order_summary.xml:0
 msgid "Release Order"
-msgstr "Видати замовлення"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -1005,7 +1003,7 @@ msgstr "Кругла форма"
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_mai_tai_product_template
 msgid "Rum, lime juice, orgeat syrup, and orange liqueur."
-msgstr "Ром, лаймовий сік, орхідейний сироп та апельсиновий лікер."
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.pos_food_chirashi_product_template
@@ -1039,7 +1037,7 @@ msgstr "Місць"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Select table to transfer order"
-msgstr "Виберіть стіл для перенесення замовлення"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__sequence
@@ -1066,7 +1064,7 @@ msgstr "Форма"
 #. module: pos_restaurant
 #: model:product.attribute,name:pos_restaurant.product_sides_buns_pizza
 msgid "Sides"
-msgstr "Сторони"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -1077,12 +1075,12 @@ msgstr "Підпис"
 #. module: pos_restaurant
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_smashed_sweet_potatoes
 msgid "Smashed sweet potatoes"
-msgstr "Пюре з солодкої картоплі"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:pos.category,name:pos_restaurant.pos_category_soft_drinks
 msgid "Soft drinks"
-msgstr "Безалкогольні напої"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.pos_food_tuna_product_template
@@ -1099,7 +1097,7 @@ msgstr "Розділити"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/split_bill_screen/split_bill_screen.xml:0
 msgid "Split Order"
-msgstr "Розділення замовлення"
+msgstr ""
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
@@ -1126,7 +1124,7 @@ msgstr "Підсумок"
 #. module: pos_restaurant
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_sweet_potato
 msgid "Sweet potato fries"
-msgstr "Фрі з солодкої картоплі"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -1138,13 +1136,13 @@ msgstr "Змінити вигляд залу"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
 msgid "Switch to Dine in"
-msgstr "Перейти на \"В закладі\""
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
 msgid "Switch to Takeaway"
-msgstr "Перейти на \"З собою\""
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -1166,7 +1164,7 @@ msgstr "Стіл %(number)s"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_header_patch.js:0
 msgid "Table %(number)s, Guests: %(count)s"
-msgstr "Стіл %(number)s, Гості: %(count)s"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__module_pos_restaurant_appointment
@@ -1178,14 +1176,14 @@ msgstr "Бронювання столу"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__table_number
 msgid "Table Number"
-msgstr "Номер столу"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.js:0
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Table Selector"
-msgstr "Вибір столу"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__table_ids
@@ -1202,7 +1200,7 @@ msgstr "Із собою"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/models/pos_store.js:0
 msgid "Take out"
-msgstr "З собою"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__takeaway
@@ -1213,12 +1211,12 @@ msgstr "Із собою"
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Taxes must be included in price."
-msgstr "Податки мають бути включені в ціну."
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_margarita_product_template
 msgid "Tequila Jose Cuervo, lime jus, sugar cane Cointreau"
-msgstr "Текіла Jose Cuervo, лаймовий сік, цукрова тростина Cointreau"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_order__customer_count
@@ -1238,12 +1236,12 @@ msgstr "Кількість клієнтів за замовчуванням за
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__table_number
 msgid "The number of the table as displayed on the floor plan"
-msgstr "Номер столу, як зазначено на плані поверху"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__parent_id
 msgid "The parent table if this table is part of a group of tables"
-msgstr "Батьківська таблиця, якщо ця таблиця є частиною групи таблиць"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__floor_ids
@@ -1271,7 +1269,8 @@ msgstr "Висота столу у пікселях"
 msgid ""
 "The table's horizontal position from the left side to the table's center, in "
 "pixels"
-msgstr "Горизонтальне положення столу з лівого боку до центру столу, в пікселях"
+msgstr ""
+"Горизонтальне положення столу з лівого боку до центру столу, в пікселях"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__position_v
@@ -1331,7 +1330,7 @@ msgstr "Чайові"
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.pos_food_margherita_product_template
 msgid "Tomato sauce, Agerola mozzarella \"fior di latte\", fresh basil"
-msgstr "Томатний соус, моцарела Agerola \"fior di latte\", свіжий базилік"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -1343,7 +1342,7 @@ msgstr "Разом:"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
 msgid "Transfer / Merge"
-msgstr "Передача / Об'єднання"
+msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -1371,7 +1370,7 @@ msgstr "Вертикальне розташування"
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_moscow_mule_product_template
 msgid "Vodka 42 Below, lime, sugar, ginger beer"
-msgstr "Горілка 42 Below, лайм, цукор, імбирне пиво"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.water_product_template
@@ -1381,22 +1380,22 @@ msgstr "Вода"
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.product_whiskey_sour_product_template
 msgid "Whiskey Sour"
-msgstr "Віскі сауер"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_whiskey_sour_product_template
 msgid "Whiskey, lemon juice, sugar, and a dash of egg white."
-msgstr "Віскі, лимонний сік, цукор і дрібка яєчного білка."
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_pina_colada_product_template
 msgid "White rhum, Malibu, Batida de coco, coconut liqueur, pineapple juice"
-msgstr "Білий ром, Малібу, Батіда де Коко, кокосовий лікер, ананасовий сік"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.product_mojito_product_template
 msgid "White rum, sugar, lime juice, soda water, and mint."
-msgstr "Білий ром, цукор, сік лайма, газована вода та м'ята."
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__width
@@ -1417,8 +1416,6 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "You cannot delete a floor with orders still in draft for this floor."
 msgstr ""
-"Ви не можете видалити поверх, якщо замовлення для цього поверху все ще "
-"перебувають у процесі розробки."
 
 #. module: pos_restaurant
 #. odoo-python
@@ -1426,8 +1423,6 @@ msgstr ""
 msgid ""
 "You cannot delete a table when orders are still in draft for this table."
 msgstr ""
-"Ви не можете видалити таблицю, якщо замовлення для цієї таблиці ще "
-"перебувають у стадії розробки."
 
 #. module: pos_restaurant
 #. odoo-javascript

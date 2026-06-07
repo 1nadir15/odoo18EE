@@ -1,20 +1,18 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * spreadsheet_dashboard_mrp_account
+# 	* spreadsheet_dashboard_mrp_account
 #
 # Translators:
 # Wil Odoo, 2024
 #
-# "Marta (wacm)" <wacm@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:49+0000\n"
-"PO-Revision-Date: 2026-06-06 09:35+0000\n"
-"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
-"Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
-"spreadsheet_dashboard_mrp_account/pl/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Wil Odoo, 2024\n"
+"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 2026.6.1\n"
 
 #. module: spreadsheet_dashboard_mrp_account
 #. odoo-javascript
@@ -49,13 +46,13 @@ msgstr "Średni koszt / jednostka"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
 msgid "Bamboo Toothbrush"
-msgstr "Bambusowa szczoteczka do zębów"
+msgstr ""
 
 #. module: spreadsheet_dashboard_mrp_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
 msgid "Carbon-Fiber Tripod"
-msgstr "Statyw z włókna węglowego"
+msgstr ""
 
 #. module: spreadsheet_dashboard_mrp_account
 #. odoo-javascript
@@ -80,7 +77,7 @@ msgstr "Wykonano"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
 msgid "EcoSmart LED Bulb"
-msgstr "Żarówka LED EcoSmart"
+msgstr ""
 
 #. module: spreadsheet_dashboard_mrp_account
 #. odoo-javascript
@@ -119,7 +116,7 @@ msgstr "Najczęściej produkowane produkty"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
 msgid "Noise-Canceling Headphones"
-msgstr "Słuchawki wygłuszające"
+msgstr ""
 
 #. module: spreadsheet_dashboard_mrp_account
 #. odoo-javascript
@@ -146,7 +143,7 @@ msgstr "Zamówienia"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
 msgid "Organic Green Tea"
-msgstr "Organiczna zielona herbata"
+msgstr ""
 
 #. module: spreadsheet_dashboard_mrp_account
 #. odoo-javascript
@@ -187,7 +184,7 @@ msgstr "Ilość wyprodukowana"
 #: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
 msgid "Quantity Produced"
-msgstr "Wyprodukowana ilość"
+msgstr "Iość produkowana"
 
 #. module: spreadsheet_dashboard_mrp_account
 #. odoo-javascript
@@ -200,13 +197,13 @@ msgstr "Odpowiedzialny"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
 msgid "Reusable Water Bottle"
-msgstr "Butelka wielokrotnego użytku"
+msgstr ""
 
 #. module: spreadsheet_dashboard_mrp_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
 msgid "Smart Thermostat"
-msgstr "Inteligentny termostat"
+msgstr ""
 
 #. module: spreadsheet_dashboard_mrp_account
 #. odoo-javascript
@@ -253,7 +250,7 @@ msgstr "Całkowity czas (min)"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
 msgid "Vegan Leather Wallet"
-msgstr "Portfel z wegańskiej skóry"
+msgstr ""
 
 #. module: spreadsheet_dashboard_mrp_account
 #. odoo-javascript

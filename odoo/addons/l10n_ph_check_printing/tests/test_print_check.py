@@ -25,17 +25,6 @@ class TestPrintCheck(AccountTestInvoicingCommon):
             'account_type': 'asset_current',
         })
 
-        cls.partner_a.write({
-            'vat': '123-456-789-001',
-            'branch_code': '001',
-            'name': 'JMC Company',
-            'street': "250 Amorsolo Street",
-            'city': "Manila",
-            'country_id': cls.env.ref('base.ph').id,
-            'zip': "+900–1-096",
-            'is_company': True,
-        })
-
     def test_check_with_withholding_tax(self):
         withholding_tax_module = self.env['ir.module.module']._get('l10n_account_withholding_tax')
         if withholding_tax_module.state != 'installed':
@@ -72,41 +61,3 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 
         self.assertEqual(check_page_info['amount_no_currency'], "2,700.00")
         self.assertEqual(check_page_info['amount_in_word'], "Two Thousand Seven Hundred ONLY")
-
-    def test_check_printing_only(self):
-        """ Test that if the amount does not contain decimals,
-            The amount in words on the check contains the keyword 'ONLY'
-        """
-        vendor_bill = self.init_invoice(
-            move_type='in_invoice',
-            partner=self.partner_a,
-            amounts=[91490],
-            post=True,
-        )
-
-        payment = self.env['account.payment.register'].with_context(
-            active_model='account.move', active_ids=vendor_bill.ids, lang='en_US'
-        ).create({
-            'payment_method_line_id': self.payment_method_line_check.id,
-        })._create_payments()
-
-        self.assertEqual(payment.check_amount_in_words, 'Ninety-One Thousand Four Hundred Ninety ONLY')
-
-    def test_check_printing_rounding(self):
-        """ Test that the amount in words on the check is rounded to 2 decimals,
-            And does not contain the keyword 'ONLY'
-         """
-        vendor_bill = self.init_invoice(
-            move_type='in_invoice',
-            partner=self.partner_a,
-            amounts=[91490.15],
-            post=True,
-        )
-
-        payment = self.env['account.payment.register'].with_context(
-            active_model='account.move', active_ids=vendor_bill.ids, lang='en_US'
-        ).create({
-            'payment_method_line_id': self.payment_method_line_check.id,
-        })._create_payments()
-
-        self.assertEqual(payment.check_amount_in_words, 'Ninety-One Thousand Four Hundred Ninety and 15/100')

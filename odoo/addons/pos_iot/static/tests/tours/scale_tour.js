@@ -12,14 +12,11 @@ class PosScaleDummy {
         setTimeout(
             () =>
                 callback({
-                    status: {
-                        status: "connected",
-                    },
-                    value: 1.5,
+                    status: "ok",
+                    value: 2.35,
                 }),
-            500
+            1000
         );
-        setTimeout(() => callback({ status: "success", result: 2.35 }), 1500);
         return Promise.resolve();
     }
 }
@@ -54,10 +51,6 @@ registry.category("web_tour.tours").add("pos_iot_scale_tour", {
             },
             {
                 trigger: '.product:contains("Whiteboard Pen")',
-                run: "click",
-            },
-            {
-                trigger: '.gross-weight:contains("1.5")',
                 run: "click",
             },
             {

@@ -25,16 +25,6 @@ class PosOrder(models.Model):
 
         return data
 
-    def action_pos_order_cancel(self):
-        orders = super().action_pos_order_cancel()
-        if not self.env.context.get('active_ids'):
-            return orders
-        # When an order is cancelled from the backend UI, ensure the preparation display
-        # is updated to reflect the cancellation
-        for order in orders['pos.order']:
-            self.env['pos_preparation_display.order'].process_order(order['id'], cancelled=True)
-        return orders
-
     def _process_preparation_changes(self, cancelled=False, general_note=None, note_history=None):
         self.ensure_one()
         flag_change = False

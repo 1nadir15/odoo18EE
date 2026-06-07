@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
-"PO-Revision-Date: 2026-05-16 09:08+0000\n"
+"PO-Revision-Date: 2026-04-11 09:10+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "spreadsheet_account/hr/>\n"
@@ -25,13 +25,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/plugins/accounting_plugin.js:0
 msgid "%s is not a valid year."
-msgstr "%s nije valjana godina."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
@@ -40,8 +40,6 @@ msgid ""
 "'%s' is not a valid period. Supported formats are \"21/12/2022\", "
 "\"Q1/2022\", \"12/2022\", and \"2022\"."
 msgstr ""
-"'%s' nije valjano razdoblje. Podržani formati su \"21/12/2022\", \"Q1/"
-"2022\", \"12/2022\" i \"2022\"."
 
 #. module: spreadsheet_account
 #: model:ir.model,name:spreadsheet_account.model_account_account
@@ -58,7 +56,7 @@ msgstr "Banka i blagajna"
 #. odoo-python
 #: code:addons/spreadsheet_account/models/account.py:0
 msgid "Cell Audit"
-msgstr "Revizija ćelije"
+msgstr ""
 
 #. module: spreadsheet_account
 #: model:ir.model,name:spreadsheet_account.model_res_company
@@ -123,19 +121,19 @@ msgstr "Osnovna sredstva"
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "Get the total balance for the specified account(s) and period."
-msgstr "Vraća ukupno stanje za navedeni konto/e i razdoblje."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "Get the total credit for the specified account(s) and period."
-msgstr "Vraća ukupno potraživanje za navedeni konto/e i razdoblje."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "Get the total debit for the specified account(s) and period."
-msgstr "Vraća ukupno dugovanje za navedeni konto/e i razdoblje."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
@@ -165,7 +163,7 @@ msgstr "Izvanbilančno"
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "Offset applied to the years."
-msgstr "Pomak primijenjen na godine."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
@@ -195,69 +193,69 @@ msgstr "Potraživanje"
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "Return the partner balance for the specified account(s) and period"
-msgstr "Vraća stanje partnera za navedeni konto/e i razdoblje"
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "Return the residual amount for the specified account(s) and period"
-msgstr "Vraća preostali iznos za navedeni konto/e i razdoblje"
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "Returns the account codes of a given group."
-msgstr "Vraća kodove konta određene grupe."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid ""
 "Returns the ending date of the fiscal year encompassing the provided date."
-msgstr "Vraća datum završetka fiskalne godine koja obuhvaća navedeni datum."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid ""
 "Returns the starting date of the fiscal year encompassing the provided date."
-msgstr "Vraća datum početka fiskalne godine koja obuhvaća navedeni datum."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/index.js:0
 msgid "See records"
-msgstr "Pogledaj zapise"
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "Set to TRUE to include unposted entries."
-msgstr "Postavite na TRUE za uključivanje neknjiženih stavki."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/plugins/accounting_plugin.js:0
 msgid "The balance for given partners could not be computed."
-msgstr "Stanje za zadane partnere nije bilo moguće izračunati."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/plugins/accounting_plugin.js:0
 msgid "The company fiscal year could not be found."
-msgstr "Fiskalna godina tvrtke nije pronađena."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "The company to target (Advanced)."
-msgstr "Ciljana tvrtka (napredno)."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "The company."
-msgstr "Tvrtka."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
@@ -266,32 +264,30 @@ msgid ""
 "The date range. Supported formats are \"21/12/2022\", \"Q1/2022\", "
 "\"12/2022\", and \"2022\"."
 msgstr ""
-"Raspon datuma. Podržani formati su \"21/12/2022\", \"Q1/2022\", \"12/2022\" "
-"i \"2022\"."
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "The day from which to extract the fiscal year end."
-msgstr "Datum iz kojeg se izvlači kraj fiskalne godine."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "The day from which to extract the fiscal year start."
-msgstr "Datum iz kojeg se izvlači početak fiskalne godine."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "The partner ids (separated by a comma)."
-msgstr "ID-evi partnera (odvojeni zarezom)."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "The prefix of the accounts."
-msgstr "Prefiks konta."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
@@ -300,16 +296,15 @@ msgid ""
 "The prefix of the accounts. If none provided, all receivable and payable "
 "accounts will be used."
 msgstr ""
-"Prefiks konta. Ako nije naveden, koristit će se svi potražni i dugovni konti."
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/plugins/accounting_plugin.js:0
 msgid "The residual amount for given accounts could not be computed."
-msgstr "Preostali iznos za zadane konte nije bilo moguće izračunati."
+msgstr ""
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "The technical account type (possible values are: %s)."
-msgstr "Tehnička vrsta konta (moguće vrijednosti su: %s)."
+msgstr ""

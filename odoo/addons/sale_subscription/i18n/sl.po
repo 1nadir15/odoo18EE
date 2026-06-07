@@ -10,14 +10,13 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Jan Zorko <jan.zorko@implex.si>, 2025.
-# Tadej Vengust <tadej.vengust@implex.si>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-03 18:51+0000\n"
-"PO-Revision-Date: 2026-05-29 14:15+0000\n"
-"Last-Translator: Tadej Vengust <tadej.vengust@implex.si>\n"
+"PO-Revision-Date: 2025-12-19 14:44+0000\n"
+"Last-Translator: Jan Zorko <jan.zorko@implex.si>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-18/"
 "sale_subscription/sl/>\n"
 "Language: sl\n"
@@ -26,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: sale_subscription
 #. odoo-python
@@ -107,7 +106,7 @@ msgstr "3 mesece"
 #. module: sale_subscription
 #: model:sale.subscription.plan,name:sale_subscription.subscription_plan_6_month
 msgid "6 Months"
-msgstr "6 Mesecev"
+msgstr ""
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription_portal_sidebar
@@ -3565,7 +3564,7 @@ msgstr "Prikaži naročnino na nadzorni plošči"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Show all records which has next action date is before today"
 msgstr ""
-"Prikaži vse zapise z datumom naslednje aktivnosti pred današnjim datumom"
+"Prikaži vse zapise z datumom naslednje aktivnosti pred današnjim datumom."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_order__health
@@ -4833,37 +4832,37 @@ msgstr "na"
 #. odoo-python
 #: code:addons/sale_subscription/models/sale_subscription_plan.py:0
 msgid "per %d months"
-msgstr "na %d mesecev"
+msgstr ""
 
 #. module: sale_subscription
 #. odoo-python
 #: code:addons/sale_subscription/models/sale_subscription_plan.py:0
 msgid "per %d weeks"
-msgstr "na %d tednov"
+msgstr ""
 
 #. module: sale_subscription
 #. odoo-python
 #: code:addons/sale_subscription/models/sale_subscription_plan.py:0
 msgid "per %d years"
-msgstr "na %d let"
+msgstr ""
 
 #. module: sale_subscription
 #. odoo-python
 #: code:addons/sale_subscription/models/sale_subscription_plan.py:0
 msgid "per month"
-msgstr "na mesec"
+msgstr ""
 
 #. module: sale_subscription
 #. odoo-python
 #: code:addons/sale_subscription/models/sale_subscription_plan.py:0
 msgid "per week"
-msgstr "na teden"
+msgstr ""
 
 #. module: sale_subscription
 #. odoo-python
 #: code:addons/sale_subscription/models/sale_subscription_plan.py:0
 msgid "per year"
-msgstr "na leto"
+msgstr ""
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription_portal_template

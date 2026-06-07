@@ -146,8 +146,7 @@ class PosSession(models.Model):
             # so if - is in name or reason direct spiltting won't work
             move_parts = cash_move.payment_ref.removeprefix(self.name).split('-')
             move_type, statement_type, move_reason = move_parts[1], move_parts[2], "-".join(move_parts[3:])
-            statement_type = (statement_type[0].upper() + statement_type[1:]) if statement_type else ''
-            statements.append({"type": statement_type, "name": f"Cash {move_type} - {move_reason}"[:40], "amounts_per_vat_id": [self._get_vat_details(5, cash_move.amount, cash_move.amount)]})
+            statements.append({"type": statement_type.capitalize(), "name": f"Cash {move_type} - {move_reason}"[:40], "amounts_per_vat_id": [self._get_vat_details(5, cash_move.amount, cash_move.amount)]})
         for case_type, vat_summaries in summary.items():
             statements.append({'type': case_type, 'amounts_per_vat_id': vat_summaries})
         return statements

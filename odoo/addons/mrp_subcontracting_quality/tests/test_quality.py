@@ -43,9 +43,12 @@ class TestMrpSubcontractingQuality(TestQualityCommon, TestMrpSubcontractingCommo
 
     def test_subcontracting_partial_quality_failure_consumes_components_lot(self):
         """
-        Ensure that a partial quality failure on a subcontracted receipt does not
-        reduce the quantities of the recorded production, when components are recorded
-        multiple times with different finished product lots.
+        Check that quality failures are applied to the correct subcontracted productions
+        when components are recorded multiple times with different finished product lots.
+
+        Two component recordings are done on the same receipt, each linked to a different
+        finished lot. When a quality check partially fails for each lot, only the raw
+        material moves belonging to the corresponding production should be reduced.
         """
         (self.finished | self.comp1 | self.comp2).tracking = 'lot'
         finished_lot_id, comp_1_lot_id, comp_2_lot_id,\
@@ -67,7 +70,7 @@ class TestMrpSubcontractingQuality(TestQualityCommon, TestMrpSubcontractingCommo
             'move_ids_without_package': [Command.create({
                 'name': self.finished.display_name,
                 'product_id': self.finished.id,
-                'product_uom_qty': 15,
+                'product_uom_qty': 16,
                 'product_uom': self.finished.uom_id.id,
             })],
         })
@@ -81,12 +84,12 @@ class TestMrpSubcontractingQuality(TestQualityCommon, TestMrpSubcontractingCommo
         self.assertRecordValues(
             receipt.move_ids.move_orig_ids.production_id.move_raw_ids.sorted('id'),
             [
-                {'quantity': 10, 'order_finished_lot_id': finished_lot_id.id},
-                {'quantity': 10, 'order_finished_lot_id': finished_lot_id.id},
-                {'quantity': 3, 'order_finished_lot_id': finished_lot_id_2.id},
-                {'quantity': 3, 'order_finished_lot_id': finished_lot_id_2.id},
-                {'quantity': 2, 'order_finished_lot_id': False},
-                {'quantity': 2, 'order_finished_lot_id': False},
+                {'quantity': 4, 'order_finished_lot_id': finished_lot_id.id},
+                {'quantity': 4, 'order_finished_lot_id': finished_lot_id.id},
+                {'quantity': 2, 'order_finished_lot_id': finished_lot_id_2.id},
+                {'quantity': 2, 'order_finished_lot_id': finished_lot_id_2.id},
+                {'quantity': 3, 'order_finished_lot_id': False},
+                {'quantity': 3, 'order_finished_lot_id': False},
             ]
         )
         # Check we can still reserve quantity
@@ -94,8 +97,12 @@ class TestMrpSubcontractingQuality(TestQualityCommon, TestMrpSubcontractingCommo
 
     def test_subcontracting_partial_quality_failure_consumes_components(self):
         """
-        Ensure that a partial quality failure on a subcontracted receipt does not
-        reduce the quantities of the recorded production.
+        Ensure that a partial quality failure on a subcontracted receipt correctly
+        reduces the quantities of the recorded production.
+
+        After recording a production, a quality check that partially fails should
+        only reduce the corresponding raw material moves, leaving the remaining
+        quantities untouched.
         """
         self.bom.consumption = 'warning'
         receipt = self.env['stock.picking'].create({
@@ -113,7 +120,7 @@ class TestMrpSubcontractingQuality(TestQualityCommon, TestMrpSubcontractingCommo
         self._quality_fail(receipt.check_ids, 6)
         self.assertRecordValues(
             receipt.move_ids.move_orig_ids.production_id.move_raw_ids.sorted('id'),
-            [{'quantity': 8}, {'quantity': 8}, {'quantity': 4}, {'quantity': 4}]
+            [{'quantity': 2}, {'quantity': 2}, {'quantity': 4}, {'quantity': 4}]
         )
         # Check we can still reserve quantity
         self.assertTrue(receipt.check_ids.action_open_quality_check_wizard() is not True)

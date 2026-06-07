@@ -269,7 +269,7 @@ class AccountJournal(models.Model):
         PmtId = etree.SubElement(CdtTrfTxInf, "PmtId")
         if payment['name']:
             InstrId = etree.SubElement(PmtId, "InstrId")
-            InstrId.text = self._sepa_sanitize_communication(payment['name'].replace('&', '+'), 35)
+            InstrId.text = self._sepa_sanitize_communication(payment['name'], 35)
         EndToEndId = etree.SubElement(PmtId, "EndToEndId")
         EndToEndId.text = (payment.get('end_to_end_id') or PmtInfId.text + str(payment['id']))[-30:].strip()
         Amt = etree.SubElement(CdtTrfTxInf, "Amt")
@@ -377,7 +377,7 @@ class AccountJournal(models.Model):
         # Check whether we have a structured communication
         else:
             Ustrd = etree.SubElement(RmtInf, "Ustrd")
-            Ustrd.text = self._sepa_sanitize_communication(payment['memo'].replace('&', '+'))
+            Ustrd.text = self._sepa_sanitize_communication(payment['memo'])
         return RmtInf
 
     def _get_company_PartyIdentification32(self, payment_method_code, postal_address=True, nm=True, issr=True, schme_nm=False):

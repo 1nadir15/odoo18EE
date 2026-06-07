@@ -331,10 +331,7 @@ class GeneralLedgerCustomHandler(models.AbstractModel):
             res['partner_detail_map'][partner_id]['type'] = partner_type
             company_currency = values['company'].currency_id
 
-            if not company_currency.is_zero(opening_payable) \
-                or not company_currency.is_zero(closing_payable) \
-                or partner_type == 'supplier':
-
+            if not company_currency.is_zero(opening_payable) or not company_currency.is_zero(closing_payable):
                 res['partner_detail_map'][partner_id]['types'].append('supplier')
                 res['supplier_vals_list'].append({
                     'partner': partner,
@@ -342,11 +339,7 @@ class GeneralLedgerCustomHandler(models.AbstractModel):
                     'closing_balance': closing_payable,
                 })
 
-            if not company_currency.is_zero(opening_receivable) \
-                or not company_currency.is_zero(closing_receivable) \
-                or not res['partner_detail_map'][partner_id]['types'] \
-                or partner_type == 'customer':
-
+            if not company_currency.is_zero(opening_receivable) or not company_currency.is_zero(closing_receivable) or not res['partner_detail_map'][partner_id]['types']:
                 res['partner_detail_map'][partner_id]['types'].append('customer')
                 res['customer_vals_list'].append({
                     'partner': partner,

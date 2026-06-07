@@ -11,14 +11,13 @@
 # Kim Asplund <kim.asplund@gmail.com>, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
-# Hanna Kharraziha <hakha@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-29 18:45+0000\n"
-"PO-Revision-Date: 2026-04-29 19:50+0000\n"
-"Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
+"PO-Revision-Date: 2026-03-11 13:02+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "account_iso20022/sv/>\n"
 "Language: sv\n"
@@ -26,13 +25,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "A bank account is not defined."
-msgstr "Inget bankkonto angivet."
+msgstr "Inget bank konto definierat."
 
 #. module: account_iso20022
 #. odoo-python
@@ -43,12 +42,12 @@ msgstr ""
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__sepa_pain_version__pain_001_001_03_austrian_004
 msgid "Austrian"
-msgstr "Österrikiskt"
+msgstr "Österrikisk"
 
 #. module: account_iso20022
 #: model_terms:ir.ui.view,arch_db:account_iso20022.view_batch_payment_form_inherit
 msgid "Batch Booking"
-msgstr "Batchbokning"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model,name:account_iso20022.model_account_batch_payment
@@ -58,7 +57,7 @@ msgstr "Batchbetalning"
 #. module: account_iso20022
 #: model:ir.model.fields,field_description:account_iso20022.field_account_batch_payment__iso20022_charge_bearer
 msgid "Charge Bearer"
-msgstr "Avgiftsansvarig"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model,name:account_iso20022.model_res_company
@@ -74,7 +73,7 @@ msgstr "Inställningar"
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "Configure Journal"
-msgstr "Konfigurera journal"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model,name:account_iso20022.model_res_partner
@@ -84,7 +83,7 @@ msgstr "Kontakt"
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_batch_payment__iso20022_charge_bearer__cred
 msgid "Creditor"
-msgstr "Borgenär"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_batch_payment__iso20022_charge_bearer__debt
@@ -95,7 +94,7 @@ msgstr "Gäldenär"
 #. odoo-python
 #: code:addons/account_iso20022/models/account_journal.py:0
 msgid "Employee %s has no country in their address."
-msgstr "Anställda %s har inget land angivet i sin adress."
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_res_company__iso20022_orgid_issr
@@ -103,24 +102,22 @@ msgid ""
 "Entity that assigns the identification (eg. KBE-BCO or Finanzamt Muenchen "
 "IV)."
 msgstr ""
-"Enhet som tilldelar identifieringsnumret (t.ex. KBE-BCO eller Finanzamt "
-"Muenchen IV)."
 
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__sepa_pain_version__pain_001_001_03_de
 msgid "German"
-msgstr "Tyskt"
+msgstr "Tysk"
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "Go to settings"
-msgstr "Gå till inställningar"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,field_description:account_iso20022.field_account_journal__has_sepa_ct_payment_method
 msgid "Has Sepa Ct Payment Method"
-msgstr "Har betalningsmetod som använder sig av Sepa Ct"
+msgstr ""
 
 #. module: account_iso20022
 #: model:account.payment.method,name:account_iso20022.account_payment_method_iso20022
@@ -131,14 +128,13 @@ msgstr "ISO20022"
 #: model:ir.model.fields,field_description:account_iso20022.field_res_company__iso20022_orgid_id
 #: model:ir.model.fields,field_description:account_iso20022.field_res_config_settings__iso20022_orgid_id
 msgid "Identification"
-msgstr "Identifieringsnummer"
+msgstr "Identifikation"
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_res_company__iso20022_orgid_id
 #: model:ir.model.fields,help:account_iso20022.field_res_config_settings__iso20022_orgid_id
 msgid "Identification assigned by an institution (eg. VAT number)."
-msgstr ""
-"Identifieringsnummer utfärdat av ett institut (tex. momsregistreringsnummer)."
+msgstr "Identifikation utfärdat av en institution (tex. Moms nummer)."
 
 #. module: account_iso20022
 #: model:ir.model.fields,field_description:account_iso20022.field_res_company__iso20022_orgid_issr
@@ -156,14 +152,14 @@ msgstr "Journal"
 #: model:ir.model.fields,field_description:account_iso20022.field_res_partner__iso20022_lei
 #: model:ir.model.fields,field_description:account_iso20022.field_res_users__iso20022_lei
 msgid "LEI"
-msgstr "LEI (Global identifieringskod)"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_res_company__iso20022_lei
 #: model:ir.model.fields,help:account_iso20022.field_res_partner__iso20022_lei
 #: model:ir.model.fields,help:account_iso20022.field_res_users__iso20022_lei
 msgid "Legal Entity Identifier"
-msgstr "Global identifieringskod (LEI)"
+msgstr ""
 
 #. module: account_iso20022
 #: model_terms:ir.ui.view,arch_db:account_iso20022.res_partner_sepa_inherit_form
@@ -176,26 +172,24 @@ msgid ""
 "Name of the Creditor Reference Party. Usage Rule: Limited to 70 characters "
 "in length."
 msgstr ""
-"Namn på borgenärens referensenhet. Användningsregel: Får som mest vara 70 "
-"tecken långt."
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "Non-EUR Payments"
-msgstr "Betalningar utanför EU"
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_journal.py:0
 msgid "Partner %s has no country code defined."
-msgstr "Partner %s har ingen angiven landskod."
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_journal.py:0
 msgid "Partner %s has not bank account defined."
-msgstr "Partner %s har inget angivet bankkonto."
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model,name:account_iso20022.model_account_payment_register
@@ -220,13 +214,13 @@ msgstr "Betalningar"
 #. module: account_iso20022
 #: model_terms:ir.ui.view,arch_db:account_iso20022.account_journal_dashboard_kanban_view_inherited
 msgid "Payments to send via SEPA"
-msgstr "Betalningar att skicka via SEPA"
+msgstr "Betalning att skicka via SEPA"
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "Payments without IBAN"
-msgstr "Betalningar utan IBAN"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_account_batch_payment__iso20022_batch_booking
@@ -236,25 +230,25 @@ msgstr ""
 #. module: account_iso20022
 #: model:ir.model.fields,field_description:account_iso20022.field_account_batch_payment__iso20022_batch_booking
 msgid "SCT Batch Booking"
-msgstr "Batchbokningar med SCT"
+msgstr ""
 
 #. module: account_iso20022
 #: model:account.payment.method,name:account_iso20022.account_payment_method_sepa_ct
 #: model_terms:ir.ui.view,arch_db:account_iso20022.view_account_journal_form
 msgid "SEPA Credit Transfer"
-msgstr "Kreditöverföring med SEPA"
+msgstr "Överföring av SEPA-kredit"
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_journal_dashboard.py:0
 msgid "SEPA Credit Transfers to Send"
-msgstr "SEPA kreditöverföringar att skicka"
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_payment.py:0
 msgid "SEPA only accepts payments in EUR."
-msgstr "SEPA-betalningar går endast att genomföra i EUR."
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
@@ -262,8 +256,6 @@ msgstr "SEPA-betalningar går endast att genomföra i EUR."
 msgid ""
 "SEPA only accepts payments in EUR. Some payments are using another currency."
 msgstr ""
-"SEPA-betalningar går endast att genomföra i EUR. Vissa betalningar använder "
-"sig av en annan valuta."
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_account_journal__sepa_pain_version
@@ -271,13 +263,11 @@ msgstr ""
 msgid ""
 "SEPA version to use to generate Credit Transfer XML files from this journal"
 msgstr ""
-"SEPA-version som används för att skapa XML-filer för kreditöverföringar från "
-"den här journalen"
 
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_batch_payment__iso20022_charge_bearer__slev
 msgid "Service Level"
-msgstr "Servicenivå"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_batch_payment__iso20022_charge_bearer__shar
@@ -288,13 +278,13 @@ msgstr "Delad"
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "Some payments are above the maximum amount allowed."
-msgstr "Vissa betalningar överskrider det maximalt tillåtna totalbeloppet."
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_batch_payment.py:0
 msgid "Some payments have no recipient bank account set."
-msgstr "Vissa betalningar har inget bankkonto angivet som mottagare."
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_account_batch_payment__iso20022_charge_bearer
@@ -302,18 +292,16 @@ msgid ""
 "Specifies which party/parties will bear the charges associated with the "
 "processing of the payment transaction."
 msgstr ""
-"Specificerar vem/vilka som är ansvarig för avgifter relaterade till "
-"behandlingen av betalningen."
 
 #. module: account_iso20022
 #: model:account.payment.method,name:account_iso20022.account_payment_method_iso20022_se
 msgid "Swedish ISO20022"
-msgstr "Svenskt ISO20022"
+msgstr ""
 
 #. module: account_iso20022
 #: model:account.payment.method,name:account_iso20022.account_payment_method_iso20022_ch
 msgid "Swiss ISO20022"
-msgstr "Schweiziskt ISO20022"
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
@@ -328,15 +316,6 @@ msgid ""
 "- 2 letters or digits: location code\n"
 "- 3 letters or digits: branch code, optional\n"
 msgstr ""
-"BIC-koden '%(bic_code)s' som angivits för den bank '%(bank)s' där bankkontot "
-"'%(account)s' för partnern '%(partner)s' finns följer inte de angivna "
-"utformningskraven.\n"
-"Koden måste innehålla 8 eller 11 tecken och vara utformad enligt följande "
-"struktur:\n"
-"- 4 bokstäver: institutets eller bankens kod\n"
-"- 2 bokstäver: landskod\n"
-"- 2 bokstäver eller siffror: kod för platsangivelse\n"
-"- 3 bokstäver eller siffror: filialens kod, valfritt\n"
 
 #. module: account_iso20022
 #. odoo-python
@@ -347,10 +326,6 @@ msgid ""
 "- 18 alphanumeric characters with capital letters\n"
 "- 2 digits in the end\n"
 msgstr ""
-"Det globala identifieringsnumret (LEI) måste innehålla 20 tecken och vara "
-"utformat enligt följande struktur:\n"
-"- 18 alfanumeriska tecken inklusive stora bokstäver\n"
-"- avslutas med 2 siffror \n"
 
 #. module: account_iso20022
 #. odoo-python
@@ -359,8 +334,6 @@ msgid ""
 "The Name Identification and Issuer details are required to proceed. Please "
 "configure them in the settings."
 msgstr ""
-"Uppgifter om namn, identifieringsnummer och utfärdare krävs för att gå "
-"vidare. Vänligen konfigurera dem i inställningarna."
 
 #. module: account_iso20022
 #. odoo-python
@@ -370,8 +343,6 @@ msgid ""
 "IBAN.\n"
 "A valid IBAN account is required to use SEPA features."
 msgstr ""
-"Bankkontot %(account)s, för journalen '%(journal)s', är inte av typen IBAN.\n"
-"Ett giltigt IBAN-konto krävs för att använda SEPA-funktioner."
 
 #. module: account_iso20022
 #. odoo-python
@@ -380,8 +351,6 @@ msgid ""
 "The customer bank account set on some payments does not have an IBAN number. "
 "This is required for SEPA."
 msgstr ""
-"Kundens bankkonto som har angivits på vissa betalningar har inte ett IBAN-"
-"nummer. Detta krävs för att använda SEPA."
 
 #. module: account_iso20022
 #. odoo-python
@@ -390,30 +359,28 @@ msgid ""
 "The journal '%s' requires a proper IBAN account to pay via SEPA. Please "
 "configure it first."
 msgstr ""
-"Journalen '%s' kräver ett giltigt IBAN-konto för att betala via SEPA. "
-"Vänligen konfigurera detta först."
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_journal.py:0
 msgid "This journal does not have a bank account defined."
-msgstr "Journalen har inte ett angivet bankkonto."
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
 #: code:addons/account_iso20022/models/account_journal.py:0
 msgid "Too many transactions for a single file."
-msgstr "För många transaktioner för en enskild fil."
+msgstr "För många transaktioner för en fil."
 
 #. module: account_iso20022
 #: model:ir.model.fields,field_description:account_iso20022.field_account_payment__iso20022_uetr
 msgid "UETR"
-msgstr "UETR (Unikt transaktionsreferensnummer)"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_account_payment__iso20022_uetr
 msgid "Unique end-to-end transaction reference"
-msgstr "Unikt transaktionsreferensnummer"
+msgstr ""
 
 #. module: account_iso20022
 #. odoo-python
@@ -427,8 +394,6 @@ msgid ""
 "Will appear as the name of the party initiating the payment. Limited to 70 "
 "characters."
 msgstr ""
-"Kommer att visas i form av namnet på den part från vilken transaktionen "
-"skickas. Begränsad till 70 tecken."
 
 #. module: account_iso20022
 #: model:ir.model.fields,help:account_iso20022.field_res_config_settings__iso20022_orgid_issr
@@ -436,8 +401,6 @@ msgid ""
 "Will appear in SEPA payments as the name of the party initiating the "
 "payment. Limited to 70 characters."
 msgstr ""
-"Kommer att visas på SEPA-betalningar i form av namnet på den part från "
-"vilken transaktionen skickas. Begränsad till 70 tecken."
 
 #. module: account_iso20022
 #: model:ir.model.fields,field_description:account_iso20022.field_account_journal__sepa_pain_version
@@ -454,9 +417,9 @@ msgstr "Ditt företagsnamn"
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__sepa_pain_version__pain_001_001_03
 msgid "pain.001.001.03"
-msgstr "pain.001.001.03"
+msgstr ""
 
 #. module: account_iso20022
 #: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__sepa_pain_version__pain_001_001_09
 msgid "pain.001.001.09"
-msgstr "pain.001.001.09"
+msgstr ""

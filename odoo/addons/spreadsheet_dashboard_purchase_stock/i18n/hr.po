@@ -1,42 +1,40 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * spreadsheet_dashboard_purchase_stock
+# 	* spreadsheet_dashboard_purchase_stock
 #
 # Translators:
 # Vladimir Vrgoč, 2024
 # hrvoje sić <hrvoje.sic@gmail.com>, 2024
 # Bole <bole@dajmi5.com>, 2024
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2024
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:49+0000\n"
-"PO-Revision-Date: 2026-04-29 19:10+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
-"spreadsheet_dashboard_purchase_stock/hr/>\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Vladimir Olujić <olujic.vladimir@storm.hr>, 2024\n"
+"Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "% On time deliveries by vendor"
-msgstr "% pravovremenih isporuka po dobavljaču"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Acoustic Bloc Screens"
-msgstr "Akustični Bloc zasloni"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
@@ -48,34 +46,34 @@ msgstr "Prosječni trošak"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 msgid "Average global"
-msgstr "Prosjek globalno"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Average order"
-msgstr "Prosječni nalog"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Average order value"
-msgstr "Prosječna vrijednost naloga"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Average product purchased cost by confirmation week"
-msgstr "Prosječan trošak kupljenog proizvoda po tjednu potvrde"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Azure Interior"
-msgstr "Azure Interior"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
@@ -127,38 +125,38 @@ msgstr "Crna ladica"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Elisabeth Wild"
-msgstr "Elisabeth Wild"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Fill rate"
-msgstr "Stopa popunjenosti"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Flipover"
-msgstr "Flipchart"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 msgid "Global value"
-msgstr "Globalna vrijednost"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Joel Willis"
-msgstr "Joel Willis"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "John Stones"
-msgstr "John Stones"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
@@ -170,39 +168,39 @@ msgstr "Veliki stol"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 msgid "Late receipts"
-msgstr "Kasni primici"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 msgid "Lead time"
-msgstr "Vrijeme isporuke"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 msgid "Lead time top 10"
-msgstr "Vrijeme isporuke top 10"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Number of orders"
-msgstr "Broj naloga"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Office Chair Black"
-msgstr "Uredska stolica crna"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "On time deliveries"
-msgstr "Pravovremene isporuke"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
@@ -227,40 +225,40 @@ msgstr "Referenca narudžbe"
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Order date"
-msgstr "Datum naloga"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 msgid "Orders count"
-msgstr "Broj naloga"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 msgid "Orders value by vendor"
-msgstr "Vrijednost naloga po dobavljaču"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Orders with reception picking"
-msgstr "Nalozi s primkom"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Picking Name"
-msgstr "Naziv prikupljanja"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Previous period"
-msgstr "Prethodno razdoblje"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
@@ -279,33 +277,33 @@ msgstr "Kategorija proizvoda"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 msgid "Product level overview"
-msgstr "Pregled na razini proizvoda"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #: model:spreadsheet.dashboard,name:spreadsheet_dashboard_purchase_stock.spreadsheet_dashboard_purchase
 msgid "Purchase & Vendor analysis"
-msgstr "Analiza nabave i dobavljača"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Purchase Order by buyer"
-msgstr "Nabavni nalozi po kupcu"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Purchase Value by creation confirmation date"
-msgstr "Vrijednost nabave po datumu kreiranja/potvrde"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Purchased value"
-msgstr "Nabavljena vrijednost"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
@@ -324,74 +322,74 @@ msgstr "Kol. zaprimljeno"
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Quantity ordered"
-msgstr "Naručena količina"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Ready Mat"
-msgstr "Ready Mat"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Selected period"
-msgstr "Odabrano razdoblje"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Supplier service level"
-msgstr "Razina usluge dobavljača"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Swiss Vendor"
-msgstr "Švicarski dobavljač"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Test Batch Product"
-msgstr "Testni skupni proizvod"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Top 10 late receipts"
-msgstr "Top 10 kasnih primitaka"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Top purchase orders by value"
-msgstr "Najbolji nabavni nalozi po vrijednosti"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Top purchased products"
-msgstr "Najbolji kupljeni proizvodi"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Top vendors by amount"
-msgstr "Najbolji dobavljači po iznosu"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Top vendors by lead time in days"
-msgstr "Najbolji dobavljači po vremenu isporuke u danima"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
@@ -403,7 +401,7 @@ msgstr "Ukupno"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 msgid "Total value"
-msgstr "Ukupna vrijednost"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
@@ -428,18 +426,18 @@ msgstr "Olovka za bijelu ploču"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "Wood Corner"
-msgstr "Drveni kutak"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "last period"
-msgstr "prošlo razdoblje"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
 msgid "since last period"
-msgstr "od posljednjeg razdoblja"
+msgstr ""

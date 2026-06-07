@@ -7,14 +7,13 @@
 # Abe Manyo, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
-# "Nurul Aini Akrima Sabila (nuaas)" <nuaas@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:44+0000\n"
-"PO-Revision-Date: 2026-05-07 10:20+0000\n"
-"Last-Translator: \"Nurul Aini Akrima Sabila (nuaas)\" <nuaas@odoo.com>\n"
+"PO-Revision-Date: 2026-04-18 18:31+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-18/"
 "web_studio/id/>\n"
 "Language: id\n"
@@ -22,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: web_studio
 #. odoo-python
@@ -2410,7 +2409,7 @@ msgstr "Terakhir Diperbarui pada"
 #. odoo-python
 #: code:addons/web_studio/models/ir_ui_view.py:0
 msgid "Late Activities"
-msgstr "Aktivitas terakhir"
+msgstr "Aktifitas terakhir"
 
 #. module: web_studio
 #. odoo-javascript

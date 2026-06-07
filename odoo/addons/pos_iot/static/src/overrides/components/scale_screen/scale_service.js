@@ -52,11 +52,8 @@ patch(PosScaleService.prototype, {
     _handleScaleMessage(data) {
         if (data.status.status === "error") {
             throw new Error(`Cannot weigh product - ${data.status.message_body}`);
-        } else if (data.status.status === "connected" || data.status === "success") {
+        } else {
             return data.value || data.result || 0;
         }
-        // else, do nothing to avoid data.status === "error"
-        // corresponding to timeout because weight did not change
-        return this.weight;
     },
 });

@@ -1214,7 +1214,6 @@ class SpanishMod347TaxReportCustomHandler(models.AbstractModel):
         return rslt
 
     def export_boe(self, options):
-        self.env.flush_all()
         dummy, year = self._get_mod_period_and_year(options)
         current_company = self.env.company
         report = self.env['account.report'].browse(options['report_id'])
@@ -1443,7 +1442,7 @@ class SpanishMod349TaxReportCustomHandler(models.AbstractModel):
                         else:
                             result_dict['value'] += 1
 
-            result_dict['has_sublines'] = float_compare(result_dict['value'], 0, precision_digits=2)
+            result_dict['has_sublines'] = float_compare(result_dict['value'], 0, precision_rounding=2)
 
             return result_dict
 
@@ -1494,7 +1493,7 @@ class SpanishMod349TaxReportCustomHandler(models.AbstractModel):
 
         for grouping_key, query_res_lines in all_res_per_grouping_key.items():
             result_dict = build_result_dict(query_res_lines, reversed_moves_dict)
-            if float_compare(result_dict['value'], 0, precision_digits=2):
+            if float_compare(result_dict['value'], 0, precision_rounding=2):
                 rslt.append((grouping_key, result_dict))
 
         return rslt

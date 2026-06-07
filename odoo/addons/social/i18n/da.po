@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-06-06 09:45+0000\n"
+"PO-Revision-Date: 2026-04-11 09:06+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/social/"
 "da/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_media__accounts_count
@@ -36,13 +36,13 @@ msgstr "# Konti"
 #. odoo-python
 #: code:addons/social/models/social_post.py:0
 msgid "%(media_name)s (max %(max_chars)s chars)"
-msgstr "%(media_name)s (maks. %(max_chars)s tegn)"
+msgstr ""
 
 #. module: social
 #. odoo-javascript
 #: code:addons/social/static/src/xml/social_templates.xml:0
 msgid ", you must first link a social media."
-msgstr ", skal du først linke til et socialt medie."
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_http_error_view
@@ -52,7 +52,7 @@ msgstr " <b>Der forekom en fejl under forsøg på at forbinde din konto</b>"
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
 msgid "<i class=\"fa fa-calendar me-1 small fw-bold\" title=\"Calendar\"/>"
-msgstr "<i class=\"fa fa-calendar me-1 small fw-bold\" title=\"Kalender\"/>"
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
@@ -69,7 +69,7 @@ msgstr "<i class=\"fa fa-globe ms-1\" title=\"See the post\"/>"
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_http_error_view
 msgid "<i class=\"oi oi-arrow-left\"/> Go back to Odoo"
-msgstr "<i class=\"oi oi-arrow-left\"/> Gå tilbage til Odoo"
+msgstr ""
 
 #. module: social
 #: model_terms:web_tour.tour,rainbow_man_message:social.social_tour
@@ -77,8 +77,6 @@ msgid ""
 "<strong>Congrats! Come back in a few minutes to check your statistics.</"
 "strong>"
 msgstr ""
-"<strong>Tillykke! Kom tilbage om et par minutter for at tjekke dine "
-"statistikker.</strong>"
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_media__message_needaction
@@ -120,13 +118,13 @@ msgstr "Tilføj"
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_form
 msgid "Add Post"
-msgstr "Tilføj opslag"
+msgstr ""
 
 #. module: social
 #. odoo-javascript
 #: code:addons/social/static/src/xml/social_templates.xml:0
 msgid "Add Stream"
-msgstr "Tilføj stream"
+msgstr ""
 
 #. module: social
 #. odoo-javascript
@@ -160,7 +158,7 @@ msgstr "Alle relateret social medie indlæg"
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_post__account_allowed_ids
 msgid "Allowed Accounts"
-msgstr "Tilladte konti"
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_account_view_search
@@ -182,7 +180,7 @@ msgstr "Vedhæft billeder"
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_live_post__image_ids
 msgid "Attached Images"
-msgstr "Vedhæftede billeder"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_media__message_attachment_count
@@ -215,12 +213,12 @@ msgstr "Forfatter"
 #. module: social
 #: model:ir.model.fields,help:social.field_social_stream_post__author_link
 msgid "Author link to the external social.media (ex: link to the X Account)."
-msgstr "Link til forfatterens sociale medier (f.eks. en X-konto)."
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
 msgid "Before posting, links will be converted to be trackable."
-msgstr "Før offentliggørelse konverteres links, så de kan spores."
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_search
@@ -230,7 +228,7 @@ msgstr "Per Stream"
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_media__csrf_token
 msgid "CSRF Token"
-msgstr "CSRF-token"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_post__calendar_date
@@ -263,7 +261,7 @@ msgstr ""
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_media__can_link_accounts
 msgid "Can link accounts?"
-msgstr "Kan konti forbindes?"
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_form
@@ -280,7 +278,7 @@ msgstr "Vælg hvilken <b>konto</b> du gerne vil forbinde først."
 #. odoo-javascript
 #: code:addons/social/static/src/xml/social_templates.xml:0
 msgid "Click to refresh."
-msgstr "Klik for at opdatere."
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_form
@@ -290,7 +288,7 @@ msgstr "Klik"
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
 msgid "Clicks:"
-msgstr "Klik:"
+msgstr ""
 
 #. module: social
 #. odoo-javascript
@@ -332,8 +330,6 @@ msgid ""
 "Contains the social media handle of the person that created this account. "
 "E.g: '@odoo.official' for the 'Odoo' X account"
 msgstr ""
-"Indeholder brugernavnet på det sociale medie for den person, der har "
-"oprettet denne konto. F.eks. ‘@odoo.official’ for Odoo-kontoen på X"
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_live_post__message
@@ -341,8 +337,6 @@ msgid ""
 "Content of the social post message that is post-processed (links are "
 "shortened, UTMs, ...)"
 msgstr ""
-"Indholdet af det sociale medieindlæg, der redigeres (links forkortes, UTM-"
-"parametre osv.)"
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_media__has_streams
@@ -362,7 +356,7 @@ msgstr "Opret en kampagne"
 #. module: social
 #: model_terms:ir.actions.act_window,help:social.action_social_post
 msgid "Create a Post"
-msgstr "Opret et opslag"
+msgstr ""
 
 #. module: social
 #. odoo-python
@@ -371,8 +365,6 @@ msgid ""
 "Create other accounts for %(media_names)s for this company or ask %"
 "(company_names)s to share their accounts"
 msgstr ""
-"Opret andre konti til %(media_names)s for denne virksomhed, eller bed %"
-"(company_names)s om at dele deres konti"
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_account__create_uid
@@ -432,7 +424,7 @@ msgstr "Slet kommentar"
 #. odoo-javascript
 #: code:addons/social/static/src/js/stream_post_comments.js:0
 msgid "Delete Post"
-msgstr "Slet opslag"
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.res_config_settings_view_form
@@ -459,7 +451,7 @@ msgstr "Kassér"
 #: model:ir.model.fields,field_description:social.field_social_post__display_message
 #: model:ir.model.fields,field_description:social.field_social_post_template__display_message
 msgid "Display Message"
-msgstr "Vis besked"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_account__display_name
@@ -478,13 +470,13 @@ msgstr "Vis navn"
 #. odoo-javascript
 #: code:addons/social/static/src/js/stream_post_comment.js:0
 msgid "Do you really want to delete this %s?"
-msgstr "Er du sikker på, du vil slette %s?"
+msgstr ""
 
 #. module: social
 #. odoo-javascript
 #: code:addons/social/static/src/js/stream_post_comments.js:0
 msgid "Do you really want to delete this Post ?"
-msgstr "Er du sikker på, du vil slette dette opslag?"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields.selection,name:social.selection__social_post__state__draft
@@ -498,8 +490,6 @@ msgid ""
 "Due to length restrictions, the following posts cannot be posted:\n"
 " %s"
 msgstr ""
-"Følgende opslag kan ikke offentliggøres på grund af længdebegrænsninger:\n"
-" %s"
 
 #. module: social
 #. odoo-javascript
@@ -511,7 +501,7 @@ msgstr "Rediger"
 #. odoo-javascript
 #: code:addons/social/static/src/xml/social_templates.xml:0
 msgid "Edit Your Post"
-msgstr "Redigér dit opslag"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_res_config_settings__module_social_demo
@@ -524,9 +514,6 @@ msgid ""
 "Enable this option and load demo data to test the social module. This must "
 "never be used on a production database!"
 msgstr ""
-"Aktivér denne indstilling, og indlæs demodata for at teste modulet til "
-"sociale medier. Brug under ingen omstændigheder denne indstilling i en "
-"produktionsdatabase!"
 
 #. module: social
 #. odoo-javascript
@@ -547,7 +534,7 @@ msgstr "Engagement tendens"
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
 msgid "Engagement:"
-msgstr "Engagement:"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_account__utm_medium_id
@@ -619,7 +606,7 @@ msgstr ""
 #. module: social
 #: model_terms:ir.actions.act_window,help:social.action_social_stream
 msgid "Go to the"
-msgstr "Gå til"
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_account_view_search
@@ -632,7 +619,7 @@ msgstr "Sortér efter"
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_account__social_account_handle
 msgid "Handle / Short Name"
-msgstr "Alias/kort navn"
+msgstr ""
 
 #. module: social
 #. odoo-javascript
@@ -735,7 +722,7 @@ msgstr "Indsigter"
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_stream_post__is_author
 msgid "Is Author"
-msgstr "Er forfatter"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_media__message_is_follower
@@ -757,7 +744,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
 msgid "It will appear in the Feed once it has posts to display."
-msgstr "Det vises i feedet, så snart der er opslag at vise."
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_account__write_uid
@@ -789,7 +776,7 @@ msgstr "Sidst opdateret den"
 #. odoo-javascript
 #: code:addons/social/static/src/js/tours/social.js:0
 msgid "Let's <b>connect</b> to Facebook, LinkedIn or X."
-msgstr "Lad os <b>forbinde</b> til Facebook, LinkedIn eller X."
+msgstr ""
 
 #. module: social
 #. odoo-javascript
@@ -846,7 +833,7 @@ msgstr "Link URL"
 #. odoo-javascript
 #: code:addons/social/static/src/xml/social_templates.xml:0
 msgid "Link a new account"
-msgstr "Forbind en ny konto"
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_media_view_kanban
@@ -856,7 +843,7 @@ msgstr "Link konto"
 #. module: social
 #: model_terms:ir.actions.act_window,help:social.action_social_account
 msgid "Link an Account"
-msgstr "Forbind en konto"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_account__company_id
@@ -867,13 +854,11 @@ msgid ""
 "Link an account to a company to restrict its usage or keep empty to let all "
 "companies use it."
 msgstr ""
-"Knyt en konto til en virksomhed for at begrænse brugen af den, eller lad "
-"feltet stå tomt, så alle virksomheder kan bruge den."
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_live_post__live_post_link
 msgid "Link of the live post on the target media."
-msgstr "Link til det liveopslag på målmediet."
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
@@ -893,7 +878,7 @@ msgstr "Link med ekstern social medie er brudt"
 #. module: social
 #: model:ir.model.fields,help:social.field_social_post__account_allowed_ids
 msgid "List of the accounts which can be selected for this post."
-msgstr "Liste over de konti, der kan vælges til dette opslag."
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_post__live_posts_by_media
@@ -909,7 +894,7 @@ msgstr "Indlæs flere kommentare..."
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_media__max_post_length
 msgid "Max Post Length"
-msgstr "Maksimal længde på opslag"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_live_post__media_type
@@ -922,7 +907,7 @@ msgstr "Medie"
 #: model:ir.model.fields,field_description:social.field_social_post__media_count
 #: model:ir.model.fields,field_description:social.field_social_post_template__media_count
 msgid "Media Count"
-msgstr "Antal medier"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_account__media_type
@@ -955,8 +940,6 @@ msgstr "Posteret besked"
 #: code:addons/social/models/social_post.py:0
 msgid "Message posted partially. These are the ones that couldn't be posted:%s"
 msgstr ""
-"Kun nogle af nyhederne er blevet offentliggjort. Her er de nyheder, der ikke "
-"kunne offentliggøres:%s"
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_media__message_ids
@@ -1013,7 +996,7 @@ msgstr "Nyt indlæg"
 #. odoo-javascript
 #: code:addons/social/static/src/xml/social_templates.xml:0
 msgid "New content available"
-msgstr "Nyt indhold tilgængeligt"
+msgstr ""
 
 #. module: social
 #. odoo-javascript
@@ -1044,17 +1027,17 @@ msgstr "Næste aktivitetstype"
 #. module: social
 #: model_terms:ir.actions.act_window,help:social.action_social_account
 msgid "No Social Account yet!"
-msgstr "Ingen sociale mediekonti endnu!"
+msgstr ""
 
 #. module: social
 #: model_terms:ir.actions.act_window,help:social.action_social_stream
 msgid "No Social Streams yet!"
-msgstr "Der er endnu ingen streams på sociale medier!"
+msgstr ""
 
 #. module: social
 #: model_terms:ir.actions.act_window,help:social.action_social_stream_post
 msgid "No Stream added yet!"
-msgstr "Der er endnu ikke tilføjet nogen stream!"
+msgstr ""
 
 #. module: social
 #. odoo-javascript
@@ -1128,8 +1111,6 @@ msgstr ""
 #: model:ir.model.fields,help:social.field_social_account__stories
 msgid "Number of stories created from your posts (Shares, Reposts, ...)."
 msgstr ""
-"Antal historier, der er oprettet på baggrund af dit opslag (delinger, "
-"genpostering osv.)."
 
 #. module: social
 #. odoo-javascript
@@ -1148,14 +1129,12 @@ msgid ""
 "Number of times people who have engaged with your channel have created "
 "stories on their friends' or followers' feed (Shares, Reposts...)"
 msgstr ""
-"Antal gange personer, der har interageret med din kanal, har delt opslag i "
-"deres venners eller følgeres feed (delinger, reposteringer osv.)"
 
 #. module: social
 #. odoo-javascript
 #: code:addons/social/static/src/xml/social_templates.xml:0
 msgid "Or add"
-msgstr "Eller tilføj"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_account__audience_trend
@@ -1180,13 +1159,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/social/models/social_post.py:0
 msgid "Please specify at least one account to post into (for post ID(s) %s)."
-msgstr "Angiv mindst én konto, som der skal postes til (for post-ID(’er) %s)."
+msgstr ""
 
 #. module: social
 #. odoo-python
 #: code:addons/social/models/social_post_template.py:0
 msgid "Please specify either a message or upload some images."
-msgstr "Skriv en besked, eller upload nogle billeder."
+msgstr ""
 
 #. module: social
 #. odoo-python
@@ -1280,15 +1259,12 @@ msgstr "Forhåndsvisning af indlæg"
 #: code:addons/social/static/src/xml/social_templates.xml:0
 msgid "Press Enter to edit. Press Shift+Enter to insert a Line Break."
 msgstr ""
-"Tryk Enter for at redigere og Shift+Enter for at indsætte et linjeskift."
 
 #. module: social
 #. odoo-javascript
 #: code:addons/social/static/src/xml/social_templates.xml:0
 msgid "Press Enter to post. Press Shift+Enter to insert a Line Break."
 msgstr ""
-"Tryk på Enter for at sende indlægget og Shift+Enter for at indsætte et "
-"linjeskift."
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
@@ -1341,7 +1317,7 @@ msgstr "Relateret social medier"
 #. module: social
 #: model:ir.model.fields,help:social.field_social_account__media_id
 msgid "Related Social Media (Facebook, X, ...)."
-msgstr "Tilknyttede sociale medier (Facebook, X osv.)."
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_stream_post__account_id
@@ -1398,8 +1374,6 @@ msgid ""
 "Selected accounts (%(account_list)s) do not match the selected company (%"
 "(company)s)"
 msgstr ""
-"De valgte konti (%(account_list)s) stemmer ikke overens med den valgte "
-"virksomhed (%(company)s)"
 
 #. module: social
 #: model:ir.model.fields.selection,name:social.selection__social_post__post_method__now
@@ -1423,8 +1397,6 @@ msgstr ""
 msgid ""
 "Set a maximum number of characters can be posted in post. 0 for no limit."
 msgstr ""
-"Angiv det maksimale antal tegn, et indlæg må indeholde. 0 betyder ingen "
-"begrænsning."
 
 #. module: social
 #: model:ir.actions.act_window,name:social.action_social_global_settings
@@ -1501,7 +1473,7 @@ msgstr "Skabelon til opslag på sociale medier"
 #. module: social
 #: model:ir.actions.act_window,name:social.social_post_template_action
 msgid "Social Post Templates"
-msgstr "Skabeloner til opslag på sociale medier"
+msgstr ""
 
 #. module: social
 #: model:ir.actions.act_window,name:social.action_social_post
@@ -1537,7 +1509,7 @@ msgstr "Sociale Streams"
 #. module: social
 #: model:res.groups,name:social.group_social_user
 msgid "Social User"
-msgstr "Bruger af sociale medier"
+msgstr ""
 
 #. module: social
 #: model:ir.actions.server,name:social.ir_cron_post_scheduled_ir_actions_server
@@ -1548,7 +1520,7 @@ msgstr "Social: Udgiv planlagte posteringer"
 #. odoo-javascript
 #: code:addons/social/static/src/js/stream_post_comments_reply.js:0
 msgid "Something went wrong while posting the comment."
-msgstr "Noget gik galt under indsendelsen af kommentaren."
+msgstr ""
 
 #. module: social
 #. odoo-javascript
@@ -1578,13 +1550,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/social/static/src/js/fields/social_post_split_per_media.xml:0
 msgid "Split Per Media"
-msgstr "Opdel efter medie"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_post__is_split_per_media
 #: model:ir.model.fields,field_description:social.field_social_post_template__is_split_per_media
 msgid "Split Per Network"
-msgstr "Opdel efter netværk"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_account__stats_link
@@ -1626,7 +1598,7 @@ msgstr "Historier tendens"
 #. odoo-javascript
 #: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
 msgid "Stream Added (%s)"
-msgstr "Stream tilføjet (%s)"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_stream_post_image__stream_post_id
@@ -1668,7 +1640,7 @@ msgstr "Under-indlæg der vil blive udgivet på hver af de valgte sociale konti.
 #. odoo-javascript
 #: code:addons/social/static/src/xml/social_templates.xml:0
 msgid "Sync"
-msgstr "Synkronisér"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_post__account_ids
@@ -1727,8 +1699,6 @@ msgid ""
 "This token can be used to verify that an incoming request from a social "
 "provider has not been forged."
 msgstr ""
-"Dette token bruges til at verificere, at en indgående anmodning fra en "
-"social medieudbyder ikke er forfalsket."
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_stream__name
@@ -1739,7 +1709,7 @@ msgstr "Titel"
 #. odoo-javascript
 #: code:addons/social/static/src/xml/social_templates.xml:0
 msgid "To add a stream"
-msgstr "For at tilføje en stream"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_stream__stream_type_id
@@ -1771,7 +1741,7 @@ msgstr "UTM kilde"
 #. odoo-python
 #: code:addons/social/controllers/main.py:0
 msgid "Uh-oh! It looks like this message has been deleted from X."
-msgstr "Åh nej! Det ser ud til, at denne besked er blevet slettet på X."
+msgstr ""
 
 #. module: social
 #. odoo-python
@@ -1791,8 +1761,6 @@ msgid ""
 "Use your own Developer Accounts on our Social app. Those credentials are "
 "provided in the developer section of your professional social media account."
 msgstr ""
-"Brug dine egne udviklerkonti i vores sociale apps. Disse loginoplysninger "
-"findes i udviklerafsnittet på din professionelle sociale mediekonto."
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_account__media_type
@@ -1803,8 +1771,6 @@ msgid ""
 "Used to make comparisons when we need to restrict some features to a "
 "specific media ('facebook', 'x', ...)."
 msgstr ""
-"Bruges til at foretage sammenligninger, når visse funktioner skal begrænses "
-"til et bestemt medie ('Facebook', 'X' osv.)."
 
 #. module: social
 #. odoo-javascript
@@ -1855,7 +1821,7 @@ msgstr "Skriv en kommentar..."
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
 msgid "Write a message or upload an image"
-msgstr "Skriv en besked eller upload et billede"
+msgstr ""
 
 #. module: social
 #. odoo-javascript
@@ -1875,8 +1841,6 @@ msgid ""
 "Write an enticing post, add images and schedule it to be posted later on "
 "multiple platforms at once."
 msgstr ""
-"Skriv et interessant opslag, tilføj billeder, og planlæg det til samtidig "
-"offentliggørelse på flere platforme."
 
 #. module: social
 #. odoo-python
@@ -1886,9 +1850,6 @@ msgid ""
 "social accounts in Social:\n"
 "%(social_accounts)s"
 msgstr ""
-"Du kan ikke slette disse UTM-medier, da de er knyttet til følgende sociale "
-"mediekonti i Social:\n"
-"%(social_accounts)s"
 
 #. module: social
 #. odoo-python
@@ -1898,23 +1859,18 @@ msgid ""
 "Social:\n"
 "%(utm_sources)s"
 msgstr ""
-"Du kan ikke slette disse UTM-kilder, da de er knyttet til følgende opslag på "
-"sociale medier:\n"
-"%(utm_sources)s"
 
 #. module: social
 #. odoo-python
 #: code:addons/social/models/social_post.py:0
 msgid "You cannot reschedule a post that has already been posted."
 msgstr ""
-"Du kan ikke ændre tidspunktet for et opslag, der allerede er blevet "
-"offentliggjort."
 
 #. module: social
 #. odoo-python
 #: code:addons/social/models/social_post.py:0
 msgid "You cannot schedule a post in the past."
-msgstr "Du kan ikke planlægge opslag til en dato i fortiden."
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
@@ -1925,7 +1881,7 @@ msgstr "Dit indlæg"
 #. odoo-javascript
 #: code:addons/social/static/src/xml/social_templates.xml:0
 msgid "a Stream from an existing account"
-msgstr "en stream fra en eksisterende konto"
+msgstr ""
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
@@ -1959,15 +1915,13 @@ msgstr "svar..."
 #: model_terms:ir.actions.act_window,help:social.action_social_stream_post
 msgid "to keep an eye on your own posts and monitor all social activities."
 msgstr ""
-", så du kan holde øje med dine egne opslag og bevare overblikket over alle "
-"dine aktiviteter på sociale medier."
 
 #. module: social
 #: model_terms:ir.actions.act_window,help:social.action_social_stream
 msgid "to link your accounts and start posting."
-msgstr "at forbinde dine konti og begynde at lave opslag."
+msgstr ""
 
 #. module: social
 #: model_terms:ir.actions.act_window,help:social.action_social_account
 msgid "to start posting from Odoo."
-msgstr "for at komme i gang med at publicere direkte fra Odoo."
+msgstr ""

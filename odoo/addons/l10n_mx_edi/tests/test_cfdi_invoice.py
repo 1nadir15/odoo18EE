@@ -710,7 +710,6 @@ class TestCFDIInvoice(TestMxEdiCommon):
             refund = self._create_invoice(
                 l10n_mx_edi_cfdi_to_public=True,
                 move_type='out_refund',
-                invoice_date_due=self.frozen_today,
                 invoice_line_ids=[
                     Command.create({
                         'product_id': self.product.id,
@@ -1997,101 +1996,6 @@ class TestCFDIInvoice(TestMxEdiCommon):
             with self.with_mocked_pac_sign_success():
                 invoices._l10n_mx_edi_cfdi_global_invoice_try_send()
             self._assert_global_invoice_cfdi_from_invoices(invoices, 'test_cfdi_rounding_24_ginvoice')
-
-    def test_cfdi_rounding_negative_line_on_many_others(self):
-        with self.mx_external_setup(self.frozen_today):
-            invoice = self._create_invoice(
-                invoice_line_ids=[
-                    Command.create({
-                        'product_id': self.product.id,
-                        'price_unit': price_unit,
-                        'tax_ids': [Command.set(self.tax_16.ids)],
-                    })
-                    for price_unit in (
-                        723.77,
-                        769.35,
-                        1510.56,
-                        1378.08,
-                        851.40,
-                        662.69,
-                        1378.08,
-                        1378.08,
-                        77.80,
-                        743.04,
-                        503.28,
-                        421.06,
-                        743.04,
-                        743.04,
-                        63.47,
-                        80.62,
-                        80.62,
-                        80.62,
-                        80.62,
-                        119.29,
-                        11.27,
-                        34.02,
-                        16.60,
-                        19.20,
-                        19.20,
-                        13.54,
-                        15.79,
-                        15.79,
-                        5.37,
-                        5.37,
-                        0.01,
-                        3.23,
-                        32.01,
-                        5.20,
-                        68.54,
-                        97.55,
-                        121.36,
-                        18.67,
-                        32.51,
-                        68.14,
-                        15.33,
-                        26.20,
-                        46.89,
-                        8.06,
-                        8.06,
-                        4.84,
-                        8.06,
-                        13.36,
-                        -0.99,
-                    )
-                ],
-            )
-            with self.with_mocked_pac_sign_success():
-                invoice._l10n_mx_edi_cfdi_invoice_try_send()
-            self._assert_invoice_cfdi(invoice, 'test_cfdi_rounding_negative_line_on_many_others')
-
-    def test_cfdi_cash_rounding(self):
-        """Cash rounding lines (add_invoice_line strategy) must not appear as CFDI
-        concepts. The CFDI SubTotal/Total must reflect the pre-rounding amounts;
-        the rounding difference only belongs in the journal entry."""
-        cash_rounding = self.env['account.cash.rounding'].create({
-            'name': 'Redondeo',
-            'rounding': 1.0,
-            'strategy': 'add_invoice_line',
-            'profit_account_id': self.company_data['default_account_revenue'].copy().id,
-            'loss_account_id': self.company_data['default_account_expense'].copy().id,
-            'rounding_method': 'UP',
-        })
-        with self.mx_external_setup(self.frozen_today):
-            invoice = self._create_invoice(
-                invoice_cash_rounding_id=cash_rounding.id,
-                invoice_line_ids=[
-                    Command.create({
-                        'product_id': self.product.id,
-                        'price_unit': 86.034483,
-                        'tax_ids': [Command.set(self.tax_16.ids)],
-                    }),
-                ],
-            )
-            rounding_lines = invoice.line_ids.filtered(lambda l: l.display_type == 'rounding')
-            self.assertTrue(rounding_lines, "Expected a cash rounding line on the invoice")
-            with self.with_mocked_pac_sign_success():
-                invoice._l10n_mx_edi_cfdi_invoice_try_send()
-            self._assert_invoice_cfdi(invoice, 'test_cfdi_cash_rounding')
 
     def test_partial_payment_1(self):
         date1 = self.frozen_today - relativedelta(days=2)

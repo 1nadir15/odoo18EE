@@ -1,37 +1,34 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * account_avatax_geolocalize
+# 	* account_avatax_geolocalize
 #
 # Translators:
 # aleksandar ivanov, 2024
 # Petko Karamotchev, 2024
 #
-# Petko Karamotchev <petko.karamotchev@industria.tech>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:46+0000\n"
-"PO-Revision-Date: 2026-04-29 19:51+0000\n"
-"Last-Translator: Petko Karamotchev <petko.karamotchev@industria.tech>\n"
-"Language-Team: Bulgarian <https://translate.odoo.com/projects/odoo-18/"
-"account_avatax_geolocalize/bg/>\n"
+"PO-Revision-Date: 2024-09-25 09:43+0000\n"
+"Last-Translator: Petko Karamotchev, 2024\n"
+"Language-Team: Bulgarian (https://app.transifex.com/odoo/teams/41243/bg/)\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account_avatax_geolocalize
 #: model_terms:ir.ui.view,arch_db:account_avatax_geolocalize.res_partner_form_inherit
 msgid "Compute Localization"
-msgstr "Изчисляване на локализация"
+msgstr ""
 
 #. module: account_avatax_geolocalize
 #: model_terms:ir.ui.view,arch_db:account_avatax_geolocalize.res_partner_form_inherit
 msgid "Compute based on address"
-msgstr "Изчисляване, базирано на адрес"
+msgstr ""
 
 #. module: account_avatax_geolocalize
 #: model:ir.model,name:account_avatax_geolocalize.model_res_partner

@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:44+0000\n"
-"PO-Revision-Date: 2026-05-17 06:00+0000\n"
+"PO-Revision-Date: 2026-04-18 18:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "web_studio/sv/>\n"
@@ -37,7 +37,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: web_studio
 #. odoo-python
@@ -119,19 +119,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/web_studio/models/studio_approval.py:0
 msgid " until %s"
-msgstr " fram till %s"
+msgstr ""
 
 #. module: web_studio
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/report_editor/report_editor.xml:0
 msgid "\" failed."
-msgstr "\" misslyckades."
+msgstr ""
 
 #. module: web_studio
 #. odoo-python
 #: code:addons/web_studio/models/studio_approval.py:0
 msgid "%(user_name)s delegated approval rights to %(delegate_to)s"
-msgstr "%(user_name)s delegerade godkännanderättigheter till %(delegate_to)s"
+msgstr ""
 
 #. module: web_studio
 #. odoo-python
@@ -140,14 +140,12 @@ msgid ""
 "%(user_name)s has set approval rights from %(previous_approvers)s to %"
 "(next_approvers)s"
 msgstr ""
-"%(user_name)s har ändrat godkännanderättigheter från %(previous_approvers)s "
-"till %(next_approvers)s"
 
 #. module: web_studio
 #. odoo-python
 #: code:addons/web_studio/models/studio_approval.py:0
 msgid "%(user_name)s revoked their delegation to %(revoked_users)s"
-msgstr "%(user_name)s återkallade sin delegering till %(revoked_users)s"
+msgstr ""
 
 #. module: web_studio
 #. odoo-python
@@ -159,14 +157,13 @@ msgstr "%s Report"
 #. odoo-python
 #: code:addons/web_studio/models/studio_export_model.py:0
 msgid "%s record(s)"
-msgstr "%s handling(ar)"
+msgstr ""
 
 #. module: web_studio
 #: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_kanban_view
 msgid ""
 "<i role=\"img\" class=\"fa fa-user-times\" title=\"Exclusive approval\"/>"
 msgstr ""
-"<i role=\"img\" class=\"fa fa-user-times\" title=\"Exklusivt godkännande\"/>"
 
 #. module: web_studio
 #. odoo-python
@@ -289,7 +286,7 @@ msgstr "Besluts titel"
 #. odoo-python
 #: code:addons/web_studio/models/studio_approval.py:0
 msgid "Action: %s"
-msgstr "Åtgärd: %s"
+msgstr ""
 
 #. module: web_studio
 #: model:ir.model,name:web_studio.model_ir_actions_actions
@@ -387,7 +384,7 @@ msgstr "Lägg till en prioritet"
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/button_properties.xml:0
 msgid "Add an approval step"
-msgstr "Lägg till ett godkännandesteg"
+msgstr ""
 
 #. module: web_studio
 #. odoo-javascript
@@ -411,13 +408,13 @@ msgstr "Lägg till ett nytt värde"
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.js:0
 msgid "Add record at the bottom"
-msgstr "Lägg till handling längst ned"
+msgstr ""
 
 #. module: web_studio
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.js:0
 msgid "Add record on top"
-msgstr "Lägg till handling längst upp"
+msgstr ""
 
 #. module: web_studio
 #. odoo-javascript
@@ -428,7 +425,7 @@ msgstr "Lägg till taggar"
 #. module: web_studio
 #: model:ir.model.fields,field_description:web_studio.field_studio_export_wizard__additional_export_data
 msgid "Additional Export Data"
-msgstr "Ytterligare exportdata"
+msgstr ""
 
 #. module: web_studio
 #. odoo-javascript
@@ -439,12 +436,12 @@ msgstr "Ytterligare fält"
 #. module: web_studio
 #: model_terms:ir.actions.act_window,help:web_studio.action_models_to_export
 msgid "Additional Studio Exports"
-msgstr "Ytterligare Studio-exporter"
+msgstr ""
 
 #. module: web_studio
 #: model:ir.model.fields,field_description:web_studio.field_studio_export_wizard__additional_models
 msgid "Additional models to export"
-msgstr "Ytterligare modeller att exportera"
+msgstr ""
 
 #. module: web_studio
 #: model:ir.model.fields,help:web_studio.field_studio_export_wizard__additional_models
@@ -452,8 +449,6 @@ msgid ""
 "Additional models you may choose to export in addition to the Studio "
 "customizations"
 msgstr ""
-"Ytterligare modeller som du kan välja att exportera utöver Studio-"
-"anpassningarna"
 
 #. module: web_studio
 #. odoo-javascript
@@ -474,8 +469,6 @@ msgid ""
 "All changes done to the report's structure will be discarded and the report "
 "will be reset to its factory settings."
 msgstr ""
-"Alla ändringar som gjorts i rapportens struktur kommer att försvinna och "
-"rapporten återställs till standardinställningarna."
 
 #. module: web_studio
 #. odoo-javascript
@@ -488,13 +481,13 @@ msgstr "Är du redo? Du är bara ett klick från att <b>skapa din första app</b
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/map/map_editor_sidebar.xml:0
 msgid "Allow Resequencing"
-msgstr "Tillåt omordning"
+msgstr ""
 
 #. module: web_studio
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/limit_group_visibility/limit_group_visibility.xml:0
 msgid "Allow visibility to groups"
-msgstr "Tillåt synlighet för grupper"
+msgstr ""
 
 #. module: web_studio
 #. odoo-javascript
@@ -502,7 +495,7 @@ msgstr "Tillåt synlighet för grupper"
 #: code:addons/web_studio/models/studio_approval.py:0
 #: code:addons/web_studio/static/src/approval/approval_hook.js:0
 msgid "An approval is missing"
-msgstr "Ett godkännande saknas"
+msgstr ""
 
 #. module: web_studio
 #: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_delegate_approvers
@@ -529,7 +522,7 @@ msgstr "Godkännande grupp"
 #. odoo-javascript
 #: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/button_properties.xml:0
 msgid "Approval Order"
-msgstr "Godkännandeorder"
+msgstr ""
 
 #. module: web_studio
 #: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__rule_id

@@ -207,8 +207,7 @@ export class FormatPlugin extends Plugin {
                 !isEmptyTextNode(node) &&
                 !isNonFormattedWhiteSpaces(node) &&
                 (!/^\n+$/.test(node.nodeValue) || !isBlock(closestElement(node))) &&
-                this.dependencies.selection.isNodeEditable(node) &&
-                (this.checkPredicates("is_formattable_node_predicates", node) ?? true)
+                this.dependencies.selection.isNodeEditable(node)
         );
         return (
             targetedTextNodes.length &&

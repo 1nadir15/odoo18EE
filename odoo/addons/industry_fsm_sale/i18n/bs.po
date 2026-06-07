@@ -2,13 +2,13 @@
 # This file contains the translation of the following modules:
 # * industry_fsm_sale
 #
-# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 18:47+0000\n"
-"PO-Revision-Date: 2026-05-13 16:52+0000\n"
+"PO-Revision-Date: 2025-11-17 16:36+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
 "industry_fsm_sale/bs/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: industry_fsm_sale
 #. odoo-python
@@ -80,7 +80,7 @@ msgstr ""
 #. module: industry_fsm_sale
 #: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
 msgid "<span>Disc.%</span>"
-msgstr "<span>Pop.%</span>"
+msgstr ""
 
 #. module: industry_fsm_sale
 #: model_terms:ir.ui.view,arch_db:industry_fsm_sale.project_sharing_project_task_inherit_view_form
@@ -91,7 +91,7 @@ msgstr ""
 #. module: industry_fsm_sale
 #: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
 msgid "<strong class=\"mr16\">Subtotal</strong>"
-msgstr "<strong class=\"mr16\">Podzbroj</strong>"
+msgstr ""
 
 #. module: industry_fsm_sale
 #: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
@@ -123,7 +123,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/industry_fsm_sale/models/project_task.py:0
 msgid "Add Products"
-msgstr "Dodaj proizvode"
+msgstr ""
 
 #. module: industry_fsm_sale
 #: model_terms:ir.ui.view,arch_db:industry_fsm_sale.industry_fsm_sale_product_catalog_inherit_search_view
@@ -183,7 +183,7 @@ msgstr ""
 #. module: industry_fsm_sale
 #: model:ir.model,name:industry_fsm_sale.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr ""
 
 #. module: industry_fsm_sale
 #. odoo-javascript
@@ -237,7 +237,7 @@ msgstr ""
 #. module: industry_fsm_sale
 #: model:product.template,name:industry_fsm_sale.field_service_product_product_template
 msgid "Field Service"
-msgstr "Terenski servis"
+msgstr ""
 
 #. module: industry_fsm_sale
 #: model:ir.model.fields.selection,name:industry_fsm_sale.selection__report_project_task_user_fsm__invoice_status__invoiced
@@ -285,7 +285,7 @@ msgstr "Faktura"
 #. module: industry_fsm_sale
 #: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__portal_invoice_count
 msgid "Invoice Count"
-msgstr "Broj računa"
+msgstr ""
 
 #. module: industry_fsm_sale
 #: model:ir.model.fields,field_description:industry_fsm_sale.field_report_project_task_user_fsm__invoice_status
@@ -343,7 +343,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:industry_fsm_sale.project_task_action_to_invoice_fsm
 #: model_terms:ir.actions.act_window,help:industry_fsm_sale.project_task_action_to_invoice_fsm2
 msgid "No tasks found. Let's create one!"
-msgstr "Nisu pronađeni zadaci. Kreirajmo jedan!"
+msgstr ""
 
 #. module: industry_fsm_sale
 #: model:ir.model.fields.selection,name:industry_fsm_sale.selection__report_project_task_user_fsm__invoice_status__no
@@ -431,7 +431,7 @@ msgstr "Predračun"
 #. module: industry_fsm_sale
 #: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__quotation_count
 msgid "Quotation Count"
-msgstr "Broj ponuda"
+msgstr ""
 
 #. module: industry_fsm_sale
 #. odoo-python
@@ -464,7 +464,7 @@ msgstr "Prodajna narudžba"
 #. module: industry_fsm_sale
 #: model:ir.model.fields,field_description:industry_fsm_sale.field_project_project__sale_line_id
 msgid "Sales Order Item"
-msgstr "Stavka prodajnog naloga"
+msgstr ""
 
 #. module: industry_fsm_sale
 #: model:ir.model,name:industry_fsm_sale.model_sale_order_line
@@ -501,7 +501,7 @@ msgstr "Zadatak"
 #. module: industry_fsm_sale
 #: model:ir.model,name:industry_fsm_sale.model_project_task_recurrence
 msgid "Task Recurrence"
-msgstr "Ponavljanje zadatka"
+msgstr ""
 
 #. module: industry_fsm_sale
 #: model:ir.model.fields,help:industry_fsm_sale.field_sale_order__task_id

@@ -777,10 +777,7 @@ class PosOrder(models.Model):
             document_dates = []
             for order in orders:
                 order_cfdi_values = dict(cfdi_values)
-                tz = order_cfdi_values['issued_address']._l10n_mx_edi_get_cfdi_timezone()
-                # convert the date order to the right mx timezone (it's stored in utc)
-                timezoned_date_order = order.date_order.astimezone(tz).replace(tzinfo=None)
-                Document._add_date_cfdi_values(order_cfdi_values, timezoned_date_order, journal=order.sale_journal)
+                Document._add_date_cfdi_values(order_cfdi_values, order.date_order, journal=order.sale_journal)
                 document_dates.append(datetime.strptime(order_cfdi_values['fecha'], CFDI_DATE_FORMAT).date())
 
             Document._add_global_invoice_cfdi_values(

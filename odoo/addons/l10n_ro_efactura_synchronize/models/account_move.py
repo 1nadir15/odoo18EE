@@ -12,6 +12,15 @@ HOLDING_DAYS = 3  # Arbitrary
 class AccountMove(models.Model):
     _inherit = 'account.move'
 
+    @api.depends('l10n_ro_edi_index')
+    def _compute_show_reset_to_draft_button(self):
+        # OVERRIDE to remove the reset to draft button for invoices with an SPV
+        # index, i.e. they have already been sent and should not be modified
+        super()._compute_show_reset_to_draft_button()
+        for move in self:
+            if move.l10n_ro_edi_index:
+                move.show_reset_to_draft_button = True
+
     @api.model
     def _l10n_ro_edi_fetch_invoices(self):
         """ Synchronize bills/invoices from SPV """
@@ -42,11 +51,12 @@ class AccountMove(models.Model):
 
         document_ids_to_delete = []
         for invoice in non_indexed_invoices:
-            sent_document = invoice._l10n_ro_edi_get_sent_documents()
+            # At that point, only one sent document should exist on an invoice
+            sent_document = invoice.l10n_ro_edi_document_ids
 
             if (fields.Datetime.now() - sent_document.create_date).days > HOLDING_DAYS:
                 # The last document sent to ANAF was live for longer than the holding period, refuse it
-                document_ids_to_delete += sent_document.ids
+                document_ids_to_delete += invoice.l10n_ro_edi_document_ids.ids
 
                 error_message = _(
                     "The invoice has probably been refused by the SPV. We were unable to recover the reason of the refusal because "
@@ -110,7 +120,7 @@ class AccountMove(models.Model):
                 invoice.l10n_ro_edi_index = message['id_solicitare']
 
             if 'error' in message['answer']:
-                document_ids_to_delete += invoice._l10n_ro_edi_get_sent_documents().ids
+                document_ids_to_delete += invoice._l10n_ro_edi_get_sent_and_failed_documents().ids
                 error_message = _(
                     "Error when trying to download the E-Factura data from the SPV: %s",
                     message['answer']['error'],
@@ -123,7 +133,7 @@ class AccountMove(models.Model):
             # be due to a resequencing of the invoice and/or re-sending of an invoice. In that case coupled with name
             # matching where none of the two invoices received an index, all signatures are added to the invoice; the
             # user will have to manually update/select the correct one.
-            document_ids_to_delete += invoice._l10n_ro_edi_get_sent_documents().ids
+            document_ids_to_delete += invoice._l10n_ro_edi_get_sent_and_failed_documents().ids
 
             invoice.message_post(body=_("This invoice has been accepted by the SPV."))
             invoice._l10n_ro_edi_create_document_invoice_validated({
@@ -159,7 +169,7 @@ class AccountMove(models.Model):
                 continue
 
             if 'error' in message['answer']:
-                document_ids_to_delete += invoice._l10n_ro_edi_get_sent_documents().ids
+                document_ids_to_delete += invoice._l10n_ro_edi_get_sent_and_failed_documents().ids
                 error_message = _(
                     "Error when trying to download the E-Factura data from the SPV: %s",
                     message['answer']['error']
@@ -167,7 +177,7 @@ class AccountMove(models.Model):
                 invoice._l10n_ro_edi_create_document_invoice_sending_failed({'error': error_message})
                 continue
 
-            document_ids_to_delete += invoice._l10n_ro_edi_get_sent_documents().ids
+            document_ids_to_delete += invoice.l10n_ro_edi_document_ids.ids
 
             error_message = message['answer']['invoice']['error'].replace('\t', '')
             invoice._l10n_ro_edi_create_document_invoice_sending_failed({'error': error_message})

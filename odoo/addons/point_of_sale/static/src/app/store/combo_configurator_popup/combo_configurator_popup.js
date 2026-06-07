@@ -62,8 +62,7 @@ export class ComboConfiguratorPopup extends Component {
         } else {
             const product = comboItem.product_id;
             const price = this.pos.getProductPrice(product, extra_price);
-            const formattedPrice = this.env.utils.formatCurrency(Math.abs(price));
-            return price > 0 ? `+ ${formattedPrice}` : `- ${formattedPrice}`;
+            return this.env.utils.formatCurrency(price);
         }
     }
 

@@ -156,11 +156,8 @@ class AccountMove(models.Model):
                 elif move.move_type in ('out_invoice', 'out_receipt', 'in_invoice', 'in_receipt'):
                     available_types.extend(('FACT', 'FCAM', 'FPEQ', 'FCAP'))
 
-                if not move.debit_origin_id:
-                    if move.move_type in ('in_invoice', 'in_receipt'):
-                        available_types.append('FESP')
-                    elif move.move_type == 'in_refund':
-                        available_types.append('NABN')
+                if not move.debit_origin_id and move.move_type in ('in_invoice', 'in_receipt'):
+                    available_types.extend(('NABN', 'FESP'))
 
             final_available_types = [
                 doc_type

@@ -4210,27 +4210,6 @@ class TestSubscription(TestSubscriptionCommon, MockEmail):
                 # it should close the subscription
                 self.assertEqual(self.subscription.subscription_state, '6_churn')
 
-    def test_cron_recurring_send_payment_reminder_duplicate(self):
-        """
-        The copy of a subscription should not have its last_reminder_date set in order to permit the
-        delivery of payment reminder for the duplicate subscription.
-        """
-        with freeze_time("2026-04-21"):
-            self.subscription.require_payment = True
-            self.subscription.action_confirm()
-
-        with self.mock_mail_gateway():
-            with freeze_time("2026-04-28"):
-                self.env['sale.order']._cron_recurring_send_payment_reminder()
-                self.assertEqual(len(self._new_mails), 1)
-                self.assertEqual(self.subscription.last_reminder_date, fields.Date.today())
-                subscription_copy = self.subscription.copy()
-                self.assertFalse(subscription_copy.last_reminder_date)
-                subscription_copy.action_confirm()
-                self.env['sale.order']._cron_recurring_send_payment_reminder()
-                self.assertEqual(len(self._new_mails), 2)
-                self.assertEqual(subscription_copy.last_reminder_date, fields.Date.today())
-
     def test_cron_recurring_send_payment_reminder_failure(self):
         with freeze_time("2024-05-01"):
             self.subscription.require_payment = True

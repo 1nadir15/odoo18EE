@@ -213,8 +213,8 @@ class TestHelpdeskStock(common.HelpdeskCommon):
         It is possible to return some products from a ticket. To do so, the user
         clicks on the Return button. That button will only be displayed in a
         condition strongly based on the field `has_partner_picking` (tldr: the
-        client must have an outgoing done picking OR a confirmed sale order line).
-        This test ensures the field value is correct in several cases.
+        client must have an outgoing done picking). This test ensures the field
+        value is correct in several cases.
         """
         product, service = self.env['product.product'].create([
             {'name': 'Amazing Product', 'type': 'consu'},
@@ -256,14 +256,11 @@ class TestHelpdeskStock(common.HelpdeskCommon):
             'partner_id': partner.id,
         } for partner in partners])
 
-        ticket_by_partner = {t.partner_id.id: t for t in tickets}
+        done_so_ticket = tickets.filtered(lambda t: t.partner_id == done_so.partner_id)
+        other_tickets = tickets - done_so_ticket
 
-        self.assertFalse(ticket_by_partner[partners[0].id].has_partner_picking, "Partner with 'No SO' should not have return picking.")
-        self.assertTrue(ticket_by_partner[partners[1].id].has_partner_picking, "Partner with 'SO with service' should have return picking.")
-        self.assertFalse(ticket_by_partner[partners[2].id].has_partner_picking, "Partner with 'Draft SO' should not have return picking.")
-        self.assertTrue(ticket_by_partner[partners[3].id].has_partner_picking, "Partner with 'Confirmed SO' should have return picking.")
-        self.assertFalse(ticket_by_partner[partners[4].id].has_partner_picking, "Partner with 'Cancelled SO' should not have return picking.")
-        self.assertTrue(ticket_by_partner[partners[5].id].has_partner_picking, "Partner with 'Done SO' should have return picking.")
+        self.assertTrue(done_so_ticket.has_partner_picking)
+        self.assertEqual(other_tickets.mapped('has_partner_picking'), [False] * 5)
 
     def test_set_picking_to_false_in_wizard(self):
         """ This test ensure that when the picking field of the wizard is set to False, no traceback is triggered during

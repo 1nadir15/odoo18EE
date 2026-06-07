@@ -95,12 +95,6 @@ export class GanttRendererControls extends Component {
         }
     }
 
-    get displayModeTitle() {
-        return this.model.displayParams.displayMode === "dense"
-            ? _t("Activate sparse mode")
-            : _t("Activate dense mode");
-    }
-
     get formattedDateRange() {
         return _t("From: %(from_date)s to: %(to_date)s", {
             from_date: formatDate(this.state.startDate),

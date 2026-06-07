@@ -31,9 +31,9 @@ STATE_CODE_MAP_ENVIA = {
     ('AR', 'G'): 'SE', ('AR', 'H'): 'CC', ('AR', 'J'): 'SJ', ('AR', 'K'): 'CT', ('AR', 'L'): 'LP', ('AR', 'M'): 'MZ',
     ('AR', 'N'): 'MN', ('AR', 'P'): 'FM', ('AR', 'Q'): 'NQ', ('AR', 'R'): 'RN', ('AR', 'S'): 'SF', ('AR', 'T'): 'TM',
     ('AR', 'U'): 'CH', ('AR', 'V'): 'TF', ('AR', 'W'): 'CN', ('AR', 'X'): 'CB', ('AR', 'Y'): 'JY', ('AR', 'Z'): 'SC',
-    ('CA', 'YT'): 'YK', ('CL', 'CL-TA'): 'TA', ('CL', 'CL-AN'): 'AN', ('CL', 'CL-AT'): 'AT', ('CL', 'CL-CO'): 'CO', ('CL', 'CL-VS'): 'VS',
-    ('CL', 'CL-LI'): 'LI', ('CL', 'CL-ML'): 'ML', ('CL', 'CL-BI'): 'BI', ('CL', 'CL-AR'): 'AR', ('CL', 'CL-LL'): 'LL', ('CL', 'CL-AI'): 'AI',
-    ('CL', 'CL-MA'): 'MA', ('CL', 'CL-RM'): 'RM', ('CL', 'CL-LR'): 'LR', ('CL', 'CL-AP'): 'AP', ('CL', 'CL-NB'): 'NB', ('ES', 'ME'): 'ML',
+    ('CA', 'YT'): 'YK', ('CL', '01'): 'TA', ('CL', '02'): 'AN', ('CL', '03'): 'AT', ('CL', '04'): 'CO', ('CL', '05'): 'VS',
+    ('CL', '06'): 'LI', ('CL', '07'): 'ML', ('CL', '08'): 'BI', ('CL', '09'): 'AR', ('CL', '10'): 'LL', ('CL', '11'): 'AI',
+    ('CL', '12'): 'MA', ('CL', '13'): 'RM', ('CL', '14'): 'LR', ('CL', '15'): 'AP', ('CL', '16'): 'NB', ('ES', 'ME'): 'ML',
     ('GT', 'GUA'): 'GU', ('GT', 'QUE'): 'QZ', ('IN', 'CG'): 'CT', ('IN', 'TS'): 'TG', ('IN', 'UK'): 'UT', ('MX', 'AGU'): 'AGS',
     ('MX', 'DUR'): 'DGO', ('MX', 'GUA'): 'GTO', ('MX', 'HID'): 'HGO', ('MX', 'QUE'): 'QRO', ('PE', '01'): 'AMA', ('PE', '02'): 'ANC',
     ('PE', '03'): 'APU', ('PE', '04'): 'ARE', ('PE', '05'): 'AYA', ('PE', '06'): 'CAJ', ('PE', '07'): 'CAL', ('PE', '08'): 'CUS',
@@ -615,13 +615,6 @@ class Envia:
             base_code = str(partner.city_id.l10n_co_edi_code)
             return base_code
 
-        if partner.country_id == partner.env.ref("base.co") and partner.zip:
-            country_code = quote(partner.country_id.code)
-            zipcode = quote(partner.zip)
-            geolocate_data = self._make_api_request(f'zipcode/{country_code}/{zipcode}', geolocate=True)
-            if isinstance(geolocate_data, list) and geolocate_data:
-                return geolocate_data[0].get('info', {}).get('stat_8digit') or partner.zip
-
         if not (partner.zip or partner.city_id.zipcode):
             zipcode = self._geolocate_zip(partner)
             if not zipcode:
@@ -720,12 +713,8 @@ class Envia:
             raise ValidationError(partner.env._('Missing Fields:\n%s', msg))
 
         if partner.country_id == partner.env.ref('base.co'):
-            # Colombia requires their city field to be the municipality code,
-            # not the city name. Keep the l10n_co_edi path as-is, otherwise rely
-            # on Envia geocodes to avoid fabricating codes from the raw ZIP.
-            zipcode = address_dict['postalCode']
-            if len(zipcode) == 5:
-                zipcode = zipcode.ljust(8, '0')
+            # Colombia requires their city field to be the postal code not the city name.
+            zipcode = address_dict['postalCode'].rjust(5, '0').ljust(8, '0')
             address_dict['city'] = address_dict['postalCode'] = zipcode
 
         return address_dict

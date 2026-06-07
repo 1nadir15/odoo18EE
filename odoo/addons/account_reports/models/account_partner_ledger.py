@@ -321,13 +321,8 @@ class PartnerLedgerCustomHandler(models.AbstractModel):
         return SQL(' UNION ALL ').join(queries)
 
     def _get_initial_balance_values(self, partner_ids, options):
-        report = self.env['account.report'].browse(options['report_id'])
-
-        if not report.filter_date_range:
-            # Happens when the report has been manually customized to not use date ranges anymore.
-            return {partner_id: {col_group_key: {} for col_group_key in options['column_groups']} for partner_id in partner_ids}
-
         queries = []
+        report = self.env.ref('account_reports.partner_ledger_report')
         for column_group_key, column_group_options in report._split_options_per_column_group(options).items():
             # Get sums for the initial balance.
             # period: [('date' <= options['date_from'] - 1)]

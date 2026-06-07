@@ -33,28 +33,8 @@ class VATPayWizard(models.TransientModel):
 
     @api.depends('move_id')
     def _compute_partner_bank_id(self):
-        pivot_date = fields.Date.from_string('2026-04-01')
-        old_bank_account = 'BE22679200300047'  # 'VAT Current Account': Bank account BEFORE April 2026
-        new_bank_account = 'BE41679200364210'  # 'VAT Provision Account': Bank account AFTER April 2026
-        bank_accounts = self.env['res.partner.bank'].search([
-            ('active', '=', True),
-            ('sanitized_acc_number', 'in', [old_bank_account, new_bank_account]),
-        ])
-        for wizard in self:
-            account_number = old_bank_account if wizard.move_id.date < pivot_date else new_bank_account
-            fps_account = bank_accounts.filtered(lambda bank: bank.sanitized_acc_number == account_number)
-            if not fps_account:
-                fps_partner = (
-                    bank_accounts.partner_id
-                    or self.env.ref('l10n_be_reports_post_wizard.partner_fps_belgium', raise_if_not_found=False)
-                    or self.env['res.partner'].create({'name': 'FPS Finance - VAT Revenue Service Brussels'})
-                )
-                fps_account = self.env['res.partner.bank'].create({
-                    'partner_id': fps_partner.id,
-                    'acc_number': account_number,
-                    'allow_out_payment': True,
-                })
-            wizard.partner_bank_id = fps_account
+        fps_account = self.env.ref('l10n_be_reports_post_wizard.fps_vat_current_account', raise_if_not_found=False)
+        self.partner_bank_id = fps_account or False
 
     @api.depends('move_id', 'communication', 'amount')
     def _compute_qr_code(self):

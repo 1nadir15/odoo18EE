@@ -140,7 +140,7 @@ class AmazonOffer(models.Model):
                     path_parameter=account_id.seller_key,
                     payload={
                         'marketplaceIds': marketplace_id.api_ref,
-                        "includedData": "fulfillmentAvailability,productTypes",
+                        'includedData': 'attributes,productTypes',
                         'identifiersType': 'SKU',
                         'identifiers': ','.join(offer.sku.replace(',', '') for offer in offers),
                         'pageSize': len(offers),
@@ -154,20 +154,15 @@ class AmazonOffer(models.Model):
 
             # Parse product data
             offer_by_sku = offers.grouped('sku')
-            # Default to FBA to not fetch the info everytime when the offer isn't found by Amazon.
-            # Default to PRODUCT in case the fulfillment channel is manually updated afterward.
-            feed_data_by_offer.update({
-                offer: {"productType": "PRODUCT", "is_fbm": False} for offer in offers
-            })
+            feed_data_by_offer.update(
+                {offer: {'productType': False, 'is_fbm': False} for offer in offers}
+            )  # Default to FBA to not fetch the info everytime when the offer isn't found by Amazon
             for item in response['items']:
                 feed_data_by_offer[offer_by_sku[item['sku']]] = {
                     'productType':
                         item['productTypes'] and item['productTypes'][0]['productType']
                         or 'PRODUCT',
-                    "is_fbm": any(
-                        fulfillment["fulfillmentChannelCode"] == "DEFAULT"
-                        for fulfillment in item.get("fulfillmentAvailability", [])
-                    ),
+                    'is_fbm': 'merchant_shipping_group' in item['attributes'],
                 }
 
         # Save data to reduce api calls
@@ -262,22 +257,15 @@ class AmazonOffer(models.Model):
             {
                 'messageId': feed_data['messageId'],
                 'sku': offer.sku,
-                "operationType": "PATCH",
+                'operationType': 'PARTIAL_UPDATE',
                 'productType': feed_data['productType'],
-                "patches": [
-                    {
-                        # Merge so as to not override fulfillment configurations
-                        # (lead_time_to_ship_max_days, restock_date)
-                        "op": "merge",
-                        "path": "/attributes/fulfillment_availability",
-                        "value": [
-                            {
-                                "fulfillment_channel_code": "DEFAULT",
-                                "quantity": max(int(offer._get_available_product_qty()), 0),
-                            }
-                        ],
-                    }
-                ],
+                'attributes': {
+                    'fulfillment_availability': [{
+                        'fulfillment_channel_code': 'DEFAULT',
+                        'quantity':
+                            (qty := int(offer._get_available_product_qty())) > 0 and qty or 0,
+                    }]
+                }
             }
             for offer, feed_data in feed_data_by_offer.items()
         ]

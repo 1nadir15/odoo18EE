@@ -2,7 +2,6 @@ from unittest.mock import patch
 
 from odoo import Command
 from odoo.tests import tagged
-from odoo.tools import mute_logger
 from odoo.addons.account_reports.tests.common import TestAccountReportsCommon
 from odoo.addons.iap.tools import iap_tools
 
@@ -242,8 +241,7 @@ class TestFrenchTaxClosing(TestAccountReportsCommon):
             may_closing_entry.refresh_tax_entry()
             may_closing_entry._post()
 
-        with patch.object(self.env.registry['l10n_fr_reports.send.vat.report'], '_send_xml_to_aspone', return_value=[]), \
-             mute_logger("odoo.addons.base.models.ir_module", "odoo.tools.translate"):
+        with patch.object(self.env.registry['l10n_fr_reports.send.vat.report'], '_send_xml_to_aspone', return_value=[]):
             send_vat_wizard.send_vat_return()
             report_line_26 = self.env.ref('l10n_fr_account.tax_report_26_external')
             line_26_values = next(
@@ -525,93 +523,3 @@ class TestFrenchTaxClosing(TestAccountReportsCommon):
             ('res_id', '=', may_closing_entry.id),
             ('activity_type_id', '=', self.env.ref('account_reports.mail_activity_type_tax_report_error').id),
         ]).ensure_one()
-
-    def test_fr_send_edi_vat_values_with_carryover_reimbursements(self):
-        """ The aim of this test is to verify carryover reimboursement move
-            in correctly created when we have an unclaimed tax amount carried to the
-            next month.
-        """
-
-        self.env['account.move'].create([
-            self._get_move_create_data(
-                move_data={'move_type': 'in_invoice', 'invoice_date': '2024-05-09', 'journal_id': self.company_data['default_journal_purchase'].id},
-                line_data={'price_unit': 10000, 'tax_ids': [Command.link(self.tax_20_g_purchase.id)]}
-            ),
-            self._get_move_create_data(
-                move_data={'move_type': 'in_invoice', 'invoice_date': '2024-06-09', 'journal_id': self.company_data['default_journal_purchase'].id},
-                line_data={'price_unit': 23000, 'tax_ids': [Command.link(self.tax_20_g_purchase.id)]}
-            ),
-        ])._post()
-
-        # Create a VAT return for May in order to have VAT amount to carry over to the next month
-        send_vat_wizard_may = self.env['l10n_fr_reports.send.vat.report'].create({
-            'date_from': '2024-05-01',
-            'date_to': '2024-05-31',
-            'report_id': self.report.id,
-            'test_interchange': True,
-        })
-
-        options = self._generate_options(
-            self.report,
-            date_from='2024-05-01',
-            date_to='2024-05-31',
-            default_options={
-                'no_format': True,
-                'unfold_all': True,
-            }
-        )
-
-        with patch.object(self.env.registry['account.move'], '_get_vat_report_attachments', return_value=[]):
-            may_closing_entry = self.report_handler._get_periodic_vat_entries(options)
-            may_closing_entry.refresh_tax_entry()
-            may_closing_entry._post()
-
-        with patch.object(self.env.registry['l10n_fr_reports.send.vat.report'], '_send_xml_to_aspone', return_value=[]):
-            send_vat_wizard_may.send_vat_return()
-
-        send_vat_wizard_june = self.env['l10n_fr_reports.send.vat.report'].create({
-            'date_from': '2024-06-01',
-            'date_to': '2024-06-30',
-            'report_id': self.report.id,
-            'test_interchange': True,
-            'bank_account_line_ids': [
-                Command.create({
-                    'bank_partner_id': self.bank_partner.id,
-                    'vat_amount': 6600,
-                }),
-            ],
-        })
-
-        options = self._generate_options(
-            self.report,
-            date_from='2024-06-01',
-            date_to='2024-06-30',
-            default_options={
-                'no_format': True,
-                'unfold_all': True,
-            }
-        )
-
-        with patch.object(self.env.registry['account.move'], '_get_vat_report_attachments', return_value=[]):
-            june_closing_entry = self.report_handler._get_periodic_vat_entries(options)
-            june_closing_entry.refresh_tax_entry()
-            june_closing_entry._post()
-
-        original_create_carryover_reimbursment_move = send_vat_wizard_june._create_carryover_reimbursment_move
-        captured_moves = []
-
-        def _create_carryover_reimbursment_move(obj, *args):
-            result = original_create_carryover_reimbursment_move(*args)
-            captured_moves.append(result.id)
-            return result
-
-        with patch.object(self.env.registry['l10n_fr_reports.send.vat.report'], '_send_xml_to_aspone', return_value=[]), \
-             patch.object(self.env.registry['l10n_fr_reports.send.vat.report'], '_create_carryover_reimbursment_move', autospec=True, side_effect=_create_carryover_reimbursment_move), \
-             mute_logger("odoo.addons.base.models.ir_module", "odoo.tools.translate"):
-            send_vat_wizard_june.send_vat_return()
-
-        carryover_reimboursement_move = self.env['account.move'].browse(captured_moves)
-        self.assertRecordValues(carryover_reimboursement_move.line_ids, [
-            {'account_id': self.tax_20_g_purchase.tax_group_id.tax_receivable_account_id.id, 'balance': -6600.00},
-            {'account_id': self.env['account.chart.template'].ref('pcg_44583').id, 'balance': 6600.00},
-        ])

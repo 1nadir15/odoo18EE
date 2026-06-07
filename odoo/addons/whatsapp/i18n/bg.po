@@ -17,14 +17,13 @@
 # KeyVillage, 2025
 # Martin Dinovski, 2025
 # "v.kanev" <v.kanev@tutanota.com>, 2026.
-# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:45+0000\n"
-"PO-Revision-Date: 2026-05-17 05:59+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-03-20 14:24+0000\n"
+"Last-Translator: \"v.kanev\" <v.kanev@tutanota.com>\n"
 "Language-Team: Bulgarian <https://translate.odoo.com/projects/odoo-18/"
 "whatsapp/bg/>\n"
 "Language: bg\n"
@@ -32,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: whatsapp
 #. odoo-python
@@ -647,7 +646,7 @@ msgstr ""
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__nl
 msgid "Dutch"
-msgstr "холандски"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_template__lang_code__nl_be
@@ -1857,7 +1856,7 @@ msgstr ""
 #. module: whatsapp
 #: model_terms:ir.ui.view,arch_db:whatsapp.whatsapp_account_view_form
 msgid "Sending Messages"
-msgstr "Изпращане на съобщения"
+msgstr ""
 
 #. module: whatsapp
 #: model:ir.model.fields.selection,name:whatsapp.selection__whatsapp_message__state__sent

@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:48+0000\n"
-"PO-Revision-Date: 2026-06-06 10:18+0000\n"
-"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"PO-Revision-Date: 2026-03-30 06:13+0000\n"
+"Last-Translator: Yana Bystrytska <yana.bystrytska@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "quality_iot/uk/>\n"
 "Language: uk\n"
@@ -25,7 +25,7 @@ msgstr ""
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
 "100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: quality_iot
 #. odoo-javascript
@@ -87,7 +87,7 @@ msgstr "Ідентифікатор"
 #. odoo-javascript
 #: code:addons/quality_iot/static/src/iot_measure.js:0
 msgid "Measurement device configuration error"
-msgstr "Помилка конфігурації вимірювального пристрою"
+msgstr ""
 
 #. module: quality_iot
 #. odoo-javascript
@@ -100,7 +100,7 @@ msgstr "Перевірте, чи пристрій досі підключени�
 #. odoo-javascript
 #: code:addons/quality_iot/static/src/iot_picture/iot_picture.js:0
 msgid "Please link the corresponding Quality Control Point to the camera."
-msgstr "Будь ласка, прив’яжіть відповідний пункт контролю якості до камери."
+msgstr ""
 
 #. module: quality_iot
 #. odoo-javascript
@@ -109,8 +109,6 @@ msgid ""
 "Please link the corresponding Quality Control Point to the measurement "
 "device."
 msgstr ""
-"Будь ласка, підключіть відповідний пункт контролю якості до вимірювального "
-"пристрою."
 
 #. module: quality_iot
 #: model:ir.model.fields,field_description:quality_iot.field_iot_device__qcp_test_type

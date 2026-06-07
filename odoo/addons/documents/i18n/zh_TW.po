@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-22 17:52+0000\n"
+"POT-Creation-Date: 2026-04-10 18:47+0000\n"
 "PO-Revision-Date: 2026-03-12 10:02+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
@@ -4019,12 +4019,6 @@ msgstr "上載新版本"
 
 #. module: documents
 #. odoo-python
-#: code:addons/documents/models/documents_document.py:0
-msgid "Upload a file or drag it here"
-msgstr ""
-
-#. module: documents
-#. odoo-python
 #: code:addons/documents/models/mail_activity.py:0
 msgid "Upload file request"
 msgstr "上載檔案請求"
@@ -4150,6 +4144,12 @@ msgstr "你沒有權限封存或取消封存文件。"
 #: code:addons/documents/models/documents_document.py:0
 msgid "You are not allowed to change ownerships of documents you do not own."
 msgstr "你沒有權限更改不屬於你的文件的擁有人。"
+
+#. module: documents
+#. odoo-python
+#: code:addons/documents/models/documents_document.py:0
+msgid "You are not allowed to delete all these items."
+msgstr "你不可刪除所有這些項目。"
 
 #. module: documents
 #. odoo-python
@@ -4473,9 +4473,6 @@ msgid ""
 msgstr ""
 "•\n"
 "                                        <b>網址</b>"
-
-#~ msgid "You are not allowed to delete all these items."
-#~ msgstr "你不可刪除所有這些項目。"
 
 #~ msgid "2025"
 #~ msgstr "2025"
